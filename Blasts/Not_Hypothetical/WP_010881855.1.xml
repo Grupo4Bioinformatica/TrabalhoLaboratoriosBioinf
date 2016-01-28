@@ -1,0 +1,602 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>Query_185211</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>224</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_185211</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>224</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|38258811|sp|Q8TWR2.2|G3PP_METKA</Hit_id>
+  <Hit_def>RecName: Full=Glyceraldehyde 3-phosphate phosphatase</Hit_def>
+  <Hit_accession>Q8TWR2</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.0182</Hsp_bit-score>
+      <Hsp_score>175</Hsp_score>
+      <Hsp_evalue>3.45392e-14</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>FDIDGTLYPGWRLALRVMPFMIRNARLMRAFRA--VRQELRREQRTALIPFED----FFFAQATRIA--PRVGLSAEEVRAFLDTALYRGWRRHFLHIKPFPHVLSSVLELRRHGLKI-ALLSDFPPSQ--KGCLWGVRALCDVTLGTEEIGSLKPSPRAFYALAQRLNLRCEEILYVGNSVH-DVEGAHAAGMRIACVRR-PFTSLRVRRTRGLALFRLSHIVRICD</Hsp_qseq>
+      <Hsp_hseq>FDVDDTLYPSSKLAEEARRNAIR-AMIEAGLETDLSEEELYRELQEVVKEYGSNHPRHFDLLLRRIGADPEPKLVAAAVVAYHDTK--------FAYLKPYPDVIPTLMQLREMGFKLGAVTSGLAVKQWEKLIRLGIHHFFHEVVISEEIGVEKPNPKIFIEAARRLGVKPEEAVYVGDRLDKDIRGANRAGMVTVRIRRGKYQDMEPRNDDDVPDFEIDRPRELLD</Hsp_hseq>
+      <Hsp_midline>FD+D TLYP  +LA       IR A +          +EL RE +  +  +       F     RI   P   L A  V A+ DT         F ++KP+P V+ ++++LR  G K+ A+ S     Q  K    G+       + +EEIG  KP+P+ F   A+RL ++ EE +YVG+ +  D+ GA+ AGM    +RR  +  +  R    +  F +     + D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|38258704|sp|Q58832.1|G3PP_METJA</Hit_id>
+  <Hit_def>RecName: Full=Glyceraldehyde 3-phosphate phosphatase</Hit_def>
+  <Hit_accession>Q58832</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.3066</Hsp_bit-score>
+      <Hsp_score>142</Hsp_score>
+      <Hsp_evalue>1.20069e-09</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>226</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>FDIDGTLYPGW-------RLALRVMPFMIRNARLMRAFRAVRQELRREQRTALIPFEDFFFAQATRIAPRVGLSAEEVRAFLDTALYRGWRRHFLHIKPFPHVLSSVLELRRHGLKIALLSD---FPPSQKGCLWGVRALCDVTLGTEEIGSLKPSPRAFYALAQRLNLRCEEILYVGNSVH-DVEGAHAAGM-RIACVRRPFTSLRVRRTRGLALFRLSHIVRICDSMS</Hsp_qseq>
+      <Hsp_hseq>FDLDDTLYNSSEFVEIARREAVKSMIDAGLNIDFEEAMNILNKIIKDKGSNYGKHFDDLVKAVLGKYDPKIITTGIITYHNVKVALLR----------PYPHTIKTLMELKAMGLKLGVITDGLTIKQWEKLIRLGIHPFFDDVITSEEFGLGKPHLEFFKYGLKRMGLKAEETVYVGDRVDKDIKPAKELGMITVRILKGKYKDMEDDEYSDYTINSLQELVDIVKNLK</Hsp_hseq>
+      <Hsp_midline>FD+D TLY          R A++ M     N     A   + + ++ +       F+D   A   +  P++  +       +  AL R          P+PH + +++EL+  GLK+ +++D       +K    G+    D  + +EE G  KP    F    +R+ L+ EE +YVG+ V  D++ A   GM  +  ++  +  +         +  L  +V I  ++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|51316531|sp|Q9K6Y7.1|PPAX_BACHD</Hit_id>
+  <Hit_def>RecName: Full=Pyrophosphatase PpaX</Hit_def>
+  <Hit_accession>Q9K6Y7</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.8398</Hsp_bit-score>
+      <Hsp_score>133</Hsp_score>
+      <Hsp_evalue>2.01848e-08</Hsp_evalue>
+      <Hsp_query-from>68</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>57</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>LSAEEVRAFLDTALYRGWRRHFLHIKPFPHVLSSVLELRRHGLKIALLSDF--PPSQKGC-LWGVRALCDVTLGTEEIGSLKPSPRAFYALAQRLNLRCEEILYVGNSVHDVEGAHAAGMRIACV</Hsp_qseq>
+      <Hsp_hseq>LDPERVEEMVATYRKHNHAHHDKLVEPYEGVYETVKTLHEQGFKLAIVTTKIRETAMKGLKLFGLDEFFDVIVALDDVENVKPNPEPLEKAMNALGAKKEETIMVGDNSHDILGGKNAGVKTAVV</Hsp_hseq>
+      <Hsp_midline>L  E V   + T        H   ++P+  V  +V  L   G K+A+++      + KG  L+G+    DV +  +++ ++KP+P         L  + EE + VG++ HD+ G   AG++ A V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|613782379|sp|P9WMS4.1|Y3376_MYCTO</Hit_id>
+  <Hit_def>RecName: Full=Phosphatase MT3486 &gt;gi|613782385|sp|P9WMS5.1|Y3376_MYCTU RecName: Full=Phosphatase Rv3376</Hit_def>
+  <Hit_accession>P9WMS4</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.0694</Hsp_bit-score>
+      <Hsp_score>131</Hsp_score>
+      <Hsp_evalue>3.69722e-08</Hsp_evalue>
+      <Hsp_query-from>93</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>KPFPHVLSSVLELRRHGLKIALLSDFP--PSQKGCLW--GVRALCDVTLGTEEIGSLKPSPRAFYALAQRLNLRCEEILYVGNSVHDVEGAHAAGMRIACVRR</Hsp_qseq>
+      <Hsp_hseq>QGYPDARPALEEARRRGLKVGVLTNNSLLVSARSLLQCAALHDLVDVVLSSQMIGAAKPDPRAYQAIAEALGVSTTSCLFFDDIADWVEGARCAGMRAYLVDR</Hsp_hseq>
+      <Hsp_midline>+ +P    ++ E RR GLK+ +L++     S +  L    +  L DV L ++ IG+ KP PRA+ A+A+ L +     L+  +    VEGA  AGMR   V R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|124012147|sp|Q3YWN8.1|GPH_SHISS</Hit_id>
+  <Hit_def>RecName: Full=Phosphoglycolate phosphatase; Short=PGP; Short=PGPase</Hit_def>
+  <Hit_accession>Q3YWN8</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.7582</Hsp_bit-score>
+      <Hsp_score>125</Hsp_score>
+      <Hsp_evalue>3.53609e-07</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>46</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MAFDIDGTLY---PGWRLAL---------------RVMPFMIRNARLM--RAFRAVRQELRREQRT-ALIPFEDFFFAQATRIAPRVGLSAEEVRAFLDTALYRGWRRHFLHIKP-----FPHVLSSVLELRRHGLKIALLSDFPPSQKGCLW---GVRALCDVTLGTEEIGSLKPSPRAFYALAQRLNLRCEEILYVGNSVHDVEGAHAAG</Hsp_qseq>
+      <Hsp_hseq>VAFDLDGTLVDSAPGLAAAVDMALYALELPIAGEERVITWIGNGADVLMERALTWARQERATQRKTMGKPPVDDDIPAE------------EQVRI-----LRKLFDRYYGEVAEEGTFLFPHVADTLGALQAKGLPLGLVTNKPTPFVAPLLEALDIAKYFSVVIGGDDVQNKKPHPDPLLLVAERMGIAPQQMLFVGDSRNDIQAAKAAG</Hsp_hseq>
+      <Hsp_midline>+AFD+DGTL    PG   A+               RV+ ++   A ++  RA    RQE   +++T    P +D   A+            E+VR      L + + R++  +       FPHV  ++  L+  GL + L+++ P      L     +     V +G +++ + KP P     +A+R+ +  +++L+VG+S +D++ A AAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|418445|sp|P32662.1|GPH_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Phosphoglycolate phosphatase; Short=PGP; Short=PGPase</Hit_def>
+  <Hit_accession>P32662</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.7582</Hsp_bit-score>
+      <Hsp_score>125</Hsp_score>
+      <Hsp_evalue>3.64084e-07</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>46</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MAFDIDGTLY---PGWRLAL---------------RVMPFMIRNARLM--RAFRAVRQELRREQRT-ALIPFEDFFFAQATRIAPRVGLSAEEVRAFLDTALYRGWRRHFLHIKP-----FPHVLSSVLELRRHGLKIALLSDFPPSQKGCLW---GVRALCDVTLGTEEIGSLKPSPRAFYALAQRLNLRCEEILYVGNSVHDVEGAHAAG</Hsp_qseq>
+      <Hsp_hseq>VAFDLDGTLVDSAPGLAAAVDMALYALELPVAGEERVITWIGNGADVLMERALTWARQERATQRKTMGKPPVDDDIPAE------------EQVRI-----LRKLFDRYYGEVAEEGTFLFPHVADTLGALQAKGLPLGLVTNKPTPFVAPLLEALDIAKYFSVVIGGDDVQNKKPHPDPLLLVAERMGIAPQQMLFVGDSRNDIQAAKAAG</Hsp_hseq>
+      <Hsp_midline>+AFD+DGTL    PG   A+               RV+ ++   A ++  RA    RQE   +++T    P +D   A+            E+VR      L + + R++  +       FPHV  ++  L+  GL + L+++ P      L     +     V +G +++ + KP P     +A+R+ +  +++L+VG+S +D++ A AAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|3913768|sp|O67359.1|GPH_AQUAE</Hit_id>
+  <Hit_def>RecName: Full=Phosphoglycolate phosphatase; Short=PGP; Short=PGPase</Hit_def>
+  <Hit_accession>O67359</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.9878</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>5.46987e-07</Hsp_evalue>
+      <Hsp_query-from>85</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>68</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>WRRHFL-----HIKPFPHVLSSVLELRRHGLKIALLSDFPPSQKGCLWGVRALC---DVTLGTEEIGSLKPSPRAFYALAQRLNLRCEEILYVGNSVHDVEGAHAAGMRIACVRRPFTSLRVRRTRGLALFRLSHIVRICDS</Hsp_qseq>
+      <Hsp_hseq>FRKHYLENPVVYTKPYPEIPYTLEALKSKGFKLAVVSNKLEELSKKILDILNLSGYFDLIVGGDTFGEKKPSPTPVLKTLEILGEEPEKALIVGDTDADIEAGKRAGTKTALALWGYVKLN-SQIPDFTLSRPSDLVKLMDN</Hsp_hseq>
+      <Hsp_midline>+R+H+L     + KP+P +  ++  L+  G K+A++S+        +  +  L    D+ +G +  G  KPSP       + L    E+ L VG++  D+E    AG + A     +  L   +     L R S +V++ D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|75480275|sp|Q57IZ2.1|GPH_SALCH</Hit_id>
+  <Hit_def>RecName: Full=Phosphoglycolate phosphatase; Short=PGP; Short=PGPase</Hit_def>
+  <Hit_accession>Q57IZ2</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.6026</Hsp_bit-score>
+      <Hsp_score>122</Hsp_score>
+      <Hsp_evalue>8.88275e-07</Hsp_evalue>
+      <Hsp_query-from>95</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>113</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>FPHVLSSVLELRRHGLKIALLSDFPPSQKGCLW---GVRALCDVTLGTEEIGSLKPSPRAFYALAQRLNLRCEEILYVGNSVHDVEGAHAAG</Hsp_qseq>
+      <Hsp_hseq>FPHVADTLGALNASGLSLGLVTNKPTPFVAPLLESLDIAKYFSVVIGGDDVQNKKPHPEPLLLVASRLGMMPEQMLFVGDSRNDIQAAKAAG</Hsp_hseq>
+      <Hsp_midline>FPHV  ++  L   GL + L+++ P      L     +     V +G +++ + KP P     +A RL +  E++L+VG+S +D++ A AAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|81361704|sp|Q5PLX6.1|GPH_SALPA</Hit_id>
+  <Hit_def>RecName: Full=Phosphoglycolate phosphatase; Short=PGP; Short=PGPase</Hit_def>
+  <Hit_accession>Q5PLX6</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.6026</Hsp_bit-score>
+      <Hsp_score>122</Hsp_score>
+      <Hsp_evalue>9.50393e-07</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>48</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MAFDIDGTLY---PGWRLAL---------------RVMPFMIRNARLM--RAFRAVRQELRREQRTALIP--FEDFFFAQATRIAPRV-----GLSAEEVRAFLDTALYRGWRRHFLHIKPFPHVLSSVLELRRHGLKIALLSDFPPSQKGCLW---GVRALCDVTLGTEEIGSLKPSPRAFYALAQRLNLRCEEILYVGNSVHDVEGAHAAG</Hsp_qseq>
+      <Hsp_hseq>VAFDLDGTLVDSAPGLAAAVDMALYALELPVAGEERVITWIGNGADVLMERALTWARQERATLRKTMGKPPVDEDIPAEEQVRILRKLFDRYYGEVAEE-GTFL-----------------FPHVADTLGALHASGLSLGLVTNKPTPFVAPLLESLDIAKYFSVVIGGDDVQNKKPHPEPLLLVASRLGMTPEQMLFVGDSRNDIQAAKAAG</Hsp_hseq>
+      <Hsp_midline>+AFD+DGTL    PG   A+               RV+ ++   A ++  RA    RQE    ++T   P   ED    +  RI  ++     G  AEE   FL                 FPHV  ++  L   GL + L+++ P      L     +     V +G +++ + KP P     +A RL +  E++L+VG+S +D++ A AAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|20138120|sp|Q8Z202.1|GPH_SALTI</Hit_id>
+  <Hit_def>RecName: Full=Phosphoglycolate phosphatase; Short=PGP; Short=PGPase</Hit_def>
+  <Hit_accession>Q8Z202</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.2174</Hsp_bit-score>
+      <Hsp_score>121</Hsp_score>
+      <Hsp_evalue>1.17505e-06</Hsp_evalue>
+      <Hsp_query-from>95</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>113</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>FPHVLSSVLELRRHGLKIALLSDFPPSQKGCLW---GVRALCDVTLGTEEIGSLKPSPRAFYALAQRLNLRCEEILYVGNSVHDVEGAHAAG</Hsp_qseq>
+      <Hsp_hseq>FPHVADTLGALHASGLSLGLVTNKPTPFVAPLLESLDIAKYFSVVIGGDDVQNKKPHPEPLLLVASRLGMTPEQMLFVGDSRNDIQAAKAAG</Hsp_hseq>
+      <Hsp_midline>FPHV  ++  L   GL + L+++ P      L     +     V +G +++ + KP P     +A RL +  E++L+VG+S +D++ A AAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|20138123|sp|Q8ZLK5.1|GPH_SALTY</Hit_id>
+  <Hit_def>RecName: Full=Phosphoglycolate phosphatase; Short=PGP; Short=PGPase</Hit_def>
+  <Hit_accession>Q8ZLK5</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.2174</Hsp_bit-score>
+      <Hsp_score>121</Hsp_score>
+      <Hsp_evalue>1.26918e-06</Hsp_evalue>
+      <Hsp_query-from>95</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>113</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>FPHVLSSVLELRRHGLKIALLSDFPPSQKGCLW---GVRALCDVTLGTEEIGSLKPSPRAFYALAQRLNLRCEEILYVGNSVHDVEGAHAAG</Hsp_qseq>
+      <Hsp_hseq>FPHVADTLGALHASGLSLGLVTNKPTPFVAPLLESLDIAKYFSVVIGGDDVQNKKPHPEPLLLVASRLGMMPEQMLFVGDSRNDIQAAKAAG</Hsp_hseq>
+      <Hsp_midline>FPHV  ++  L   GL + L+++ P      L     +     V +G +++ + KP P     +A RL +  E++L+VG+S +D++ A AAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|81474041|sp|Q8FCW0.1|GPH_ECOL6</Hit_id>
+  <Hit_def>RecName: Full=Phosphoglycolate phosphatase; Short=PGP; Short=PGPase</Hit_def>
+  <Hit_accession>Q8FCW0</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>1.53851e-06</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>46</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MAFDIDGTLY---PGWRLAL---------------RVMPFMIRNARLM--RAFRAVRQELRREQRT-ALIPFEDFFFAQATRIAPRVGLSAEEVRAFLDTALYRGWRRHFLHIKP-----FPHVLSSVLELRRHGLKIALLSDFPPSQKGCLW---GVRALCDVTLGTEEIGSLKPSPRAFYALAQRLNLRCEEILYVGNSVHDVEGAHAAG</Hsp_qseq>
+      <Hsp_hseq>VAFDLDGTLVDSAPGLAAAVDMALYALELPVAGEERVITWIGNGADILMERALTWARQERATLRKTMGKPPVDDDIPAE------------EQVRI-----LRKLFDRYYGEVAEEGTFLFPHVADTLGALQAKGLPLGLVTNKPTPFVAPLLEALDIAKYFSVVIGGDDVQNKKPHPDPLLLVAERMGIAPQQMLFVGDSRNDIQAAKAAG</Hsp_hseq>
+      <Hsp_midline>+AFD+DGTL    PG   A+               RV+ ++   A ++  RA    RQE    ++T    P +D   A+            E+VR      L + + R++  +       FPHV  ++  L+  GL + L+++ P      L     +     V +G +++ + KP P     +A+R+ +  +++L+VG+S +D++ A AAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|124012145|sp|Q31VP9.1|GPH_SHIBS</Hit_id>
+  <Hit_def>RecName: Full=Phosphoglycolate phosphatase; Short=PGP; Short=PGPase</Hit_def>
+  <Hit_accession>Q31VP9</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>1.59882e-06</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>46</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MAFDIDGTLY---PGWRLAL---------------RVMPFMIRNARLM--RAFRAVRQELRREQRT-ALIPFEDFFFAQATRIAPRVGLSAEEVRAFLDTALYRGWRRHFLHIKP-----FPHVLSSVLELRRHGLKIALLSDFPPSQKGCLW---GVRALCDVTLGTEEIGSLKPSPRAFYALAQRLNLRCEEILYVGNSVHDVEGAHAAG</Hsp_qseq>
+      <Hsp_hseq>VAFDLDGTLVDSAPGLAAAVDMALYALELPVAGEERVITWIGNGADVLMERALAWARQERATLRKTMGKPPVDDDIPAE------------EQVRI-----LRKLFDRYYSEVAEEGTFLFPHVADTLGALQAKGLPLGLVTNKPTPFVAPLLEALDIAKYFSVVIGGDDVQNKKPHPDPLLLVAERMGIAPQQMLFVGDSRNDIQAAKAAG</Hsp_hseq>
+      <Hsp_midline>+AFD+DGTL    PG   A+               RV+ ++   A ++  RA    RQE    ++T    P +D   A+            E+VR      L + + R++  +       FPHV  ++  L+  GL + L+++ P      L     +     V +G +++ + KP P     +A+R+ +  +++L+VG+S +D++ A AAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|17432942|sp|Q9CKJ5.1|GPH_PASMU</Hit_id>
+  <Hit_def>RecName: Full=Phosphoglycolate phosphatase; Short=PGP; Short=PGPase</Hit_def>
+  <Hit_accession>Q9CKJ5</Hit_accession>
+  <Hit_len>224</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.447</Hsp_bit-score>
+      <Hsp_score>119</Hsp_score>
+      <Hsp_evalue>1.66092e-06</Hsp_evalue>
+      <Hsp_query-from>95</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>97</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>FPHVLSSVLELRRHGLKIALLSDFPPSQKGCL---WGVRALCDVTLGTEEIGSLKPSPRAFYALAQRLNLRCEEILYVGNSVHDVEGAHAAGMRI</Hsp_qseq>
+      <Hsp_hseq>YPNVKSTLETLKQKGYLLAVVTNKPTKHVQPVLQAFGIDHLFSELLGGQSLPAIKPHPAPLYYLCGKFGLYPKQVLFVGDSKNDILAAHTAGCAV</Hsp_hseq>
+      <Hsp_midline>+P+V S++  L++ G  +A++++ P      +   +G+  L    LG + + ++KP P   Y L  +  L  +++L+VG+S +D+  AH AG  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|38258666|sp|O26311.1|G3PP_METTH</Hit_id>
+  <Hit_def>RecName: Full=Glyceraldehyde 3-phosphate phosphatase</Hit_def>
+  <Hit_accession>O26311</Hit_accession>
+  <Hit_len>226</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.447</Hsp_bit-score>
+      <Hsp_score>119</Hsp_score>
+      <Hsp_evalue>1.81312e-06</Hsp_evalue>
+      <Hsp_query-from>89</Hsp_query-from>
+      <Hsp_query-to>195</Hsp_query-to>
+      <Hsp_hit-from>90</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>FLHIKPFPHVLSSVLELRRHGLKIALLSD---FPPSQKGCLWGVRALCDVTLGTEEIGSLKPSPRAFYALAQRLNLRCEEILYVGNSVH-DVEGAHAAGMRIACVRRPFTS</Hsp_qseq>
+      <Hsp_hseq>FALLRPFPNTTSTLIDLKSKGYRLGVISNGITIKQWEKLIRLGIHHFFDEVVTSDEVGFEKPNIRIFEEALRRMGCKPERSVMVGNKFNEDILGATNAGMSAILVNSELTE</Hsp_hseq>
+      <Hsp_midline>F  ++PFP+  S++++L+  G ++ ++S+       +K    G+    D  + ++E+G  KP+ R F    +R+  + E  + VGN  + D+ GA  AGM    V    T </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|17432934|sp|P58422.1|GPH_ECO57</Hit_id>
+  <Hit_def>RecName: Full=Phosphoglycolate phosphatase; Short=PGP; Short=PGPase</Hit_def>
+  <Hit_accession>P58422</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>1.84659e-06</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>46</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MAFDIDGTLY---PGWRLAL---------------RVMPFMIRNARLM--RAFRAVRQELRREQRT-ALIPFEDFFFAQATRIAPRVGLSAEEVRAFLDTALYRGWRRHFLHIKP-----FPHVLSSVLELRRHGLKIALLSDFPPSQKGCLW---GVRALCDVTLGTEEIGSLKPSPRAFYALAQRLNLRCEEILYVGNSVHDVEGAHAAG</Hsp_qseq>
+      <Hsp_hseq>VAFDLDGTLVDSAPGLAAAVDMALYALELPVAGEERVITWIGNGADVLMERALTWARQERATLRKTMGKPPVDDDIPAE------------EQVRI-----LRKLFDRYYGEVAEEGTFLFPHVADTLGALQAKGLPLGLVTNKPTPFVAPLLEALDIAKYFSVVIGGDDVQNKKPHPDPLLLVAERMGIAPQQMLFVGDSRNDIQAAKAAG</Hsp_hseq>
+      <Hsp_midline>+AFD+DGTL    PG   A+               RV+ ++   A ++  RA    RQE    ++T    P +D   A+            E+VR      L + + R++  +       FPHV  ++  L+  GL + L+++ P      L     +     V +G +++ + KP P     +A+R+ +  +++L+VG+S +D++ A AAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|81724110|sp|Q83PX1.1|GPH_SHIFL</Hit_id>
+  <Hit_def>RecName: Full=Phosphoglycolate phosphatase; Short=PGP; Short=PGPase</Hit_def>
+  <Hit_accession>Q83PX1</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>2.03255e-06</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>46</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MAFDIDGTLY---PGWRLAL---------------RVMPFMIRNARLM--RAFRAVRQELRREQRT-ALIPFEDFFFAQATRIAPRVGLSAEEVRAFLDTALYRGWRRHFLHIKP-----FPHVLSSVLELRRHGLKIALLSDFPPSQKGCLW---GVRALCDVTLGTEEIGSLKPSPRAFYALAQRLNLRCEEILYVGNSVHDVEGAHAAG</Hsp_qseq>
+      <Hsp_hseq>VAFDLDGTLVDSAPGLAAAVDMALYALELPVAGEERVITWIGNGADVLMERALTWARQERATLRKTMGKPPVDDDIPAE------------EQVRI-----LRKLFDRYYGEVAEEGTFLFPHVADTLGALQAKGLPLGLVTNKPTPFVAPLLEALDIAKYFSVVIGGDDVQNKKPHPDPLLLVAERMGIAPQQMLFVGDSRNDIQAAKAAG</Hsp_hseq>
+      <Hsp_midline>+AFD+DGTL    PG   A+               RV+ ++   A ++  RA    RQE    ++T    P +D   A+            E+VR      L + + R++  +       FPHV  ++  L+  GL + L+++ P      L     +     V +G +++ + KP P     +A+R+ +  +++L+VG+S +D++ A AAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|3122176|sp|Q53464.1|HAD_PSEUY</Hit_id>
+  <Hit_def>RecName: Full=(S)-2-haloacid dehalogenase; AltName: Full=2-haloalkanoic acid dehalogenase; AltName: Full=Halocarboxylic acid halidohydrolase; AltName: Full=L-2-haloacid dehalogenase; AltName: Full=L-DEX</Hit_def>
+  <Hit_accession>Q53464</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.447</Hsp_bit-score>
+      <Hsp_score>119</Hsp_score>
+      <Hsp_evalue>2.30049e-06</Hsp_evalue>
+      <Hsp_query-from>89</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>FLHIKPFPHVLSSVLELRRHGLKIALLSDFPPSQKGCL---WGVRALCDVTLGTEEIGSLKPSPRAFYALAQRLNLRCEEILYVGNSVHDVEGAHAAGMRIACVRR</Hsp_qseq>
+      <Hsp_hseq>YLRLAPFSEVPDSLRELKRRGLKLAILSNGSPQSIDAVVSHAGLRDGFDHLLSVDPVQVYKPDNRVYELAEQALGLDRSAILFVSSNAWDATGARYFGFPTCWINR</Hsp_hseq>
+      <Hsp_midline>+L + PF  V  S+ EL+R GLK+A+LS+  P     +    G+R   D  L  + +   KP  R +    Q L L    IL+V ++  D  GA   G     + R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|124012146|sp|Q32AJ7.1|GPH_SHIDS</Hit_id>
+  <Hit_def>RecName: Full=Phosphoglycolate phosphatase; Short=PGP; Short=PGPase</Hit_def>
+  <Hit_accession>Q32AJ7</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.447</Hsp_bit-score>
+      <Hsp_score>119</Hsp_score>
+      <Hsp_evalue>2.30231e-06</Hsp_evalue>
+      <Hsp_query-from>95</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>113</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>FPHVLSSVLELRRHGLKIALLSDFPPSQKGCLW---GVRALCDVTLGTEEIGSLKPSPRAFYALAQRLNLRCEEILYVGNSVHDVEGAHAAG</Hsp_qseq>
+      <Hsp_hseq>FPHVADTLGALQAKGLPLGLVTNKPTPFVAPLLEALDIAKYFSVVIGGDDVQNKKPHPDPLLLVAERMGIAPQQMLFVGDSRNDIQAAKAAG</Hsp_hseq>
+      <Hsp_midline>FPHV  ++  L+  GL + L+++ P      L     +     V +G +++ + KP P     +A+R+ +  +++L+VG+S +D++ A AAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|44887977|sp|P60527.1|HAD_AGRTR</Hit_id>
+  <Hit_def>RecName: Full=2-haloalkanoic acid dehalogenase; AltName: Full=Cryptic L-isomer-specific dehalogenase; AltName: Full=DhlS5I; AltName: Full=Halocarboxylic acid halidohydrolase; AltName: Full=L-2-haloacid dehalogenase; AltName: Full=L-DEX</Hit_def>
+  <Hit_accession>P60527</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.6766</Hsp_bit-score>
+      <Hsp_score>117</Hsp_score>
+      <Hsp_evalue>3.88476e-06</Hsp_evalue>
+      <Hsp_query-from>89</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>FLHIKPFPHVLSSVLELRRHGLKIALLSDFPPSQKGCL---WGVRALCDVTLGTEEIGSLKPSPRAFYALAQRLNLRCEEILYVGNSVHDVEGAHAAGMRIACVRRPFTSL-RVRRTRGLALFRLSHIVRICDSMSAGA</Hsp_qseq>
+      <Hsp_hseq>YLRLQAFPEVPPRLRELRNRGLQLAVLSNGSPHSIGAVVGNAGIRDEFDHLISVDPVRVYKPHDRAYGLAEEAFGLARTSILFVSSNGWDATGARYFGFPTCWINRGGNVFEEMGQTPDWDLLGIDEIVRLFDSAEGSA</Hsp_hseq>
+      <Hsp_midline>+L ++ FP V   + ELR  GL++A+LS+  P   G +    G+R   D  +  + +   KP  RA+    +   L    IL+V ++  D  GA   G     + R       + +T    L  +  IVR+ DS    A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>462628</Statistics_db-num>
+      <Statistics_db-len>173435234</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

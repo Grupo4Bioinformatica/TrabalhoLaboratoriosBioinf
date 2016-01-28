@@ -1,0 +1,602 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>Query_105405</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>306</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_105405</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>306</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|34222947|sp|Q92A53.1|XERD_LISIN</Hit_id>
+  <Hit_def>RecName: Full=Tyrosine recombinase XerD</Hit_def>
+  <Hit_accession>Q92A53</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.83</Hsp_bit-score>
+      <Hsp_score>512</Hsp_score>
+      <Hsp_evalue>8.99082e-61</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>291</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>292</Hsp_align-len>
+      <Hsp_qseq>VQSFYAYLISAEAHALLTARTYVTTLMLFQKNLDPPCNIESANA---HDCVRFIEKRSAAGVSGKTIAKDMAALHAFYQFLILEQVRPDNPMQDVDAPRRAYSLPRVLSPEQVNTFLQSIPLCTPGGVRDRALFELIYAAGLRVSEAVSLSLSDIFFAERLLKVTGKGNKERMAPFGEQACYFLMQYIREARVRFTSAKHPENSEKKGAVFLNRQGGRLSRKGIWKRLQDIEIRSGVETHV--HTFRHSYATHLLAGGVDLHSVQCLLGHADIATTQVYTHVENGQLEACHR</Hsp_qseq>
+      <Hsp_hseq>IDDFLHFLIVEKGLSANTIKAYERDLHYFVSYMDTSRTLTDPDTLERNDIVGFMAFARKEGKSPRSVARYIASLRSFFHYLMHDGKMSHDPMIQIETPKQAQSLPKVLNLDDVEKLLSSSDTSTPLGLRDQAMLEILYATGLRVTELVKLKMDDLHLQMGFIQTIGKGDKERIIPLGKTATTVLEQYLEEARPKLRRPKY-----RNDFVFLNHHGQGLTRQGFWKILKGIAKESGIEKPITPHTLRHSFATHLLENGADLRSVQELLGHADISTTQIYTHVTKLRLKDVYK</Hsp_hseq>
+      <Hsp_midline>+  F  +LI  +  +  T + Y   L  F   +D    +   +    +D V F+      G S +++A+ +A+L +F+ +L+ +     +PM  ++ P++A SLP+VL+ + V   L S    TP G+RD+A+ E++YA GLRV+E V L + D+      ++  GKG+KER+ P G+ A   L QY+ EAR +    K+     +   VFLN  G  L+R+G WK L+ I   SG+E  +  HT RHS+ATHLL  G DL SVQ LLGHADI+TTQ+YTHV   +L+  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|71153414|sp|Q71Y59.1|XERD_LISMF</Hit_id>
+  <Hit_def>RecName: Full=Tyrosine recombinase XerD</Hit_def>
+  <Hit_accession>Q71Y59</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.06</Hsp_bit-score>
+      <Hsp_score>510</Hsp_score>
+      <Hsp_evalue>1.39274e-60</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>291</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>292</Hsp_align-len>
+      <Hsp_qseq>VQSFYAYLISAEAHALLTARTYVTTLMLFQKNLDPPCNIESANA---HDCVRFIEKRSAAGVSGKTIAKDMAALHAFYQFLILEQVRPDNPMQDVDAPRRAYSLPRVLSPEQVNTFLQSIPLCTPGGVRDRALFELIYAAGLRVSEAVSLSLSDIFFAERLLKVTGKGNKERMAPFGEQACYFLMQYIREARVRFTSAKHPENSEKKGAVFLNRQGGRLSRKGIWKRLQDIEIRSGVETHV--HTFRHSYATHLLAGGVDLHSVQCLLGHADIATTQVYTHVENGQLEACHR</Hsp_qseq>
+      <Hsp_hseq>IEDFLHFLIVERGLSANTIKAYERDLRYFVSYMDVAKGLTDPNTLERSDIVGFMAFARQEGKSARSVARYIASLRSFFHYLMHDGKMSHDPMIQIETPKQAQGLPKVLNLDDVEKLLSSSDTSTPLGLRDQAMMEILYATGLRVTELVSLKMDDLHLHMGFIQTIGKGDKERIIPLGKTATTVLEKYLEEARPKLRRPKY-----RNDFVFLNHHGQGLTRQGFWKILKGIAKESGIEKPITPHTLRHSFATHLLENGADLRSVQELLGHADISTTQIYTHVTKLRLKDVYK</Hsp_hseq>
+      <Hsp_midline>++ F  +LI     +  T + Y   L  F   +D    +   N     D V F+      G S +++A+ +A+L +F+ +L+ +     +PM  ++ P++A  LP+VL+ + V   L S    TP G+RD+A+ E++YA GLRV+E VSL + D+      ++  GKG+KER+ P G+ A   L +Y+ EAR +    K+     +   VFLN  G  L+R+G WK L+ I   SG+E  +  HT RHS+ATHLL  G DL SVQ LLGHADI+TTQ+YTHV   +L+  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|34222800|sp|Q7ZAM3.1|XERD_OCEIH</Hit_id>
+  <Hit_def>RecName: Full=Tyrosine recombinase XerD</Hit_def>
+  <Hit_accession>Q7ZAM3</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.06</Hsp_bit-score>
+      <Hsp_score>510</Hsp_score>
+      <Hsp_evalue>1.48485e-60</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>295</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>VTTLMLFQKNLDPPCNIESANAHDCVRFIEKRSAAGVSGKTIAKDMAALHAFYQFLILEQVRPDNPMQDVDAPRRAYSLPRVLSPEQVNTFLQSIPLCTPGGVRDRALFELIYAAGLRVSEAVSLSLSDIFFAERLLKVTGKGNKERMAPFGEQACYFLMQYIREARVRFTSAKHPENSEKKGAVFLNRQGGRLSRKGIWKRLQDIEIRSGVETHV--HTFRHSYATHLLAGGVDLHSVQCLLGHADIATTQVYTHVENGQLEACHRA</Hsp_qseq>
+      <Hsp_hseq>LTNYLQYMKDHDKTATWDKISRTDIMGFLYMLKDQGKSTATISRHISSIRSFHQFLIREQITSNDPSLHIETPKKDRKLPDILSQDEVDRLLE-IKMNTKLSVRNKAMLELLYATGLRVSELISLNVSDLHLMMGFVQCFGKGSKERIVPLGDTAKHYLEKYISEARDSLIKKNNRED-----ALFVNQHGRRLTRQGFWKILKGLTLEAGILKTITPHTLRHSFATHLLENGADLRLVQEMLGHADISTTQVYTHVTKARLKDMYQS</Hsp_hseq>
+      <Hsp_midline>+T  + + K+ D     +  +  D + F+      G S  TI++ ++++ +F+QFLI EQ+  ++P   ++ P++   LP +LS ++V+  L+ I + T   VR++A+ EL+YA GLRVSE +SL++SD+      ++  GKG+KER+ P G+ A ++L +YI EAR       + E+     A+F+N+ G RL+R+G WK L+ + + +G+   +  HT RHS+ATHLL  G DL  VQ +LGHADI+TTQVYTHV   +L+  +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|34222939|sp|Q8Y5V0.1|XERD_LISMO</Hit_id>
+  <Hit_def>RecName: Full=Tyrosine recombinase XerD</Hit_def>
+  <Hit_accession>Q8Y5V0</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.29</Hsp_bit-score>
+      <Hsp_score>508</Hsp_score>
+      <Hsp_evalue>3.10093e-60</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>291</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>292</Hsp_align-len>
+      <Hsp_qseq>VQSFYAYLISAEAHALLTARTYVTTLMLFQKNLDPPCNIESANA---HDCVRFIEKRSAAGVSGKTIAKDMAALHAFYQFLILEQVRPDNPMQDVDAPRRAYSLPRVLSPEQVNTFLQSIPLCTPGGVRDRALFELIYAAGLRVSEAVSLSLSDIFFAERLLKVTGKGNKERMAPFGEQACYFLMQYIREARVRFTSAKHPENSEKKGAVFLNRQGGRLSRKGIWKRLQDIEIRSGVETHV--HTFRHSYATHLLAGGVDLHSVQCLLGHADIATTQVYTHVENGQLEACHR</Hsp_qseq>
+      <Hsp_hseq>IEDFLHFLIVERGLSANTIKAYERDLHYFVSYMDVTKELTDPNTLERSDIVGFMAFARQEGKSPRSVARYIASLRSFFHYLMHDGKMSHDPMIQIETPKQAQGLPKVLNLDDVEKLLSSSDTSTPLGLRDQAMMEILYATGLRVTELVSLKMDDLHLHMGFIQTIGKGDKERIIPLGKTATTVLEKYLEEARPKLRRPKY-----RNDFVFLNHHGQGLTRQGFWKILKGIAKESGIEKPITPHTLRHSFATHLLENGADLRSVQELLGHADISTTQIYTHVTKLRLKDVYK</Hsp_hseq>
+      <Hsp_midline>++ F  +LI     +  T + Y   L  F   +D    +   N     D V F+      G S +++A+ +A+L +F+ +L+ +     +PM  ++ P++A  LP+VL+ + V   L S    TP G+RD+A+ E++YA GLRV+E VSL + D+      ++  GKG+KER+ P G+ A   L +Y+ EAR +    K+     +   VFLN  G  L+R+G WK L+ I   SG+E  +  HT RHS+ATHLL  G DL SVQ LLGHADI+TTQ+YTHV   +L+  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|251757430|sp|P46352.3|XERD_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Tyrosine recombinase XerD</Hit_def>
+  <Hit_accession>P46352</Hit_accession>
+  <Hit_len>296</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.586</Hsp_bit-score>
+      <Hsp_score>488</Hsp_score>
+      <Hsp_evalue>3.14623e-57</Hsp_evalue>
+      <Hsp_query-from>54</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>CVRFIEKRSAAGVSGKTIAKDMAALHAFYQFLILEQVRPDNPMQDVDAPRRAYSLPRVLSPEQVNTFLQSIPLCTPGGVRDRALFELIYAAGLRVSEAVSLSLSDIFFAERLLKVTGKGNKERMAPFGEQACYFLMQYIREARVRFTSAKHPENSEKKGAVFLNRQGGRLSRKGIWKRLQDIEIRSGVETHV--HTFRHSYATHLLAGGVDLHSVQCLLGHADIATTQVYTHVENGQLEACHR</Hsp_qseq>
+      <Hsp_hseq>IIQYLKHLKDSGKSGKTSARHLASIRSFHQFLLREKVTDKDPSVHIETQKTERALPKVLALNEVERLLDTPKLTSPFGYRDKAMLELLYATGIRVSEMIELKTADVHLSMGFIRCFGKGRKERIVPIGEAAASAIEEYMTKARGKLL------KNNVSDALFLNHHGKQISRQGFWKNLKKIALEAGIKKELTPHTLRHSFATHLLENGADLRAVQEMLGHADISTTQIYTHVTKTRLKDVYK</Hsp_hseq>
+      <Hsp_midline> +++++    +G SGKT A+ +A++ +F+QFL+ E+V   +P   ++  +   +LP+VL+  +V   L +  L +P G RD+A+ EL+YA G+RVSE + L  +D+  +   ++  GKG KER+ P GE A   + +Y+ +AR +         +    A+FLN  G ++SR+G WK L+ I + +G++  +  HT RHS+ATHLL  G DL +VQ +LGHADI+TTQ+YTHV   +L+  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|34222990|sp|Q93C64.1|XERD_LACCA</Hit_id>
+  <Hit_def>RecName: Full=Tyrosine recombinase XerD</Hit_def>
+  <Hit_accession>Q93C64</Hit_accession>
+  <Hit_len>293</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.045</Hsp_bit-score>
+      <Hsp_score>484</Hsp_score>
+      <Hsp_evalue>9.86858e-57</Hsp_evalue>
+      <Hsp_query-from>70</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>TIAKDMAALHAFYQFLILEQVRPDNPMQDVDAPRRAYSLPRVLSPEQVNTFLQSIPLCTPGGVRDRALFELIYAAGLRVSEAVSLSLSDIFFAERLLKVTGKGNKERMAPFGEQACYFLMQYIREARVRFTSAKHPENSEKKGAVFLNRQGGRLSRKGIWKRLQDIEIRSGVETHV--HTFRHSYATHLLAGGVDLHSVQCLLGHADIATTQVYTHVENGQLEACH</Hsp_qseq>
+      <Hsp_hseq>SVSRMISALRKFYRFLLREGAIKSDPMTKIDTPKKAQHLPATLSGTEIDALMAKPDTTKPLGLRDRAIFELMYATGLRVSEVVGLRLDQLHLAMNLLQVTGKGDKERLVPISPQAADWVNRYLQESRPRLIKHQQPK------AVFVNFHGHALTRQVIWKNLKAYIASVGIEKDVTPHTLRHSFATRLLENGADLRVVQELLGHSDISTTQIYTHLSNQHLVAVY</Hsp_hseq>
+      <Hsp_midline>++++ ++AL  FY+FL+ E     +PM  +D P++A  LP  LS  +++  +       P G+RDRA+FEL+YA GLRVSE V L L  +  A  LL+VTGKG+KER+ P   QA  ++ +Y++E+R R    + P+      AVF+N  G  L+R+ IWK L+      G+E  V  HT RHS+AT LL  G DL  VQ LLGH+DI+TTQ+YTH+ N  L A +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|34222802|sp|Q7ZAM7.1|XERD_LEPIN</Hit_id>
+  <Hit_def>RecName: Full=Tyrosine recombinase XerD &gt;gi|73920480|sp|Q72SA5.1|XERD_LEPIC RecName: Full=Tyrosine recombinase XerD</Hit_def>
+  <Hit_accession>Q7ZAM7</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.956</Hsp_bit-score>
+      <Hsp_score>463</Hsp_score>
+      <Hsp_evalue>1.42331e-53</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>VQSFYAYLISAEAHALLTARTYVTTLMLFQKNLDPP-CNIESANAHDCVRFIEKRSAAGVSGKTIAKDMAALHAFYQFLILEQVRPDNPMQDVDAPRRAYSLPRVLSPEQVNTFLQSIPLCTPGGVRDRALFELIYAAGLRVSEAVSLSLSDIFFAERLLKVTGKGNKERMAPFGEQACYFLMQYIREARVRFTSAKHPENSEKKGAVFLNRQGGRLSRKGIWKRLQDIEIRSGVETHV--HTFRHSYATHLLAGGVDLHSVQCLLGHADIATTQVYTHVENGQLEACHR</Hsp_qseq>
+      <Hsp_hseq>LQNFQEYLSVEKGLSDNSIYSYGYDLNKFKNFLEKEHIDFLKVQADDIMRFLNEEKDRKISSKTIAREVVAIRQFYKFLKDEKKLDTNPTEKIETPEVMRSIPDYLTQDEIEELFASIKEDNLYELRDKCIFELLYSSGLRISEACNLRLNDMDLEGMTLTVEGKGGRQRLVPFGEKSLDILNRYLKQSRPFILKSRNCE------YLFVSKKGSYINRKSVWRLLNHYIKRTSILKKVTPHTLRHSFATHLLENHADLKSVQELLGHIDIATTQIYTHMANKTLREVHK</Hsp_hseq>
+      <Hsp_midline>+Q+F  YL   +  +  +  +Y   L  F+  L+    +     A D +RF+ +     +S KTIA+++ A+  FY+FL  E+    NP + ++ P    S+P  L+ +++     SI       +RD+ +FEL+Y++GLR+SEA +L L+D+      L V GKG ++R+ PFGE++   L +Y++++R     +++ E       +F++++G  ++RK +W+ L     R+ +   V  HT RHS+ATHLL    DL SVQ LLGH DIATTQ+YTH+ N  L   H+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|71153413|sp|Q7VPN8.1|XERD_HAEDU</Hit_id>
+  <Hit_def>RecName: Full=Tyrosine recombinase XerD</Hit_def>
+  <Hit_accession>Q7VPN8</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.956</Hsp_bit-score>
+      <Hsp_score>463</Hsp_score>
+      <Hsp_evalue>1.44668e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>291</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>297</Hsp_align-len>
+      <Hsp_qseq>MKDVDIRVQSFYAYLISAEAHALLTARTYVTTLMLFQKNLDPPCNIESANAHDCVRFIEKRSAAGVSGKTIAKDMAALHAFYQFLILEQVRPDNPMQDVDAPRRAYSLPRVLSPEQVNTFLQSIPLCTPGGVRDRALFELIYAAGLRVSEAVSLSLSDIFFAERLLKVTGKGNKERMAPFGEQACYFLMQYIREARVRFTSAKHPENSEKKGAVFLNRQGGRLSRKGIWKRLQDIEIRSGVETHV---HTFRHSYATHLLAGGVDLHSVQCLLGHADIATTQVYTHVENGQLEACHR</Hsp_qseq>
+      <Hsp_hseq>MKKLDPIIEQFLDTLWLEQSLSHNTLLSYRLDLELFSAWLVEPRAFLTLTHTDLQLFLGDRLDKGYKSSSSARIISCLRKFFRFLCLEKYRLDDPTSMLISPRKRVQLPKSLSEEQVMDLLDAPNPLDPIELRDKAMLELLYATGLRVTELISLTIDNLNLRQGVVRVIGKGDKERLVPIGEEASYWIQEFFDYGRMILLS------DQQSDVLFPSRRAKQMTRQTFWHRIKYYAILAGIDAEKLSPHVLRHAFATHLINHGADLRVVQMLLGHSDLSTTQIYTHVAKTRLKSIHK</Hsp_hseq>
+      <Hsp_midline>MK +D  ++ F   L   ++ +  T  +Y   L LF   L  P    +    D   F+  R   G    + A+ ++ L  F++FL LE+ R D+P   + +PR+   LP+ LS EQV   L +     P  +RD+A+ EL+YA GLRV+E +SL++ ++   + +++V GKG+KER+ P GE+A Y++ ++    R+   S       ++   +F +R+  +++R+  W R++   I +G++      H  RH++ATHL+  G DL  VQ LLGH+D++TTQ+YTHV   +L++ H+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|34222762|sp|O31206.1|XERD_PROMI</Hit_id>
+  <Hit_def>RecName: Full=Tyrosine recombinase XerD</Hit_def>
+  <Hit_accession>O31206</Hit_accession>
+  <Hit_len>313</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>183.341</Hsp_bit-score>
+      <Hsp_score>464</Hsp_score>
+      <Hsp_evalue>1.73246e-53</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>307</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>297</Hsp_align-len>
+      <Hsp_qseq>KDVDIRVQSFYAYLISAEAHALLTARTYVTTLM-LFQKNLDPPCNIESANAHDCVRFIEKRSAAGVSGKTIAKDMAALHAFYQFLILEQVRPDNPMQDVDAPRRAYSLPRVLSPEQVNTFLQSIPLCTPGGVRDRALFELIYAAGLRVSEAVSLSLSDIFFAERLLKVTGKGNKERMAPFGEQACYFLMQYIREARVRFTSAKHPENSEKKGAVFLNRQGGRLSRKGIWKRLQDIEIRSGVETHV---HTFRHSYATHLLAGGVDLHSVQCLLGHADIATTQVYTHVENGQLEACHR</Hsp_qseq>
+      <Hsp_hseq>EDNDVIIEQFLDSIWLEQGLSANTLSAYRLDLQALSQWLVTQKLNWLSVTTLDLHAFLATRLDEGYKATSAARLLSTLRRFFQYLYREKLRQDDPSALLSTPKLPKRLPKDLSEQQVENLLSAPCIDEPIELRDKAMLEVLYACGLRVSELVGLSLSDISLRQGVLRVIGKGDKERLVPLGEEAIYWLEQYLQYGRPALMQGKTDD------IVFPSLRGQKMTRQTFWHRIKHYAVIAGIDSEKLSPHVLRHAFATHLLNHGADLRVVQMLLGHSDLSTTQIYTHVATERLKVLHQ</Hsp_hseq>
+      <Hsp_midline>+D D+ ++ F   +   +  +  T   Y   L  L Q  +    N  S    D   F+  R   G    + A+ ++ L  F+Q+L  E++R D+P   +  P+    LP+ LS +QV   L +  +  P  +RD+A+ E++YA GLRVSE V LSLSDI   + +L+V GKG+KER+ P GE+A Y+L QY++  R      K  +       VF + +G +++R+  W R++   + +G+++     H  RH++ATHLL  G DL  VQ LLGH+D++TTQ+YTHV   +L+  H+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|34222946|sp|Q8ZHK1.1|XERD_YERPE</Hit_id>
+  <Hit_def>RecName: Full=Tyrosine recombinase XerD</Hit_def>
+  <Hit_accession>Q8ZHK1</Hit_accession>
+  <Hit_len>299</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.563</Hsp_bit-score>
+      <Hsp_score>449</Hsp_score>
+      <Hsp_evalue>1.53028e-51</Hsp_evalue>
+      <Hsp_query-from>44</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>46</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>254</Hsp_align-len>
+      <Hsp_qseq>CNIESANAHDCVRFIEKRSAAGVSGKTIAKDMAALHAFYQFLILEQVRPDNPMQDVDAPRRAYSLPRVLSPEQVNTFLQSIPLCTPGGVRDRALFELIYAAGLRVSEAVSLSLSDIFFAERLLKVTGKGNKERMAPFGEQACYFLMQYIREARVRFTSAKHPENSEKKGAVFLNRQGGRLSRKGIWKRLQDIEIRSGVETH---VHTFRHSYATHLLAGGVDLHSVQCLLGHADIATTQVYTHVENGQLEACHR</Hsp_qseq>
+      <Hsp_hseq>SDLLRASPQDLQSFLAERIEGGYKATSSARLLSAMRRLFQYLYREKLREDDPTALLSSPKLPQRLPKDLSEAQVDALLNSPNVDIPLELRDKAMLEVLYATGLRVSELVGLTISDVSLRQGVVRVIGKGNKERLVPLGEEAVYWIENYMEHGRPWLV------NGASLDVLFPSNRSQQMTRQTFWHRIKHYAILAGIDSERLSPHVLRHAFATHLLNHGADLRVVQMLLGHSDLSTTQIYTHVATERLRQLHQ</Hsp_hseq>
+      <Hsp_midline> ++  A+  D   F+ +R   G    + A+ ++A+   +Q+L  E++R D+P   + +P+    LP+ LS  QV+  L S  +  P  +RD+A+ E++YA GLRVSE V L++SD+   + +++V GKGNKER+ P GE+A Y++  Y+   R          N      +F + +  +++R+  W R++   I +G+++     H  RH++ATHLL  G DL  VQ LLGH+D++TTQ+YTHV   +L   H+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|60416276|sp|P0A2P6.1|XERD_SALTY</Hit_id>
+  <Hit_def>RecName: Full=Tyrosine recombinase XerD &gt;gi|60416277|sp|P0A2P7.1|XERD_SALTI RecName: Full=Tyrosine recombinase XerD</Hit_def>
+  <Hit_accession>P0A2P6</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.792</Hsp_bit-score>
+      <Hsp_score>447</Hsp_score>
+      <Hsp_evalue>2.81465e-51</Hsp_evalue>
+      <Hsp_query-from>45</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>46</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>253</Hsp_align-len>
+      <Hsp_qseq>NIESANAHDCVRFIEKRSAAGVSGKTIAKDMAALHAFYQFLILEQVRPDNPMQDVDAPRRAYSLPRVLSPEQVNTFLQSIPLCTPGGVRDRALFELIYAAGLRVSEAVSLSLSDIFFAERLLKVTGKGNKERMAPFGEQACYFLMQYIREARVRFTSAKHPENSEKKGAVFLNRQGGRLSRKGIWKRLQDIEIRSGVETHV---HTFRHSYATHLLAGGVDLHSVQCLLGHADIATTQVYTHVENGQLEACHR</Hsp_qseq>
+      <Hsp_hseq>TLATAQADDLQTLLAERVEGGYKATSSARLLSAMRRFFQHLYREKYREDDPSAQLASPKLPQRLPKDLSEAQVERLLQAPLIDQPLELRDKAMLEVLYATGLRVSELVGLTMSDISLRQGVVRVIGKGNKERLVPLGEEAVYWLETYLEHGRPWLL------NGVSIDVLFPSQRAQQMTRQTFWHRIKHYAVLAGIDSEKLSPHVLRHAFATHLLNHGADLRVVQMLLGHSDLSTTQIYTHVATERLRQLHQ</Hsp_hseq>
+      <Hsp_midline> + +A A D    + +R   G    + A+ ++A+  F+Q L  E+ R D+P   + +P+    LP+ LS  QV   LQ+  +  P  +RD+A+ E++YA GLRVSE V L++SDI   + +++V GKGNKER+ P GE+A Y+L  Y+   R          N      +F +++  +++R+  W R++   + +G+++     H  RH++ATHLL  G DL  VQ LLGH+D++TTQ+YTHV   +L   H+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|34222933|sp|Q8X574.1|XERD_ECO57</Hit_id>
+  <Hit_def>RecName: Full=Tyrosine recombinase XerD</Hit_def>
+  <Hit_accession>Q8X574</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>175.637</Hsp_bit-score>
+      <Hsp_score>444</Hsp_score>
+      <Hsp_evalue>1.02308e-50</Hsp_evalue>
+      <Hsp_query-from>44</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>254</Hsp_align-len>
+      <Hsp_qseq>CNIESANAHDCVRFIEKRSAAGVSGKTIAKDMAALHAFYQFLILEQVRPDNPMQDVDAPRRAYSLPRVLSPEQVNTFLQSIPLCTPGGVRDRALFELIYAAGLRVSEAVSLSLSDIFFAERLLKVTGKGNKERMAPFGEQACYFLMQYIREARVRFTSAKHPENSEKKGAVFLNRQGGRLSRKGIWKRLQDIEIRSGVETHV---HTFRHSYATHLLAGGVDLHSVQCLLGHADIATTQVYTHVENGQLEACHR</Hsp_qseq>
+      <Hsp_hseq>LTLATAQSDDLQALLAERLEGGYKATSSARLLSAVRRLFQYLYREKFREDDPSAHLASPKLPQRLPKDLSEAQVERLLQAPLIDQPLELRDKAMLEVLYATGLRVSELVGLTMSDISLRQGVVRVIGKGNKERLVPLGEEAVYWLETYLEHGRPWLL------NGVSIDVLFPSQRAQQMTRQTLWHRIKHYAVLAGIDSEKLSPHVLRHAFATHLLNHGADLRVVQMLLGHSDLSTTQIYTHVATERLRQLHQ</Hsp_hseq>
+      <Hsp_midline>  + +A + D    + +R   G    + A+ ++A+   +Q+L  E+ R D+P   + +P+    LP+ LS  QV   LQ+  +  P  +RD+A+ E++YA GLRVSE V L++SDI   + +++V GKGNKER+ P GE+A Y+L  Y+   R          N      +F +++  +++R+ +W R++   + +G+++     H  RH++ATHLL  G DL  VQ LLGH+D++TTQ+YTHV   +L   H+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|34222899|sp|Q8KET0.1|XERD_CHLTE</Hit_id>
+  <Hit_def>RecName: Full=Tyrosine recombinase XerD</Hit_def>
+  <Hit_accession>Q8KET0</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>175.252</Hsp_bit-score>
+      <Hsp_score>443</Hsp_score>
+      <Hsp_evalue>1.66988e-50</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>295</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>299</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>ESANAHDCVRFIEKRSAAGVSGKTIAKDMAALHAFYQFLILEQVRPDNPMQDVDAPRRAYSLPRVLSPEQVNTFLQSIPL----CTPGGVRDRALFELIYAAGLRVSEAVSLSLSDIFFAERLLKVTGKGNKERMAPFGEQACYFLMQYIREARVRFTSAKHPENSEKKGAVFLNRQGGRLSRKGIWKRLQDIEIRSGVETHV--HTFRHSYATHLLAGGVDLHSVQCLLGHADIATTQVYTHVENGQLEACHRA</Hsp_qseq>
+      <Hsp_hseq>EEAAPGDIRKFIQELHEIGLEASSIARNISAIRSFHKFLLTERLATMNPAENIHQPKLARYLPSVLTIEEMATLLDA-PLKRHPTSTFMLRDKAMLEFLYATGVRVSELLGLSRLNLHMDDGFVRVFGKGSKERLVPVGQTAISWMKRYLDELRPGMMSAT------SHDTIFLNSRGGPLSRMAAWNIVREHAVIAGIEKPISPHTFRHSFATHLLEGGADLRVVQEMLGHSSIIATQIYTHIDRSFIKEVHKT</Hsp_hseq>
+      <Hsp_midline>E A   D  +FI++    G+   +IA++++A+ +F++FL+ E++   NP +++  P+ A  LP VL+ E++ T L + PL     +   +RD+A+ E +YA G+RVSE + LS  ++   +  ++V GKG+KER+ P G+ A  ++ +Y+ E R    SA           +FLN +GG LSR   W  +++  + +G+E  +  HTFRHS+ATHLL GG DL  VQ +LGH+ I  TQ+YTH++   ++  H+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|67475548|sp|P0A8P8.1|XERD_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Tyrosine recombinase XerD &gt;gi|67475549|sp|P0A8P9.1|XERD_ECOL6 RecName: Full=Tyrosine recombinase XerD</Hit_def>
+  <Hit_accession>P0A8P8</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>174.481</Hsp_bit-score>
+      <Hsp_score>441</Hsp_score>
+      <Hsp_evalue>2.56672e-50</Hsp_evalue>
+      <Hsp_query-from>44</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>254</Hsp_align-len>
+      <Hsp_qseq>CNIESANAHDCVRFIEKRSAAGVSGKTIAKDMAALHAFYQFLILEQVRPDNPMQDVDAPRRAYSLPRVLSPEQVNTFLQSIPLCTPGGVRDRALFELIYAAGLRVSEAVSLSLSDIFFAERLLKVTGKGNKERMAPFGEQACYFLMQYIREARVRFTSAKHPENSEKKGAVFLNRQGGRLSRKGIWKRLQDIEIRSGVETHV---HTFRHSYATHLLAGGVDLHSVQCLLGHADIATTQVYTHVENGQLEACHR</Hsp_qseq>
+      <Hsp_hseq>LTLATAQSDDLQALLAERLEGGYKATSSARLLSAVRRLFQYLYREKFREDDPSAHLASPKLPQRLPKDLSEAQVERLLQAPLIDQPLELRDKAMLEVLYATGLRVSELVGLTMSDISLRQGVVRVIGKGNKERLVPLGEEAVYWLETYLEHGRPWLL------NGVSIDVLFPSQRAQQMTRQTFWHRIKHYAVLAGIDSEKLSPHVLRHAFATHLLNHGADLRVVQMLLGHSDLSTTQIYTHVATERLRQLHQ</Hsp_hseq>
+      <Hsp_midline>  + +A + D    + +R   G    + A+ ++A+   +Q+L  E+ R D+P   + +P+    LP+ LS  QV   LQ+  +  P  +RD+A+ E++YA GLRVSE V L++SDI   + +++V GKGNKER+ P GE+A Y+L  Y+   R          N      +F +++  +++R+  W R++   + +G+++     H  RH++ATHLL  G DL  VQ LLGH+D++TTQ+YTHV   +L   H+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|34222799|sp|Q7ZAM0.1|XERD_SHIFL</Hit_id>
+  <Hit_def>RecName: Full=Tyrosine recombinase XerD</Hit_def>
+  <Hit_accession>Q7ZAM0</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>174.481</Hsp_bit-score>
+      <Hsp_score>441</Hsp_score>
+      <Hsp_evalue>2.62155e-50</Hsp_evalue>
+      <Hsp_query-from>44</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>254</Hsp_align-len>
+      <Hsp_qseq>CNIESANAHDCVRFIEKRSAAGVSGKTIAKDMAALHAFYQFLILEQVRPDNPMQDVDAPRRAYSLPRVLSPEQVNTFLQSIPLCTPGGVRDRALFELIYAAGLRVSEAVSLSLSDIFFAERLLKVTGKGNKERMAPFGEQACYFLMQYIREARVRFTSAKHPENSEKKGAVFLNRQGGRLSRKGIWKRLQDIEIRSGVETHV---HTFRHSYATHLLAGGVDLHSVQCLLGHADIATTQVYTHVENGQLEACHR</Hsp_qseq>
+      <Hsp_hseq>LTLATAQSDDLQALLAERLEGGYKATSSARLLSAVRRLFQYLYREKFREDDPSAHLASPKLPQRLPKDLSEAQVERLLQAPLIDQPLELRDKAMLEVLYATGLRVSELVGLTMSDISLRQGVVRVIGKGNKERLVPLGEEAVYWLETYLEHGRPWLL------NGVSIDVLFPSQRAQQMTRQTFWHRIKHYAVLAGIDSEKLSPHVLRHAFATHLLNHGADLRVVQMLLGHSDLSTTQIYTHVATERLRQLHQ</Hsp_hseq>
+      <Hsp_midline>  + +A + D    + +R   G    + A+ ++A+   +Q+L  E+ R D+P   + +P+    LP+ LS  QV   LQ+  +  P  +RD+A+ E++YA GLRVSE V L++SDI   + +++V GKGNKER+ P GE+A Y+L  Y+   R          N      +F +++  +++R+  W R++   + +G+++     H  RH++ATHLL  G DL  VQ LLGH+D++TTQ+YTHV   +L   H+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|81674519|sp|Q5HP53.1|XERD_STAEQ</Hit_id>
+  <Hit_def>RecName: Full=Tyrosine recombinase XerD</Hit_def>
+  <Hit_accession>Q5HP53</Hit_accession>
+  <Hit_len>295</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>173.711</Hsp_bit-score>
+      <Hsp_score>439</Hsp_score>
+      <Hsp_evalue>4.58086e-50</Hsp_evalue>
+      <Hsp_query-from>65</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>64</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>GVSGKTIAKDMAALHAFYQFLILEQVRPDNPMQDVDAPRRAYSLPRVLSPEQVNTFLQSIPLCTPGGVRDRALFELIYAAGLRVSEAVSLSLSDIFFAERLLKVTGKGNKERMAPFGEQACYFLMQYIREARVRFTSAKHPENSEKKGAVFLNRQGGRLSRKGIWKRLQDIEIRSGVETHV--HTFRHSYATHLLAGGVDLHSVQCLLGHADIATTQVYTHVENGQLEACH</Hsp_qseq>
+      <Hsp_hseq>GQSSKSLARFISTIRSFHQFALREKYAAKDPTVLIETPKYEKKLPDVLEIDEVIALLETPDLTKNNGYRDRTMLELLYATGMRVTEIIQLDVEDVNLMMGFVRVFGKGNKERIVPLGDTVIEYLTTYIETVRPQLLKQTTTQ------ALFLNMHGKSLSRQGIWKIIKQYGLKANINKTLTPHTLRHSFATHLLENGADLRAVQEMLGHSDISTTQLYTHVSKSQIRKMY</Hsp_hseq>
+      <Hsp_midline>G S K++A+ ++ + +F+QF + E+    +P   ++ P+    LP VL  ++V   L++  L    G RDR + EL+YA G+RV+E + L + D+      ++V GKGNKER+ P G+    +L  YI   R +       +      A+FLN  G  LSR+GIWK ++   +++ +   +  HT RHS+ATHLL  G DL +VQ +LGH+DI+TTQ+YTHV   Q+   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|82582339|sp|Q49XU5.1|XERD_STAS1</Hit_id>
+  <Hit_def>RecName: Full=Tyrosine recombinase XerD</Hit_def>
+  <Hit_accession>Q49XU5</Hit_accession>
+  <Hit_len>295</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>173.711</Hsp_bit-score>
+      <Hsp_score>439</Hsp_score>
+      <Hsp_evalue>5.25558e-50</Hsp_evalue>
+      <Hsp_query-from>46</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>252</Hsp_align-len>
+      <Hsp_qseq>IESANAHDCVRFIEKRSAAGVSGKTIAKDMAALHAFYQFLILEQVRPDNPMQDVDAPRRAYSLPRVLSPEQVNTFLQSIPLCTPGGVRDRALFELIYAAGLRVSEAVSLSLSDIFFAERLLKVTGKGNKERMAPFGEQACYFLMQYIREARVRFTSAKHPENSEK--KGAVFLNRQGGRLSRKGIWKRLQDIEIRSGVETHV--HTFRHSYATHLLAGGVDLHSVQCLLGHADIATTQVYTHVENGQLEACH</Hsp_qseq>
+      <Hsp_hseq>IDRASIQQCLGYLHDN---GASAKSLARFISTIRSFHQFALREKYAAKDPTVLIETPKYDRKLPDVLEINEVLALLETPNLAKINGYRDRTMLELLYATGMRVSELIQIELEDVNLIMGFVKVFGKGNKERIVPLGDTVIEYLKTYIETIR--------PQLLKKTVTNTLFLNMHGKPLSRQAIWKMIKQNAIKANITKSLTPHTLRHSFATHLLENGADLRAVQEMLGHSDISTTQLYTHVSKSQIRKMY</Hsp_hseq>
+      <Hsp_midline>I+ A+   C+ ++      G S K++A+ ++ + +F+QF + E+    +P   ++ P+    LP VL   +V   L++  L    G RDR + EL+YA G+RVSE + + L D+      +KV GKGNKER+ P G+    +L  YI   R        P+  +K     +FLN  G  LSR+ IWK ++   I++ +   +  HT RHS+ATHLL  G DL +VQ +LGH+DI+TTQ+YTHV   Q+   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|34222791|sp|Q7ZAJ2.1|XERD_STAES</Hit_id>
+  <Hit_def>RecName: Full=Tyrosine recombinase XerD</Hit_def>
+  <Hit_accession>Q7ZAJ2</Hit_accession>
+  <Hit_len>295</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>173.326</Hsp_bit-score>
+      <Hsp_score>438</Hsp_score>
+      <Hsp_evalue>5.48253e-50</Hsp_evalue>
+      <Hsp_query-from>65</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>64</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>GVSGKTIAKDMAALHAFYQFLILEQVRPDNPMQDVDAPRRAYSLPRVLSPEQVNTFLQSIPLCTPGGVRDRALFELIYAAGLRVSEAVSLSLSDIFFAERLLKVTGKGNKERMAPFGEQACYFLMQYIREARVRFTSAKHPENSEKKGAVFLNRQGGRLSRKGIWKRLQDIEIRSGVETHV--HTFRHSYATHLLAGGVDLHSVQCLLGHADIATTQVYTHVENGQLEACH</Hsp_qseq>
+      <Hsp_hseq>GQSSKSLARFISTIRSFHQFALREKYAAKDPTVLIETPKYEKKLPDVLEIDEVIALLETPDLTKNNGYRDRTMLELLYATGMRVTEIIQLDVEDVNLIMGFVRVFGKGNKERIVPLGDTVIEYLTTYIETVRPQLLKQTTTQ------ALFLNMHGKSLSRQGIWKIIKQYGLKANINKTLTPHTLRHSFATHLLENGADLRAVQEMLGHSDISTTQLYTHVSKSQIRKMY</Hsp_hseq>
+      <Hsp_midline>G S K++A+ ++ + +F+QF + E+    +P   ++ P+    LP VL  ++V   L++  L    G RDR + EL+YA G+RV+E + L + D+      ++V GKGNKER+ P G+    +L  YI   R +       +      A+FLN  G  LSR+GIWK ++   +++ +   +  HT RHS+ATHLL  G DL +VQ +LGH+DI+TTQ+YTHV   Q+   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|82582338|sp|Q4L6J7.1|XERD_STAHJ</Hit_id>
+  <Hit_def>RecName: Full=Tyrosine recombinase XerD</Hit_def>
+  <Hit_accession>Q4L6J7</Hit_accession>
+  <Hit_len>295</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>172.555</Hsp_bit-score>
+      <Hsp_score>436</Hsp_score>
+      <Hsp_evalue>1.08963e-49</Hsp_evalue>
+      <Hsp_query-from>65</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>64</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>GVSGKTIAKDMAALHAFYQFLILEQVRPDNPMQDVDAPRRAYSLPRVLSPEQVNTFLQSIPLCTPGGVRDRALFELIYAAGLRVSEAVSLSLSDIFFAERLLKVTGKGNKERMAPFGEQACYFLMQYIREARVRFTSAKHPENSEKKGAVFLNRQGGRLSRKGIWKRLQDIEIRSGVETHV--HTFRHSYATHLLAGGVDLHSVQCLLGHADIATTQVYTHVENGQLEACH</Hsp_qseq>
+      <Hsp_hseq>GASAKSIARFISTIRSFHQFALREKYAAKDPTVLIETPKYEKKLPDVLDVEEVIQLLETPDLTKNNGYRDRTILELLYATGMRVTELIQIEIDDVNLIMGFVKVFGKGNKERIIPLGDTVIEYLDTYINNVRSQLLK------KTVTNVLFLNLHGRPLTRQGIWKLIKQYGLRANINKTLTPHTLRHSFATHLLENGADLRAVQEMLGHSDISTTQLYTHVSKTQIRQMY</Hsp_hseq>
+      <Hsp_midline>G S K+IA+ ++ + +F+QF + E+    +P   ++ P+    LP VL  E+V   L++  L    G RDR + EL+YA G+RV+E + + + D+      +KV GKGNKER+ P G+    +L  YI   R +               +FLN  G  L+R+GIWK ++   +R+ +   +  HT RHS+ATHLL  G DL +VQ +LGH+DI+TTQ+YTHV   Q+   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1175025|sp|P44630.1|XERD_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Tyrosine recombinase XerD</Hit_def>
+  <Hit_accession>P44630</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>171.785</Hsp_bit-score>
+      <Hsp_score>434</Hsp_score>
+      <Hsp_evalue>2.4257e-49</Hsp_evalue>
+      <Hsp_query-from>44</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>253</Hsp_align-len>
+      <Hsp_qseq>CNIESANAHDCVRFIEKRSAAGVSGKTIAKDMAALHAFYQFLILEQVRPDNPMQDVDAPRRAYSLPRVLSPEQVNTFLQSIPLCTPGGVRDRALFELIYAAGLRVSEAVSLSLSDIFFAERLLKVTGKGNKERMAPFGEQACYFLMQYIREARVRFTSAKHPENSEKKGAVFLNRQGGRLSRKGIWKRLQDIEIRSGVETHV---HTFRHSYATHLLAGGVDLHSVQCLLGHADIATTQVYTHVENGQLEACH</Hsp_qseq>
+      <Hsp_hseq>LSLETLDAVDLQGFLGERLEKGYKATSTARMLSAMRKLFQYLYREKYRVDDPSAVLSSPKLPSRLPKYLTEQQVSDLLNTPNVEVPLELRDKAMLELLYATGLRVTELVSLTIENMSVQQGVVRVIGKGNKERIVPMGEEAAYWVRQFMLYGRPVLL------NGQSSDVVFPSQRAQQMTRQTFWHRVKHYAILADIDADALSPHVLRHAFATHLVNHGADLRVVQMLLGHTDLSTTQIYTHVAKERLKRLH</Hsp_hseq>
+      <Hsp_midline> ++E+ +A D   F+ +R   G    + A+ ++A+   +Q+L  E+ R D+P   + +P+    LP+ L+ +QV+  L +  +  P  +RD+A+ EL+YA GLRV+E VSL++ ++   + +++V GKGNKER+ P GE+A Y++ Q++   R          N +    VF +++  +++R+  W R++   I + ++      H  RH++ATHL+  G DL  VQ LLGH D++TTQ+YTHV   +L+  H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>462628</Statistics_db-num>
+      <Statistics_db-len>173435234</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

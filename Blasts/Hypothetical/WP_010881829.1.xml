@@ -1,0 +1,294 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>Query_178599</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>238</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_178599</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>238</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|14285873|sp|O83396.1|Y381_TREPA</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein TP_0381</Hit_def>
+  <Hit_accession>O83396</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>465.692</Hsp_bit-score>
+      <Hsp_score>1197</Hsp_score>
+      <Hsp_evalue>3.22004e-166</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>238</Hsp_identity>
+      <Hsp_positive>238</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>MLGAELADTGLFVRFGALHFAIASVAVLLSALFVLLPFALPRLLAHKNLARAGVAILFLRLGLMLCGTLLDGRSWRNELPFHLCPAALISGSLYFITRRPIFFNLLYFWHFGSFVAVLYPDLTRAHTILYAYLFMLTHCLEPAMVVFSLLHLRERISKRGLQCAVLGFLLLAANALFWNRRLGANYLFISKYPLEILRVIRPFFVYQLLFVSALCLLMLVLYLPFRPSQHGRNQLFVI</Hsp_qseq>
+      <Hsp_hseq>MLGAELADTGLFVRFGALHFAIASVAVLLSALFVLLPFALPRLLAHKNLARAGVAILFLRLGLMLCGTLLDGRSWRNELPFHLCPAALISGSLYFITRRPIFFNLLYFWHFGSFVAVLYPDLTRAHTILYAYLFMLTHCLEPAMVVFSLLHLRERISKRGLQCAVLGFLLLAANALFWNRRLGANYLFISKYPLEILRVIRPFFVYQLLFVSALCLLMLVLYLPFRPSQHGRNQLFVI</Hsp_hseq>
+      <Hsp_midline>MLGAELADTGLFVRFGALHFAIASVAVLLSALFVLLPFALPRLLAHKNLARAGVAILFLRLGLMLCGTLLDGRSWRNELPFHLCPAALISGSLYFITRRPIFFNLLYFWHFGSFVAVLYPDLTRAHTILYAYLFMLTHCLEPAMVVFSLLHLRERISKRGLQCAVLGFLLLAANALFWNRRLGANYLFISKYPLEILRVIRPFFVYQLLFVSALCLLMLVLYLPFRPSQHGRNQLFVI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|141438|sp|P25149.1|YWAF_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein YwaF; AltName: Full=ORF1</Hit_def>
+  <Hit_accession>P25149</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>0.646328</Hsp_evalue>
+      <Hsp_query-from>60</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>RLGLMLCGTLLDGRSWRNELPFHLCPAALISGSLYFITRRPIFFNLLYFWHFGSFVAVL-YPDLTRAHTILYAY-LFMLTH------CLEPAMVVFSLLHLRERISKRGLQCAVLGFLLLAANALFWNRRLGANYLFISKYP--LEILRVIRPF</Hsp_qseq>
+      <Hsp_hseq>QIGYQIWMVATDRWSVRTSLPLQLSDLSVYLSAIMLVTKSRKLFVFLFFVGIGSSIQALATPDLGMFSFPHIRYILFFISHGSVFLSCLLMAVIG------TYRMGQRSLWVTVLLVNVYGVCIFLIDRWLGANYMYLTKKPGGSSLLDVLGPW</Hsp_hseq>
+      <Hsp_midline>++G  +     D  S R  LP  L   ++   ++  +T+    F  L+F   GS +  L  PDL         Y LF ++H      CL  A++         R+ +R L   VL   +        +R LGANY++++K P    +L V+ P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1730699|sp|P53756.1|PDR18_YEAST</Hit_id>
+  <Hit_def>RecName: Full=ABC transporter ATP-binding protein/permease PDR18; AltName: Full=Pleiotropic drug resistance protein 18</Hit_def>
+  <Hit_accession>P53756</Hit_accession>
+  <Hit_len>1333</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>0.958485</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>143</Hsp_query-to>
+      <Hsp_hit-from>1075</Hsp_hit-from>
+      <Hsp_hit-to>1229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>TGLFVRFGALHFAIASVAVLLSALFVLLPFALPRLLAHKNLARAGVAILFLRL----GLMLCGTLLDGRSWRNELPFHLCPAALISGSLYF-------ITRRPIFF----NLLYFWHFGSFVAVLY--PDLTRAHTIL-YAYLFMLTHC--LEPA</Hsp_qseq>
+      <Hsp_hseq>SGLFIGFTFFHVGVNAIGLQNSLFACFMAIVISAPATNQIQERATVAKELYEVRESKSNMFHWSLLLITHYLNELPYHLLFSTIFFVSSYFPLGVFTEASRSSVFYLNYAILFQLYYIGLALMILYMSPNLQSANVIVGFILSFLLSFCGAVQPA</Hsp_hseq>
+      <Hsp_midline>+GLF+ F   H  + ++ +  S     +   +     ++   RA VA     +      M   +LL    + NELP+HL  + +   S YF        +R  +F+     L   ++ G  + +LY  P+L  A+ I+ +   F+L+ C  ++PA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|150438815|sp|A0JNJ4.1|ZN692_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=Zinc finger protein 692</Hit_def>
+  <Hit_accession>A0JNJ4</Hit_accession>
+  <Hit_len>510</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>1.56858</Hsp_evalue>
+      <Hsp_query-from>149</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>399</Hsp_hit-from>
+      <Hsp_hit-to>457</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>LLHLRERISKRGLQCAVLGFLLLAANALFWNRRLGANYLFISKYPLEIL--RVIRPFFV</Hsp_qseq>
+      <Hsp_hseq>VIHRRIHTGEKPLQCEICGFTCRQKASLNWHRRKHAETVAALRFPCEFCGKRFEKPDSV</Hsp_hseq>
+      <Hsp_midline>++H R    ++ LQC + GF      +L W+RR  A  +   ++P E    R  +P  V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|74761262|sp|Q9BU19.1|ZN692_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Zinc finger protein 692</Hit_def>
+  <Hit_accession>Q9BU19</Hit_accession>
+  <Hit_len>519</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>1.57492</Hsp_evalue>
+      <Hsp_query-from>149</Hsp_query-from>
+      <Hsp_query-to>227</Hsp_query-to>
+      <Hsp_hit-from>405</Hsp_hit-from>
+      <Hsp_hit-to>485</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>LLHLRERISKRGLQCAVLGFLLLAANALFWNRRLGANYLFISKYPLEIL--RVIRPFFVYQLLFVSALCLLMLVLYLPFRP</Hsp_qseq>
+      <Hsp_hseq>VIHRRIHTGEKPLQCEICGFTCRQKASLNWHQRKHAETVAALRFPCEFCGKRFEKPDSVAAHRSKSHPALLLAPQESPSGP</Hsp_hseq>
+      <Hsp_midline>++H R    ++ LQC + GF      +L W++R  A  +   ++P E    R  +P  V      S   LL+     P  P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|94730689|sp|Q3U381.1|ZN692_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Zinc finger protein 692</Hit_def>
+  <Hit_accession>Q3U381</Hit_accession>
+  <Hit_len>531</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>1.92484</Hsp_evalue>
+      <Hsp_query-from>149</Hsp_query-from>
+      <Hsp_query-to>195</Hsp_query-to>
+      <Hsp_hit-from>404</Hsp_hit-from>
+      <Hsp_hit-to>450</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>LLHLRERISKRGLQCAVLGFLLLAANALFWNRRLGANYLFISKYPLE</Hsp_qseq>
+      <Hsp_hseq>VIHRRIHTGEKPLQCEICGFTCRQKASLNWHRRKHAETAAALRFPCE</Hsp_hseq>
+      <Hsp_midline>++H R    ++ LQC + GF      +L W+RR  A      ++P E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|2506947|sp|P23482.2|HYFB_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Hydrogenase-4 component B</Hit_def>
+  <Hit_accession>P23482</Hit_accession>
+  <Hit_len>672</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>3.22026</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>266</Hsp_hit-from>
+      <Hsp_hit-to>325</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>LADTGLFVRFGALHFAIASVAVLLSALFVLLPFALPRLLAHKNLARAGVAILFLRLGLMLCG</Hsp_qseq>
+      <Hsp_hseq>LAQTGLPLWWGILVMAIGAISALLGVLYALAEQDIKRLLAWSTVENVG--IILLAVGVAMVG</Hsp_hseq>
+      <Hsp_midline>LA TGL + +G L  AI +++ LL  L+ L    + RLLA   +   G  I+ L +G+ + G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|189029214|sp|A6NDV4.2|TMM8B_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Transmembrane protein 8B; AltName: Full=Nasopharyngeal carcinoma-associated gene 6 protein; AltName: Full=Protein NAG-5; AltName: Full=Protein NGX6</Hit_def>
+  <Hit_accession>A6NDV4</Hit_accession>
+  <Hit_len>472</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>6.67907</Hsp_evalue>
+      <Hsp_query-from>74</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>375</Hsp_hit-from>
+      <Hsp_hit-to>435</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>SWRNELPFHLCPAALISGS---LY-FITRRPIFFNLLYFWHF---GSFVAVLYPDLTRAHTI</Hsp_qseq>
+      <Hsp_hseq>TWRRWL-FYLCPGSLIAGSAVLLYAFVETRDNYFYIHSIWHMLIAGSVGFLLPPRAKTDHGV</Hsp_hseq>
+      <Hsp_midline>+WR  L F+LCP +LI+GS   LY F+  R  +F +   WH    GS   +L P     H +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|226703908|sp|B0TG92.1|THIG_HELMI</Hit_id>
+  <Hit_def>RecName: Full=Thiazole synthase</Hit_def>
+  <Hit_accession>B0TG92</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>7.33781</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>111</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>HFAIASVAVLLSALFVLLPFALPRLLAHKNLARAGVAILF</Hsp_qseq>
+      <Hsp_hseq>NETIKATGVLAEEGFVVLPYMHPDLYAAKELERAGAAAVM</Hsp_hseq>
+      <Hsp_midline>+  I +  VL    FV+LP+  P L A K L RAG A + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>462628</Statistics_db-num>
+      <Statistics_db-len>173435234</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

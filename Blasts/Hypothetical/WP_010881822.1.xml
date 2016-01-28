@@ -1,0 +1,182 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>Query_120799</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>791</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_120799</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>791</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|14285871|sp|O83389.1|Y374_TREPA</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein TP_0374</Hit_def>
+  <Hit_accession>O83389</Hit_accession>
+  <Hit_len>791</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1624.76</Hsp_bit-score>
+      <Hsp_score>4206</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>791</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>791</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>791</Hsp_identity>
+      <Hsp_positive>791</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>791</Hsp_align-len>
+      <Hsp_qseq>MRSMAQHLVTKIVTRRGLLMSKGMCPRMGRLCAVSIFCAFSGIQDASCVSEPAPPQDLERNHPGVAARYLQEGRWQEALSQAEQGVASAPQIADFLFIAARASYALQQPRARALQWMARAVAKDMQWCVYDIEEVRLFYARLCVDTLQHARALELLATAEQVSADADWLRARARYGLGQVEHAQELIEKALERWALDARFAKLFFAQERSRRPSSRSKKIADSILSRLSVWQEQDPSLLVEAALFEPRTNMAFRYLQTYFTLRPLDAPGESSAQSSYEQSTRAGDSAPEQELYARAQSIVLGLQYGVLDEQRAMEMFCTLNSPLAVPAVDPTDDVSSFGVHASSVSSSTPLQRVVVLYADLLHEFSRLLASRPIRARFARFLAEFEGVLYTDENRDGIVSARVFFKAGRPSRAQFDTNQDGILEYEVYANDGAPTCVHTMHSTQKTELSRASVFPIPQNIAAHDHERAAERWIAPRVSLPADNGVEGETQARVPLTQQGYRVCYDRYPEVHQVGWEDKTYVLRPRALRWQPVRMQSLDLARDLEGVRSHDFFTMVLTNEPLPTEQQITVSSLYYEKPDSLFERARVRTYLDEGLPLFSETHVGSRFRARTHYVDGRATRRDSDRDDDGFFETREYYNAQGAVRALSVDVHKDRSFAYQEEYGAKGQKVQKWYGRGRVTISHTELPTGHARTEWLHPVTGRHVTVDFVQGVPKRLLVDGEVHALTKDPRNAALYWVRRIPRNGDEVGQRIVESFRAATSPVVSEYFRTGGSVVRAVRSGGVVFAEELEPGKE</Hsp_qseq>
+      <Hsp_hseq>MRSMAQHLVTKIVTRRGLLMSKGMCPRMGRLCAVSIFCAFSGIQDASCVSEPAPPQDLERNHPGVAARYLQEGRWQEALSQAEQGVASAPQIADFLFIAARASYALQQPRARALQWMARAVAKDMQWCVYDIEEVRLFYARLCVDTLQHARALELLATAEQVSADADWLRARARYGLGQVEHAQELIEKALERWALDARFAKLFFAQERSRRPSSRSKKIADSILSRLSVWQEQDPSLLVEAALFEPRTNMAFRYLQTYFTLRPLDAPGESSAQSSYEQSTRAGDSAPEQELYARAQSIVLGLQYGVLDEQRAMEMFCTLNSPLAVPAVDPTDDVSSFGVHASSVSSSTPLQRVVVLYADLLHEFSRLLASRPIRARFARFLAEFEGVLYTDENRDGIVSARVFFKAGRPSRAQFDTNQDGILEYEVYANDGAPTCVHTMHSTQKTELSRASVFPIPQNIAAHDHERAAERWIAPRVSLPADNGVEGETQARVPLTQQGYRVCYDRYPEVHQVGWEDKTYVLRPRALRWQPVRMQSLDLARDLEGVRSHDFFTMVLTNEPLPTEQQITVSSLYYEKPDSLFERARVRTYLDEGLPLFSETHVGSRFRARTHYVDGRATRRDSDRDDDGFFETREYYNAQGAVRALSVDVHKDRSFAYQEEYGAKGQKVQKWYGRGRVTISHTELPTGHARTEWLHPVTGRHVTVDFVQGVPKRLLVDGEVHALTKDPRNAALYWVRRIPRNGDEVGQRIVESFRAATSPVVSEYFRTGGSVVRAVRSGGVVFAEELEPGKE</Hsp_hseq>
+      <Hsp_midline>MRSMAQHLVTKIVTRRGLLMSKGMCPRMGRLCAVSIFCAFSGIQDASCVSEPAPPQDLERNHPGVAARYLQEGRWQEALSQAEQGVASAPQIADFLFIAARASYALQQPRARALQWMARAVAKDMQWCVYDIEEVRLFYARLCVDTLQHARALELLATAEQVSADADWLRARARYGLGQVEHAQELIEKALERWALDARFAKLFFAQERSRRPSSRSKKIADSILSRLSVWQEQDPSLLVEAALFEPRTNMAFRYLQTYFTLRPLDAPGESSAQSSYEQSTRAGDSAPEQELYARAQSIVLGLQYGVLDEQRAMEMFCTLNSPLAVPAVDPTDDVSSFGVHASSVSSSTPLQRVVVLYADLLHEFSRLLASRPIRARFARFLAEFEGVLYTDENRDGIVSARVFFKAGRPSRAQFDTNQDGILEYEVYANDGAPTCVHTMHSTQKTELSRASVFPIPQNIAAHDHERAAERWIAPRVSLPADNGVEGETQARVPLTQQGYRVCYDRYPEVHQVGWEDKTYVLRPRALRWQPVRMQSLDLARDLEGVRSHDFFTMVLTNEPLPTEQQITVSSLYYEKPDSLFERARVRTYLDEGLPLFSETHVGSRFRARTHYVDGRATRRDSDRDDDGFFETREYYNAQGAVRALSVDVHKDRSFAYQEEYGAKGQKVQKWYGRGRVTISHTELPTGHARTEWLHPVTGRHVTVDFVQGVPKRLLVDGEVHALTKDPRNAALYWVRRIPRNGDEVGQRIVESFRAATSPVVSEYFRTGGSVVRAVRSGGVVFAEELEPGKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|224493054|sp|B2B0E2.1|KAD2_PODAN</Hit_id>
+  <Hit_def>RecName: Full=Adenylate kinase; AltName: Full=ATP-AMP transphosphorylase; AltName: Full=ATP:AMP phosphotransferase; AltName: Full=Adenylate kinase cytosolic and mitochondrial; AltName: Full=Adenylate monophosphate kinase</Hit_def>
+  <Hit_accession>B2B0E2</Hit_accession>
+  <Hit_len>276</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>6.70106</Hsp_evalue>
+      <Hsp_query-from>694</Hsp_query-from>
+      <Hsp_query-to>768</Hsp_query-to>
+      <Hsp_hit-from>171</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>LHPVTGRHVTVDFVQGVPKRLLVDGEVHALTKDPRNAALYWVRRIPRNGDEVGQRIVESFRAATSPVVSEYFRTG</Hsp_qseq>
+      <Hsp_hseq>VHPASGRSYHVKF--NPPKKEMTD----DITGEP------LIQRSDDNADALKKRL-ETYHKQTTPVVNYYQKTG</Hsp_hseq>
+      <Hsp_midline>+HP +GR   V F    PK+ + D     +T +P       ++R   N D + +R+ E++   T+PVV+ Y +TG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1705990|sp|Q11005.1|MMP11_XENLA</Hit_id>
+  <Hit_def>RecName: Full=Stromelysin-3; Short=ST3; AltName: Full=Matrix metalloproteinase-11; Short=MMP-11; Flags: Precursor</Hit_def>
+  <Hit_accession>Q11005</Hit_accession>
+  <Hit_len>477</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>7.63362</Hsp_evalue>
+      <Hsp_query-from>198</Hsp_query-from>
+      <Hsp_query-to>330</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>ARFAKLFFAQERSRRPSSRSK-KIADSILSRLSVWQEQDPSLLVEAALFEPRTNMAFRYLQTYFTLR-PLDAPGESSAQSSYEQSTRAGDSAPE-QELYARAQSI--------------VLGLQYGVLDEQRAMEMFCTLNSPLAVPAVD</Hsp_qseq>
+      <Hsp_hseq>GRWDKTNLTYKIIRFPWQLSKVKVRRTIAEALKVWSEVTPLTFTE--VHEGRSDIIIDFTRYWHGDNLPFDGPGGILAHAFFPKTHREGDVHFDYDEAWTIGNNIGTDLLQVAAHEFGHMLGLQHSSI-SKSLMSPFYTFRYPLSLSADD</Hsp_hseq>
+      <Hsp_midline> R+ K     +  R P   SK K+  +I   L VW E  P    E  + E R+++   + + +     P D PG   A + + ++ R GD   +  E +    +I              +LGLQ+  +  +  M  F T   PL++ A D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1706292|sp|P54692.1|DAAA_BACLI</Hit_id>
+  <Hit_def>RecName: Full=D-alanine aminotransferase; AltName: Full=D-amino acid aminotransferase; AltName: Full=D-amino acid transaminase; Short=DAAT; AltName: Full=D-aspartate aminotransferase</Hit_def>
+  <Hit_accession>P54692</Hit_accession>
+  <Hit_len>283</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>8.04597</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>88</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>YLQEGRWQEALSQAEQGVASAPQIADFLFIAARASYALQQPRARALQWMARAVAKDMQWCVYDIEEVRLFYARLCVDTLQHARALE</Hsp_qseq>
+      <Hsp_hseq>YLQVTRGK-APRKHQYGAGLTPQVTAYTF-------PIQKPEKEQQNGVSAITADDMRWLRCDIKSLNLLYNVMIKQKAQEASAFE</Hsp_hseq>
+      <Hsp_midline>YLQ  R + A  + + G    PQ+  + F        +Q+P       ++   A DM+W   DI+ + L Y  +     Q A A E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|46577480|sp|Q8DRV9.1|SYD_STRMU</Hit_id>
+  <Hit_def>RecName: Full=Aspartate--tRNA ligase 2; AltName: Full=Aspartyl-tRNA synthetase 2; Short=AspRS 2</Hit_def>
+  <Hit_accession>Q8DRV9</Hit_accession>
+  <Hit_len>589</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>8.8014</Hsp_evalue>
+      <Hsp_query-from>387</Hsp_query-from>
+      <Hsp_query-to>476</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>GVLYTD-ENRDGIV--------SARVFFKAGRPSRAQFDTNQDGILEYEVYANDGAPTCVHTMHSTQKTEL--SRASVFPIPQNIAAHDHERAAERWIAPR</Hsp_qseq>
+      <Hsp_hseq>GLIFIDLRDREGIVQLVINPKTASNTVVKSAESLRSEYVIEVTGMIVERDQANDNLPTGCVEMQVTQLTILNASQTPPFEIKDKIEANDDTRLRYRYLDLR</Hsp_hseq>
+      <Hsp_midline>G+++ D  +R+GIV        ++    K+    R+++     G++     AND  PT    M  TQ T L  S+   F I   I A+D  R   R++  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>462628</Statistics_db-num>
+      <Statistics_db-len>173435234</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

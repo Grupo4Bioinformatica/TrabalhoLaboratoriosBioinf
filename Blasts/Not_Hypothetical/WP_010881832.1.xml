@@ -1,0 +1,602 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>Query_3791</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>379</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_3791</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>379</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|8134809|sp|O83399.1|RSMH_TREPA</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase H; AltName: Full=16S rRNA m(4)C1402 methyltransferase; AltName: Full=rRNA (cytosine-N(4)-)-methyltransferase RsmH &gt;gi|262825951|sp|B2S2Y1.1|RSMH_TREPS RecName: Full=Ribosomal RNA small subunit methyltransferase H; AltName: Full=16S rRNA m(4)C1402 methyltransferase; AltName: Full=rRNA (cytosine-N(4)-)-methyltransferase RsmH</Hit_def>
+  <Hit_accession>O83399</Hit_accession>
+  <Hit_len>379</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>760.755</Hsp_bit-score>
+      <Hsp_score>1963</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>379</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>379</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>379</Hsp_identity>
+      <Hsp_positive>379</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>379</Hsp_align-len>
+      <Hsp_qseq>MSLSGHTHTKEEVQAEVEAGEVQCPALCHQPVLVQECLTLLEPAIVGISRGADSTRDGAGAFFIDGTLGDGGHTQAFLHAYPALRALGVEIDPSMLARARARLTPFGKRLRYVLGWSDVFFASAYASAPASPATGRTAAGAAGVPGAYPAPQAVLLDLGISFFHYRGAMRGFSFAEEHMLDMRLDPQASQTAADLLNRLPQARLAQLFFEGGEERYARRIAQAVCAQRRQAPFCSARAFAEVVARVVPPMRTARFGKRRGVLGVLPKLHPATKAFQALRIAVNRELERLPRLLTAAFTALAPGGRLAVISFHSREDRIVKVHFRHWAKRCSCPARVPICSCGGVARASLITKKPLVPSCVERAANAASRSATLRVIEKR</Hsp_qseq>
+      <Hsp_hseq>MSLSGHTHTKEEVQAEVEAGEVQCPALCHQPVLVQECLTLLEPAIVGISRGADSTRDGAGAFFIDGTLGDGGHTQAFLHAYPALRALGVEIDPSMLARARARLTPFGKRLRYVLGWSDVFFASAYASAPASPATGRTAAGAAGVPGAYPAPQAVLLDLGISFFHYRGAMRGFSFAEEHMLDMRLDPQASQTAADLLNRLPQARLAQLFFEGGEERYARRIAQAVCAQRRQAPFCSARAFAEVVARVVPPMRTARFGKRRGVLGVLPKLHPATKAFQALRIAVNRELERLPRLLTAAFTALAPGGRLAVISFHSREDRIVKVHFRHWAKRCSCPARVPICSCGGVARASLITKKPLVPSCVERAANAASRSATLRVIEKR</Hsp_hseq>
+      <Hsp_midline>MSLSGHTHTKEEVQAEVEAGEVQCPALCHQPVLVQECLTLLEPAIVGISRGADSTRDGAGAFFIDGTLGDGGHTQAFLHAYPALRALGVEIDPSMLARARARLTPFGKRLRYVLGWSDVFFASAYASAPASPATGRTAAGAAGVPGAYPAPQAVLLDLGISFFHYRGAMRGFSFAEEHMLDMRLDPQASQTAADLLNRLPQARLAQLFFEGGEERYARRIAQAVCAQRRQAPFCSARAFAEVVARVVPPMRTARFGKRRGVLGVLPKLHPATKAFQALRIAVNRELERLPRLLTAAFTALAPGGRLAVISFHSREDRIVKVHFRHWAKRCSCPARVPICSCGGVARASLITKKPLVPSCVERAANAASRSATLRVIEKR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|85701364|sp|P62477.1|RSMH_TREDE</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase H; AltName: Full=16S rRNA m(4)C1402 methyltransferase; AltName: Full=rRNA (cytosine-N(4)-)-methyltransferase RsmH</Hit_def>
+  <Hit_accession>P62477</Hit_accession>
+  <Hit_len>315</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>313.153</Hsp_bit-score>
+      <Hsp_score>801</Hsp_score>
+      <Hsp_evalue>8.9971e-103</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>309</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>350</Hsp_align-len>
+      <Hsp_qseq>HQPVLVQECLTLLEPAIVGISRGADSTRDGAGAFFIDGTLGDGGHTQAFLHAYPALRALGVEIDPSMLARARARLTPFGKRLRYVLGWSDVFFASAYASAPASPATGRTAAGAAGVPGAYPAPQAVLLDLGISFFHYRGAMRGFSFAEEHMLDMRLDPQASQTAADLLNRLPQARLAQLFFEGGEERYARRIAQAVCAQRRQAPFCSARAFAEVVARVVPPMRTARFGKRRGVLGVLPKLHPATKAFQALRIAVNRELERLPRLLTAAFTALAPGGRLAVISFHSREDRIVKVHFRHWAKRCSCPARVPICSCGGVARASLITKKPLVPSCVERAANAASRSATLRVIEK</Hsp_qseq>
+      <Hsp_hseq>HTSVLLEECLEFLKP-------------DASDNLFVDGTLGEGGHTEAFLKRYPQLNAIGVDADVSIQERAKERLKPFGERIRFHLGWSDEFFKN--------------------YPKDFAPPNLILLDLGISMFHYVKSGRGFSFSSDEPLDMRLNPELRLSAADIVNSYNEKDLADLIFNYGEERYSRKIASRIVEQRAAAAFSNAKELADCIYKAVP--QNYRHGK----------IHPATKTFQALRIAVNGELDRLPRLLEAAFSVLAPNGRLGLITFHSLEDRIVKFYFKELGKSCTCPENMPICKCGGRPRAEVLTKKAVKASDEEIRLNPPSRSARLRVVRK</Hsp_hseq>
+      <Hsp_midline>H  VL++ECL  L+P             D +   F+DGTLG+GGHT+AFL  YP L A+GV+ D S+  RA+ RL PFG+R+R+ LGWSD FF +                     P  +  P  +LLDLGIS FHY  + RGFSF+ +  LDMRL+P+   +AAD++N   +  LA L F  GEERY+R+IA  +  QR  A F +A+  A+ + + VP  +  R GK          +HPATK FQALRIAVN EL+RLPRLL AAF+ LAP GRL +I+FHS EDRIVK +F+   K C+CP  +PIC CGG  RA ++TKK +  S  E   N  SRSA LRV+ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|171460803|sp|A0LNY2.1|RSMH_SYNFM</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase H; AltName: Full=16S rRNA m(4)C1402 methyltransferase; AltName: Full=rRNA (cytosine-N(4)-)-methyltransferase RsmH</Hit_def>
+  <Hit_accession>A0LNY2</Hit_accession>
+  <Hit_len>319</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>224.557</Hsp_bit-score>
+      <Hsp_score>571</Hsp_score>
+      <Hsp_evalue>2.73801e-68</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>379</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>315</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>56</Hsp_gaps>
+      <Hsp_align-len>361</Hsp_align-len>
+      <Hsp_qseq>PALCHQPVLVQECLTLLEPAIVGISRGADSTRDGAGAFFIDGTLGDGGHTQAFLHAY-PALRALGVEIDPSMLARARARLTPFGKRLRYVLGWSDVFFASAYASAPASPATGRTAAGAAGVPGAYP-----APQAVLLDLGISFFHYRGAMRGFSFAEEHMLDMRLDPQASQTAADLLNRLPQARLAQLFFEGGEERYARRIAQAVCAQRRQAPFCSARAFAEVVARVVPPMRTARFGKRRGVLGVLPKLHPATKAFQALRIAVNRELERLPRLLTAAFTALAPGGRLAVISFHSREDRIVKVHFRHWAKRCSCPARVPICSCGGVARASLITKKPLVPSCVERAANAASRSATLRVIEKR</Hsp_qseq>
+      <Hsp_hseq>PALEHIPVMLEQALELL------------ACR--RGGVYVDGTVGGGGYSEAILRASAPDGILLGVDWDAEAIGRAAGRLSAYGRR--AIL----------------------TKAGFAELPEVLPRHGFAQVDGIVLDLGVSAFQIDDAARGFSFTKDGPLDMRMDPGLPQTAADMVNTLPEKDLADLIFRLGEERWSRRIARAVVERRRERPFQRTLELADTVAATVPATRDSR------------RIHPATRTFLALRLAVNQELESLERFLSGALDLLKTGGRLCVVSFHSLEDRMVKGQFKEWAKSCRCPREAVLCRCEGRPLVRLLTRKAVRPDEREKERNPRSRSARLRAVEKQ</Hsp_hseq>
+      <Hsp_midline>PAL H PV++++ L LL            + R   G  ++DGT+G GG+++A L A  P    LGV+ D   + RA  RL+ +G+R   +L                      T AG A +P   P         ++LDLG+S F    A RGFSF ++  LDMR+DP   QTAAD++N LP+  LA L F  GEER++RRIA+AV  +RR+ PF      A+ VA  VP  R +R            ++HPAT+ F ALR+AVN+ELE L R L+ A   L  GGRL V+SFHS EDR+VK  F+ WAK C CP    +C C G     L+T+K + P   E+  N  SRSA LR +EK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|88909191|sp|Q3AAD7.1|RSMH_CARHZ</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase H; AltName: Full=16S rRNA m(4)C1402 methyltransferase; AltName: Full=rRNA (cytosine-N(4)-)-methyltransferase RsmH</Hit_def>
+  <Hit_accession>Q3AAD7</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>218.779</Hsp_bit-score>
+      <Hsp_score>556</Hsp_score>
+      <Hsp_evalue>2.90174e-66</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>307</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>175</Hsp_positive>
+      <Hsp_gaps>47</Hsp_gaps>
+      <Hsp_align-len>352</Hsp_align-len>
+      <Hsp_qseq>LCHQPVLVQECLTLLEPAIVGISRGADSTRDGAGAFFIDGTLGDGGHTQAFLHAYPALRALGVEIDPSMLARARARLTPFGKRLRYVLGWSDVFFASAYASAPASPATGRTAAGAAGVPGAYPAPQAVLLDLGISFFHYRGAMRGFSFAEEHMLDMRLDPQASQTAADLLNRLPQARLAQLFFEGGEERYARRIAQAVCAQRRQAPFCSARAFAEVVARVVPPMRTARFGKRRGVLGVLPKLHPATKAFQALRIAVNRELERLPRLLTAAFTALAPGGRLAVISFHSREDRIVKVHFRHWAKRCSCPARVPICSCGGVARASLITKKPLVPSCVERAANAASRSATLRVIEK</Hsp_qseq>
+      <Hsp_hseq>FSHVPVLLNETIEHLNLK--------------AGGVYVDATLGGGGHSEEILKRADC-RVVGLDQDEDALNHAAKRLAPFGDR---------------FIPVKSNFRNIRKVVYRLGLD----AVDGVLMDLGVSSFQLDNPLKGFSFQHDGPLDMRMDPQNPKTAADVVNTYPEKELIRIFYEYGEERYAPQIARAIVKRREKKPFTSTLELAEEIIRAVPA--KARREK-----------HPAKRVFQAIRIEVNDELSSLEEGLVGAVEVLKPGGRIVVITFHSLEDRLVKNFFRREENPCICPKDFPMCVCGKKPRLKVITKKPLVPSEEEIEKNRRAHSAKLRAAEK</Hsp_hseq>
+      <Hsp_midline>  H PVL+ E +  L                 AG  ++D TLG GGH++  L      R +G++ D   L  A  RL PFG R               +    ++    R      G+     A   VL+DLG+S F     ++GFSF  +  LDMR+DPQ  +TAAD++N  P+  L ++F+E GEERYA +IA+A+  +R + PF S    AE + R VP    AR  K           HPA + FQA+RI VN EL  L   L  A   L PGGR+ VI+FHS EDR+VK  FR     C CP   P+C CG   R  +ITKKPLVPS  E   N  + SA LR  EK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|263446302|sp|A8ZXX1.1|RSMH_DESOH</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase H; AltName: Full=16S rRNA m(4)C1402 methyltransferase; AltName: Full=rRNA (cytosine-N(4)-)-methyltransferase RsmH</Hit_def>
+  <Hit_accession>A8ZXX1</Hit_accession>
+  <Hit_len>312</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>218.394</Hsp_bit-score>
+      <Hsp_score>555</Hsp_score>
+      <Hsp_evalue>4.97637e-66</Hsp_evalue>
+      <Hsp_query-from>60</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>321</Hsp_align-len>
+      <Hsp_qseq>GAFFIDGTLGDGGH-TQAFLHAYPALRALGVEIDPSMLARARARLTPFGKRLRYVLG-WSDVFFASAYASAPASPATGRTAAGAAGVPGAYPAPQAVLLDLGISFFHYRGAMRGFSFAEEHMLDMRLDPQASQTAADLLNRLPQARLAQLFFEGGEERYARRIAQAVCAQRRQAPFCSARAFAEVVARVVPPMRTARFGKRRGVLGVLPKLHPATKAFQALRIAVNRELERLPRLLTAAFTALAPGGRLAVISFHSREDRIVKVHFRHWAKRCSCPARVPICSCGGVARASLITKKPLVPSCVERAANAASRSATLRVIEK</Hsp_qseq>
+      <Hsp_hseq>GKIVADCTLGGGGHAVRIAEQILPEGLLIGIDKDPAALAHAKQALSVFGERVLYVRGNFAD--FSEILSSLD------------------IPAVDGVLLDLGLSFYQIDGSGRGFSFRKDEPLDMRMDPDQSLTAADLVNQSAEADLVRIFREFGEERYASRIARRIVEARRSAPVTTSGQLARIVTDAYP-------AKERHT----AKIDPATRVFMALRIAVNTELENLERFLDTVIDRIKPGGRICVLSFHSLEDRMVKRRMKLWEKACVCPPGLPVCSCSKQRECRIVTRKALVPTAEEVQANPMARSVRLRAAEK</Hsp_hseq>
+      <Hsp_midline>G    D TLG GGH  +      P    +G++ DP+ LA A+  L+ FG+R+ YV G ++D  F+   +S                     PA   VLLDLG+SF+   G+ RGFSF ++  LDMR+DP  S TAADL+N+  +A L ++F E GEERYA RIA+ +   RR AP  ++   A +V    P        K R       K+ PAT+ F ALRIAVN ELE L R L      + PGGR+ V+SFHS EDR+VK   + W K C CP  +P+CSC       ++T+K LVP+  E  AN  +RS  LR  EK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|263455964|sp|C6DZJ8.1|RSMH_GEOSM</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase H; AltName: Full=16S rRNA m(4)C1402 methyltransferase; AltName: Full=rRNA (cytosine-N(4)-)-methyltransferase RsmH</Hit_def>
+  <Hit_accession>C6DZJ8</Hit_accession>
+  <Hit_len>312</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.542</Hsp_bit-score>
+      <Hsp_score>545</Hsp_score>
+      <Hsp_evalue>1.49847e-64</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>182</Hsp_positive>
+      <Hsp_gaps>46</Hsp_gaps>
+      <Hsp_align-len>351</Hsp_align-len>
+      <Hsp_qseq>HQPVLVQECLTLLEPAIVGISRGADSTRDGAGAFFIDGTLGDGGHTQAFLHAY-PALRALGVEIDPSMLARARARLTPFGKRLRYVLGWSDVFFASAYASAPASPATGRTAAGAAGVPGAYPAPQAVLLDLGISFFHYRGAMRGFSFAEEHMLDMRLDPQASQTAADLLNRLPQARLAQLFFEGGEERYARRIAQAVCAQRRQAPFCSARAFAEVVARVVPPMRTARFGKRRGVLGVLPKLHPATKAFQALRIAVNRELERLPRLLTAAFTALAPGGRLAVISFHSREDRIVKVHFRHWAKRCSCPARVPICSCGGVARASLITKKPLVPSCVERAANAASRSATLRVIEK</Hsp_qseq>
+      <Hsp_hseq>HISVLPDEVLQALSPK--------------SGGVYVDGTLGGAGHAGLILTASAPEGRLIGFDRDEEAIAVARQRLSVFGGRVRII---HRNFAGIAQALAEI---------GVDGIDG-------FVLDLGVSSHQLDRDERGFSFMHDAPLDMRMDRSSGQSAADLVNTLPEAELYRIISEYGEERWAKRVASFIVKARDERPIETTLELVDVIKGAIP---KAKWEER---------LHPATRTFQALRIAVNEELKSLEEGLQGLLSLLKQGGRGAVISFHSLEDRIVKEGFRAAATGCTCPKELPICVCGRVPRFKLVTRKPITAGESEVAANPRSRSAKLRVVEK</Hsp_hseq>
+      <Hsp_midline>H  VL  E L  L P               +G  ++DGTLG  GH    L A  P  R +G + D   +A AR RL+ FG R+R +      F   A A A           G  G+ G        +LDLG+S        RGFSF  +  LDMR+D  + Q+AADL+N LP+A L ++  E GEER+A+R+A  +   R + P  +     +V+   +P    A++ +R         LHPAT+ FQALRIAVN EL+ L   L    + L  GGR AVISFHS EDRIVK  FR  A  C+CP  +PIC CG V R  L+T+KP+     E AAN  SRSA LRV+EK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|263447569|sp|A1QZA2.1|RSMH_BORT9</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase H; AltName: Full=16S rRNA m(4)C1402 methyltransferase; AltName: Full=rRNA (cytosine-N(4)-)-methyltransferase RsmH</Hit_def>
+  <Hit_accession>A1QZA2</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.001</Hsp_bit-score>
+      <Hsp_score>541</Hsp_score>
+      <Hsp_evalue>3.03013e-64</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>294</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>182</Hsp_positive>
+      <Hsp_gaps>63</Hsp_gaps>
+      <Hsp_align-len>353</Hsp_align-len>
+      <Hsp_qseq>LCHQPVLVQECLTLLEPAIVGISRGADSTRDGAGAFFIDGTLGDGGHTQAFLHAYPALRALGVEIDPSMLARARARLTPFGKRLRYVLGWSDVFFASAYASAPASPATGRTAAGAAGVPGAYPAPQAVLLDLGISFFHYRGAMRGFSFAEEHMLDMRLDPQAS-QTAADLLNRLPQARLAQLFFEGGEERYARRIAQAVCAQRRQAPFCSARAFAEVVARVVPPMRTARFGKRRGVLGVLPKLHPATKAFQALRIAVNRELERLPRLLTAAFTALAPGGRLAVISFHSREDRIVKVHFRHWAKRCSCPARVPICSCGGVARASLITKKPLVPSCVERAANAASRSATLRVIEK</Hsp_qseq>
+      <Hsp_hseq>IFHIPVLLEEIINLLEASNIS-----------DGFVFVDCTLGEGGHSSAVLKKYQNINVIGIDRDDVVLNRAKESLIEFKGRVSYFNTWFDDFFSEY-------PLSSKI--------------NFILADLGISMFHYKMSGRGFSFFEDERLDMRLYPGAGGLSAYDIINTFDKKRLENLIYELSGERYSRRIVKSILEYRKIKKIETPRELQDIVSKAYPRIKL--------------KINPATKTFQALRIYVNDELFRLKRSLPLWVESLSNNGVLAIVTFHSLEDKIVKEFFKGLSKDQYC----------------ILTKKPIMPRCEEKRFNSASRSAKLRVIKK</Hsp_hseq>
+      <Hsp_midline>+ H PVL++E + LLE + +             G  F+D TLG+GGH+ A L  Y  +  +G++ D  +L RA+  L  F  R+ Y   W D FF+         P + +                 +L DLGIS FHY+ + RGFSF E+  LDMRL P A   +A D++N   + RL  L +E   ERY+RRI +++   R+     + R   ++V++  P ++               K++PATK FQALRI VN EL RL R L     +L+  G LA+++FHS ED+IVK  F+  +K   C                ++TKKP++P C E+  N+ASRSA LRVI+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|42559425|sp|P60396.1|RSMH_GEOSL</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase H; AltName: Full=16S rRNA m(4)C1402 methyltransferase; AltName: Full=rRNA (cytosine-N(4)-)-methyltransferase RsmH</Hit_def>
+  <Hit_accession>P60396</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>209.92</Hsp_bit-score>
+      <Hsp_score>533</Hsp_score>
+      <Hsp_evalue>8.35485e-63</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>310</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>182</Hsp_positive>
+      <Hsp_gaps>52</Hsp_gaps>
+      <Hsp_align-len>357</Hsp_align-len>
+      <Hsp_qseq>ALCHQPVLVQECLTLLEPAIVGISRGADSTRDGAGAFFIDGTLGDGGHTQAFLHAY-PALRALGVEIDPSMLARARARLTPFGKRLRYVLG-WSDVFFASAYASAPASPATGRTAA--GAAGVPGAYPAPQAVLLDLGISFFHYRGAMRGFSFAEEHMLDMRLDPQASQTAADLLNRLPQARLAQLFFEGGEERYARRIAQAVCAQRRQAPFCSARAFAEVVARVVPPMRTARFGKRRGVLGVLPKLHPATKAFQALRIAVNRELERLPRLLTAAFTALAPGGRLAVISFHSREDRIVKVHFRHWAKRCSCPARVPICSCGGVARASLITKKPLVPSCVERAANAASRSATLRVIEK</Hsp_qseq>
+      <Hsp_hseq>TFSHRPVMPAEVLEYLSPR--------------PGGVYVDGTLGGAGHARLILEATSPDGMLIGFDRDPAALEVARERLALFGERFRPVPGNFSEM---------------GRVLAELGVDGVDG-------FLLDVGVSSHQLDTAERGFSFLTDAPLDMRMNTLVPGTAADLVNDLNEHELARIIKEYGEERWARRIASFIVKARVDGPIERTLQLVDIIKGAIP----------RGAWE--ERIHPATRTFQALRIAVNDELGSLERGLESALGLLRPGGRGVVISFHSLEDRIVKTMFRRYAQGCTCPKELPRCVCGGVPRLRILTGRPVVAGDVEVAENPRARSAKLRAAEK</Hsp_hseq>
+      <Hsp_midline>   H+PV+  E L  L P                G  ++DGTLG  GH +  L A  P    +G + DP+ L  AR RL  FG+R R V G +S++               GR  A  G  GV G        LLD+G+S      A RGFSF  +  LDMR++     TAADL+N L +  LA++  E GEER+ARRIA  +   R   P        +++   +P          RG      ++HPAT+ FQALRIAVN EL  L R L +A   L PGGR  VISFHS EDRIVK  FR +A+ C+CP  +P C CGGV R  ++T +P+V   VE A N  +RSA LR  EK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|123572785|sp|Q39YM7.1|RSMH_GEOMG</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase H; AltName: Full=16S rRNA m(4)C1402 methyltransferase; AltName: Full=rRNA (cytosine-N(4)-)-methyltransferase RsmH</Hit_def>
+  <Hit_accession>Q39YM7</Hit_accession>
+  <Hit_len>313</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>208.764</Hsp_bit-score>
+      <Hsp_score>530</Hsp_score>
+      <Hsp_evalue>1.99994e-62</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>312</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>180</Hsp_positive>
+      <Hsp_gaps>47</Hsp_gaps>
+      <Hsp_align-len>352</Hsp_align-len>
+      <Hsp_qseq>HQPVLVQECLTLLEPAIVGISRGADSTRDGAGAFFIDGTLGDGGHTQAFLHAY-PALRALGVEIDPSMLARARARLTPFGKRLRYVLGWSDVFFASAYASAPASPATGRTAAGAAGVPGAYPAPQAVLLDLGISFFHYRGAMRGFSFAEEHMLDMRLDPQASQTAADLLNRLPQARLAQLFFEGGEERYARRIAQAVCAQRRQ-APFCSARAFAEVVARVVPPMRTARFGKRRGVLGVLPKLHPATKAFQALRIAVNRELERLPRLLTAAFTALAPGGRLAVISFHSREDRIVKVHFRHWAKRCSCPARVPICSCGGVARASLITKKPLVPSCVERAANAASRSATLRVIEK</Hsp_qseq>
+      <Hsp_hseq>HLSVMPAEVLALLSPR--------------PGGVYVDGTLGGAGHARMILEASSPDGVLVGFDRDPEALAAASKRIASFGDRVRLV--------RSNFAAMDESLAT----LGIDTIDG-------FLLDLGVSSHQLDTAERGFSFQVDAPLDMRMDPETGETAADLVNELSADELARIIREYGEERWAKRIASFVVKAREQHGPIESTLQLVDCVKGAIP---RAAWEER---------IHPATRTFQALRIAVNDELGSLERGLVAGIERLAPGGRGVVISFHSLEDRIVKTVFRRYAQGCTCPKMLPRCVCGNKPRVRILTGKPVMAGGDEVATNPRARSAKVRAVEK</Hsp_hseq>
+      <Hsp_midline>H  V+  E L LL P                G  ++DGTLG  GH +  L A  P    +G + DP  LA A  R+  FG R+R V         S +A+   S AT     G   + G        LLDLG+S      A RGFSF  +  LDMR+DP+  +TAADL+N L    LA++  E GEER+A+RIA  V   R Q  P  S     + V   +P    A + +R         +HPAT+ FQALRIAVN EL  L R L A    LAPGGR  VISFHS EDRIVK  FR +A+ C+CP  +P C CG   R  ++T KP++    E A N  +RSA +R +EK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|263445877|sp|B2S017.1|RSMH_BORHD</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase H; AltName: Full=16S rRNA m(4)C1402 methyltransferase; AltName: Full=rRNA (cytosine-N(4)-)-methyltransferase RsmH</Hit_def>
+  <Hit_accession>B2S017</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>208.379</Hsp_bit-score>
+      <Hsp_score>529</Hsp_score>
+      <Hsp_evalue>2.13187e-62</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>294</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>63</Hsp_gaps>
+      <Hsp_align-len>353</Hsp_align-len>
+      <Hsp_qseq>LCHQPVLVQECLTLLEPAIVGISRGADSTRDGAGAFFIDGTLGDGGHTQAFLHAYPALRALGVEIDPSMLARARARLTPFGKRLRYVLGWSDVFFASAYASAPASPATGRTAAGAAGVPGAYPAPQAVLLDLGISFFHYRGAMRGFSFAEEHMLDMRLDPQAS-QTAADLLNRLPQARLAQLFFEGGEERYARRIAQAVCAQRRQAPFCSARAFAEVVARVVPPMRTARFGKRRGVLGVLPKLHPATKAFQALRIAVNRELERLPRLLTAAFTALAPGGRLAVISFHSREDRIVKVHFRHWAKRCSCPARVPICSCGGVARASLITKKPLVPSCVERAANAASRSATLRVIEK</Hsp_qseq>
+      <Hsp_hseq>IFHTPVLLDEIINLLEIVYVN-----------DGFIFVDCTLGEGGHSSAVLRKYQNISVIGIERDDIILNRAKEFLVEFKGKVSYFNAWFDDFFSEYSLSSKAN---------------------FILADLGISMFHYKMSGRGFSFFEDERLDMRLNPGAGGLSAYDIVNTFDKVRLENLIYEFGGEHYSKRIVSSILEYRKIKKIKTSRELQGIISKAYPRIKL--------------KINPATKTFQALRIYVNDELFRLKRSLPLWVGSLSRNGILAIITFHSLEDKIVKEFFKGLSKEQYC----------------ILTKKPIIASFEEKRCNNASRSAKLRAIRK</Hsp_hseq>
+      <Hsp_midline>+ H PVL+ E + LLE   V             G  F+D TLG+GGH+ A L  Y  +  +G+E D  +L RA+  L  F  ++ Y   W D FF+    S+ A+                      +L DLGIS FHY+ + RGFSF E+  LDMRL+P A   +A D++N   + RL  L +E G E Y++RI  ++   R+     ++R    ++++  P ++               K++PATK FQALRI VN EL RL R L     +L+  G LA+I+FHS ED+IVK  F+  +K   C                ++TKKP++ S  E+  N ASRSA LR I K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|262824781|sp|A5D113.1|RSMH_PELTS</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase H; AltName: Full=16S rRNA m(4)C1402 methyltransferase; AltName: Full=rRNA (cytosine-N(4)-)-methyltransferase RsmH</Hit_def>
+  <Hit_accession>A5D113</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>207.994</Hsp_bit-score>
+      <Hsp_score>528</Hsp_score>
+      <Hsp_evalue>3.89481e-62</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>310</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>46</Hsp_gaps>
+      <Hsp_align-len>353</Hsp_align-len>
+      <Hsp_qseq>LCHQPVLVQECLTLLEPAIVGISRGADSTRDGAGAFFIDGTLGDGGHTQAFLHAYPAL-RALGVEIDPSMLARARARLTPFGKRLRYVLGWSDVFFASAYASAPASPATGRTAAGAAGVPGAYPAPQAVLLDLGISFFHYRGAMRGFSFAEEHMLDMRLDPQASQTAADLLNRLPQARLAQLFFEGGEERYARRIAQAVCAQRRQAPFCSARAFAEVVARVVPPMRTARFGKRRGVLGVLPKLHPATKAFQALRIAVNRELERLPRLLTAAFTALAPGGRLAVISFHSREDRIVKVHFRHWAKRCSCPARVPICSCGGVARASLITKKPLVPSCVERAANAASRSATLRVIEK</Hsp_qseq>
+      <Hsp_hseq>FIHRPVMLDEVLEGLNLK--------------PGGVYVDCTVGGAGHGEAILKRTGAEGRLIGIDRDPEALAAAERRLVPYGKRV-------DLVRANFEDIGKVLERLGQT-----GVDG-------ILFDLGVSSYQLDNPARGFSYKRDSLLDMRMDPERGPSARELVNTLTAEELARIIKDYGEERWAFRIAAFIVEERKRSPIETTGRLAEIIKKAIPA------GARR------EGPHPARRTFQALRIAVNRELEVLGGALRSAVRVLRPGGRICVITYHSLEDRIVKETFRRLASPCTCPKEFPACVCGGKKEIKIVTARPVVPSAGEVEENPRARSAKLRIAEK</Hsp_hseq>
+      <Hsp_midline>  H+PV++ E L  L                  G  ++D T+G  GH +A L    A  R +G++ DP  LA A  RL P+GKR+       D+  A+           G+T     GV G       +L DLG+S +      RGFS+  + +LDMR+DP+   +A +L+N L    LA++  + GEER+A RIA  +  +R+++P  +    AE++ + +P       G RR         HPA + FQALRIAVNRELE L   L +A   L PGGR+ VI++HS EDRIVK  FR  A  C+CP   P C CGG     ++T +P+VPS  E   N  +RSA LR+ EK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|172046236|sp|Q1MPC6.1|RSMH_LAWIP</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase H; AltName: Full=16S rRNA m(4)C1402 methyltransferase; AltName: Full=rRNA (cytosine-N(4)-)-methyltransferase RsmH</Hit_def>
+  <Hit_accession>Q1MPC6</Hit_accession>
+  <Hit_len>312</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>206.838</Hsp_bit-score>
+      <Hsp_score>525</Hsp_score>
+      <Hsp_evalue>1.0855e-61</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>309</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>179</Hsp_positive>
+      <Hsp_gaps>46</Hsp_gaps>
+      <Hsp_align-len>352</Hsp_align-len>
+      <Hsp_qseq>HQPVLVQECLTLLEPAIVGISRGADSTRDGAGAFFIDGTLGDGGHTQAFLH-AYPALRALGVEIDPSMLARARARLTPFGKRLRYVLGWSDVFFASAYASAPASPATGRTAAGAAGVPGAYPAPQAVLLDLGISFFHYRGAMRGFSFAEEHMLDMRLDPQASQTAA-DLLNRLPQARLAQLFFEGGEERYARRIAQAVCAQRRQAPFCSARAFAEVVARVVPPMRTARFGKRRGVLGVLPKLHPATKAFQALRIAVNRELERLPRLLTAAFTALAPGGRLAVISFHSREDRIVKVHFRHWAKRCSCPARVPICSCGGVARASLITKKPLVPSCVERAANAASRSATLRVIEK</Hsp_qseq>
+      <Hsp_hseq>HQPVMLEETIAMLKPH--------------AKGRYLDGTVGLGGHSFAILQSAGDGAELCGLDQDKKALAIAEMTLKPFKKRVHLV--------HTKYSSFPLI----LKALGWKLLDGA-------LIDIGVSSLQLDNAERGFSFLYDGPLDMRMDQDANNNSLFEIVNKSRQEYLKDIISRYGEEPQANRIAKAIVQKRRTKPITTTKELADLIEQAYPAAWRAK-----------SRHHPATKTFQAFRIVVNSELNELEKFLNMIMGWIAPGGRVAVISFHSLEDRIVKQYMKSWTRSCICPPYVPVCKCFHKPEAILITKKPIRPSEKEISENIRSRSAKLRVAEK</Hsp_hseq>
+      <Hsp_midline>HQPV+++E + +L+P               A   ++DGT+G GGH+ A L  A       G++ D   LA A   L PF KR+  V         + Y+S P        A G   + GA       L+D+G+S      A RGFSF  +  LDMR+D  A+  +  +++N+  Q  L  +    GEE  A RIA+A+  +RR  P  + +  A+++ +  P    A+            + HPATK FQA RI VN EL  L + L      +APGGR+AVISFHS EDRIVK + + W + C CP  VP+C C     A LITKKP+ PS  E + N  SRSA LRV EK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|263447558|sp|B5EBP3.1|RSMH_GEOBB</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase H; AltName: Full=16S rRNA m(4)C1402 methyltransferase; AltName: Full=rRNA (cytosine-N(4)-)-methyltransferase RsmH</Hit_def>
+  <Hit_accession>B5EBP3</Hit_accession>
+  <Hit_len>312</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.216</Hsp_bit-score>
+      <Hsp_score>513</Hsp_score>
+      <Hsp_evalue>6.92061e-60</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>180</Hsp_positive>
+      <Hsp_gaps>46</Hsp_gaps>
+      <Hsp_align-len>351</Hsp_align-len>
+      <Hsp_qseq>HQPVLVQECLTLLEPAIVGISRGADSTRDGAGAFFIDGTLGDGGHTQAFLHAY-PALRALGVEIDPSMLARARARLTPFGKRLRYVLGWSDVFFASAYASAPASPATGRTAAGAAGVPGAYPAPQAVLLDLGISFFHYRGAMRGFSFAEEHMLDMRLDPQASQTAADLLNRLPQARLAQLFFEGGEERYARRIAQAVCAQRRQAPFCSARAFAEVVARVVPPMRTARFGKRRGVLGVLPKLHPATKAFQALRIAVNRELERLPRLLTAAFTALAPGGRLAVISFHSREDRIVKVHFRHWAKRCSCPARVPICSCGGVARASLITKKPLVPSCVERAANAASRSATLRVIEK</Hsp_qseq>
+      <Hsp_hseq>HISVLPDEVLQALSPR--------------SGGVYVDGTLGGAGHAGLILTASAPDGQLIGFDRDEEAIAVARERLQVFGGRVRII---HRNFAGIAQALAEI---------GVDGIDG-------FVLDLGVSSHQLDRDERGFSFMHDAPLDMRMDRSSGQSAADLVNTLPEGELYRIISEYGEERWAKRVASFIVKARDERPIETTLQLVDVIKGSIP---KAKWEER---------LHPATRTFQALRIAVNEELKSLEEGLEGLLSLLKQGGRGAVISFHSLEDRIVKEGFRAAATGCTCPKELPICICGRVPRFKLVTRKPITAGEAEVAANPRSRSAKLRVVEK</Hsp_hseq>
+      <Hsp_midline>H  VL  E L  L P               +G  ++DGTLG  GH    L A  P  + +G + D   +A AR RL  FG R+R +      F   A A A           G  G+ G        +LDLG+S        RGFSF  +  LDMR+D  + Q+AADL+N LP+  L ++  E GEER+A+R+A  +   R + P  +     +V+   +P    A++ +R         LHPAT+ FQALRIAVN EL+ L   L    + L  GGR AVISFHS EDRIVK  FR  A  C+CP  +PIC CG V R  L+T+KP+     E AAN  SRSA LRV+EK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|262824775|sp|A1AU69.1|RSMH_PELPD</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase H; AltName: Full=16S rRNA m(4)C1402 methyltransferase; AltName: Full=rRNA (cytosine-N(4)-)-methyltransferase RsmH</Hit_def>
+  <Hit_accession>A1AU69</Hit_accession>
+  <Hit_len>313</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.216</Hsp_bit-score>
+      <Hsp_score>513</Hsp_score>
+      <Hsp_evalue>7.18668e-60</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>312</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>49</Hsp_gaps>
+      <Hsp_align-len>353</Hsp_align-len>
+      <Hsp_qseq>HQPVLVQECLTLLEPAIVGISRGADSTRDGAGAFFIDGTLGDGGHTQAFLH--AYPALRALGVEIDPSMLARARARLTPFGKRLRYVLG-WSDVFFASAYASAPASPATGRTAAGAAGVPGAYPAPQAVLLDLGISFFHYRGAMRGFSFAEEHMLDMRLDPQASQTAADLLNRLPQARLAQLFFEGGEERYARRIAQAVCAQRRQAPFCSARAFAEVVARVVPPMRTARFGKRRGVLGVLPKLHPATKAFQALRIAVNRELERLPRLLTAAFTALAPGGRLAVISFHSREDRIVKVHFRHWAKRCSCPARVPICSCGGVARASLITKKPLVPSCVERAANAASRSATLRVIEK</Hsp_qseq>
+      <Hsp_hseq>HLSVMPEEVLRFLSPR--------------PGGCYLDGTLGGGGHAALVAERCAPGGGTLIGMDRDLEALKAAAERLSRFGDAVRLLHGNFADI-------------ATRLDSLGVDALDG-------FVLDLGVSSHQLDTARRGFSFQQEGALDMRMDGDSGETAADLVNRLPEHELERIIREYGEERWAKRIASFIVRARSEAPIENTLRLVDIIKGAIP---KAKWEER---------LHPATRTFQALRIAVNHELESLERGLKSAIDRLKPGGRGVVISFHSLEDRIVKHVFREYAAGCTCPRNLPVCVCGRQPRVRVLTGRPVTATEEELRDNPRSRSAKLRAVEK</Hsp_hseq>
+      <Hsp_midline>H  V+ +E L  L P                G  ++DGTLG GGH        A      +G++ D   L  A  RL+ FG  +R + G ++D+             AT   + G   + G        +LDLG+S      A RGFSF +E  LDMR+D  + +TAADL+NRLP+  L ++  E GEER+A+RIA  +   R +AP  +     +++   +P    A++ +R         LHPAT+ FQALRIAVN ELE L R L +A   L PGGR  VISFHS EDRIVK  FR +A  C+CP  +P+C CG   R  ++T +P+  +  E   N  SRSA LR +EK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|122282016|sp|Q04V89.1|RSMH_LEPBJ</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase H; AltName: Full=16S rRNA m(4)C1402 methyltransferase; AltName: Full=rRNA (cytosine-N(4)-)-methyltransferase RsmH</Hit_def>
+  <Hit_accession>Q04V89</Hit_accession>
+  <Hit_len>316</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.06</Hsp_bit-score>
+      <Hsp_score>510</Hsp_score>
+      <Hsp_evalue>2.17607e-59</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>300</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>44</Hsp_gaps>
+      <Hsp_align-len>318</Hsp_align-len>
+      <Hsp_qseq>AFFIDGTLGDGGHTQAFLHAYPALRALGVEIDPSMLARARARLTPFGKRLRYVLGWSDVFFASAYASAPASPATGRTAAGAAGVPGAYPAPQAVLLDLGISFFHYRGAMRGFSFAEEHMLDMRLDPQASQTAADLLNRLPQARLAQLFFEGGEERYARRIAQAVCAQRRQAPFCSARAFAEVVARVVPPMRTARFGKRRGVLGVLPKLHPATKAFQALRIAVNRELERLPRLLTAAFTALAPGGRLAVISFHSREDRIVKVHFRHWAKRCSCPARVPICSCGGVARASLITKKPLVPSCVERAANAASRSATLRVIEK</Hsp_qseq>
+      <Hsp_hseq>VLFLDGTAGEGGHSLLFLKGFPNSKVILCDRDPVMLSRALARLVDFKERV--------VSIQTNFSEIDSNLLSSH---------GINDSPQGILLDLGISTFHLFHSGRGFSFKEAEPLDMRLTPNIGINAEDVINTYSKDRLMHIFYTYGEERWSKKIAEVIVERRKQNLISYTSELADLISKIIP----------RKLWP--PGRHPATRIFQALRIEVNQELTHIEKGLDSLLNLLRPEGVIQVISFHSLEDRIVKNSLRNYAKQNGF---------------ELLTKKPILPSEEETKENPASRSAKLRVLRK</Hsp_hseq>
+      <Hsp_midline>  F+DGT G+GGH+  FL  +P  + +  + DP ML+RA ARL  F +R+        V   + ++   ++  +           G   +PQ +LLDLGIS FH   + RGFSF E   LDMRL P     A D++N   + RL  +F+  GEER++++IA+ +  +R+Q         A+++++++P          R +    P  HPAT+ FQALRI VN+EL  + + L +    L P G + VISFHS EDRIVK   R++AK+                   L+TKKP++PS  E   N ASRSA LRV+ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|122283047|sp|Q04Y87.1|RSMH_LEPBL</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase H; AltName: Full=16S rRNA m(4)C1402 methyltransferase; AltName: Full=rRNA (cytosine-N(4)-)-methyltransferase RsmH</Hit_def>
+  <Hit_accession>Q04Y87</Hit_accession>
+  <Hit_len>316</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.06</Hsp_bit-score>
+      <Hsp_score>510</Hsp_score>
+      <Hsp_evalue>2.31872e-59</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>300</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>44</Hsp_gaps>
+      <Hsp_align-len>318</Hsp_align-len>
+      <Hsp_qseq>AFFIDGTLGDGGHTQAFLHAYPALRALGVEIDPSMLARARARLTPFGKRLRYVLGWSDVFFASAYASAPASPATGRTAAGAAGVPGAYPAPQAVLLDLGISFFHYRGAMRGFSFAEEHMLDMRLDPQASQTAADLLNRLPQARLAQLFFEGGEERYARRIAQAVCAQRRQAPFCSARAFAEVVARVVPPMRTARFGKRRGVLGVLPKLHPATKAFQALRIAVNRELERLPRLLTAAFTALAPGGRLAVISFHSREDRIVKVHFRHWAKRCSCPARVPICSCGGVARASLITKKPLVPSCVERAANAASRSATLRVIEK</Hsp_qseq>
+      <Hsp_hseq>VLFLDGTAGEGGHSLLFLKGFPNSKVILCDRDPVMLSRALARLVDFKERV--------VSIQTNFSEIDSNLLSSH---------GINDSPQGILLDLGISTFHLFHSGRGFSFKEAEPLDMRLTPNIGINAEDVINTYSKDRLMHIFYTYGEERWSKKIAEVIVERRKQNLISYTSELADLISKIIP----------RKLWP--PGRHPATRIFQALRIEVNQELTHIEKGLDSLLNLLRPEGVIQVISFHSLEDRIVKNSLRNYAKQNGF---------------ELLTKKPILPSEEETKENPASRSAKLRVLRK</Hsp_hseq>
+      <Hsp_midline>  F+DGT G+GGH+  FL  +P  + +  + DP ML+RA ARL  F +R+        V   + ++   ++  +           G   +PQ +LLDLGIS FH   + RGFSF E   LDMRL P     A D++N   + RL  +F+  GEER++++IA+ +  +R+Q         A+++++++P          R +    P  HPAT+ FQALRI VN+EL  + + L +    L P G + VISFHS EDRIVK   R++AK+                   L+TKKP++PS  E   N ASRSA LRV+ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|263455960|sp|B9M164.1|RSMH_GEODF</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase H; AltName: Full=16S rRNA m(4)C1402 methyltransferase; AltName: Full=rRNA (cytosine-N(4)-)-methyltransferase RsmH</Hit_def>
+  <Hit_accession>B9M164</Hit_accession>
+  <Hit_len>312</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>199.519</Hsp_bit-score>
+      <Hsp_score>506</Hsp_score>
+      <Hsp_evalue>6.4589e-59</Hsp_evalue>
+      <Hsp_query-from>60</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>320</Hsp_align-len>
+      <Hsp_qseq>GAFFIDGTLGDGGHTQAFLHAY-PALRALGVEIDPSMLARARARLTPFGKRLRYVLGWSDVFFASAYASAPASPATGRTAAGAAGVPGAYPAPQAVLLDLGISFFHYRGAMRGFSFAEEHMLDMRLDPQASQTAADLLNRLPQARLAQLFFEGGEERYARRIAQAVCAQRRQAPFCSARAFAEVVARVVPPMRTARFGKRRGVLGVLPKLHPATKAFQALRIAVNRELERLPRLLTAAFTALAPGGRLAVISFHSREDRIVKVHFRHWAKRCSCPARVPICSCGGVARASLITKKPLVPSCVERAANAASRSATLRVIEK</Hsp_qseq>
+      <Hsp_hseq>GGIYVDGTLGGAGHARLILEASAPDGLLIGFDQDGQALASAGERLAPFGKRV-VLVKRNFAFLEEALAEI------------------GIEAIDGFLLDVGVSSHQLDTVERGFSFQHDAPLDMRMDLSAETTAAELVNTLSEEDLCRVIREYGEERWAKRIAAFIIKRREETPIATTLQLVDVIKAAVP----------KGAWEV--RLHPATRTFQALRIAVNDELASLEKGLSGGVRLLKKGGRGVVISFHSLEDRIAKTTFRSLAQGCKCPREIPRCVCGNLPQVKVLTGKPVVANEVEVSSNPRSRSARLRAVEK</Hsp_hseq>
+      <Hsp_midline>G  ++DGTLG  GH +  L A  P    +G + D   LA A  RL PFGKR+  ++  +  F   A A                       A    LLD+G+S        RGFSF  +  LDMR+D  A  TAA+L+N L +  L ++  E GEER+A+RIA  +  +R + P  +     +V+   VP          +G   V  +LHPAT+ FQALRIAVN EL  L + L+     L  GGR  VISFHS EDRI K  FR  A+ C CP  +P C CG + +  ++T KP+V + VE ++N  SRSA LR +EK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|116241373|sp|Q67Q57.1|RSMH_SYMTH</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase H; AltName: Full=16S rRNA m(4)C1402 methyltransferase; AltName: Full=rRNA (cytosine-N(4)-)-methyltransferase RsmH</Hit_def>
+  <Hit_accession>Q67Q57</Hit_accession>
+  <Hit_len>318</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>198.364</Hsp_bit-score>
+      <Hsp_score>503</Hsp_score>
+      <Hsp_evalue>2.45329e-58</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>310</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>179</Hsp_positive>
+      <Hsp_gaps>46</Hsp_gaps>
+      <Hsp_align-len>354</Hsp_align-len>
+      <Hsp_qseq>ALCHQPVLVQECLTLLEPAIVGISRGADSTRDGAGAFFIDGTLGDGGHTQAFLH-AYPALRALGVEIDPSMLARARARLTPFGKRLRYVLGWSDVFFASAYASAPASPATGRTAAGAAGVPGAYPAPQAVLLDLGISFFHYRGAMRGFSFAEEHMLDMRLDPQASQTAADLLNRLPQARLAQLFFEGGEERYARRIAQAVCAQRRQAPFCSARAFAEVVARVVPPMRTARFGKRRGVLGVLPKLHPATKAFQALRIAVNRELERLPRLLTAAFTALAPGGRLAVISFHSREDRIVKVHFRHWAKRCSCPARVPICSCGGVARASLITKKPLVPSCVERAANAASRSATLRVIEK</Hsp_qseq>
+      <Hsp_hseq>AFHHIPVLLQETMEAL------------AVR--PGGTYIDCTVGGGGHAAEILRRSSPDGRLIGLDQDENALRAAGDRLAPFGDRVTLVR--TNFEHVADVAD--------RLGLGAA---------DGVLMDIGVSSHQFDEGERGFSYHHDAPLDMRMDRTRPLTAAVLVNEWEEEEIARVIREYGEERWASRIAQFIVRARRQRPIETTGQLVEIIKAAIPAS-----ARREGG-------HPARRTFQAIRIAVNDELGALERGLEGALRVLRPGGRLAVITFHSLEDRIVKQTFARWAKPCTCPPDLPVCVCGKAPLAEPVTRKPVRASGAEVKANPRSRSATLRAVVK</Hsp_hseq>
+      <Hsp_midline>A  H PVL+QE +  L            + R   G  +ID T+G GGH    L  + P  R +G++ D + L  A  RL PFG R+  V   ++    +  A         R   GAA           VL+D+G+S   +    RGFS+  +  LDMR+D     TAA L+N   +  +A++  E GEER+A RIAQ +   RRQ P  +     E++   +P        +R G        HPA + FQA+RIAVN EL  L R L  A   L PGGRLAVI+FHS EDRIVK  F  WAK C+CP  +P+C CG    A  +T+KP+  S  E  AN  SRSATLR + K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|263445784|sp|B8G5X3.1|RSMH_CHLAD</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase H; AltName: Full=16S rRNA m(4)C1402 methyltransferase; AltName: Full=rRNA (cytosine-N(4)-)-methyltransferase RsmH</Hit_def>
+  <Hit_accession>B8G5X3</Hit_accession>
+  <Hit_len>301</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.512</Hsp_bit-score>
+      <Hsp_score>493</Hsp_score>
+      <Hsp_evalue>5.19726e-57</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>375</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>296</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>59</Hsp_gaps>
+      <Hsp_align-len>348</Hsp_align-len>
+      <Hsp_qseq>HQPVLVQECLTLLEPAIVGISRGADSTRDGAGAFFIDGTLGDGGHTQAFLHA-YPALRALGVEIDPSMLARARARLTPFGKRLRYVLGWSDVFFASAYASAPASPATGRTAAGAAGVPGAYPAPQAVLLDLGISFFHYRGAMRGFSFAEEHMLDMRLDPQASQTAADLLNRLPQARLAQLFFEGGEERYARRIAQAVCAQRRQAPFCSARAFAEVVARVVPPMRTARFGKRRGVLGVLPKLHPATKAFQALRIAVNRELERLPRLLTAAFTALAPGGRLAVISFHSREDRIVKVHFRHWAKRCSCPARVPICSCGGVARASLITKKPLVPSCVERAANAASRSATLRV</Hsp_qseq>
+      <Hsp_hseq>HVPVMVAEVVAALAPR--------------PGGRYIDATVGGGGHALAVLQAARPGGRLLGIDADPAALVATADRLAEAGLREHAVLCHGS--FADLAVIA------GET--GFINVDG-------ILFDLGVSSYQLDTPERGFSFAADGPLDMRLDPTQGPTAADLVNTLSERELADVIFQYGEEHAARRIARAIVERRRTQPFQRTADLAAVIARVV--------GGRRG------RIHPATRTFQALRIAVNRELDRLAAALPQAVHLLAPGGRLVVISFHSLEDRIVKQFMRAEAE-------------GATPRLVINTKKPVAATDDEVATNPRARSAKLRV</Hsp_hseq>
+      <Hsp_midline>H PV+V E +  L P                G  +ID T+G GGH  A L A  P  R LG++ DP+ L     RL   G R   VL      FA     A      G T  G   V G       +L DLG+S +      RGFSFA +  LDMRLDP    TAADL+N L +  LA + F+ GEE  ARRIA+A+  +RR  PF      A V+ARVV        G RRG      ++HPAT+ FQALRIAVNREL+RL   L  A   LAPGGRL VISFHS EDRIVK   R  A+             G   R  + TKKP+  +  E A N  +RSA LRV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|42559481|sp|Q8GE08.1|RSMH_HELMO</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase H; AltName: Full=16S rRNA m(4)C1402 methyltransferase; AltName: Full=rRNA (cytosine-N(4)-)-methyltransferase RsmH, partial [Heliobacillus mobilis]</Hit_def>
+  <Hit_accession>Q8GE08</Hit_accession>
+  <Hit_len>312</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.512</Hsp_bit-score>
+      <Hsp_score>493</Hsp_score>
+      <Hsp_evalue>5.24529e-57</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>178</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>351</Hsp_align-len>
+      <Hsp_qseq>HQPVLVQECLTLLEPAIVGISRGADSTRDGAGAFFIDGTLGDGGHTQAFLHAYPAL-RALGVEIDPSMLARARARLTPFGKRLRYVLGWSDVFFASAYASAPASPATGRTAAGAAGVPGAYPAPQAVLLDLGISFFHYRGAMRGFSFAEEHMLDMRLDPQASQTAADLLNRLPQARLAQLFFEGGEERYARRIAQAVCAQRRQAPFCSARAFAEVVARVVPPMRTARFGKRRGVLGVLPKLHPATKAFQALRIAVNRELERLPRLLTAAFTALAPGGRLAVISFHSREDRIVKVHFRHWAKRCSCPARVPICSCGGVARASLITKKPLVPSCVERAANAASRSATLRVIEK</Hsp_qseq>
+      <Hsp_hseq>HIPVLLEEVLEALQPRPDGL--------------YLDGTVGGGGHSAAILEKTAGQGRLIGLDQDPRALAAARIKLEKFADQVTLV------------------RSNFRQLGSVVEELGQKGKIDGILLDIGVSSHQLDEAERGFTYRAEAPLDMRMNPDGAVTAAQILNEYPEGEIFRILWEYGEERWSKRIAQFIVNRRTEQPLASTTDLVDVIRAAIPAAARQEGG------------HPAKRTFQALRIAVNDELGALQEALPAALDALAPSGRLAVISFHSLEDRIVKNFFAEQAKGCTCPPDMPVCGCGKKARLKIITRKPITGSEEELKINPRSQSAKLRVAQK</Hsp_hseq>
+      <Hsp_midline>H PVL++E L  L+P   G+              ++DGT+G GGH+ A L       R +G++ DP  LA AR +L  F  ++  V                   +  R         G       +LLD+G+S      A RGF++  E  LDMR++P  + TAA +LN  P+  + ++ +E GEER+++RIAQ +  +R + P  S     +V+   +P       G            HPA + FQALRIAVN EL  L   L AA  ALAP GRLAVISFHS EDRIVK  F   AK C+CP  +P+C CG  AR  +IT+KP+  S  E   N  S+SA LRV +K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>462628</Statistics_db-num>
+      <Statistics_db-len>173435234</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

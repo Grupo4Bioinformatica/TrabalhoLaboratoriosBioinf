@@ -1,0 +1,602 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>Query_238319</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>384</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_238319</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>384</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|11132161|sp|O83433.1|GAL1_TREPA</Hit_id>
+  <Hit_def>RecName: Full=Putative galactokinase; AltName: Full=Galactose kinase</Hit_def>
+  <Hit_accession>O83433</Hit_accession>
+  <Hit_len>397</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>789.26</Hsp_bit-score>
+      <Hsp_score>2037</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>384</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>397</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>384</Hsp_identity>
+      <Hsp_positive>384</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>384</Hsp_align-len>
+      <Hsp_qseq>MQRVESCHTEEYGDEPEAIAVVPGRFHLLGEYLWFAQGNTLSMAIDQTLTLCVSRRKDSTFRLFSLTLGERRKISTANLRYRKEDRWANSVKAVILSFMDGGYHLTGLNCTILSQIPPDAGLGTPNALKVAMALVLGRLFAATLPKESVVSIVEHANERYLKTHAHRADILCVLFAKQGSCVRTDHRKKQAELCQFPSEGKRIVLTDSRVPRFIAREEFTARLKRCVDAYELVKRNPDMPRAMSKLMAAALEEIDVPEGIRRRVISLVRESLGVDEAIEALRKRDFAAFSRVVNRSHERLRDRFEISCPELDWLVKRALEFVDPDAPDVVCSRLTGRGFGGCTYAILRDQDFEPYLERLDEYERIFGFKAAAYEVQCSEGARVL</Hsp_qseq>
+      <Hsp_hseq>MQRVESCHTEEYGDEPEAIAVVPGRFHLLGEYLWFAQGNTLSMAIDQTLTLCVSRRKDSTFRLFSLTLGERRKISTANLRYRKEDRWANSVKAVILSFMDGGYHLTGLNCTILSQIPPDAGLGTPNALKVAMALVLGRLFAATLPKESVVSIVEHANERYLKTHAHRADILCVLFAKQGSCVRTDHRKKQAELCQFPSEGKRIVLTDSRVPRFIAREEFTARLKRCVDAYELVKRNPDMPRAMSKLMAAALEEIDVPEGIRRRVISLVRESLGVDEAIEALRKRDFAAFSRVVNRSHERLRDRFEISCPELDWLVKRALEFVDPDAPDVVCSRLTGRGFGGCTYAILRDQDFEPYLERLDEYERIFGFKAAAYEVQCSEGARVL</Hsp_hseq>
+      <Hsp_midline>MQRVESCHTEEYGDEPEAIAVVPGRFHLLGEYLWFAQGNTLSMAIDQTLTLCVSRRKDSTFRLFSLTLGERRKISTANLRYRKEDRWANSVKAVILSFMDGGYHLTGLNCTILSQIPPDAGLGTPNALKVAMALVLGRLFAATLPKESVVSIVEHANERYLKTHAHRADILCVLFAKQGSCVRTDHRKKQAELCQFPSEGKRIVLTDSRVPRFIAREEFTARLKRCVDAYELVKRNPDMPRAMSKLMAAALEEIDVPEGIRRRVISLVRESLGVDEAIEALRKRDFAAFSRVVNRSHERLRDRFEISCPELDWLVKRALEFVDPDAPDVVCSRLTGRGFGGCTYAILRDQDFEPYLERLDEYERIFGFKAAAYEVQCSEGARVL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|24211716|sp|Q8RHD0.1|GAL1_FUSNN</Hit_id>
+  <Hit_def>RecName: Full=Galactokinase; AltName: Full=Galactose kinase</Hit_def>
+  <Hit_accession>Q8RHD0</Hit_accession>
+  <Hit_len>389</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.451</Hsp_bit-score>
+      <Hsp_score>389</Hsp_score>
+      <Hsp_evalue>3.31497e-41</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>381</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>385</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>178</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>366</Hsp_align-len>
+      <Hsp_qseq>PGRFHLLGEYLWFAQGNTLSMAIDQTLTLCVSRRKDSTFRLFSLTLGERRKI--STANLRYRKEDRWANSVKAVILSFMDGGYHL-TGLNCTILSQIPPDAGLGTPNALKVAMALVLGRLFAATLPKESVVSIVEHANERYLKTHAHRADILCVLFAKQGSCVRTDHRKKQAELCQFPSEGKRIVLTDSRVPRFIAREEFTARLKRCVDAYELVKRNPDMPRAMSKLMAAALEEID---VPEGIRRRVISLVRESLGVDEAIEALRKRDFAAFSRVVNRSHERLRDRFEISCPELDWLVKRALEFVDPDAPDVVCSRLTGRGFGGCTYAILRDQDFEPYLERL-DEYERIFGFKAAAYEVQCSEGA</Hsp_qseq>
+      <Hsp_hseq>PGRVNLIGEHTDYNGGFVFPCALDFGTYAVVKKREDKTFKMYSKNFENLGIIEFNLDNLIYDKKDDWANYPKGVIKTFLDRNYKIDSGFDVLFFGNIPNGAGLSSSASIEVLTAVILKDLFKLDVDIIEMVKMCQVAENKFIGVNSGIMDQFAVGMGKKDNAILLDCNTLKYEYVPVKLVNMSIVIANTNKKRGLADSKYNERRTSCEEAVKVLNNNEVNIKYLGELTVTEFEKVKHYITDEEQLKRATHAVTENERAKIAVEFLKKDDIAEFGKLMNKSHTSLRDDYEVTGLELDSLVEAAWE-----EKGTVGSRMTGAGFGGCTVSIVENDYVDSFIKNVGKKYKEKTGLEASFYIANIGDGA</Hsp_hseq>
+      <Hsp_midline>PGR +L+GE+  +  G     A+D      V +R+D TF+++S        I  +  NL Y K+D WAN  K VI +F+D  Y + +G +      IP  AGL +  +++V  A++L  LF   +    +V + + A  +++  ++   D   V   K+ + +  D    + E          IV+ ++   R +A  ++  R   C +A +++  N    + + +L     E++      E   +R    V E+     A+E L+K D A F +++N+SH  LRD +E++  ELD LV+ A E         V SR+TG GFGGCT +I+ +   + +++ +  +Y+   G +A+ Y     +GA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1730187|sp|P51570.1|GALK1_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Galactokinase; AltName: Full=Galactose kinase</Hit_def>
+  <Hit_accession>P51570</Hit_accession>
+  <Hit_len>392</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.295</Hsp_bit-score>
+      <Hsp_score>386</Hsp_score>
+      <Hsp_evalue>1.1616e-40</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>384</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>390</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>181</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>392</Hsp_align-len>
+      <Hsp_qseq>EEYGDEPEAIAVVPGRFHLLGEYLWFAQGNTLSMAIDQTLTLCVSRRKDSTFRLFSLTLG----ERRKISTANLRYRKED---RWANSVKAVILSFMDGGYHLTGLNCTILSQIPPDAGLGTPNALKVAMALVLGRLFAATLPKESVVSIVEHANERYLKTHAHRADILCVLFAKQGSCVRTDHRKKQAELCQFPSEGKRIVLTDSRVPRFIAREEFTARLKRCVDAYELVKRNPDMPRAMSK--LMAAALEEIDVP------EGIRR--RVISLVRESLGVDEAIEALRKRDFAAFSRVVNRSHERLRDRFEISCPELDWLVKRALEFVDPDAPDVVCSRLTGRGFGGCTYAILRDQDFEPYLERLDEYERIFGFKAAAYEVQCSEGARVL</Hsp_qseq>
+      <Hsp_hseq>EEFGAEPELAVSAPGRVNLIGEHTDYNQGLVLPMALELMTVLVGSPRKDGLVSLLTTSEGADEPQRLQFPLPTAQRSLEPGTPRWANYVKGVIQYYPAA--PLPGFSAVVVSSVPLGGGLSSSASLEVATYTFLQQLCPDSGTIAARAQVCQQAEHSFAGMPCGIMDQFISLMGQKGHALLIDCRSLETSLVPLSDPKLAVLITNSNVRHSLASSEYPVRRRQC----------EEVARALGKESLREVQLEELEAARDLVSKEGFRRARHVVGEIRRT---AQAAAALRRGDYRAFGRLMVESHRSLRDDYEVSCPELDQLVEAALAV-----PGVYGSRMTGGGFGGCTVTLLEASAAPHAMRHIQEH---YGGTATFYLSQAADGAKVL</Hsp_hseq>
+      <Hsp_midline>EE+G EPE     PGR +L+GE+  + QG  L MA++    L  S RKD    L + + G    +R +      +   E    RWAN VK VI  +      L G +  ++S +P   GL +  +L+VA    L +L   +    +   + + A   +        D    L  ++G  +  D R  +  L         +++T+S V   +A  E+  R ++C           ++ RA+ K  L    LEE++        EG RR   V+  +R +    +A  ALR+ D+ AF R++  SH  LRD +E+SCPELD LV+ AL       P V  SR+TG GFGGCT  +L        +  + E+   +G  A  Y  Q ++GA+VL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|729557|sp|P39574.1|GAL1_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Galactokinase; AltName: Full=Galactose kinase</Hit_def>
+  <Hit_accession>P39574</Hit_accession>
+  <Hit_len>390</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.599</Hsp_bit-score>
+      <Hsp_score>379</Hsp_score>
+      <Hsp_evalue>1.13723e-39</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>384</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>387</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>369</Hsp_align-len>
+      <Hsp_qseq>PGRFHLLGEYLWFAQGNTLSMAIDQTLTLCVSRRKDSTFRLFSLTL--GERRKISTANLRYRKEDRWANSVKAVILSFMDGGYHL-TGLNCTILSQIPPDAGLGTPNALKVAMALVLGRLFAATLPKESVVSIVEHANERYLKTHAHRADILCVLFAKQGSCVRTDHRKKQAELCQFPSEGKRIVLTDSRVPRFIAREEFTARLKRCVDAYELVKRNPDMPRAMSKLMAA---ALEEIDVPEGIRRRVISLVRESLGVDEAIEALRKRDFAAFSRVVNRSHERLRDRFEISCPELDWLVKRALEFVDPDAPDVVCSRLTGRGFGGCTYAILRDQDFEPYLERL-DEYERIFGFKAAAYEVQCSEGARVL</Hsp_qseq>
+      <Hsp_hseq>PGRVNLIGEHTDYNGGHVFPCALTMGTYAAVAERNDGLVRMYSDNFRNAGIKECSLDDIRYQKEDDWANYPKGVIYEFQQRGYAVPHGFDIVFSGNIPNGAGLSSSASIELLMGVVLQSYFHPEVDALELVKMAQHAENHFIGVNCGIMDQFAIGMGKKHHAMLLNCDTLDYEYSKLNVSGLALVIANTNKKRTLADSSYNTRRQECNDALLDLKKGLDIA-ALGDIKPSDFDAHSSLIQNETNRRRAKHAVYENHRAIKTAHMFKENNIDEIGQLMKESHLSLKDDYEVTCPELDELV-----FAAWDHEGVIGSRMTGAGFGGCTISIVKDEFVDDFIQKVGDRYQEKTGLRADFYVADIGEGAREL</Hsp_hseq>
+      <Hsp_midline>PGR +L+GE+  +  G+    A+       V+ R D   R++S        ++ S  ++RY+KED WAN  K VI  F   GY +  G +      IP  AGL +  ++++ M +VL   F   +    +V + +HA   ++  +    D   +   K+   +  +      E  +    G  +V+ ++   R +A   +  R + C DA   +K+  D+  A+  +  +   A   +   E  RRR    V E+    +     ++ +     +++  SH  L+D +E++CPELD LV     F   D   V+ SR+TG GFGGCT +I++D+  + +++++ D Y+   G +A  Y     EGAR L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|24211715|sp|Q8R8R7.1|GAL1_CALS4</Hit_id>
+  <Hit_def>RecName: Full=Galactokinase; AltName: Full=Galactose kinase</Hit_def>
+  <Hit_accession>Q8R8R7</Hit_accession>
+  <Hit_len>390</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.517</Hsp_bit-score>
+      <Hsp_score>371</Hsp_score>
+      <Hsp_evalue>1.28586e-38</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>381</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>364</Hsp_align-len>
+      <Hsp_qseq>PGRFHLLGEYLWFAQGNTLSMAIDQTLTLCVSRRKDSTFRLFSLTLGERRKISTANLRYRKEDRWANSVKAVILSFMDGGYHLTGLNCTILSQIPPDAGLGTPNALKVAMALVLGRLFAATLPKESVVSIVEHANERYLKTHAHRADILCVLFAKQGSCVRTDHRKKQAELCQFPSEGKRIVLTDSRVPRFIAREEFTARLKRCVDAYELVKRNPDMP-RAMSKLMAAALEEID--VP-EGIRRRVISLVRESLGVDEAIEALRKRDFAAFSRVVNRSHERLRDRFEISCPELDWLVKRALEFVDPDAPDVVCSRLTGRGFGGCTYAILRDQDFEPYLERLD-EYERIFGFKAAAYEVQCSEGA</Hsp_qseq>
+      <Hsp_hseq>PGRVNLIGEHTDYNGGYVFPCALDFGTYAAIRKRDDKKVFMASLNFDLKVEVDLDSIFYDKEHDWANYPKGVLKILQEEGYEFSGFEIVFGGNIPVGAGLSSSASIEMVTAVAVNEVFNLNIDRINLVKLCQRAENTFVGVNCGIMDQFAVGMGKKGHAILLKSDTLEYSYVPLNLEGYKILITNTNKKRGLLDSKYNERRSECEKALTYLKKA--LPVKNLSEVTVERFEEYKDLIPDEVLRKRARHVITENKRVLDAVKALNDNDIVKFGKLMIESHNSLRNDFEVTGKELDTLVEEALKL-----KGVVGSRMTGAGFGGCTVSIVKEDAVEEFIEVVTRNYTQKIGYAPTVYVTGVGEGA</Hsp_hseq>
+      <Hsp_midline>PGR +L+GE+  +  G     A+D      + +R D    + SL    + ++   ++ Y KE  WAN  K V+    + GY  +G        IP  AGL +  ++++  A+ +  +F   + + ++V + + A   ++  +    D   V   K+G  +       +        EG +I++T++   R +   ++  R   C  A   +K+   +P + +S++     EE    +P E +R+R   ++ E+  V +A++AL   D   F +++  SH  LR+ FE++  ELD LV+ AL+        VV SR+TG GFGGCT +I+++   E ++E +   Y +  G+    Y     EGA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|544584753|sp|Q9R0N0.2|GALK1_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Galactokinase; AltName: Full=Galactose kinase</Hit_def>
+  <Hit_accession>Q9R0N0</Hit_accession>
+  <Hit_len>392</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.132</Hsp_bit-score>
+      <Hsp_score>370</Hsp_score>
+      <Hsp_evalue>1.58896e-38</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>384</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>390</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>180</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>384</Hsp_align-len>
+      <Hsp_qseq>EEYGDEPEAIAVVPGRFHLLGEYLWFAQGNTLSMAIDQTLTLCVSRRKDSTFRLFSLTLG----ERRKISTANLRYRKED---RWANSVKAVILSFMDGGYHLTGLNCTILSQIPPDAGLGTPNALKVAMALVLGRLFAATLPKESVVSIVEHANERYLKTHAHRADILCVLFAKQGSCVRTDHRKKQAELCQFPSEGKRIVLTDSRVPRFIAREEFTARLKRCVDAYELVKRNPDMPRAMSKLMAAALEEIDVPEGIRR--RVISLVRESLGVDEAIEALRKRDFAAFSRVVNRSHERLRDRFEISCPELDWLVKRALEFVDPDAPDVVCSRLTGRGFGGCTYAILRDQDFEPYLERLDEYERIFGFKAAAYEVQCSEGARVL</Hsp_qseq>
+      <Hsp_hseq>EEFGAEPELAVSAPGRVNLIGEHTDYNQGLVLPMALELVTVMVGSPRTDGLVSLLTTSKDADEPQRLQFPLPSAQWSLEPGIPQWANYVKGVIQHYP--ASPLVGFSAVVVSSVPLGGGLSSSASLEVATYTFIQQLCPDSGAIAARAQVCQRAEHSFAGVPCGIMDQLIALLGQKGYALLIDCRSLETSLVPLSDPKLAVLITNSNVRHSLGSSEYPVRRRQCEEVAQALGKESLREVRMEELEAG--RELMSKEGFRRARHVVSEIRRT---AQAAAAMSRGDYKAFGRLMVESHYSLRDDYEVSCPELDQLVEAAL-----SVPGVYGSRMTGGGFGGCTVTLL-EASVAPLV--IDHIQEQYSGTATFYLSQAADGAQVL</Hsp_hseq>
+      <Hsp_midline>EE+G EPE     PGR +L+GE+  + QG  L MA++    +  S R D    L + +      +R +    + ++  E    +WAN VK VI  +      L G +  ++S +P   GL +  +L+VA    + +L   +    +   + + A   +        D L  L  ++G  +  D R  +  L         +++T+S V   +   E+  R ++C +  + + +       M +L A    E+   EG RR   V+S +R +    +A  A+ + D+ AF R++  SH  LRD +E+SCPELD LV+ AL       P V  SR+TG GFGGCT  +L +    P +  +D  +  +   A  Y  Q ++GA+VL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|189045135|sp|A6M1P8.1|GAL1_CLOB8</Hit_id>
+  <Hit_def>RecName: Full=Galactokinase; AltName: Full=Galactose kinase</Hit_def>
+  <Hit_accession>A6M1P8</Hit_accession>
+  <Hit_len>389</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.132</Hsp_bit-score>
+      <Hsp_score>370</Hsp_score>
+      <Hsp_evalue>1.9064e-38</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>382</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>386</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>389</Hsp_align-len>
+      <Hsp_qseq>MQRVESCHTEEYGDEPEAIAVVPGRFHLLGEYLWFAQGNTLSMAIDQTLTLCVSRRKDSTFRLFSLTLGERR--KISTANLRYRKEDRWANSVKAVILSFMDGGYHL-TGLNCTILSQIPPDAGLGTPNALKVAMALVLGRLFAATLPKESVVSIVEHANERYLKTHAHRADILCVLFAKQGSCVRTDHRKKQAELCQFPSEGKRIVLTDSRVPRFIAREEFTARLKRCVDAYELVKRNPDMPRAMSKLMAAALEEID--VPEGIR-RRVISLVRESLGVDEAIEALRKRDFAAFSRVVNRSHERLRDRFEISCPELDWLVKRALEFVDPDAPDVVCSRLTGRGFGGCTYAILRDQDFEPYLERLD-EYERIFGFKAAAYEVQCSEGAR</Hsp_qseq>
+      <Hsp_hseq>INVLKSDFTKLFAKDAESVFFSPGRVNLIGEHTDYNGGNVFPCALTIGTYALVRQREDKNVLVNSLNFKELGILEFSLENMIYEKQHDWANYPKGVIKTFENHGYNIPNGFEILFYGNIPNGSGLSSSASIEVLMGTILNDLFNLNINMVDIVKMCQEAENKFIGVNCGIMDQFAIGMGKENCAILLDCNTLKYSYSTIAMDGYKIVIANTNKKRGLADSKYNERRSECETALAEIQKVKNI-NALGELTEEEFEEVKSCISDPIKAKRAKHAVYENRRTLKAVKALEENDLTLFGKLMNDSHISLRDDYEVTGIELDTLVSLAWK-----SEGVIGARMTGAGFGGCTVNIVKEDCIDSFVEKVKAEYTSKIGYEPSFYVVSISDGTR</Hsp_hseq>
+      <Hsp_midline>+  ++S  T+ +  + E++   PGR +L+GE+  +  GN    A+       V +R+D    + SL   E    + S  N+ Y K+  WAN  K VI +F + GY++  G        IP  +GL +  +++V M  +L  LF   +    +V + + A  +++  +    D   +   K+   +  D    +        +G +IV+ ++   R +A  ++  R   C  A   +++  ++  A+ +L     EE+   + + I+ +R    V E+    +A++AL + D   F +++N SH  LRD +E++  ELD LV  A +     +  V+ +R+TG GFGGCT  I+++   + ++E++  EY    G++ + Y V  S+G R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|229889779|sp|A7NI09.1|GAL1_ROSCS</Hit_id>
+  <Hit_def>RecName: Full=Galactokinase; AltName: Full=Galactose kinase</Hit_def>
+  <Hit_accession>A7NI09</Hit_accession>
+  <Hit_len>391</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>146.747</Hsp_bit-score>
+      <Hsp_score>369</Hsp_score>
+      <Hsp_evalue>2.37894e-38</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>380</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>379</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>376</Hsp_align-len>
+      <Hsp_qseq>EEYGDEPEAIAVVPGRFHLLGEYLWFAQGNTLSMAIDQTLTLCVSRRKDSTFRLFSLTLGERRKISTANLRYRKEDRWANSVKAVILSFMDGGYHLTGLNCTILSQIPPDAGLGTPNALKVAMALVLGRLFAATLPKESVVSIVEHANERYLKTHAHRADILCVLFAKQGSCVRTDHRKKQAELCQFPSEGKRIVLTDSRVPRFIAREEFTARLKRCVDAYELVKRNPDMPRAMSKL----MAAALEEIDVPEGIRRRVISLVRESLGVDEAIEALRKRDFAAFSRVVNRSHERLRDRFEISCPELDWLVKRALEFVDPDAPDVVCSRLTGRGFGGCTYAILRDQDFEPYL-ERLDEYERIFGFKAAAYEVQCSEG</Hsp_qseq>
+      <Hsp_hseq>QHYGIHPSVIVRAPGRVNLIGEHTDYNDGFVFPVAIDRATYVAARLRHDQLVRVASSDLNEEDTFAIDQIE-RSNRPWHNYIRGVALALRVAGHPLLGADLLIASDVPRGAGLSSSAALEVAVGYAFQVLNNLNILGEELALLAQGAENNFVGVQCGIMDQLIAVLGRADHALLIDCRDLSYRAVPLPPS-VAVVICDSHIPRTLAASAYNQRRQECDMAVQLLRRWYPGIRALRDVSEDHLAAHSDAL--PEPIRSRARHVVRENRRTLQGAEALERGDVVTFGRLMNESHASLRDDYQVSLPDIDILVETAHHLA-----GCYGSRLTGAGFGGCTVSLVERNEVESFSRDLLRVYHNATGRTATIYVCRASDG</Hsp_hseq>
+      <Hsp_midline>+ YG  P  I   PGR +L+GE+  +  G    +AID+   +    R D   R+ S  L E    +   +  R    W N ++ V L+    G+ L G +  I S +P  AGL +  AL+VA+      L    +  E +  + + A   ++       D L  +  +    +  D R         P     +V+ DS +PR +A   +  R + C  A +L++R     RA+  +    +AA  + +  PE IR R   +VRE+    +  EAL + D   F R++N SH  LRD +++S P++D LV+ A             SRLTG GFGGCT +++   + E +  + L  Y    G  A  Y  + S+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|123049833|sp|Q0TQU5.1|GAL1_CLOP1</Hit_id>
+  <Hit_def>RecName: Full=Galactokinase; AltName: Full=Galactose kinase</Hit_def>
+  <Hit_accession>Q0TQU5</Hit_accession>
+  <Hit_len>387</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>146.362</Hsp_bit-score>
+      <Hsp_score>368</Hsp_score>
+      <Hsp_evalue>3.2306e-38</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>380</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>383</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>184</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>387</Hsp_align-len>
+      <Hsp_qseq>MQRVESCHTEEYGDEPEAIAVVPGRFHLLGEYLWFAQGNTLSMAIDQTLTLCVSRRKDSTFRLFSLTLGERRKI--STANLRYRKEDRWANSVKAVILSFMDGGYHL-TGLNCTILSQIPPDAGLGTPNALKVAMALVLGRLFAATLPKESVVSIVEHANERYLKTHAHRADILCVLFAKQGSCVRTDHRKKQAELCQFPSEGKRIVLTDSRVPRFIAREEFTARLKRCVDAYELVKRNPDMPRAMSKLMAAALEEI-DVPEGIR--RRVISLVRESLGVDEAIEALRKRDFAAFSRVVNRSHERLRDRFEISCPELDWLVKRALEFVDPDAPDVVCSRLTGRGFGGCTYAILRDQDFEPYLERLDE-YERIFGFKAAAYEVQCSEG</Hsp_qseq>
+      <Hsp_hseq>LNTLKSTFINNFGKEPTSLFFSPGRINLIGEHIDYNGGFVFPCPITLGTFAAASLREDRICRAYSLNFESLGVIEFSLDDLSYKKEDNWTNYLKGVLKVLIEKGYKIDKGIDLVINGNLPNGAGLSSSASLEMLIVKILDTFFSLNISKVDAALIGKEVENTYIGVNSGIMDQFAISLGEKDKAILLDCNSLYYEYVPLNLGDNSIIIMNTNKRRELADSKYNERRKECDDSLDTLKKYTNIS-SLCELTSLEFETYKDKIEDSNKLRRCVHAISENERVKDAVKALKENNLELFGQLMNQSHISLRDDYEVTGKELDTLAENAWK-----QPGVLGARMTGAGFGGCAIAIVNNAHVDEFIKNVGQAYKDAIGYEASFYVASIGNG</Hsp_hseq>
+      <Hsp_midline>+  ++S     +G EP ++   PGR +L+GE++ +  G      I        S R+D   R +SL       I  S  +L Y+KED W N +K V+   ++ GY +  G++  I   +P  AGL +  +L++ +  +L   F+  + K     I +     Y+  ++   D   +   ++   +  D      E          I++ ++   R +A  ++  R K C D+ + +K+  ++  ++ +L +   E   D  E     RR +  + E+  V +A++AL++ +   F +++N+SH  LRD +E++  ELD L + A +      P V+ +R+TG GFGGC  AI+ +   + +++ + + Y+   G++A+ Y      G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|32363163|sp|Q9GKK4.1|GALK1_CANFA</Hit_id>
+  <Hit_def>RecName: Full=Galactokinase; AltName: Full=Galactose kinase</Hit_def>
+  <Hit_accession>Q9GKK4</Hit_accession>
+  <Hit_len>392</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>146.362</Hsp_bit-score>
+      <Hsp_score>368</Hsp_score>
+      <Hsp_evalue>3.39228e-38</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>384</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>390</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>179</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>392</Hsp_align-len>
+      <Hsp_qseq>EEYGDEPEAIAVVPGRFHLLGEYLWFAQGNTLSMAIDQTLTLCVSRRKDSTFRLFSLT--LGERRKIS----TANLRYRK-EDRWANSVKAVILSFMDGGYHLTGLNCTILSQIPPDAGLGTPNALKVAMALVLGRLFAATLPKESVVSIVEHANERYLKTHAHRADILCVLFAKQGSCVRTDHRKKQAELCQFPSEGKRIVLTDSRVPRFIAREEFTARLKRCVDAYELVKRNPDMPRAMSK--LMAAALEEIDV------PEGIRR--RVISLVRESLGVDEAIEALRKRDFAAFSRVVNRSHERLRDRFEISCPELDWLVKRALEFVDPDAPDVVCSRLTGRGFGGCTYAILRDQDFEPYLERLDEYERIFGFKAAAYEVQCSEGARVL</Hsp_qseq>
+      <Hsp_hseq>EEFGAEPELAVSAPGRVNLIGEHTDYNQGLVLPMALELVTVLVGSPRADGLVSLLTTSEDADEPRRLQFPLPTAQRSLEPGTPRWANYVKGVIQHYPAA--PLPGFSAVVVSSVPLGGGLSSSASLEVATYTFLQQLCPDSGSVAARAQVCQQAEHSFAGVPCGIMDQLIALLGQEGHALLIDCRSLETSLVPLSEPKLAVLITNSNVRHSLGSSEYPLRRRQC----------EEVARALGKESLREVQLEELEAGRELVSKEGFRRARHVVGEIRRT---AQAAAALCRGDYRAFGRLMVESHHSLRDDYEVSCPELDQLVEAAL-----SAPGVYGSRMTGGGFGGCTVTLLEASFTSQVMQHIQEQ---YSGTATFYLSQAADGAKVL</Hsp_hseq>
+      <Hsp_midline>EE+G EPE     PGR +L+GE+  + QG  L MA++    L  S R D    L + +    E R++     TA         RWAN VK VI  +      L G +  ++S +P   GL +  +L+VA    L +L   +    +   + + A   +        D L  L  ++G  +  D R  +  L         +++T+S V   +   E+  R ++C           ++ RA+ K  L    LEE++        EG RR   V+  +R +    +A  AL + D+ AF R++  SH  LRD +E+SCPELD LV+ AL      AP V  SR+TG GFGGCT  +L        ++ + E    +   A  Y  Q ++GA+VL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|24211717|sp|Q8XKP9.1|GAL1_CLOPE</Hit_id>
+  <Hit_def>RecName: Full=Galactokinase; AltName: Full=Galactose kinase</Hit_def>
+  <Hit_accession>Q8XKP9</Hit_accession>
+  <Hit_len>387</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>146.362</Hsp_bit-score>
+      <Hsp_score>368</Hsp_score>
+      <Hsp_evalue>3.56978e-38</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>380</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>383</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>387</Hsp_align-len>
+      <Hsp_qseq>MQRVESCHTEEYGDEPEAIAVVPGRFHLLGEYLWFAQGNTLSMAIDQTLTLCVSRRKDSTFRLFSLTLGERRKI--STANLRYRKEDRWANSVKAVILSFMDGGYHL-TGLNCTILSQIPPDAGLGTPNALKVAMALVLGRLFAATLPKESVVSIVEHANERYLKTHAHRADILCVLFAKQGSCVRTDHRKKQAELCQFPSEGKRIVLTDSRVPRFIAREEFTARLKRCVDAYELVKRNPDMPRAMSKLMAAALEEI-DVPEGIR--RRVISLVRESLGVDEAIEALRKRDFAAFSRVVNRSHERLRDRFEISCPELDWLVKRALEFVDPDAPDVVCSRLTGRGFGGCTYAILRDQDFEPYLERLDE-YERIFGFKAAAYEVQCSEG</Hsp_qseq>
+      <Hsp_hseq>LNTLKSTFINNFGKEPNSLFFSPGRINLIGEHIDYNGGFVFPCPITLGTFAAASLRDDRICRAYSLNFESLGVIEFSLDDLSYKKEDNWTNYLKGVLKVLIEKGYKIDKGIDLVINGNLPNGAGLSSSASLEMLIVKILDTFFSLNISKVDAALIGKEVENTYIGVNSGIMDQFAISLGEKDKAILLDCNSLYYEYVPLNLGDNSIIIMNTNKRRELADSKYNERRKECDDSLDTLKKYTNIS-SLCELTSLEFETYKDKIEDSNKLRRCVHAISENERVKDAVKALKENNLELFGQLMNQSHISLRDDYEVTGKELDTLAENAWK-----QPGVLGARMTGAGFGGCAIAIVNNAHVDEFIKNVGQAYKDAIGYEASFYVASIGNG</Hsp_hseq>
+      <Hsp_midline>+  ++S     +G EP ++   PGR +L+GE++ +  G      I        S R D   R +SL       I  S  +L Y+KED W N +K V+   ++ GY +  G++  I   +P  AGL +  +L++ +  +L   F+  + K     I +     Y+  ++   D   +   ++   +  D      E          I++ ++   R +A  ++  R K C D+ + +K+  ++  ++ +L +   E   D  E     RR +  + E+  V +A++AL++ +   F +++N+SH  LRD +E++  ELD L + A +      P V+ +R+TG GFGGC  AI+ +   + +++ + + Y+   G++A+ Y      G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|123047390|sp|Q0ST92.1|GAL1_CLOPS</Hit_id>
+  <Hit_def>RecName: Full=Galactokinase; AltName: Full=Galactose kinase</Hit_def>
+  <Hit_accession>Q0ST92</Hit_accession>
+  <Hit_len>387</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.976</Hsp_bit-score>
+      <Hsp_score>367</Hsp_score>
+      <Hsp_evalue>4.27232e-38</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>380</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>383</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>387</Hsp_align-len>
+      <Hsp_qseq>MQRVESCHTEEYGDEPEAIAVVPGRFHLLGEYLWFAQGNTLSMAIDQTLTLCVSRRKDSTFRLFSLTLGERRKI--STANLRYRKEDRWANSVKAVILSFMDGGYHL-TGLNCTILSQIPPDAGLGTPNALKVAMALVLGRLFAATLPKESVVSIVEHANERYLKTHAHRADILCVLFAKQGSCVRTDHRKKQAELCQFPSEGKRIVLTDSRVPRFIAREEFTARLKRCVDAYELVKRNPDMPRAMSKLMAAALEEI-DVPEGIR--RRVISLVRESLGVDEAIEALRKRDFAAFSRVVNRSHERLRDRFEISCPELDWLVKRALEFVDPDAPDVVCSRLTGRGFGGCTYAILRDQDFEPYLERLDE-YERIFGFKAAAYEVQCSEG</Hsp_qseq>
+      <Hsp_hseq>LNTLKSTFINNFGKEPNSLFFSPGRINLIGEHIDYNGGFVFPCPITLGTFAAATLRDDRICRAYSLNFESLGVIEFSLDDLSYKKEDNWTNYLKGVLKVLIEKGYKIDKGIDLVINGNLPNGAGLSSSASLEMLIVKILDTFFSLNISKVDAALIGKEVENTYIGVNSGIMDQFAISLGEKDKAILLDCNSLYYEYVPLNLGDNSIIIMNTNKRRELADSKYNERRKECDDSLDTLKKYTNIS-SLCELTSLEFETYKDKIEDSNKLRRCVHAISENERVKDAVKALKENNLELFGQLMNQSHISLRDDYEVTGKELDTLAENAWK-----QPGVLGARMTGAGFGGCAIAIVNNNHVDEFIKNVGQAYKDAIGYEASFYVASIGNG</Hsp_hseq>
+      <Hsp_midline>+  ++S     +G EP ++   PGR +L+GE++ +  G      I        + R D   R +SL       I  S  +L Y+KED W N +K V+   ++ GY +  G++  I   +P  AGL +  +L++ +  +L   F+  + K     I +     Y+  ++   D   +   ++   +  D      E          I++ ++   R +A  ++  R K C D+ + +K+  ++  ++ +L +   E   D  E     RR +  + E+  V +A++AL++ +   F +++N+SH  LRD +E++  ELD L + A +      P V+ +R+TG GFGGC  AI+ +   + +++ + + Y+   G++A+ Y      G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|229889780|sp|A5UZX0.1|GAL1_ROSS1</Hit_id>
+  <Hit_def>RecName: Full=Galactokinase; AltName: Full=Galactose kinase</Hit_def>
+  <Hit_accession>A5UZX0</Hit_accession>
+  <Hit_len>391</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.51</Hsp_bit-score>
+      <Hsp_score>358</Hsp_score>
+      <Hsp_evalue>9.40663e-37</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>380</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>379</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>374</Hsp_align-len>
+      <Hsp_qseq>EEYGDEPEAIAVVPGRFHLLGEYLWFAQGNTLSMAIDQTLTLCVSRRKDSTFRLFSLTLGERRKISTANLRYRKEDRWANSVKAVILSFMDGGYHLTGLNCTILSQIPPDAGLGTPNALKVAMALVLGRLFAATLPKESVVSIVEHANERYLKTHAHRADILCVLFAKQGSCVRTDHRKKQAELCQFPSEGKRIVLTDSRVPRFIAREEFTARLKRCVDAYELVKRNPDMPRAMSKLM--AAALEEIDVPEGIRRRVISLVRESLGVDEAIEALRKRDFAAFSRVVNRSHERLRDRFEISCPELDWLVKRALEFVDPDAPDVVCSRLTGRGFGGCTYAILRDQDFEPYLERLDE-YERIFGFKAAAYEVQCSEG</Hsp_qseq>
+      <Hsp_hseq>QHYGIHPHVIVRAPGRVNLIGEHTDYNDGFVFPVAIDRATCVAARPRTDRIVRVMAADLHDEDLFSIDQIE-RSNRAWHNYIRGVVLALRTAGHTLSGADMLIASDVPRGAGLSSSAALEVAVAYTFQVLNRLNILGEELALLAQGAENTFVGVQCGIMDQLIAVFGRADHALLIDCRDLTYRAVPLPPS-VAVVVCDSHIARTLAASAYNQRRQECDAAVRALQQWYPGIRALRDVSEDQLAAHQHELPEPLRARARHVVSENRRALQGAAALEAGDIATFGRLMNESHASLRDDYQVSLPDIDFLVTTAQSLA-----GCYGSRLTGAGFGGCTVSLVERSSVETFRHDLAQAYHDATGRTATIYVCRASDG</Hsp_hseq>
+      <Hsp_midline>+ YG  P  I   PGR +L+GE+  +  G    +AID+   +    R D   R+ +  L +    S   +  R    W N ++ V+L+    G+ L+G +  I S +P  AGL +  AL+VA+A     L    +  E +  + + A   ++       D L  +F +    +  D R         P     +V+ DS + R +A   +  R + C  A   +++     RA+  +     A  + ++PE +R R   +V E+    +   AL   D A F R++N SH  LRD +++S P++D+LV  A             SRLTG GFGGCT +++     E +   L + Y    G  A  Y  + S+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|24211725|sp|Q9K3S8.1|GAL1_STRCO</Hit_id>
+  <Hit_def>RecName: Full=Galactokinase; AltName: Full=Galactose kinase</Hit_def>
+  <Hit_accession>Q9K3S8</Hit_accession>
+  <Hit_len>387</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.124</Hsp_bit-score>
+      <Hsp_score>357</Hsp_score>
+      <Hsp_evalue>9.7905e-37</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>384</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>386</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>381</Hsp_align-len>
+      <Hsp_qseq>EEYGDEPEAIAVVPGRFHLLGEYLWFAQGNTLSMAIDQTLTLCVSRRKDSTFRLFSLTL-GERRKISTANLRYRKEDRWANSVKAVILSFMDGGYHLTGLNCTILSQIPPDAGLGTPNALKVAMALVLGRLFAATLPKESVVSIVEHANERYLKTHAHRADILCVLFAKQGSCVRTDHRKKQAELCQF--PSEGKRIVLTDSRVPRFIAREEFTARLKRCVDAYELVKRNP--DMPRAMSKLMAAALEEIDVPEGIRRRVISLVRESLGVDEAIEALRKRDFAAFSRVVNRSHERLRDRFEISCPELDWLVKRALEFVDPDAPDVVCSRLTGRGFGGCTYAILRDQDFEPYLERLDEYERIFGFKAA-AYEVQCSEGARVL</Hsp_qseq>
+      <Hsp_hseq>ELYGAEPEGVWAAPGRVNLIGEHTDYNDGFVMPFALPHQAVAAVSRRDDGILRLHSADIDADPVELRVADLAPGSDKSWTAYPSGVLWALREAGHELTGADVHLASTVPSGAGLSSSAALEVVLALAMNDLYALGLRGWQLARLCQRAENVYVGAPVGIMDQTASACCEAGHALFLDTRDLSQRQIPFDLAAEGMRLLVVDTRVKHSHSEGEYGKRRAGCEKGAALLGVDALRDVPYAD---LDAALERLGDEEEVRRLVRHVVTEDERVERVVALLESGDTRAIGAVLVEGHASLRDDFRISCPELDLVVDTAL------ASGALGARMTGGGFGGSAIVLVEAAGVDAVTKAVEDAFAAAGLKAPRVFEAVPSAGARRL</Hsp_hseq>
+      <Hsp_midline>E YG EPE +   PGR +L+GE+  +  G  +  A+       VSRR D   RL S  +  +  ++  A+L    +  W      V+ +  + G+ LTG +  + S +P  AGL +  AL+V +AL +  L+A  L    +  + + A   Y+       D       + G  +  D R        F   +EG R+++ D+RV    +  E+  R   C     L+  +   D+P A    + AALE +   E +RR V  +V E   V+  +  L   D  A   V+   H  LRD F ISCPELD +V  AL      A   + +R+TG GFGG    ++     +   + +++     G KA   +E   S GAR L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|182705253|sp|A6H768.2|GALK1_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=Galactokinase; AltName: Full=Galactose kinase</Hit_def>
+  <Hit_accession>A6H768</Hit_accession>
+  <Hit_len>392</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>140.969</Hsp_bit-score>
+      <Hsp_score>354</Hsp_score>
+      <Hsp_evalue>3.09135e-36</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>384</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>390</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>176</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>389</Hsp_align-len>
+      <Hsp_qseq>EEYGDEPEAIAVVPGRFHLLGEYLWFAQGNTLSMAIDQTLTLCVSRRKDSTFRLFSLT--LGERRKI-----STANLRYRKEDRWANSVKAVILSFMDGGYHLTGLNCTILSQIPPDAGLGTPNALKVAMALVLGRLFAATLPKESVVSIVEHANERYLKTHAHRADILCVLFAKQGSCVRTDHRKKQAELCQFPSEGKRIVLTDSRVPRFIAREEFTARLKRCVDAYELVKRNPDMPRAMSK--LMAAALEEIDVPEGIR-----RRVISLVRESLGVDEAIEALRKRDFAAFSRVVNRSHERLRDRFEISCPELDWLVKRALEFVDPDAPDVVCSRLTGRGFGGCTYAILRDQDFEPYLERLDEYERIFGFKAAAYEVQCSEGARVL</Hsp_qseq>
+      <Hsp_hseq>EEFGAEPELAVSAPGRVNLIGEHTDYNRGLVLPMALELVTVLVGSPRVDGLVSLLTTSEDADEPRRLQFPLPTSQRPLEPGTPHWANYVKGVIQHYPAA--PLPGFSAVVVSSVPLGGGLSSSASLEVATYTFLQQLCPDSGTIAARAQVCQRAEHSFAGVPCGIMDQLIALLGQRGHALLIDCRSLETSLVPLSDPKLAVLITNSNVRHSLGSSEYPLRRRQC----------EEVARALGKESLREVQLEELEAGRDLMSTEAFRRARHVVGEIQRTAQAAAALRRGDYRAFGRLMVESHHSLRDDYEVSCPELDQLVEAAL-----SAPGVYGSRMTGGGFGGCTVTLLEASAAPRVMQHIQEQ---YHGTATFYLSQAADGAKVL</Hsp_hseq>
+      <Hsp_midline>EE+G EPE     PGR +L+GE+  + +G  L MA++    L  S R D    L + +    E R++     ++          WAN VK VI  +      L G +  ++S +P   GL +  +L+VA    L +L   +    +   + + A   +        D L  L  ++G  +  D R  +  L         +++T+S V   +   E+  R ++C           ++ RA+ K  L    LEE++    +      RR   +V E     +A  ALR+ D+ AF R++  SH  LRD +E+SCPELD LV+ AL      AP V  SR+TG GFGGCT  +L        ++ + E    +   A  Y  Q ++GA+VL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|24211720|sp|Q97EZ6.1|GAL1_CLOAB</Hit_id>
+  <Hit_def>RecName: Full=Galactokinase; AltName: Full=Galactose kinase</Hit_def>
+  <Hit_accession>Q97EZ6</Hit_accession>
+  <Hit_len>389</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>139.043</Hsp_bit-score>
+      <Hsp_score>349</Hsp_score>
+      <Hsp_evalue>1.59548e-35</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>382</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>386</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>182</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>373</Hsp_align-len>
+      <Hsp_qseq>EAIAVVPGRFHLLGEYLWFAQGNTLSMAIDQTLTLCVSRRKDSTFRLFSLTLGERRKI--STANLRYRKEDRWANSVKAVILSFMDGGYHL-TGLNCTILSQIPPDAGLGTPNALKVAMALVLGRLFAATLPKESVVSIVEHANERYLKTHAHRADILCVLFAKQGSCVRTDHRKKQAELCQFPSEGKRIVLTDSRVPRFIAREEFTARLKRCVDAYELVKRNPDMPRAMSKLMAAALEEID--VPEGIR-RRVISLVRESLGVDEAIEALRKRDFAAFSRVVNRSHERLRDRFEISCPELDWLVKRALEFVDPDAPDVVCSRLTGRGFGGCTYAILRDQDFEPYLERLD-EYERIFGFKAAAYEVQCSEGAR</Hsp_qseq>
+      <Hsp_hseq>ENVFFSPGRVNLIGEHTDYNGGHVFPCALTIGTYGLVARRNDNKVLAYSLNFDNLGVIEFSLDDLKKCKKDDWANYVKGVIDTFNKHGHNIENGFEILFYGSIPNGSGLSSSASIEVLTGIILNDLFKLNINMVEIVKMCQEAENSFIGVNCGIMDQFSIGMGKKDCAILLDCSTLEYSYSKLNMTGYKIVIANTNKKRGLADSKYNERRSECEAALKELQKVKNI-NSLGELTEAEFEELKDIISDPVKLRRARHAVYENQRTLKAVVSLNNNDLKTFGKLMNESHISLRDDYEVTGIELDTLVSLALE-----SKGVIGSRMTGAGFGGCTVSIVKEDYVDEFIESIKAKYTEKIGYEPSFYIVNIADGAK</Hsp_hseq>
+      <Hsp_midline>E +   PGR +L+GE+  +  G+    A+       V+RR D+    +SL       I  S  +L+  K+D WAN VK VI +F   G+++  G        IP  +GL +  +++V   ++L  LF   +    +V + + A   ++  +    D   +   K+   +  D    +    +    G +IV+ ++   R +A  ++  R   C  A + +++  ++  ++ +L  A  EE+   + + ++ RR    V E+    +A+ +L   D   F +++N SH  LRD +E++  ELD LV  ALE     +  V+ SR+TG GFGGCT +I+++   + ++E +  +Y    G++ + Y V  ++GA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|166216969|sp|A0KQH8.1|GAL1_AERHH</Hit_id>
+  <Hit_def>RecName: Full=Galactokinase; AltName: Full=Galactose kinase</Hit_def>
+  <Hit_accession>A0KQH8</Hit_accession>
+  <Hit_len>382</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.887</Hsp_bit-score>
+      <Hsp_score>346</Hsp_score>
+      <Hsp_evalue>2.99386e-35</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>381</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>379</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>385</Hsp_align-len>
+      <Hsp_qseq>QRVESCHTEEYGDEPEAIAVVPGRFHLLGEYLWFAQGNTLSMAIDQTLTLCVSRRKDSTFRLFSLTLGERRKISTAN--LRYRKEDRWANSVKAVILSFMDGGYHLTGLNCTILSQIPPDAGLGTPNALKVAMALVLGRLFAATLPKESVVSIVEHANERYLKTHAHRADILCVLFAKQGSCVRTDHRKKQAELCQFPSEGKRIVLTDSRVPRFIAREEFTARLKRCVDA--YELVKRNPDMPRAMSKLMAAALEEIDVPEGIRRRVISLVRESLGVDEAIEALRKRDFAAFSRVVNRSHERLRDRFEISCPELDWLVKRALEFVDPDAPDVVCSRLTGRGFGGCTYAILRDQDFEPYLERLD-EYERIFGFKAAAYEVQCSEGA</Hsp_qseq>
+      <Hsp_hseq>QRVSAVFAEQFEQQPDLLVRAPGRVNLIGEHTDYNDGFVLPCAIDYETCVAIGLRDDSLVHVIAADYGNQRDLFDLDQPIGHHADQRWSDYIRGVVKYLQERGYPLRGLNLVVSGNVPQGAGLSSSASLEVAIGQAFKEALGLAITQAEIALNGQQAENQFVGCNCGIMDQMISASGKQDHALLLDCRSLETRLIPMPTD-LAVLIVNSNVRRGLVDSEYNTRRQQCEAAARHYGVKALRDLDLAALEAGKAGLDEV-----CYRRARHVVGDNSRTLAAADALAQGDLVRLGELMADSHAAMRDDFEITVPAIDGLV----EIIKARIGTEGGVRMTGGGFGGCVVALLHPDKVAEVIAAVDAEYPARFGLKADSYVCRASAGA</Hsp_hseq>
+      <Hsp_midline>QRV +   E++  +P+ +   PGR +L+GE+  +  G  L  AID    + +  R DS   + +   G +R +   +  + +  + RW++ ++ V+    + GY L GLN  +   +P  AGL +  +L+VA+           + +  +    + A  +++  +    D +     KQ   +  D R  +  L   P++   +++ +S V R +   E+  R ++C  A  +  VK   D+  A  +   A L+E+       RR   +V ++     A +AL + D      ++  SH  +RD FEI+ P +D LV    E +          R+TG GFGGC  A+L        +  +D EY   FG KA +Y  + S GA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|229874589|sp|B1YIH8.1|GAL1_EXIS2</Hit_id>
+  <Hit_def>RecName: Full=Galactokinase; AltName: Full=Galactose kinase</Hit_def>
+  <Hit_accession>B1YIH8</Hit_accession>
+  <Hit_len>390</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.117</Hsp_bit-score>
+      <Hsp_score>344</Hsp_score>
+      <Hsp_evalue>5.84175e-35</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>382</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>383</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>175</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>389</Hsp_align-len>
+      <Hsp_qseq>QRVESCHTEEYGDEPEAIAVVPGRFHLLGEYLWFAQGNTLSMAIDQTLTLCVSRRKDSTFRLFSLTLGERRKISTA--NLRYRKEDRWANSVKAVILSFMDGGYHL-TGLNCTILSQIPPDAGLGTPNALKVAMALVLGRLFAATLPKESVVSIVEHANERYLKTHAHRADILCVLFAKQGSCVRTDHRKKQAELCQFPSEGKRIVLTDSRVPRFIAREEFTARLKRCVDAYELVKRNPDMPRAMSKLMAAALEEIDV----PEGIRRRVISLVRESLGVDEAIEALRKRDFAAFSRVVNRSHERLRDRFEISCPELDWLVKRALEFVDPDAPDVVCSRLTGRGFGGCTYAILRDQDFEPYLERLDE-YERIFGFKAAAYEVQCSEGAR</Hsp_qseq>
+      <Hsp_hseq>QTLEQIFEQQFGQSSTHRFFAPGRINLIGEHTDYNGGHVFPCALTLGTHAVARKRDDVVFRFYSLNFEDDGIIEVAGDDLTPQSAHGWANYAKGMIHVLREAGYRIDTGCDILIKGDIPNGAGLSSSASLELVIGVLLDKLYNLDIDRIDLVKYGQQVENQYIGVNSGIMDQFAIGMGKAGSGLLLDCETLDYTYAPLDLSGYTIIIMNTNKRRELADSKYNERRSECEAALAYLQQ----YRPYASLGQWSMNEFETVSFEDERLERRARHAISENERTLQALDALKEDRLEAFGQLMNASHRSLRVDYEVTGKELDTLVEAAWA-----QPGVLGARMTGAGFGGCAIAIVEDDTVETFMTAVGHAYETEIGYPASFYTATVGDGAR</Hsp_hseq>
+      <Hsp_midline>Q +E    +++G         PGR +L+GE+  +  G+    A+         +R D  FR +SL   +   I  A  +L  +    WAN  K +I    + GY + TG +  I   IP  AGL +  +L++ + ++L +L+   + +  +V   +    +Y+  ++   D   +   K GS +  D              G  I++ ++   R +A  ++  R   C  A   +++     R  + L   ++ E +      E + RR    + E+    +A++AL++    AF +++N SH  LR  +E++  ELD LV+ A        P V+ +R+TG GFGGC  AI+ D   E ++  +   YE   G+ A+ Y     +GAR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|38604757|sp|Q836P0.1|GAL1_ENTFA</Hit_id>
+  <Hit_def>RecName: Full=Galactokinase; AltName: Full=Galactose kinase</Hit_def>
+  <Hit_accession>Q836P0</Hit_accession>
+  <Hit_len>387</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.88</Hsp_bit-score>
+      <Hsp_score>333</Hsp_score>
+      <Hsp_evalue>1.73108e-33</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>384</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>386</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>176</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>383</Hsp_align-len>
+      <Hsp_qseq>TEEYGDEPEAIAVVPGRFHLLGEYLWFAQGNTLSMAIDQTLTLCVSRRKDSTFRLFSLTLGERRKI--STANLRYRKEDRWANSVKAVILSFMDGGYHL-TGLNCTILSQIPPDAGLGTPNALKVAMALVLGRLFAATLPKESVVSIVEHANERYLKTHAHRADILCVLFAKQGSCVRTDHRKKQAELCQFPSEGKRIVLTDSRVPRFIAREEFTARLKRCVDAYELVKRNPDMPRAMSKLMAAALEEIDVPEG---IRRRVISLVRESLGVDEAIEALRKRDFAAFSRVVNRSHERLRDRFEISCPELDWLVKRALEFVDPDAPDVVCSRLTGRGFGGCTYAILRDQDFEPYLERLDE-YERIFGFKAAAYEVQCSEGARVL</Hsp_qseq>
+      <Hsp_hseq>VEIFGEKGTACYFAPGRINLIGEHTDYNGGHVFPAAITLGTFGVARKRDDQKIRMFSDNFKEVGLIEFSLEDLTYSDSDDWANYPKGVLNYLIESGHNIDSGLDVLFYGTIPNGAGLSSSASIELLMGTICNDLYALHCPMLELVQIGKKVENEFIGVNSGIMDQFAVGMGEKDQAILLDTNNMHYEMVPAKLGEYTIVIMNTNKRRELADSKYNERRAECEEAVRLLQKELSI-EFLGELDSETFEQYQALIGDPALIKRARHAVTENERTLLAKQALTEGDLEEFGLLLNASHRSLKEDYEVTGIELDTLVACAQE-----QPGVLGARMTGAGFGGCSIALVPKQNIDAFIEAVGQSYQDKIGYAADFYPASIDDGARKL</Hsp_hseq>
+      <Hsp_midline> E +G++  A    PGR +L+GE+  +  G+    AI         +R D   R+FS    E   I  S  +L Y   D WAN  K V+   ++ G+++ +GL+      IP  AGL +  ++++ M  +   L+A   P   +V I +     ++  ++   D   V   ++   +  D      E+         IV+ ++   R +A  ++  R   C +A  L+++   +   + +L +   E+     G   + +R    V E+     A +AL + D   F  ++N SH  L++ +E++  ELD LV  A E      P V+ +R+TG GFGGC+ A++  Q+ + ++E + + Y+   G+ A  Y     +GAR L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|33301163|sp|Q87M60.1|GAL1_VIBPA</Hit_id>
+  <Hit_def>RecName: Full=Galactokinase; AltName: Full=Galactose kinase</Hit_def>
+  <Hit_accession>Q87M60</Hit_accession>
+  <Hit_len>386</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.183</Hsp_bit-score>
+      <Hsp_score>326</Hsp_score>
+      <Hsp_evalue>1.68452e-32</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>381</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>380</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>176</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>389</Hsp_align-len>
+      <Hsp_qseq>MQRVESCHTEEYGDEPEAIAVVPGRFHLLGEYLWFAQGNTLSMAIDQTLTLCVSRRKDSTFRLFSLTLG---ERRKISTANLRYRKEDRWANSVKAVILSFMDGGYHLTGLNCTILSQIPPDAGLGTPNALKVAMALVLGRLFAATLPKESVVSIVEHANERYLKTHAHRADILCVLFAKQGSCVRTDHRKKQAELCQFPSEGKRIVLTDSRVPRFIAREEFTARLKRCVDAYEL--VKRNPDMPRAMSKLMAAALEEIDVPEGIRRRVISLVRESLGVDEAIEALRKRDFAAFSRVVNRSHERLRDRFEISCPELDWLVKRALEFVDPDAPDVVCSRLTGRGFGGCTYAILRD---QDFEPYLERLDEYERIFGFKAAAYEVQCSEGA</Hsp_qseq>
+      <Hsp_hseq>IQNVKASFEQVLGYAPSHIIQAPGRVNLIGEHTDYNDGFVLPCAINYQTVVAAAKREDNIVRVVSVDYGNAVDEFDITQA-ITFQQDKMWANYIRGVVKCLLARGYQFTGADISVSGNVPQGAGLSSSAALEVVIGQTFKVLFNLEISQAEIALNGQQAENEFVGCNCGIMDQMISAEGRENHAMLLDCRSLETEAVSMP-EDMAVVIINSNKKRGLVDSEYNTRRQQCEEAARIFGVKALRDVTIEQFNEKVAELDEM-----VAKRARHVITENDRTVEAAQALRAHDMKRMGELMAESHASMRDDFEITVKEIDTLV----EIVKEVIGDQGGVRMTGGGFGGCIVALVPPALVDDVKAEVEA--KYQAATGLKESIYVCQAQNGA</Hsp_hseq>
+      <Hsp_midline>+Q V++   +  G  P  I   PGR +L+GE+  +  G  L  AI+    +  ++R+D+  R+ S+  G   +   I+ A + ++++  WAN ++ V+   +  GY  TG + ++   +P  AGL +  AL+V +      LF   + +  +    + A   ++  +    D +     ++   +  D R  + E    P E   +V+ +S   R +   E+  R ++C +A  +  VK   D+         A L+E+     + +R   ++ E+    EA +ALR  D      ++  SH  +RD FEI+  E+D LV    E V     D    R+TG GFGGC  A++      D +  +E   +Y+   G K + Y  Q   GA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>462628</Statistics_db-num>
+      <Statistics_db-len>173435234</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

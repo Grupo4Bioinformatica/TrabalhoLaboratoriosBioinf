@@ -1,0 +1,322 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>Query_244729</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>165</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_244729</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>165</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|14285875|sp|O83430.1|Y415_TREPA</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein TP_0415</Hit_def>
+  <Hit_accession>O83430</Hit_accession>
+  <Hit_len>177</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>329.717</Hsp_bit-score>
+      <Hsp_score>844</Hsp_score>
+      <Hsp_evalue>1.12826e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MSHENGVAVHGNVGVEGARKFLESRCVLKEAEGGEICWSVIVEKKVDDIRVKGEQHGGFLCAGMWGDFVGTGEERIAGRDRTEEAHVTGKEGKVFRRQGVEGGTLRVRLEKCRIVGWGMYGGPGVVRVFCARSGAHSALSAKRAQAAYLAMWPSIGCISFRVCPA</Hsp_qseq>
+      <Hsp_hseq>MSHENGVAVHGNVGVEGARKFLESRCVLKEAEGGEICWSVIVEKKVDDIRVKGEQHGGFLCAGMWGDFVGTGEERIAGRDRTEEAHVTGKEGKVFRRQGVEGGTLRVRLEKCRIVGWGMYGGPGVVRVFCARSGAHSALSAKRAQAAYLAMWPSIGCISFRVCPA</Hsp_hseq>
+      <Hsp_midline>MSHENGVAVHGNVGVEGARKFLESRCVLKEAEGGEICWSVIVEKKVDDIRVKGEQHGGFLCAGMWGDFVGTGEERIAGRDRTEEAHVTGKEGKVFRRQGVEGGTLRVRLEKCRIVGWGMYGGPGVVRVFCARSGAHSALSAKRAQAAYLAMWPSIGCISFRVCPA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|261266715|sp|B9KER3.1|OBG_CAMLR</Hit_id>
+  <Hit_def>RecName: Full=GTPase Obg; AltName: Full=GTP-binding protein Obg</Hit_def>
+  <Hit_accession>B9KER3</Hit_accession>
+  <Hit_len>347</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>2.39847</Hsp_evalue>
+      <Hsp_query-from>95</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>FRRQGVEGGTLRVRLEKCRIVGWGMYGGPGVVRVFCARSGAHSALSAKRAQAA---YLAMWPSIGCI</Hsp_qseq>
+      <Hsp_hseq>YAQSGVAGKTLSVRLELKLIADVGLVGFPNV-----GKSTLISVVSNARPEIANYEFTTLTPKLGMV</Hsp_hseq>
+      <Hsp_midline>+ + GV G TL VRLE   I   G+ G P V      +S   S +S  R + A   +  + P +G +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|261266832|sp|B2USD4.1|OBG_HELPS</Hit_id>
+  <Hit_def>RecName: Full=GTPase Obg; AltName: Full=GTP-binding protein Obg</Hit_def>
+  <Hit_accession>B2USD4</Hit_accession>
+  <Hit_len>360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>4.15764</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>96</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>109</Hsp_align-len>
+      <Hsp_qseq>FLCAGMWGDFVGTGEERIAGRDRTE---EAHVTG--KEGKVFRRQGVEGGTLRVRLEKCRIVGWGMYGGPGVVRVFCARSGAHSALSAKRAQAA---YLAMWPSIGCIS</Hsp_qseq>
+      <Hsp_hseq>FVDDALWLDLVEPKERVLALKGGKGGLGNAHFKSATKQQPTYAQKGLEGVEKCVRLELKLIADIGLVGFPN-----AGKSTLISTISNAKPKIANYEFTTLVPNLGVVS</Hsp_hseq>
+      <Hsp_midline>F+   +W D V   E  +A +        AH     K+   + ++G+EG    VRLE   I   G+ G P        +S   S +S  + + A   +  + P++G +S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|261266682|sp|B2S1C3.1|OBG_BORHD</Hit_id>
+  <Hit_def>RecName: Full=GTPase Obg; AltName: Full=GTP-binding protein Obg</Hit_def>
+  <Hit_accession>B2S1C3</Hit_accession>
+  <Hit_len>327</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>4.64544</Hsp_evalue>
+      <Hsp_query-from>95</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>141</Hsp_hit-from>
+      <Hsp_hit-to>202</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>FRRQGVEGGTLRVRLEKCRIVGWGMYGGPGVVRVFCARSGAHSALSAKRAQAA---YLAMWPSIGCI</Hsp_qseq>
+      <Hsp_hseq>FAQPGESGATLNLRLELSLIADIGLVGFPN-----AGKSSLISTITASKSRVANYPFTTRFPHLGVL</Hsp_hseq>
+      <Hsp_midline>F + G  G TL +RLE   I   G+ G P        +S   S ++A +++ A   +   +P +G +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|261266830|sp|B6JKN2.1|OBG_HELP2</Hit_id>
+  <Hit_def>RecName: Full=GTPase Obg; AltName: Full=GTP-binding protein Obg</Hit_def>
+  <Hit_accession>B6JKN2</Hit_accession>
+  <Hit_len>360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>5.17691</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>96</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>109</Hsp_align-len>
+      <Hsp_qseq>FLCAGMWGDFVGTGEERIAGRDRTE---EAHVTG--KEGKVFRRQGVEGGTLRVRLEKCRIVGWGMYGGPGVVRVFCARSGAHSALSAKRAQAA---YLAMWPSIGCIS</Hsp_qseq>
+      <Hsp_hseq>FVDDTLWLDLVEPKKRVLALKGGKGGLGNAHFKGATKQQPTYAQKGLEGVEKCVRLELKLIADIGLVGFPN-----AGKSTLISTISNAKPKIANYEFTTLVPNLGVVS</Hsp_hseq>
+      <Hsp_midline>F+   +W D V   +  +A +        AH  G  K+   + ++G+EG    VRLE   I   G+ G P        +S   S +S  + + A   +  + P++G +S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|189030822|sp|Q6ZQA0.2|NBEL2_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Neurobeachin-like protein 2</Hit_def>
+  <Hit_accession>Q6ZQA0</Hit_accession>
+  <Hit_len>2742</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>5.27406</Hsp_evalue>
+      <Hsp_query-from>105</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>1250</Hsp_hit-from>
+      <Hsp_hit-to>1285</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>36</Hsp_align-len>
+      <Hsp_qseq>LRVRLEKCRIVGWGMYGGPGVVRVFCARSGAHSALS</Hsp_qseq>
+      <Hsp_hseq>LSVRLDICRQLFYLIYGQPDVVRLLARQAGWQDVLT</Hsp_hseq>
+      <Hsp_midline>L VRL+ CR + + +YG P VVR+   ++G    L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|67477377|sp|P38671.2|RPOM_NEUCR</Hit_id>
+  <Hit_def>RecName: Full=DNA-directed RNA polymerase, mitochondrial; Flags: Precursor</Hit_def>
+  <Hit_accession>P38671</Hit_accession>
+  <Hit_len>1423</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>6.44745</Hsp_evalue>
+      <Hsp_query-from>66</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>1306</Hsp_hit-from>
+      <Hsp_hit-to>1396</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>GDFVGTGEERIA-GRDRTEEAHVTGKEGKVFRRQGVEGGTLRVRLEKCRIVGWGMYGGPGVVRVFCARSGAHSALSAKRAQAA---------YLAMW</Hsp_qseq>
+      <Hsp_hseq>GNLAGVEETKVRRGREMDEEGEVDGSEEAVEHEDGMHEDEMLADEPR------DMDGNSGLDELSELRNTNHFALSQKRAKASIASGGKQKHYLDIW</Hsp_hseq>
+      <Hsp_midline>G+  G  E ++  GR+  EE  V G E  V    G+    +     +       M G  G+  +   R+  H ALS KRA+A+         YL +W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|81870374|sp|O08662.1|PI4KA_RAT</Hit_id>
+  <Hit_def>RecName: Full=Phosphatidylinositol 4-kinase alpha; Short=PI4-kinase alpha; Short=PI4K-alpha; Short=PtdIns-4-kinase alpha</Hit_def>
+  <Hit_accession>O08662</Hit_accession>
+  <Hit_len>2041</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>8.59724</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>50</Hsp_query-to>
+      <Hsp_hit-from>1764</Hsp_hit-from>
+      <Hsp_hit-to>1795</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>32</Hsp_align-len>
+      <Hsp_qseq>RKFLESRCVLKEAEGGEICWSVIVEKKVDDIR</Hsp_qseq>
+      <Hsp_hseq>RSDTEDECRRQEADGKKICWQAAIFKVGDDCR</Hsp_hseq>
+      <Hsp_midline>R   E  C  +EA+G +ICW   + K  DD R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|122973367|sp|Q17Y93.1|OBG_HELAH</Hit_id>
+  <Hit_def>RecName: Full=GTPase Obg; AltName: Full=GTP-binding protein Obg</Hit_def>
+  <Hit_accession>Q17Y93</Hit_accession>
+  <Hit_len>360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>8.62664</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>96</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>FLCAGMWGDFVGTGEERIAGRDRTE----EAHVTG--KEGKVFRRQGVEGGTLRVRLEKCRIVGWGMYGGPGVVRVFCARSGAHSALSAKRAQAA---YLAMWPSIGCIS</Hsp_qseq>
+      <Hsp_hseq>FADGALWLDLI-TPKERVLALKGGKGGLGNAHFKSATKQQPTYAQKGLEGVEKCVRLELKLIADIGLVGFPN-----AGKSTLISTISNAKPKIAHYEFTTLVPNLGVVS</Hsp_hseq>
+      <Hsp_midline>F    +W D + T +ER+      +     AH     K+   + ++G+EG    VRLE   I   G+ G P        +S   S +S  + + A   +  + P++G +S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|61212914|sp|Q98L33.1|COBQ_RHILO</Hit_id>
+  <Hit_def>RecName: Full=Cobyric acid synthase</Hit_def>
+  <Hit_accession>Q98L33</Hit_accession>
+  <Hit_len>491</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>8.87108</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>433</Hsp_hit-from>
+      <Hsp_hit-to>488</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>GVAVHGNVGVEGAR-KFLESRCVLKEAEGGEICWSVIVEKKVDDIRVKGEQHGGFLCAGMWG</Hsp_qseq>
+      <Hsp_hseq>GTYMHGLFGADAFRGKFLESLGI----KGGGIDYRVEVERALDD--VAAELEGHLDCDALFG</Hsp_hseq>
+      <Hsp_midline>G  +HG  G +  R KFLES  +    +GG I + V VE+ +DD  V  E  G   C  ++G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>462628</Statistics_db-num>
+      <Statistics_db-len>173435234</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

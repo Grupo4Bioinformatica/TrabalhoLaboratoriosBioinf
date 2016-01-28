@@ -1,0 +1,602 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>Query_233013</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>305</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_233013</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>305</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|8479883|sp|O83455.1|NADK_TREPA</Hit_id>
+  <Hit_def>RecName: Full=NAD kinase; AltName: Full=ATP-dependent NAD kinase &gt;gi|226704936|sp|B2S337.1|NADK_TREPS RecName: Full=NAD kinase; AltName: Full=ATP-dependent NAD kinase</Hit_def>
+  <Hit_accession>O83455</Hit_accession>
+  <Hit_len>305</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>619.387</Hsp_bit-score>
+      <Hsp_score>1596</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>305</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>305</Hsp_identity>
+      <Hsp_positive>305</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>305</Hsp_align-len>
+      <Hsp_qseq>MSSRVCPQRPVAKSSGDAKVLLIVSTYKPRAAVLAADVVNFLSIRGFQCHTIEYDGLNKESCARAGYMFAVSIGGDGTTLFAARCASPSGIPILAINLGRFGFIAPIEPRYWQQALSDYLAGGVRPAERALISCTVTRAGKEIASCLALNDVVLSSGRVARLTRAEVCFNDISFGVYEADGIILATPTGSTAYSAACGGPILDPDLDAFVLTPISALCLSNRPVVVPSSGVVRIKVLSMRHKETVLSVDGHELCTLQEEDQLLASRSSCSARLVFCTPHVFYHALCSKLAWSGSIFSRRGRRHDD</Hsp_qseq>
+      <Hsp_hseq>MSSRVCPQRPVAKSSGDAKVLLIVSTYKPRAAVLAADVVNFLSIRGFQCHTIEYDGLNKESCARAGYMFAVSIGGDGTTLFAARCASPSGIPILAINLGRFGFIAPIEPRYWQQALSDYLAGGVRPAERALISCTVTRAGKEIASCLALNDVVLSSGRVARLTRAEVCFNDISFGVYEADGIILATPTGSTAYSAACGGPILDPDLDAFVLTPISALCLSNRPVVVPSSGVVRIKVLSMRHKETVLSVDGHELCTLQEEDQLLASRSSCSARLVFCTPHVFYHALCSKLAWSGSIFSRRGRRHDD</Hsp_hseq>
+      <Hsp_midline>MSSRVCPQRPVAKSSGDAKVLLIVSTYKPRAAVLAADVVNFLSIRGFQCHTIEYDGLNKESCARAGYMFAVSIGGDGTTLFAARCASPSGIPILAINLGRFGFIAPIEPRYWQQALSDYLAGGVRPAERALISCTVTRAGKEIASCLALNDVVLSSGRVARLTRAEVCFNDISFGVYEADGIILATPTGSTAYSAACGGPILDPDLDAFVLTPISALCLSNRPVVVPSSGVVRIKVLSMRHKETVLSVDGHELCTLQEEDQLLASRSSCSARLVFCTPHVFYHALCSKLAWSGSIFSRRGRRHDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|81412158|sp|Q73MB8.1|NADK_TREDE</Hit_id>
+  <Hit_def>RecName: Full=NAD kinase; AltName: Full=ATP-dependent NAD kinase</Hit_def>
+  <Hit_accession>Q73MB8</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>289.271</Hsp_bit-score>
+      <Hsp_score>739</Hsp_score>
+      <Hsp_evalue>5.31868e-95</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>278</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>276</Hsp_align-len>
+      <Hsp_qseq>KVLLIVSTYKPRAAVLAADVVNFLSIRGFQCHTIEYDGLNKESCARAGYMFAVSIGGDGTTLFAARCASPSGIPILAINLGRFGFIAPIEPRYWQQALSDYLAGGVRPAERALISCTVTRAGKEIASCLALNDVVLSSGRVARLTRAEVCFNDISFGVYEADGIILATPTGSTAYSAACGGPILDPDLDAFVLTPISALCLSNRPVVVPSSGVVRIKVLSMRHKETVLSVDGHELCTLQEEDQLLASRSSCSARLVFCTPHVFYHALCSKLAWSGS</Hsp_qseq>
+      <Hsp_hseq>KVLIVLSIEKPNAKKICKEIEAFLSAKGIDSFVYKYDGISHSPELNEDYDLAISLGGDGTVLFTARYSAPRHIPVFPINLGRFGFIANIEPKEWEGELLHLLNGKQALHKRMLLSASINRKNKEIVKYEALNDAVVSGSGIAKLINLDISFNGISFGVFRADGVIVSTPTGSTAYSAASGGPILDPDVSAFVLTPISPFSLSNRPLVLPSSGQMKIKILPARAKDIIVSIDGQEMVSLQEDDEIIISESPNKVKMAGCSPDNFYKALRSKLGWSGS</Hsp_hseq>
+      <Hsp_midline>KVL+++S  KP A  +  ++  FLS +G      +YDG++        Y  A+S+GGDGT LF AR ++P  IP+  INLGRFGFIA IEP+ W+  L   L G     +R L+S ++ R  KEI    ALND V+S   +A+L   ++ FN ISFGV+ ADG+I++TPTGSTAYSAA GGPILDPD+ AFVLTPIS   LSNRP+V+PSSG ++IK+L  R K+ ++S+DG E+ +LQE+D+++ S S    ++  C+P  FY AL SKL WSGS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|91207430|sp|Q2RIC1.1|NADK_MOOTA</Hit_id>
+  <Hit_def>RecName: Full=NAD kinase; AltName: Full=ATP-dependent NAD kinase</Hit_def>
+  <Hit_accession>Q2RIC1</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>174.866</Hsp_bit-score>
+      <Hsp_score>442</Hsp_score>
+      <Hsp_evalue>2.14849e-50</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>305</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>296</Hsp_align-len>
+      <Hsp_qseq>KVLLIVSTYKPRAAVLAADVVNFLSIRGFQCHTIE---------YDGLNKESCARAGYMFAVSIGGDGTTLFAARCASPSGIPILAINLGRFGFIAPIEPRYWQQALSDYLAGGVRPAERALISCTVTRAGKEIASCLALNDVVLSSGRVARLTRAEVCFNDISFGVYEADGIILATPTGSTAYSAACGGPILDPDLDAFVLTPISALCLSNRPVVVPSSGVVRIKVLSMRHKETVLSVDGHELCTLQEEDQLLASRSSCSARLVFCTPHVFYHALCSKLAWSGSIFSRRGRRHDD</Hsp_qseq>
+      <Hsp_hseq>RIGMVANLEKPRVRETALDIINYLESRNVRVLISTRKAAALGCPEKGVAEEEVIAAEGLLA--LGGDGTLLRAARLVAPAGTPILGINLGHLGFLTEIELTELYPALDKLLAGAYRIEERMMLRGTVQRPEKAL-TCTALNDIVVTKGAFSRMLRLEVYIDTAYLDTYPADGLIVSSPTGSTAYSLSAGGPLVSPQLQVMILTPICPHTLYTRPLVVPGEQEIRVCVHA-PGAEVMLTVDGQQGLHLRDGDVIRVTRARTPARLIRLQDNTFYSLVREKLKEGGS-------RQDD</Hsp_hseq>
+      <Hsp_midline>++ ++ +  KPR    A D++N+L  R  +                G+ +E    A  + A  +GGDGT L AAR  +P+G PIL INLG  GF+  IE      AL   LAG  R  ER ++  TV R  K + +C ALND+V++ G  +R+ R EV  +      Y ADG+I+++PTGSTAYS + GGP++ P L   +LTPI    L  RP+VVP    +R+ V +    E +L+VDG +   L++ D +  +R+   ARL+    + FY  +  KL   GS       R DD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|226704904|sp|B0TEJ8.1|NADK_HELMI</Hit_id>
+  <Hit_def>RecName: Full=NAD kinase; AltName: Full=ATP-dependent NAD kinase</Hit_def>
+  <Hit_accession>B0TEJ8</Hit_accession>
+  <Hit_len>283</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>165.622</Hsp_bit-score>
+      <Hsp_score>418</Hsp_score>
+      <Hsp_evalue>3.68432e-47</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>221</Hsp_align-len>
+      <Hsp_qseq>FAVSIGGDGTTLFAARCASPSGIPILAINLGRFGFIAPIEPRYWQQALSDYLAGGVRPAERALISCTVTRAGKEIASCLALNDVVLSSGRVARLTRAEVCFNDISFGVYEADGIILATPTGSTAYSAACGGPILDPDLDAFVLTPISALCLSNRPVVVPSSGVVRIKVLSMRHKETVLSVDGHELCTLQEEDQLLASRSSCSARLVFCTPHVFYHALCSKL</Hsp_qseq>
+      <Hsp_hseq>LIVVLGGDGTLLNTARLAAPHGIPVVGVNLGRLGFLTEVEVSDLFPALERIIAGDYRIEERMMLEARLIRDGLEQPSYFALNDVVVTKGDHPRMIRVEAAVGDEVVWTYSADGLIVSSPTGSTAYSLSAGGPIVSPELHALLLTPISPHALDARPLVIPQDQAVRLTVIS-SHSHAVVTVDGQPGQPMVCGDSVLVRKASVACRLIRLGERTFFRILREKM</Hsp_hseq>
+      <Hsp_midline>  V +GGDGT L  AR A+P GIP++ +NLGR GF+  +E      AL   +AG  R  ER ++   + R G E  S  ALNDVV++ G   R+ R E    D     Y ADG+I+++PTGSTAYS + GGPI+ P+L A +LTPIS   L  RP+V+P    VR+ V+S  H   V++VDG     +   D +L  ++S + RL+      F+  L  K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|226704902|sp|B3E6Y9.1|NADK_GEOLS</Hit_id>
+  <Hit_def>RecName: Full=NAD kinase; AltName: Full=ATP-dependent NAD kinase</Hit_def>
+  <Hit_accession>B3E6Y9</Hit_accession>
+  <Hit_len>285</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>161.384</Hsp_bit-score>
+      <Hsp_score>407</Hsp_score>
+      <Hsp_evalue>1.98772e-45</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>282</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>280</Hsp_align-len>
+      <Hsp_qseq>KVLLIVSTYKPRAAVLAADVVNFLSIRG----FQCHTIEYDGLNK---ESCARAGYMFAVSIGGDGTTLFAARCASPSGIPILAINLGRFGFIAPIEPRYWQQALSDYLAGGVRPAERALISCTVTRAGKEIASCLALNDVVLSSGRVARLTRAEVCFNDISFGVYEADGIILATPTGSTAYSAACGGPILDPDLDAFVLTPISALCLSNRPVVVPSSGVVRIKVLSMRHKETVLSVDGHELCTLQEEDQLLASRSSCSARLVFCTPHVFYHALCSKLAW</Hsp_qseq>
+      <Hsp_hseq>QVAIFAKVHDPRCQGVASELVTWLEERKCLPLVDTHLARHVGYARGLTEKQIRDRAELVVVLGGDGTLISVARLFSSRQVPIVGVNLGSLGFLTEITVEQLYPVLEQCLADSHRITERMMLDVTVTRGDQEISHCQVLNDAVINKGALARIIELEARVNDDFLTNFKADGLIISTPTGSTGYSLSAGGPIVQPLMKCVLITPICPHTLTNRPIVLSYQSVIRITVKSSFDEMVYLTLDGQVGVELQEGDCIEVSRAETTTALVTSPEKDYFAILRAKLKW</Hsp_hseq>
+      <Hsp_midline>+V +    + PR   +A+++V +L  R        H   + G  +   E   R      V +GGDGT +  AR  S   +PI+ +NLG  GF+  I        L   LA   R  ER ++  TVTR  +EI+ C  LND V++ G +AR+   E   ND     ++ADG+I++TPTGST YS + GGPI+ P +   ++TPI    L+NRP+V+    V+RI V S   +   L++DG     LQE D +  SR+  +  LV      ++  L +KL W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|122314279|sp|Q0AHZ4.1|NADK_NITEC</Hit_id>
+  <Hit_def>RecName: Full=NAD kinase; AltName: Full=ATP-dependent NAD kinase</Hit_def>
+  <Hit_accession>Q0AHZ4</Hit_accession>
+  <Hit_len>296</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>160.229</Hsp_bit-score>
+      <Hsp_score>404</Hsp_score>
+      <Hsp_evalue>6.3349e-45</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>296</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>FAVSIGGDGTTLFAARCASPSGIPILAINLGRFGFIAPIEPRYWQQALSDYLAGGVRPAERALISCTVTRAGKEIASCLALNDVVLSSGRVARLTRAEVCFNDISFGVYEADGIILATPTGSTAYSAACGGPILDPDLDAFVLTPISALCLSNRPVVVPSSGVVRIKVLSMRHKETVLSVDGHELCTLQEEDQLLASRSSCSARLVFCTPHVFYHALCSKLAWSGSIFSRRGR</Hsp_qseq>
+      <Hsp_hseq>LAIVLGGDGTMLNIARTLVPFSVPLIGINQGRLGFLTDLTVDTMYATLNDMLAGQFIVENRMLLTTEVTRHGESVFKELAFNDVVLHRGISSGMIELEVHINGEYVYSLRSDGLIIATPTGSTAYALSSGGPILHPGLNLMILVPVCPHTLSNRPIVIGADAVIEIKIHYT--TETKIYTDSHSWFDLGEHDRVLVRRCPETIKLLHPVHHSYYRMLREKLGWS-SILQKNSR</Hsp_hseq>
+      <Hsp_midline> A+ +GGDGT L  AR   P  +P++ IN GR GF+  +        L+D LAG      R L++  VTR G+ +   LA NDVVL  G  + +   EV  N        +DG+I+ATPTGSTAY+ + GGPIL P L+  +L P+    LSNRP+V+ +  V+ IK+      ET +  D H    L E D++L  R   + +L+    H +Y  L  KL WS SI  +  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|189037371|sp|A4J3G3.1|NADK_DESRM</Hit_id>
+  <Hit_def>RecName: Full=NAD kinase; AltName: Full=ATP-dependent NAD kinase</Hit_def>
+  <Hit_accession>A4J3G3</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.458</Hsp_bit-score>
+      <Hsp_score>402</Hsp_score>
+      <Hsp_evalue>1.11314e-44</Hsp_evalue>
+      <Hsp_query-from>74</Hsp_query-from>
+      <Hsp_query-to>295</Hsp_query-to>
+      <Hsp_hit-from>66</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>GGDGTTLFAARCASPSGIPILAINLGRFGFIAPIEPRYWQQALSDYLAGGVRPAERALISCTVTRAGKEIASCLALNDVVLSSGRVARLTRAEVCFNDISFGVYEADGIILATPTGSTAYSAACGGPILDPDLDAFVLTPISALCLSNRPVVVPSSGVVRIKVLSMRHKETVLSVDGHELCTLQEEDQLLASRSSCSARLVFCTPHVFYHALCSKLA-WSGSI</Hsp_qseq>
+      <Hsp_hseq>GGDGTLLNCARQTASSGTPIFGVNLGRLGFLTEIDIPDLRERLQALIAGHFYIEERMMLEATVIRGGQVVDQAVCLNDAVVSKGASFRMVQLRILVNNEFVGSFAADGVIVASPTGSTAYSLAAGGPIISPDMEAMLITPICPHSLSNRPIVISPQSKVEVQVLPYVDK-VGLNLDGQYGLPLREGDRILINRATVKARFLKIQKTGFYDVLREKLKEWQNGL</Hsp_hseq>
+      <Hsp_midline>GGDGT L  AR  + SG PI  +NLGR GF+  I+    ++ L   +AG     ER ++  TV R G+ +   + LND V+S G   R+ +  +  N+   G + ADG+I+A+PTGSTAYS A GGPI+ PD++A ++TPI    LSNRP+V+     V ++VL    K   L++DG     L+E D++L +R++  AR +      FY  L  KL  W   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|81418762|sp|Q7N1U6.1|NADK_PHOLL</Hit_id>
+  <Hit_def>RecName: Full=NAD kinase; AltName: Full=ATP-dependent NAD kinase</Hit_def>
+  <Hit_accession>Q7N1U6</Hit_accession>
+  <Hit_len>292</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.073</Hsp_bit-score>
+      <Hsp_score>401</Hsp_score>
+      <Hsp_evalue>1.75098e-44</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>66</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>FAVSIGGDGTTLFAARCASPSGIPILAINLGRFGFIAPIEPRYWQQALSDYLAGGVRPAERALISCTVTRAGKEIASCLALNDVVLSSGRVARLTRAEVCFNDISFGVYEADGIILATPTGSTAYSAACGGPILDPDLDAFVLTPISALCLSNRPVVVPSSGVVRIKVLSMRHKETVLSVDGHELCTLQEEDQLLASRSSCSARLVFCTPHVFYHALCSKLAWSGSIF</Hsp_qseq>
+      <Hsp_hseq>LAVVVGGDGNMLGAARVLSRYDIKVIGINRGNLGFLTDLDPDNALQQLSEVLDGEYRNEHRFLLEAQVRRNGQKPRISTAINEVVLHPGKVAHMIEFEVYIDERFAFSQRSDGLIIATPTGSTAYSLSAGGPILTPNLDAIVLVPMFPHTLSSRPLVISSESSIRLK-FSQNSNDYEVSCDSQIVLPIQDGEDVIISRSKQKLNLIHPQDYNYFNTLSTKLSWSKKMF</Hsp_hseq>
+      <Hsp_midline> AV +GGDG  L AAR  S   I ++ IN G  GF+  ++P    Q LS+ L G  R   R L+   V R G++     A+N+VVL  G+VA +   EV  ++       +DG+I+ATPTGSTAYS + GGPIL P+LDA VL P+    LS+RP+V+ S   +R+K  S    +  +S D   +  +Q+ + ++ SRS     L+    + +++ L +KL+WS  +F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|34222817|sp|Q82UK6.1|NADK_NITEU</Hit_id>
+  <Hit_def>RecName: Full=NAD kinase; AltName: Full=ATP-dependent NAD kinase</Hit_def>
+  <Hit_accession>Q82UK6</Hit_accession>
+  <Hit_len>296</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.073</Hsp_bit-score>
+      <Hsp_score>401</Hsp_score>
+      <Hsp_evalue>1.90581e-44</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>296</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>FAVSIGGDGTTLFAARCASPSGIPILAINLGRFGFIAPIEPRYWQQALSDYLAGGVRPAERALISCTVTRAGKEIASCLALNDVVLSSGRVARLTRAEVCFNDISFGVYEADGIILATPTGSTAYSAACGGPILDPDLDAFVLTPISALCLSNRPVVVPSSGVVRIKVLSMRHKETVLSV--DGHELCTLQEEDQLLASRSSCSARLVFCTPHVFYHALCSKLAWSGSIFSRRGR</Hsp_qseq>
+      <Hsp_hseq>LAIVLGGDGTMLNIARALVPFSVPLIGINQGRLGFLTDLTADTMHETLNDMLAGQFVVENRMLLTVEVTRNGESVFKELAFNDVVLHRGISSGMIELEVHINGEYVYSLRSDGLIIATPTGSTAYALSSGGPILHPGLNLMTLVPICPHTLSNRPIVIGADATIEIKV----HFTTEIKIYTDSHSWFDLSEHDRVFIQRCPETIKLLHPVHHSYYRMLREKLGWSG-ILQKNSR</Hsp_hseq>
+      <Hsp_midline> A+ +GGDGT L  AR   P  +P++ IN GR GF+  +      + L+D LAG      R L++  VTR G+ +   LA NDVVL  G  + +   EV  N        +DG+I+ATPTGSTAY+ + GGPIL P L+   L PI    LSNRP+V+ +   + IKV    H  T + +  D H    L E D++   R   + +L+    H +Y  L  KL WSG I  +  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|226704912|sp|B2A524.1|NADK_NATTJ</Hit_id>
+  <Hit_def>RecName: Full=NAD kinase; AltName: Full=ATP-dependent NAD kinase</Hit_def>
+  <Hit_accession>B2A524</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>158.303</Hsp_bit-score>
+      <Hsp_score>399</Hsp_score>
+      <Hsp_evalue>2.72832e-44</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>281</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>254</Hsp_align-len>
+      <Hsp_qseq>DVVNFLSIRGFQCHTIEYDGLNKESCARAGYMFAVSIGGDGTTLFAARCASPSGIPILAINLGRFGFIAPIEPRYWQQALSDYLAGGVRPAERALISCTVTRAGKEIASCLALNDVVLSSGRVARLTRAEVCFNDISFGVYEADGIILATPTGSTAYSAACGGPILDPDLDAFVLTPISALCLSNRPVVVPSSGVVRIKVLSMRHKETVLSVDGHELCTLQEEDQLLASRSSCSARLVFCTPHVFYHALCSKLA</Hsp_qseq>
+      <Hsp_hseq>DIDVYLTHEGADLIGTESAGVSSDVMGEVAEMIII-LGGDGTILKAAREYAPYDIPLLGINLGKMGFLAEIEANEVMAYLESLLTGNYTIEERMMLDATVLRDRKEITTFSALNDVIIAKGPFSRIIEVETKVGGNYLETYPGDGLIVTSPTGSTGYSFSAGGPIISSNLEVMMITPICPHLMHNRSVIISSDEVVTAK-MKTNYAVVVLTVDGQQGFTLQDGDEIKVKKSNYKTKLVKLRRRSFYQLLNEKLT</Hsp_hseq>
+      <Hsp_midline>D+  +L+  G      E  G++ +       M  + +GGDGT L AAR  +P  IP+L INLG+ GF+A IE       L   L G     ER ++  TV R  KEI +  ALNDV+++ G  +R+   E          Y  DG+I+ +PTGST YS + GGPI+  +L+  ++TPI    + NR V++ S  VV  K +   +   VL+VDG +  TLQ+ D++   +S+   +LV      FY  L  KL </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|91207540|sp|Q47XI3.1|NADK_COLP3</Hit_id>
+  <Hit_def>RecName: Full=NAD kinase; AltName: Full=ATP-dependent NAD kinase</Hit_def>
+  <Hit_accession>Q47XI3</Hit_accession>
+  <Hit_len>293</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.918</Hsp_bit-score>
+      <Hsp_score>398</Hsp_score>
+      <Hsp_evalue>4.46545e-44</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>66</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>FAVSIGGDGTTLFAARCASPSGIPILAINLGRFGFIAPIEPRYWQQALSDYLAGGVRPAERALISCTVTRAGKEIASCLALNDVVLSSGRVARLTRAEVCFNDISFGVYEADGIILATPTGSTAYSAACGGPILDPDLDAFVLTPISALCLSNRPVVVPSSGVVRIKVLSMRHKETVLSVDGHELCTLQEEDQLLASRSSCSARLVFCTPHVFYHALCSKLAWSGSIF</Hsp_qseq>
+      <Hsp_hseq>LAIVIGGDGYMLGAARVLACFDIGVIGVNRGNLGFLTDLSPSEIIKPLEQILSGKSRSEQRFIIEAEVYRHGKLKSSNSAVNEAVLHAGKVASMIEFEVYIDGTFMFSQRSDGLIISTPTGSTAYSMSAGGPILTPNLNALSLVPMFPHTLTSRPIVVDGNSEIKLILANDNHENLQVSCDGHVILTVMPGDEVIIKKSECSIRLIHPLDHEYFNVLRNKLSWGNKLY</Hsp_hseq>
+      <Hsp_midline> A+ IGGDG  L AAR  +   I ++ +N G  GF+  + P    + L   L+G  R  +R +I   V R GK  +S  A+N+ VL +G+VA +   EV  +        +DG+I++TPTGSTAYS + GGPIL P+L+A  L P+    L++RP+VV  +  +++ + +  H+   +S DGH + T+   D+++  +S CS RL+    H +++ L +KL+W   ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|189037360|sp|Q1ISV1.1|NADK_KORVE</Hit_id>
+  <Hit_def>RecName: Full=NAD kinase; AltName: Full=ATP-dependent NAD kinase</Hit_def>
+  <Hit_accession>Q1ISV1</Hit_accession>
+  <Hit_len>285</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>156.377</Hsp_bit-score>
+      <Hsp_score>394</Hsp_score>
+      <Hsp_evalue>1.33983e-43</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>281</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>KPRAAVLAADVVNFLSIRGF-----QCHTIEYDGLNKESCARAGYM---FAVSIGGDGTTLFAARCASPSGIPILAINLGRFGFIAPIEPRYWQQALSDYLAGGVRPAERALISCTVTRAGKEIASCLALNDVVLSSGRVARLTRAEVCFNDISFGVYEADGIILATPTGSTAYSAACGGPILDPDLDAFVLTPISALCLSNRPVVVPSSGVVRIKVLSMRHKETVLSVDGHELCTLQEEDQLLASRSSCSARLVFCTPHVFYHALCSKLAW</Hsp_qseq>
+      <Hsp_hseq>KPELSEIIPPLQEWLGQHGYEVIFDQQSAIYVSGIHGVERAKIAAMHPEFAIVLGGDGTLLSAARAVAPAGIPILAVNLGSLGFLTEVPLQDMYSTLERVIACNCPLDERTMLACDLIRDGQVLHSYTSLNDVVVNKSAIARLVGFDVSIDGRFVFNYKADGVIVATPTGSTAYSLAAGGPVLMPAVGAFQITPVCPHSLTHRPVVVPETATISIVVRS-NGEAAFLTIDGQVGQPLKEGDEIVCRKADHAVKLLQMR-QSFFKVLREKLKW</Hsp_hseq>
+      <Hsp_midline>KP  + +   +  +L   G+     Q   I   G++    A+   M   FA+ +GGDGT L AAR  +P+GIPILA+NLG  GF+  +  +     L   +A      ER +++C + R G+ + S  +LNDVV++   +ARL   +V  +      Y+ADG+I+ATPTGSTAYS A GGP+L P + AF +TP+    L++RPVVVP +  + I V S   +   L++DG     L+E D+++  ++  + +L+      F+  L  KL W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|81702005|sp|Q74BH6.1|NADK_GEOSL</Hit_id>
+  <Hit_def>RecName: Full=NAD kinase; AltName: Full=ATP-dependent NAD kinase</Hit_def>
+  <Hit_accession>Q74BH6</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.992</Hsp_bit-score>
+      <Hsp_score>393</Hsp_score>
+      <Hsp_evalue>2.03176e-43</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>281</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>281</Hsp_align-len>
+      <Hsp_qseq>KVLLIVSTYKPRAAVLAADVVNFLSIRGF----QCHTIEY----DGLNKESCARAGYMFAVSIGGDGTTLFAARCASPSGIPILAINLGRFGFIAPIEPRYWQQALSDYLAGGVRPAERALISCTVTRAGKEIASCLALNDVVLSSGRVARLTRAEVCFNDISFGVYEADGIILATPTGSTAYSAACGGPILDPDLDAFVLTPISALCLSNRPVVVPSSGVVRIKVLSMRHKETVLSVDGHELCTLQEEDQLLASRSSCSARLVFCTPHVFYHALCSKLAW</Hsp_qseq>
+      <Hsp_hseq>KIAIFAKVHDPRCQGVASELIAWLEARGLIPLVEAHLARHLGGRQGIVPEDIPVLADM-AVVLGGDGTLISAARLIGSRQIPILGVNLGSLGFLTEITLDELYPVLESCLSGDFQVTERMMLTVSVERNGEEICSHRVLNDVVINKGALARIIDMETEVSGIRLTTYKADGLIISTPTGSTGYSLSANGPIVHPSLECITITPICPHTLTNRPIVLESSSGVTVWLRS-KDEDVYLTLDGQVGMELKCGDAVHVRRAAHRTRLVMSRSRNYFEVLRTKLKW</Hsp_hseq>
+      <Hsp_midline>K+ +    + PR   +A++++ +L  RG     + H   +     G+  E       M AV +GGDGT + AAR      IPIL +NLG  GF+  I        L   L+G  +  ER +++ +V R G+EI S   LNDVV++ G +AR+   E   + I    Y+ADG+I++TPTGST YS +  GPI+ P L+   +TPI    L+NRP+V+ SS  V + + S + ++  L++DG     L+  D +   R++   RLV      ++  L +KL W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|189037382|sp|A5D2Z8.1|NADK_PELTS</Hit_id>
+  <Hit_def>RecName: Full=NAD kinase; AltName: Full=ATP-dependent NAD kinase</Hit_def>
+  <Hit_accession>A5D2Z8</Hit_accession>
+  <Hit_len>291</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.836</Hsp_bit-score>
+      <Hsp_score>390</Hsp_score>
+      <Hsp_evalue>5.7812e-43</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>278</Hsp_align-len>
+      <Hsp_qseq>LIVSTYKPRAAVLAADVVNFLSIRG----FQCHTIEYDGL------NKESCARAGYMFAVSIGGDGTTLFAARCASPSGIPILAINLGRFGFIAPIEPRYWQQALSDYLAGGVRPAERALISCTVTRAGKEIASCLALNDVVLSSGRVARLTRAEVCFNDISFGVYEADGIILATPTGSTAYSAACGGPILDPDLDAFVLTPISALCLSNRPVVVPSSGVVRIKVLSMRHKETVLSVDGHELCTLQEEDQLLASRSSCSARLVFCTPHVFYHALCSKL</Hsp_qseq>
+      <Hsp_hseq>LVVNLNKKEVDEVAGQIIRWLEINGCRVLMEEETARSLGLARLGVPQRQLVEQAQCMLV--LGGDGTLLRTARRVAFSGTPVIGINLGHLGFLTEIDIPDTFPSLRKLLDGQYYIEERMMLEARVIRQGAAVEKLLGLNDAVITKGAFARISYFEMYVNDEYVNTYSADGIIIASPTGSTAYSLSAGGPVVTPELDLMLITPICPHTLWARPMVIAPDSVVRVDVLK-GGGEIMLTMDGQHGFSLRRNDQVVVRRAEKRARFIRLKSRDFFTVLRKKL</Hsp_hseq>
+      <Hsp_midline>L+V+  K     +A  ++ +L I G     +  T    GL       ++   +A  M    +GGDGT L  AR  + SG P++ INLG  GF+  I+      +L   L G     ER ++   V R G  +   L LND V++ G  AR++  E+  ND     Y ADGII+A+PTGSTAYS + GGP++ P+LD  ++TPI    L  RP+V+    VVR+ VL     E +L++DG    +L+  DQ++  R+   AR +      F+  L  KL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|226704901|sp|B5EFY8.1|NADK_GEOBB</Hit_id>
+  <Hit_def>RecName: Full=NAD kinase; AltName: Full=ATP-dependent NAD kinase</Hit_def>
+  <Hit_accession>B5EFY8</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.836</Hsp_bit-score>
+      <Hsp_score>390</Hsp_score>
+      <Hsp_evalue>6.10827e-43</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>285</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>KVLLIVSTYKPRAAVLAADVVNFLSIRGFQCHTIEY--DGLNKESCAR--------AGYMFAVSIGGDGTTLFAARCASPSGIPILAINLGRFGFIAPIEPRYWQQALSDYLAGGVRPAERALISCTVTRAGKEIASCLALNDVVLSSGRVARLTRAEVCFNDISFGVYEADGIILATPTGSTAYSAACGGPILDPDLDAFVLTPISALCLSNRPVVVPSSGVVRIKVLSMRHKETVLSVDGHELCTLQEEDQLLASRSSCSARLVFCTPHVFYHALCSKLAW</Hsp_qseq>
+      <Hsp_hseq>KIAIFAKVHDPRALAVAEELIEWLAARGVTAHVEEHLSKRLRRTTLAESSESTEIAADADLVVVLGGDGTLIAAARLVGERDVPILAVNLGSLGFLTEITLNELYPSVERCLAGDFEVSERMMLMASVERSGEVVELHRVLNDVVINKGALARIIDMETSVNGRYLTTFKADGLIVSTPTGSTGYSLSANGPILHPELECISLTPICPHTLTNRPLVMAADAHIAIKLKYAPDESVFLTLDGQVGMKLLSGDVVQITKAAHVTRLIQSRSKDYFEVLRTKLKW</Hsp_hseq>
+      <Hsp_midline>K+ +    + PRA  +A +++ +L+ RG   H  E+    L + + A         A     V +GGDGT + AAR      +PILA+NLG  GF+  I       ++   LAG    +ER ++  +V R+G+ +     LNDVV++ G +AR+   E   N      ++ADG+I++TPTGST YS +  GPIL P+L+   LTPI    L+NRP+V+ +   + IK+     +   L++DG     L   D +  ++++   RL+      ++  L +KL W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|81426380|sp|Q7W513.1|NADK_BORPA</Hit_id>
+  <Hit_def>RecName: Full=NAD kinase; AltName: Full=ATP-dependent NAD kinase &gt;gi|81430430|sp|Q7WGH8.1|NADK_BORBR RecName: Full=NAD kinase; AltName: Full=ATP-dependent NAD kinase</Hit_def>
+  <Hit_accession>Q7W513</Hit_accession>
+  <Hit_len>299</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.451</Hsp_bit-score>
+      <Hsp_score>389</Hsp_score>
+      <Hsp_evalue>9.82947e-43</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>64</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>FAVSIGGDGTTLFAARCASPSGIPILAINLGRFGFIAPIEPRYWQQALSDYLAGGVRPAERALISCTVTRAGKEIASCLALNDVVLSSGRVARLTRAEVCFNDISFGVYEADGIILATPTGSTAYSAACGGPILDPDLDAFVLTPISALCLSNRPVVVPSSGVVRIKVLSMRHKETVLSV--DGHELCTLQEEDQLLASRSSCSARLVFCTPHVFYHALCSKLAWS</Hsp_qseq>
+      <Hsp_hseq>LAVVMGGDGTVLGAARHLAPYGVPLIGINHGRLGFITDIPLQDAHDALGRVLEGNYQAEDRMLLQGGVWRGEQQMYSASAVNDVVLNRAGRGGMIEVRVELDGAFMYTQRADGLIIATPTGSTAYSLSANGPILHPGMNAMVLVPVAPQTLSNRPIVIPDSGVLNMTLTAMGRVEIGASVHFDMQTWSDLQPGDRITVQRAPHTIRFVHPEGYSFFSTLRRKLHWN</Hsp_hseq>
+      <Hsp_midline> AV +GGDGT L AAR  +P G+P++ IN GR GFI  I  +    AL   L G  +  +R L+   V R  +++ S  A+NDVVL+      +    V  +        ADG+I+ATPTGSTAYS +  GPIL P ++A VL P++   LSNRP+V+P SGV+ + + +M   E   SV  D      LQ  D++   R+  + R V    + F+  L  KL W+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|81646071|sp|Q6D8Y0.1|NADK_PECAS</Hit_id>
+  <Hit_def>RecName: Full=NAD kinase; AltName: Full=ATP-dependent NAD kinase</Hit_def>
+  <Hit_accession>Q6D8Y0</Hit_accession>
+  <Hit_len>292</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.066</Hsp_bit-score>
+      <Hsp_score>388</Hsp_score>
+      <Hsp_evalue>1.15595e-42</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>66</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>FAVSIGGDGTTLFAARCASPSGIPILAINLGRFGFIAPIEPRYWQQALSDYLAGGVRPAERALISCTVTRAGKEIASCLALNDVVLSSGRVARLTRAEVCFNDISFGVYEADGIILATPTGSTAYSAACGGPILDPDLDAFVLTPISALCLSNRPVVVPSSGVVRIKVLSMRHKETVLSVDGHELCTLQEEDQLLASRSSCSARLVFCTPHVFYHALCSKLAWSGSIF</Hsp_qseq>
+      <Hsp_hseq>LAVVVGGDGNMLGAARVLSRYDIKVIGVNRGNLGFLTDLDPDHAQQQLSDVLDGHYLSEQRFMLEAHVCRTNQPDSISTAINEVVLHPGKVAHMIEFEVYIDDRFAFSQRSDGLIIATPTGSTAYSLSAGGPILTPSLEAIALVPMFPHTLSARPLVINSSSTIRLK-FSCITNDLEISCDSQIALPVQEGEEVLIRRSEHHLNLIHPKNYSYFNTLSSKLGWSKKLF</Hsp_hseq>
+      <Hsp_midline> AV +GGDG  L AAR  S   I ++ +N G  GF+  ++P + QQ LSD L G     +R ++   V R  +  +   A+N+VVL  G+VA +   EV  +D       +DG+I+ATPTGSTAYS + GGPIL P L+A  L P+    LS RP+V+ SS  +R+K  S    +  +S D      +QE +++L  RS     L+    + +++ L SKL WS  +F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|259534229|sp|C6E6I5.1|NADK_GEOSM</Hit_id>
+  <Hit_def>RecName: Full=NAD kinase; AltName: Full=ATP-dependent NAD kinase</Hit_def>
+  <Hit_accession>C6E6I5</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.68</Hsp_bit-score>
+      <Hsp_score>387</Hsp_score>
+      <Hsp_evalue>1.51813e-42</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>285</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>KVLLIVSTYKPRAAVLAADVVNFLSIRGFQCHTIEY--DGLNKESCAR--------AGYMFAVSIGGDGTTLFAARCASPSGIPILAINLGRFGFIAPIEPRYWQQALSDYLAGGVRPAERALISCTVTRAGKEIASCLALNDVVLSSGRVARLTRAEVCFNDISFGVYEADGIILATPTGSTAYSAACGGPILDPDLDAFVLTPISALCLSNRPVVVPSSGVVRIKVLSMRHKETVLSVDGHELCTLQEEDQLLASRSSCSARLVFCTPHVFYHALCSKLAW</Hsp_qseq>
+      <Hsp_hseq>KIAIFAKVHDPRALAVAEELIEWLAARGVTAHVEEHLSKRLRRTTLAESSESTEIAADADLVVVLGGDGTLIAAARLVGERDIPILAVNLGSLGFLTEITLDELYPSVERCLAGDFEVTERMMLMASVERSGEVVELHRVLNDVVINKGALARIIDMETSVNCRYLTTFKADGLIVSTPTGSTGYSLSANGPILHPELECISITPICPHTLTNRPVVVAADSHIAIKLNYAPDESVFLTLDGQVGMKLLSGDVVQITKAAHVTRLIRSRSKDYFEVLRTKLKW</Hsp_hseq>
+      <Hsp_midline>K+ +    + PRA  +A +++ +L+ RG   H  E+    L + + A         A     V +GGDGT + AAR      IPILA+NLG  GF+  I       ++   LAG     ER ++  +V R+G+ +     LNDVV++ G +AR+   E   N      ++ADG+I++TPTGST YS +  GPIL P+L+   +TPI    L+NRPVVV +   + IK+     +   L++DG     L   D +  ++++   RL+      ++  L +KL W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|189037391|sp|B0TQ38.1|NADK_SHEHH</Hit_id>
+  <Hit_def>RecName: Full=NAD kinase; AltName: Full=ATP-dependent NAD kinase</Hit_def>
+  <Hit_accession>B0TQ38</Hit_accession>
+  <Hit_len>309</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.066</Hsp_bit-score>
+      <Hsp_score>388</Hsp_score>
+      <Hsp_evalue>1.97213e-42</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>82</Hsp_hit-from>
+      <Hsp_hit-to>309</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>FAVSIGGDGTTLFAARCASPSGIPILAINLGRFGFIAPIEPRYWQQALSDYLAGGVRPAERALISCTVTRAGKEIASCLALNDVVLSSGRVARLTRAEVCFNDISFGVYEADGIILATPTGSTAYSAACGGPILDPDLDAFVLTPISALCLSNRPVVVPSSGVVRIKVLSMRHKETVLSVDGHELCTLQEEDQLLASRSSCSARLVFCTPHVFYHALCSKLAWSGSIF</Hsp_qseq>
+      <Hsp_hseq>LAIVVGGDGNMLGAARVLARFSVGVIGVNRGNLGFLTDLPPDSFEEALSKVLEGEFEIEQRFLLEAEVHRHGELKSSNTAVNEAVLHPGKIAYMIEFEVYIDDKFMYSQRADGIIISTPTGSTAYSLSAGGAILTPNLSAVILVPMFPHTLSCRPIVVDAASIIKLVVSPHNSDNLEVSCDGHVHLSVLPGDEIIIKRSQETLRLVHPKGHNYFHVLRTKLGWGSKLF</Hsp_hseq>
+      <Hsp_midline> A+ +GGDG  L AAR  +   + ++ +N G  GF+  + P  +++ALS  L G     +R L+   V R G+  +S  A+N+ VL  G++A +   EV  +D       ADGII++TPTGSTAYS + GG IL P+L A +L P+    LS RP+VV ++ ++++ V         +S DGH   ++   D+++  RS  + RLV    H ++H L +KL W   +F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|226704927|sp|B8CS28.1|NADK_SHEPW</Hit_id>
+  <Hit_def>RecName: Full=NAD kinase; AltName: Full=ATP-dependent NAD kinase</Hit_def>
+  <Hit_accession>B8CS28</Hit_accession>
+  <Hit_len>309</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.066</Hsp_bit-score>
+      <Hsp_score>388</Hsp_score>
+      <Hsp_evalue>1.97213e-42</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>82</Hsp_hit-from>
+      <Hsp_hit-to>309</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>FAVSIGGDGTTLFAARCASPSGIPILAINLGRFGFIAPIEPRYWQQALSDYLAGGVRPAERALISCTVTRAGKEIASCLALNDVVLSSGRVARLTRAEVCFNDISFGVYEADGIILATPTGSTAYSAACGGPILDPDLDAFVLTPISALCLSNRPVVVPSSGVVRIKVLSMRHKETVLSVDGHELCTLQEEDQLLASRSSCSARLVFCTPHVFYHALCSKLAWSGSIF</Hsp_qseq>
+      <Hsp_hseq>LAIVVGGDGNMLGAARVLARFDIAVIGVNRGNLGFLTDLPPDTFEEALSKVLEGEFDTEQRFLLEAEVHRHGELKSSNTAVNEAVLHPGKIAHMIEFEVYIDDKFMYSQRADGMIVSTPTGSTAYSLSAGGAILTPNLEAMILVPMFPHTLSCRPIVVDACSIIKLVVSPHNGDNLEVSCDGHVNLSVLPGDEIIVKRSADTLRLIHPKGHNYFHVLRTKLGWGSKLF</Hsp_hseq>
+      <Hsp_midline> A+ +GGDG  L AAR  +   I ++ +N G  GF+  + P  +++ALS  L G     +R L+   V R G+  +S  A+N+ VL  G++A +   EV  +D       ADG+I++TPTGSTAYS + GG IL P+L+A +L P+    LS RP+VV +  ++++ V         +S DGH   ++   D+++  RS+ + RL+    H ++H L +KL W   +F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>462628</Statistics_db-num>
+      <Statistics_db-len>173435234</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

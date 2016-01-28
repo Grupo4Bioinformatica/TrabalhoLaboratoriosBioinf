@@ -1,0 +1,490 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>Query_133809</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>567</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_133809</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>567</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|6016022|sp|O83414.1|FLIF_TREPA</Hit_id>
+  <Hit_def>RecName: Full=Flagellar M-ring protein</Hit_def>
+  <Hit_accession>O83414</Hit_accession>
+  <Hit_len>567</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1145.57</Hsp_bit-score>
+      <Hsp_score>2962</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>567</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>567</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>567</Hsp_identity>
+      <Hsp_positive>567</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>567</Hsp_align-len>
+      <Hsp_qseq>MGEWLGQLGVKLKTQWKKWTLVQKSVLAGAALVSVMGVVVLLTWSAKPTLVPLIDTPITDETVREKIILRLNEENVRATVSSVGLISVSDEKTARRMRSILIREDLIPKNVDPWAIFDVERWTRTDFERRVDVRRAINNTVTNHIKALDDIDDAHVVINVPEDALFQADQKPITASVVIFPKPSSTIASERKKIEGIQKLLKLAVPGLKDENITIVDSDATVLNDFEGFKDADRLSLIEKQQKMIAKLESQYEAKVLALLQKTYGKDRVRDLNIKIEMDLSEKTSQTTKYLPIEIRQDNPDTPWDDSQVVPSVTSISETATTTWQGTGLNPEGPPGVEGQTPPAYKDMSNQVGLSNQSVVKKQEAISKSEINEVVSPVLGRRTVSVNIDGEWRKKRDEHGRFIVKEGHIEREYIPISAEELREATKAVQDAIGFDAGRKDSVSVLNIKFDRTSEFDREDEHYLRVQQRNMIILYSLASVAIVLFIFMVYKVISKEVERRRRLREEELLRQQQLMRERALWEAEQAGMNVSMSVEERKRLELQENVLNMAREHPEDVALLVRTWLMEE</Hsp_qseq>
+      <Hsp_hseq>MGEWLGQLGVKLKTQWKKWTLVQKSVLAGAALVSVMGVVVLLTWSAKPTLVPLIDTPITDETVREKIILRLNEENVRATVSSVGLISVSDEKTARRMRSILIREDLIPKNVDPWAIFDVERWTRTDFERRVDVRRAINNTVTNHIKALDDIDDAHVVINVPEDALFQADQKPITASVVIFPKPSSTIASERKKIEGIQKLLKLAVPGLKDENITIVDSDATVLNDFEGFKDADRLSLIEKQQKMIAKLESQYEAKVLALLQKTYGKDRVRDLNIKIEMDLSEKTSQTTKYLPIEIRQDNPDTPWDDSQVVPSVTSISETATTTWQGTGLNPEGPPGVEGQTPPAYKDMSNQVGLSNQSVVKKQEAISKSEINEVVSPVLGRRTVSVNIDGEWRKKRDEHGRFIVKEGHIEREYIPISAEELREATKAVQDAIGFDAGRKDSVSVLNIKFDRTSEFDREDEHYLRVQQRNMIILYSLASVAIVLFIFMVYKVISKEVERRRRLREEELLRQQQLMRERALWEAEQAGMNVSMSVEERKRLELQENVLNMAREHPEDVALLVRTWLMEE</Hsp_hseq>
+      <Hsp_midline>MGEWLGQLGVKLKTQWKKWTLVQKSVLAGAALVSVMGVVVLLTWSAKPTLVPLIDTPITDETVREKIILRLNEENVRATVSSVGLISVSDEKTARRMRSILIREDLIPKNVDPWAIFDVERWTRTDFERRVDVRRAINNTVTNHIKALDDIDDAHVVINVPEDALFQADQKPITASVVIFPKPSSTIASERKKIEGIQKLLKLAVPGLKDENITIVDSDATVLNDFEGFKDADRLSLIEKQQKMIAKLESQYEAKVLALLQKTYGKDRVRDLNIKIEMDLSEKTSQTTKYLPIEIRQDNPDTPWDDSQVVPSVTSISETATTTWQGTGLNPEGPPGVEGQTPPAYKDMSNQVGLSNQSVVKKQEAISKSEINEVVSPVLGRRTVSVNIDGEWRKKRDEHGRFIVKEGHIEREYIPISAEELREATKAVQDAIGFDAGRKDSVSVLNIKFDRTSEFDREDEHYLRVQQRNMIILYSLASVAIVLFIFMVYKVISKEVERRRRLREEELLRQQQLMRERALWEAEQAGMNVSMSVEERKRLELQENVLNMAREHPEDVALLVRTWLMEE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|3915695|sp|Q44912.2|FLIF_BORBU</Hit_id>
+  <Hit_def>RecName: Full=Flagellar M-ring protein</Hit_def>
+  <Hit_accession>Q44912</Hit_accession>
+  <Hit_len>569</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>382.489</Hsp_bit-score>
+      <Hsp_score>981</Hsp_score>
+      <Hsp_evalue>9.85945e-124</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>566</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>567</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>342</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>572</Hsp_align-len>
+      <Hsp_qseq>MGEWLGQLGVKLKTQWKKWTLVQKSVLAGAALVSVMGVVVLLTWSAKPTLVPLIDTPITDETVREKIILRLNEENVRATVSSVGLISVSDEKTARRMRSILIREDLIPKNVDPWAIFDVERWTRTDFERRVDVRRAINNTVTNHIKALDDIDDAHVVINVPEDALFQADQKPITASVVIFPKPSSTIASERKKIEGIQKLLKLAVPGLKDENITIVDSDATVLNDFEGFKDADRLSLIEKQQKMIAKLESQYEAKVLALLQKTYGKDRVRDLNIKIEMDLSEKTSQTTKYLPIEIRQDNPDTPWDDSQVVPSVTSISETATTTWQGTGLNPEGPPGVEGQTPPAYKDMSNQVGLSNQS------VVKKQEAISKSEINEVVSPVLGRRTVSVNIDGEWRKKRDEHGRFIVKEGHIEREYIPISAEELREATKAVQDAIGFDAGRKDSVSVLNIKFDRTSEFDREDEHYLRVQQRNMIILYSLASVAIVLFIFMVYKVISKEVERRRRLREEELLRQQQLMRERALWEAEQAGMNVSMSVEERKRLELQENVLNMAREHPEDVALLVRTWLME</Hsp_qseq>
+      <Hsp_hseq>MSKFFTNFFVSAKGIFKKASTVQKIALGLIIFFVILALVFLIGFSTKSQSIALFGVEIKDQYLLDRISQRLDRENVKYFLSSDGRIYLDDEKLAKKMRAILVREELVPVHMDPWALFDIDRWTITDFERSINLRRSITRAVEQHIVALDDVDAVSVNLVMPEKALFKESQEPVKASVRITPRPGSDIITNRKKVEGLVKLIQYAIEGLESDNIAIVDNSGTILNDFSNLDGIDRIDLAEKERKLKLKYEAMLRGEIDSALSKVLSVDRFMIARVNVKLDTSKETTESKEYAPIELQSQDPKASYNTRKVSDSTIISSQTQKKEYQGQGYSPWGPPGQEGNTPPEYQDLSDITGKYNESQEIKNVALNEKKSTSEKEPARIVGVSLG-----IFVDGIWNFVYDEKGDFVIENGMRKREYKPMALEEIKNIEDVLQSSFEYKPERGDSITVRNISFDRMNEFREIDENYFASERFKYFLFIASIVFSLLILVFTIFFAISRELERRRRLREEELAKQAHLRRQQALMDGGDDIGVDDVVGGIREGDELQSNAELLAREKPEDVAKLIRTWLLK</Hsp_hseq>
+      <Hsp_midline>M ++     V  K  +KK + VQK  L       ++ +V L+ +S K   + L    I D+ + ++I  RL+ ENV+  +SS G I + DEK A++MR+IL+RE+L+P ++DPWA+FD++RWT TDFER +++RR+I   V  HI ALDD+D   V + +PE ALF+  Q+P+ ASV I P+P S I + RKK+EG+ KL++ A+ GL+ +NI IVD+  T+LNDF      DR+ L EK++K+  K E+    ++ + L K    DR     + +++D S++T+++ +Y PIE++  +P   ++  +V  S    S+T    +QG G +P GPPG EG TPP Y+D+S+  G  N+S       + ++++ S+ E   +V   LG     + +DG W    DE G F+++ G  +REY P++ EE++     +Q +  +   R DS++V NI FDR +EF   DE+Y   ++    +  +    ++++ +F ++  IS+E+ERRRRLREEEL +Q  L R++AL +         +    R+  ELQ N   +ARE PEDVA L+RTWL++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|6225356|sp|O67241.1|FLIF_AQUAE</Hit_id>
+  <Hit_def>RecName: Full=Flagellar M-ring protein</Hit_def>
+  <Hit_accession>O67241</Hit_accession>
+  <Hit_len>489</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.1301</Hsp_bit-score>
+      <Hsp_score>235</Hsp_score>
+      <Hsp_evalue>1.89273e-19</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>566</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>488</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>85</Hsp_gaps>
+      <Hsp_align-len>559</Hsp_align-len>
+      <Hsp_qseq>LKTQWKKWTLVQKSVLAGAALVSV-MGVVVLLTWSAKPTLVPLIDTPITDETVREKIILRLNEENVRATVSSVGLISVSDEKTARRMRSILIREDLIPKNVDPWAIFDVERWTRTDFERRVDVRRAINNTVTNHIKALDDIDDAHVVINVPEDALFQADQKPITASVVIFPKPSSTIASERKKIEGIQKLLKLAVPGLKDENITIVDSDATVLNDFEGFKDADRLSLIEKQQKMIAKLESQYEAKVLALLQKTYGKDRVRDLNIKIEMDLSEKTSQTTKYLPIEIRQDNPDTPWDDSQVVPSVTSISETATTTWQGTGLNPEGPPGVEGQTPPAYKDMSNQVGLSNQSVVKKQEAISKSEINEVVSPVLGRRTVSVNIDGEWRKKRDEHGRFIVKEGHIEREYIPISAEELREATKAVQDAIGFDAGRKDSVSVLNIKFDRTSEFDREDEHYLRVQQRNMIILYSLASVAIVLFIFM---VYKVISKEVERRRRLREEELLRQQQLMRERALWEAEQAGMNVSMSVEERKRLELQENVLNMAREHPEDVALLVRTWLME</Hsp_qseq>
+      <Hsp_hseq>LKERFNALTPVQKALAVGIPLLLLSLGAVALIYLSQENYTV--LYTGLSPDDLN-AVVTELDKEGVKYKISPDGRTIYVPENVARELRLKLAAKGVPRKGIVGYELFDKSGIVLSRFQQLVNFKRAIEGELAKTIMSLDCVEFARVHIVLPEKSLFIREEEEAKASVFLKLKPGCELTPEQ--VKAIRNLVSGSVENLKPSQVVVVDDKG---RDLTAYLD-EEFKTNASQLKVKREFEKSLERKLQKTLEEVFGYGKVK-VNVSAELDFSSMKKREELYDP------------DLTAVVSEQKKKERTTSTRAQGI-------PGTQANIPPA---TGRQGG--GELITERKESITNYEVS--------KREIYFE-DKTIKVKRISVGLVIDKD-------VKVNTEELKNLIIA---SAGLDPKRGDQVSIVSVPFVKPT----------VVAEKPKVPTYVYVAVALVSLVILGLVAFGLV------------------KLLRRRPPAPTPAPAVPGVPPTVEEVRKKTPYEELLEIAKQEPEKVAMVLKKWLKE</Hsp_hseq>
+      <Hsp_midline>LK ++   T VQK++  G  L+ + +G V L+  S +   V  + T ++ + +   ++  L++E V+  +S  G      E  AR +R  L  + +  K +  + +FD      + F++ V+ +RAI   +   I +LD ++ A V I +PE +LF  +++   ASV +  KP   +  E+  ++ I+ L+  +V  LK   + +VD       D   + D +       Q K+  + E   E K+   L++ +G  +V+ +N+  E+D S    +   Y P            D + VV        T +T  QG        PG +   PPA      Q G   + + +++E+I+  E++        +R +    D   + KR   G  I K+       + ++ EEL+    A   + G D  R D VS++++ F + +           V ++  +  Y   +VA+V  + +    + ++                  + L R         A   V  +VEE ++    E +L +A++ PE VA++++ WL E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|12230924|sp|Q51463.2|FLIF_PSEAE</Hit_id>
+  <Hit_def>RecName: Full=Flagellar M-ring protein</Hit_def>
+  <Hit_accession>Q51463</Hit_accession>
+  <Hit_len>598</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.6633</Hsp_bit-score>
+      <Hsp_score>226</Hsp_score>
+      <Hsp_evalue>2.90847e-18</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>449</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>469</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>62</Hsp_gaps>
+      <Hsp_align-len>461</Hsp_align-len>
+      <Hsp_qseq>LVQKSVLAGAALVSVMGVVVLLTWSAKPTLVPLIDTPITDETVREKIILRLNEENVRATV--SSVGLISVSDEKTARRMRSILIREDLIPKNVDPWAIFDVERWTRTD-FERRVDVRRAINNTVTNHIKALDDIDDAHVVINVPEDALFQADQKPITASVVIFPKPSSTIASERKKIEGIQKLLKLAVPGLKDENITIVDSDATVLNDFEGFKDADRLSLIEKQQKMIAKLESQYEAKVLALLQKTYGKDRVRDLNIKIEMDLSEKTSQTTKYLPIEIRQDNPDTPWDDSQVVPSVTSISETATTTWQGTGLNPEGPPGVEGQTPPAYKDMSNQVGLSNQS-VVKKQEAISKSEINEVVSPVLGR---------------------RTVSVNIDGEWRKKR-------DEHGRFIVKEGHIEREYIPISAEELREATKAVQDAIGFDAGRKDSVSVLNIKF</Hsp_qseq>
+      <Hsp_hseq>LRQIGLLVGLAASVAIGFAVVL-WSQQPDYKPLYGS--LNGVDANRVVEALTAADIPYKVEPNSGALLVKADDLGRARMKVASAGVAPTDNNVG-FEILDKEQALGTSQFMEATNYRRGLEGELARTVSSLNNVKAARVHLAIPKSSVFVRDDRKPSASVLVELYPGRSL--EPSQVMAIVNLVATSVPELDKSQVTVVDQKGNLLSDQQELSE---LTMAGKQFDFTRRMEGLLTQRVHNILQPVLGNGRYK-AEVSADVDFSAVESTSEMY--------NPDQP----------ALRSEQRNNEERQNSSGPQGVPGALSNQPPGPASAPQQATASAPADYVAPGQPLKDANGQTIIDPKTGKPELAPYPTDKRDQTTRNYELDRSISYTKQQQGRLRRLSVAVVLDDQMKVDAKTGEVSHQ--PWSADELARFTRLVQDSVGYDASRGDSVSVINAPF</Hsp_hseq>
+      <Hsp_midline>L Q  +L G A    +G  V+L WS +P   PL  +   +     +++  L   ++   V  +S  L+  +D+    RM+           NV  + I D E+   T  F    + RR +   +   + +L+++  A V + +P+ ++F  D +  +ASV++   P  ++  E  ++  I  L+  +VP L    +T+VD    +L+D +   +   L++  KQ     ++E     +V  +LQ   G  R +   +  ++D S   S +  Y        NPD P             SE      +     P+G PG     PP       Q   S  +  V   + +  +    ++ P  G+                     R++S     + R +R       D+  +   K G +  +  P SA+EL   T+ VQD++G+DA R DSVSV+N  F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|2506421|sp|P25798.3|FLIF_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Flagellar M-ring protein</Hit_def>
+  <Hit_accession>P25798</Hit_accession>
+  <Hit_len>552</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.4261</Hsp_bit-score>
+      <Hsp_score>215</Hsp_score>
+      <Hsp_evalue>6.63559e-17</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>564</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>547</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>246</Hsp_positive>
+      <Hsp_gaps>75</Hsp_gaps>
+      <Hsp_align-len>568</Hsp_align-len>
+      <Hsp_qseq>VLAGAALVSVMGVVVLLTWSAKPTLVPLIDTPITDETVREKIILRLNEENVRATVS-SVGLISVSDEKTARRMRSILIREDLIPKNVDPWAIFDVERWTRTDFERRVDVRRAINNTVTNHIKALDDIDDAHVVINVPEDALFQADQKPITASVVIFPKPSSTIASERKKIEGIQKLLKLAVPGLKDENITIVDSDATVLNDFEGFKDADRLSLIEKQQKMIAKLESQYEAKVLALLQKTYGKDRVRDLNIKIEMDLSEKTSQTTKYLPIEIRQDNPDTPWDDSQVVPSVTSISETATTTWQGTGLNPEGPPGVEGQTPPAYKDMSNQVGLSNQSVVKKQEAISKSEINEVVSPVLGRRTVSVNIDGEWRKKRD-EHGRFIVKEGHIER---------------EYIPISAEELREATKAVQDAIGFDAGRKDSVSVLNIKFDRTSEFDREDEHYLRVQQRNMIILYSLASVAIVLFIFMVYKVISKEVERR--RRLREEELLRQQQLMRERALWEAEQAGMNVSMSVEER-------KRLE---LQENVLNMAREHPEDVALLVRTWL</Hsp_qseq>
+      <Hsp_hseq>IVAGSAAVAVM--VALILWAKAPDYRTLFSN-LSDQD-GGAIVSQLTQMNIPYRFSEASGAIEVPADKV-HELRLRLAQQGLPKGGAVGFELLDQEKFGISQFSEQVNYQRALEGELSRTIETIGPVKGARVHLAMPKPSLFVREQKSPSASVTVNLLPGRAL--DEGQISAIVHLVSSAVAGLPPGNVTLVDQGGHLLTQ----SNTSGRDLNDAQLKYASDVEGRIQRRIEAILSPIVGNGNIH-AQVTAQLDFASKEQTEEQYRPN----------GDESHAALRSRQLNESEQS---GSGY-PGGVPGALSNQPAPANNAPISTPPANQNNRQQQASTTSNS---------GPRSTQRNETSNYEVDRTIRHTKMNV--GDVQRLSVAVVVNYKTLPDGKPLPLSNEQMKQIEDLTREAMGFSEKRGDSLNVVNSPFNSSDESGGE----LPFWQQQAFIDQLLAAGRWLLVLLVAWLLWRKAVRPQLTRRAEAMKAVQQQAQARE----EVEDA-VEVRLSKDEQLQQRRANQRLGAEVMSQRIREMSDNDPRVVALVIRQWI</Hsp_hseq>
+      <Hsp_midline>++AG+A V+VM  V L+ W+  P    L    ++D+     I+ +L + N+    S + G I V  +K    +R  L ++ L       + + D E++  + F  +V+ +RA+   ++  I+ +  +  A V + +P+ +LF  +QK  +ASV +   P   +  +  +I  I  L+  AV GL   N+T+VD    +L       +     L + Q K  + +E + + ++ A+L    G   +    +  ++D + K     +Y P            D+S        ++E+  +   G+G  P G PG     P    +       +NQ+  ++Q + + +          G R+   N    +   R   H +  V  G ++R               + +P+S E++++     ++A+GF   R DS++V+N  F+ + E   E    L   Q+   I   LA+   +L + + + +  K V  +  RR    + ++QQ   RE    E E A + V +S +E+       +RL    + + +  M+   P  VAL++R W+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|462109|sp|Q04954.1|FLIF_CAUCR</Hit_id>
+  <Hit_def>RecName: Full=Flagellar M-ring protein</Hit_def>
+  <Hit_accession>Q04954</Hit_accession>
+  <Hit_len>536</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.0333</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>2.85338e-15</Hsp_evalue>
+      <Hsp_query-from>98</Hsp_query-from>
+      <Hsp_query-to>472</Hsp_query-to>
+      <Hsp_hit-from>70</Hsp_hit-from>
+      <Hsp_hit-to>413</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>47</Hsp_gaps>
+      <Hsp_align-len>383</Hsp_align-len>
+      <Hsp_qseq>RSILIREDLIPKNVDPWAIFDVER-WTRTDFERRVDVRRAINNTVTNHIKALDDIDDAHVVINVPEDALFQADQKPITASVVIF---PKPSSTIASERKKIEGIQKLLKLAVPGLKDENITIVDSDATVLNDFEGFKDADRLSLIEKQQKMIAKLESQYEAKVLALLQKTYGKDRVRDLNIKIEMDLSEKTSQTTKYLPIEIRQDNPDTPWDDSQVV--PSVTSISETATTTWQGTGLNPEGP-PGVEGQTPPAYKDMSNQVGLSNQSVVKKQEAISKSEINEVVSP-VLGRRTVSVNIDGEWRKKRDEHGRFIVKEGHIEREYIPISAEELREATKAVQDAIGFDAGRKDSVSVLNIKFDRTSEFDREDEHYLRVQQRNMII</Hsp_qseq>
+      <Hsp_hseq>RLMVAGKGLVSSGSIGYEIFDTNNALGQTDFVQQLNRQRALQGELERTIKAMQGVNSVRVHLVLPKRQLFEEDAEQPSAAVTIGVGSREPSSDM------VRAIQNLVSSSVPNMKAEKVAVIDQHGKTLSAPSDESLAGKMA-----QDRKSEVEARIAKTVKDMIEGVLGPGKAR-VNVTAELDLNRVTTQEERFDP-------------DGQVIRSESTTEASSQENKNDDNAGVTAAANVPG--GQGANGFQQLGSRTG-QNDAVTNYE--ISKSVTTTVQEPGTIKKIAVAVAIDGVSAPMAADG-----KPGA----YTPRTAQEIQQIEELVKTAVGFDAERGDQVRVTNIKFPQPEDQGLEEQGLLAGFDKNDIM</Hsp_hseq>
+      <Hsp_midline>R ++  + L+      + IFD      +TDF ++++ +RA+   +   IKA+  ++   V + +P+  LF+ D +  +A+V I     +PSS +      +  IQ L+  +VP +K E + ++D     L+       A +++     Q   +++E++    V  +++   G  + R +N+  E+DL+  T+Q  ++ P             D QV+   S T  S          G+      PG  GQ    ++ + ++ G  N +V   +  ISKS    V  P  + +  V+V IDG       +      K G     Y P +A+E+++  + V+ A+GFDA R D V V NIKF +  +   E++  L    +N I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|120326|sp|P15928.2|FLIF_SALTY</Hit_id>
+  <Hit_def>RecName: Full=Flagellar M-ring protein</Hit_def>
+  <Hit_accession>P15928</Hit_accession>
+  <Hit_len>560</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7221</Hsp_bit-score>
+      <Hsp_score>195</Hsp_score>
+      <Hsp_evalue>1.99641e-14</Hsp_evalue>
+      <Hsp_query-from>67</Hsp_query-from>
+      <Hsp_query-to>564</Hsp_query-to>
+      <Hsp_hit-from>66</Hsp_hit-from>
+      <Hsp_hit-to>555</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>223</Hsp_positive>
+      <Hsp_gaps>64</Hsp_gaps>
+      <Hsp_align-len>526</Hsp_align-len>
+      <Hsp_qseq>IILRLNEENVRATVSS-VGLISVSDEKTARRMRSILIREDLIPKNVDPWAIFDVERWTRTDFERRVDVRRAINNTVTNHIKALDDIDDAHVVINVPEDALFQADQKPITASVVIFPKPSSTIASERKKIEGIQKLLKLAVPGLKDENITIVDSDATVLNDFEGFKDADRLSLIEKQQKMIAKLESQYEAKVLALLQKTYGKDRVRDLNIKIEMDLSEKTSQTTKYLPIEIRQDNPDTPWDDSQVVPSVTSISETATTTWQGTGLNPEGPPGVEGQTPPAYKDMSNQVGLSNQSVVKKQEAISKSEINEVVSPVLGRRTVSVNIDGEWRKKRDEHGRFIVKEGHIER---------------EYIPISAEELREATKAVQDAIGFDAGRKDSVSVLNIKFDRTSEFDREDEHYLRVQQRNMIILYSLASVAIVLFIFMVYKVISKEVERR--RRLREEELLRQQQLMRERALWEAEQAGMNVSMSVEER-------KRLE---LQENVLNMAREHPEDVALLVRTWL</Hsp_qseq>
+      <Hsp_hseq>IVAQLTQMNIPYRFANGSGAIEVPADKV-HELRLRLAQQGLPKGGAVGFELLDQEKFGISQFSEQVNYQRALEGELARTIETLGPVKSARVHLAMPKPSLFVREQKSPSASVTVTLEPGRAL--DEGQISAVVHLVSSAVAGLPPGNVTLVDQSGHLLTQ----SNTSGRDLNDAQLKFANDVESRIQRRIEAILSPIVGNGNVH-AQVTAQLDFANKEQTEEHYSP------NGDA--SKATLRSRQLNISEQV-----GAGY-PGGVPGALSNQPAPPNEAPIATPPTNQQNAQNTPQTSTSTNSNSAGPRSTQRNETSNYEVD---RTIRHTKMNV--GDIERLSVAVVVNYKTLADGKPLPLTADQMKQIEDLTREAMGFSDKRGDTLNVVNSPFSAVDNTGGE----LPFWQQQSFIDQLLAAGRWLLVLVVAWILWRKAVRPQLTRRVEEAKAAQEQAQVRQ----ETEEA-VEVRLSKDEQLQQRRANQRLGAEVMSQRIREMSDNDPRVVALVIRQWM</Hsp_hseq>
+      <Hsp_midline>I+ +L + N+    ++  G I V  +K    +R  L ++ L       + + D E++  + F  +V+ +RA+   +   I+ L  +  A V + +P+ +LF  +QK  +ASV +  +P   +  +  +I  +  L+  AV GL   N+T+VD    +L       +     L + Q K    +ES+ + ++ A+L    G   V    +  ++D + K      Y P      N D     + +     +ISE       G G  P G PG     P    +       +NQ   +     S S  +    P   +R  + N + +   +   H +  V  G IER               + +P++A+++++     ++A+GF   R D+++V+N  F        E    L   Q+   I   LA+   +L + + + +  K V  +  RR+ E +  ++Q  +R+    E E+A + V +S +E+       +RL    + + +  M+   P  VAL++R W+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|38257545|sp|Q89B00.1|FLIF_BUCBP</Hit_id>
+  <Hit_def>RecName: Full=Flagellar M-ring protein</Hit_def>
+  <Hit_accession>Q89B00</Hit_accession>
+  <Hit_len>555</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.6406</Hsp_bit-score>
+      <Hsp_score>187</Hsp_score>
+      <Hsp_evalue>1.64604e-13</Hsp_evalue>
+      <Hsp_query-from>114</Hsp_query-from>
+      <Hsp_query-to>449</Hsp_query-to>
+      <Hsp_hit-from>114</Hsp_hit-from>
+      <Hsp_hit-to>449</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>52</Hsp_gaps>
+      <Hsp_align-len>362</Hsp_align-len>
+      <Hsp_qseq>WAIFDVERWTRTDFERRVDVRRAINNTVTNHIKALDDIDDAHVVINVPEDALFQADQKPITASVVIFPKPSSTIASERKKIEGIQKLLKLAVPGLKDENITIVDSDATVLNDFEGFKDADRLSLIEKQQKMIAKLESQYEAKVLALLQKTYGKDRVR-DLNIKIEMDLSEKTSQTTKYLP-----------------IEIRQDNPDTPWDDSQVVPSVTSISETATTTWQGTGLNPEGPPGVEGQTPPAYKDMSNQVGLSNQSVVKK----QEAISKSEINEVVSP----VLGRRTVSVNIDGEWRKKRDEHGRFIVKEGHIEREYIPISAEELREATKAVQDAIGFDAGRKDSVSVLNIKF</Hsp_qseq>
+      <Hsp_hseq>FELLDTEKFGLSQFNEEVNYERALEGELARSIQKLENIKTARVHIVLSKSSVFIREKKIPSASVILEIKPGRYL--NYNQINSILHIVAQGVSNLQIENITIVDQFGNLL---SSMNDLYNDSYSNNQLKYSNEIETGYKNKIESVLVPLVGVNNIHAQVTAQISFDKQENSEE--RFTPNYSNEKQSVRSVQNKKNIEFSEKYSDNSFSSNQGVLSNKKLNDLSNSSLL---FNHNNIPNFSEQVSSTKNSKRN---LSDESVIPQSSTNQNYIVNYELDHVISHNKFNVGNVKRLSVAVVINYVK--DKHGKF-----------VSLSTDKLNSIKKLVCESVGFSRKRGDSVSVVNFKF</Hsp_hseq>
+      <Hsp_midline>+ + D E++  + F   V+  RA+   +   I+ L++I  A V I + + ++F  ++K  +ASV++  KP   +     +I  I  ++   V  L+ ENITIVD    +L       D    S    Q K   ++E+ Y+ K+ ++L    G + +   +  +I  D  E + +  ++ P                 IE  +   D  +  +Q V S   +++ + ++      N    P    Q         N   LS++SV+ +    Q  I   E++ V+S     V   + +SV +   + K  D+HG+F           + +S ++L    K V +++GF   R DSVSV+N KF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|11386782|sp|P57175.1|FLIF_BUCAI</Hit_id>
+  <Hit_def>RecName: Full=Flagellar M-ring protein</Hit_def>
+  <Hit_accession>P57175</Hit_accession>
+  <Hit_len>545</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.4034</Hsp_bit-score>
+      <Hsp_score>176</Hsp_score>
+      <Hsp_evalue>3.48502e-12</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>567</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>544</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>250</Hsp_positive>
+      <Hsp_gaps>72</Hsp_gaps>
+      <Hsp_align-len>563</Hsp_align-len>
+      <Hsp_qseq>VLAGAALVSVMGVVVLLTWSAKPTLVPLIDTPITDETVREKIILRLNEENVRATVS-SVGLISVSDEKTAR-RMRSILIREDLIPKNVD-PWAIFDVERWTRTDFERRVDVRRAINNTVTNHIKALDDIDDAHVVINVPEDALFQADQKPITASVVIFPKPSSTIASERKKIEGIQKLLKLAVPGLKDENITIVDSDATVLNDFEGFKDADRLSLIEKQQKMIAKLESQYEAKVLALLQKTYGKDRVR-DLNIKIEMDLSEKTSQTTKYLPIEIRQDNPDTPWDDSQVVPSVTSISETATTTWQGTGLNPEGPPGVEGQTPPAY--KDMSNQVGLSNQSV-----VKKQEAISKSEINEVVSPV------LGRRTVSVNIDGEWRKKRDEHGRFIVKEGHIEREYIPISAEELREATKAVQDAIGFDAGRKDSVSVLNIKFDRTSEFDR----EDEHYLRVQQRNMIILYSLASVAIVLFIFMVYKVISKEVERRRRLREEELLRQQQLMRERALWEAEQAGMNVSMSVEERKRLELQENVLNMAREHPEDVALLVRTWLMEE</Hsp_qseq>
+      <Hsp_hseq>ILLTAAAITAVSISV---WIKSPEYQVLYNH-LSNED-RGSIINELNEMKIPYQFTDSDGPILVPKDKVYEIRLR---LAENNLPRGGSIGFELLDKEKFGISQYNEQINYHRALEGELARTIKKINSVKNARIHIAFSKSSLFLQDKKKSSASIILELQPGRNLNT--GQINAIMHLISSSISDLPVENITIVDQSGKLLN--QTSVEYDQVN--DSQFKYTEEIETRYRNRIKNILEPLVGIGNIYAQVTAQIDFNAQEKTQE--KYSP---NSDHKNQSIRSHQII---------IHNEIEKSNIQEETPIPLSNSNNHVYFNNNIKNSKNLKNNYIPVDSKINRDNTVN-YELNHSVSHTKMNIGEIKRLSAAVIVNFS----KDKNGKF-----------VPLSTQKIKNIEHLIREAIGYSKARGDSVHLVNASF---AKYDQKIPVHINHINTFRKSNFLYNFAPWFCSFALLFLLLKKYIC-PFSKNNTFQNTIPVQEKKSIDTRNIIEKNTFQVDLQNNTNTDK---LIHKICNISNQNPRTIALIIRQWMSDK</Hsp_hseq>
+      <Hsp_midline>+L  AA ++ + + V   W   P    L +  +++E  R  II  LNE  +    + S G I V  +K    R+R   + E+ +P+     + + D E++  + +  +++  RA+   +   IK ++ + +A + I   + +LF  D+K  +AS+++  +P   + +   +I  I  L+  ++  L  ENITIVD    +LN  +   + D+++  + Q K   ++E++Y  ++  +L+   G   +   +  +I+ +  EKT +  KY P     D+ +      Q++              + + +  E P  +       Y   ++ N   L N  +     + +   ++  E+N  VS        + R + +V ++      +D++G+F           +P+S ++++     +++AIG+   R DSV ++N  F   +++D+       H    ++ N +  ++    +  L   ++ K I     +    +    +++++ +  R + E     +++  +    K   L   + N++ ++P  +AL++R W+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|120324|sp|P23447.2|FLIF_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Flagellar M-ring protein</Hit_def>
+  <Hit_accession>P23447</Hit_accession>
+  <Hit_len>536</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.0182</Hsp_bit-score>
+      <Hsp_score>175</Hsp_score>
+      <Hsp_evalue>4.11581e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>346</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>350</Hsp_align-len>
+      <Hsp_qseq>MGEWLGQLGVKLKTQWKKWTLVQKSVLAGAALVSVMGVVVLLTWSAKPTLVPLIDTPITDETVREKIILRLNEENVRATVSSVGLISVSDEKTARRMRSILIREDLIPKNVDPWAIFDVER-WTRTDFERRVDVRRAINNTVTNHIKALDDIDDAHVVINVPEDALFQA-DQKPITASVVIFPKPSSTIASERKKIEGIQKLLKLAVPGLKDENITIVDSDATVLN--DFEGFKDADRLSLIEKQQKMIAKLESQYEAKVLALLQKTYGKDRVRDLNIKIEMDLSEKTSQTTKYLPIEIRQDNPDTPWDDSQVVPSVTSISETATTTWQGTGLNPEGPPGVEGQTPPAYK</Hsp_qseq>
+      <Hsp_hseq>MNRTLMQMKNKTSEFWKNRSKLQKILMVSALAAIIIIGIIISVFASNSKMAPLYKDLSAEEAGQ--IKEELDAKKVPNELSNGGTVISVPEDQVDSLKVQMAAEGLPKTGSIDYSFFGQNAGFGLTDNEFDMVKVKATQTELSNLINEMDGIKNSKVMINLPKDAVFVGEEQSAASASIVLQIQPGYTL--DQSQINGLYHLVSKSVPNLKEDNIVIMDQNSTYYDKSDSDAGSYADSYS---SQQGIKSQVEKDIQKHVQSLLGTMMGQDKVV-VSVTADIDFTKENRTEDIVEPV------------DKENMEGIAVSAEKVSETYQGDGAANGGTAGTGEEDVTNYK</Hsp_hseq>
+      <Hsp_midline>M   L Q+  K    WK  + +QK ++  A    ++  +++  +++   + PL      +E  +  I   L+ + V   +S+ G +    E     ++  +  E L       ++ F     +  TD E  +   +A    ++N I  +D I ++ V+IN+P+DA+F   +Q   +AS+V+  +P  T+  ++ +I G+  L+  +VP LK++NI I+D ++T  +  D +    AD  S    QQ + +++E   +  V +LL    G+D+V  +++  ++D +++        P+            D + +  +   +E  + T+QG G    G  G   +    YK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|25008478|sp|Q8KA45.1|FLIF_BUCAP</Hit_id>
+  <Hit_def>RecName: Full=Flagellar M-ring protein</Hit_def>
+  <Hit_accession>Q8KA45</Hit_accession>
+  <Hit_len>556</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.4698</Hsp_bit-score>
+      <Hsp_score>158</Hsp_score>
+      <Hsp_evalue>5.0147e-10</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>449</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>439</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>58</Hsp_gaps>
+      <Hsp_align-len>446</Hsp_align-len>
+      <Hsp_qseq>VLAGAALVSVMGVVVLLTWSAKPTLVPLIDTPITDETVREKIILRLNEENVRATVS--SVGLISVSDEKTARRMRSILIREDLIPKNVDPWAIFDVERWTRTDFERRVDVRRAINNTVTNHIKALDDIDDAHVVINVPEDALFQADQKPITASVVIFPKPSSTIASERKKIEGIQKLLKLAVPGLKDENITIVDSDATVLNDFE-GFKDADRLSLIEKQQKMIAKLESQYEAKVLALLQKTYGKDRVR-DLNIKIEMDLSEKTSQTTKYLPIEIRQDNPDTPWDDSQVVPSVTSISETATTTWQGTG---LNPEGPPGVE---GQTPPAYKDMSNQVGLSNQ--SVVKKQEAISKSE-INEVVSPVLGRRTVSVNIDGEWRKK---------RDEHGRFIVKEGHIEREYIPISAEELREATKAVQDAIGFDAGRKDSVSVLNIKF</Hsp_qseq>
+      <Hsp_hseq>VLIILFVLAVITTVSISMWRKSPDYQVLYNNLSNEDG--EMIIDQLNQMQIPYKLSEDSGQLLVPKDKVYELRLH---FSENNSPHRDIGYEILDKERFGVSQFGEQINYQRALEGELARTIEKINVVKNAKIHIAFPKNSLFLEDKKKPSVSVILNLKSNQGL--DHSQVNAILHLISSSICDLSIENITIIDQFGKLLNNSSLGLNQIDDLKL-----RYSEEVESRYRNRIKNILEPLLGFNNVYAQVTAQINFNSHEKTQE--KYT--------PNTNYKNQAIRSRQSTVNDKINNRKEENKPDELFPQTSFSSNKDLNSTTYSNKKIKKSIIQNNQDNNILHSNSAISHDDTINYELNHSLSHTKMNI---GEIKRLSAAVIVNFVKDKNGK-----------SVPINVEQIKKIKNLVREAIGYSKVRGDSVYVVNESF</Hsp_hseq>
+      <Hsp_midline>VL    +++V+  V +  W   P    L +    ++   E II +LN+  +   +S  S  L+   D+    R+      E+  P     + I D ER+  + F  +++ +RA+   +   I+ ++ + +A + I  P+++LF  D+K  + SV++  K +  +  +  ++  I  L+  ++  L  ENITI+D    +LN+   G    D L L     +   ++ES+Y  ++  +L+   G + V   +  +I  +  EKT +  KY         P+T + +  +    +++++      +      L P+           T  + K +   +  +NQ  +++    AIS  + IN  ++  L    +++   GE ++          +D++G+            +PI+ E++++    V++AIG+   R DSV V+N  F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|17380368|sp|O54239.2|FLIF_RHIME</Hit_id>
+  <Hit_def>RecName: Full=Flagellar M-ring protein</Hit_def>
+  <Hit_accession>O54239</Hit_accession>
+  <Hit_len>557</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.225</Hsp_bit-score>
+      <Hsp_score>134</Hsp_score>
+      <Hsp_evalue>4.12278e-07</Hsp_evalue>
+      <Hsp_query-from>66</Hsp_query-from>
+      <Hsp_query-to>485</Hsp_query-to>
+      <Hsp_hit-from>62</Hsp_hit-from>
+      <Hsp_hit-to>452</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>181</Hsp_positive>
+      <Hsp_gaps>55</Hsp_gaps>
+      <Hsp_align-len>433</Hsp_align-len>
+      <Hsp_qseq>KIILRLNEENVRATVSS-VGLISVSDEKTARRMRSILIREDLIPKNVDP-WAIFD-VERWTRTDFERRVDVRRAINNTVTNHIKALDDIDDAHVVINVPEDALF-QADQKPITASVVIFPKPSSTIASERKKIEGIQKLLKLAVPGLKDENITIVDSDATVLNDFEGFKDADRLSLIEKQQKMIAKLESQYEAKVLALLQKTYGKDRVRDLNIKIEMDLSEKTSQTTKYLPIEIRQDNPDTPWDDSQVVPSVTSISETATTTWQGTGLNPEGPPGVEGQTPPAYKDMSNQVGLSNQSVVKKQEAISKSEINEVV------SPVLGRRTVSVNIDGEWRKKRDEHGRFIVKEGHIEREYIPISAEELREATKAVQDAIGFDAGRKDSVSVLNIKFDRTSEFDRE--DEHYLRVQQRNM-IILYSLASVAIVLFI</Hsp_qseq>
+      <Hsp_hseq>QISIALAEANVDFEVGTDGGSIQVPVGMTGKA--RLLLAERGLPSSANAGYELFDNVGSLGLTSFMQEVTRVRALEGEIARTIQQISGIAAARVHIVMPERGSFRKAEQTP-TASVMI--RASATVG--RSAASSIRHLVASSVPGLDVDDVTVLDSTGQLLAS----GDDPSNSALNQSLGVVQNVQSDLEKKIDNALAPFLGMDNFR-TSVTARLNTDAQQIQETVFDP-------------ESRVERSTRVIKEEQKSSQQ----QPDNAATVQQNVPQAAP--RGGAGQQSSDEAEKKEEQTNYEINSKTIATVKNSYSIERLSIAVVVN---------RGRLAAMAGE-PADQAKIDA-YLQEMQKIVSSAAGIDPGRGDVVTLNAMDFVETQLLDQAVPGPGIMEMLTRNLGGIINALAFVAVAFLV</Hsp_hseq>
+      <Hsp_midline>+I + L E NV   V +  G I V    T +    +L+ E  +P + +  + +FD V     T F + V   RA+   +   I+ +  I  A V I +PE   F +A+Q P TASV+I  + S+T+   R     I+ L+  +VPGL  +++T++DS   +L       D    S + +   ++  ++S  E K+   L    G D  R  ++   ++   +  Q T + P             +S+V  S   I E   ++ Q     P+    V+   P A        G  +    +K+E  +  EIN         S  + R +++V ++          GR     G    +   I A  L+E  K V  A G D GR D V++  + F  T   D+       + +  RN+  I+ +LA VA+   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|2494549|sp|Q53151.1|FLIF_RHOSH</Hit_id>
+  <Hit_def>RecName: Full=Flagellar M-ring protein</Hit_def>
+  <Hit_accession>Q53151</Hit_accession>
+  <Hit_len>570</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.0618</Hsp_bit-score>
+      <Hsp_score>118</Hsp_score>
+      <Hsp_evalue>3.42582e-05</Hsp_evalue>
+      <Hsp_query-from>79</Hsp_query-from>
+      <Hsp_query-to>449</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>440</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>386</Hsp_align-len>
+      <Hsp_qseq>TVSSVGLISVSDEKTA---------RRMRSILIREDLIPKNVDPWAIF-DVERWTRTDFERRVDVRRAINNTVTNHIKALDDIDDAHVVINVPEDALFQADQKPITASVVIFPKPSSTIASERKKIEGIQKLLKLAVPGLKDENITIVDSDATVLNDFEGFKDADRLSLIEKQQKMIAKLESQYEAKVLALLQKTYGKDRVRDLNIKIEMDLSEKTSQTTKYLPIEIRQDNPDTPWDDSQVVPSVTSISETATTTWQG-TGLNPEGPP---GVEGQTPP-AYKDMSNQVGLSNQSVVKKQEAISKSEINEVVSPVLGRRTVSVNIDGEWRKKRDEHGRFIVKEGHIEREYIPISAEELREATKAVQDAIGFDAGRKDSVSVLNIKF</Hsp_qseq>
+      <Hsp_hseq>SLTGGGIAAVIDERTGEVAVPGAEYHRARMLLAAQGLPQGLPDGNALLSDLPMGTSKSVET-ARLRQAQELDLARSITEISAVSAARVHLALPERSAFLRESQPPRASVFLQIVPGRTL--DGAQVEAIVNLVSSSVPGMARQDVTVVDQMGRLLS--RGSDDPAVL-LNDRQLQHRVQLETLYRNRIESLLTPIAGPGNL-AVQVTIDMDFTRQ----------EIREEQVDP--DRTALLAEQSQIEETADPQARGIPGAVSNSPPPEAALEAGAPPTAAGEAAAPMRSRSQNSTRNFEVSRKVETTLPATARIARVSAAVVVRAQPQPAATDPAAPPPPLLPEALKA------DLERLTRS---AVGFDADRGDVVTITAQPF</Hsp_hseq>
+      <Hsp_midline>+++  G+ +V DE+T           R R +L  + L     D  A+  D+   T    E    +R+A    +   I  +  +  A V + +PE + F  + +P  ASV +   P  T+  +  ++E I  L+  +VPG+  +++T+VD    +L+   G  D   L L ++Q +   +LE+ Y  ++ +LL    G   +  + + I+MD + +          EIR++  D   D + ++   + I ETA    +G  G     PP    +E   PP A  + +  +   +Q+  +  E   K E     +  + R + +V +  + +    +             +       +L   T++   A+GFDA R D V++    F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|68067522|sp|O52069.3|FLIF_BRUAB</Hit_id>
+  <Hit_def>RecName: Full=Flagellar M-ring protein</Hit_def>
+  <Hit_accession>O52069</Hit_accession>
+  <Hit_len>580</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>0.000334838</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>LAGAALVSVMGVVVLLT-WSAKPTLVPLIDTPITDETVREKIILRLNEENVRATVSSVGLISVSDEKTARRMRSILIREDLIPKNVDPWAIFD-VERWTRTDFERRVDVRRAINNTVTNHIKALDDIDDAHVVINVPEDALFQ-ADQKPITASVVIFPKPSSTIASERKKIEGIQKLLKLAVPGLKDENITIVDSDATVL-NDFEGFKDADRLSLIEKQQ</Hsp_qseq>
+      <Hsp_hseq>LVGAAL---MGAILYTSIYLGRPSYETLYVGLSRDDVNR--MGLALGEAGIPFDVKSDGSSILVPIGKAENARMYLAEKGLPTSNNAGYELFDNMGSLGLTSFMQEITRVRALEGEIARTIQAIRGVKAARVHIVLAEKGSFRRGDQKP-SASVVIRAEGGFSAESAQS----IRQLVAAAVPSLDASSVTVLDTNGHLLASAGEGANGAALMTASLEQQ</Hsp_hseq>
+      <Hsp_midline>L GAAL   MG ++  + +  +P+   L      D+  R  + L L E  +   V S G   +     A   R  L  + L   N   + +FD +     T F + +   RA+   +   I+A+  +  A V I + E   F+  DQKP +ASVVI  +   +  S +     I++L+  AVP L   ++T++D++  +L +  EG   A  ++   +QQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|122065185|sp|Q8YDM4.3|FLIF_BRUME</Hit_id>
+  <Hit_def>RecName: Full=Flagellar M-ring protein</Hit_def>
+  <Hit_accession>Q8YDM4</Hit_accession>
+  <Hit_len>580</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>0.000334838</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>LAGAALVSVMGVVVLLT-WSAKPTLVPLIDTPITDETVREKIILRLNEENVRATVSSVGLISVSDEKTARRMRSILIREDLIPKNVDPWAIFD-VERWTRTDFERRVDVRRAINNTVTNHIKALDDIDDAHVVINVPEDALFQ-ADQKPITASVVIFPKPSSTIASERKKIEGIQKLLKLAVPGLKDENITIVDSDATVL-NDFEGFKDADRLSLIEKQQ</Hsp_qseq>
+      <Hsp_hseq>LVGAAL---MGAILYTSIYLGRPSYETLYVGLSRDDVNR--MGLALGEAGIPFDVKSDGSSILVPIGKAENARMYLAEKGLPTSNNAGYELFDNMGSLGLTSFMQEITRVRALEGEIARTIQAIRGVKAARVHIVLAEKGSFRRGDQKP-SASVVIRAEGGFSAESAQS----IRQLVAAAVPSLDASSVTVLDTNGHLLASAGEGANGAALMTASLEQQ</Hsp_hseq>
+      <Hsp_midline>L GAAL   MG ++  + +  +P+   L      D+  R  + L L E  +   V S G   +     A   R  L  + L   N   + +FD +     T F + +   RA+   +   I+A+  +  A V I + E   F+  DQKP +ASVVI  +   +  S +     I++L+  AVP L   ++T++D++  +L +  EG   A  ++   +QQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|38257618|sp|Q8FUS3.1|FLIF_BRUSU</Hit_id>
+  <Hit_def>RecName: Full=Flagellar M-ring protein FliF</Hit_def>
+  <Hit_accession>Q8FUS3</Hit_accession>
+  <Hit_len>580</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>0.000340668</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>LAGAALVSVMGVVVLLT-WSAKPTLVPLIDTPITDETVREKIILRLNEENVRATVSSVGLISVSDEKTARRMRSILIREDLIPKNVDPWAIFD-VERWTRTDFERRVDVRRAINNTVTNHIKALDDIDDAHVVINVPEDALFQ-ADQKPITASVVIFPKPSSTIASERKKIEGIQKLLKLAVPGLKDENITIVDSDATVL-NDFEGFKDADRLSLIEKQQ</Hsp_qseq>
+      <Hsp_hseq>LVGAAL---MGAILYTSIYLGRPSYETLYVGLSRDDVNR--MGLALGEAGIPFDVKSDGSSILVPIGKAENARMYLAEKGLPTSNNAGYELFDNMGSLGLTSFMQEITRVRALEGEIARTIQAIRGVKAARVHIVLAEKGSFRRGDQKP-SASVVI--RAEGGFSAE--SAQSIRQLVAAAVPSLDASSVTVLDTNGHLLASAGEGANGAALMTASLEQQ</Hsp_hseq>
+      <Hsp_midline>L GAAL   MG ++  + +  +P+   L      D+  R  + L L E  +   V S G   +     A   R  L  + L   N   + +FD +     T F + +   RA+   +   I+A+  +  A V I + E   F+  DQKP +ASVVI  +     ++E    + I++L+  AVP L   ++T++D++  +L +  EG   A  ++   +QQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>462628</Statistics_db-num>
+      <Statistics_db-len>173435234</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

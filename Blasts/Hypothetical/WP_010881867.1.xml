@@ -1,0 +1,602 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>Query_167667</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>187</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_167667</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>187</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|7388271|sp|O83434.1|SURE_TREPA</Hit_id>
+  <Hit_def>RecName: Full=5&apos;-nucleotidase SurE; AltName: Full=Nucleoside 5&apos;-monophosphate phosphohydrolase</Hit_def>
+  <Hit_accession>O83434</Hit_accession>
+  <Hit_len>187</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>377.481</Hsp_bit-score>
+      <Hsp_score>968</Hsp_score>
+      <Hsp_evalue>5.39652e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>187</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>187</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>MRILLTNDDGYQAAGIRALHAALKAAPEGYEVTVVAPDRDRSAVSHGITTLEPVTVKEVEPGIWSCSGTPVDCVNRALRQVCVGTPPDVVVSGINEGENLGTDIVFSGTVAAARQAVMYGIAGIAASLLPVSDFGTGCRFQALARFVARHVRALAALSSEDVLVNINARSAQAYARACYARVASSDI</Hsp_qseq>
+      <Hsp_hseq>MRILLTNDDGYQAAGIRALHAALKAAPEGYEVTVVAPDRDRSAVSHGITTLEPVTVKEVEPGIWSCSGTPVDCVNRALRQVCVGTPPDVVVSGINEGENLGTDIVFSGTVAAARQAVMYGIAGIAASLLPVSDFGTGCRFQALARFVARHVRALAALSSEDVLVNINARSAQAYARACYARVASSDI</Hsp_hseq>
+      <Hsp_midline>MRILLTNDDGYQAAGIRALHAALKAAPEGYEVTVVAPDRDRSAVSHGITTLEPVTVKEVEPGIWSCSGTPVDCVNRALRQVCVGTPPDVVVSGINEGENLGTDIVFSGTVAAARQAVMYGIAGIAASLLPVSDFGTGCRFQALARFVARHVRALAALSSEDVLVNINARSAQAYARACYARVASSDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|20140060|sp|Q8YMT3.1|SURE_NOSS1</Hit_id>
+  <Hit_def>RecName: Full=5&apos;-nucleotidase SurE; AltName: Full=Nucleoside 5&apos;-monophosphate phosphohydrolase</Hit_def>
+  <Hit_accession>Q8YMT3</Hit_accession>
+  <Hit_len>265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.035</Hsp_bit-score>
+      <Hsp_score>336</Hsp_score>
+      <Hsp_evalue>7.4711e-37</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>MRILLTNDDGYQAAGIRALHAALKAAPEGYEVTVVAPDRDRSAVSHGITTLEPVTVKEVE----PGI--WSCSGTPVDCVNRALRQVCVGTPPDVVVSGINEGENLGTDIVFSGTVAAARQAVMYGIAGIAASLLPVSDFGTGCRFQALARFVARHVRALAALSSEDV-LVNIN</Hsp_qseq>
+      <Hsp_hseq>MKLLISNDDGISALGIRTLANALAEA--GHDVTVVCPDRERSATGHGLTLHQPIRAEIVESIFHPAIKAWACDGTPSDCVKLALWAL-LESPPDLVLSGINQGANLGTEILYSGTVSAAMEGMIEGIPSIAFSLTS----HISRNFQPAAKFATILVEQLAAKPIPDLMLLNVN</Hsp_hseq>
+      <Hsp_midline>M++L++NDDG  A GIR L  AL  A  G++VTVV PDR+RSA  HG+T  +P+  + VE    P I  W+C GTP DCV  AL  + + +PPD+V+SGIN+G NLGT+I++SGTV+AA + ++ GI  IA SL           FQ  A+F    V  LAA    D+ L+N+N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|97190950|sp|Q3MB98.1|SURE_ANAVT</Hit_id>
+  <Hit_def>RecName: Full=5&apos;-nucleotidase SurE; AltName: Full=Nucleoside 5&apos;-monophosphate phosphohydrolase</Hit_def>
+  <Hit_accession>Q3MB98</Hit_accession>
+  <Hit_len>265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>133.65</Hsp_bit-score>
+      <Hsp_score>335</Hsp_score>
+      <Hsp_evalue>1.13878e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>MRILLTNDDGYQAAGIRALHAALKAAPEGYEVTVVAPDRDRSAVSHGITTLEPVTVKEVE----PGI--WSCSGTPVDCVNRALRQVCVGTPPDVVVSGINEGENLGTDIVFSGTVAAARQAVMYGIAGIAASLLPVSDFGTGCRFQALARFVARHVRALAALSSEDV-LVNIN</Hsp_qseq>
+      <Hsp_hseq>MKLLISNDDGISALGIRTLANAL--AEVGHDVTVVCPDRERSATGHGLTLHQPIRAEIVESIFHPAIKAWACDGTPSDCVKLALWAL-LDSPPDLVLSGINQGANLGTEILYSGTVSAAMEGMIEGIPSIAFSLTS----HISRNFQPAAKFATILVEQLAAKPIPDLMLLNVN</Hsp_hseq>
+      <Hsp_midline>M++L++NDDG  A GIR L  AL  A  G++VTVV PDR+RSA  HG+T  +P+  + VE    P I  W+C GTP DCV  AL  + + +PPD+V+SGIN+G NLGT+I++SGTV+AA + ++ GI  IA SL           FQ  A+F    V  LAA    D+ L+N+N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|34222860|sp|Q8DI06.1|SURE_THEEB</Hit_id>
+  <Hit_def>RecName: Full=5&apos;-nucleotidase SurE; AltName: Full=Nucleoside 5&apos;-monophosphate phosphohydrolase</Hit_def>
+  <Hit_accession>Q8DI06</Hit_accession>
+  <Hit_len>265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>133.265</Hsp_bit-score>
+      <Hsp_score>334</Hsp_score>
+      <Hsp_evalue>1.57857e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>MRILLTNDDGYQAAGIRALHAALKAAPEGYEVTVVAPDRDRSAVSHGITTLEPVTVKEV----EPGI--WSCSGTPVDCVNRALRQVCVGTPPDVVVSGINEGENLGTDIVFSGTVAAARQAVMYGIAGIAASLLPVSDFGTGCRFQALARFVARHVRALA-ALSSEDVLVNIN</Hsp_qseq>
+      <Hsp_hseq>MRLLIANDDGVFAPGIRTLADTLAIA--GHEVVVVCPDRERSATGHSLTVFDPIRAEVVSDRFHPRIKAWACSGTPSDCVKLALGAL-LEQPPDFVVSGINQGSNLGTDILYSGTVSAAMEGVIEGIPSIAISL---ASF-TVHDFQPAADFTNRLLKALENAPLPPKVLLNVN</Hsp_hseq>
+      <Hsp_midline>MR+L+ NDDG  A GIR L   L  A  G+EV VV PDR+RSA  H +T  +P+  + V     P I  W+CSGTP DCV  AL  + +  PPD VVSGIN+G NLGTDI++SGTV+AA + V+ GI  IA SL   + F T   FQ  A F  R ++AL  A     VL+N+N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|189030237|sp|B0C6V3.1|SURE_ACAM1</Hit_id>
+  <Hit_def>RecName: Full=5&apos;-nucleotidase SurE; AltName: Full=Nucleoside 5&apos;-monophosphate phosphohydrolase</Hit_def>
+  <Hit_accession>B0C6V3</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.88</Hsp_bit-score>
+      <Hsp_score>333</Hsp_score>
+      <Hsp_evalue>2.23828e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>MRILLTNDDGYQAAGIRALHAALKAAPEGYEVTVVAPDRDRSAVSHGITTLEPVTVKEVEPGI------WSCSGTPVDCVNRALRQVCVGTPPDVVVSGINEGENLGTDIVFSGTVAAARQAVMYGIAGIAASLLPVSDFGTGCRFQALARFVARHVRALAALS-SEDVLVNIN</Hsp_qseq>
+      <Hsp_hseq>MKILVGNDDGIFAPGVRALANTL--APD-HEVTVVCPDRERSATGHGLTIHQPIRAEQVQSMFVDQVTAWACSGTPADCIKLALGAL-LDSPPDFVLSGINQGPNLGTDVLYSGTVSAAMEGVIEGITSIAFS---YSSF-TDQQFQPAANFGQQLLEHLIQHPLSEPMLLNVN</Hsp_hseq>
+      <Hsp_midline>M+IL+ NDDG  A G+RAL   L  AP+ +EVTVV PDR+RSA  HG+T  +P+  ++V+         W+CSGTP DC+  AL  + + +PPD V+SGIN+G NLGTD+++SGTV+AA + V+ GI  IA S    S F T  +FQ  A F  + +  L     SE +L+N+N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|238687560|sp|B0K177.1|SURE_THEPX</Hit_id>
+  <Hit_def>RecName: Full=5&apos;-nucleotidase SurE; AltName: Full=Nucleoside 5&apos;-monophosphate phosphohydrolase &gt;gi|238687657|sp|B0K9J0.1|SURE_THEP3 RecName: Full=5&apos;-nucleotidase SurE; AltName: Full=Nucleoside 5&apos;-monophosphate phosphohydrolase</Hit_def>
+  <Hit_accession>B0K177</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.954</Hsp_bit-score>
+      <Hsp_score>328</Hsp_score>
+      <Hsp_evalue>8.24473e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>164</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>MRILLTNDDGYQAAGIRALHAALKAAPEGYEVTVVAPDRDRSAVSHGITTLEPVTVKEVEP----GIWSCSGTPVDCVNRALRQVCVGTPPDVVVSGINEGENLGTDIVFSGTVAAARQAVMYGIAGIAASLLPVSDFGTGCRFQALARFVARHVRALAALSSEDVLVNIN</Hsp_qseq>
+      <Hsp_hseq>MKILLTNDDGVQGLGMLKLAEYLK---DKYKVTVVAPEKERSAISHAITLHKPLRLKKVKEEDSLKIYAINGTPSDCVKLGI-EVVLREKPDIVISGINEGLNLGTDILYSGTVSAAIEAAIYGIPAIAVSRAETADIEDRRIYKFLENLIE---KVLEKGLPKNTLLNVN</Hsp_hseq>
+      <Hsp_midline>M+ILLTNDDG Q  G+  L   LK   + Y+VTVVAP+++RSA+SH IT  +P+ +K+V+      I++ +GTP DCV   + +V +   PD+V+SGINEG NLGTDI++SGTV+AA +A +YGI  IA S    +D      ++ L   +    + L     ++ L+N+N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|97195817|sp|Q39VS1.1|SURE_GEOMG</Hit_id>
+  <Hit_def>RecName: Full=5&apos;-nucleotidase SurE; AltName: Full=Nucleoside 5&apos;-monophosphate phosphohydrolase</Hit_def>
+  <Hit_accession>Q39VS1</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.954</Hsp_bit-score>
+      <Hsp_score>328</Hsp_score>
+      <Hsp_evalue>1.05071e-35</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>MRILLTNDDGYQAAGIRALHAALKAAPEGYEVTVVAPDRDRSAVSHGITTLEPVTVKEVEPGIWSCSGTPVDCVNRALRQVCVGTPPDVVVSGINEGENLGTDIVFSGTVAAARQAVMYGIAGIAASLLPVSDFGTGCRFQALARFVARHVRALAALS-SEDVLVNIN</Hsp_qseq>
+      <Hsp_hseq>MKILVTNDDGVRAPGIRSLAEALRNIGD---VVVVAPDRERSAVGHALTLHHPLRASEIRPAVFAVDGTPTDCVNLGI-HTLLGSRPDIVVSGVNCGGNMGDDITYSGTVSAAMEATLMGIPALAVSL---ATSGRGDNYAVASAFAARLVRIVSERGLPPDTLLNVN</Hsp_hseq>
+      <Hsp_midline>M+IL+TNDDG +A GIR+L  AL+   +   V VVAPDR+RSAV H +T   P+   E+ P +++  GTP DCVN  +    +G+ PD+VVSG+N G N+G DI +SGTV+AA +A + GI  +A SL   +  G G  +   + F AR VR ++      D L+N+N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|123506989|sp|Q2JVR3.1|SURE_SYNJA</Hit_id>
+  <Hit_def>RecName: Full=5&apos;-nucleotidase SurE; AltName: Full=Nucleoside 5&apos;-monophosphate phosphohydrolase</Hit_def>
+  <Hit_accession>Q2JVR3</Hit_accession>
+  <Hit_len>259</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.954</Hsp_bit-score>
+      <Hsp_score>328</Hsp_score>
+      <Hsp_evalue>1.05735e-35</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>MRILLTNDDGYQAAGIRALHAALKAAPEGYEVTVVAPDRDRSAVSHGITTLEPVTVKEVEPGI------WSCSGTPVDCVNRALRQVCVGTPPDVVVSGINEGENLGTDIVFSGTVAAARQAVMYGIAGIAASLLPVSDFGTGCRFQALARFVARHVRALAALSSED-VLVNIN</Hsp_qseq>
+      <Hsp_hseq>MNILISNDDGIQAAGVRCLAAAL-AQVGGHQITVVCPDRERSATGHALTLHKPLRVDPVREGFPPEVQAWACSGTPSDCVKLGLDGL-LQQPPDWVIAGINQGANLGTDVLYSGTVSAAMEGLLEGIPSLAVSL---ASF-THQDFQPAAQVVLMLLEKLSLKPLEKPMLLNVN</Hsp_hseq>
+      <Hsp_midline>M IL++NDDG QAAG+R L AAL A   G+++TVV PDR+RSA  H +T  +P+ V  V  G       W+CSGTP DCV   L  + +  PPD V++GIN+G NLGTD+++SGTV+AA + ++ GI  +A SL   + F T   FQ  A+ V   +  L+    E  +L+N+N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|238692814|sp|B1XPE2.1|SURE_SYNP2</Hit_id>
+  <Hit_def>RecName: Full=5&apos;-nucleotidase SurE; AltName: Full=Nucleoside 5&apos;-monophosphate phosphohydrolase</Hit_def>
+  <Hit_accession>B1XPE2</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.798</Hsp_bit-score>
+      <Hsp_score>325</Hsp_score>
+      <Hsp_evalue>4.27644e-35</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>180</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>MRILLTNDDGYQAAGIRALHAALKAAPEGYEVTVVAPDRDRSAVSHGITTLEPVTVKEVEPGI-------WSCSGTPVDCVNRALRQVCVGTPPDVVVSGINEGENLGTDIVFSGTVAAARQAVMYGIAGIAASLLPVSDFGTGCRFQALARFVARHV------RALAALSSED--VLVNIN</Hsp_qseq>
+      <Hsp_hseq>LNLLISNDDGISALGIRTLANTLAEA--GHQVTVVCPDRERSATGHGLTLHRPIRTEIVE-GIFDPRVTAWSCSGTPSDCVKFALSAV-LKERPDFVLSGINHGSNLGTDVLYSGTVSAAMEGLLEGIHSIALSL---ADY-TSHNFQPAADFAVKLLCQLMEKRPHWAIANQDAPVLLNIN</Hsp_hseq>
+      <Hsp_midline>+ +L++NDDG  A GIR L   L  A  G++VTVV PDR+RSA  HG+T   P+  + VE GI       WSCSGTP DCV  AL  V +   PD V+SGIN G NLGTD+++SGTV+AA + ++ GI  IA SL   +D+ T   FQ  A F  + +      R   A++++D  VL+NIN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|166200098|sp|A1ASL7.1|SURE_PELPD</Hit_id>
+  <Hit_def>RecName: Full=5&apos;-nucleotidase SurE; AltName: Full=Nucleoside 5&apos;-monophosphate phosphohydrolase</Hit_def>
+  <Hit_accession>A1ASL7</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.028</Hsp_bit-score>
+      <Hsp_score>323</Hsp_score>
+      <Hsp_evalue>4.47441e-35</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>MRILLTNDDGYQAAGIRALHAALKAAPEGYEVTVVAPDRDRSAVSHGITTLEPVTVKEVEPGIWSCSGTPVDCVNRALRQVCVGTPPDVVVSGINEGENLGTDIVFSGTVAAARQAVMYGIAGIAASLLPVSDFGTGCRFQALARFVARHVRALAALSSEDVLVNIN</Hsp_qseq>
+      <Hsp_hseq>MHIMVTNDDGIQAPGIQALASALRVLGE---VTVVAPDRERSAVGHALTLNSPLRVFELRDGFYAVDGTPTDCVNMGIHSL-LPFRPDLIVSGINHGANLGDDVTYSGTVAAAIEATLMGIPAIAVSLATQERSGHFPEAAQIAVRVARQV--LSNGLPEDTFLNVN</Hsp_hseq>
+      <Hsp_midline>M I++TNDDG QA GI+AL +AL+   E   VTVVAPDR+RSAV H +T   P+ V E+  G ++  GTP DCVN  +  + +   PD++VSGIN G NLG D+ +SGTVAAA +A + GI  IA SL      G       +A  VAR V  L+    ED  +N+N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|254765150|sp|B8HSQ9.1|SURE_CYAP4</Hit_id>
+  <Hit_def>RecName: Full=5&apos;-nucleotidase SurE; AltName: Full=Nucleoside 5&apos;-monophosphate phosphohydrolase</Hit_def>
+  <Hit_accession>B8HSQ9</Hit_accession>
+  <Hit_len>270</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.642</Hsp_bit-score>
+      <Hsp_score>322</Hsp_score>
+      <Hsp_evalue>1.1497e-34</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>MRILLTNDDGYQAAGIRALHAALKAAPEGYEVTVVAPDRDRSAVSHGITTLEPVTVKEV----EPGI--WSCSGTPVDCVNRALRQVCVGTPPDVVVSGINEGENLGTDIVFSGTVAAARQAVMYGIAGIAASLLPVSDFGTGCRFQALARFVARHVRALAALSS----EDVLVNIN</Hsp_qseq>
+      <Hsp_hseq>MKLLLSNDDGIFSPGIRTLADTLAAA--GHEVMVVCPDRERSATGHGLTLFDPIRAEAVASLFHPSVKAWACSGTPSDCIKLALGAL-LDSLPDFVLSGINQGSNLGTDILYSGTVSAAMEGVIEGIPSMALSL---TSF-TVREFQPAANF-ARDL--LAKLDHTPLPEAMLLNIN</Hsp_hseq>
+      <Hsp_midline>M++LL+NDDG  + GIR L   L AA  G+EV VV PDR+RSA  HG+T  +P+  + V     P +  W+CSGTP DC+  AL  + + + PD V+SGIN+G NLGTDI++SGTV+AA + V+ GI  +A SL   + F T   FQ  A F AR +  LA L      E +L+NIN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|189082019|sp|A5G4S8.1|SURE_GEOUR</Hit_id>
+  <Hit_def>RecName: Full=5&apos;-nucleotidase SurE; AltName: Full=Nucleoside 5&apos;-monophosphate phosphohydrolase</Hit_def>
+  <Hit_accession>A5G4S8</Hit_accession>
+  <Hit_len>248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.102</Hsp_bit-score>
+      <Hsp_score>318</Hsp_score>
+      <Hsp_evalue>2.36426e-34</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>172</Hsp_align-len>
+      <Hsp_qseq>MRILLTNDDGYQAAGIRALHAALKAAPEGYEVTVVAPDRDRSAVSHGITTLEPVTVKEVEPGIWSCSGTPVDCVNRALRQVCVGTPPDVVVSGINEGENLGTDIVFSGTVAAARQAVMYGIAGIAASLLPVSDFGTGCRFQALARFVARHVRALAALSS-----EDVLVNIN</Hsp_qseq>
+      <Hsp_hseq>MKILLTNDDGVRAPGLAALAEAMGAIGEVY---VVAPDREQSAVGHALTLHHPLRATRIENNIFAVDGTPTDCVNLGIHSL-LSFKPDIVVSGINRGGNLGDDITYSGTVSAAMEATLMGIPAIAVSLVTQND---GGNYSAAAAFVVK----LAGIVSREGLPDDTFLNVN</Hsp_hseq>
+      <Hsp_midline>M+ILLTNDDG +A G+ AL  A+ A  E Y   VVAPDR++SAV H +T   P+    +E  I++  GTP DCVN  +  + +   PD+VVSGIN G NLG DI +SGTV+AA +A + GI  IA SL+  +D   G  + A A FV +    LA + S     +D  +N+N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|81561574|sp|Q5N0F0.1|SURE_SYNP6</Hit_id>
+  <Hit_def>RecName: Full=5&apos;-nucleotidase SurE; AltName: Full=Nucleoside 5&apos;-monophosphate phosphohydrolase &gt;gi|97196281|sp|Q31LH6.1|SURE_SYNE7 RecName: Full=5&apos;-nucleotidase SurE; AltName: Full=Nucleoside 5&apos;-monophosphate phosphohydrolase</Hit_def>
+  <Hit_accession>Q5N0F0</Hit_accession>
+  <Hit_len>258</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.102</Hsp_bit-score>
+      <Hsp_score>318</Hsp_score>
+      <Hsp_evalue>3.61482e-34</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>MRILLTNDDGYQAAGIRALHAALKAAPEGYEVTVVAPDRDRSAVSHGITTLEPVTVKEVE----PGI--WSCSGTPVDCVNRALRQVCVGTPPDVVVSGINEGENLGTDIVFSGTVAAARQAVMYGIAGIAASLLPVSDFGTGCRFQALARFVARHVRALAALSSEDVLVNIN</Hsp_qseq>
+      <Hsp_hseq>MRLLISNDDGVFALGIQTLANRLVQA--GHEVTVVCPDRERSATGHGLTLHKPIRAERIEGLFDPAVQVWACSGTPSDCVKLALGTLLPELP-DFVLSGINHGPNLGTDVLYSGTVSAAMEGVIEGIPSIALSL---ASF-TARDFEPAAEIAVELLERLPHPSSPKVLLSVN</Hsp_hseq>
+      <Hsp_midline>MR+L++NDDG  A GI+ L   L  A  G+EVTVV PDR+RSA  HG+T  +P+  + +E    P +  W+CSGTP DCV  AL  +    P D V+SGIN G NLGTD+++SGTV+AA + V+ GI  IA SL   + F T   F+  A      +  L   SS  VL+++N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|226735031|sp|B7KB74.1|SURE_CYAP7</Hit_id>
+  <Hit_def>RecName: Full=5&apos;-nucleotidase SurE; AltName: Full=Nucleoside 5&apos;-monophosphate phosphohydrolase</Hit_def>
+  <Hit_accession>B7KB74</Hit_accession>
+  <Hit_len>271</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.102</Hsp_bit-score>
+      <Hsp_score>318</Hsp_score>
+      <Hsp_evalue>4.62701e-34</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>MRILLTNDDGYQAAGIRALHAALKAAPEGYEVTVVAPDRDRSAVSHGITTLEPVTVKEVEPGI-------WSCSGTPVDCVNRALRQVCVGTPPDVVVSGINEGENLGTDIVFSGTVAAARQAVMYGIAGIAASLLPVSDFGTGCRFQALARFVARHVRALAALS-SEDVLVNIN</Hsp_qseq>
+      <Hsp_hseq>LNLLISNDDGIFALGVRTLANTLAKA--GHQVTVVCPDRERSATGHGLTLHQPIRAQIVE-GIFDPQVTAWSCSGTPSDCIKFALSAVLF-TRPDFVLSGINHGSNLGTDILYSGTVSAAMEGLIDGITSIALSLTSFS----SQDFQPAANFAVDLIAKLARHPLPQPTLLNVN</Hsp_hseq>
+      <Hsp_midline>+ +L++NDDG  A G+R L   L  A  G++VTVV PDR+RSA  HG+T  +P+  + VE GI       WSCSGTP DC+  AL  V   T PD V+SGIN G NLGTDI++SGTV+AA + ++ GI  IA SL   S       FQ  A F    +  LA     +  L+N+N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|226709097|sp|B1WXT3.1|SURE_CYAA5</Hit_id>
+  <Hit_def>RecName: Full=5&apos;-nucleotidase SurE; AltName: Full=Nucleoside 5&apos;-monophosphate phosphohydrolase</Hit_def>
+  <Hit_accession>B1WXT3</Hit_accession>
+  <Hit_len>276</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.716</Hsp_bit-score>
+      <Hsp_score>317</Hsp_score>
+      <Hsp_evalue>5.85625e-34</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>MRILLTNDDGYQAAGIRALHAALKAAPEGYEVTVVAPDRDRSAVSHGITTLEPVTVKEVE----PGI--WSCSGTPVDCVNRALRQVCVGTPPDVVVSGINEGENLGTDIVFSGTVAAARQAVMYGIAGIAASLLPVSDFGTGCRFQALARFVARHVRALAALSSED-VLVNIN</Hsp_qseq>
+      <Hsp_hseq>INILISNDDGIFALGVRTLANTLAQA--GYQVTVVCPDRERSATGHGLTLHRPIRADIVEDFFDPKITAWSCSGTPSDCVKLALSSL-IENRPDFIVSGINHGSNLGTDVLYSGTVSAAMEGIIEGIPSIAMSLASFS----SRQFQPGADFACGLIQQLYDHPLPDSTLLNVN</Hsp_hseq>
+      <Hsp_midline>+ IL++NDDG  A G+R L   L  A  GY+VTVV PDR+RSA  HG+T   P+    VE    P I  WSCSGTP DCV  AL  + +   PD +VSGIN G NLGTD+++SGTV+AA + ++ GI  IA SL   S      +FQ  A F    ++ L      D  L+N+N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|166223257|sp|A7H8F6.1|SURE_ANADF</Hit_id>
+  <Hit_def>RecName: Full=5&apos;-nucleotidase SurE; AltName: Full=Nucleoside 5&apos;-monophosphate phosphohydrolase</Hit_def>
+  <Hit_accession>A7H8F6</Hit_accession>
+  <Hit_len>254</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.331</Hsp_bit-score>
+      <Hsp_score>316</Hsp_score>
+      <Hsp_evalue>6.50374e-34</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>MRILLTNDDGYQAAGIRALHAALKAAPEGYEVTVVAPDRDRSAVSHGITTLEPVTVKEVEPGIWSCSGTPVDCVNRALRQVCVGTPPDVVVSGINEGENLGTDIVFSGTVAAARQAVMYGIAGIAASLL--PVSDFGTGCRFQ-ALARFVARHVRALAALSSEDVLVNIN</Hsp_qseq>
+      <Hsp_hseq>MRVLLSNDDGVHAPGLKALADAF----EGDEVWVVAPDREQSASSHAISLHRPLRLFEMAPRWYAVDGTPTDAVYMGLNHVLRGARPDVVVSGINHGPNLGNDVLYSGTVAAAMEGALLGVHALAVSLACSPPHVFDEAARFAVALAR------RVVATQPPAPLLLNVN</Hsp_hseq>
+      <Hsp_midline>MR+LL+NDDG  A G++AL  A     EG EV VVAPDR++SA SH I+   P+ + E+ P  ++  GTP D V   L  V  G  PDVVVSGIN G NLG D+++SGTVAAA +  + G+  +A SL   P   F    RF  ALAR      R +A      +L+N+N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|29611850|sp|Q8DC57.1|SURE_VIBVU</Hit_id>
+  <Hit_def>RecName: Full=5&apos;-nucleotidase SurE; AltName: Full=Nucleoside 5&apos;-monophosphate phosphohydrolase</Hit_def>
+  <Hit_accession>Q8DC57</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.79</Hsp_bit-score>
+      <Hsp_score>312</Hsp_score>
+      <Hsp_evalue>2.26677e-33</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>MRILLTNDDGYQAAGIRALHAALKAAPEGYEVTVVAPDRDRSAVSHGITTLEPVTVKEVEPGIWSCSGTPVDCVNRALRQVCVGTPPDVVVSGINEGENLGTDIVFSGTVAAARQAVMYGIAGIAASLLPVSDFGTGCRFQALARFVARHVRALAALSSEDVLVNIN</Hsp_qseq>
+      <Hsp_hseq>LRILLSNDDGVFAEGIRTLASELRTLAE---VIIVAPDRNRSGASNSLTLEQPLRVTCVEENVYSVQGTPTDCVHFALNELLKNDLPDLVLSGINHGANLGDDVLYSGTVAAAMEGHFLGVQSIAFSLVGKTHFKTAATIA--KRIVEQH---LAKPIPTNRLLNIN</Hsp_hseq>
+      <Hsp_midline>+RILL+NDDG  A GIR L + L+   E   V +VAPDR+RS  S+ +T  +P+ V  VE  ++S  GTP DCV+ AL ++     PD+V+SGIN G NLG D+++SGTVAAA +    G+  IA SL+  + F T        R V +H   LA     + L+NIN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|39932255|sp|Q7MHQ7.1|SURE_VIBVY</Hit_id>
+  <Hit_def>RecName: Full=5&apos;-nucleotidase SurE; AltName: Full=Nucleoside 5&apos;-monophosphate phosphohydrolase</Hit_def>
+  <Hit_accession>Q7MHQ7</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.79</Hsp_bit-score>
+      <Hsp_score>312</Hsp_score>
+      <Hsp_evalue>2.3392e-33</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>MRILLTNDDGYQAAGIRALHAALKAAPEGYEVTVVAPDRDRSAVSHGITTLEPVTVKEVEPGIWSCSGTPVDCVNRALRQVCVGTPPDVVVSGINEGENLGTDIVFSGTVAAARQAVMYGIAGIAASLLPVSDFGTGCRFQALARFVARHVRALAALSSEDVLVNIN</Hsp_qseq>
+      <Hsp_hseq>LRILLSNDDGVFAEGIRTLASELRTLAE---VIIVAPDRNRSGASNSLTLEQPLRVTCVEENVYSVQGTPTDCVHFALNELLKNDLPDLVLSGINHGANLGDDVLYSGTVAAAMEGHFLGVQSIAFSLVGKTHFKTAATIA--KRIVEQH---LAKPIPTNRLLNIN</Hsp_hseq>
+      <Hsp_midline>+RILL+NDDG  A GIR L + L+   E   V +VAPDR+RS  S+ +T  +P+ V  VE  ++S  GTP DCV+ AL ++     PD+V+SGIN G NLG D+++SGTVAAA +    G+  IA SL+  + F T        R V +H   LA     + L+NIN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|39932284|sp|Q7U5U4.1|SURE_SYNPX</Hit_id>
+  <Hit_def>RecName: Full=5&apos;-nucleotidase SurE; AltName: Full=Nucleoside 5&apos;-monophosphate phosphohydrolase</Hit_def>
+  <Hit_accession>Q7U5U4</Hit_accession>
+  <Hit_len>266</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.79</Hsp_bit-score>
+      <Hsp_score>312</Hsp_score>
+      <Hsp_evalue>2.40113e-33</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>178</Hsp_align-len>
+      <Hsp_qseq>MRILLTNDDGYQAAGIRALHAALKAAPEGYEVTVVAPDRDRSAVSHGITTLEPVTVKEVE----PGI--WSCSGTPVDCVNRALRQVCVGTPPDVVVSGINEGENLGTDIVFSGTVAAARQAVMYGIAGIAASLLPVSDFGTGC----RFQALARF-VARHVRALAALSSEDVLVNIN</Hsp_qseq>
+      <Hsp_hseq>MRVLISNDDGVFAEGIRTLAAA--AVARGHDVTVVCPDQERSATGHGLTLQTPIRAERADELFVPGVTAWACSGTPADCMKLALFEL-VKDKPDLVLSGINHGPNLGTDVFCSGTVAAAMEGTLEGIPSMAIS--------SACFQWRQFQAGAELAVEVAEQALADQWPENLLLNLN</Hsp_hseq>
+      <Hsp_midline>MR+L++NDDG  A GIR L AA  A   G++VTVV PD++RSA  HG+T   P+  +  +    PG+  W+CSGTP DC+  AL ++ V   PD+V+SGIN G NLGTD+  SGTVAAA +  + GI  +A S        + C    +FQA A   V    +ALA    E++L+N+N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|166200124|sp|A7MTT7.1|SURE_VIBCB</Hit_id>
+  <Hit_def>RecName: Full=5&apos;-nucleotidase SurE; AltName: Full=Nucleoside 5&apos;-monophosphate phosphohydrolase</Hit_def>
+  <Hit_accession>A7MTT7</Hit_accession>
+  <Hit_len>258</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.79</Hsp_bit-score>
+      <Hsp_score>312</Hsp_score>
+      <Hsp_evalue>2.48933e-33</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MRILLTNDDGYQAAGIRALHAALKAAPEGYEVTVVAPDRDRSAVSHGITTLEPVTVKEVEPGIWSCSGTPVDCVNRALRQVCVGTPPDVVVSGINEGENLGTDIVFSGTVAAARQAVMYGIAGIAASLLPVSDFGTGCR</Hsp_qseq>
+      <Hsp_hseq>LRILLSNDDGVHAQGIHALADELRSI---AEVTIVAPDRNRSGASNSLTLEQPLRVTEIAPKTFSVQGTPTDCVHFALNELMKDDLPDLVLSGINHGANLGDDVLYSGTVAAAMEGHFLGVQAIAFSLVGKQHFESAAK</Hsp_hseq>
+      <Hsp_midline>+RILL+NDDG  A GI AL   L++     EVT+VAPDR+RS  S+ +T  +P+ V E+ P  +S  GTP DCV+ AL ++     PD+V+SGIN G NLG D+++SGTVAAA +    G+  IA SL+    F +  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>462628</Statistics_db-num>
+      <Statistics_db-len>173435234</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

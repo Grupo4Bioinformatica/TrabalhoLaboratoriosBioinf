@@ -1,0 +1,602 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>Query_188457</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>273</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_188457</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>273</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|81344796|sp|O83446.1|COAX_TREPA</Hit_id>
+  <Hit_def>RecName: Full=Type III pantothenate kinase; AltName: Full=PanK-III; AltName: Full=Pantothenic acid kinase</Hit_def>
+  <Hit_accession>O83446</Hit_accession>
+  <Hit_len>273</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>544.273</Hsp_bit-score>
+      <Hsp_score>1401</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>273</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>273</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>273</Hsp_align-len>
+      <Hsp_qseq>MLLIDVGNSHVVFGIQGENGGRVCVRELFRLAPDARKTQDEYSLLIHALCERAGVGRASLRDAFISSVVPVLTKTIADAVAQISGVQPVVFGPWAYEHLPVRIPEPVRAEIGTDLVANAVAAYVHFRSACVVVDCGTALTFTAVDGTGLIQGVAIAPGLRTAVQSLHTGTAQLPLVPLALPDSVLGKDTTHAVQAGVVRGTLFVIRAMIAQCQKELGCRCAAVITGGLSRLFSSEVDFPPIDAQLTLSGLAHIARLVPTSLLPPATVSGSSGN</Hsp_qseq>
+      <Hsp_hseq>MLLIDVGNSHVVFGIQGENGGRVCVRELFRLAPDARKTQDEYSLLIHALCERAGVGRASLRDAFISSVVPVLTKTIADAVAQISGVQPVVFGPWAYEHLPVRIPEPVRAEIGTDLVANAVAAYVHFRSACVVVDCGTALTFTAVDGTGLIQGVAIAPGLRTAVQSLHTGTAQLPLVPLALPDSVLGKDTTHAVQAGVVRGTLFVIRAMIAQCQKELGCRCAAVITGGLSRLFSSEVDFPPIDAQLTLSGLAHIARLVPTSLLPPATVSGSSGN</Hsp_hseq>
+      <Hsp_midline>MLLIDVGNSHVVFGIQGENGGRVCVRELFRLAPDARKTQDEYSLLIHALCERAGVGRASLRDAFISSVVPVLTKTIADAVAQISGVQPVVFGPWAYEHLPVRIPEPVRAEIGTDLVANAVAAYVHFRSACVVVDCGTALTFTAVDGTGLIQGVAIAPGLRTAVQSLHTGTAQLPLVPLALPDSVLGKDTTHAVQAGVVRGTLFVIRAMIAQCQKELGCRCAAVITGGLSRLFSSEVDFPPIDAQLTLSGLAHIARLVPTSLLPPATVSGSSGN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|226709472|sp|B2S328.1|COAX_TREPS</Hit_id>
+  <Hit_def>RecName: Full=Type III pantothenate kinase; AltName: Full=PanK-III; AltName: Full=Pantothenic acid kinase</Hit_def>
+  <Hit_accession>B2S328</Hit_accession>
+  <Hit_len>273</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>543.888</Hsp_bit-score>
+      <Hsp_score>1400</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>273</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>272</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>273</Hsp_align-len>
+      <Hsp_qseq>MLLIDVGNSHVVFGIQGENGGRVCVRELFRLAPDARKTQDEYSLLIHALCERAGVGRASLRDAFISSVVPVLTKTIADAVAQISGVQPVVFGPWAYEHLPVRIPEPVRAEIGTDLVANAVAAYVHFRSACVVVDCGTALTFTAVDGTGLIQGVAIAPGLRTAVQSLHTGTAQLPLVPLALPDSVLGKDTTHAVQAGVVRGTLFVIRAMIAQCQKELGCRCAAVITGGLSRLFSSEVDFPPIDAQLTLSGLAHIARLVPTSLLPPATVSGSSGN</Hsp_qseq>
+      <Hsp_hseq>MLLIDVGNSHVVFGIQGENGGRVCVRELFRLAPDARKTQDEYSLLIHALCERAGVGRASLRDAFISSVVPVLTKTVADAVAQISGVQPVVFGPWAYEHLPVRIPEPVRAEIGTDLVANAVAAYVHFRSACVVVDCGTALTFTAVDGTGLIQGVAIAPGLRTAVQSLHTGTAQLPLVPLALPDSVLGKDTTHAVQAGVVRGTLFVIRAMIAQCQKELGCRCAAVITGGLSRLFSSEVDFPPIDAQLTLSGLAHIARLVPTSLLPPATVSGSSGN</Hsp_hseq>
+      <Hsp_midline>MLLIDVGNSHVVFGIQGENGGRVCVRELFRLAPDARKTQDEYSLLIHALCERAGVGRASLRDAFISSVVPVLTKT+ADAVAQISGVQPVVFGPWAYEHLPVRIPEPVRAEIGTDLVANAVAAYVHFRSACVVVDCGTALTFTAVDGTGLIQGVAIAPGLRTAVQSLHTGTAQLPLVPLALPDSVLGKDTTHAVQAGVVRGTLFVIRAMIAQCQKELGCRCAAVITGGLSRLFSSEVDFPPIDAQLTLSGLAHIARLVPTSLLPPATVSGSSGN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|189082606|sp|A5G5C1.1|COAX_GEOUR</Hit_id>
+  <Hit_def>RecName: Full=Type III pantothenate kinase; AltName: Full=PanK-III; AltName: Full=Pantothenic acid kinase</Hit_def>
+  <Hit_accession>A5G5C1</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.606</Hsp_bit-score>
+      <Hsp_score>392</Hsp_score>
+      <Hsp_evalue>5.86724e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>251</Hsp_align-len>
+      <Hsp_qseq>MLLIDVGNSHVVFGIQGENGGRVCVRELFRLAPDARKTQDEYSLLIHALCERAGVGRASLRDAFISSVVPVLTKTIADAVAQISGVQPVVFGPWAYEHLPVRIPEPVRAEIGTDLVANAVAAYVHFRSACVVVDCGTALTFTAVDGTGLIQGVAIAPGLRTAVQSLHTGTAQLPLVPLALPDSVLGKDTTHAVQAGVVRGTLFVIRAMIAQCQKELGCRCAAVITGGLSRLFSSE-VDFPPIDAQLTLSGL</Hsp_qseq>
+      <Hsp_hseq>LLVIDVGNSNIVLGIYDN---ERLVRD-WRVSTDKSKTPDEYGILVHDLFRLAGIGFSDIKDIIISSVVPTLTGALEKLSRQYFGFKPYVVGPGIKTGMPIQYDNP--KEVGADRIVNAVAGFEKHHCALIIVDFGTATTFDYVNKRGEYCGGAIAPGLMISMEALFQKASKLPRVEIAKPPAIIAKNTVNSMQAGIYYGYVGLVDGIVTRMKGEGKDNPRVIATGGLAGLIAPESATIEEVDEYLTLEGL</Hsp_hseq>
+      <Hsp_midline>+L+IDVGNS++V GI         VR+ +R++ D  KT DEY +L+H L   AG+G + ++D  ISSVVP LT  +     Q  G +P V GP     +P++   P   E+G D + NAVA +     A ++VD GTA TF  V+  G   G AIAPGL  ++++L    ++LP V +A P +++ K+T +++QAG+  G + ++  ++ + + E       + TGGL+ L + E      +D  LTL GL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|226707032|sp|B5EF22.1|COAX_GEOBB</Hit_id>
+  <Hit_def>RecName: Full=Type III pantothenate kinase; AltName: Full=PanK-III; AltName: Full=Pantothenic acid kinase</Hit_def>
+  <Hit_accession>B5EF22</Hit_accession>
+  <Hit_len>254</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.066</Hsp_bit-score>
+      <Hsp_score>388</Hsp_score>
+      <Hsp_evalue>1.90003e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>251</Hsp_align-len>
+      <Hsp_qseq>MLLIDVGNSHVVFGIQGENGGRVCVRELFRLAPDARKTQDEYSLLIHALCERAGVGRASLRDAFISSVVPVLTKTIADAVAQISGVQPVVFGPWAYEHLPVRIPEPVRAEIGTDLVANAVAAYVHFRSACVVVDCGTALTFTAVDGTGLIQGVAIAPGLRTAVQSLHTGTAQLPLVPLALPDSVLGKDTTHAVQAGVVRGTLFVIRAMIAQCQKELGCRCAAVITGGLSRLFSSE-VDFPPIDAQLTLSGL</Hsp_qseq>
+      <Hsp_hseq>LLVIDVGNSNIVLGIYDEER---LVRD-WRVSTDKSKTIDEYGILFHDLFRLADIVFTDVKDIIISSVVPTLTGVLEKLSRQYFKISPYVVGPGIKTGMPIHYDNP--KEVGADRIVNAIAGFEKYRTALIIVDFGTATTFDYVNKKGEYCGGAIAPGLAISMEALFMKASKLPRVDIARPPSIIAKNTVNSMQAGIFFGYVGLVDGIVQRMKGEGKENPKVIATGGLASLIAPESVTIEEVDEFLTLEGL</Hsp_hseq>
+      <Hsp_midline>+L+IDVGNS++V GI  E      VR+ +R++ D  KT DEY +L H L   A +    ++D  ISSVVP LT  +     Q   + P V GP     +P+    P   E+G D + NA+A +  +R+A ++VD GTA TF  V+  G   G AIAPGL  ++++L    ++LP V +A P S++ K+T +++QAG+  G + ++  ++ + + E       + TGGL+ L + E V    +D  LTL GL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|259491335|sp|C6E791.1|COAX_GEOSM</Hit_id>
+  <Hit_def>RecName: Full=Type III pantothenate kinase; AltName: Full=PanK-III; AltName: Full=Pantothenic acid kinase</Hit_def>
+  <Hit_accession>C6E791</Hit_accession>
+  <Hit_len>254</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.066</Hsp_bit-score>
+      <Hsp_score>388</Hsp_score>
+      <Hsp_evalue>1.94059e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>251</Hsp_align-len>
+      <Hsp_qseq>MLLIDVGNSHVVFGIQGENGGRVCVRELFRLAPDARKTQDEYSLLIHALCERAGVGRASLRDAFISSVVPVLTKTIADAVAQISGVQPVVFGPWAYEHLPVRIPEPVRAEIGTDLVANAVAAYVHFRSACVVVDCGTALTFTAVDGTGLIQGVAIAPGLRTAVQSLHTGTAQLPLVPLALPDSVLGKDTTHAVQAGVVRGTLFVIRAMIAQCQKELGCRCAAVITGGLSRLFSSE-VDFPPIDAQLTLSGL</Hsp_qseq>
+      <Hsp_hseq>LLVIDVGNSNIVLGIYDEER---LVRD-WRVSTDKSKTIDEYGILFHDLFRLADIVFTDVKDIIISSVVPTLTGVLEKLSRQYFKISPYVVGPGIKTGMPIHYDNP--KEVGADRIVNAIAGFEKYRTALIIVDFGTATTFDYVNKKGEYCGGAIAPGLAISMEALFMKASKLPRVDIARPPSIIAKNTVNSMQAGIFFGYVGLVDGIVQRMKGEGKENPKVIATGGLASLIAPESVTIEEVDEFLTLEGL</Hsp_hseq>
+      <Hsp_midline>+L+IDVGNS++V GI  E      VR+ +R++ D  KT DEY +L H L   A +    ++D  ISSVVP LT  +     Q   + P V GP     +P+    P   E+G D + NA+A +  +R+A ++VD GTA TF  V+  G   G AIAPGL  ++++L    ++LP V +A P S++ K+T +++QAG+  G + ++  ++ + + E       + TGGL+ L + E V    +D  LTL GL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|167009050|sp|A6TWN2.1|COAX_ALKMQ</Hit_id>
+  <Hit_def>RecName: Full=Type III pantothenate kinase; AltName: Full=PanK-III; AltName: Full=Pantothenic acid kinase</Hit_def>
+  <Hit_accession>A6TWN2</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.451</Hsp_bit-score>
+      <Hsp_score>389</Hsp_score>
+      <Hsp_evalue>2.27489e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>253</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>256</Hsp_align-len>
+      <Hsp_qseq>MLLIDVGNSHVVFGIQGENGGRVCVRELFRLAPDARKTQDEYSLLIHALCERAGVGRASLRDAFISSVVPVLTKTIADAVAQISGVQPVVFGPWAYEHLPVRIPEPVRAEIGTDLVANAVAAYVHFRSACVVVDCGTALTFTAVDGTGLIQGVAIAPGLRTAVQSLHTGTAQLPLVPLALPDSVLGKDTTHAVQAGVVRGTLFVIRAMIAQCQKELGCRC--AAVITGGLSRLFSSEVD-FPPIDAQLTLSGLAHI</Hsp_qseq>
+      <Hsp_hseq>ILVVDVGNTNIVLGLYEKQE----LVDFWRISTDEDKSSDEYSVLINQLFQYSGLNIKTVEDVIISSVVPNIMYSLEHAIRKLCNVEPLVVGPGVKTGINIKYDNP--KQVGADRIVNAVAAFEKYGGPLIVVDFGTATTFCAISGHGEYLGGTISPGIKIASDALFQRAAKLPRVELVKPGKVICKSTVSSMQAGIVYGYVGLVEYIVNKMKKEFNVRSKIKVVATGGLSTLIDSETQCIDVVDKFLTLEGLSLI</Hsp_hseq>
+      <Hsp_midline>+L++DVGN+++V G+  +      + + +R++ D  K+ DEYS+LI+ L + +G+   ++ D  ISSVVP +  ++  A+ ++  V+P+V GP     + ++   P   ++G D + NAVAA+  +    +VVD GTA TF A+ G G   G  I+PG++ A  +L    A+LP V L  P  V+ K T  ++QAG+V G + ++  ++ + +KE   R     V TGGLS L  SE      +D  LTL GL+ I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|119368609|sp|Q2RM55.1|COAX_MOOTA</Hit_id>
+  <Hit_def>RecName: Full=Type III pantothenate kinase; AltName: Full=PanK-III; AltName: Full=Pantothenic acid kinase</Hit_def>
+  <Hit_accession>Q2RM55</Hit_accession>
+  <Hit_len>254</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.91</Hsp_bit-score>
+      <Hsp_score>385</Hsp_score>
+      <Hsp_evalue>5.57877e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>254</Hsp_align-len>
+      <Hsp_qseq>MLLIDVGNSHVVFGIQGENGGRVCVREL---FRLAPDARKTQDEYSLLIHALCERAGVGRASLRDAFISSVVPVLTKTIADAVAQISGVQPVVFGPWAYEHLPVRIPEPVRAEIGTDLVANAVAAYVHFRSACVVVDCGTALTFTAVDGTGLIQGVAIAPGLRTAVQSLHTGTAQLPLVPLALPDSVLGKDTTHAVQAGVVRGTLFVIRAMIAQCQKELGCRCAAVITGGLSRLFSSEVD-FPPIDAQLTLSGL</Hsp_qseq>
+      <Hsp_hseq>LLAIDVGNTNIVLGI-------FAGHELKCHWRVASDRQKTADEYGLILRQLAHYQGLDLKEIQGVVLASVVPTLTQVLTEMITKQLGHQPLVIGPGVKTGMPIRFENP--REVGADRIVNGVAVYELYGGPAIVVDFGTATTFDAISEKGEYLGGAIAPGIGIATDALFARAAKLPRVELVRPPRLIGKNTVACMQAGIMYGFIGQVEGIITRMQAEMGGKAIVVATGGLAGLIGPEVNCIDRVDPMLTLEGL</Hsp_hseq>
+      <Hsp_midline>+L IDVGN+++V GI           EL   +R+A D +KT DEY L++  L    G+    ++   ++SVVP LT+ + + + +  G QP+V GP     +P+R   P   E+G D + N VA Y  +    +VVD GTA TF A+   G   G AIAPG+  A  +L    A+LP V L  P  ++GK+T   +QAG++ G +  +  +I + Q E+G +   V TGGL+ L   EV+    +D  LTL GL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|254764203|sp|C0ZHH0.1|COAX_BREBN</Hit_id>
+  <Hit_def>RecName: Full=Type III pantothenate kinase; AltName: Full=PanK-III; AltName: Full=Pantothenic acid kinase</Hit_def>
+  <Hit_accession>C0ZHH0</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.599</Hsp_bit-score>
+      <Hsp_score>379</Hsp_score>
+      <Hsp_evalue>4.15591e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>252</Hsp_align-len>
+      <Hsp_qseq>MLLIDVGNSHVVFGI-QGENGGRVCVRELFRLAPDARKTQDEYSLLIHALCERAGVGRASLRDAFISSVVPVLTKTIADAVAQISGVQPVVFGPWAYEHLPVRIPEPVRAEIGTDLVANAVAAYVHFRSACVVVDCGTALTFTAVDGTGLIQGVAIAPGLRTAVQSLHTGTAQLPLVPLALPDSVLGKDTTHAVQAGVVRGTLFVIRAMIAQCQKELGCRCAAVITGGLSRLFSSEVD-FPPIDAQLTLSGL</Hsp_qseq>
+      <Hsp_hseq>LLVIDIGNSNIVLGLYEGDE-----LQHHWRVSTDRNKTEDEYGMLVKSLFGSVGLGFEQVRGVIISSVVPPLNLTIERMCGKYMQQKALIIGPGIKTGLNIKYEYP--REVGSDRIVNAVAAIHHYGAPLIVVDFGTATTFCYVDERAQYWGGAIAPGIGISTEALFTRAAKLPRIEITKPASVVGRNTIAAMQAGIFYGFVGQVEGIVRRIMDEYGTQPTVVATGGLASLFANETSCIHVVDQNLTLKGL</Hsp_hseq>
+      <Hsp_midline>+L+ID+GNS++V G+ +G+      ++  +R++ D  KT+DEY +L+ +L    G+G   +R   ISSVVP L  TI     +    + ++ GP     L ++   P   E+G+D + NAVAA  H+ +  +VVD GTA TF  VD      G AIAPG+  + ++L T  A+LP + +  P SV+G++T  A+QAG+  G +  +  ++ +   E G +   V TGGL+ LF++E      +D  LTL GL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|254763951|sp|B9LZI6.1|COAX_GEODF</Hit_id>
+  <Hit_def>RecName: Full=Type III pantothenate kinase; AltName: Full=PanK-III; AltName: Full=Pantothenic acid kinase</Hit_def>
+  <Hit_accession>B9LZI6</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.058</Hsp_bit-score>
+      <Hsp_score>375</Hsp_score>
+      <Hsp_evalue>1.84234e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>251</Hsp_align-len>
+      <Hsp_qseq>MLLIDVGNSHVVFGIQGENGGRVCVRELFRLAPDARKTQDEYSLLIHALCERAGVGRASLRDAFISSVVPVLTKTIADAVAQISGVQPVVFGPWAYEHLPVRIPEPVRAEIGTDLVANAVAAYVHFRSACVVVDCGTALTFTAVDGTGLIQGVAIAPGLRTAVQSLHTGTAQLPLVPLALPDSVLGKDTTHAVQAGVVRGTLFVIRAMIAQCQKELGCRCAAVITGGLSRLFSSE-VDFPPIDAQLTLSGL</Hsp_qseq>
+      <Hsp_hseq>LLVIDVGNSNIVLGIYD---GDSLVRD-WRVSTDKSKTTDEYGILVHELFRLAGIDFSRITDIIISSVVPTLTGVLEKLSLQYFDFKPYVVGPGIKTGMSIHYDNP--KEVGADRIVNAVAGYEKHHTALIIVDFGTATTFDYVNKRGEYCGGAIAPGLMISMEALFQKASKLPRVEITKPPAIVAKNTVNSMQAGIFYGYVGLVDGIVTRMKGEGKENPKVIATGGLAGLIAPESTTIEEVDEYLTLEGL</Hsp_hseq>
+      <Hsp_midline>+L+IDVGNS++V GI     G   VR+ +R++ D  KT DEY +L+H L   AG+  + + D  ISSVVP LT  +     Q    +P V GP     + +    P   E+G D + NAVA Y    +A ++VD GTA TF  V+  G   G AIAPGL  ++++L    ++LP V +  P +++ K+T +++QAG+  G + ++  ++ + + E       + TGGL+ L + E      +D  LTL GL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|254763952|sp|B8D075.1|COAX_HALOH</Hit_id>
+  <Hit_def>RecName: Full=Type III pantothenate kinase; AltName: Full=PanK-III; AltName: Full=Pantothenic acid kinase</Hit_def>
+  <Hit_accession>B8D075</Hit_accession>
+  <Hit_len>257</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.673</Hsp_bit-score>
+      <Hsp_score>374</Hsp_score>
+      <Hsp_evalue>2.43078e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>256</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>257</Hsp_align-len>
+      <Hsp_qseq>MLLIDVGNSHVVFGIQGENGGRVCVRELFRLAPDARKTQDEYSLLIHALCERAGVGRASLRDAFISSVVPVLTKTIADAVAQISGVQPVVFGPWAYEHLPVRIPEPVRAEIGTDLVANAVAAYVHFRSACVVVDCGTALTFTAVDGTGLIQGVAIAPGLRTAVQSLHTGTAQLPLVPLALPDSVLGKDTTHAVQAGVVRGTLFVIRAMIAQCQKELGCRCAAVITGGLSRLFSSEVD-FPPIDAQLTLSGLAHIARL</Hsp_qseq>
+      <Hsp_hseq>ILAIDVGNTNTVMGIYKKD----KLIQHWRISTDKNKTPDEYGILFLNLFNSANVNYKRIDGIILSSVVPPLVRILKKMTTRYFNLEPLVVGPGIRTGINLKMDNP--REVGADQVVNAVAAYHKYGGPLIIVDFGTATTFCAVSERGEYLGGAIAPGIGISAEALYSYAAKLPRVEFKTPGQAIGKNTVAGMQSGIIYGFVGLVEALVKRFKDELKETPEVIATGGLVSLIASETDEIDKVDPFLTLDGLYYIAKI</Hsp_hseq>
+      <Hsp_midline>+L IDVGN++ V GI  ++     + + +R++ D  KT DEY +L   L   A V    +    +SSVVP L + +     +   ++P+V GP     + +++  P   E+G D V NAVAAY  +    ++VD GTA TF AV   G   G AIAPG+  + ++L++  A+LP V    P   +GK+T   +Q+G++ G + ++ A++ + + EL      + TGGL  L +SE D    +D  LTL GL +IA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|259491332|sp|C4Z9L7.1|COAX_EUBR3</Hit_id>
+  <Hit_def>RecName: Full=Type III pantothenate kinase; AltName: Full=PanK-III; AltName: Full=Pantothenic acid kinase</Hit_def>
+  <Hit_accession>C4Z9L7</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.517</Hsp_bit-score>
+      <Hsp_score>371</Hsp_score>
+      <Hsp_evalue>6.39433e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>255</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>257</Hsp_align-len>
+      <Hsp_qseq>MLLIDVGNSHVVFGIQGENGGRVCVRELFRLAPDARKTQDEYSLLIHALCERAGVGRASLRDAFISSVVPVLTKTIADAVAQISGVQPVVFGPWAYEHLPVRIPEPVRAEIGTDLVANAVAAYVHFRSACVVVDCGTALTFTAVDGTGLIQGVAIAPGLRTAVQSLHTGTAQLPLVPLALPDSVLGKDTTHAVQAGVVRGTLFVIRAMIAQCQKELGCRCAA-VITGGLSRLFSSEVDFPPI-DAQLTLSGLAHIAR</Hsp_qseq>
+      <Hsp_hseq>ILALDVGNTNITCGVF--DGDRI--KASFRITTKMPRTSDEYGMLLSTLLERNQVGMDDIHDAIICSVVPNIMHSLQNGLIKYFNIRPIIV--EAGIKTGIRIATPNPQQIGADRIVDAVAAYELYGGPVLVIDFGTATTYDMVDENGTFMGGITAPGIRISAKALWEDAAKLPEIEIKKPDNILGKDTITSMQAGLVYGQIGQTEYIINKVKEETGMYDAKVVVTGGLGRIISNETENVDVYDPDLTLKGINLVYR</Hsp_hseq>
+      <Hsp_midline>+L +DVGN+++  G+   +G R+  +  FR+     +T DEY +L+  L ER  VG   + DA I SVVP +  ++ + + +   ++P++    A     +RI  P   +IG D + +AVAAY  +    +V+D GTA T+  VD  G   G   APG+R + ++L    A+LP + +  PD++LGKDT  ++QAG+V G +     +I + ++E G   A  V+TGGL R+ S+E +   + D  LTL G+  + R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|81702111|sp|Q74BU2.1|COAX_GEOSL</Hit_id>
+  <Hit_def>RecName: Full=Type III pantothenate kinase; AltName: Full=PanK-III; AltName: Full=Pantothenic acid kinase</Hit_def>
+  <Hit_accession>Q74BU2</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.976</Hsp_bit-score>
+      <Hsp_score>367</Hsp_score>
+      <Hsp_evalue>2.10826e-40</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>251</Hsp_align-len>
+      <Hsp_qseq>MLLIDVGNSHVVFGIQGENGGRVCVRELFRLAPDARKTQDEYSLLIHALCERAGVGRASLRDAFISSVVPVLTKTIADAVAQISGVQPVVFGPWAYEHLPVRIPEPVRAEIGTDLVANAVAAYVHFRSACVVVDCGTALTFTAVDGTGLIQGVAIAPGLRTAVQSLHTGTAQLPLVPLALPDSVLGKDTTHAVQAGVVRGTLFVIRAMIAQCQKELGCRCAAVITGGLSRLFSSEVD-FPPIDAQLTLSGL</Hsp_qseq>
+      <Hsp_hseq>LLVIDVGNTNIVLGIYD---GERLVRD-WRVSTDKARTTDEYGILINELFRLAGLGLDQIRAVIISSVVPPLTGVLERLSLGYFGMRPLVVGPGIKTGMPIQYDNP--REVGADRIVNAVAGYEKYRTSLIIVDFGTATTFDYVNRKGEYCGGAIAPGLVISTEALFQRASKLPRVDIIRPSAIIARNTVNSMQAGIYYGYVGLVDEIVTRMKAESKDAPRVIATGGLASLIAPESKTIEAVEEYLTLEGL</Hsp_hseq>
+      <Hsp_midline>+L+IDVGN+++V GI     G   VR+ +R++ D  +T DEY +LI+ L   AG+G   +R   ISSVVP LT  +        G++P+V GP     +P++   P   E+G D + NAVA Y  +R++ ++VD GTA TF  V+  G   G AIAPGL  + ++L    ++LP V +  P +++ ++T +++QAG+  G + ++  ++ + + E       + TGGL+ L + E      ++  LTL GL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|119368586|sp|Q3A9L7.1|COAX_CARHZ</Hit_id>
+  <Hit_def>RecName: Full=Type III pantothenate kinase; AltName: Full=PanK-III; AltName: Full=Pantothenic acid kinase</Hit_def>
+  <Hit_accession>Q3A9L7</Hit_accession>
+  <Hit_len>257</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.821</Hsp_bit-score>
+      <Hsp_score>364</Hsp_score>
+      <Hsp_evalue>6.59771e-40</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>251</Hsp_align-len>
+      <Hsp_qseq>MLLIDVGNSHVVFGIQGENGGRVCVRELFRLAPDARKTQDEYSLLIHALCERAGVGRASLRDAFISSVVPVLTKTIADAVAQISGVQPVVFGPWAYEHLPVRIPEPVRAEIGTDLVANAVAAYVHFRSACVVVDCGTALTFTAVDGTGLIQGVAIAPGLRTAVQSLHTGTAQLPLVPLALPDSVLGKDTTHAVQAGVVRGTLFVIRAMIAQCQKELGCRCAAVITGGLSRLFSSEV-DFPPIDAQLTLSGL</Hsp_qseq>
+      <Hsp_hseq>FLAIDIGNTNIVLGIY--DKGKLI--KTWRMAADRNKTVDEYAVLIHNFFSFINLSFKDIEGIGIASVVPPLTPIFEQLCYNYFKVKPLVIGPGVRTGLKIKFENP--REVGADRIVNAVAGYHIYGGPLIVVDFGTATTFDAINDKGEYIGGAISPGIGISTEALFARASKLPRIELVKPLSVIGKNTVSAMQAGIIYGFIGQVDEICARMKKELGGAAKVIATGGLAELIATDSRQIEKVDQNLTLEGI</Hsp_hseq>
+      <Hsp_midline> L ID+GN+++V GI   + G++   + +R+A D  KT DEY++LIH       +    +    I+SVVP LT            V+P+V GP     L ++   P   E+G D + NAVA Y  +    +VVD GTA TF A++  G   G AI+PG+  + ++L    ++LP + L  P SV+GK+T  A+QAG++ G +  +  + A+ +KELG     + TGGL+ L +++      +D  LTL G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|167009051|sp|A8MLU1.1|COAX_ALKOO</Hit_id>
+  <Hit_def>RecName: Full=Type III pantothenate kinase; AltName: Full=PanK-III; AltName: Full=Pantothenic acid kinase</Hit_def>
+  <Hit_accession>A8MLU1</Hit_accession>
+  <Hit_len>265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.05</Hsp_bit-score>
+      <Hsp_score>362</Hsp_score>
+      <Hsp_evalue>1.39091e-39</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>252</Hsp_align-len>
+      <Hsp_qseq>MLLIDVGNSHVVFGIQGENGGRVCVRELFRLAPDARKTQDEYSLLIHALCERAGVGRASLRDAFISSVVPVLTKTIADAVAQISGVQPVVFGPWAYEHLPVRIPEPVRAEIGTDLVANAVAAYVHFRSACVVVDCGTALTFTAVDGTGLIQGVAIAPGLRTAVQSLHTGTAQLPLVPLALPDSVLGKDTTHAVQAGVVRGTLFVIRAMIAQCQKEL-GCRCAAVITGGLSRLFSSEVD-FPPIDAQLTLSGL</Hsp_qseq>
+      <Hsp_hseq>ILVFDVGNTNIVLGVYR---GKELI-ENWRIATDKDKSSDEYAMVIHQFFHYNGLNIHDVDDVIISSVVPNIMYSLENASRKLFKREPLIVGSGIKTGMNIKYDDP--KQVGADRIVNAIAAYEKYGGPLIIVDFGTATTFCAVSEDGEYLGGAISPGIKISSEALFEKAAKLPRVELINPKKVICKNTVSSMQAGIVYGYIGLVENIVRNMKKELKSSSCKVIATGGLSTLIAGGTDSIDVVDKFLSLDGL</Hsp_hseq>
+      <Hsp_midline>+L+ DVGN+++V G+     G+  + E +R+A D  K+ DEY+++IH      G+    + D  ISSVVP +  ++ +A  ++   +P++ G      + ++  +P   ++G D + NA+AAY  +    ++VD GTA TF AV   G   G AI+PG++ + ++L    A+LP V L  P  V+ K+T  ++QAG+V G + ++  ++   +KEL    C  + TGGLS L +   D    +D  L+L GL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|119368589|sp|Q181F7.1|COAX_PEPD6</Hit_id>
+  <Hit_def>RecName: Full=Type III pantothenate kinase; AltName: Full=PanK-III; AltName: Full=Pantothenic acid kinase</Hit_def>
+  <Hit_accession>Q181F7</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>143.28</Hsp_bit-score>
+      <Hsp_score>360</Hsp_score>
+      <Hsp_evalue>2.46842e-39</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>254</Hsp_align-len>
+      <Hsp_qseq>MLLIDVGNSHVVFGIQGENGGRVCVRELFRLAPDARKTQDEYSLLIHALCERAGVGRASLRDAFISSVVPVLTKTIADAVAQISGVQPVVFGPWAYEHLPVRIPEPVRAEIGTDLVANAVAAYVHFRSACVVVDCGTALTFTAVDGTGLIQGVAIAPGLRTAVQSLHTGTAQLPLVPLALPDSVLGKDTTHAVQAGVVRGTLFVIRAMIAQCQKELGCRCAAVI-TGGLSRLFSSE---VDFPPIDAQLTLSGL</Hsp_qseq>
+      <Hsp_hseq>LLVFDVGNTNMVLGIY--KGDKLV--NYWRIKTDREKTSDEYGILISNLFDYDNVNISDIDDVIISSVVPNVMHSLENFCIKYCKKQPLIVGPGIKTGLNIKYDNP--KQVGADRIVNAVAGIEKYGAPSILVDFGTATTFCAISEKGEYLGGTIAPGIKISSEALFQSASKLPRVELAKPGMTICKSTVSAMQSGIIYGYVGLVDKIISIMKKELNCDDVKVIATGGLAKLIASETKSIDY--VDGFLTLEGL</Hsp_hseq>
+      <Hsp_midline>+L+ DVGN+++V GI    G ++     +R+  D  KT DEY +LI  L +   V  + + D  ISSVVP +  ++ +   +    QP++ GP     L ++   P   ++G D + NAVA    + +  ++VD GTA TF A+   G   G  IAPG++ + ++L    ++LP V LA P   + K T  A+Q+G++ G + ++  +I+  +KEL C    VI TGGL++L +SE   +D+  +D  LTL GL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|189082608|sp|A5D5P9.1|COAX_PELTS</Hit_id>
+  <Hit_def>RecName: Full=Type III pantothenate kinase; AltName: Full=PanK-III; AltName: Full=Pantothenic acid kinase</Hit_def>
+  <Hit_accession>A5D5P9</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>143.28</Hsp_bit-score>
+      <Hsp_score>360</Hsp_score>
+      <Hsp_evalue>2.74141e-39</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>253</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>254</Hsp_align-len>
+      <Hsp_qseq>MLLIDVGNSHVVFGIQGENGGRVCVRELFRLAPDARKTQDEYSLLIHALCERAGVGRASLRDAFISSVVPVLTKTIADAVAQISGVQPVVFGPWAYEHLPVRIPEPVRAEIGTDLVANAVAAYVHFRSACVVVDCGTALTFTAVDGTGLIQGVAIAPGLRTAVQSLHTGTAQLPLVPLALPDSVLGKDTTHAVQAGVVRGTLFVIRAMIAQCQKELGCRCAAVITGGLSRLFSSE-VDFPPIDAQLTLSGLAHI</Hsp_qseq>
+      <Hsp_hseq>ILVFDVGNTNIVLGVF--SGSRLVAN--WRLSTDRYRTSDEYGIMLRELFAFSGLEMKQIKAVVVSTVVPPLTFTLERLCQKYFNLTPLVVGPGIKTGLSIKIDNP--REVGADRIVNAVAGYEQYGGPLVIVDFGTATTFCAVSARGEYLGGAIAPGISISTEALFARAAKLPRVEVVKPLSVIGRNTVASMQAGIFYGFVGQVDEIVKRMKKELGENTRVIATGGLAGLIAQESATIEQVDPFLTLKGLRLI</Hsp_hseq>
+      <Hsp_midline>+L+ DVGN+++V G+   +G R+     +RL+ D  +T DEY +++  L   +G+    ++   +S+VVP LT T+     +   + P+V GP     L ++I  P   E+G D + NAVA Y  +    V+VD GTA TF AV   G   G AIAPG+  + ++L    A+LP V +  P SV+G++T  ++QAG+  G +  +  ++ + +KELG     + TGGL+ L + E      +D  LTL GL  I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|119368613|sp|Q3A346.1|COAX_PELCD</Hit_id>
+  <Hit_def>RecName: Full=Type III pantothenate kinase; AltName: Full=PanK-III; AltName: Full=Pantothenic acid kinase</Hit_def>
+  <Hit_accession>Q3A346</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.895</Hsp_bit-score>
+      <Hsp_score>359</Hsp_score>
+      <Hsp_evalue>3.26719e-39</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>252</Hsp_align-len>
+      <Hsp_qseq>MLLIDVGNSHVVFGI-QGENGGRVCVRELFRLAPDARKTQDEYSLLIHALCERAGVGRASLRDAFISSVVPVLTKTIADAVAQISGVQPVVFGPWAYEHLPVRIPEPVRAEIGTDLVANAVAAYVHFRSACVVVDCGTALTFTAVDGTGLIQGVAIAPGLRTAVQSLHTGTAQLPLVPLALPDSVLGKDTTHAVQAGVVRGTLFVIRAMIAQCQKELGCRCAAVITGGLSRLFSSEVD-FPPIDAQLTLSGL</Hsp_qseq>
+      <Hsp_hseq>LLVIDVGNTNTVVGLYEGQ-----TLAYNWRITTDKGRTGDEYAMLLHELLRLAGVTFDRIEDVIVSSVVPPTLQAIESLCRKYVGRSPYVVGPGIKTGMPILYENP--REVGADRIVNAVAAFARWQRSLIVVDFGTATTFDYINAKGQYHGGAIAPGLKISADALFDKASKLPRVEVSRPPTVVAKNTVNSIQAGLFYGYVGLVDGIVERMRKETRDDPLVVATGGLATLIADETQTIHEVESDLTLEGL</Hsp_hseq>
+      <Hsp_midline>+L+IDVGN++ V G+ +G+      +   +R+  D  +T DEY++L+H L   AGV    + D  +SSVVP   + I     +  G  P V GP     +P+    P   E+G D + NAVAA+  ++ + +VVD GTA TF  ++  G   G AIAPGL+ +  +L    ++LP V ++ P +V+ K+T +++QAG+  G + ++  ++ + +KE       V TGGL+ L + E      +++ LTL GL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|119368590|sp|Q0TMI4.1|COAX_CLOP1</Hit_id>
+  <Hit_def>RecName: Full=Type III pantothenate kinase; AltName: Full=PanK-III; AltName: Full=Pantothenic acid kinase &gt;gi|119368591|sp|Q0SQ83.1|COAX_CLOPS RecName: Full=Type III pantothenate kinase; AltName: Full=PanK-III; AltName: Full=Pantothenic acid kinase</Hit_def>
+  <Hit_accession>Q0TMI4</Hit_accession>
+  <Hit_len>259</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.895</Hsp_bit-score>
+      <Hsp_score>359</Hsp_score>
+      <Hsp_evalue>4.24856e-39</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>251</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>256</Hsp_align-len>
+      <Hsp_qseq>MLLIDVGNSHVVFGIQGENGGRVCVRELFRLAPDARKTQDEYSLLIHALCERAGVGRASLRDAFISSVVPVLTKTIADAVAQISGVQPVVFGPWAYEHLPVRIPEPVRAEIGTDLVANAVAAYVHFRSACVVVDCGTALTFTAVDGTGLIQGVAIAPGLRTAVQSLHTGTAQLPLVPLALPDSVLGKDTTHAVQAGVVRGTLFVIRAMIAQCQKE---LGCRCAAVI-TGGLSRLFSSEVD-FPPIDAQLTLSGLA</Hsp_qseq>
+      <Hsp_hseq>ILLIDVGNTNIVLGIH-DNEKYIAS---WRISTDSKKTSDEYSIQVMQLFNQAKLNPEEVEGIIISSVVPNIMHSLENMVRKCFCKEPIVVGPGIKTGINIKYDNP--KEVGADRIVNAVAAFEKHKKPMIIIDFGTATTFCAITEKGDYLGGNICPGIQISADALFERAAKLPRIELEKPKSVICKNTVTSMQAGIIYGYIGKVEYIVKRMKKEMMDLGEKEPFVLATGGLAKLVYSETDVIDEVDRKLTLEGLK</Hsp_hseq>
+      <Hsp_midline>+LLIDVGN+++V GI  +N   +     +R++ D++KT DEYS+ +  L  +A +    +    ISSVVP +  ++ + V +    +P+V GP     + ++   P   E+G D + NAVAA+   +   +++D GTA TF A+   G   G  I PG++ +  +L    A+LP + L  P SV+ K+T  ++QAG++ G +  +  ++ + +KE   LG +   V+ TGGL++L  SE D    +D +LTL GL </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|81766454|sp|Q8XHL5.1|COAX_CLOPE</Hit_id>
+  <Hit_def>RecName: Full=Type III pantothenate kinase; AltName: Full=PanK-III; AltName: Full=Pantothenic acid kinase</Hit_def>
+  <Hit_accession>Q8XHL5</Hit_accession>
+  <Hit_len>259</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.895</Hsp_bit-score>
+      <Hsp_score>359</Hsp_score>
+      <Hsp_evalue>4.29333e-39</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>251</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>256</Hsp_align-len>
+      <Hsp_qseq>MLLIDVGNSHVVFGIQGENGGRVCVRELFRLAPDARKTQDEYSLLIHALCERAGVGRASLRDAFISSVVPVLTKTIADAVAQISGVQPVVFGPWAYEHLPVRIPEPVRAEIGTDLVANAVAAYVHFRSACVVVDCGTALTFTAVDGTGLIQGVAIAPGLRTAVQSLHTGTAQLPLVPLALPDSVLGKDTTHAVQAGVVRGTLFVIRAMIAQCQKE---LGCRCAAVI-TGGLSRLFSSEVD-FPPIDAQLTLSGLA</Hsp_qseq>
+      <Hsp_hseq>ILLIDVGNTNIVLGIH-DNEKYIAS---WRISTDSKKTSDEYSIQVMQLFNQAKLNPEDVEGIIISSVVPNIMHSLENMVRKCFCKEPIVVGPGIKTGINIKYDNP--KEVGADRIVNAVAAFEKHKKPMIIIDFGTATTFCAITEKGDYLGGNICPGIQISADALFERAAKLPRIELEKPKSVICKNTVTSMQAGIIYGYIGKVEYIVKRMKKEMMDLGEKEPFVLATGGLAKLVYSETDVIDEVDRKLTLEGLK</Hsp_hseq>
+      <Hsp_midline>+LLIDVGN+++V GI  +N   +     +R++ D++KT DEYS+ +  L  +A +    +    ISSVVP +  ++ + V +    +P+V GP     + ++   P   E+G D + NAVAA+   +   +++D GTA TF A+   G   G  I PG++ +  +L    A+LP + L  P SV+ K+T  ++QAG++ G +  +  ++ + +KE   LG +   V+ TGGL++L  SE D    +D +LTL GL </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|119368601|sp|Q39U59.1|COAX_GEOMG</Hit_id>
+  <Hit_def>RecName: Full=Type III pantothenate kinase; AltName: Full=PanK-III; AltName: Full=Pantothenic acid kinase</Hit_def>
+  <Hit_accession>Q39U59</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.124</Hsp_bit-score>
+      <Hsp_score>357</Hsp_score>
+      <Hsp_evalue>6.06554e-39</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>251</Hsp_align-len>
+      <Hsp_qseq>MLLIDVGNSHVVFGIQGENGGRVCVRELFRLAPDARKTQDEYSLLIHALCERAGVGRASLRDAFISSVVPVLTKTIADAVAQISGVQPVVFGPWAYEHLPVRIPEPVRAEIGTDLVANAVAAYVHFRSACVVVDCGTALTFTAVDGTGLIQGVAIAPGLRTAVQSLHTGTAQLPLVPLALPDSVLGKDTTHAVQAGVVRGTLFVIRAMIAQCQKELGCRCAAVITGGLSRLFSSEVD-FPPIDAQLTLSGL</Hsp_qseq>
+      <Hsp_hseq>LLVIDVGNTNIVLGIYD---GQRLVRD-WRISTDKAKTSDEYGILIRELFRGADIEFKDVKAIIISSVVPTLSGVLERLSRNYFGYSPLVVGPGIRTGMPIQYDNP--KEVGADRIVNAVAGYEKYKTSLVIVDFGTATTFDYVNRKGEYCGGAIAPGLVISMEALFQRASKLPRVDIVKPPAVIARNTVNSMQAGIFYGYVGLVDEIVARMKAESKETPRVIATGGLAGLIAPESKTIEAVEEYLTLEGL</Hsp_hseq>
+      <Hsp_midline>+L+IDVGN+++V GI     G+  VR+ +R++ D  KT DEY +LI  L   A +    ++   ISSVVP L+  +        G  P+V GP     +P++   P   E+G D + NAVA Y  ++++ V+VD GTA TF  V+  G   G AIAPGL  ++++L    ++LP V +  P +V+ ++T +++QAG+  G + ++  ++A+ + E       + TGGL+ L + E      ++  LTL GL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>462628</Statistics_db-num>
+      <Statistics_db-len>173435234</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

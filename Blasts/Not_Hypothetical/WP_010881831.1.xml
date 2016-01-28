@@ -1,0 +1,602 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>Query_163819</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>149</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_163819</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>149</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|20138893|sp|O83398.1|MRAZ_TREPA</Hit_id>
+  <Hit_def>RecName: Full=Transcriptional regulator MraZ &gt;gi|226710019|sp|B2S2Y0.1|MRAZ_TREPS RecName: Full=Transcriptional regulator MraZ</Hit_def>
+  <Hit_accession>O83398</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>300.056</Hsp_bit-score>
+      <Hsp_score>767</Hsp_score>
+      <Hsp_evalue>9.34791e-104</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>149</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>149</Hsp_align-len>
+      <Hsp_qseq>MEDNAFTGAYSYNLDEKGRLMLPARLRVALSDTRLVLTCAIESCLWVFPRAQWDRFSSQISARASLFHAPSRAVLRRLIAPAQEVELDRAWRLFIPPSLREYAALEKDCLILGLSHCLEIWDRARYRAYLAESEADFRAGTETLQDLCL</Hsp_qseq>
+      <Hsp_hseq>MEDNAFTGAYSYNLDEKGRLMLPARLRVALSDTRLVLTCAIESCLWVFPRAQWDRFSSQISARASLFHAPSRAVLRRLIAPAQEVELDRAWRLFIPPSLREYAALEKDCLILGLSHCLEIWDRARYRAYLAESEADFRAGTETLQDLCL</Hsp_hseq>
+      <Hsp_midline>MEDNAFTGAYSYNLDEKGRLMLPARLRVALSDTRLVLTCAIESCLWVFPRAQWDRFSSQISARASLFHAPSRAVLRRLIAPAQEVELDRAWRLFIPPSLREYAALEKDCLILGLSHCLEIWDRARYRAYLAESEADFRAGTETLQDLCL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|51316291|sp|Q73NF6.1|MRAZ_TREDE</Hit_id>
+  <Hit_def>RecName: Full=Transcriptional regulator MraZ</Hit_def>
+  <Hit_accession>Q73NF6</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.31</Hsp_bit-score>
+      <Hsp_score>412</Hsp_score>
+      <Hsp_evalue>3.84245e-50</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>FTGAYSYNLDEKGRLMLPARLRVALSDTRLVLTCAIESCLWVFPRAQWDRFSSQISARASLFHAPSRAVLRRLIAPAQEVELDRAWRLFIPPSLREYAALEKDCLILGLSHCLEIWDRARYRAYLAESEADFRAGTETLQDL</Hsp_qseq>
+      <Hsp_hseq>MTGEYKNTLDEKGRIMFPAKIRAELPDSNLVITRGVGNCLWIFTADKWKKFSDEIMKKTSLFKAQSLLVMRRLIAPAQEIEVDKNGRISIPQSLRECAGLEKDCIILGLGKCFELWDLKQYEKYLKESEPDFSEAAEALGEI</Hsp_hseq>
+      <Hsp_midline> TG Y   LDEKGR+M PA++R  L D+ LV+T  + +CLW+F   +W +FS +I  + SLF A S  V+RRLIAPAQE+E+D+  R+ IP SLRE A LEKDC+ILGL  C E+WD  +Y  YL ESE DF    E L ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|90103480|sp|Q5WFG0.1|MRAZ_BACSK</Hit_id>
+  <Hit_def>RecName: Full=Transcriptional regulator MraZ</Hit_def>
+  <Hit_accession>Q5WFG0</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.005</Hsp_bit-score>
+      <Hsp_score>284</Hsp_score>
+      <Hsp_evalue>6.49474e-31</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>149</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>FTGAYSYNLDEKGRLMLPARLRVALSDTRLVLTCAIESCLWVFPRAQWDRFSSQISARASLFHAPSRAVLRRLIAPAQEVELDRAWRLFIPPSLREYAALEKDCLILGLSHCLEIWDRARYRAYLAESEADFRAGTETLQDLCL</Hsp_qseq>
+      <Hsp_hseq>FLGEYRHTIDEKGRMIVPAKFREHLG-TPFVITRGLDNCLFVYPQSEWDKLESQLK-ELPFTKKDARAFTRFFFSGASECELDKQGRMNVPQPLREYAKLEKECVVIGVSNRMEVWSKTLWEDYVSQSEDSFADIAENLIDFDL</Hsp_hseq>
+      <Hsp_midline>F G Y + +DEKGR+++PA+ R  L  T  V+T  +++CL+V+P+++WD+  SQ+          +RA  R   + A E ELD+  R+ +P  LREYA LEK+C+++G+S+ +E+W +  +  Y+++SE  F    E L D  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|254813271|sp|C0ZGB4.1|MRAZ_BREBN</Hit_id>
+  <Hit_def>RecName: Full=Transcriptional regulator MraZ</Hit_def>
+  <Hit_accession>C0ZGB4</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.235</Hsp_bit-score>
+      <Hsp_score>282</Hsp_score>
+      <Hsp_evalue>1.08447e-30</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>149</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>FTGAYSYNLDEKGRLMLPARLRVALSDTRLVLTCAIESCLWVFPRAQWDRFSSQISARASLFHAPSRAVLRRLIAPAQEVELDRAWRLFIPPSLREYAALEKDCLILGLSHCLEIWDRARYRAYLAESEADFRAGTETLQDLCL</Hsp_qseq>
+      <Hsp_hseq>FMGEYQHSIDEKGRLTIPAKFREGLG-TSFVITRGLDQCLFAYPQDEWKQLEERLKS-LPFTKADARAFTRFFFSGATECEWDKQGRVNIPPNLREHAGMQKECVIIGVSNRVEVWSKERWEDYFAQSEGSFGEIAEKLVDFNL</Hsp_hseq>
+      <Hsp_midline>F G Y +++DEKGRL +PA+ R  L  T  V+T  ++ CL+ +P+ +W +   ++ +      A +RA  R   + A E E D+  R+ IPP+LRE+A ++K+C+I+G+S+ +E+W + R+  Y A+SE  F    E L D  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|172044254|sp|A4J2A2.1|MRAZ_DESRM</Hit_id>
+  <Hit_def>RecName: Full=Transcriptional regulator MraZ</Hit_def>
+  <Hit_accession>A4J2A2</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.997</Hsp_bit-score>
+      <Hsp_score>271</Hsp_score>
+      <Hsp_evalue>4.81599e-29</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>FTGAYSYNLDEKGRLMLPARLRVALSDTRLVLTCAIESCLWVFPRAQWDRFSSQISARASLFHAPSRAVLRRLIAPAQEVELDRAWRLFIPPSLREYAALEKDCLILGLSHCLEIWDRARYRAYLAESEADFRAGTETLQDL</Hsp_qseq>
+      <Hsp_hseq>FMGEFQHNIDSKGRLIVPARFREGLGD-RFIVTKGLDNCLFVYPQHEWAEVEQKLKS-LPFTRADARAFVRFFFSGATECEVDKQGRILLPNNLREYAKLDKETVVVGVSTRVEIWSKEEWDRYNAQAEASFEQLAENIVDL</Hsp_hseq>
+      <Hsp_midline>F G + +N+D KGRL++PAR R  L D R ++T  +++CL+V+P+ +W     ++ +      A +RA +R   + A E E+D+  R+ +P +LREYA L+K+ +++G+S  +EIW +  +  Y A++EA F    E + DL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|20139209|sp|Q9K9R9.1|MRAZ_BACHD</Hit_id>
+  <Hit_def>RecName: Full=Transcriptional regulator MraZ</Hit_def>
+  <Hit_accession>Q9K9R9</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.457</Hsp_bit-score>
+      <Hsp_score>267</Hsp_score>
+      <Hsp_evalue>2.14757e-28</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>149</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>FTGAYSYNLDEKGRLMLPARLRVALSDTRLVLTCAIESCLWVFPRAQWDRFSSQISARASLFHAPSRAVLRRLIAPAQEVELDRAWRLFIPPSLREYAALEKDCLILGLSHCLEIWDRARYRAYLAESEADFRAGTETLQDLCL</Hsp_qseq>
+      <Hsp_hseq>FMGEYRHNVDEKGRMIIPAKFREELGET-FVVTRGLDRCLFVYPQVEWKKLEESLK-NLPFTKKDARAFTRFFFSGATECELDKQGRVNIASPLREFAQLKKECVVIGVSNRVEIWSKELWEEYFAESEESFSEIAENIVDFDL</Hsp_hseq>
+      <Hsp_midline>F G Y +N+DEKGR+++PA+ R  L +T  V+T  ++ CL+V+P+ +W +    +          +RA  R   + A E ELD+  R+ I   LRE+A L+K+C+++G+S+ +EIW +  +  Y AESE  F    E + D  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|254813292|sp|B9DPQ8.1|MRAZ_STACT</Hit_id>
+  <Hit_def>RecName: Full=Transcriptional regulator MraZ</Hit_def>
+  <Hit_accession>B9DPQ8</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.916</Hsp_bit-score>
+      <Hsp_score>263</Hsp_score>
+      <Hsp_evalue>6.92165e-28</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>FTGAYSYNLDEKGRLMLPARLRVALSDTRLVLTCAIESCLWVFPRAQWDRFSSQISARASLFHAPSRAVLRRLIAPAQEVELDRAWRLFIPPSLREYAALEKDCLILGLSHCLEIWDRARYRAYLAESEADFRAGTETLQDL</Hsp_qseq>
+      <Hsp_hseq>FMGEYEHQLDAKGRMIVPSKFRYELNE-RFVITRGLDKCLFGYTLEEWQNIEEKMKS-LPMTKRDARKFMRMFFSGAVEVELDKQGRINIPKNLREYANLTKECTVIGVSNRIEIWDRASWNGFYDESEDSFEDIAEDLIDF</Hsp_hseq>
+      <Hsp_midline>F G Y + LD KGR+++P++ R  L++ R V+T  ++ CL+ +   +W     ++ +   +    +R  +R   + A EVELD+  R+ IP +LREYA L K+C ++G+S+ +EIWDRA +  +  ESE  F    E L D </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|189028632|sp|A8LX89.1|MRAZ_SALAI</Hit_id>
+  <Hit_def>RecName: Full=Transcriptional regulator MraZ</Hit_def>
+  <Hit_accession>A8LX89</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.375</Hsp_bit-score>
+      <Hsp_score>259</Hsp_score>
+      <Hsp_evalue>3.25548e-27</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>FTGAYSYNLDEKGRLMLPARLRVALSDTRLVLTCAIESCLWVFPRAQWDRFSSQISARASLFHAPSRAVLRRLIAPAQEVELDRAWRLFIPPSLREYAALEKDCLILGLSHCLEIWDRARYRAYLAESEADF</Hsp_qseq>
+      <Hsp_hseq>FLGTHTPRLDDKGRLILPAKFRDELAGG-VVITKGQERCLYVFPAPEFQRIADQLRAQ-PMTHKAARAYSRVFFASAHDEVPDKQGRVTIPGHLRDYAALDRDLVVIGAHTRVEIWDRVAWESYLAESEDDF</Hsp_hseq>
+      <Hsp_midline>F G ++  LD+KGRL+LPA+ R  L+   +V+T   E CL+VFP  ++ R + Q+ A+  + H  +RA  R   A A +   D+  R+ IP  LR+YAAL++D +++G    +EIWDR  + +YLAESE DF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|254813282|sp|B8CWI7.1|MRAZ_HALOH</Hit_id>
+  <Hit_def>RecName: Full=Transcriptional regulator MraZ</Hit_def>
+  <Hit_accession>B8CWI7</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>103.99</Hsp_bit-score>
+      <Hsp_score>258</Hsp_score>
+      <Hsp_evalue>4.54063e-27</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>149</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>FTGAYSYNLDEKGRLMLPARLRVALSDTRLVLTCAIESCLWVFPRAQWDRFSSQISARASLFHAPSRAVLRRLIAPAQEVELDRAWRLFIPPSLREYAALEKDCLILGLSHCLEIWDRARYRAYLAESEADFRAGTETLQDLCL</Hsp_qseq>
+      <Hsp_hseq>FMGEYKHNMDSKGRIIIPAKFRSELGD-KFVATRGLDHCLFVYPMHEWSKLEKKLTS-LPITSKNARTFVRFFFSGATECEFDKQGRISIPSNLREYAELQKEVVIIGLANRIELWSSKRWGGYLDSAEESYEEIAAAMEDLGI</Hsp_hseq>
+      <Hsp_midline>F G Y +N+D KGR+++PA+ R  L D + V T  ++ CL+V+P  +W +   ++++   +    +R  +R   + A E E D+  R+ IP +LREYA L+K+ +I+GL++ +E+W   R+  YL  +E  +      ++DL +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|226709985|sp|B0TGB1.1|MRAZ_HELMI</Hit_id>
+  <Hit_def>RecName: Full=Transcriptional regulator MraZ</Hit_def>
+  <Hit_accession>B0TGB1</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>103.219</Hsp_bit-score>
+      <Hsp_score>256</Hsp_score>
+      <Hsp_evalue>9.44585e-27</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>149</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>FTGAYSYNLDEKGRLMLPARLRVALSDTRLVLTCAIESCLWVFPRAQWDRFSSQISARASLFHAPSRAVLRRLIAPAQEVELDRAWRLFIPPSLREYAALEKDCLILGLSHCLEIWDRARYRAYLAESEADFRAGTETLQDLCL</Hsp_qseq>
+      <Hsp_hseq>FMGEYQHAIDPKGRLFMPARLRESLGEA-FVATKGLDGCLFVYPKEEWKRLEEKLKA-LPFTRADARAFQRFFFSGAGECEVDKQGRILVPAHLREHAALEKDVVIIGAGARVEIWSRERWSKYNEKAAPSYEEVAEKLIDFDL</Hsp_hseq>
+      <Hsp_midline>F G Y + +D KGRL +PARLR +L +   V T  ++ CL+V+P+ +W R   ++ A      A +RA  R   + A E E+D+  R+ +P  LRE+AALEKD +I+G    +EIW R R+  Y  ++   +    E L D  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|6648035|sp|O34913.2|MRAZ_ENTHR</Hit_id>
+  <Hit_def>RecName: Full=Transcriptional regulator MraZ</Hit_def>
+  <Hit_accession>O34913</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.449</Hsp_bit-score>
+      <Hsp_score>254</Hsp_score>
+      <Hsp_evalue>1.47498e-26</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>149</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>FTGAYSYNLDEKGRLMLPARLRVALSDTRLVLTCAIESCLWVFPRAQWDRFSSQISARASLFHAPSRAVLRRLIAPAQEVELDRAWRLFIPPSLREYAALEKDCLILGLSHCLEIWDRARYRAYLAESEADFRAGTETLQDLCL</Hsp_qseq>
+      <Hsp_hseq>FMGEFRHNIDTKGRMIVPSKLREELGE-QFVLTRGLDGCLFGYPMKEWANLETKLND-MPLAKKDARTFVRFFYSAATECELDKQGRINIPSTLRNYAALTKECVVIGVSNRIEIWDEARWQEFSEVAAENFDEIAENMIDFGL</Hsp_hseq>
+      <Hsp_midline>F G + +N+D KGR+++P++LR  L + + VLT  ++ CL+ +P  +W    ++++    L    +R  +R   + A E ELD+  R+ IP +LR YAAL K+C+++G+S+ +EIWD AR++ +   +  +F    E + D  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|226709995|sp|B2A2G3.1|MRAZ_NATTJ</Hit_id>
+  <Hit_def>RecName: Full=Transcriptional regulator MraZ</Hit_def>
+  <Hit_accession>B2A2G3</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.449</Hsp_bit-score>
+      <Hsp_score>254</Hsp_score>
+      <Hsp_evalue>1.57192e-26</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>FTGAYSYNLDEKGRLMLPARLRVALSDTRLVLTCAIESCLWVFPRAQWDRFSSQISARASLFHAPSRAVLRRLIAPAQEVELDRAWRLFIPPSLREYAALEKDCLILGLSHCLEIWDRARYRAYLAESEADFRAGTETLQDL</Hsp_qseq>
+      <Hsp_hseq>FMGEFRHSLDSKGRVIVPAKFRKGLGDN-FVATRGLDNCIFVYPMNEWKVLEEKIR-QLPLTKSDARAFSRFFLSGASECELDKQGRISLPSNLRDYAALQKDVVIIGVSNRVEIWSQEKWDNYQQQAESSFENIAEEIVDF</Hsp_hseq>
+      <Hsp_midline>F G + ++LD KGR+++PA+ R  L D   V T  +++C++V+P  +W     +I  +  L  + +RA  R  ++ A E ELD+  R+ +P +LR+YAAL+KD +I+G+S+ +EIW + ++  Y  ++E+ F    E + D </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|91207217|sp|Q4L5M9.1|MRAZ_STAHJ</Hit_id>
+  <Hit_def>RecName: Full=Transcriptional regulator MraZ</Hit_def>
+  <Hit_accession>Q4L5M9</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.449</Hsp_bit-score>
+      <Hsp_score>254</Hsp_score>
+      <Hsp_evalue>1.58869e-26</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>FTGAYSYNLDEKGRLMLPARLRVALSDTRLVLTCAIESCLWVFPRAQWDRFSSQISARASLFHAPSRAVLRRLIAPAQEVELDRAWRLFIPPSLREYAALEKDCLILGLSHCLEIWDRARYRAYLAESEADFRAGTETLQDL</Hsp_qseq>
+      <Hsp_hseq>FMGEYEHQLDAKGRMIIPSKFRYDLNE-RFIITRGLDKCLFGYTLEEWQQIEEKMKT-LPMTKKDARKFMRMFFSGAIEVELDKQGRINIPQNLRKYASLTKECTVIGVSNRIEIWDRETWNDFYDESEESFEDIAEDLIDF</Hsp_hseq>
+      <Hsp_midline>F G Y + LD KGR+++P++ R  L++ R ++T  ++ CL+ +   +W +   ++     +    +R  +R   + A EVELD+  R+ IP +LR+YA+L K+C ++G+S+ +EIWDR  +  +  ESE  F    E L D </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|189028635|sp|A4X9S4.1|MRAZ_SALTO</Hit_id>
+  <Hit_def>RecName: Full=Transcriptional regulator MraZ</Hit_def>
+  <Hit_accession>A4X9S4</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.449</Hsp_bit-score>
+      <Hsp_score>254</Hsp_score>
+      <Hsp_evalue>1.79856e-26</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>FTGAYSYNLDEKGRLMLPARLRVALSDTRLVLTCAIESCLWVFPRAQWDRFSSQISARASLFHAPSRAVLRRLIAPAQEVELDRAWRLFIPPSLREYAALEKDCLILGLSHCLEIWDRARYRAYLAESEADF</Hsp_qseq>
+      <Hsp_hseq>FLGTHTPRLDDKGRLILPAKFRDELAGG-VVITKGQERCLYVFPTPEFQHIADQLRAQ-PMTHKAARAYSRVFFASAHDEVPDKQGRVTIPGHLREYAALDRDLVVIGAHTRVEIWDRVAWESYLAESEDEF</Hsp_hseq>
+      <Hsp_midline>F G ++  LD+KGRL+LPA+ R  L+   +V+T   E CL+VFP  ++   + Q+ A+  + H  +RA  R   A A +   D+  R+ IP  LREYAAL++D +++G    +EIWDR  + +YLAESE +F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|122448862|sp|Q1WT94.1|MRAZ_LACS1</Hit_id>
+  <Hit_def>RecName: Full=Transcriptional regulator MraZ</Hit_def>
+  <Hit_accession>Q1WT94</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.679</Hsp_bit-score>
+      <Hsp_score>252</Hsp_score>
+      <Hsp_evalue>3.48214e-26</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>149</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>FTGAYSYNLDEKGRLMLPARLRVALSDTRLVLTCAIESCLWVFPRAQWDRFSSQISARASLFHAPSRAVLRRLIAPAQEVELDRAWRLFIPPSLREYAALEKDCLILGLSHCLEIWDRARYRAYLAESEADFRAGTETLQDLCL</Hsp_qseq>
+      <Hsp_hseq>FMGEYRHTIDAKGRLIVPAKFREQLGDS-FVVTRGMDGCLFGYTQEEWNILETKLQ-KLPLTKKDARAFVRFFYSAATECEIDKQGRINIPKSLRTHAALQKKCVVVGVSNRFEIWSEDRWEAFADEAEENFDDIAENMIDFDL</Hsp_hseq>
+      <Hsp_midline>F G Y + +D KGRL++PA+ R  L D+  V+T  ++ CL+ + + +W+   +++  +  L    +RA +R   + A E E+D+  R+ IP SLR +AAL+K C+++G+S+  EIW   R+ A+  E+E +F    E + D  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|91207105|sp|Q49WW0.1|MRAZ_STAS1</Hit_id>
+  <Hit_def>RecName: Full=Transcriptional regulator MraZ</Hit_def>
+  <Hit_accession>Q49WW0</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.293</Hsp_bit-score>
+      <Hsp_score>251</Hsp_score>
+      <Hsp_evalue>3.99663e-26</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>FTGAYSYNLDEKGRLMLPARLRVALSDTRLVLTCAIESCLWVFPRAQWDRFSSQISARASLFHAPSRAVLRRLIAPAQEVELDRAWRLFIPPSLREYAALEKDCLILGLSHCLEIWDRARYRAYLAESEADFRAGTETLQDL</Hsp_qseq>
+      <Hsp_hseq>FMGEYEHQLDTKGRMIVPSKFRYDLNE-RFIITRGLDKCLFGYTLEEWQVIEEKMKT-LPMTKKDARKFMRMFFSGAVEVELDKQGRINIPQNLRQYANLSKECTVIGVSNRIEIWDRETWSSFYDESEESFEDIAEDLIDF</Hsp_hseq>
+      <Hsp_midline>F G Y + LD KGR+++P++ R  L++ R ++T  ++ CL+ +   +W     ++     +    +R  +R   + A EVELD+  R+ IP +LR+YA L K+C ++G+S+ +EIWDR  + ++  ESE  F    E L D </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|38258107|sp|Q8CSX8.1|MRAZ_STAES</Hit_id>
+  <Hit_def>RecName: Full=Transcriptional regulator MraZ &gt;gi|68565679|sp|Q5HQ14.1|MRAZ_STAEQ RecName: Full=Transcriptional regulator MraZ</Hit_def>
+  <Hit_accession>Q8CSX8</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.293</Hsp_bit-score>
+      <Hsp_score>251</Hsp_score>
+      <Hsp_evalue>4.4435e-26</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>FTGAYSYNLDEKGRLMLPARLRVALSDTRLVLTCAIESCLWVFPRAQWDRFSSQISARASLFHAPSRAVLRRLIAPAQEVELDRAWRLFIPPSLREYAALEKDCLILGLSHCLEIWDRARYRAYLAESEADFRAGTETLQDL</Hsp_qseq>
+      <Hsp_hseq>FMGEFDHQLDTKGRMIIPSKFRYDLNE-RFIITRGLDKCLFGYTLEEWQQIEEKMKT-LPMTKKDARKFMRMFFSGAVEVELDKQGRINIPQNLRKYANLSKECTVIGVSNRIEIWDRETWNDFYDESEESFEDIAEDLIDF</Hsp_hseq>
+      <Hsp_midline>F G + + LD KGR+++P++ R  L++ R ++T  ++ CL+ +   +W +   ++     +    +R  +R   + A EVELD+  R+ IP +LR+YA L K+C ++G+S+ +EIWDR  +  +  ESE  F    E L D </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|122271205|sp|Q03W29.1|MRAZ_LEUMM</Hit_id>
+  <Hit_def>RecName: Full=Transcriptional regulator MraZ</Hit_def>
+  <Hit_accession>Q03W29</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.908</Hsp_bit-score>
+      <Hsp_score>250</Hsp_score>
+      <Hsp_evalue>6.86133e-26</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>149</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>FTGAYSYNLDEKGRLMLPARLRVALSDTRLVLTCAIESCLWVFPRAQWDRFSSQISARASLFHAPSRAVLRRLIAPAQEVELDRAWRLFIPPSLREYAALEKDCLILGLSHCLEIWDRARYRAYLAESEADFRAGTETLQDLCL</Hsp_qseq>
+      <Hsp_hseq>FMGEYSHTLDTKSRLIIPAKFRNQLGD-QFIITKWMEKSLRAMPMAVWEKLQEQLN-QLPLGKKDARAFRRFVMAGALEAEFDKQGRIVVPNNLREYASLEKSVVVTGVGDSFEIWSAENWSAYTAETADDFDNIAEGLVDFDL</Hsp_hseq>
+      <Hsp_midline>F G YS+ LD K RL++PA+ R  L D + ++T  +E  L   P A W++   Q++ +  L    +RA  R ++A A E E D+  R+ +P +LREYA+LEK  ++ G+    EIW    + AY AE+  DF    E L D  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|122275404|sp|Q04B78.1|MRAZ_LACDB</Hit_id>
+  <Hit_def>RecName: Full=Transcriptional regulator MraZ &gt;gi|122397264|sp|Q1GAU1.1|MRAZ_LACDA RecName: Full=Transcriptional regulator MraZ</Hit_def>
+  <Hit_accession>Q04B78</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.523</Hsp_bit-score>
+      <Hsp_score>249</Hsp_score>
+      <Hsp_evalue>8.12869e-26</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>149</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>FTGAYSYNLDEKGRLMLPARLRVALSDTRLVLTCAIESCLWVFPRAQWDRFSSQISARASLFHAPSRAVLRRLIAPAQEVELDRAWRLFIPPSLREYAALEKDCLILGLSHCLEIWDRARYRAYLAESEADFRAGTETLQDLCL</Hsp_qseq>
+      <Hsp_hseq>FMGEYQHNLDAKGRLIIPAKLREQIGPA-MVLTRGMEGCIFGYPLTEWAKIEAKL-AKLPLTKKNARSFTRMFYSGAMEGEFDKQGRINLSPTLKKHAGLVKECVIVGVSNRIEIWAKERWEEYSDEANESYDEIAEDLDDIEL</Hsp_hseq>
+      <Hsp_midline>F G Y +NLD KGRL++PA+LR  +    +VLT  +E C++ +P  +W +  +++ A+  L    +R+  R   + A E E D+  R+ + P+L+++A L K+C+I+G+S+ +EIW + R+  Y  E+   +    E L D+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|254813274|sp|B8FT65.1|MRAZ_DESHD</Hit_id>
+  <Hit_def>RecName: Full=Transcriptional regulator MraZ</Hit_def>
+  <Hit_accession>B8FT65</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.523</Hsp_bit-score>
+      <Hsp_score>249</Hsp_score>
+      <Hsp_evalue>9.13318e-26</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>149</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>FTGAYSYNLDEKGRLMLPARLRVALSDTRLVLTCAIESCLWVFPRAQWDRFSSQISARASLFHAP-SRAVLRRLIAPAQEVELDRAWRLFIPPSLREYAALEKDCLILGLSHCLEIWDRARYRAYLAESEADFRAGTETLQDLCL</Hsp_qseq>
+      <Hsp_hseq>FMGEYLHTIDGKGRLIVPARFREALGE-RFIATKGLDHCLFVYPLDEWKVLEEKL--RALPFTQPEARAFVRFFFSGATECELDKQGRILLPANLREYAQLDKDAVLVGVSSRVEIWSQALWANYSRQAEDAYASAAESLVNLGI</Hsp_hseq>
+      <Hsp_midline>F G Y + +D KGRL++PAR R AL + R + T  ++ CL+V+P  +W     ++  RA  F  P +RA +R   + A E ELD+  R+ +P +LREYA L+KD +++G+S  +EIW +A +  Y  ++E  + +  E+L +L +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>462628</Statistics_db-num>
+      <Statistics_db-len>173435234</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,602 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>Query_187827</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>136</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_187827</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>136</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|2494517|sp|P70910.1|FLGB_BORHE</Hit_id>
+  <Hit_def>RecName: Full=Flagellar basal body rod protein FlgB</Hit_def>
+  <Hit_accession>P70910</Hit_accession>
+  <Hit_len>135</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.2117</Hsp_bit-score>
+      <Hsp_score>243</Hsp_score>
+      <Hsp_evalue>3.39524e-25</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>MNSFTRTVDLLHRALDVNALRYEVTANNLANAEVPGFKRTDVNFEAELKRALDSQR-NETSFFKQATAGTNMLSSDVIDYRSVRPRRVLDYLTDVKANGNNVDAEQEAMHVLKIQMHYQMLSQMVGFQYRQVESVLR</Hsp_qseq>
+      <Hsp_hseq>MNIFEMSVDLAHRYLDVLSLRQSVIADNIANVDTPNFKRSKVTFEAELERAILNERASNLSLIRGNDKNLNGFKE--LGYLDVKPSRMLDYLSILKNDGNNVDIDSEMKNLIQNQMIYSLFTNIQAHHFKSVNIVIK</Hsp_hseq>
+      <Hsp_midline>MN F  +VDL HR LDV +LR  V A+N+AN + P FKR+ V FEAEL+RA+ ++R +  S  +      N      + Y  V+P R+LDYL+ +K +GNNVD + E  ++++ QM Y + + +    ++ V  V++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1706829|sp|P52608.1|FLGB_BORBU</Hit_id>
+  <Hit_def>RecName: Full=Flagellar basal body rod protein FlgB</Hit_def>
+  <Hit_accession>P52608</Hit_accession>
+  <Hit_len>135</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.4413</Hsp_bit-score>
+      <Hsp_score>241</Hsp_score>
+      <Hsp_evalue>7.93591e-25</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>MNSFTRTVDLLHRALDVNALRYEVTANNLANAEVPGFKRTDVNFEAELKRA-LDSQRNETSFFKQATAGTNMLSSDVIDYRSVRPRRVLDYLTDVKANGNNVDAEQEAMHVLKIQMHYQMLSQMVGFQYRQVESVLR</Hsp_qseq>
+      <Hsp_hseq>MNDFERSVDFSHRYLDVLSLRQSVISDNIANIDTPNFKRSKISFESELEKAFLNEDKNDLNLIKSSDKHLSGFKN--LKYSDVKPHRVLDHFSTMNNNGNNVDIDSEVKALVQNQMMYHLMTNVQAHYFKSINIVLK</Hsp_hseq>
+      <Hsp_midline>MN F R+VD  HR LDV +LR  V ++N+AN + P FKR+ ++FE+EL++A L+  +N+ +  K +    +   +  + Y  V+P RVLD+ + +  NGNNVD + E   +++ QM Y +++ +    ++ +  VL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|78100008|sp|P0ABX0.2|FLGB_ECOL6</Hit_id>
+  <Hit_def>RecName: Full=Flagellar basal body rod protein FlgB; AltName: Full=Putative proximal rod protein &gt;gi|78100009|sp|P0ABW9.2|FLGB_ECOLI RecName: Full=Flagellar basal body rod protein FlgB; AltName: Full=Putative proximal rod protein &gt;gi|78100010|sp|P0ABX1.2|FLGB_SHIFL RecName: Full=Flagellar basal body rod protein FlgB; AltName: Full=Putative proximal rod protein</Hit_def>
+  <Hit_accession>P0ABX0</Hit_accession>
+  <Hit_len>138</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.6842</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>3.81553e-09</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>127</Hsp_align-len>
+      <Hsp_qseq>HRALDVNALRYEVTANNLANAEVPGFKRTDVNFEAELKRALDSQRNETSFFKQATAGTNMLSSDVIDYRSVRPRRVLDY-LTDVKA-NGNNVDAEQEAMHVLKIQMHYQMLSQMVGFQYRQVESVLR</Hsp_qseq>
+      <Hsp_hseq>QEALNLRAQRQEVLAANIANADTPGYQARDIDFASELKKVMQRGRDATSVVALTMTSTQHIPAQAL----TPPTAELQYRIPDQPSLDGNTVDMDRERTQFADNSLQYQMSLSALSGQIKGMMNVLQ</Hsp_hseq>
+      <Hsp_midline>  AL++ A R EV A N+ANA+ PG++  D++F +ELK+ +   R+ TS        T  + +  +      P   L Y + D  + +GN VD ++E        + YQM    +  Q + + +VL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|120293|sp|P16437.2|FLGB_SALTY</Hit_id>
+  <Hit_def>RecName: Full=Flagellar basal body rod protein FlgB; AltName: Full=Putative proximal rod protein</Hit_def>
+  <Hit_accession>P16437</Hit_accession>
+  <Hit_len>138</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.9138</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>6.81701e-09</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>126</Hsp_align-len>
+      <Hsp_qseq>HRALDVNALRYEVTANNLANAEVPGFKRTDVNFEAELKRALDSQRNETSFFKQATAGTNMLSSDVIDYRSVRPRRVLDYLTDVKA-NGNNVDAEQEAMHVLKIQMHYQMLSQMVGFQYRQVESVLR</Hsp_qseq>
+      <Hsp_hseq>QEALNLRAQRQEILAANIANADTPGYQARDIDFASELKKVMVRGREETGGVALTLTSSHHIPAQAVSSPAV---DLLYRVPDQPSLDGNTVDMDRERTQFADNSLKYQMGLTVLGSQLKGMMNVLQ</Hsp_hseq>
+      <Hsp_midline>  AL++ A R E+ A N+ANA+ PG++  D++F +ELK+ +   R ET         ++ + +  +   +V    +L  + D  + +GN VD ++E        + YQM   ++G Q + + +VL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|2494519|sp|Q56893.3|FLGB_YEREN</Hit_id>
+  <Hit_def>RecName: Full=Flagellar basal body rod protein FlgB</Hit_def>
+  <Hit_accession>Q56893</Hit_accession>
+  <Hit_len>137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.7582</Hsp_bit-score>
+      <Hsp_score>125</Hsp_score>
+      <Hsp_evalue>1.80384e-08</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>HRALDVNALRYEVTANNLANAEVPGFKRTDVNFEAELKRALDSQRNETSFFKQATAGTNMLSSDVIDYRSVRPRRVLDYLTDVK----ANGNNVDAEQEAMHVLKIQMHYQMLSQMVGFQYRQVESVLR</Hsp_qseq>
+      <Hsp_hseq>QEALNLRAQRQEILSSNIANADTPGFQARDIDFSSQLKKVMEQGRASGT-----GVSLSLTSARHIPASTVQPPD-LDLLFRVPDQPSMDGNTVDMDRERTNFADNSLKYQTDLTVLGGQIKGMMSVLQ</Hsp_hseq>
+      <Hsp_midline>  AL++ A R E+ ++N+ANA+ PGF+  D++F ++LK+ ++  R   +         ++ S+  I   +V+P   LD L  V      +GN VD ++E  +     + YQ    ++G Q + + SVL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|75447719|sp|Q8GLP8.1|FLGB_AERHY</Hit_id>
+  <Hit_def>RecName: Full=Flagellar basal body rod protein FlgB</Hit_def>
+  <Hit_accession>Q8GLP8</Hit_accession>
+  <Hit_len>132</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.7582</Hsp_bit-score>
+      <Hsp_score>125</Hsp_score>
+      <Hsp_evalue>1.85036e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>SFTRTVDLLHRALDVNALRYEVTANNLANAEVPGFKRTDVNFEAELKRALDSQRNETSFFKQATAGTNM-LSSDVIDYRSVRPRRVLDYLTDVKANGNNVDAEQEAMHVLKIQMHYQ</Hsp_qseq>
+      <Hsp_hseq>SFDKAFGIHQYALSVRSKRAEVLSSNIANADTPGFKARDINF----SQALEEAQHQQGFGLATTSEKHFALQSDAPGLTQYR-----NPLQPDTGDGNTVDVQQERSEFLRNSLEYQ</Hsp_hseq>
+      <Hsp_midline>SF +   +   AL V + R EV ++N+ANA+ PGFK  D+NF     +AL+  +++  F    T+  +  L SD       R     + L     +GN VD +QE    L+  + YQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|11386804|sp|P57419.1|FLGB_BUCAI</Hit_id>
+  <Hit_def>RecName: Full=Flagellar basal body rod protein FlgB</Hit_def>
+  <Hit_accession>P57419</Hit_accession>
+  <Hit_len>133</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>7.7562e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>MNSFTRTVDLLHRALDVNALRYEVTANNLANAEVPGFKRTDVNFEAELKRALDSQRNETSFFKQATAGTNMLSSDVIDYRSVRPRRVLDYLTD-VKANGNNVDAEQEAMHVLKIQMHYQ</Hsp_qseq>
+      <Hsp_hseq>FNKINQIFNFHQQALNLCSQRQEILSANIANADTPGYKSIDFNFKNELNKTL--YKNKKTIFLKKTSPNHLNEK----HKNLFLLKTIPVLTNQIKQDGNTVNMDRERIEFLNNSIKYQ</Hsp_hseq>
+      <Hsp_midline> N   +  +   +AL++ + R E+ + N+ANA+ PG+K  D NF+ EL + L   +N+ + F + T+  ++       ++++   + +  LT+ +K +GN V+ ++E +  L   + YQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|378548376|sp|C8BKB7.1|FLGB_YERRU</Hit_id>
+  <Hit_def>RecName: Full=Flagellar basal body rod protein FlgB</Hit_def>
+  <Hit_accession>C8BKB7</Hit_accession>
+  <Hit_len>137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.6766</Hsp_bit-score>
+      <Hsp_score>117</Hsp_score>
+      <Hsp_evalue>1.97717e-07</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>HRALDVNALRYEVTANNLANAEVPGFKRTDVNFEAELKRALDSQR-NETSFFKQATAGTNMLSSDVIDYRSVRPRRVLDYLTDVK----ANGNNVDAEQEAMHVLKIQMHYQMLSQMVGFQYRQVESVLR</Hsp_qseq>
+      <Hsp_hseq>QEALNLRAQRQEILSANIANADTPGFQARDIDFSSQLQKVMEQGRVNGSGMSLSLTAARH------IPAQNIQPPD-LDLLFRVPDQPSMDGNTVDMDRERTNFADNSLKYQTDLTILGGQIKGMMSVLQ</Hsp_hseq>
+      <Hsp_midline>  AL++ A R E+ + N+ANA+ PGF+  D++F ++L++ ++  R N +      TA  +      I  ++++P   LD L  V      +GN VD ++E  +     + YQ    ++G Q + + SVL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|25008459|sp|Q8K9K9.1|FLGB_BUCAP</Hit_id>
+  <Hit_def>RecName: Full=Flagellar basal body rod protein FlgB</Hit_def>
+  <Hit_accession>Q8K9K9</Hit_accession>
+  <Hit_len>133</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1358</Hsp_bit-score>
+      <Hsp_score>113</Hsp_score>
+      <Hsp_evalue>7.17866e-07</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>RTVDLLHRALDVNALRYEVTANNLANAEVPGFKRTDVNFEAELKRALDSQRNETSFFKQATAGTNMLSSDVIDYRSVRPRRVLDYLTDVKANGNNVDAEQEAMHVLKIQMHYQMLSQMVGFQYRQVESVLR</Hsp_qseq>
+      <Hsp_hseq>KTLDFNQNLLNLYAKRQEILSSNIANADTPNYKAMDINFKDEMDKITKKSNLDITLTKTSSHHLNPRKKNFFIFE-VKPITS----KEIQSNGNTVDMNRERIEFIKNTLKYEENLVFIKNEIKNIMNVLK</Hsp_hseq>
+      <Hsp_midline>+T+D     L++ A R E+ ++N+ANA+ P +K  D+NF+ E+ +       + +  K ++   N    +   +  V+P        ++++NGN VD  +E +  +K  + Y+     +  + + + +VL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|378548306|sp|A0KM45.1|FLGB_AERHH</Hit_id>
+  <Hit_def>RecName: Full=Flagellar basal body rod protein FlgB</Hit_def>
+  <Hit_accession>A0KM45</Hit_accession>
+  <Hit_len>132</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.4394</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>6.22867e-06</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>SFTRTVDLLHRALDVNALRYEVTANNLANAEVPGFKRTDVNFEAELKRALDSQRNETSFFKQATAGTNMLSSDVIDYRSVRPRRVLDYLTDVKANGNNVDAEQEAMHVLKIQMHYQ</Hsp_qseq>
+      <Hsp_hseq>SFDKAFGIHQYTLSVRSKRAEVLSSNIANADTPGFKARDINFSQALEEAQQQQGFGLATTSEKHFALQMDAPGVTQYR--------NPLQPDTGDGNTVDVQQERSEFLRNSLEYQ</Hsp_hseq>
+      <Hsp_midline>SF +   +    L V + R EV ++N+ANA+ PGFK  D+NF   L+ A   Q    +   +      M +  V  YR        + L     +GN VD +QE    L+  + YQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|378548373|sp|B4EYN9.1|FLGB_PROMH</Hit_id>
+  <Hit_def>RecName: Full=Flagellar basal body rod protein FlgB</Hit_def>
+  <Hit_accession>B4EYN9</Hit_accession>
+  <Hit_len>137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.669</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>1.43182e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>57</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>MNSFTRTVDLLHRALDVNALRYEVTANNLANAEVPGFKRTDVNFEAELKRALDSQR</Hsp_qseq>
+      <Hsp_hseq>LDKLENTFHFQQEALSLRNKRQEILAANIANADTPGFQARDIDFAAELKKTMENGR</Hsp_hseq>
+      <Hsp_midline>++    T      AL +   R E+ A N+ANA+ PGF+  D++F AELK+ +++ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|75427894|sp|P96972.1|FLGB_PROMI</Hit_id>
+  <Hit_def>RecName: Full=Flagellar basal body rod protein FlgB</Hit_def>
+  <Hit_accession>P96972</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.669</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>1.50703e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>57</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>MNSFTRTVDLLHRALDVNALRYEVTANNLANAEVPGFKRTDVNFEAELKRALDSQR</Hsp_qseq>
+      <Hsp_hseq>LDKLQNTFHFQQEALSLRNKRQEILAANIANADTPGFQARDIDFAAELKKTMENGR</Hsp_hseq>
+      <Hsp_midline>++    T      AL +   R E+ A N+ANA+ PGF+  D++F AELK+ +++ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|120292|sp|P24500.1|FLGB_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Flagellar basal body rod protein FlgB</Hit_def>
+  <Hit_accession>P24500</Hit_accession>
+  <Hit_len>129</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>3.2185e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>MNSFTRTVDLLHRALDVNALRYEVTANNLANAEVPGFKRTDVNFEAELKRALDSQRNETSFFKQATAGTNMLSSDVIDYRSV-------RPRRVLDYLTDVKANGNNVDAEQEAMHVLKIQMHYQMLSQMVGFQYRQVESVL</Hsp_qseq>
+      <Hsp_hseq>MSLFSGTIQNLENALSRADIKQKVITNNIANIDTPNYKAKKVSFQ----NLLDQESSRLEAIK-------------TDYRHVDFSDTDSNYSIVASGDTSYQQNGNNVDVDKEMTELAQNQINYQALVERMNGKFNSLKTVL</Hsp_hseq>
+      <Hsp_midline>M+ F+ T+  L  AL    ++ +V  NN+AN + P +K   V+F+      LD + +     K              DYR V           V    T  + NGNNVD ++E   + + Q++YQ L + +  ++  +++VL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|46395819|sp|Q89AI0.1|FLGB_BUCBP</Hit_id>
+  <Hit_def>RecName: Full=Flagellar basal body rod protein FlgB</Hit_def>
+  <Hit_accession>Q89AI0</Hit_accession>
+  <Hit_len>136</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.00566116</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>63</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>LDVNALRYEVTANNLANAEVPGFKRTDVNFEAELKR----ALDSQRNE</Hsp_qseq>
+      <Hsp_hseq>LNLHAYRQEILASNIANANTPGHKSSDINFSKTFGKLFSNALQGKKNN</Hsp_hseq>
+      <Hsp_midline>L+++A R E+ A+N+ANA  PG K +D+NF     +    AL  ++N </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|75449827|sp|Q8VLR6.1|FLGB_RHOSH</Hit_id>
+  <Hit_def>RecName: Full=Flagellar basal body rod protein FlgB</Hit_def>
+  <Hit_accession>Q8VLR6</Hit_accession>
+  <Hit_len>128</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.0149531</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>MNSFTRTVDLLHRALDVNALRYEVTANNLANAEVPGFKRTDVNFEAELKRALDSQRNETSFFKQATAGTNMLSSDVIDYRSVRPRRVLDYLTDVKANGNNVDAEQEAMHVLKIQMHYQ</Hsp_qseq>
+      <Hsp_hseq>MTGFRDQLGVHAQALVLRETRNNLLTSNIANAATPHYKARDIDFGAELARASGNGTVRTTEARHFAAGGPAARGEALYRDPVSPS--LD--------GNTVEMAVEQMEFAENTLRYQ</Hsp_hseq>
+      <Hsp_midline>M  F   + +  +AL +   R  +  +N+ANA  P +K  D++F AEL RA  +    T+  +   AG      + +    V P   LD        GN V+   E M   +  + YQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|378548374|sp|A3PKG3.1|FLGB_RHOS1</Hit_id>
+  <Hit_def>RecName: Full=Flagellar basal body rod protein FlgB</Hit_def>
+  <Hit_accession>A3PKG3</Hit_accession>
+  <Hit_len>128</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.0173285</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>MNSFTRTVDLLHRALDVNALRYEVTANNLANAEVPGFKRTDVNFEAELKRALDSQRNETSFFKQATAGTNMLSSDVIDYRSVRPRRVLDYLTDVKANGNNVDAEQEAMHVLKIQMHYQ</Hsp_qseq>
+      <Hsp_hseq>MTGFRDQLGVHAQALVLRETRNNLLTSNIANAATPHYKARDIDFGAELARASGNGTLRTTEARHFAAGGPAARGEALYRDPVSPS--LD--------GNTVEMAVEQMEFAENTLRYQ</Hsp_hseq>
+      <Hsp_midline>M  F   + +  +AL +   R  +  +N+ANA  P +K  D++F AEL RA  +    T+  +   AG      + +    V P   LD        GN V+   E M   +  + YQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|123591726|sp|Q3J1S6.1|FLGB_RHOS4</Hit_id>
+  <Hit_def>RecName: Full=Flagellar basal body rod protein FlgB</Hit_def>
+  <Hit_accession>Q3J1S6</Hit_accession>
+  <Hit_len>128</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.0207215</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>MNSFTRTVDLLHRALDVNALRYEVTANNLANAEVPGFKRTDVNFEAELKRALDSQRNETSFFKQATAGTNMLSSDVIDYRSVRPRRVLDYLTDVKANGNNVDAEQEAMHVLKIQMHYQ</Hsp_qseq>
+      <Hsp_hseq>MTGFRDQLGVHAQALVLRETRNNLLTSNIANAATPHYKARDIDFGAELARASGNGTLRTTEARHFAAGGPAARGEALYRDPVTPS--LD--------GNTVEMAVEQMEFAENTLRYQ</Hsp_hseq>
+      <Hsp_midline>M  F   + +  +AL +   R  +  +N+ANA  P +K  D++F AEL RA  +    T+  +   AG      + +    V P   LD        GN V+   E M   +  + YQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|378548375|sp|B9KJG2.1|FLGB_RHOSK</Hit_id>
+  <Hit_def>RecName: Full=Flagellar basal body rod protein FlgB</Hit_def>
+  <Hit_accession>B9KJG2</Hit_accession>
+  <Hit_len>128</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.0615296</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>MNSFTRTVDLLHRALDVNALRYEVTANNLANAEVPGFKRTDVNFEAELKRALDSQRNETSFFKQATAGTNMLSSDVIDYRSVRPRRVLDYLTDVKANGNNVDAEQEAMHVLKIQMHYQ</Hsp_qseq>
+      <Hsp_hseq>MTGFRDQLGVHAQALVLRETRNNLLTSNIANAATPHYKARDIDFGAELARASGTGTLRTTEARHFAVGGPAARGEALYRDPVTP----------SLDGNTVEMGVEQMEFAENTLRYQ</Hsp_hseq>
+      <Hsp_midline>M  F   + +  +AL +   R  +  +N+ANA  P +K  D++F AEL RA  +    T+  +    G      + +    V P            +GN V+   E M   +  + YQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|20141426|sp|Q44335.2|FLGB_AGRFC</Hit_id>
+  <Hit_def>RecName: Full=Flagellar basal body rod protein FlgB</Hit_def>
+  <Hit_accession>Q44335</Hit_accession>
+  <Hit_len>134</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>0.248748</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>DLLHRALDVNALRYEVTANNLANAEVPGFKRTDVN-FEAELKRALDSQRNETSFFKQATAGTNMLSSDVIDYRSVRPRRVLDYLTDVKANGNNVDAEQEAMHVLKIQMHYQMLSQMV</Hsp_qseq>
+      <Hsp_hseq>ELASRQAEWLSVRQEVVATNIANANTPKFHAKDVSPFEAVMQAT--SQQVGMARTNPAHLGESTLSENI----AVRDNPVNNEI-GMQESGNSVGLAEEMTKTGEIKRQYDLNASLV</Hsp_hseq>
+      <Hsp_midline>+L  R  +  ++R EV A N+ANA  P F   DV+ FEA ++    SQ+   +    A  G + LS ++    +VR   V + +  ++ +GN+V   +E     +I+  Y + + +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|6225341|sp|O67244.1|FLGB_AQUAE</Hit_id>
+  <Hit_def>RecName: Full=Flagellar basal body rod protein FlgB</Hit_def>
+  <Hit_accession>O67244</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>0.271669</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>47</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>46</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>RTVDLLHRALDVNALRYEVTANNLANAEVPGFKRTDVNFEAE</Hsp_qseq>
+      <Hsp_hseq>RGVNLYKKYINFTWKRHKVLLGNLANADTPNYKRRDLIFFLE</Hsp_hseq>
+      <Hsp_midline>R V+L  + ++    R++V   NLANA+ P +KR D+ F  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>462628</Statistics_db-num>
+      <Statistics_db-len>173435234</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

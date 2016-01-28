@@ -1,0 +1,602 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>Query_164853</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>419</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_164853</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>419</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|8928134|sp|O83460.1|ISPG_TREPA</Hit_id>
+  <Hit_def>RecName: Full=4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (flavodoxin); AltName: Full=1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate synthase</Hit_def>
+  <Hit_accession>O83460</Hit_accession>
+  <Hit_len>404</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>812.757</Hsp_bit-score>
+      <Hsp_score>2098</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>419</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>404</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>403</Hsp_identity>
+      <Hsp_positive>404</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>VDSSAGVSPCNSPYGSGLLDVPLKLRPRASHYRARSLVIGGKEHVRALPLGGDAPIPIQTMWKEPLIGADLQSIVDRLLELEQLGCDVVRFAVPDRESAELFVALCARTRMPLVADIHFDYRLALRCMDGPVAKVRINPGNIGVRERVRAVVEKARATGTALRIGVNTGSLPGVVKRAVAARYADGMQSVNARAEALVQTAFAEAAYLDQLHFDRVVLSLKASTVAETVRANELFAQQSDIPLHLGVTEAGPLVSGIVKSTLAFSQLLSRNIGATVRVSLSDSMEHEVLAAREILAECGKRAGGVRLVSCPRCGRIGFDVHAFVRRWQKELFSLKKDITVAVMGCVVNGPGEGKHADLGISGAEDSVIFFKRGKIVRRIQVRDLCADERTRIIDAAFKEELSSL</Hsp_qseq>
+      <Hsp_hseq>MDSSAGVSPCNSPYGSGLLDVPLKLRPRASHYRARSLVIGGKEHVRALPLGGDAPIPIQTMWKEPLIGADLQSIVDRLLELEQLGCDVVRFAVPDRESAELFVALCARTRMPLVADIHFDYRLALRCMDGPVAKVRINPGNIGVRERVRAVVEKARATGTALRIGVNTGSLPGVVKRAVAARYADGMQSVNARAEALVQTAFAEAAYLDQLHFDRVVLSLKASTVAETVRANELFAQQSDIPLHLGVTEAGPLVSGIVKSTLAFSQLLSRNIGATVRVSLSDSMEHEVLAAREILAECGKRAGGVRLVSCPRCGRIGFDVHAFVRRWQKELFSLKKDITVAVMGCVVNGPGEGKHADLGISGAEDSVIFFKRGKIVRRIQVRDLCADERTRIIDAAFKEELSSL</Hsp_hseq>
+      <Hsp_midline>+DSSAGVSPCNSPYGSGLLDVPLKLRPRASHYRARSLVIGGKEHVRALPLGGDAPIPIQTMWKEPLIGADLQSIVDRLLELEQLGCDVVRFAVPDRESAELFVALCARTRMPLVADIHFDYRLALRCMDGPVAKVRINPGNIGVRERVRAVVEKARATGTALRIGVNTGSLPGVVKRAVAARYADGMQSVNARAEALVQTAFAEAAYLDQLHFDRVVLSLKASTVAETVRANELFAQQSDIPLHLGVTEAGPLVSGIVKSTLAFSQLLSRNIGATVRVSLSDSMEHEVLAAREILAECGKRAGGVRLVSCPRCGRIGFDVHAFVRRWQKELFSLKKDITVAVMGCVVNGPGEGKHADLGISGAEDSVIFFKRGKIVRRIQVRDLCADERTRIIDAAFKEELSSL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|50400909|sp|Q73N90.1|ISPG_TREDE</Hit_id>
+  <Hit_def>RecName: Full=4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (flavodoxin); AltName: Full=1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate synthase</Hit_def>
+  <Hit_accession>Q73N90</Hit_accession>
+  <Hit_len>387</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>479.559</Hsp_bit-score>
+      <Hsp_score>1233</Hsp_score>
+      <Hsp_evalue>2.5082e-166</Hsp_evalue>
+      <Hsp_query-from>50</Hsp_query-from>
+      <Hsp_query-to>419</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>387</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>233</Hsp_identity>
+      <Hsp_positive>289</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>382</Hsp_align-len>
+      <Hsp_qseq>RSLVIGGKEHVRALPLGGDAPIPIQTMWKEPLIGADLQSIVDRLLELEQLGCDVVRFAVPDRESAELFVALCARTRMPLVADIHFDYRLALRCMDGPVAKVRINPGNIGVRERVRAVVEKARATGTALRIGVNTGSLPGVVKRAVAARYADGMQSVNA------------RAEALVQTAFAEAAYLDQLHFDRVVLSLKASTVAETVRANELFAQQSDIPLHLGVTEAGPLVSGIVKSTLAFSQLLSRNIGATVRVSLSDSMEHEVLAAREILAECGKRAGGVRLVSCPRCGRIGFDVHAFVRRWQKELFSLKKDITVAVMGCVVNGPGEGKHADLGISGAEDSVIFFKRGKIVRRIQVRDLCADERTRIIDAAFKEELSSL</Hsp_qseq>
+      <Hsp_hseq>RTIHIGGKGQVKKLTLGGTSPILLQTMWKESLLGADLLSIVKSLNELEQLGCDIVRFAVPDMDSAEQFVKLTRLTEMPLVADIHFDYKLALRCMDGDTAKIRINPGNIGSKEKTEEVIRKAKDTGTAIRIGVNSGSLPSDLKKKI--EEANSKRNLSGDKKALDDEISLLRADTLTEAAARELEIFEKADFKDAVVSMKASNVRETVMANEIFAKKFDNPLHLGVTEAGPLIQGIVKSTIAFYRLLEQNIGSTIRVSLSDSCENEVIAGREILTECGKRQGGIRLISCPRCGRKGFDVQAFVKRWQTKLLSEKKDISIAVMGCVVNGPGEGKHADLGITGAEDSVIIFKHGAITKRLDLKKLTEEEKIKAVDKAFIEELQSL</Hsp_hseq>
+      <Hsp_midline>R++ IGGK  V+ L LGG +PI +QTMWKE L+GADL SIV  L ELEQLGCD+VRFAVPD +SAE FV L   T MPLVADIHFDY+LALRCMDG  AK+RINPGNIG +E+   V+ KA+ TGTA+RIGVN+GSLP  +K+ +    A+  ++++             RA+ L + A  E    ++  F   V+S+KAS V ETV ANE+FA++ D PLHLGVTEAGPL+ GIVKST+AF +LL +NIG+T+RVSLSDS E+EV+A REIL ECGKR GG+RL+SCPRCGR GFDV AFV+RWQ +L S KKDI++AVMGCVVNGPGEGKHADLGI+GAEDSVI FK G I +R+ ++ L  +E+ + +D AF EEL SL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|20138561|sp|P58667.1|ISPG_CLOPE</Hit_id>
+  <Hit_def>RecName: Full=4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (flavodoxin); AltName: Full=1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate synthase</Hit_def>
+  <Hit_accession>P58667</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>266.544</Hsp_bit-score>
+      <Hsp_score>680</Hsp_score>
+      <Hsp_evalue>1.27613e-83</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>410</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>348</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>354</Hsp_align-len>
+      <Hsp_qseq>KEHVRALPLGGDAPIPIQTMWKEPLIGADLQSIVDRLLELEQLGCDVVRFAVPDRESAELFVALCARTRMPLVADIHFDYRLALRCMDGPVAKVRINPGNIGVRERVRAVVEKARATGTALRIGVNTGSLPGVVKRAVAARYADGMQSVNARAEALVQTAFAEAAYLDQLHFDRVVLSLKASTVAETVRANELFAQQSDIPLHLGVTEAGPLVSGIVKSTLAFSQLLSRNIGATVRVSLSDSMEHEVLAAREILAECGKRAGGVRLVSCPRCGRIGFDVHAFVRRWQKELFSLKKDITVAVMGCVVNGPGEGKHADLGISGAEDSVIFFKRGKIVRRIQVRDLCADERTRIIDA</Hsp_qseq>
+      <Hsp_hseq>KVKVGNIYVGGDFRVSIQSMTNTDT--KDVESTVKQIKELQEAGCDIVRCAVLDMDAACAIKDIVAKINIPLVADIHFDYRLALKAIENGVSAIRINPGNIGSREKVEAVVKACKEKNIPIRIGVNSGSLS----KELLTKYG------KPTPDALVESALEHVKILEELDFHDIVISMKSSNVETMIESYRIASQKTNYPLHLGVTEAGTPWRGTIKSAIGIGTLLAEGIGDTIRVSLTGDPVEEIKVGKEILKNFGYVKEGIEFISCPTCGRTQIDLINIAKEVEERLSSCKKNIKVAVMGCVVNGPGEAREADIGIAGGKGEGLIFRKGEIIKKVKEEDL-VEELIKIIET</Hsp_hseq>
+      <Hsp_midline>K  V  + +GGD  + IQ+M        D++S V ++ EL++ GCD+VR AV D ++A     + A+  +PLVADIHFDYRLAL+ ++  V+ +RINPGNIG RE+V AVV+  +     +RIGVN+GSL     + +  +Y           +ALV++A      L++L F  +V+S+K+S V   + +  + +Q+++ PLHLGVTEAG    G +KS +    LL+  IG T+RVSL+     E+   +EIL   G    G+  +SCP CGR   D+    +  ++ L S KK+I VAVMGCVVNGPGE + AD+GI+G +   + F++G+I+++++  DL  +E  +II+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|22095778|sp|Q8RA30.1|ISPG_CALS4</Hit_id>
+  <Hit_def>RecName: Full=4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (flavodoxin); AltName: Full=1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate synthase</Hit_def>
+  <Hit_accession>Q8RA30</Hit_accession>
+  <Hit_len>355</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>266.544</Hsp_bit-score>
+      <Hsp_score>680</Hsp_score>
+      <Hsp_evalue>1.52504e-83</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>143</Hsp_identity>
+      <Hsp_positive>203</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>344</Hsp_align-len>
+      <Hsp_qseq>ARSLVIGGKEHVRALPLGGDAPIPIQTMWKEPLIGADLQSIVDRLLELEQLGCDVVRFAVPDRESAELFVALCARTRMPLVADIHFDYRLALRCMDGPVAKVRINPGNIGVRERVRAVVEKARATGTALRIGVNTGSLPGVVKRAVAARYADGMQSVNARAEALVQTAFAEAAYLDQLHFDRVVLSLKASTVAETVRANELFAQQSDIPLHLGVTEAGPLVSGIVKSTLAFSQLLSRNIGATVRVSLSDSMEHEVLAAREILAECGKRAGGVRLVSCPRCGRIGFDVHAFVRRWQKELFSLKKDITVAVMGCVVNGPGEGKHADLGISGAEDSVIFFKRGKIVR</Hsp_qseq>
+      <Hsp_hseq>TREIKIGNKK------IGGNNPILVQSMTNTDT--HDVEKTVEQIKRLEEEGCDIIRVAVPDEKAAYSIKEIKKHINIPLVADIHFDYRLAIKSIENGADKIRINPGNIGREENIKKVVEAAKERGIPIRIGVNAGSL----EKEILNKYG------GITPEAVVESALKSVRLLEKLGFYDIVISLKTSNVPLTIEAYKLASSKVDYPLHLGITEAGTLESGTIKSAIGIGTLLYMGIGDTIRVSLTGDPVHEVRVGRQILRALGLLKEGVEVISCPTCGRTKIDVIKLATEVERRTSHIKKPLKVAVMGCVVNGPGEAKEADIGIAGGDREGVIFKKGKIYK</Hsp_hseq>
+      <Hsp_midline> R + IG K+      +GG+ PI +Q+M        D++  V+++  LE+ GCD++R AVPD ++A     +     +PLVADIHFDYRLA++ ++    K+RINPGNIG  E ++ VVE A+  G  +RIGVN GSL    ++ +  +Y           EA+V++A      L++L F  +V+SLK S V  T+ A +L + + D PLHLG+TEAG L SG +KS +    LL   IG T+RVSL+    HEV   R+IL   G    GV ++SCP CGR   DV       ++    +KK + VAVMGCVVNGPGE K AD+GI+G +   + FK+GKI +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|32129670|sp|Q895K3.1|ISPG_CLOTE</Hit_id>
+  <Hit_def>RecName: Full=4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (flavodoxin); AltName: Full=1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate synthase</Hit_def>
+  <Hit_accession>Q895K3</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>266.159</Hsp_bit-score>
+      <Hsp_score>679</Hsp_score>
+      <Hsp_evalue>1.70403e-83</Hsp_evalue>
+      <Hsp_query-from>65</Hsp_query-from>
+      <Hsp_query-to>399</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>335</Hsp_align-len>
+      <Hsp_qseq>LGGDAPIPIQTMWKEPLIGADLQSIVDRLLELEQLGCDVVRFAVPDRESAELFVALCARTRMPLVADIHFDYRLALRCMDGPVAKVRINPGNIGVRERVRAVVEKARATGTALRIGVNTGSLPGVVKRAVAARYADGMQSVNARAEALVQTAFAEAAYLDQLHFDRVVLSLKASTVAETVRANELFAQQSDIPLHLGVTEAGPLVSGIVKSTLAFSQLLSRNIGATVRVSLSDSMEHEVLAAREILAECGKRAGGVRLVSCPRCGRIGFDVHAFVRRWQKELFSLKKDITVAVMGCVVNGPGEGKHADLGISGAEDSVIFFKRGKIVRRIQVRDL</Hsp_qseq>
+      <Hsp_hseq>IGGDSPITVQSMTNTDT--RDVEKTVEQIKKLEEVDCDIIRCAVPDDEACQALGKITKKIAIPLVADIHFDYRLAIKAIDNGISALRINPGNIGNEEKVNLVSKKAKEKGIPIRIGVNSGSL----EKDILNKYG------GVCSDALVESALRHVEILNKVDFHDIVISIKSSNVNQMIESYKKISSKVNYPLHLGVTEAGTPWRGIIKSSVGIGTLLSQGIGDTIRVSLTGDPIEEIKAGKEILRALNLYSKGVEFISCPTCGRTEINLIKIAKEVEKRLDGFDKNIKVAIMGCVVNGPGEARDADIGIAGGKGYGLIFKKGEVVRKLKEEDL</Hsp_hseq>
+      <Hsp_midline>+GGD+PI +Q+M        D++  V+++ +LE++ CD++R AVPD E+ +    +  +  +PLVADIHFDYRLA++ +D  ++ +RINPGNIG  E+V  V +KA+  G  +RIGVN+GSL    ++ +  +Y          ++ALV++A      L+++ F  +V+S+K+S V + + + +  + + + PLHLGVTEAG    GI+KS++    LLS+ IG T+RVSL+     E+ A +EIL      + GV  +SCP CGR   ++    +  +K L    K+I VA+MGCVVNGPGE + AD+GI+G +   + FK+G++VR+++  DL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|259493934|sp|C4L3K5.1|ISPG_EXISA</Hit_id>
+  <Hit_def>RecName: Full=4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (flavodoxin); AltName: Full=1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate synthase</Hit_def>
+  <Hit_accession>C4L3K5</Hit_accession>
+  <Hit_len>373</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>265.388</Hsp_bit-score>
+      <Hsp_score>677</Hsp_score>
+      <Hsp_evalue>6.21875e-83</Hsp_evalue>
+      <Hsp_query-from>63</Hsp_query-from>
+      <Hsp_query-to>417</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>355</Hsp_align-len>
+      <Hsp_qseq>LPLGGDAPIPIQTMWKEPLIGADLQSIVDRLLELEQLGCDVVRFAVPDRESAELFVALCARTRMPLVADIHFDYRLALRCMDGPVAKVRINPGNIGVRERVRAVVEKARATGTALRIGVNTGSLPGVVKRAVAARYADGMQSVNARAEALVQTAFAEAAYLDQLHFDRVVLSLKASTVAETVRANELFAQQSDIPLHLGVTEAGPLVSGIVKSTLAFSQLLSRNIGATVRVSLSDSMEHEVLAAREILAECGKRAGGVRLVSCPRCGRIGFDVHAFVRRWQKELFSLKKDITVAVMGCVVNGPGEGKHADLGISGAEDSVIFFKRGKIVRRIQVRDLCADERTRIIDAAFKEELS</Hsp_qseq>
+      <Hsp_hseq>LIIGGSNEVIIQSMTTTKT--HDVEATVAEIKRLEEAGCQVVRVACPDERAADALAEIKSRINIPLVVDIHFDYKLALKAIESGVDKIRINPGNIGRREKVEAVVNAAKAKGIPIRIGVNAGSL----EKQFLEKYG------YPTAQGMVESAMHHVKILEDLGFYNTIISLKASDVNLALEAYTLAAKTFDYPLHVGITESGPLFSGSLKSAAGLGAILSLGIGSTVRVSLSDDPVEEVKVAKEVLKSFGLAANAATLISCPTCGRIEIDLISIAKEVEEYIQNINVNIKVAVLGCAVNGPGEAREADIGIAGARNEGLLFRHGKIIRKVPEATMV-EELKKEIDAIAAEKMA</Hsp_hseq>
+      <Hsp_midline>L +GG   + IQ+M        D+++ V  +  LE+ GC VVR A PD  +A+    + +R  +PLV DIHFDY+LAL+ ++  V K+RINPGNIG RE+V AVV  A+A G  +RIGVN GSL    ++    +Y          A+ +V++A      L+ L F   ++SLKAS V   + A  L A+  D PLH+G+TE+GPL SG +KS      +LS  IG+TVRVSLSD    EV  A+E+L   G  A    L+SCP CGRI  D+ +  +  ++ + ++  +I VAV+GC VNGPGE + AD+GI+GA +  + F+ GKI+R++    +  +E  + IDA   E+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|20138684|sp|Q97I56.1|ISPG_CLOAB</Hit_id>
+  <Hit_def>RecName: Full=4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (flavodoxin); AltName: Full=1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate synthase</Hit_def>
+  <Hit_accession>Q97I56</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>264.618</Hsp_bit-score>
+      <Hsp_score>675</Hsp_score>
+      <Hsp_evalue>7.15539e-83</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>409</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>347</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>353</Hsp_align-len>
+      <Hsp_qseq>KEHVRALPLGGDAPIPIQTMWKEPLIGADLQSIVDRLLELEQLGCDVVRFAVPDRESAELFVALCARTRMPLVADIHFDYRLALRCMDGPVAKVRINPGNIGVRERVRAVVEKARATGTALRIGVNTGSLPGVVKRAVAARYADGMQSVNARAEALVQTAFAEAAYLDQLHFDRVVLSLKASTVAETVRANELFAQQSDIPLHLGVTEAGPLVSGIVKSTLAFSQLLSRNIGATVRVSLSDSMEHEVLAAREILAECGKRAGGVRLVSCPRCGRIGFDVHAFVRRWQKELFSLKKDITVAVMGCVVNGPGEGKHADLGISGAEDSVIFFKRGKIVRRIQVRDLCADERTRIID</Hsp_qseq>
+      <Hsp_hseq>KVKVGSVYVGGDSRVTVQSMTNTDT--RDSKKTIEQIKKLEIAGCDIVRCAVPDFDAASSLSEITKNVKLPVVADIHFDYRLALEAIKNGVSALRINPGNIGSKERVELVAKSAKEKNIPIRIGVNSGSL----EKDILNKYK------RVCSEALVESALNHVKILEDVNFNDIVISIKSSNVQMMIDSYRLISKEVNYPLHLGVTEAGTIWRGTIKSSIGIGTLLSEGIGDTIRVSLTGDPVEEVKVGREILKTFGYLKSGVEFISCPTCGRTSIDLIKIANEVEKRLEKTNKSIKVAVMGCVVNGPGEAREADIGIAGGKGEGLIFKKGEIIKKVKEENL-VDELMREID</Hsp_hseq>
+      <Hsp_midline>K  V ++ +GGD+ + +Q+M        D +  ++++ +LE  GCD+VR AVPD ++A     +    ++P+VADIHFDYRLAL  +   V+ +RINPGNIG +ERV  V + A+     +RIGVN+GSL    ++ +  +Y          +EALV++A      L+ ++F+ +V+S+K+S V   + +  L +++ + PLHLGVTEAG +  G +KS++    LLS  IG T+RVSL+     EV   REIL   G    GV  +SCP CGR   D+       +K L    K I VAVMGCVVNGPGE + AD+GI+G +   + FK+G+I+++++  +L  DE  R ID</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|166217108|sp|A4IQZ4.1|ISPG_GEOTN</Hit_id>
+  <Hit_def>RecName: Full=4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (flavodoxin); AltName: Full=1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate synthase</Hit_def>
+  <Hit_accession>A4IQZ4</Hit_accession>
+  <Hit_len>374</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>264.233</Hsp_bit-score>
+      <Hsp_score>674</Hsp_score>
+      <Hsp_evalue>2.03149e-82</Hsp_evalue>
+      <Hsp_query-from>60</Hsp_query-from>
+      <Hsp_query-to>407</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>350</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>143</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>348</Hsp_align-len>
+      <Hsp_qseq>VRALPLGGDAPIPIQTMWKEPLIGADLQSIVDRLLELEQLGCDVVRFAVPDRESAELFVALCARTRMPLVADIHFDYRLALRCMDGPVAKVRINPGNIGVRERVRAVVEKARATGTALRIGVNTGSLPGVVKRAVAARYADGMQSVNARAEALVQTAFAEAAYLDQLHFDRVVLSLKASTVAETVRANELFAQQSDIPLHLGVTEAGPLVSGIVKSTLAFSQLLSRNIGATVRVSLSDSMEHEVLAAREILAECGKRAGGVRLVSCPRCGRIGFDVHAFVRRWQKELFSLKKDITVAVMGCVVNGPGEGKHADLGISGAEDSVIFFKRGKIVRRIQVRDLCADERTRI</Hsp_qseq>
+      <Hsp_hseq>VGSLTIGGNNEVIIQSMTTTKT--HDVDATVAQIHRLEEAGCQIVRVACPDERAADAIPEIKKRINIPLVADIHFDYKLALKAIEGGVDKIRINPGNIGRREKVEAVVKAAKERGVPIRIGVNAGSL----EKRILEKYG------YPTAEGMVESALYHIRILEELDFHDIIVSLKASDVRLAIEAYEKAARTFDYPLHVGITEAGTLFSGTIKSAVGLGAILSKGIGNTIRISLSADPVEEVKVAREILKTFGLASNAATLISCPTCGRIEIDLISIANEIEDYIAKIKAPIKVAVLGCAVNGPGEAREADIGIAGARGEGLLFRHGKIVRKVPEEQMVEELKKEI</Hsp_hseq>
+      <Hsp_midline>V +L +GG+  + IQ+M        D+ + V ++  LE+ GC +VR A PD  +A+    +  R  +PLVADIHFDY+LAL+ ++G V K+RINPGNIG RE+V AVV+ A+  G  +RIGVN GSL    ++ +  +Y          AE +V++A      L++L F  +++SLKAS V   + A E  A+  D PLH+G+TEAG L SG +KS +    +LS+ IG T+R+SLS     EV  AREIL   G  +    L+SCP CGRI  D+ +     +  +  +K  I VAV+GC VNGPGE + AD+GI+GA    + F+ GKIVR++    +  + +  I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|254806884|sp|B2A390.1|ISPG_NATTJ</Hit_id>
+  <Hit_def>RecName: Full=4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (flavodoxin); AltName: Full=1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate synthase</Hit_def>
+  <Hit_accession>B2A390</Hit_accession>
+  <Hit_len>356</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>262.692</Hsp_bit-score>
+      <Hsp_score>670</Hsp_score>
+      <Hsp_evalue>4.82472e-82</Hsp_evalue>
+      <Hsp_query-from>60</Hsp_query-from>
+      <Hsp_query-to>414</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>352</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>355</Hsp_align-len>
+      <Hsp_qseq>VRALPLGGDAPIPIQTMWKEPLIGADLQSIVDRLLELEQLGCDVVRFAVPDRESAELFVALCARTRMPLVADIHFDYRLALRCMDGPVAKVRINPGNIGVRERVRAVVEKARATGTALRIGVNTGSLPGVVKRAVAARYADGMQSVNARAEALVQTAFAEAAYLDQLHFDRVVLSLKASTVAETVRANELFAQQSDIPLHLGVTEAGPLVSGIVKSTLAFSQLLSRNIGATVRVSLSDSMEHEVLAAREILAECGKRAGGVRLVSCPRCGRIGFDVHAFVRRWQKELFSLKKDITVAVMGCVVNGPGEGKHADLGISGAEDSVIFFKRGKIVRRIQVRDLCADERTRIIDAAFKE</Hsp_qseq>
+      <Hsp_hseq>VGSVTIGGTAPVTIQSMTNTDT--KDTEKTLAQIKDLVEAGCQLVRVAIPDEESVNSFKTLTQFSPVPLIADIHFSYQLAIKAIEAGASKIRINPGNIGSRQRVAKVVEKAKTHNVPIRVGINSGS----VEKNLLQKYGGPTPS------ALVESAVNNVMMLSEMGFGDVVVSIKASDVNTTVKANQEFATRLPNPLHLGITEAGTIKQGTIKSSVGIGTLLSHGIGDTLRVSLSGSPIEEVSVARGILSSL-NLAEGPRIVSCPTCARSNISVEDLASTVEDRLKDLNTSLTVAVMGCEVNGPGEAKEADIGIAGSKEYGVLFKKGKIIDRVPKNQLL-EVLSRAIDEYIDE</Hsp_hseq>
+      <Hsp_midline>V ++ +GG AP+ IQ+M        D +  + ++ +L + GC +VR A+PD ES   F  L   + +PL+ADIHF Y+LA++ ++   +K+RINPGNIG R+RV  VVEKA+     +R+G+N+GS    V++ +  +Y     S      ALV++A      L ++ F  VV+S+KAS V  TV+AN+ FA +   PLHLG+TEAG +  G +KS++    LLS  IG T+RVSLS S   EV  AR IL+     A G R+VSCP C R    V       +  L  L   +TVAVMGC VNGPGE K AD+GI+G+++  + FK+GKI+ R+    L  +  +R ID    E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|73621094|sp|Q5KX35.1|ISPG_GEOKA</Hit_id>
+  <Hit_def>RecName: Full=4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (flavodoxin); AltName: Full=1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate synthase</Hit_def>
+  <Hit_accession>Q5KX35</Hit_accession>
+  <Hit_len>374</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>263.077</Hsp_bit-score>
+      <Hsp_score>671</Hsp_score>
+      <Hsp_evalue>5.25997e-82</Hsp_evalue>
+      <Hsp_query-from>63</Hsp_query-from>
+      <Hsp_query-to>407</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>350</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>345</Hsp_align-len>
+      <Hsp_qseq>LPLGGDAPIPIQTMWKEPLIGADLQSIVDRLLELEQLGCDVVRFAVPDRESAELFVALCARTRMPLVADIHFDYRLALRCMDGPVAKVRINPGNIGVRERVRAVVEKARATGTALRIGVNTGSLPGVVKRAVAARYADGMQSVNARAEALVQTAFAEAAYLDQLHFDRVVLSLKASTVAETVRANELFAQQSDIPLHLGVTEAGPLVSGIVKSTLAFSQLLSRNIGATVRVSLSDSMEHEVLAAREILAECGKRAGGVRLVSCPRCGRIGFDVHAFVRRWQKELFSLKKDITVAVMGCVVNGPGEGKHADLGISGAEDSVIFFKRGKIVRRIQVRDLCADERTRI</Hsp_qseq>
+      <Hsp_hseq>LTIGGSNEVIIQSMTTTKT--HDVEATVAQIHRLEEAGCQIVRVACPDERAAEAIPEIKKRINIPLVADIHFDYKLALKAIEGGVDKIRINPGNIGRREKVEAVVKAAKERGVPIRIGVNAGSLEKRILEKYGYPTADGM----------VESALYHIRILEELDFHDIIVSLKASDVRLAIEAYEKAARTFDYPLHVGITEAGTLFSGTIKSAVGLGAILSKGIGNTIRVSLSADPVEEVKVAREILKTFGLASNAATLISCPTCGRIEIDLIRIANEIEDYIAKIQAPIKVAVLGCAVNGPGEAREADIGIAGARGEGLLFRHGKIVRKVPEEQMVEELKKEI</Hsp_hseq>
+      <Hsp_midline>L +GG   + IQ+M        D+++ V ++  LE+ GC +VR A PD  +AE    +  R  +PLVADIHFDY+LAL+ ++G V K+RINPGNIG RE+V AVV+ A+  G  +RIGVN GSL   +        ADGM          V++A      L++L F  +++SLKAS V   + A E  A+  D PLH+G+TEAG L SG +KS +    +LS+ IG T+RVSLS     EV  AREIL   G  +    L+SCP CGRI  D+       +  +  ++  I VAV+GC VNGPGE + AD+GI+GA    + F+ GKIVR++    +  + +  I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|166973786|sp|A4XLZ4.1|ISPG_CALS8</Hit_id>
+  <Hit_def>RecName: Full=4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (flavodoxin); AltName: Full=1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate synthase</Hit_def>
+  <Hit_accession>A4XLZ4</Hit_accession>
+  <Hit_len>347</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>261.536</Hsp_bit-score>
+      <Hsp_score>667</Hsp_score>
+      <Hsp_evalue>1.02239e-81</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>413</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>346</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>222</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>357</Hsp_align-len>
+      <Hsp_qseq>KEHVRALPLGGDAPIPIQTMWKEPLIGADLQSIVDRLLELEQLGCDVVRFAVPDRESAELFVALCARTRMPLVADIHFDYRLALRCMDGPVAKVRINPGNIGVRERVRAVVEKARATGTALRIGVNTGSLPGVVKRAVAARYADGMQSVNARAEALVQTAFAEAAYLDQLHFDRVVLSLKASTVAETVRANELFAQQSDIPLHLGVTEAGPLVSGIVKSTLAFSQLLSRNIGATVRVSLSDSMEHEVLAAREILAECGKRAGGVRLVSCPRCGRIGFDVHAFVRRWQKELFSLKKDITVAVMGCVVNGPGEGKHADLGISGAEDSVIFFKRGKIVRRIQVRDLCADERTRIIDAAFK</Hsp_qseq>
+      <Hsp_hseq>KIKIGNLYIGGGEPIRIQSMTNTKT--KDIEKTVEQILRLESLGCEIIRVAVPDMESAKAIEKIKAKIHIPIVADIHFDYKLALEAIYNGADKIRINPGNIGGPEKVKKIVDEAKRYGIPIRVGANSGSLP----KEILEKYK------SPTPEAIVEAALNQVRLLESFDFDNIVISVKSSDILTTIKSYEILSRRTSYPLHVGLTEAGTFIAGCVKSSIAIGHLLLQGIGDTIRVSLTDDPEKEVTVAKEILKGL-KLKKGVNIISCPTCARCNVDLIKIANEVEKRIGNLDLDISVAIMGCAVNGPGEAKEADIGIACGIGEGLLFKKGKIVKKVKEDDL-VDELIREIYSLYK</Hsp_hseq>
+      <Hsp_midline>K  +  L +GG  PI IQ+M        D++  V+++L LE LGC+++R AVPD ESA+    + A+  +P+VADIHFDY+LAL  +     K+RINPGNIG  E+V+ +V++A+  G  +R+G N+GSLP    + +  +Y       +   EA+V+ A  +   L+   FD +V+S+K+S +  T+++ E+ ++++  PLH+G+TEAG  ++G VKS++A   LL + IG T+RVSL+D  E EV  A+EIL    K   GV ++SCP C R   D+       +K + +L  DI+VA+MGC VNGPGE K AD+GI+      + FK+GKIV++++  DL  DE  R I + +K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|254806872|sp|B8I6E1.1|ISPG_CLOCE</Hit_id>
+  <Hit_def>RecName: Full=4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (flavodoxin); AltName: Full=1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate synthase</Hit_def>
+  <Hit_accession>B8I6E1</Hit_accession>
+  <Hit_len>353</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>261.151</Hsp_bit-score>
+      <Hsp_score>666</Hsp_score>
+      <Hsp_evalue>1.79375e-81</Hsp_evalue>
+      <Hsp_query-from>65</Hsp_query-from>
+      <Hsp_query-to>394</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>330</Hsp_align-len>
+      <Hsp_qseq>LGGDAPIPIQTMWKEPLIGADLQSIVDRLLELEQLGCDVVRFAVPDRESAELFVALCARTRMPLVADIHFDYRLALRCMDGPVAKVRINPGNIGVRERVRAVVEKARATGTALRIGVNTGSLPGVVKRAVAARYADGMQSVNARAEALVQTAFAEAAYLDQLHFDRVVLSLKASTVAETVRANELFAQQSDIPLHLGVTEAGPLVSGIVKSTLAFSQLLSRNIGATVRVSLSDSMEHEVLAAREILAECGKRAGGVRLVSCPRCGRIGFDVHAFVRRWQKELFSLKKDITVAVMGCVVNGPGEGKHADLGISGAEDSVIFFKRGKIVRRI</Hsp_qseq>
+      <Hsp_hseq>IGGDSPISVQSMTNTDT--RDVKATIHQIKSLEEAGCDIVRLAILDNEAATAIGEIKKHVKIPLVADIHYDYRLAVECMKNGVDKIRLNPGNIGGNDRVRTVAGMAKERGIPIRIGVNSGS----VEKRILEKFG------GVTAEGMVESALAHVAMLENVDFNDIAISIKASSVPMTIAAYRLLSEKCLYPLHVGVTEAGTVYKGTIKSAVGIGCLLAEGIGDTIRVSLTGDPVEEIKVGKQILKSLDLLKEGIEIVSCPTCGRTQVNLIDIANSIEPLLEKLNKNIKVAIMGCAVNGPGEAKDADIGIAGGVNEVLLFKKGRIIRKI</Hsp_hseq>
+      <Hsp_midline>+GGD+PI +Q+M        D+++ + ++  LE+ GCD+VR A+ D E+A     +    ++PLVADIH+DYRLA+ CM   V K+R+NPGNIG  +RVR V   A+  G  +RIGVN+GS    V++ +  ++          AE +V++A A  A L+ + F+ + +S+KAS+V  T+ A  L +++   PLH+GVTEAG +  G +KS +    LL+  IG T+RVSL+     E+   ++IL        G+ +VSCP CGR   ++       +  L  L K+I VA+MGC VNGPGE K AD+GI+G  + V+ FK+G+I+R+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|259493935|sp|C5D4Q3.1|ISPG_GEOSW</Hit_id>
+  <Hit_def>RecName: Full=4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (flavodoxin); AltName: Full=1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate synthase</Hit_def>
+  <Hit_accession>C5D4Q3</Hit_accession>
+  <Hit_len>363</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>260.766</Hsp_bit-score>
+      <Hsp_score>665</Hsp_score>
+      <Hsp_evalue>3.24225e-81</Hsp_evalue>
+      <Hsp_query-from>63</Hsp_query-from>
+      <Hsp_query-to>394</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>332</Hsp_align-len>
+      <Hsp_qseq>LPLGGDAPIPIQTMWKEPLIGADLQSIVDRLLELEQLGCDVVRFAVPDRESAELFVALCARTRMPLVADIHFDYRLALRCMDGPVAKVRINPGNIGVRERVRAVVEKARATGTALRIGVNTGSLPGVVKRAVAARYADGMQSVNARAEALVQTAFAEAAYLDQLHFDRVVLSLKASTVAETVRANELFAQQSDIPLHLGVTEAGPLVSGIVKSTLAFSQLLSRNIGATVRVSLSDSMEHEVLAAREILAECGKRAGGVRLVSCPRCGRIGFDVHAFVRRWQKELFSLKKDITVAVMGCVVNGPGEGKHADLGISGAEDSVIFFKRGKIVRRI</Hsp_qseq>
+      <Hsp_hseq>LTIGGNNEVIIQSMTTTKT--HDVEATVAQIKRLEEAGCQIVRVACPDERAANAIPEIKKRINIPLVADIHFDYKLALKAIEGGADKIRINPGNIGRREKVEAVVKAAKERGIPIRIGVNAGSLEKRILEKYGYPTADGM----------VESALYHIRILEELDFHDIIVSLKASDVRLAIEAYEKAARTFDYPLHLGITESGTLFAGTVKSAAGLGAILSKGIGNTIRVSLSADPVEEVKVAKEILKAFGLASNAATLISCPTCGRIEIDLISIANEIEEYISKIKAPIKVAVLGCAVNGPGEAREADIGIAGARGEGLLFRHGKIVRKV</Hsp_hseq>
+      <Hsp_midline>L +GG+  + IQ+M        D+++ V ++  LE+ GC +VR A PD  +A     +  R  +PLVADIHFDY+LAL+ ++G   K+RINPGNIG RE+V AVV+ A+  G  +RIGVN GSL   +        ADGM          V++A      L++L F  +++SLKAS V   + A E  A+  D PLHLG+TE+G L +G VKS      +LS+ IG T+RVSLS     EV  A+EIL   G  +    L+SCP CGRI  D+ +     ++ +  +K  I VAV+GC VNGPGE + AD+GI+GA    + F+ GKIVR++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|189045581|sp|A7GSX5.1|ISPG_BACCN</Hit_id>
+  <Hit_def>RecName: Full=4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (flavodoxin); AltName: Full=1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate synthase</Hit_def>
+  <Hit_accession>A7GSX5</Hit_accession>
+  <Hit_len>368</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>260.766</Hsp_bit-score>
+      <Hsp_score>665</Hsp_score>
+      <Hsp_evalue>3.59187e-81</Hsp_evalue>
+      <Hsp_query-from>63</Hsp_query-from>
+      <Hsp_query-to>394</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>LPLGGDAPIPIQTMWKEPLIGADLQSIVDRLLELEQLGCDVVRFAVPDRESAELFVALCARTRMPLVADIHFDYRLALRCMDGPVAKVRINPGNIGVRERVRAVVEKARATGTALRIGVNTGSLPGVVKRAVAARY----ADGMQSVNARAEALVQTAFAEAAYLDQLHFDRVVLSLKASTVAETVRANELFAQQSDIPLHLGVTEAGPLVSGIVKSTLAFSQLLSRNIGATVRVSLSDSMEHEVLAAREILAECGKRAGGVRLVSCPRCGRIGFDVHAFVRRWQKELFSLKKDITVAVMGCVVNGPGEGKHADLGISGAEDSVIFFKRGKIVRRI</Hsp_qseq>
+      <Hsp_hseq>LTIGGNNELIIQSMTTTKT--HDVEATVAEIKRLEEAGCQIVRVAVPDERAANAIADIKKQINIPLVADIHFDYRLALKAIEGGIDKVRINPGNIGRRHKVEAVVNAAKERGIPIRIGVNAGSL----ERHILEKYGYPTADGM----------VESALHHIKILEDLDFHDIIVSMKASDVNLAIEAYEKAARAFDYPLHLGITESGTLFAGTVKSAAGLGAILSKGIGNTLRISLSADPVEEVKVARELLKSFGLASNAATLISCPTCGRIEIDLISIANEVEEYISTLKVPIKVAVLGCAVNGPGEAREADIGIAGARGEGLLFRKGKVVRKV</Hsp_hseq>
+      <Hsp_midline>L +GG+  + IQ+M        D+++ V  +  LE+ GC +VR AVPD  +A     +  +  +PLVADIHFDYRLAL+ ++G + KVRINPGNIG R +V AVV  A+  G  +RIGVN GSL    +R +  +Y    ADGM          V++A      L+ L F  +++S+KAS V   + A E  A+  D PLHLG+TE+G L +G VKS      +LS+ IG T+R+SLS     EV  ARE+L   G  +    L+SCP CGRI  D+ +     ++ + +LK  I VAV+GC VNGPGE + AD+GI+GA    + F++GK+VR++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|229485805|sp|A9VH61.1|ISPG_BACWK</Hit_id>
+  <Hit_def>RecName: Full=4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (flavodoxin); AltName: Full=1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate synthase</Hit_def>
+  <Hit_accession>A9VH61</Hit_accession>
+  <Hit_len>365</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>259.996</Hsp_bit-score>
+      <Hsp_score>663</Hsp_score>
+      <Hsp_evalue>6.95731e-81</Hsp_evalue>
+      <Hsp_query-from>63</Hsp_query-from>
+      <Hsp_query-to>394</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>334</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>LPLGGDAPIPIQTMWKEPLIGADLQSIVDRLLELEQLGCDVVRFAVPDRESAELFVALCARTRMPLVADIHFDYRLALRCMDGPVAKVRINPGNIGVRERVRAVVEKARATGTALRIGVNTGSLPGVVKRAVAARY----ADGMQSVNARAEALVQTAFAEAAYLDQLHFDRVVLSLKASTVAETVRANELFAQQSDIPLHLGVTEAGPLVSGIVKSTLAFSQLLSRNIGATVRVSLSDSMEHEVLAAREILAECGKRAGGVRLVSCPRCGRIGFDVHAFVRRWQKELFSLKKDITVAVMGCVVNGPGEGKHADLGISGAEDSVIFFKRGKIVRRI</Hsp_qseq>
+      <Hsp_hseq>LTIGGNNELIIQSMTTTKT--HDVEATVAEIKRLEEAGCQVVRVAVPDERAANAIADIKKQINIPLVADIHFDYRLALKAIEGGIDKVRINPGNIGRRHKVEAVVNAAKERGIPIRIGVNAGSL----ERHILEKYGYPTADGM----------VESALHHIKILEDLDFHDIIVSMKASDVNLAIEAYEKAARAFDYPLHLGITESGTLFAGTVKSAAGLGAILSKGIGNTLRISLSADPVEEVKVARELLKSFGLASNAATLISCPTCGRIEIDLISIANEVEEYISTLKVPIKVAVLGCAVNGPGEAREADIGIAGARGEGLLFRKGQVVRKV</Hsp_hseq>
+      <Hsp_midline>L +GG+  + IQ+M        D+++ V  +  LE+ GC VVR AVPD  +A     +  +  +PLVADIHFDYRLAL+ ++G + KVRINPGNIG R +V AVV  A+  G  +RIGVN GSL    +R +  +Y    ADGM          V++A      L+ L F  +++S+KAS V   + A E  A+  D PLHLG+TE+G L +G VKS      +LS+ IG T+R+SLS     EV  ARE+L   G  +    L+SCP CGRI  D+ +     ++ + +LK  I VAV+GC VNGPGE + AD+GI+GA    + F++G++VR++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|50400906|sp|Q730Q8.1|ISPG_BACC1</Hit_id>
+  <Hit_def>RecName: Full=4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (flavodoxin); AltName: Full=1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate synthase &gt;gi|254806868|sp|B9IY45.1|ISPG_BACCQ RecName: Full=4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (flavodoxin); AltName: Full=1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate synthase</Hit_def>
+  <Hit_accession>Q730Q8</Hit_accession>
+  <Hit_len>367</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>258.84</Hsp_bit-score>
+      <Hsp_score>660</Hsp_score>
+      <Hsp_evalue>1.59111e-80</Hsp_evalue>
+      <Hsp_query-from>63</Hsp_query-from>
+      <Hsp_query-to>409</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>348</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>208</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>351</Hsp_align-len>
+      <Hsp_qseq>LPLGGDAPIPIQTMWKEPLIGADLQSIVDRLLELEQLGCDVVRFAVPDRESAELFVALCARTRMPLVADIHFDYRLALRCMDGPVAKVRINPGNIGVRERVRAVVEKARATGTALRIGVNTGSLPGVVKRAVAARY----ADGMQSVNARAEALVQTAFAEAAYLDQLHFDRVVLSLKASTVAETVRANELFAQQSDIPLHLGVTEAGPLVSGIVKSTLAFSQLLSRNIGATVRVSLSDSMEHEVLAAREILAECGKRAGGVRLVSCPRCGRIGFDVHAFVRRWQKELFSLKKDITVAVMGCVVNGPGEGKHADLGISGAEDSVIFFKRGKIVRRIQVRDLCADERTRIID</Hsp_qseq>
+      <Hsp_hseq>LTIGGNNELIIQSMTTTKT--HDVEATVAEIKRLEEAGCQVVRVAVPDERAANAIADIKKQINIPLVADIHFDYRLALKAIEGGIDKVRINPGNIGRRHKVEAVVNAAKERGIPIRIGVNAGSL----ERHILEKYGYPTADGM----------VESALHHIKILEDLDFHDIIVSMKASDVNLAIEAYEKAARAFDYPLHLGITESGTLFAGTVKSAAGLGAILSKGIGNTLRISLSADPVEEVKVARELLKSFGLASNAATLISCPTCGRIEIDLISIANEVEEYISTLQVPIKVAVLGCAVNGPGEAREADIGIAGARGEGLLFRKGQVVRKVP-EEIMVEELKKEID</Hsp_hseq>
+      <Hsp_midline>L +GG+  + IQ+M        D+++ V  +  LE+ GC VVR AVPD  +A     +  +  +PLVADIHFDYRLAL+ ++G + KVRINPGNIG R +V AVV  A+  G  +RIGVN GSL    +R +  +Y    ADGM          V++A      L+ L F  +++S+KAS V   + A E  A+  D PLHLG+TE+G L +G VKS      +LS+ IG T+R+SLS     EV  ARE+L   G  +    L+SCP CGRI  D+ +     ++ + +L+  I VAV+GC VNGPGE + AD+GI+GA    + F++G++VR++   ++  +E  + ID</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|226722781|sp|B7HPH8.1|ISPG_BACC7</Hit_id>
+  <Hit_def>RecName: Full=4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (flavodoxin); AltName: Full=1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate synthase</Hit_def>
+  <Hit_accession>B7HPH8</Hit_accession>
+  <Hit_len>370</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>258.84</Hsp_bit-score>
+      <Hsp_score>660</Hsp_score>
+      <Hsp_evalue>1.86969e-80</Hsp_evalue>
+      <Hsp_query-from>63</Hsp_query-from>
+      <Hsp_query-to>409</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>351</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>208</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>351</Hsp_align-len>
+      <Hsp_qseq>LPLGGDAPIPIQTMWKEPLIGADLQSIVDRLLELEQLGCDVVRFAVPDRESAELFVALCARTRMPLVADIHFDYRLALRCMDGPVAKVRINPGNIGVRERVRAVVEKARATGTALRIGVNTGSLPGVVKRAVAARY----ADGMQSVNARAEALVQTAFAEAAYLDQLHFDRVVLSLKASTVAETVRANELFAQQSDIPLHLGVTEAGPLVSGIVKSTLAFSQLLSRNIGATVRVSLSDSMEHEVLAAREILAECGKRAGGVRLVSCPRCGRIGFDVHAFVRRWQKELFSLKKDITVAVMGCVVNGPGEGKHADLGISGAEDSVIFFKRGKIVRRIQVRDLCADERTRIID</Hsp_qseq>
+      <Hsp_hseq>LTIGGNNELIIQSMTTTKT--HDVEATVAEIKRLEEAGCQVVRVAVPDERAANAIADIKKQINIPLVADIHFDYRLALKAIEGGIDKVRINPGNIGRRHKVEAVVNAAKERGIPIRIGVNAGSL----ERHILEKYGYPTADGM----------VESALHHIKILEDLDFHDIIVSMKASDVNLAIEAYEKAARAFDYPLHLGITESGTLFAGTVKSAAGLGAILSKGIGNTLRISLSADPVEEVKVARELLKSFGLASNAATLISCPTCGRIEIDLISIANEVEEYISTLQVPIKVAVLGCAVNGPGEAREADIGIAGARGEGLLFRKGQVVRKVP-EEIMVEELKKEID</Hsp_hseq>
+      <Hsp_midline>L +GG+  + IQ+M        D+++ V  +  LE+ GC VVR AVPD  +A     +  +  +PLVADIHFDYRLAL+ ++G + KVRINPGNIG R +V AVV  A+  G  +RIGVN GSL    +R +  +Y    ADGM          V++A      L+ L F  +++S+KAS V   + A E  A+  D PLHLG+TE+G L +G VKS      +LS+ IG T+R+SLS     EV  ARE+L   G  +    L+SCP CGRI  D+ +     ++ + +L+  I VAV+GC VNGPGE + AD+GI+GA    + F++G++VR++   ++  +E  + ID</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|50400914|sp|Q74D60.1|ISPG_GEOSL</Hit_id>
+  <Hit_def>RecName: Full=4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (flavodoxin); AltName: Full=1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate synthase</Hit_def>
+  <Hit_accession>Q74D60</Hit_accession>
+  <Hit_len>353</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>258.07</Hsp_bit-score>
+      <Hsp_score>658</Hsp_score>
+      <Hsp_evalue>2.09849e-80</Hsp_evalue>
+      <Hsp_query-from>60</Hsp_query-from>
+      <Hsp_query-to>399</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>206</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>340</Hsp_align-len>
+      <Hsp_qseq>VRALPLGGDAPIPIQTMWKEPLIGADLQSIVDRLLELEQLGCDVVRFAVPDRESAELFVALCARTRMPLVADIHFDYRLALRCMDGPVAKVRINPGNIGVRERVRAVVEKARATGTALRIGVNTGSLPGVVKRAVAARYADGMQSVNARAEALVQTAFAEAAYLDQLHFDRVVLSLKASTVAETVRANELFAQQSDIPLHLGVTEAGPLVSGIVKSTLAFSQLLSRNIGATVRVSLSDSMEHEVLAAREILAECGKRAGGVRLVSCPRCGRIGFDVHAFVRRWQKELFSLKKDITVAVMGCVVNGPGEGKHADLGISGAEDSVIFFKRGKIVRRIQVRDL</Hsp_qseq>
+      <Hsp_hseq>VGNVPVGGDAPCSVQSMCNTDT--RDAGATLDQINALAAAGCEIVRCAVPDMAAAEALGAIKRQSPIPVIADIHFDYKLALKVLEGGIDGLRLNPGNIGERWKVEEVVAAARERLVPIRIGVNAGSL----EKELLQKYG------HPTAEAMVESALGHVRILEELGYDQIKISLKASDVPKTVAAYRLLAQRIDYPLHIGITEAGTMFSGTIKSAVGLGILLADGIGDTLRVSLTGDPVDEVRVGFEILKALNLRQKGINLVSCPTCGRCQINLIGVAEEVEKRLAGIDAHLTVAVMGCVVNGPGEAREADVGIAGGRGEGLLFRNGEIVRKVPEADM</Hsp_hseq>
+      <Hsp_midline>V  +P+GGDAP  +Q+M        D  + +D++  L   GC++VR AVPD  +AE   A+  ++ +P++ADIHFDY+LAL+ ++G +  +R+NPGNIG R +V  VV  AR     +RIGVN GSL    ++ +  +Y       +  AEA+V++A      L++L +D++ +SLKAS V +TV A  L AQ+ D PLH+G+TEAG + SG +KS +    LL+  IG T+RVSL+     EV    EIL     R  G+ LVSCP CGR   ++       +K L  +   +TVAVMGCVVNGPGE + AD+GI+G     + F+ G+IVR++   D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|254806865|sp|B7IYD0.1|ISPG_BACC2</Hit_id>
+  <Hit_def>RecName: Full=4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (flavodoxin); AltName: Full=1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate synthase</Hit_def>
+  <Hit_accession>B7IYD0</Hit_accession>
+  <Hit_len>370</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>258.84</Hsp_bit-score>
+      <Hsp_score>660</Hsp_score>
+      <Hsp_evalue>2.29036e-80</Hsp_evalue>
+      <Hsp_query-from>63</Hsp_query-from>
+      <Hsp_query-to>394</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>332</Hsp_align-len>
+      <Hsp_qseq>LPLGGDAPIPIQTMWKEPLIGADLQSIVDRLLELEQLGCDVVRFAVPDRESAELFVALCARTRMPLVADIHFDYRLALRCMDGPVAKVRINPGNIGVRERVRAVVEKARATGTALRIGVNTGSLPGVVKRAVAARYADGMQSVNARAEALVQTAFAEAAYLDQLHFDRVVLSLKASTVAETVRANELFAQQSDIPLHLGVTEAGPLVSGIVKSTLAFSQLLSRNIGATVRVSLSDSMEHEVLAAREILAECGKRAGGVRLVSCPRCGRIGFDVHAFVRRWQKELFSLKKDITVAVMGCVVNGPGEGKHADLGISGAEDSVIFFKRGKIVRRI</Hsp_qseq>
+      <Hsp_hseq>LTIGGNNELIIQSMTTTKT--HDVEATVAEIKRLEEAGCQVVRVAVPDERAADAIADIKKQINIPLVADIHFDYRLALKAIEGGIDKVRINPGNIGRRHKVEAVVNAAKERGIPIRIGVNAGSLERHILEKYGYPTADGM----------VESALHHIKILEDLDFHDIIVSMKASDVNLAIEAYEKAARAFDYPLHLGITESGTLFAGTVKSAAGLGAILSKGIGNTLRISLSADPVEEVKVARELLKSFGLASNAATLISCPTCGRIEIDLISIANEVEEYISTLQVPIKVAVLGCAVNGPGEAREADIGIAGARGEGLLFRKGQVVRKV</Hsp_hseq>
+      <Hsp_midline>L +GG+  + IQ+M        D+++ V  +  LE+ GC VVR AVPD  +A+    +  +  +PLVADIHFDYRLAL+ ++G + KVRINPGNIG R +V AVV  A+  G  +RIGVN GSL   +        ADGM          V++A      L+ L F  +++S+KAS V   + A E  A+  D PLHLG+TE+G L +G VKS      +LS+ IG T+R+SLS     EV  ARE+L   G  +    L+SCP CGRI  D+ +     ++ + +L+  I VAV+GC VNGPGE + AD+GI+GA    + F++G++VR++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|226722779|sp|B7GH89.1|ISPG_ANOFW</Hit_id>
+  <Hit_def>RecName: Full=4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (flavodoxin); AltName: Full=1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate synthase</Hit_def>
+  <Hit_accession>B7GH89</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>258.07</Hsp_bit-score>
+      <Hsp_score>658</Hsp_score>
+      <Hsp_evalue>3.39279e-80</Hsp_evalue>
+      <Hsp_query-from>63</Hsp_query-from>
+      <Hsp_query-to>394</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>194</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>332</Hsp_align-len>
+      <Hsp_qseq>LPLGGDAPIPIQTMWKEPLIGADLQSIVDRLLELEQLGCDVVRFAVPDRESAELFVALCARTRMPLVADIHFDYRLALRCMDGPVAKVRINPGNIGVRERVRAVVEKARATGTALRIGVNTGSLPGVVKRAVAARYADGMQSVNARAEALVQTAFAEAAYLDQLHFDRVVLSLKASTVAETVRANELFAQQSDIPLHLGVTEAGPLVSGIVKSTLAFSQLLSRNIGATVRVSLSDSMEHEVLAAREILAECGKRAGGVRLVSCPRCGRIGFDVHAFVRRWQKELFSLKKDITVAVMGCVVNGPGEGKHADLGISGAEDSVIFFKRGKIVRRI</Hsp_qseq>
+      <Hsp_hseq>ITIGGNNEVVIQSMTTTKT--HDVDATVAQIHRLEEAGCQIVRVACPDERAADAIAEIKKRINIPLVVDIHFDYRLALKAIENGADKIRINPGNIGKREKVEAVVKAAKERGVPIRIGVNAGSLEKRILDKYGYPTADGM----------VESALHHIRILEDLDFQDIIVSLKASDVRLAIEAYEKAARAFDYPLHLGITESGTLFAGTVKSAAGLGAILSKGIGNTVRVSLSADPVEEVKVARELLKAFGLAANAATLISCPTCGRIEIDLISIANEIEEYIAQIKAPIKVAVLGCAVNGPGEAREADIGIAGARGEGLLFRHGKIVRKV</Hsp_hseq>
+      <Hsp_midline>+ +GG+  + IQ+M        D+ + V ++  LE+ GC +VR A PD  +A+    +  R  +PLV DIHFDYRLAL+ ++    K+RINPGNIG RE+V AVV+ A+  G  +RIGVN GSL   +        ADGM          V++A      L+ L F  +++SLKAS V   + A E  A+  D PLHLG+TE+G L +G VKS      +LS+ IG TVRVSLS     EV  ARE+L   G  A    L+SCP CGRI  D+ +     ++ +  +K  I VAV+GC VNGPGE + AD+GI+GA    + F+ GKIVR++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>462628</Statistics_db-num>
+      <Statistics_db-len>173435234</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

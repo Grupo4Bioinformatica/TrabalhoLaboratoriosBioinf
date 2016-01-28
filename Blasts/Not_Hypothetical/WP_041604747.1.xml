@@ -1,0 +1,434 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>Query_102049</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>101</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_102049</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>101</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|52788271|sp|P78698.2|HEM1_KLULA</Hit_id>
+  <Hit_def>RecName: Full=5-aminolevulinate synthase, mitochondrial; AltName: Full=5-aminolevulinic acid synthase; AltName: Full=Delta-ALA synthase; AltName: Full=Delta-aminolevulinate synthase; Flags: Precursor</Hit_def>
+  <Hit_accession>P78698</Hit_accession>
+  <Hit_len>570</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>0.710657</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>384</Hsp_hit-from>
+      <Hsp_hit-to>455</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>ALFFTVSIPVLLCAGVWQASRYQAVERVVREYDAEQHRIIAENKRKISGIAILSKPDRIEKLAVEKLHLHRAS</Hsp_qseq>
+      <Hsp_hseq>GFIFTTTLPPAVMAGAAEAIRYQRSHLDLRQ-DQQRHTTYVKDGLADLGIPVMPNPSHIVPVLVGNPHLAKQA</Hsp_hseq>
+      <Hsp_midline>   FT ++P  + AG  +A RYQ     +R+ D ++H    ++     GI ++  P  I  + V   HL + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|54040442|sp|P65685.1|Y2073_MYCBO</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein Mb2073c &gt;gi|614088367|sp|P9WIH4.1|Y2047_MYCTO RecName: Full=Uncharacterized protein MT2107 &gt;gi|614089052|sp|P9WIH5.1|Y2047_MYCTU RecName: Full=Uncharacterized protein Rv2047c</Hit_def>
+  <Hit_accession>P65685</Hit_accession>
+  <Hit_len>854</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>2.00033</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>530</Hsp_hit-from>
+      <Hsp_hit-to>583</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>REYDAEQHRIIAENKRKISGIAILSKP-DRIEKLAVEKLHLHRASHAEIVRIKLR</Hsp_qseq>
+      <Hsp_hseq>RSVEAVQ-RLVAAARRDPVVIRLLAEPGERLDKLAVEAPEFHSAVLAELTLIGHR</Hsp_hseq>
+      <Hsp_midline>R  +A Q R++A  +R    I +L++P +R++KLAVE    H A  AE+  I  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|75163694|sp|Q93Z24.1|BGA17_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Beta-galactosidase 17; Short=Lactase 17; Flags: Precursor</Hit_def>
+  <Hit_accession>Q93Z24</Hit_accession>
+  <Hit_len>697</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>2.07433</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>51</Hsp_query-to>
+      <Hsp_hit-from>385</Hsp_hit-from>
+      <Hsp_hit-to>410</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>10</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>RYQAVERVVREYDAEQHRIIAENKRK</Hsp_qseq>
+      <Hsp_hseq>KFQALQRVIKKYNASPHPISPSNKQR</Hsp_hseq>
+      <Hsp_midline>++QA++RV+++Y+A  H I   NK++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|158705909|sp|Q5ZXM0.2|HUTI_LEGPH</Hit_id>
+  <Hit_def>RecName: Full=Imidazolonepropionase; AltName: Full=Imidazolone-5-propionate hydrolase</Hit_def>
+  <Hit_accession>Q5ZXM0</Hit_accession>
+  <Hit_len>403</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>2.59426</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>32</Hsp_query-to>
+      <Hsp_hit-from>328</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>32</Hsp_align-len>
+      <Hsp_qseq>MQKVSALFFTVSIPVLLCAGVWQASRYQAVER</Hsp_qseq>
+      <Hsp_hseq>MMSMASQFFSMSIPEVLSAVTYQASRALGMEK</Hsp_hseq>
+      <Hsp_midline>M  +++ FF++SIP +L A  +QASR   +E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|81601479|sp|Q5WYI8.1|HUTI_LEGPL</Hit_id>
+  <Hit_def>RecName: Full=Imidazolonepropionase; AltName: Full=Imidazolone-5-propionate hydrolase</Hit_def>
+  <Hit_accession>Q5WYI8</Hit_accession>
+  <Hit_len>403</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>2.64562</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>328</Hsp_hit-from>
+      <Hsp_hit-to>366</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>MQKVSALFFTVSIPVLLCAGVWQASRYQAVERVVREYDA</Hsp_qseq>
+      <Hsp_hseq>MMSMACQFFSMSIPEVLSAVTYQASRALGMEKDIGSIEA</Hsp_hseq>
+      <Hsp_midline>M  ++  FF++SIP +L A  +QASR   +E+ +   +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|158705834|sp|A5IGJ7.1|HUTI_LEGPC</Hit_id>
+  <Hit_def>RecName: Full=Imidazolonepropionase; AltName: Full=Imidazolone-5-propionate hydrolase</Hit_def>
+  <Hit_accession>A5IGJ7</Hit_accession>
+  <Hit_len>403</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>2.64562</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>328</Hsp_hit-from>
+      <Hsp_hit-to>366</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>MQKVSALFFTVSIPVLLCAGVWQASRYQAVERVVREYDA</Hsp_qseq>
+      <Hsp_hseq>MMSMACQFFSMSIPEVLSAVTYQASRALGMEKDIGSIEA</Hsp_hseq>
+      <Hsp_midline>M  ++  FF++SIP +L A  +QASR   +E+ +   +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|81601961|sp|Q5X739.1|HUTI_LEGPA</Hit_id>
+  <Hit_def>RecName: Full=Imidazolonepropionase; AltName: Full=Imidazolone-5-propionate hydrolase</Hit_def>
+  <Hit_accession>Q5X739</Hit_accession>
+  <Hit_len>403</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>2.91822</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>328</Hsp_hit-from>
+      <Hsp_hit-to>366</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>MQKVSALFFTVSIPVLLCAGVWQASRYQAVERVVREYDA</Hsp_qseq>
+      <Hsp_hseq>MMSMACQFFSMSIPEVLSAVTYQASRALGMEKDIGSIEA</Hsp_hseq>
+      <Hsp_midline>M  ++  FF++SIP +L A  +QASR   +E+ +   +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|81794996|sp|Q8PAL4.1|BAME_XANCP</Hit_id>
+  <Hit_def>RecName: Full=Outer membrane protein assembly factor BamE; Flags: Precursor</Hit_def>
+  <Hit_accession>Q8PAL4</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>3.7547</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>50</Hsp_query-to>
+      <Hsp_hit-from>46</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>QKVSALFFTVSIPVLLCAGVWQASRYQAVERVVREYDAEQHRIIAENKR</Hsp_qseq>
+      <Hsp_hseq>QQVSALLGTPSIPDPFHAQRWDYTSTQRVDRLART-DVKNFTVFFENEQ</Hsp_hseq>
+      <Hsp_midline>Q+VSAL  T SIP    A  W  +  Q V+R+ R  D +   +  EN++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1730876|sp|P53049.1|YOR1_YEAST</Hit_id>
+  <Hit_def>RecName: Full=Oligomycin resistance ATP-dependent permease YOR1</Hit_def>
+  <Hit_accession>P53049</Hit_accession>
+  <Hit_len>1477</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>5.07293</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1033</Hsp_hit-from>
+      <Hsp_hit-to>1079</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>FFTVSIPVLLCAGVWQASRYQAVERVVREYDAEQHRIIAENKRKISG</Hsp_qseq>
+      <Hsp_hseq>WFAIAIPFLLVIFVLIADHYQSSGREIKRLEAVQRSFVYNNLNEVLG</Hsp_hseq>
+      <Hsp_midline>+F ++IP LL   V  A  YQ+  R ++  +A Q   +  N  ++ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|2496273|sp|P75079.1|Y035_MYCPN</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein MPN_035</Hit_def>
+  <Hit_accession>P75079</Hit_accession>
+  <Hit_len>666</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>5.24023</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>51</Hsp_query-to>
+      <Hsp_hit-from>313</Hsp_hit-from>
+      <Hsp_hit-to>342</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>16</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>WQASRYQAVERVVREYDAEQHRIIAENKRK</Hsp_qseq>
+      <Hsp_hseq>WVQPLYAKRTQAKIAYEAEQARIAAENKRK</Hsp_hseq>
+      <Hsp_midline>W    Y    +    Y+AEQ RI AENKRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|166231215|sp|Q1MH51.1|RRF_RHIL3</Hit_id>
+  <Hit_def>RecName: Full=Ribosome-recycling factor; Short=RRF; AltName: Full=Ribosome-releasing factor</Hit_def>
+  <Hit_accession>Q1MH51</Hit_accession>
+  <Hit_len>186</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>5.2817</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>45</Hsp_query-to>
+      <Hsp_hit-from>58</Hsp_hit-from>
+      <Hsp_hit-to>94</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>FTVSIPVLLCAGVWQASRYQAVERVVREYDAEQHRII</Hsp_qseq>
+      <Hsp_hseq>ITVPEPRMLSVSVWDKSMVSAVERGIRESNLGLNPII</Hsp_hseq>
+      <Hsp_midline> TV  P +L   VW  S   AVER +RE +   + II</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|139743|sp|P04628.1|WNT1_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Proto-oncogene Wnt-1; AltName: Full=Proto-oncogene Int-1 homolog; Flags: Precursor</Hit_def>
+  <Hit_accession>P04628</Hit_accession>
+  <Hit_len>370</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>5.52627</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>264</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>24</Hsp_align-len>
+      <Hsp_qseq>HRASHAEIVRIKLR-PAHKDSSPH</Hsp_qseq>
+      <Hsp_hseq>NRASRAELLRLEPEDPAHKPPSPH</Hsp_hseq>
+      <Hsp_midline>+RAS AE++R++   PAHK  SPH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|139744|sp|P04426.1|WNT1_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Proto-oncogene Wnt-1; AltName: Full=Proto-oncogene Int-1; Flags: Precursor</Hit_def>
+  <Hit_accession>P04426</Hit_accession>
+  <Hit_len>370</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>5.52627</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>264</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>24</Hsp_align-len>
+      <Hsp_qseq>HRASHAEIVRIKLR-PAHKDSSPH</Hsp_qseq>
+      <Hsp_hseq>NRASRAELLRLEPEDPAHKPPSPH</Hsp_hseq>
+      <Hsp_midline>+RAS AE++R++   PAHK  SPH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|190360252|sp|B1LTQ4.1|RRF_METRJ</Hit_id>
+  <Hit_def>RecName: Full=Ribosome-recycling factor; Short=RRF; AltName: Full=Ribosome-releasing factor</Hit_def>
+  <Hit_accession>B1LTQ4</Hit_accession>
+  <Hit_len>187</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>5.89333</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>38</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>ALFFTVSIPV--LLCAGVWQASRYQAVERVVREYD</Hsp_qseq>
+      <Hsp_hseq>AQVATVSVPEPRLLSISVWDRSMVTAVEKAIRESD</Hsp_hseq>
+      <Hsp_midline>A   TVS+P   LL   VW  S   AVE+ +RE D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>462628</Statistics_db-num>
+      <Statistics_db-len>173435234</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

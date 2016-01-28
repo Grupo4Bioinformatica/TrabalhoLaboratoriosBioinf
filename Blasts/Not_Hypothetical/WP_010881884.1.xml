@@ -1,0 +1,602 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>Query_207973</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>360</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_207973</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>360</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|81345710|sp|P71615.2|NRNA_MYCTU</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional oligoribonuclease and PAP phosphatase NrnA; AltName: Full=3&apos;(2&apos;),5&apos;-bisphosphate nucleotidase; AltName: Full=3&apos;-phosphoadenosine 5&apos;-phosphate phosphatase; Short=PAP phosphatase; AltName: Full=nanoRNase</Hit_def>
+  <Hit_accession>P71615</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.071</Hsp_bit-score>
+      <Hsp_score>266</Hsp_score>
+      <Hsp_evalue>6.03824e-25</Hsp_evalue>
+      <Hsp_query-from>46</Hsp_query-from>
+      <Hsp_query-to>345</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>335</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>308</Hsp_align-len>
+      <Hsp_qseq>VVGHEKPDGDCVGSSLALASFLRRIGKEVELLSAGPF----KRREIAAYATLFRPSLSAQIRPSDQTAVIVVDCSELSRVGAELASQLAPFARAF--IDHHETCGDHCAHSFVVKTAPSTTTLVQTLIETMAGSLEAAEARALFLGLATDTGFFRHLDEHSADTFASAARLVRAGANPKDTFLAMNGGRSLASRMLIARVL--SRLTPYYGGALMTSYETCEDAVQLGLDVRDSDALYQLIQSIQGVEAIVVVRQESPTHCSVGFRSRGSIDVSVIAARFGGGGHRCAAGLRIEGTVDELLPRFVAAF</Hsp_qseq>
+      <Hsp_hseq>VVCHVHPDADTIGAGLALALVLDGCGKRVEVSFAAPATLPESLRSLPGCHLLVRP----EVMRRDVDLVVTVDIPSVDRLGA--LGDLTDSGRELLVIDHHASNDLFGTANFIDPSADSTTTMVAEILDAWGKPIDPRVAHCIYAGLATDTGSFRW---ASVRGYRLAARLVEIGVDNATVSRTLMDSHPFTWLPLLSRVLGSAQLVSEAVGGRGLVYVVVDNREWVAARSEEVESIVDIVRTTQQAEVAAVFKEVEPHRWSVSMRAK-TVNLAAVASGFGGGGHRLAAGYTTTGSIDDAVASLRAAL</Hsp_hseq>
+      <Hsp_midline>VV H  PD D +G+ LALA  L   GK VE+  A P       R +     L RP    ++   D   V+ VD   + R+GA     L    R    IDHH +       +F+  +A STTT+V  +++     ++   A  ++ GLATDTG FR     S   +  AARLV  G +       +          L++RVL  ++L     G     Y   ++   +     + +++  ++++ Q  E   V ++  P   SV  R++ +++++ +A+ FGGGGHR AAG    G++D+ +    AA </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|81364713|sp|Q5SM25.1|NRNA_THET8</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional oligoribonuclease and PAP phosphatase NrnA; AltName: Full=3&apos;(2&apos;),5&apos;-bisphosphate nucleotidase; AltName: Full=3&apos;-phosphoadenosine 5&apos;-phosphate phosphatase; Short=PAP phosphatase</Hit_def>
+  <Hit_accession>Q5SM25</Hit_accession>
+  <Hit_len>324</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.1149</Hsp_bit-score>
+      <Hsp_score>209</Hsp_score>
+      <Hsp_evalue>1.68169e-17</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>349</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>318</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>307</Hsp_align-len>
+      <Hsp_qseq>HEKPDGDCVGSSLALASFLRRIGKEVELLSAGP-FKRREIAAYATLFRPSLSAQIRPSDQ----TAVIVVDCSELSRVGAELASQLAPFARAFIDHHETCGDHCAHSFVVKTAPSTTTLVQTLIETMAGSLEAAEARALFLGLATDTGFFRHLDEHSADTFASAARLVRAGANPKDTFLAMNGGRSLASRMLIARVLSRLTPYYGGALMTSYETCEDAVQLGLDVRDSDALYQLIQSIQGVEAIVVVRQESPTHCSVGFRSRGSIDVSVIAARFGGGGHRCAAGLRIEG-TVDELLPRFVAAFEAQM</Hsp_qseq>
+      <Hsp_hseq>HVDPDGDAIGSSLGLYRALKALGKEAYWVADPPRFLR---------FLPKEEEYSDPVEKLPPGATLVALDSAEPSRV---VGVPVEGFV-INIDHHGTNPRFGHLHVVDPSKAATAQMVKDLIDLLGVEWTAEIATPVLTGILTDTGNFRFANT-TPEVLRVAAELLGYGVKLAELTDRLQF-RPPSYFRLMGQVLSTVAFHFGGLLVTAH-LPEDA---GAE-EDSDDFVGLIRYVEGSVVSVFLRKRE-EGVKVSIRSRGGVSAQNIALKLGGGGHVPAAGATLKGLDLDQAYERVLEAVREEL</Hsp_hseq>
+      <Hsp_midline>H  PDGD +GSSL L   L+ +GKE   ++  P F R         F P       P ++      ++ +D +E SRV   +   +  F    IDHH T         V  +  +T  +V+ LI+ +     A  A  +  G+ TDTG FR  +  + +    AA L+  G    +    +   R  +   L+ +VLS +  ++GG L+T++   EDA   G +  DSD    LI+ ++G    V +R+       V  RSRG +    IA + GGGGH  AAG  ++G  +D+   R + A   ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|2498554|sp|P75144.1|NRNA_MYCPN</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional oligoribonuclease and PAP phosphatase NrnA; AltName: Full=3&apos;(2&apos;),5&apos;-bisphosphate nucleotidase; AltName: Full=3&apos;-phosphoadenosine 5&apos;-phosphate phosphatase; Short=PAP phosphatase; AltName: Full=Mgp-operon protein 1; Short=Mgp1; AltName: Full=ORF-1 protein; AltName: Full=nanoRNase</Hit_def>
+  <Hit_accession>P75144</Hit_accession>
+  <Hit_len>324</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.8702</Hsp_bit-score>
+      <Hsp_score>185</Hsp_score>
+      <Hsp_evalue>3.74989e-14</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>310</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>IDAHRAFAVVGHEKPDGDCVGSSLALASFLRRIGKEVELLSAGPFKRREIAAYATLFRPSLSAQIRPS--DQTAVIVVDCSELSRVGA-ELASQLAPFARAFIDHHETCGD-HCAHSFVVKTAPSTTTLVQTLIETMAGSLEAAEARALFLGLATDTGFFRHLDEHSADTFASAARLVRAGANPKDTFLAMNGGRSLASRMLIARVLSRLTPYYGGALMTSYETCEDAVQLGLDVRDSD-ALYQLIQSIQGVEAIVVVRQESPTHCSVGFRSRGSIDVSVIAARFGGGGHRCAAGLRIEGTVD</Hsp_qseq>
+      <Hsp_hseq>IQAHDKIVIFHHIRPDGDCLGAQHGLARLIQTNFPHKQVFCVGD-PKHNFPWLEMVFTP--KEQITPELMQQALAVIVDANYKERIECRDLLDQNQFKAVLRIDHHPNEDDLNTTHNFVDASYIAAAEQVVDLAVQAKWKLSPPAATALYLGIYTDSNRFLYSNT-SWRTLYLGSMLYRAQANIAKIHDELNHT-SLKDIQFKQYVFKNFQTFQN----VIYFVADKKFQKKLKVTPLECARVNILANIEQFHIWLFFIEEGKNHYRVEFRSNG-INVREVALKYGGGGHIQASGAVLKSKRD</Hsp_hseq>
+      <Hsp_midline>I AH    +  H +PDGDC+G+   LA  ++      ++   G   +        +F P    QI P    Q   ++VD +   R+   +L  Q    A   IDHH    D +  H+FV  +  +    V  L       L    A AL+LG+ TD+  F + +  S  T    + L RA AN       +N   SL        V      +        Y   +   Q  L V   + A   ++ +I+     +   +E   H  V FRS G I+V  +A ++GGGGH  A+G  ++   D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|586814|sp|P37484.1|YYBT_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein YybT</Hit_def>
+  <Hit_accession>P37484</Hit_accession>
+  <Hit_len>659</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.1662</Hsp_bit-score>
+      <Hsp_score>165</Hsp_score>
+      <Hsp_evalue>3.26193e-11</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>346</Hsp_query-to>
+      <Hsp_hit-from>313</Hsp_hit-from>
+      <Hsp_hit-to>650</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>353</Hsp_align-len>
+      <Hsp_qseq>SPCAARTGDRGRGLS-GLIEFIDAHRAFAVVGHEKPDGDCVGSSLALAS---------FL----RRIGKEVELLSAGPFKRREIAAYATLFRPSLSAQIRPSDQTAVIVVDCSELSRVGAE-LASQLAPFARAFIDHHETCGDHCAHSFVVKTAP---STTTLVQTLIETMAGSLE--AAEARALFLGLATDTGFFRHLDEHSADTFASAARLVRAGANPKDTFLAMNGGR-SLASRMLIARVLSRLTPYYGGALMTSY-ETCEDAVQLGLDVRDSDALYQLIQSIQGVEA-IVVVRQESPTHCSVGFRSRGSIDVSVIAARFGGGGHRCAAGLRIEG-TVDELLPRFVAAFE</Hsp_qseq>
+      <Hsp_hseq>NPMEKRTRVRARVISHALKEIVTESSNVIIMGHKFPDMDSIGAAIGILKVAQANNKDGFIVIDPNQIGSSVQRL-IGEIKKYE-ELWSRFITPEEAMEI-SNDDTLLVIVDTHKPSLVMEERLVNKIEHIV--VIDHHRRGEEFIRDPLLVYMEPYASSTAELVTELLEYQPKRLKINMIEATALLAGIIVDTKSFSL--RTGSRTFDAASYLRAKGA---DTVLVQKFLKETVDSYIKRAKLIQHTVLYKDNIAIASLPENEEEYFDQVLIAQAADSLL----SMSEVEASFAVARRDEQTVC-ISARSLGEVNVQIIMEALEGGGHLTNAATQLSGISVSEALERLKHAID</Hsp_hseq>
+      <Hsp_midline>+P   RT  R R +S  L E +       ++GH+ PD D +G+++ +           F+     +IG  V+ L  G  K+ E   ++    P  + +I  +D T +++VD  + S V  E L +++       IDHH    +      +V   P   ST  LV  L+E     L+    EA AL  G+  DT  F       + TF +A+ L   GA   DT L     + ++ S +  A+++     Y     + S  E  E+     L  + +D+L     S+  VEA   V R++  T C +  RS G ++V +I     GGGH   A  ++ G +V E L R   A +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|55584157|sp|P22746.3|NRNA_MYCGE</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional oligoribonuclease and PAP phosphatase NrnA; AltName: Full=3&apos;(2&apos;),5&apos;-bisphosphate nucleotidase; AltName: Full=3&apos;-phosphoadenosine 5&apos;-phosphate phosphatase; Short=PAP phosphatase; AltName: Full=Mgp-operon protein 1; Short=Mgp1; AltName: Full=ORF-1 protein; AltName: Full=nanoRNase</Hit_def>
+  <Hit_accession>P22746</Hit_accession>
+  <Hit_len>318</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>2.73418e-09</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>327</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>295</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>LIEFIDAHRAF---AVVGHEKPDGDCVGSSLALASFLRRIGKEVELLSAGPFKRREIAAYATLFRPSLSAQIRPS--DQTAVIVVDCSELSRVGA-ELASQLAPFARAFIDHHETCGD-HCAHSFVVKTAPSTTTLVQTLIETMAGSLEAAEARALFLGLATDTGFFRHLDEHSADTFASAARLVRAGANPKDTFLAMNGGRSLASRMLIARVLSRLTPYYGGALMTSYETCEDAVQLGLDVR-DSDALYQLIQSIQGVEAIVVVRQESPTHCSVGFRSRGSIDVSVIAARFGGGGHRCAAG</Hsp_qseq>
+      <Hsp_hseq>ITEAINAIKQFDKIVIFHHVRPDGDCLGAQQGLFHLIKANFKNKEVKCVG--NNNNLFSFINM---TFTNQIDESFLKEALAIVVDANYKNRIELRELLDKNLFKAVLRIDHHPNEDDLNTSFNFVEESYVACCEQIVEMATVAKWTIPPVAATLLYIGIYTDSNRFLYSNT-SYRTLYLAAILYKAKADIRIVHDHLNHT-SLADLKFKKYVYNHFKT--QGQVI--YFICTKKIQKRLRMTADQCARVNLLSNIADYKIWLFFIEQANNEIRIDLRSNG-INVRDIAIKYGGGGHNNASG</Hsp_hseq>
+      <Hsp_midline>+ E I+A + F    +  H +PDGDC+G+   L   ++   K  E+   G      + ++  +   + + QI  S   +   IVVD +  +R+   EL  +    A   IDHH    D + + +FV ++  +    +  +      ++    A  L++G+ TD+  F + +  S  T   AA L +A A+ +     +N   SLA       V +       G ++  Y  C   +Q  L +  D  A   L+ +I   +  +   +++     +  RS G I+V  IA ++GGGGH  A+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|118574313|sp|Q6YRK2.2|RL9_ONYPE</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L9</Hit_def>
+  <Hit_accession>Q6YRK2</Hit_accession>
+  <Hit_len>849</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.9214</Hsp_bit-score>
+      <Hsp_score>141</Hsp_score>
+      <Hsp_evalue>2.95186e-08</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>355</Hsp_hit-from>
+      <Hsp_hit-to>676</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>47</Hsp_gaps>
+      <Hsp_align-len>345</Hsp_align-len>
+      <Hsp_qseq>SVSSPSPCAARTGDRGRGLSGLIEFIDAHRAFAVVGHEKPDGDCVGSSLALASFLRRIGKEVE---LLSAGPFKRREIAAYATLFRPSLSAQIRP----------SDQTAVIVVDCSELSRVGA-ELASQLAPFARAFIDHHETCGDHC--AHSFVVKTAPSTTTLVQTLIETMAGSLE------AAEARALFLGLATDTGFFRHLDEHSADTFASAARLVRAGANPKD--TFLAMNGGRSLASRMLIARVLSRLTPYYGGALMTSYETCEDAVQLGLDVRDSDALYQLIQSIQGVEAIVVVRQESPTHCSVGFRSRGSIDVSVIAARFGGGGHRCAAGLRIEGT</Hsp_qseq>
+      <Hsp_hseq>SLSKQSKVHARINAQN-----LVDILKKHPHCFIMGHTHTDLDALGSVIAFYKIATTIHPESNNYIILDEEKLDKSLIPVYNQLIKTEAKTSLNIITTQQASKMIKDNSLIAVLDTQTKDMVNSPELLSLTSNVV--VVDHHRATEEIIPSIFSYVESSASST---VELLVEVM-GFLEKEVHITAFEASIMYAGILIDTNAFIY--RTSSRTFEVASKLKDLGADAIEVKSWLRKDFDKVLEINKLISEMEIFMDRF---AIIQSSEIYENRSFLA-------QVAEGVLNIRNVDAAFMIAQIADNKIAISARSYNEINVQTIMEQMEGGGHLNSAATQLEGT</Hsp_hseq>
+      <Hsp_midline>S+S  S   AR   +      L++ +  H    ++GH   D D +GS +A       I  E     +L      +  I  Y  L +      +             D + + V+D      V + EL S  +      +DHH    +      S+V  +A ST   V+ L+E M G LE      A EA  ++ G+  DT  F +    S+ TF  A++L   GA+  +  ++L  +  + L    LI+ +   +  +   A++ S E  E+   L         + + + +I+ V+A  ++ Q +    ++  RS   I+V  I  +  GGGH  +A  ++EGT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|2496409|sp|Q49428.1|Y371_MYCGE</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein MG371</Hit_def>
+  <Hit_accession>Q49428</Hit_accession>
+  <Hit_len>324</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.7658</Hsp_bit-score>
+      <Hsp_score>138</Hsp_score>
+      <Hsp_evalue>3.73155e-08</Hsp_evalue>
+      <Hsp_query-from>44</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>291</Hsp_align-len>
+      <Hsp_qseq>FAVVGHEKPDGDCVGSSLALASFLRRIGKEVELLSAGPFKRREIAAYATLFRPSLSAQIRPS--DQTAVIVVDCSELSRVGAELASQLAPFARAFIDHHETCGDHCAHSFVVKTAPSTTTLVQTLIETMAGSLEAAEARALFLGLATDTGFFRHLDEHSADTFASAARLVRAGANPKDTFLAMNGGRSLASRMLIARVLSRLTPYYGGALMTSYETCEDAVQLGLDVRDSDALYQLIQSIQGVEAIVVVRQESPTHCSVG-FRSRGSIDVSVIAARFGGGGHRCAAGLRIE</Hsp_qseq>
+      <Hsp_hseq>FSLFVHVNPDFDAFGSAFAFKTFLNTFFSEKKAYVMGSY---NINADGRELFPFEQTDINDDFVKESLAIIFDTSNQERVLTQKHKLAKETVR--IDHHPRTEKFADMEWIDSSFSATAEMIGYLILQMGYKLNDEIASYLYAGIITDTQRFWG-PTTTPQTFALTAKLMETGFNRNKVHDAV-YLKPLLEHKYFSYVLSKAKITKNGL---AYALIKKGAYKHFGVVSPLPMVHALNNIKGVKIWTTVYFNESIKKWIGSIRSR-NIPINNFAQMFNGGGHKYAAAFVLD</Hsp_hseq>
+      <Hsp_midline>F++  H  PD D  GS+ A  +FL     E +    G +    I A      P     I      ++  I+ D S   RV  +         R  IDHH          ++  +  +T  ++  LI  M   L    A  L+ G+ TDT  F      +  TFA  A+L+  G N      A+   + L      + VLS+      G    +Y   +        V     +   + +I+GV+    V         +G  RSR +I ++  A  F GGGH+ AA   ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|118574297|sp|Q2NKC0.1|RL9_AYWBP</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L9</Hit_def>
+  <Hit_accession>Q2NKC0</Hit_accession>
+  <Hit_len>849</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.9954</Hsp_bit-score>
+      <Hsp_score>136</Hsp_score>
+      <Hsp_evalue>1.18322e-07</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>355</Hsp_hit-from>
+      <Hsp_hit-to>676</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>343</Hsp_align-len>
+      <Hsp_qseq>SVSSPSPCAARTGDRGRGLSGLIEFIDAHRAFAVVGHEKPDGDCVGSSLALASFLRRIGKEVE---LLSAGPFKRREIAAYATLFRP--SLSAQIRPSDQTAVIVVDCSELSRVGAELASQL-APFARAF------IDHHETCGDHC--AHSFVVKTAPSTTTLVQTLIETMAGSLE------AAEARALFLGLATDTGFFRHLDEHSADTFASAARLVRAGANPKDTFLAMNGGRSLASRML-IARVLSRLTPYYGG-ALMTSYETCEDAVQLGLDVRDSDALYQLIQSIQGVEAIVVVRQESPTHCSVGFRSRGSIDVSVIAARFGGGGHRCAAGLRIEGT</Hsp_qseq>
+      <Hsp_hseq>SLSKQSKVHARINAQN-----LVDILKKNPHCFIMGHTHTDLDALGSVIAFYKIAATIHPENNNYIILDEEKLDKSLIPVYHQLIKTESKKTLNIITTQQASKMIKDNSLIAVLDTQTKDMLNSPELLSLTPNIVVVDHHRATEEIIPSIFSYVESSASST---VELLVEVM-GFLEKEVHITAFEASIMYAGILIDTNAFIY--RTSSRTFEVASKLKDLGA---DAIEVKSWLRKDFDKVLEINKLISEMEIFMDRFAIIQSSEIYENRSFLA-QVAES------VLNIQNVDAAFMIAKIADNKIAISARSYNEINVQTIMEQMEGGGHLNSAATQLEGT</Hsp_hseq>
+      <Hsp_midline>S+S  S   AR   +      L++ +  +    ++GH   D D +GS +A       I  E     +L      +  I  Y  L +     +  I  + Q + ++ D S ++ +  +    L +P   +       +DHH    +      S+V  +A ST   V+ L+E M G LE      A EA  ++ G+  DT  F +    S+ TF  A++L   GA   D     +  R    ++L I +++S +  +    A++ S E  E+   L   V +S      + +IQ V+A  ++ + +    ++  RS   I+V  I  +  GGGH  +A  ++EGT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|122268113|sp|Q03M65.1|PPAC_STRTD</Hit_id>
+  <Hit_def>RecName: Full=Probable manganese-dependent inorganic pyrophosphatase; AltName: Full=Pyrophosphate phospho-hydrolase; Short=PPase</Hit_def>
+  <Hit_accession>Q03M65</Hit_accession>
+  <Hit_len>310</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.9138</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>6.49046e-07</Hsp_evalue>
+      <Hsp_query-from>46</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>VVGHEKPDGDCVGSSLALASFLRRIGKEVELLSAGPFKRRE--IAAYATLFRPSLSAQIRPSDQTAVIVVDCSELSRVGAELASQLAPFARAFIDHHETCGDHCAHSFVVKTAP--STTTLVQTLIETMAGSLEAAEARALFLGLATDTGFFRHLDEHSADTFASAARLVR-AGANPKDTFLAM-NGGRSLASR</Hsp_qseq>
+      <Hsp_hseq>VFGHQNPDSDAIGSSYGYAYLKRQLGVEAEAVALGTPNEETAFVLDYFSVNAPRVVESARSEGVNQVILTDHNEFQQSISDIKDVEVI---EVVDHHRVANFETANPLMMRLEPVGSASSIVYRMFKENNVEIPKDVAGLLLSGLISDTLLLKSPTTHASDP-AVAEELARLAGVNLEEYGLAMLKAGTNLSSK</Hsp_hseq>
+      <Hsp_midline>V GH+ PD D +GSS   A   R++G E E ++ G        +  Y ++  P +    R      VI+ D +E  +  +++           +DHH       A+  +++  P  S +++V  + +     +    A  L  GL +DT   +    H++D  A A  L R AG N ++  LAM   G +L+S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|81559781|sp|Q5M194.1|PPAC_STRT1</Hit_id>
+  <Hit_def>RecName: Full=Probable manganese-dependent inorganic pyrophosphatase; AltName: Full=Pyrophosphate phospho-hydrolase; Short=PPase &gt;gi|81560951|sp|Q5M5T1.1|PPAC_STRT2 RecName: Full=Probable manganese-dependent inorganic pyrophosphatase; AltName: Full=Pyrophosphate phospho-hydrolase; Short=PPase</Hit_def>
+  <Hit_accession>Q5M194</Hit_accession>
+  <Hit_len>310</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.9878</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>2.39367e-06</Hsp_evalue>
+      <Hsp_query-from>46</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>VVGHEKPDGDCVGSSLALASFLRRIGKEVELLSAGPFKRRE--IAAYATLFRPSLSAQIRPSDQTAVIVVDCSELSRVGAELASQLAPFARAFIDHHETCGDHCAHSFVVKTAP--STTTLVQTLIETMAGSLEAAEARALFLGLATDTGFFRHLDEHSADTFASAARLVR-AGANPKDTFLAM-NGGRSLASR</Hsp_qseq>
+      <Hsp_hseq>VFGHQNPDSDAIGSSYGYAYLKRQLGVEAEAVALGTPNEETAFVLDYFSVNAPRVVESAQSEGVNQVILTDHNEFQQSISDIKD---VEVIEVVDHHRVANFETANPLMMRLEPVGSASSIVYRMFKENNVEIPKDVAGLLLSGLISDTLLLKSPTTHASDP-AVAEELARLAGVNLEEYGLAMLKAGTNLSSK</Hsp_hseq>
+      <Hsp_midline>V GH+ PD D +GSS   A   R++G E E ++ G        +  Y ++  P +    +      VI+ D +E  +  +++           +DHH       A+  +++  P  S +++V  + +     +    A  L  GL +DT   +    H++D  A A  L R AG N ++  LAM   G +L+S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|81451380|sp|Q8DTN6.1|NRNA_STRMU</Hit_id>
+  <Hit_def>RecName: Full=Probable bifunctional oligoribonuclease and PAP phosphatase NrnA; AltName: Full=3&apos;-phosphoadenosine 5&apos;-phosphate phosphatase; Short=PAP phosphatase; AltName: Full=Probable 3&apos;(2&apos;),5&apos;-bisphosphate nucleotidase; AltName: Full=nanoRNase</Hit_def>
+  <Hit_accession>Q8DTN6</Hit_accession>
+  <Hit_len>310</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.2914</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>1.79911e-05</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>327</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>IDAHRAFAVVGHEKPDGDCVGSSLALASFLRRIGKEVELLSAGPFKRREIAAYATLFRPSLSAQIRPSDQT-------AVIVVDCSELSRVGAELASQLAPFARAFIDHHETCGDHCAHSFVVKTAPSTTTLVQTLIETMAGSLEAAEARALFLGLATDTGFFRHLDEHSADTFASAARLVRAGANPKDTFLAMNGGRSLAS-----RMLIARVLSRLTPYYGGA--LMTSYETCEDAVQLGLDVRDSDALYQLIQSIQGVEAIVVVRQESPTHCSVGFRSRGSIDVSVIAARFGGGGHRCAAG</Hsp_qseq>
+      <Hsp_hseq>IKAYDTIIIHRHMKPDPDALGSQVGL--------KEM-ITSNFPQKTVKVTGYN---EPSLSWLAQMDDVSDKDYEGALVIVVDTANRPRIDDQ--RYLNGNFLIKIDHHPDEDHYGDLSYVDTKASSASEIITDFALQNQLKLSDQAARLLYAGILGDTGRFLY-PATTSKTFIIASELLKYDFD----FAAL--ARQMDSFPYKIAKLQAYVFENLEIDKNGAARIILSQKILK---KFNLTDAETSAIVSSPGKIDTVQVWAIFVEQADGHYRVRLRSKSTV-INEVAKRHAGGGHPLASG</Hsp_hseq>
+      <Hsp_midline>I A+    +  H KPD D +GS + L        KE+ + S  P K  ++  Y     PSLS   +  D +        VIVVD +   R+  +    L       IDHH     +   S+V   A S + ++          L    AR L+ G+  DTG F +    ++ TF  A+ L++   +    F A+   R + S       L A V   L     GA  ++ S +  +   +  L   ++ A+      I  V+   +  +++  H  V  RS+ ++ ++ +A R  GGGH  A+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|7674163|sp|O68579.1|PPAC_STRMU</Hit_id>
+  <Hit_def>RecName: Full=Probable manganese-dependent inorganic pyrophosphatase; AltName: Full=Pyrophosphate phospho-hydrolase; Short=PPase</Hit_def>
+  <Hit_accession>O68579</Hit_accession>
+  <Hit_len>310</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.2914</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>1.89802e-05</Hsp_evalue>
+      <Hsp_query-from>46</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>VVGHEKPDGDCVGSSLALASFLRRIGKEVELLSAGPFKRRE--IAAYATLFRPSLSAQIRPSDQTAVIVVDCSELSRVGAELASQLAPFARAFIDHHETCGDHCAHSFVVKTAP--STTTLVQTLIETMAGSLEAAEARALFLGLATDTGFFRHLDEHSADTFASAARLVR-AGANPKDTFLAM-NGGRSLASR</Hsp_qseq>
+      <Hsp_hseq>VFGHQNPDSDAIGSSMAYAYLKRQLGVDAQAVALGNPNEETAFVLDYFGIQAPPVVKSAQAEGAKQVILTDHNEFQQSIADIREVE---VVEVVDHHRVANFETANPLYMRLEPVGSASSIVYRLYKENGVAIPKEIAGVMLSGLISDTLLLKSPTTHASDP-AVAEDLAKIAGVDLQEYGLAMLKAGTNLASK</Hsp_hseq>
+      <Hsp_midline>V GH+ PD D +GSS+A A   R++G + + ++ G        +  Y  +  P +    +      VI+ D +E  +  A++           +DHH       A+   ++  P  S +++V  L +    ++    A  +  GL +DT   +    H++D  A A  L + AG + ++  LAM   G +LAS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|81637579|sp|O34600.1|NRNA_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional oligoribonuclease and PAP phosphatase NrnA; AltName: Full=3&apos;(2&apos;),5&apos;-bisphosphate nucleotidase; AltName: Full=3&apos;-phosphoadenosine 5&apos;-phosphate phosphatase; Short=PAP phosphatase; AltName: Full=nanoRNase</Hit_def>
+  <Hit_accession>O34600</Hit_accession>
+  <Hit_len>313</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.2914</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>2.0023e-05</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>330</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>LIEFIDAHRAFAVVGHEKPDGDCVGSSLALASFLRRIGKEVELLSAGPFKRREIAAYATLFRPSLSAQIRPSDQTA-VIVVDCSELSRVGAELASQLAPFARAFIDHHETCGDHCAHSFVVKTAPSTTTLVQTLI---ETMAGSLEAAEARALFLGLATDTGFFRHLDEHSADTFASAARLVRAGANPKDTFLAMNGGRSLASRMLIARVLSRLTPYYGGA--LMTSYETCEDAVQLGLDVRDSDALYQLIQSIQGVEAIVVVRQESPTHCSVGFRSRGSIDVSVIAARFGGGGHRCAAGLRI</Hsp_qseq>
+      <Hsp_hseq>LIRTISLYDTIILHRHVRPDPDAYGSQCGLTEILRETYPEKNIFAVG------TPEPSLSFLYSLDEVDNETYEGALVIVCDTANQERIDDQRYPSGAKLMK--IDHHPNEDPYGDLLWVDTSASSVSEMIYELYLEGKEHGWKLNTKAAELIYAGIVGDTGRFL-FPNTTEKTLKYAGELIQYPFSSSELFNQLYETK-LNVVKLNGFIFQNVSLSENGAASVFIKKDTLE---KFGTTASEASQLVGTLGNISGIRAWVFFVEED-DQIRVRFRSKGPV-INGLARKYNGGGHPLASGASI</Hsp_hseq>
+      <Hsp_midline>LI  I  +    +  H +PD D  GS   L   LR    E  + + G          +  F  SL      + + A VIV D +   R+  +     A   +  IDHH     +    +V  +A S + ++  L    +     L    A  ++ G+  DTG F      +  T   A  L++   +  + F  +   + L    L   +   ++    GA  +    +T E   + G    ++  L   + +I G+ A V   +E      V FRS+G + ++ +A ++ GGGH  A+G  I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|46576995|sp|Q834N3.1|PPAC_ENTFA</Hit_id>
+  <Hit_def>RecName: Full=Probable manganese-dependent inorganic pyrophosphatase; AltName: Full=Pyrophosphate phospho-hydrolase; Short=PPase</Hit_def>
+  <Hit_accession>Q834N3</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.7506</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>5.96265e-05</Hsp_evalue>
+      <Hsp_query-from>46</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>VVGHEKPDGDCVGSSLALASFLRRIGKEVELLSAG-PFKRREIAA-YATLFRPSLSAQIRPSDQTAVIVVDCSELSRVGAELASQLAPFARAFIDHHETCGDHCAHSFVVKTAPS--TTTLVQTLIETMAGSLEAAEARALFLGLATDTGFFR</Hsp_qseq>
+      <Hsp_hseq>VFGHQNPDTDAIGAAISFAYLQKELGKETEAVALGTPSEETQYALDYFNIEAPRVVTE-AASETNQVMLVDHNEFQQSISDIAE---VNILAVVDHHRIANFETADPLYYRAEPVGCTSTIIYKMFKENNVTIPAQIAGMMVSAIISDTLLFK</Hsp_hseq>
+      <Hsp_midline>V GH+ PD D +G++++ A   + +GKE E ++ G P +  + A  Y  +  P +  +   S+   V++VD +E  +  +++A        A +DHH       A     +  P   T+T++  + +    ++ A  A  +   + +DT  F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|166221790|sp|A3CPM5.1|PPAC_STRSV</Hit_id>
+  <Hit_def>RecName: Full=Probable manganese-dependent inorganic pyrophosphatase; AltName: Full=Pyrophosphate phospho-hydrolase; Short=PPase</Hit_def>
+  <Hit_accession>A3CPM5</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>7.25315e-05</Hsp_evalue>
+      <Hsp_query-from>46</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>VVGHEKPDGDCVGSSLALASFLRR-IGKEVELLSAGPFKRREIAAYATLF-----RPSLSAQIRPSDQTAVIVVDCSELSRVGAELASQLAPFARAFIDHHETCGDHCAHSFVVKTAP--STTTLVQTLIETMAGSLEAAEARALFLGLATDTGFFRHLDEHSADTFASAARLVRAGANPKDTFLAM-NGGRSLASR</Hsp_qseq>
+      <Hsp_hseq>VFGHQNPDSDAIGSSYAFAYLAREAYGLDTEVVALGE-PNEETAFVLDYFGVAAPRVITSAKAEGAEQ--VILTDHNEFQQSVADIAEVE---VYGVVDHHRVANFETASPLYMRLEPVGSASSIVYRMFKEHGVEVPKEIAGLMLSGLISDTLLLKSPTTHPTDKVIAPELAELAGVNLEEYGLAMLKAGTNLASK</Hsp_hseq>
+      <Hsp_midline>V GH+ PD D +GSS A A   R   G + E+++ G     E A     F     R   SA+   ++Q  VI+ D +E  +  A++A          +DHH       A    ++  P  S +++V  + +     +    A  +  GL +DT   +    H  D   +      AG N ++  LAM   G +LAS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|8134643|sp|P95765.1|PPAC_STRGC</Hit_id>
+  <Hit_def>RecName: Full=Probable manganese-dependent inorganic pyrophosphatase; AltName: Full=Pyrophosphate phospho-hydrolase; Short=PPase</Hit_def>
+  <Hit_accession>P95765</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>8.66905e-05</Hsp_evalue>
+      <Hsp_query-from>46</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>VVGHEKPDGDCVGSSLALASFLRR-IGKEVELLSAGPFKRREIAAYATLF-----RPSLSAQIRPSDQTAVIVVDCSELSRVGAELASQLAPFARAFIDHHETCGDHCAHSFVVKTAP--STTTLVQTLIETMAGSLEAAEARALFLGLATDTGFFRHLDEHSADTFASAARLVRAGANPKDTFLAM-NGGRSLASR</Hsp_qseq>
+      <Hsp_hseq>VFGHQNPDSDAIGSSYAFAYLAREAYGLDTEAVALGE-PNEETAFVLDYFGVAAPRVITSAKAEGAEQ--VILTDHNEFQQSVADIAE---VEVYGVVDHHRVANFETANPLYMRLEPVGSASSIVYRMFKEHSVAVSKEIAGLMLSGLISDTLLLKSPTTHPTDKAIAPELAELAGVNLEEYGLAMLKAGTNLASK</Hsp_hseq>
+      <Hsp_midline>V GH+ PD D +GSS A A   R   G + E ++ G     E A     F     R   SA+   ++Q  VI+ D +E  +  A++A          +DHH       A+   ++  P  S +++V  + +  + ++    A  +  GL +DT   +    H  D   +      AG N ++  LAM   G +LAS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|166221791|sp|A4VWZ2.1|PPAC_STRSY</Hit_id>
+  <Hit_def>RecName: Full=Probable manganese-dependent inorganic pyrophosphatase; AltName: Full=Pyrophosphate phospho-hydrolase; Short=PPase</Hit_def>
+  <Hit_accession>A4VWZ2</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.4394</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>0.000302003</Hsp_evalue>
+      <Hsp_query-from>44</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>FAVVGHEKPDGDCVGSSLALASFLRRI-GKEVELLSAG-PFKRREIAA-YATLFRPSLSAQIRPSDQTAVIVVDCSELSRVGAELAS-QLAPFARAFIDHHETCGDHCAHSFVVKTAP--STTTLVQTLIETMAGSLEAAEARALFL-GLATDTGFFRHLDEHSADTFASAARLVRAGANPKDTFLA-MNGGRSLASR</Hsp_qseq>
+      <Hsp_hseq>FLVFGHQNPDTDAIASSYGWAHLEREVFGRDAEAVVLGTPNEETAFALDYFGVTAPRVVESAKAEGVSQVILTDHNEFQQSIADIKEVEVA----AVIDHHRVANFETANPLYMRLEPVGSASSIVYRAFKE-NGVIPPKEVAGLLLSGLISDTLLLKSPTTHVTDPQVAAELAEIAGVNLEEYGLALLKAGTNLASK</Hsp_hseq>
+      <Hsp_midline>F V GH+ PD D + SS   A   R + G++ E +  G P +    A  Y  +  P +    +    + VI+ D +E  +  A++   ++A    A IDHH       A+   ++  P  S +++V    +   G +   E   L L GL +DT   +    H  D   +A     AG N ++  LA +  G +LAS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|54038855|sp|P65756.1|PPAC_STRR6</Hit_id>
+  <Hit_def>RecName: Full=Probable manganese-dependent inorganic pyrophosphatase; AltName: Full=Pyrophosphate phospho-hydrolase; Short=PPase &gt;gi|54041722|sp|P65755.1|PPAC_STRPN RecName: Full=Probable manganese-dependent inorganic pyrophosphatase; AltName: Full=Pyrophosphate phospho-hydrolase; Short=PPase &gt;gi|122278331|sp|Q04JL5.1|PPAC_STRP2 RecName: Full=Probable manganese-dependent inorganic pyrophosphatase; AltName: Full=Pyrophosphate phospho-hydrolase; Short=PPase &gt;gi|238688371|sp|B1ICV4.1|PPAC_STRPI RecName: Full=Probable manganese-dependent inorganic pyrophosphatase; AltName: Full=Pyrophosphate phospho-hydrolase; Short=PPase &gt;gi|238690839|sp|B5E699.1|PPAC_STRP4 RecName: Full=Probable manganese-dependent inorganic pyrophosphatase; AltName: Full=Pyrophosphate phospho-hydrolase; Short=PPase &gt;gi|238691176|sp|B2IR53.1|PPAC_STRPS RecName: Full=Probable manganese-dependent inorganic pyrophosphatase; AltName: Full=Pyrophosphate phospho-hydrolase; Short=PPase &gt;gi|254782756|sp|C1C8C3.1|PPAC_STRP7 RecName: Full=Probable manganese-dependent inorganic pyrophosphatase; AltName: Full=Pyrophosphate phospho-hydrolase; Short=PPase &gt;gi|254782757|sp|B8ZLD4.1|PPAC_STRPJ RecName: Full=Probable manganese-dependent inorganic pyrophosphatase; AltName: Full=Pyrophosphate phospho-hydrolase; Short=PPase &gt;gi|254782759|sp|C1CFB5.1|PPAC_STRZJ RecName: Full=Probable manganese-dependent inorganic pyrophosphatase; AltName: Full=Pyrophosphate phospho-hydrolase; Short=PPase &gt;gi|254782760|sp|C1CLN3.1|PPAC_STRZP RecName: Full=Probable manganese-dependent inorganic pyrophosphatase; AltName: Full=Pyrophosphate phospho-hydrolase; Short=PPase &gt;gi|254782761|sp|C1CSF2.1|PPAC_STRZT RecName: Full=Probable manganese-dependent inorganic pyrophosphatase; AltName: Full=Pyrophosphate phospho-hydrolase; Short=PPase</Hit_def>
+  <Hit_accession>P65756</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.4394</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>0.000315767</Hsp_evalue>
+      <Hsp_query-from>46</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>VVGHEKPDGDCVGSSLALASFLRR-IGKEVELLSAGPFKRREIAAYATLF-----RPSLSAQIRPSDQTAVIVVDCSELSRVGAELASQLAPFARAFIDHHETCGDHCAHSFVVKTAP--STTTLVQTLIETMAGSLEAAEARALFLGLATDTGFFRHLDEHSADTFASAARLVRAGANPKDTFLAM-NGGRSLASR</Hsp_qseq>
+      <Hsp_hseq>VFGHQNPDSDAIGSSVAFAYLAKEAYGLDTEAVALGT-PNEETAFVLNYFGVEAPRVITSAKAEGAEQ--VILTDHNEFQQSVSDIAE---VEVYGVVDHHRVANFETASPLYMRLEPVGSASSIVYRMFKEHGVAVPKEIAGLMLSGLISDTLLLKSPTTHPTDKIIAPELAELAGVNLEEYGLAMLKAGTNLASK</Hsp_hseq>
+      <Hsp_midline>V GH+ PD D +GSS+A A   +   G + E ++ G     E A     F     R   SA+   ++Q  VI+ D +E  +  +++A          +DHH       A    ++  P  S +++V  + +    ++    A  +  GL +DT   +    H  D   +      AG N ++  LAM   G +LAS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|2496410|sp|P75229.1|Y549_MYCPN</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein MG371 homolog</Hit_def>
+  <Hit_accession>P75229</Hit_accession>
+  <Hit_len>325</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>0.000506804</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>88</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>IVVDCSELSRVGAELASQLAPFARAFIDHHETCGDHCAHSFVVKTAPSTTTLVQTLIETMAGSLEAAEARALFLGLATDTGFFRHLDEHSADTFASAARLVRAGANPKDTFLAMNGGRSLASRMLIARVLSR--LTPYYGGALMTSYETCEDAVQLGLDVRDSDALYQLIQSIQGVEAIVVVRQESPTHCSVG-FRSRGSIDVSVIAARFGGGGHRCAAGLRIE</Hsp_qseq>
+      <Hsp_hseq>IIFDTSNQERVLTQKHKLAKETVR--IDHHPKTESFADLEWIDPAFSAAAEMVGYLILQMGYELNAEMAAYIYAGIITDTQRFSS-SATTPQTFALTAKLLETGFNRNKVHDAV-YLKPLLEHKYFSYVLNKAKITP--NG---LAYALLKKGTYKQFGVVSPLPMVHALNNIKGVKIWTTCYFNEDIKKWIGSIRSR-SIPINNFAQMFGGGGHKYAAAFVLD</Hsp_hseq>
+      <Hsp_midline>I+ D S   RV  +         R  IDHH          ++     +   +V  LI  M   L A  A  ++ G+ TDT  F      +  TFA  A+L+  G N      A+   + L      + VL++  +TP   G    +Y   +        V     +   + +I+GV+              +G  RSR SI ++  A  FGGGGH+ AA   ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|166221789|sp|A4W395.1|PPAC_STRS2</Hit_id>
+  <Hit_def>RecName: Full=Probable manganese-dependent inorganic pyrophosphatase; AltName: Full=Pyrophosphate phospho-hydrolase; Short=PPase</Hit_def>
+  <Hit_accession>A4W395</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.669</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>0.000673557</Hsp_evalue>
+      <Hsp_query-from>44</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>FAVVGHEKPDGDCVGSSLALASFLRRI-GKEVELLSAG-PFKRREIAA-YATLFRPSLSAQIRPSDQTAVIVVDCSELSRVGAELAS-QLAPFARAFIDHHETCGDHCAHSFVVKTAP--STTTLVQTLIETMAGSLEAAEARALFL-GLATDTGFFRHLDEHSADTFASAARLVRAGANPKDTFLA-MNGGRSLASR</Hsp_qseq>
+      <Hsp_hseq>FLVFGHRNPDTDAIASSYGWAHLEREVFGRDAEAVVLGTPNEETAFALDYFGVTAPRVVESAKAEGVSQVILTDHNEFQQSIADIKEVEVA----AVIDHHRVANFETANPLYMRLEPVGSASSIVYRAFKE-NGVIPPKEVAGLLLSGLISDTLLLKSPTTHVTDPQVAAELAEIAGVNLEEYGLALLKAGTNLASK</Hsp_hseq>
+      <Hsp_midline>F V GH  PD D + SS   A   R + G++ E +  G P +    A  Y  +  P +    +    + VI+ D +E  +  A++   ++A    A IDHH       A+   ++  P  S +++V    +   G +   E   L L GL +DT   +    H  D   +A     AG N ++  LA +  G +LAS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>462628</Statistics_db-num>
+      <Statistics_db-len>173435234</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

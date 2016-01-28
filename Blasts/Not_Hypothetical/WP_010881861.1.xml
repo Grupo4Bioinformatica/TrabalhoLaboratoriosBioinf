@@ -1,0 +1,602 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>Query_60595</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>632</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_60595</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>632</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|190359468|sp|A6VG24.2|GLMM_METM7</Hit_id>
+  <Hit_def>RecName: Full=Phosphoglucosamine mutase</Hit_def>
+  <Hit_accession>A6VG24</Hit_accession>
+  <Hit_len>447</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.0258</Hsp_bit-score>
+      <Hsp_score>188</Hsp_score>
+      <Hsp_evalue>1.11997e-13</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>QKADAVLSAQVALSYARFLKKKVPKPRVVIARDSRPTGEIISSICTAILHLEGCSLRCVGVGPIPEIASYARNYDAFLYISASHNPIEYNGFKFGLNDGGVLSPTQAQQLSEDFVAQCLQPASFQKIREHCAT</Hsp_qseq>
+      <Hsp_hseq>KNLDPLIAYKVGFAISKNFKK------AVIGRDTRTTGNLIESAITAGLLNGGCDVTTIGMVPTPVLGYSARDYDLGIMITASHNPPEYNGIKLFNKNGTAFDPKQEEKLEKIIANDDFNEGTWDNI--GCAS</Hsp_hseq>
+      <Hsp_midline>+  D +++ +V  + ++  KK       VI RD+R TG +I S  TA L   GC +  +G+ P P +   AR+YD  + I+ASHNP EYNG K    +G    P Q ++L +          ++  I   CA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|190359459|sp|A6UP86.1|GLMM_METVS</Hit_id>
+  <Hit_def>RecName: Full=Phosphoglucosamine mutase</Hit_def>
+  <Hit_accession>A6UP86</Hit_accession>
+  <Hit_len>446</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.2554</Hsp_bit-score>
+      <Hsp_score>186</Hsp_score>
+      <Hsp_evalue>2.01487e-13</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>QKADAVLSAQVALSYARFLKKKVPKPRVVIARDSRPTGEIISSICTAILHLEGCSLRCVGVGPIPEIASYARNYDAFLYISASHNPIEYNGFKFGLNDGGVLSPTQAQQLSE</Hsp_qseq>
+      <Hsp_hseq>KNLDPLIAYKVGFAISKNFKK------AVIGRDTRTTGNLIESAITAGLLNGGCDVTILGIVPTPVLGFSAKSHDIGIMITASHNPPEYNGIKLFNNNGTSFTPNQEESLEE</Hsp_hseq>
+      <Hsp_midline>+  D +++ +V  + ++  KK       VI RD+R TG +I S  TA L   GC +  +G+ P P +   A+++D  + I+ASHNP EYNG K   N+G   +P Q + L E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|74554348|sp|Q6LYB4.1|GLMM_METMP</Hit_id>
+  <Hit_def>RecName: Full=Phosphoglucosamine mutase</Hit_def>
+  <Hit_accession>Q6LYB4</Hit_accession>
+  <Hit_len>447</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.0998</Hsp_bit-score>
+      <Hsp_score>183</Hsp_score>
+      <Hsp_evalue>4.83741e-13</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>115</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>QKADAVLSAQVALSYARFLKKKVPKPRVVIARDSRPTGEIISSICTAILHLEGCSLRCVGVGPIPEIASYARNYDAFLYISASHNPIEYNGFKFGLNDGGVLSPTQAQQL</Hsp_qseq>
+      <Hsp_hseq>KNLDPLIAYKVGFAISKNFKK------AVIGRDTRTTGNLIESAITAGLLNGGCDVTTIGMVPTPVLGYSAKDYDLGIMITASHNPPEYNGIKLFNKNGTAFDPKQEKEL</Hsp_hseq>
+      <Hsp_midline>+  D +++ +V  + ++  KK       VI RD+R TG +I S  TA L   GC +  +G+ P P +   A++YD  + I+ASHNP EYNG K    +G    P Q ++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|190359458|sp|A4FX97.1|GLMM_METM5</Hit_id>
+  <Hit_def>RecName: Full=Phosphoglucosamine mutase</Hit_def>
+  <Hit_accession>A4FX97</Hit_accession>
+  <Hit_len>447</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3294</Hsp_bit-score>
+      <Hsp_score>181</Hsp_score>
+      <Hsp_evalue>8.05958e-13</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>115</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>QKADAVLSAQVALSYARFLKKKVPKPRVVIARDSRPTGEIISSICTAILHLEGCSLRCVGVGPIPEIASYARNYDAFLYISASHNPIEYNGFKFGLNDGGVLSPTQAQQL</Hsp_qseq>
+      <Hsp_hseq>KNLDPLIAYKVGYAISKNFKK------AVIGRDTRTTGNLIESAITAGLLNGGCDVTTIGMVPTPVLGYSAKDYDLGIMITASHNPPEYNGIKLFNKNGTAFDPKQEKEL</Hsp_hseq>
+      <Hsp_midline>+  D +++ +V  + ++  KK       VI RD+R TG +I S  TA L   GC +  +G+ P P +   A++YD  + I+ASHNP EYNG K    +G    P Q ++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|226723930|sp|B0KD39.1|GLMM_THEP3</Hit_id>
+  <Hit_def>RecName: Full=Phosphoglucosamine mutase</Hit_def>
+  <Hit_accession>B0KD39</Hit_accession>
+  <Hit_len>447</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.559</Hsp_bit-score>
+      <Hsp_score>179</Hsp_score>
+      <Hsp_evalue>1.39043e-12</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>SGWRKVFPYAFTPERTVTLTQKADAVLSAQVALSYARFLKKKVPKPRVVIARDSRPTGEIISSICTAILHLEGCSLRCVGVGPIPEIASYARNY--DAFLYISASHNPIEYNGFKFGLNDGGVLSPTQAQQLSEDFVAQCLQ</Hsp_qseq>
+      <Hsp_hseq>DGVRGIANYDLTPQ------------LAFELGRAGAYVLTHGTHRPKVVVGKDSRISGDMLECALTAGLTSVGAEVISVGIIPTPAVAYLTRLYQADAGVMISASHNPVEYNGIKFFDKDGYKL-PDEVEDRIENIIKEKIE</Hsp_hseq>
+      <Hsp_midline> G R +  Y  TP+            L+ ++  + A  L     +P+VV+ +DSR +G+++    TA L   G  +  VG+ P P +A   R Y  DA + ISASHNP+EYNG KF   DG  L P + +   E+ + + ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|226723931|sp|B0K5X4.1|GLMM_THEPX</Hit_id>
+  <Hit_def>RecName: Full=Phosphoglucosamine mutase</Hit_def>
+  <Hit_accession>B0K5X4</Hit_accession>
+  <Hit_len>447</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.559</Hsp_bit-score>
+      <Hsp_score>179</Hsp_score>
+      <Hsp_evalue>1.4151e-12</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>SGWRKVFPYAFTPERTVTLTQKADAVLSAQVALSYARFLKKKVPKPRVVIARDSRPTGEIISSICTAILHLEGCSLRCVGVGPIPEIASYARNY--DAFLYISASHNPIEYNGFKFGLNDGGVLSPTQAQQLSEDFVAQCLQ</Hsp_qseq>
+      <Hsp_hseq>DGVRGIANYDLTPQ------------LAFELGRAGAYVLTHGTHRPKVVVGKDSRISGDMLECALTAGLTSVGAEVISVGIIPTPAVAYLTRLYQADAGVMISASHNPVEYNGIKFFDKDGYKL-PDEVEDRIENIIKEKIE</Hsp_hseq>
+      <Hsp_midline> G R +  Y  TP+            L+ ++  + A  L     +P+VV+ +DSR +G+++    TA L   G  +  VG+ P P +A   R Y  DA + ISASHNP+EYNG KF   DG  L P + +   E+ + + ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|226722725|sp|B2TIN7.1|GLMM_CLOBB</Hit_id>
+  <Hit_def>RecName: Full=Phosphoglucosamine mutase</Hit_def>
+  <Hit_accession>B2TIN7</Hit_accession>
+  <Hit_len>447</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.0182</Hsp_bit-score>
+      <Hsp_score>175</Hsp_score>
+      <Hsp_evalue>3.88784e-12</Hsp_evalue>
+      <Hsp_query-from>51</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>ADAVLSAQVALSYAR----FLKKKVPKPRVVIARDSRPTGEIISSICTAILHLEGCSLRCVGVGPIPEIASYARNY--DAFLYISASHNPIEYNGFKFGLNDGGVLS</Hsp_qseq>
+      <Hsp_hseq>ANTELTAQIAYNLGRAGAYVLTEGAHKPKILVAKDTRISGDMLESALVAGILSVGAEAVILGVVPTPAVAYLTREYNADAGVMISASHNPVEYNGIKFFNNKGYKLS</Hsp_hseq>
+      <Hsp_midline>A+  L+AQ+A +  R     L +   KP++++A+D+R +G+++ S   A +   G     +GV P P +A   R Y  DA + ISASHNP+EYNG KF  N G  LS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|190359457|sp|A6UU47.1|GLMM_META3</Hit_id>
+  <Hit_def>RecName: Full=Phosphoglucosamine mutase</Hit_def>
+  <Hit_accession>A6UU47</Hit_accession>
+  <Hit_len>452</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.633</Hsp_bit-score>
+      <Hsp_score>174</Hsp_score>
+      <Hsp_evalue>5.60856e-12</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>163</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>RVVIARDSRPTGEIISSICTAILHLEGCSLRCVGVGPIPEIASYARNYDAFLYISASHNPIEYNGFKFGLNDGGVLSPTQAQQLSEDFV</Hsp_qseq>
+      <Hsp_hseq>NVVVGRDTRTTGDLIRNSLFAGLLNGGAEIVDIGIVPTPTLGYSARNYDMGIMITASHNPSEYNGIKLFNKDGTSFRPEQEQNI-EDII</Hsp_hseq>
+      <Hsp_midline> VV+ RD+R TG++I +   A L   G  +  +G+ P P +   ARNYD  + I+ASHNP EYNG K    DG    P Q Q + ED +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|121722871|sp|Q2NES6.1|GLMM_METST</Hit_id>
+  <Hit_def>RecName: Full=Probable phosphoglucosamine mutase</Hit_def>
+  <Hit_accession>Q2NES6</Hit_accession>
+  <Hit_len>452</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.633</Hsp_bit-score>
+      <Hsp_score>174</Hsp_score>
+      <Hsp_evalue>5.86015e-12</Hsp_evalue>
+      <Hsp_query-from>55</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>LSAQVALSYARFLKKKV--PKPRVVIARDSRPTGEIISSICTAILHLEGCSLRCVGVGPIPEI--ASYARNYDAFLYISASHNPIEYNGFKFGLNDGGVLSPTQAQQLSEDFVAQCLQPASFQKIREHCATLNASILEPLLYNKTHKQESLHSY-DLFIREVIANS</Hsp_qseq>
+      <Hsp_hseq>ITLELALDVARALAKYIGGKNKKVVIGRDTRTSGKIIENVMSAGLQQSGCDVLLLGMVPTPVVGYATLKKEADAGIMITASHNPSQYNGIKLWNSDG--LAYKQDQ---ERTIEKLVYEKDFNIVK---------------WNEIGKEYDISSFKDKYIDDIVAKS</Hsp_hseq>
+      <Hsp_midline>++ ++AL  AR L K +     +VVI RD+R +G+II ++ +A L   GC +  +G+ P P +  A+  +  DA + I+ASHNP +YNG K   +DG  L+  Q Q   E  + + +    F  ++               +N+  K+  + S+ D +I +++A S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|226722724|sp|B2UYH3.1|GLMM_CLOBA</Hit_id>
+  <Hit_def>RecName: Full=Phosphoglucosamine mutase</Hit_def>
+  <Hit_accession>B2UYH3</Hit_accession>
+  <Hit_len>447</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.2478</Hsp_bit-score>
+      <Hsp_score>173</Hsp_score>
+      <Hsp_evalue>7.00229e-12</Hsp_evalue>
+      <Hsp_query-from>51</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>ADAVLSAQVALSYAR----FLKKKVPKPRVVIARDSRPTGEIISSICTAILHLEGCSLRCVGVGPIPEIASYARNY--DAFLYISASHNPIEYNGFKFGLNDGGVLS</Hsp_qseq>
+      <Hsp_hseq>ANTELTAQMAYNLGRAGAYVLTEGAHKPKILVAKDTRISGDMLESALVAGILSVGAEAVILGVVPTPAVAYLTREYNADAGVMISASHNPVEYNGIKFFNNKGYKLS</Hsp_hseq>
+      <Hsp_midline>A+  L+AQ+A +  R     L +   KP++++A+D+R +G+++ S   A +   G     +GV P P +A   R Y  DA + ISASHNP+EYNG KF  N G  LS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|123341549|sp|Q0SQL7.1|GLMM_CLOPS</Hit_id>
+  <Hit_def>RecName: Full=Phosphoglucosamine mutase</Hit_def>
+  <Hit_accession>Q0SQL7</Hit_accession>
+  <Hit_len>448</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.2478</Hsp_bit-score>
+      <Hsp_score>173</Hsp_score>
+      <Hsp_evalue>7.40343e-12</Hsp_evalue>
+      <Hsp_query-from>51</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>ADAVLSAQVALSYAR----FLKKKVPKPRVVIARDSRPTGEIISSICTAILHLEGCSLRCVGVGPIPEIASYARNY--DAFLYISASHNPIEYNGFKF</Hsp_qseq>
+      <Hsp_hseq>ANTELTAELAYNLGRAGAYVLTEGTHKPKILVAKDTRISGDMLEAALVAGILSVGAEALCLGVVPTPAVAHLTRAYGADAGVMISASHNPVEYNGIKF</Hsp_hseq>
+      <Hsp_midline>A+  L+A++A +  R     L +   KP++++A+D+R +G+++ +   A +   G    C+GV P P +A   R Y  DA + ISASHNP+EYNG KF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|75541630|sp|Q890U1.1|GLMM_CLOTE</Hit_id>
+  <Hit_def>RecName: Full=Phosphoglucosamine mutase</Hit_def>
+  <Hit_accession>Q890U1</Hit_accession>
+  <Hit_len>448</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.2478</Hsp_bit-score>
+      <Hsp_score>173</Hsp_score>
+      <Hsp_evalue>8.01204e-12</Hsp_evalue>
+      <Hsp_query-from>51</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>ADAVLSAQVALSYAR----FLKKKVPKPRVVIARDSRPTGEII-SSICTAILHLEGCSLRCVGVGPIPEIASYARNY--DAFLYISASHNPIEYNGFKFGLNDGGVLSPTQAQQ</Hsp_qseq>
+      <Hsp_hseq>ANEELTAEVAYNLGKAGAYVLTEGTHKPKIVVGMDTRISGHMLESALVAGILSMGGEAI-CLGIVPTPAVAHLTRKYGADAGVVISASHNPVEYNGIKF-FDKGGYKLPDELED</Hsp_hseq>
+      <Hsp_midline>A+  L+A+VA +  +     L +   KP++V+  D+R +G ++ S++   IL + G ++ C+G+ P P +A   R Y  DA + ISASHNP+EYNG KF  + GG   P + + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|81766530|sp|Q8XHZ5.1|GLMM_CLOPE</Hit_id>
+  <Hit_def>RecName: Full=Phosphoglucosamine mutase &gt;gi|123049603|sp|Q0TMX1.1|GLMM_CLOP1 RecName: Full=Phosphoglucosamine mutase</Hit_def>
+  <Hit_accession>Q8XHZ5</Hit_accession>
+  <Hit_len>448</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.8626</Hsp_bit-score>
+      <Hsp_score>172</Hsp_score>
+      <Hsp_evalue>1.09891e-11</Hsp_evalue>
+      <Hsp_query-from>51</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>ADAVLSAQVALSYAR----FLKKKVPKPRVVIARDSRPTGEIISSICTAILHLEGCSLRCVGVGPIPEIASYARNY--DAFLYISASHNPIEYNGFKF</Hsp_qseq>
+      <Hsp_hseq>ANTELTAELAYNLGRAGAYVLTEGTHKPKILVAKDTRISGDMLEAALVAGILSVGAEAVCLGVVPTPAVAHLTRVYGADAGVMISASHNPVEYNGIKF</Hsp_hseq>
+      <Hsp_midline>A+  L+A++A +  R     L +   KP++++A+D+R +G+++ +   A +   G    C+GV P P +A   R Y  DA + ISASHNP+EYNG KF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|158512403|sp|A0PXZ6.1|GLMM_CLONN</Hit_id>
+  <Hit_def>RecName: Full=Phosphoglucosamine mutase</Hit_def>
+  <Hit_accession>A0PXZ6</Hit_accession>
+  <Hit_len>449</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.4774</Hsp_bit-score>
+      <Hsp_score>171</Hsp_score>
+      <Hsp_evalue>1.57935e-11</Hsp_evalue>
+      <Hsp_query-from>51</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>ADAVLSAQVALSYAR----FLKKKVPKPRVVIARDSRPTGEIISSICTAILHLEGCSLRCVGVGPIPEIASYARNY--DAFLYISASHNPIEYNGFKF</Hsp_qseq>
+      <Hsp_hseq>ANTELTADLAFKLGRAGAFVLTEGTHKPKILVGMDTRISGDMLEAALVAGILSVGAEAICVGVVPTPAIAYLTRKYKADAGVVISASHNPVEYNGIKF</Hsp_hseq>
+      <Hsp_midline>A+  L+A +A    R     L +   KP++++  D+R +G+++ +   A +   G    CVGV P P IA   R Y  DA + ISASHNP+EYNG KF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|189040779|sp|A6LPX0.1|GLMM_CLOB8</Hit_id>
+  <Hit_def>RecName: Full=Phosphoglucosamine mutase</Hit_def>
+  <Hit_accession>A6LPX0</Hit_accession>
+  <Hit_len>448</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.707</Hsp_bit-score>
+      <Hsp_score>169</Hsp_score>
+      <Hsp_evalue>2.5289e-11</Hsp_evalue>
+      <Hsp_query-from>51</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>ADAVLSAQVALSYAR----FLKKKVPKPRVVIARDSRPTGEIISSICTAILHLEGCSLRCVGVGPIPEIASYARNY--DAFLYISASHNPIEYNGFKFGLNDGG</Hsp_qseq>
+      <Hsp_hseq>ANTELTARIAYDLGRAGAYVLTEGAHKPKILVAKDTRISGDMLESALIAGILSVGAEAIVLGVVPTPAVAYLTRKYGADAGVMISASHNPVEYNGIKF-FNDKG</Hsp_hseq>
+      <Hsp_midline>A+  L+A++A    R     L +   KP++++A+D+R +G+++ S   A +   G     +GV P P +A   R Y  DA + ISASHNP+EYNG KF  ND G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|254798570|sp|C1FMP0.1|GLMM_CLOBJ</Hit_id>
+  <Hit_def>RecName: Full=Phosphoglucosamine mutase</Hit_def>
+  <Hit_accession>C1FMP0</Hit_accession>
+  <Hit_len>449</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.5514</Hsp_bit-score>
+      <Hsp_score>166</Hsp_score>
+      <Hsp_evalue>5.02586e-11</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>AVLSAQVALSYARFLKKKVPKPRVVIARDSRPTGEIISSICTAILHLEGCSLRCVGVGPIPEIASYARNY--DAFLYISASHNPIEYNGFKF</Hsp_qseq>
+      <Hsp_hseq>ADLAYKLGKAGAFILTEGTHRPKILVGMDTRISGDMLESALVAGILSVGAEAICVGVIPTPAIAYLTRKYNADAGVVISASHNPVEYNGIKF</Hsp_hseq>
+      <Hsp_midline>A L+ ++  + A  L +   +P++++  D+R +G+++ S   A +   G    CVGV P P IA   R Y  DA + ISASHNP+EYNG KF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|226722726|sp|B1IG08.1|GLMM_CLOBK</Hit_id>
+  <Hit_def>RecName: Full=Phosphoglucosamine mutase</Hit_def>
+  <Hit_accession>B1IG08</Hit_accession>
+  <Hit_len>449</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.5514</Hsp_bit-score>
+      <Hsp_score>166</Hsp_score>
+      <Hsp_evalue>5.07011e-11</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>AVLSAQVALSYARFLKKKVPKPRVVIARDSRPTGEIISSICTAILHLEGCSLRCVGVGPIPEIASYARNY--DAFLYISASHNPIEYNGFKF</Hsp_qseq>
+      <Hsp_hseq>ADLAYKLGKAGAFILTEGTHRPKILVGMDTRISGDMLESALVAGILSVGAEAICVGVIPTPAIAYLTRKYNADAGVVISASHNPVEYNGIKF</Hsp_hseq>
+      <Hsp_midline>A L+ ++  + A  L +   +P++++  D+R +G+++ S   A +   G    CVGV P P IA   R Y  DA + ISASHNP+EYNG KF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|166990412|sp|A7GJ15.1|GLMM_CLOBL</Hit_id>
+  <Hit_def>RecName: Full=Phosphoglucosamine mutase</Hit_def>
+  <Hit_accession>A7GJ15</Hit_accession>
+  <Hit_len>449</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.5514</Hsp_bit-score>
+      <Hsp_score>166</Hsp_score>
+      <Hsp_evalue>5.43845e-11</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>AVLSAQVALSYARFLKKKVPKPRVVIARDSRPTGEIISSICTAILHLEGCSLRCVGVGPIPEIASYARNY--DAFLYISASHNPIEYNGFKF</Hsp_qseq>
+      <Hsp_hseq>ADLAYKLGKAGAFILTEGTHRPKILVGMDTRISGDMLESALVAGILSVGAEAICVGVIPTPAIAYLTRKYNADAGVVISASHNPVEYNGIKF</Hsp_hseq>
+      <Hsp_midline>A L+ ++  + A  L +   +P++++  D+R +G+++ S   A +   G    CVGV P P IA   R Y  DA + ISASHNP+EYNG KF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|259647714|sp|C3KVJ0.1|GLMM_CLOB6</Hit_id>
+  <Hit_def>RecName: Full=Phosphoglucosamine mutase</Hit_def>
+  <Hit_accession>C3KVJ0</Hit_accession>
+  <Hit_len>449</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.5514</Hsp_bit-score>
+      <Hsp_score>166</Hsp_score>
+      <Hsp_evalue>5.98897e-11</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>AVLSAQVALSYARFLKKKVPKPRVVIARDSRPTGEIISSICTAILHLEGCSLRCVGVGPIPEIASYARNY--DAFLYISASHNPIEYNGFKF</Hsp_qseq>
+      <Hsp_hseq>ADLAYKLGKAGAFILTEGAHRPKILVGMDTRISGDMLESALVAGILSVGAEAICVGVIPTPAIAYLTRKYNADAGVVISASHNPVEYNGIKF</Hsp_hseq>
+      <Hsp_midline>A L+ ++  + A  L +   +P++++  D+R +G+++ S   A +   G    CVGV P P IA   R Y  DA + ISASHNP+EYNG KF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|226722727|sp|B1KSG4.1|GLMM_CLOBM</Hit_id>
+  <Hit_def>RecName: Full=Phosphoglucosamine mutase</Hit_def>
+  <Hit_accession>B1KSG4</Hit_accession>
+  <Hit_len>449</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.5514</Hsp_bit-score>
+      <Hsp_score>166</Hsp_score>
+      <Hsp_evalue>6.0949e-11</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>AVLSAQVALSYARFLKKKVPKPRVVIARDSRPTGEIISSICTAILHLEGCSLRCVGVGPIPEIASYARNY--DAFLYISASHNPIEYNGFKF</Hsp_qseq>
+      <Hsp_hseq>ADLAYKLGKAGAFILTEGTHRPKILVGMDTRISGDMLESALVAGILSVGAEAICVGVIPTPAIAYLTRKYNADAGVVISASHNPVEYNGIKF</Hsp_hseq>
+      <Hsp_midline>A L+ ++  + A  L +   +P++++  D+R +G+++ S   A +   G    CVGV P P IA   R Y  DA + ISASHNP+EYNG KF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>462628</Statistics_db-num>
+      <Statistics_db-len>173435234</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

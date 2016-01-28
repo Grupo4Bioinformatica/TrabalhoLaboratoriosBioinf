@@ -1,0 +1,602 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>Query_139915</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>268</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_139915</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>268</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|11386905|sp|O83421.1|MURI_TREPA</Hit_id>
+  <Hit_def>RecName: Full=Glutamate racemase &gt;gi|229486284|sp|B2S303.1|MURI_TREPS RecName: Full=Glutamate racemase</Hit_def>
+  <Hit_accession>O83421</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>548.51</Hsp_bit-score>
+      <Hsp_score>1412</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>268</Hsp_identity>
+      <Hsp_positive>268</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MSDRREQFQYAFLDSGIGGLPYAHALRVRVPEASLVYVADRVYFPYGNKSSAQIIARASAVLQKVQTNFSPHIVVLACNSMSVNALEFLRAQVSVPVVGVVPAIKQAVACSHKKHIGVLATQCTITHPYTACLRAQFGAGCVFQMRADARLIECLERGLIFEVEDMQREAVARSVMPFQEAGVDVLVLACTHFVHVRHLFQDCVGTSCTVVDSLEGVVRRTLRLCPPQSQLRGNAACYVTGARDAVCAARYARYAQHFGLRWAGFLDV</Hsp_qseq>
+      <Hsp_hseq>MSDRREQFQYAFLDSGIGGLPYAHALRVRVPEASLVYVADRVYFPYGNKSSAQIIARASAVLQKVQTNFSPHIVVLACNSMSVNALEFLRAQVSVPVVGVVPAIKQAVACSHKKHIGVLATQCTITHPYTACLRAQFGAGCVFQMRADARLIECLERGLIFEVEDMQREAVARSVMPFQEAGVDVLVLACTHFVHVRHLFQDCVGTSCTVVDSLEGVVRRTLRLCPPQSQLRGNAACYVTGARDAVCAARYARYAQHFGLRWAGFLDV</Hsp_hseq>
+      <Hsp_midline>MSDRREQFQYAFLDSGIGGLPYAHALRVRVPEASLVYVADRVYFPYGNKSSAQIIARASAVLQKVQTNFSPHIVVLACNSMSVNALEFLRAQVSVPVVGVVPAIKQAVACSHKKHIGVLATQCTITHPYTACLRAQFGAGCVFQMRADARLIECLERGLIFEVEDMQREAVARSVMPFQEAGVDVLVLACTHFVHVRHLFQDCVGTSCTVVDSLEGVVRRTLRLCPPQSQLRGNAACYVTGARDAVCAARYARYAQHFGLRWAGFLDV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|123253315|sp|Q1GTU9.1|MURI_SPHAL</Hit_id>
+  <Hit_def>RecName: Full=Glutamate racemase</Hit_def>
+  <Hit_accession>Q1GTU9</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>140.584</Hsp_bit-score>
+      <Hsp_score>353</Hsp_score>
+      <Hsp_evalue>3.31628e-38</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>231</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>222</Hsp_align-len>
+      <Hsp_qseq>FLDSGIGGLPYAHALRVRVPEASLVYVADRVYFPYGNKSSAQIIARASAVLQKVQTNFSPHIVVLACNSMSVNALEFLRAQVSVPVVGVVPAIKQAVACSHKKHIGVLATQCTITHPYTACLRAQFGAGCVFQMRADARLIECLERGLIFEVEDMQREAVARSVMPFQEA----GVDVLVLACTHFVHVRHLFQDCVGTSCTVVDSLEGVVRRTLRLCPPQS</Hsp_qseq>
+      <Hsp_hseq>FFDSGLGGLSVLGPTRALLPTAPIVYAADYAGLPYGRKSNEELAARVPALLGRLVERYQPRLAVIACNTASTIALGHVRAALDLPIVGTVPAIKPAAEMTKSGVIGVLGTEATVRQPYVDDLSARFAGGKTVLRHGSPGLVTGAEARLRGETVD--PEVIARAVAGLRDQPRGDAIDVVVLACTHFPLLKDELQAGFGRGVALIDGAEGIARRIAHLTDGQA</Hsp_hseq>
+      <Hsp_midline>F DSG+GGL      R  +P A +VY AD    PYG KS+ ++ AR  A+L ++   + P + V+ACN+ S  AL  +RA + +P+VG VPAIK A   +    IGVL T+ T+  PY   L A+F  G          L+   E  L  E  D   E +AR+V   ++      +DV+VLACTHF  ++   Q   G    ++D  EG+ RR   L   Q+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|13431696|sp|P57887.1|MURI_PASMU</Hit_id>
+  <Hit_def>RecName: Full=Glutamate racemase</Hit_def>
+  <Hit_accession>P57887</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>139.428</Hsp_bit-score>
+      <Hsp_score>350</Hsp_score>
+      <Hsp_evalue>9.8488e-38</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>FLDSGIGGLPYAHALRVRVPEASLVYVADRVYFPYGNKSSAQIIARASAVLQKVQTNFSPHIVVLACNSMSVNALEFLRAQVSVPVVGVVPAIKQAVACSHKKHIGVLATQCTITHPYTACLRAQFGAGCVFQMRADARLIECLERGLIFEVEDMQREAVARSVMPFQE-AGVDVLVLACTHFVHVRHLFQDCVGTSCTVVDSLEGVVRRTLRL</Hsp_qseq>
+      <Hsp_hseq>FFDSGMGGFSVYKETKQLLPDCHYLYCFDNAFFPYSEKSEEEIIQRTLKICQKIDRTFPLDLIVIACNTASTVVLPALRAHFAIPVVGTVPAIKPAAECSETKHIGLLATKGTVKRAYVADLIAQYARDCTVEKLGSTKLVEIAEQKLHGKAVDLH--ALKQELAPWQSIQNLDTVVLGCTHFPLIKEEIKWCLPQVRFFVDSGKAIALRVKTL</Hsp_hseq>
+      <Hsp_midline>F DSG+GG       +  +P+   +Y  D  +FPY  KS  +II R   + QK+   F   ++V+ACN+ S   L  LRA  ++PVVG VPAIK A  CS  KHIG+LAT+ T+   Y A L AQ+   C  +     +L+E  E+ L  +  D+   A+ + + P+Q    +D +VL CTHF  ++   + C+      VDS + +  R   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|122945064|sp|Q0I0C5.1|MURI_SHESR</Hit_id>
+  <Hit_def>RecName: Full=Glutamate racemase</Hit_def>
+  <Hit_accession>Q0I0C5</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>138.272</Hsp_bit-score>
+      <Hsp_score>347</Hsp_score>
+      <Hsp_evalue>2.16396e-37</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>247</Hsp_align-len>
+      <Hsp_qseq>DSGIGGLPYAHALRVRVPEASLVYVADRVYFPYGNKSSAQIIARASAVLQKVQTNFSPHIVVLACNSMSVNALEFLRAQVSVPVVGVVPAIKQAVACSHKKHIGVLATQCTITHPYTACLRAQFGAGCVFQMRADARLIECLERGLIFEVEDMQREAVARSVMPFQEAGVDVLVLACTHFVHVRHLFQDCVGTSCTVVDSLEGVVRRTLRLCPPQSQLRGNAACYVTGARDAVCAARYARYAQHFGL</Hsp_qseq>
+      <Hsp_hseq>DSGIGGLSVLAEIRKLLPHHNYCYLFDNARLPYGELEEQELISGCVALIDQVVERTHAAIVVVACNTASTVVLPALRATLSIPVVGVVPAIKPAAQLSKSKRIGLLATPGTVKRHYTYELISQFADDCHVELFGSSELVLMAEQKIATGQLDMAR--LAQVLSPIVEADLDVLVLGCTHFPMLRDELQQVLGKGVTLLDSGEAIAKRVKTLL---AETKSEQQVQEDANRDSVMQAFYTKAEISEGL</Hsp_hseq>
+      <Hsp_midline>DSGIGGL     +R  +P  +  Y+ D    PYG     ++I+   A++ +V       IVV+ACN+ S   L  LRA +S+PVVGVVPAIK A   S  K IG+LAT  T+   YT  L +QF   C  ++   + L+   E+ +     DM R  +A+ + P  EA +DVLVL CTHF  +R   Q  +G   T++DS E + +R   L    ++ +          RD+V  A Y +     GL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|122301132|sp|Q089S6.1|MURI_SHEFN</Hit_id>
+  <Hit_def>RecName: Full=Glutamate racemase</Hit_def>
+  <Hit_accession>Q089S6</Hit_accession>
+  <Hit_len>259</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.502</Hsp_bit-score>
+      <Hsp_score>345</Hsp_score>
+      <Hsp_evalue>4.04734e-37</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>249</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>DSGIGGLPYAHALRVRVPEASLVYVADRVYFPYGNKSSAQIIARASAVLQKVQTNFSPHIVVLACNSMSVNALEFLRAQVSVPVVGVVPAIKQAVACSHKKHIGVLATQCTITHPYTACLRAQFGAGCVFQMRADARLIECLERGLIFEVEDMQREAVARSVMPFQEAGVDVLVLACTHFVHVRHLFQDCVGTSCTVVDSLEGVVRRTLRLCPPQSQLRGN-AACYVTGARDAVCAA</Hsp_qseq>
+      <Hsp_hseq>DSGIGGLSVMNEIRKQLPLHDYCYLFDNARLPYGNLSEQELITGCVALITHHARRLNASIVVVACNTASTLVLPLLRQQLTIPIVGVVPAIKPAAMLSKKKHIGLLATPGTVKRDYTQALINQFAGNCKVELFGTSDLVLLAEQYVAQQQIDMDK--LNEILAPIAASNIDVLVLGCTHFPMIATEISHYLGEGVTLLDSGEAVAKRVRFLLSKESNSNKQLQACYTKDIGQGLKAA</Hsp_hseq>
+      <Hsp_midline>DSGIGGL   + +R ++P     Y+ D    PYGN S  ++I    A++       +  IVV+ACN+ S   L  LR Q+++P+VGVVPAIK A   S KKHIG+LAT  T+   YT  L  QF   C  ++   + L+   E+ +  +  DM +  +   + P   + +DVLVL CTHF  +       +G   T++DS E V +R   L   +S       ACY       + AA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|166231053|sp|A3Q963.1|MURI_SHELP</Hit_id>
+  <Hit_def>RecName: Full=Glutamate racemase</Hit_def>
+  <Hit_accession>A3Q963</Hit_accession>
+  <Hit_len>266</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.961</Hsp_bit-score>
+      <Hsp_score>341</Hsp_score>
+      <Hsp_evalue>1.47717e-36</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>239</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>DSGIGGLPYAHALRVRVPEASLVYVADRVYFPYGNKSSAQIIARASAVLQKVQTNFSPHIVVLACNSMSVNALEFLRAQVSVPVVGVVPAIKQAVACSHKKHIGVLATQCTITHPYTACLRAQFGAGCVFQMRADARLIECLERGLIFEVEDMQREAVARSVMPFQEAGVDVLVLACTHFVHVRHLFQDCVGTSCTVVDSLEGVVRRTLRLCPP--QSQLRGNAACYVTGARDAVC</Hsp_qseq>
+      <Hsp_hseq>DSGVGGLSILAAVREQLPSANYCYLFDNARLPYGELDEQELIQGCVTLISQAVIQCQADIVVVACNSASTLILPALRACLKVPVVGVVPAIKPAAALSQKKHLGLLATPGTVNRQYTQDLIDQFASDCRVDRFGSSELVYLAEDKMAQRPVD--SEALHRILAPIKASGLDTLILGCTHFPILREELQSYLGEGVHLLDSSNAIAARVVSLLEPSMSGEIGKSQALYTT---DSIC</Hsp_hseq>
+      <Hsp_midline>DSG+GGL    A+R ++P A+  Y+ D    PYG     ++I     ++ +        IVV+ACNS S   L  LRA + VPVVGVVPAIK A A S KKH+G+LAT  T+   YT  L  QF + C       + L+   E  +     D   EA+ R + P + +G+D L+L CTHF  +R   Q  +G    ++DS   +  R + L  P    ++  + A Y T   D++C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|254766116|sp|B8F7R8.1|MURI_HAEPS</Hit_id>
+  <Hit_def>RecName: Full=Glutamate racemase</Hit_def>
+  <Hit_accession>B8F7R8</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.806</Hsp_bit-score>
+      <Hsp_score>338</Hsp_score>
+      <Hsp_evalue>3.97754e-36</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>DSGIGGLPYAHALRVRVPEASLVYVADRVYFPYGNKSSAQIIARASAVLQKVQTNFSPHIVVLACNSMSVNALEFLRAQVSVPVVGVVPAIKQAVACSHKKHIGVLATQCTITHPYTACLRAQFGAGCVFQMRADARLIECLERGLIFEVEDMQREAVARSVMPFQE-AGVDVLVLACTHFVHVRHLFQDCVGTSCTVVDSLEGVVRRTLRL</Hsp_qseq>
+      <Hsp_hseq>DSGMGGLTIYDAIRENLPDAHYLYCFDNAYFPYSEKSEAVLIELAVGIVQKIAENYPLDMVVVACNTASTVVLPALRERFAMPIVGTVPAIKPAAQISQTKTIGLLATKGTVTRPYVDELIERYAKDCVVERIGSTDLVEIVEEKQQTGSVDMRR--LQKVVEEWQSHPTLDTVILGCTHFPLVKEELQQLLPRVSFFVDPGNGIANRVVSL</Hsp_hseq>
+      <Hsp_midline>DSG+GGL    A+R  +P+A  +Y  D  YFPY  KS A +I  A  ++QK+  N+   +VV+ACN+ S   L  LR + ++P+VG VPAIK A   S  K IG+LAT+ T+T PY   L  ++   CV +      L+E +E        DM+R  + + V  +Q    +D ++L CTHF  V+   Q  +      VD   G+  R + L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|226707593|sp|B5FCA3.1|MURI_VIBFM</Hit_id>
+  <Hit_def>RecName: Full=Glutamate racemase</Hit_def>
+  <Hit_accession>B5FCA3</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.42</Hsp_bit-score>
+      <Hsp_score>337</Hsp_score>
+      <Hsp_evalue>5.0159e-36</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>LDSGIGGLPYAHALRVRVPEASLVYVADRVYFPYGNKSSAQIIARASAVLQKVQTNFSPHIVVLACNSMSVNALEFLRAQVSVPVVGVVPAIKQAVACSHKKHIGVLATQCTITHPYTACLRAQFGAGCVFQMRADARLIECLERGLIFEVEDMQREAVARSVMPFQEAGVDVLVLACTHFVHVRHLFQDCVGTSCTVVDSLEGVVRRTLRL</Hsp_qseq>
+      <Hsp_hseq>FDSGIGGLSVYKEIKYQLPLAKYIYAFDNAAFPYGELTESVLIERTTHIISELCSQFPIDIVVIACNTASTVVLPSLRDKLDIPVVGVVPAIKPAALVSNK--IGLLATPATVKRSYTYDLIKSFAPISDVQLLGSTRLVEMAEEKMIGIDVDMRAK---RDLSPWQNK-VDTIVLGCTHFPFLKNEIKKALGNKILLIDSGEAIARRVKQL</Hsp_hseq>
+      <Hsp_midline> DSGIGGL     ++ ++P A  +Y  D   FPYG  + + +I R + ++ ++ + F   IVV+ACN+ S   L  LR ++ +PVVGVVPAIK A   S+K  IG+LAT  T+   YT  L   F      Q+    RL+E  E  +I    DM+ +   R + P+Q   VD +VL CTHF  +++  +  +G    ++DS E + RR  +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|226722989|sp|B8CH57.1|MURI_SHEPW</Hit_id>
+  <Hit_def>RecName: Full=Glutamate racemase</Hit_def>
+  <Hit_accession>B8CH57</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.035</Hsp_bit-score>
+      <Hsp_score>336</Hsp_score>
+      <Hsp_evalue>8.68692e-36</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>235</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>FLDSGIGGLPYAHALRVRVPEASLVYVADRVYFPYGNKSSAQIIARASAVLQKVQTNFSPHIVVLACNSMSVNALEFLRAQVSVPVVGVVPAIKQAVACSHKKHIGVLATQCTITHPYTACLRAQFGAGCVFQMRADARLIECLERGLIFEVEDMQREAVARSVMPFQEAGVDVLVLACTHFVHVRHLFQDCVGTSCTVVDSLEGVVRRTLRLCPPQSQLRGNA</Hsp_qseq>
+      <Hsp_hseq>IFDSGIGGLSILDEIRKVMPQQSCCYLFDNARLPYGELEESELISGCVSLIIEQAMRINAGIVVVACNSASTLVLTTLREQLSIPVVGVVPAIKPAAKISKRRHIGLLATPGTIKRPYTKQLIDAFAEDCRVELFGSSELVMLAEAKLAGTAVDMQKLELL--LAPIRTSELDTLVLGCTHFPVLATEIKQSLGQSIILLDSGKAVADRVLSL------LKGNG</Hsp_hseq>
+      <Hsp_midline>  DSGIGGL     +R  +P+ S  Y+ D    PYG    +++I+   +++ +     +  IVV+ACNS S   L  LR Q+S+PVVGVVPAIK A   S ++HIG+LAT  TI  PYT  L   F   C  ++   + L+   E  L     DMQ+  +   + P + + +D LVL CTHF  +    +  +G S  ++DS + V  R L L      L+GN </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|123357218|sp|Q12SP7.1|MURI_SHEDO</Hit_id>
+  <Hit_def>RecName: Full=Glutamate racemase</Hit_def>
+  <Hit_accession>Q12SP7</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>133.65</Hsp_bit-score>
+      <Hsp_score>335</Hsp_score>
+      <Hsp_evalue>1.66256e-35</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>227</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>DSGIGGLPYAHALRVRVPEASLVYVADRVYFPYGNKSSAQIIAR-ASAVLQKVQTNFSPHIVVLACNSMSVNALEFLRAQVSVPVVGVVPAIKQAVACSHKKHIGVLATQCTITHPYTACLRAQFGAGCVFQMRADARLIECLE-RGLIFEVEDMQREAVARSVMPFQEAGVDVLVLACTHFVHVRHLFQDCVGTSCTVVDSLEGVVRRTLRLCPP</Hsp_qseq>
+      <Hsp_hseq>DSGIGGLSVLAEIRKRLPAENYCYLFDNARLPYGDLSESELIRGCVELICQQVQ-QVEAKIVVVACNTASTLVLPVLRQRLTIPVVGVVPAIKPAALLSKRKHIGVLATPGTVSRDYTHGLISQFAEDCQVDLFGSSELVMLAEQKAAKLPVNNQQ---LAKILAPIKASKLDVLVLGCTHFPMIKEELSQYLGESVLLLDSGEAIANRVASLLEP</Hsp_hseq>
+      <Hsp_midline>DSGIGGL     +R R+P  +  Y+ D    PYG+ S +++I      + Q+VQ      IVV+ACN+ S   L  LR ++++PVVGVVPAIK A   S +KHIGVLAT  T++  YT  L +QF   C   +   + L+   E +     V + Q   +A+ + P + + +DVLVL CTHF  ++      +G S  ++DS E +  R   L  P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|122944227|sp|Q0HNV7.1|MURI_SHESM</Hit_id>
+  <Hit_def>RecName: Full=Glutamate racemase</Hit_def>
+  <Hit_accession>Q0HNV7</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>133.265</Hsp_bit-score>
+      <Hsp_score>334</Hsp_score>
+      <Hsp_evalue>2.19578e-35</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>247</Hsp_align-len>
+      <Hsp_qseq>DSGIGGLPYAHALRVRVPEASLVYVADRVYFPYGNKSSAQIIARASAVLQKVQTNFSPHIVVLACNSMSVNALEFLRAQVSVPVVGVVPAIKQAVACSHKKHIGVLATQCTITHPYTACLRAQFGAGCVFQMRADARLIECLERGLIFEVEDMQREAVARSVMPFQEAGVDVLVLACTHFVHVRHLFQDCVGTSCTVVDSLEGVVRRTLRLCPPQSQLRGNAACYVTGARDAVCAARYARYAQHFGL</Hsp_qseq>
+      <Hsp_hseq>DSGIGGLSVLAEIRKLLPHHDYCYLFDNARLPYGELEEQELVSGCVALIDQVVERTHAAIVVVACNTASTVVLPALRATLSIPVVGVVPAIKPAAQLSKSKRIGLLATPGTVKRHYTYELISQFADDCHVELFGSSELVLMAEQKIATGQLDMAR--LTQVLSPIVTADLDVLVLGCTHFPMLRDELQQVLGKGVTLLDSGEAIAKRVKTLL---AETKSEQQVQEDANRDSVMQAFYTKAKISEGL</Hsp_hseq>
+      <Hsp_midline>DSGIGGL     +R  +P     Y+ D    PYG     ++++   A++ +V       IVV+ACN+ S   L  LRA +S+PVVGVVPAIK A   S  K IG+LAT  T+   YT  L +QF   C  ++   + L+   E+ +     DM R  + + + P   A +DVLVL CTHF  +R   Q  +G   T++DS E + +R   L    ++ +          RD+V  A Y +     GL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|75431448|sp|Q5E218.1|MURI_VIBF1</Hit_id>
+  <Hit_def>RecName: Full=Glutamate racemase</Hit_def>
+  <Hit_accession>Q5E218</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.494</Hsp_bit-score>
+      <Hsp_score>332</Hsp_score>
+      <Hsp_evalue>3.03784e-35</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>LDSGIGGLPYAHALRVRVPEASLVYVADRVYFPYGNKSSAQIIARASAVLQKVQTNFSPHIVVLACNSMSVNALEFLRAQVSVPVVGVVPAIKQAVACSHKKHIGVLATQCTITHPYTACLRAQFGAGCVFQMRADARLIECLERGLIFEVEDMQREAVARSVMPFQEAGVDVLVLACTHFVHVRHLFQDCVGTSCTVVDSLEGVVRRTLRL</Hsp_qseq>
+      <Hsp_hseq>FDSGIGGLSVYKEIKYQLPLAKYIYAFDNAAFPYGELTESVLIERTTHIISKLCSKFPIDIVVIACNTASTVVLPSLREKLDIPVVGVVPAIKPAALVSNK--IGLLATPATVKRSYTYDLIKSFAPISDVQLLGSTRLVEMAEEKMIG--IDVDITELKEILSPWQNK-VDTIVLGCTHFPFLKNEIKKALGNKILLIDSGEAIARRVKQL</Hsp_hseq>
+      <Hsp_midline> DSGIGGL     ++ ++P A  +Y  D   FPYG  + + +I R + ++ K+ + F   IVV+ACN+ S   L  LR ++ +PVVGVVPAIK A   S+K  IG+LAT  T+   YT  L   F      Q+    RL+E  E  +I    D+    +   + P+Q   VD +VL CTHF  +++  +  +G    ++DS E + RR  +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|166231054|sp|A0KRK5.1|MURI_SHESA</Hit_id>
+  <Hit_def>RecName: Full=Glutamate racemase</Hit_def>
+  <Hit_accession>A0KRK5</Hit_accession>
+  <Hit_len>273</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.109</Hsp_bit-score>
+      <Hsp_score>331</Hsp_score>
+      <Hsp_evalue>4.88204e-35</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>207</Hsp_align-len>
+      <Hsp_qseq>DSGIGGLPYAHALRVRVPEASLVYVADRVYFPYGNKSSAQIIARASAVLQKVQTNFSPHIVVLACNSMSVNALEFLRAQVSVPVVGVVPAIKQAVACSHKKHIGVLATQCTITHPYTACLRAQFGAGCVFQMRADARLIECLERGLIFEVEDMQREAVARSVMPFQEAGVDVLVLACTHFVHVRHLFQDCVGTSCTVVDSLEGVVRR</Hsp_qseq>
+      <Hsp_hseq>DSGIGGLSVLAEIRKLLPHHDYCYLFDNARLPYGELEEQELISGCVALIDQVVERTHAAIVVVACNTASTVVLPALRATLSIPVVGVVPAIKPAAQLSKSKRIGLLATPGTVKRHYTYELISQFADDCHVELFGSSELVLMAEQKIATGQLDMVR--LTQVLSPIVEADLDVLVLGCTHFPMLRDELQQVLGQGVTLLDSGEAIAKR</Hsp_hseq>
+      <Hsp_midline>DSGIGGL     +R  +P     Y+ D    PYG     ++I+   A++ +V       IVV+ACN+ S   L  LRA +S+PVVGVVPAIK A   S  K IG+LAT  T+   YT  L +QF   C  ++   + L+   E+ +     DM R  + + + P  EA +DVLVL CTHF  +R   Q  +G   T++DS E + +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|229486277|sp|B1KN02.1|MURI_SHEWM</Hit_id>
+  <Hit_def>RecName: Full=Glutamate racemase</Hit_def>
+  <Hit_accession>B1KN02</Hit_accession>
+  <Hit_len>266</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.798</Hsp_bit-score>
+      <Hsp_score>325</Hsp_score>
+      <Hsp_evalue>3.82761e-34</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>DSGIGGLPYAHALRVRVPEASLVYVADRVYFPYGNKSSAQIIARASAVLQKVQTNFSPHIVVLACNSMSVNALEFLRAQVSVPVVGVVPAIKQAVACSHKKHIGVLATQCTITHPYTACLRAQFGAGCVFQMRADARLIECLERGLIFEVEDMQREAVARSVMPFQEAGVDVLVLACTHFVHVRHLFQDCVGTSCTVVDSLEGVVRRTLRLCPPQSQLR</Hsp_qseq>
+      <Hsp_hseq>DSGVGGLSILDEIRRVLPDQNYCYLFDNARLPYGELEEQELIDGCEALITATVAQLGASLVVIACNTASTLVLPVLREALTIPVVGVVPAIKPAALYSQAKHIGLLATPGTIKRSYTHSLIQEFAANCQVELYGSSELVLLAERKASGK-QILQGE-IAQLLSPIKVSGIDTLVLGCTHFPILKDEIQQYLGDGVLLLDSGKAVAARVSTLIKEESTLN</Hsp_hseq>
+      <Hsp_midline>DSG+GGL     +R  +P+ +  Y+ D    PYG     ++I    A++          +VV+ACN+ S   L  LR  +++PVVGVVPAIK A   S  KHIG+LAT  TI   YT  L  +F A C  ++   + L+   ER    + + +Q E +A+ + P + +G+D LVL CTHF  ++   Q  +G    ++DS + V  R   L   +S L </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|166231024|sp|A3N3D7.1|MURI_ACTP2</Hit_id>
+  <Hit_def>RecName: Full=Glutamate racemase</Hit_def>
+  <Hit_accession>A3N3D7</Hit_accession>
+  <Hit_len>265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.413</Hsp_bit-score>
+      <Hsp_score>324</Hsp_score>
+      <Hsp_evalue>4.51559e-34</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>208</Hsp_align-len>
+      <Hsp_qseq>DSGIGGLPYAHALRVRVPEASLVYVADRVYFPYGNKSSAQIIARASAVLQKVQTNFSPHIVVLACNSMSVNALEFLRAQVSVPVVGVVPAIKQAVACSHKKHIGVLATQCTITHPYTACLRAQFGAGCVFQMRADARLIECLERGLIFEVEDMQREAVARSVMPFQ-EAGVDVLVLACTHFVHVRHLFQDCVGTSCTVVDSLEGVVRR</Hsp_qseq>
+      <Hsp_hseq>DSGMGGLTIYDAIRQTLPNAHYLYCFDNAYFPYSERSENVLIEQAVKIVQKIAEKYPLDMVVVACNTASTVVLPALREKFAFPIVGTVPAIKPAAAISQTKTIGLLATKGTVERPYVAELIEKYAKDCIVEKIGTTTLVELVEEKI--RTGNVDQDRLSKVVAEWQTHPTLDTVILGCTHFPLVKQELQQLLPNVKYFIDPGNGIANR</Hsp_hseq>
+      <Hsp_midline>DSG+GGL    A+R  +P A  +Y  D  YFPY  +S   +I +A  ++QK+   +   +VV+ACN+ S   L  LR + + P+VG VPAIK A A S  K IG+LAT+ T+  PY A L  ++   C+ +      L+E +E  +     ++ ++ +++ V  +Q    +D ++L CTHF  V+   Q  +      +D   G+  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|226707584|sp|B6ENT1.1|MURI_ALISL</Hit_id>
+  <Hit_def>RecName: Full=Glutamate racemase</Hit_def>
+  <Hit_accession>B6ENT1</Hit_accession>
+  <Hit_len>265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.413</Hsp_bit-score>
+      <Hsp_score>324</Hsp_score>
+      <Hsp_evalue>5.166e-34</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>FLDSGIGGLPYAHALRVRVPEASLVYVADRVYFPYGNKSSAQIIARASAVLQKVQTNFSPHIVVLACNSMSVNALEFLRAQVSVPVVGVVPAIKQAVACSHKKHIGVLATQCTITHPYTACLRAQFGAGCVFQMRADARLIECLERGLI-FEVEDMQREAVARSVMPFQEAGVDVLVLACTHFVHVRHLFQDCVGTSCTVVDSLEGVVRRTLRL</Hsp_qseq>
+      <Hsp_hseq>IFDSGIGGLSVFKDIRYQIPLAKYIYAFDNAGFPYGELTEDILIERTSYIIQKLCHRHKIDIVVIACNTASTVVLPTLRTLLSIPVVGVVPAIKPAALVSQK--IGLLATPATIKRSYTFDLIKSFASISDVKLLGSTRLVEMAEEKMVGIPVNLIELDEILKS----WKGQVDCIVLGCTHFPFLRKEIKEILGRNVLLIDSGEAIARRVKQL</Hsp_hseq>
+      <Hsp_midline>  DSGIGGL     +R ++P A  +Y  D   FPYG  +   +I R S ++QK+       IVV+ACN+ S   L  LR  +S+PVVGVVPAIK A   S K  IG+LAT  TI   YT  L   F +    ++    RL+E  E  ++   V  ++ + + +S     +  VD +VL CTHF  +R   ++ +G +  ++DS E + RR  +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|229486230|sp|B3GZ94.1|MURI_ACTP7</Hit_id>
+  <Hit_def>RecName: Full=Glutamate racemase</Hit_def>
+  <Hit_accession>B3GZ94</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.028</Hsp_bit-score>
+      <Hsp_score>323</Hsp_score>
+      <Hsp_evalue>7.04944e-34</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>DSGIGGLPYAHALRVRVPEASLVYVADRVYFPYGNKSSAQIIARASAVLQKVQTNFSPHIVVLACNSMSVNALEFLRAQVSVPVVGVVPAIKQAVACSHKKHIGVLATQCTITHPYTACLRAQFGAGCVFQMRADARLIECLERGLIFEVEDMQREAVARSVMPFQ-EAGVDVLVLACTHFVHVRHLFQDCVGTSCTVVDSLEGVVRRTLRL</Hsp_qseq>
+      <Hsp_hseq>DSGMGGLTIYDAIRQTLPNAHYLYCFDNAYFPYSERSENVLIEQAVKIVQKIAEKYPLDMVVVACNTASTVVLPALREKFAFPIVGTVPAIKPAAAISQTKTIGLLATKGTVERPYVAELIEKYAKDCIVEKIGTTTLVELVEEKI--RTGNVDQDRLSKVVAEWQTHPTLDTVILGCTHFPLVKQELQQLLPKVKFFIDPGNGIANRVATL</Hsp_hseq>
+      <Hsp_midline>DSG+GGL    A+R  +P A  +Y  D  YFPY  +S   +I +A  ++QK+   +   +VV+ACN+ S   L  LR + + P+VG VPAIK A A S  K IG+LAT+ T+  PY A L  ++   C+ +      L+E +E  +     ++ ++ +++ V  +Q    +D ++L CTHF  V+   Q  +      +D   G+  R   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|71151975|sp|Q7VKJ3.1|MURI_HAEDU</Hit_id>
+  <Hit_def>RecName: Full=Glutamate racemase</Hit_def>
+  <Hit_accession>Q7VKJ3</Hit_accession>
+  <Hit_len>265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.872</Hsp_bit-score>
+      <Hsp_score>320</Hsp_score>
+      <Hsp_evalue>1.69693e-33</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>DSGIGGLPYAHALRVRVPEASLVYVADRVYFPYGNKSSAQIIARASAVLQKVQTNFSPHIVVLACNSMSVNALEFLRAQVSVPVVGVVPAIKQAVACSHKKHIGVLATQCTITHPYTACLRAQFGAGCVFQMRADARLIECLERGLIFEVEDMQREAVARSVMPFQE-AGVDVLVLACTHFVHVRHLFQDCVGTSCTVVDSLEGVVRRTLRL</Hsp_qseq>
+      <Hsp_hseq>DSGMGGLTVYDEIRKKLPNAHYLYYFDNACFPYSEKPTEVLVERATKMVQKMAKNYPLDLVVVACNTASTVVLPTLRKIFPFPIVGTVPAIKPAAALSQTKTIGLLATKGTITRPYVLSLIEQYAPNCQIEKIGSTALVELVEQKLQTGVIDLTR--LTPIIADWQNHPTLDTVILGCTHFPMAKTELQQLLPNVKYFLDSGNAIANRVTHL</Hsp_hseq>
+      <Hsp_midline>DSG+GGL     +R ++P A  +Y  D   FPY  K +  ++ RA+ ++QK+  N+   +VV+ACN+ S   L  LR     P+VG VPAIK A A S  K IG+LAT+ TIT PY   L  Q+   C  +      L+E +E+ L   V D+ R  +   +  +Q    +D ++L CTHF   +   Q  +      +DS   +  R   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|226707583|sp|B0BT16.1|MURI_ACTPJ</Hit_id>
+  <Hit_def>RecName: Full=Glutamate racemase</Hit_def>
+  <Hit_accession>B0BT16</Hit_accession>
+  <Hit_len>265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.487</Hsp_bit-score>
+      <Hsp_score>319</Hsp_score>
+      <Hsp_evalue>2.2897e-33</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>208</Hsp_align-len>
+      <Hsp_qseq>DSGIGGLPYAHALRVRVPEASLVYVADRVYFPYGNKSSAQIIARASAVLQKVQTNFSPHIVVLACNSMSVNALEFLRAQVSVPVVGVVPAIKQAVACSHKKHIGVLATQCTITHPYTACLRAQFGAGCVFQMRADARLIECLERGLIFEVEDMQREAVARSVMPFQ-EAGVDVLVLACTHFVHVRHLFQDCVGTSCTVVDSLEGVVRR</Hsp_qseq>
+      <Hsp_hseq>DSGMGGLTIYDAIRQTLPNAHYLYCFDNAYFPYSERSENVLIEQAVKIVQKIAEKYPLDMVVVACNTASTVVLPALREKFAFPIVGTVPAIKPAAAISQTKTIGLLATKGTVERPYVAELIEKYAKDCIVEKIGTTTLVELVEEKI--RTGQVDQERLIEVIAEWQTHPTLDTVILGCTHFPLVKQELQQLLPNVKYFIDPGNGIANR</Hsp_hseq>
+      <Hsp_midline>DSG+GGL    A+R  +P A  +Y  D  YFPY  +S   +I +A  ++QK+   +   +VV+ACN+ S   L  LR + + P+VG VPAIK A A S  K IG+LAT+ T+  PY A L  ++   C+ +      L+E +E  +      + +E +   +  +Q    +D ++L CTHF  V+   Q  +      +D   G+  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|29839520|sp|Q8DD39.1|MURI_VIBVU</Hit_id>
+  <Hit_def>RecName: Full=Glutamate racemase</Hit_def>
+  <Hit_accession>Q8DD39</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.487</Hsp_bit-score>
+      <Hsp_score>319</Hsp_score>
+      <Hsp_evalue>2.31305e-33</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>221</Hsp_align-len>
+      <Hsp_qseq>FLDSGIGGLPYAHALRVRVPEASLVYVADRVYFPYGNKSSAQIIARASAVLQKVQTNFSPHIVVLACNSMSVNALEFLRAQVSVPVVGVVPAIKQAVACSHKKHIGVLATQCTITHPYTACLRAQFGAGCVFQMRADARLIECLERGLIFEVEDMQREAVARSVMPFQEAGVDVLVLACTHFVHVRHLFQDCVGTSCTVVDSLEGVVRRT---LRLCPPQS</Hsp_qseq>
+      <Hsp_hseq>IFDSGVGGLSVFQEINKRLPEVNYYYLFDNQAYPYGELSQETLLARVEALVVKMTQQFAIDLVVIACNTASTIVLPTLRAKLPIPVVGVVPAIKPASLLANRA-VGLIATPATVTRQYTHDLIRDFAHEKEVELLGSTRLVDIAEEKLRGRQVDQQELAMILKPMKHK---VDVAVLGCTHFPLLKEEIQQVLGDEIILVDSGEAIARRVQSLLHQLSPQS</Hsp_hseq>
+      <Hsp_midline>  DSG+GGL     +  R+PE +  Y+ D   +PYG  S   ++AR  A++ K+   F+  +VV+ACN+ S   L  LRA++ +PVVGVVPAIK A   +++  +G++AT  T+T  YT  L   F      ++    RL++  E  L     D Q  A+    M  +   VDV VL CTHF  ++   Q  +G    +VDS E + RR    L    PQS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>462628</Statistics_db-num>
+      <Statistics_db-len>173435234</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

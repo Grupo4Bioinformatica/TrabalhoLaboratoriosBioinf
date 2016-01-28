@@ -1,0 +1,602 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>Query_219895</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>291</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_219895</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>291</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|6919912|sp|O83386.1|ISPE_TREPA</Hit_id>
+  <Hit_def>RecName: Full=4-diphosphocytidyl-2-C-methyl-D-erythritol kinase; Short=CMK; AltName: Full=4-(cytidine-5&apos;-diphospho)-2-C-methyl-D-erythritol kinase &gt;gi|238689320|sp|B2S2W8.1|ISPE_TREPS RecName: Full=4-diphosphocytidyl-2-C-methyl-D-erythritol kinase; Short=CMK; AltName: Full=4-(cytidine-5&apos;-diphospho)-2-C-methyl-D-erythritol kinase</Hit_def>
+  <Hit_accession>O83386</Hit_accession>
+  <Hit_len>291</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>583.948</Hsp_bit-score>
+      <Hsp_score>1504</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>291</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>291</Hsp_identity>
+      <Hsp_positive>291</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>291</Hsp_align-len>
+      <Hsp_qseq>MQSLSLRAHAKVNMHLWVGARRADGLHSIESVMQRITLADSLSLSRLDIPGRCEVCSPYMALPRENTLTRAYARFCQVTGVHDGVRVRVVKRIPAGSGLGGGSADAAALLCGLDTLFGTTLSARVLREVAYSVGSDVPFFLASQAACVLGGGEQLVPLVPKTGYLGLLVWPGLHSGSAQAYEDLDRLRACGVHAADGEQYSLRGATALSAHYAQDCARWRFFNSLDAPVQRRYPVVALARWDLARAGACFTAMSGSGSXVFGLYRDEEELRRAHKLLAKRWCWCVRVRLCG</Hsp_qseq>
+      <Hsp_hseq>MQSLSLRAHAKVNMHLWVGARRADGLHSIESVMQRITLADSLSLSRLDIPGRCEVCSPYMALPRENTLTRAYARFCQVTGVHDGVRVRVVKRIPAGSGLGGGSADAAALLCGLDTLFGTTLSARVLREVAYSVGSDVPFFLASQAACVLGGGEQLVPLVPKTGYLGLLVWPGLHSGSAQAYEDLDRLRACGVHAADGEQYSLRGATALSAHYAQDCARWRFFNSLDAPVQRRYPVVALARWDLARAGACFTAMSGSGSXVFGLYRDEEELRRAHKLLAKRWCWCVRVRLCG</Hsp_hseq>
+      <Hsp_midline>MQSLSLRAHAKVNMHLWVGARRADGLHSIESVMQRITLADSLSLSRLDIPGRCEVCSPYMALPRENTLTRAYARFCQVTGVHDGVRVRVVKRIPAGSGLGGGSADAAALLCGLDTLFGTTLSARVLREVAYSVGSDVPFFLASQAACVLGGGEQLVPLVPKTGYLGLLVWPGLHSGSAQAYEDLDRLRACGVHAADGEQYSLRGATALSAHYAQDCARWRFFNSLDAPVQRRYPVVALARWDLARAGACFTAMSGSGSXVFGLYRDEEELRRAHKLLAKRWCWCVRVRLCG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|51316290|sp|Q73N18.1|ISPE_TREDE</Hit_id>
+  <Hit_def>RecName: Full=4-diphosphocytidyl-2-C-methyl-D-erythritol kinase; Short=CMK; AltName: Full=4-(cytidine-5&apos;-diphospho)-2-C-methyl-D-erythritol kinase</Hit_def>
+  <Hit_accession>Q73N18</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>231.491</Hsp_bit-score>
+      <Hsp_score>589</Hsp_score>
+      <Hsp_evalue>1.0318e-72</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>276</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>282</Hsp_align-len>
+      <Hsp_qseq>SLSLRAHAKVNMHLWVGARRADGLHSIESVMQRITLADSLSLSRLDIPGRCEVCSPYMALPRENTLTRAYARFCQVTGVHDGVRVRVVKRIPAGSGLGGGSADAAALLCGLDTLFGTTLSARVLREVAYSVGSDVPFFLASQAACVLGGGEQLVPLVPKTGYLGLLVWPGLHSGSAQAYEDLDRLRACGVHAADGEQYSLRGATALSAHYAQDCARWRFFNSLDAPVQRRYPVVALARWDLARAGACFTAMSGSGSXVFGLYRDEEELRRAHKLLAKRWCWC</Hsp_qseq>
+      <Hsp_hseq>AISLKAHAKINLHLEVLGKRSDGFHDIVSVFAPISLADELLMQRKPDKKECKVLSPLAELPAENTITRAYEEFKNFAGISEGISVRILKRIPEGAGLGGGSSDAASVLRGLNDMFSTGLAEEDLRAIALKIGSDVPFFLGNEAAVVRGRGETIKRVSVFSDYFGILIYPEIKSATPRAYSLLGR----------KESEILNPAFNPELFCGKDCREWPFFNSFEDVLFTEYPAIKKAKQDLLTNGADFALMSGAGSSVFGLFKNEKTVKNAYSKLLAEYGRC</Hsp_hseq>
+      <Hsp_midline>++SL+AHAK+N+HL V  +R+DG H I SV   I+LAD L + R      C+V SP   LP ENT+TRAY  F    G+ +G+ VR++KRIP G+GLGGGS+DAA++L GL+ +F T L+   LR +A  +GSDVPFFL ++AA V G GE +  +   + Y G+L++P + S + +AY  L R           E   L  A        +DC  W FFNS +  +   YP +  A+ DL   GA F  MSG+GS VFGL+++E+ ++ A+  L   +  C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|122251813|sp|Q01QR0.1|ISPE_SOLUE</Hit_id>
+  <Hit_def>RecName: Full=4-diphosphocytidyl-2-C-methyl-D-erythritol kinase; Short=CMK; AltName: Full=4-(cytidine-5&apos;-diphospho)-2-C-methyl-D-erythritol kinase</Hit_def>
+  <Hit_accession>Q01QR0</Hit_accession>
+  <Hit_len>316</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.992</Hsp_bit-score>
+      <Hsp_score>393</Hsp_score>
+      <Hsp_evalue>2.50756e-43</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>285</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>283</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>LRAHAKVNMHLWVGARRADGLHSIESVMQRITLADSLSLSRLDIPGRCEVCSPYMALP-RENTLTRAYARFCQVTGVHDGVRVRVVKRIPAGSGLGGGSADAAALLCGLDTLFGTTLSARVLREVAYSVGSDVPFFLASQAACVLGGGEQLVPLVPKTGYLGLLVWPGLHSGSAQAYEDLDRLRACGVHAADGEQ---YSLRGATALSAHYAQDCARWRFFNSLDAPVQRRYPVVALARWDLARAGACFTAMSGSGSXVFGLYRDEEELRRAHKLLAKRWCWCV</Hsp_qseq>
+      <Hsp_hseq>LRALAKINLDLRVLGKRPDGFHELRTIFQTISLADTLEISF--TPARKTTIELTDVLNIADNLVVRAARMVMDAMRATGRIEMRLTKRIPMGAGLGGGSSDAAAVLLALPVLAGRVLPLPKLSHIGEQLGSDVPFFLLGGAATGIGRGSELFPLPDVPAQSGVVVAPGIHVNTAQAYRDLSR-RLSGSLTTELQQNKIFSFQSLTWDTGRLAE--AR----NDFEAVVFEQHPKLAAIKRRLVRAGASAAMMSGSGSALYGLFRDRNAIFRAIELLGEDTTYRI</Hsp_hseq>
+      <Hsp_midline>LRA AK+N+ L V  +R DG H + ++ Q I+LAD+L +S    P R         L   +N + RA             + +R+ KRIP G+GLGGGS+DAAA+L  L  L G  L    L  +   +GSDVPFFL   AA  +G G +L PL       G++V PG+H  +AQAY DL R R  G    + +Q   +S +  T  +   A+  AR    N  +A V  ++P +A  +  L RAGA    MSGSGS ++GL+RD   + RA +LL +   + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|259493900|sp|C6E4K5.1|ISPE_GEOSM</Hit_id>
+  <Hit_def>RecName: Full=4-diphosphocytidyl-2-C-methyl-D-erythritol kinase; Short=CMK; AltName: Full=4-(cytidine-5&apos;-diphospho)-2-C-methyl-D-erythritol kinase</Hit_def>
+  <Hit_accession>C6E4K5</Hit_accession>
+  <Hit_len>280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>146.362</Hsp_bit-score>
+      <Hsp_score>368</Hsp_score>
+      <Hsp_evalue>5.85214e-40</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>283</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>285</Hsp_align-len>
+      <Hsp_qseq>MQSLSLRAHAKVNMHLWVGARRADGLHSIESVMQRITLADSLSLSRLDIPGRCEVCSPYMALPRE--NTLTRAYARFCQVTGVHDGVRVRVVKRIPAGSGLGGGSADAAALLCGLDTLFGTTLSARVLREVAYSVGSDVPFFLASQAACVLGGGEQLVPLVPKTGYLGLLVWPGLHSGSAQAYEDLDRLRACGVHAADGEQYSLRGATALSAHYAQDCARWRFFNSLDAPVQRRYPVVALARWDLARAGACFTAMSGSGSXVFGLYRDEEELRRAHKLLAKRWCW</Hsp_qseq>
+      <Hsp_hseq>MKKLQLLAPAKVNYRLDVLGKRPDGYHELRMIMQRVDLCDEIEIALTDVPGIRVTCG-RKGVPDGPGNIAWRAADALLKLSGKEVGIDISIAKKIPVGAGLGGGSSDAATVLMGVNELLGLGLTDERLMEIGVKLGADVPFFIFKKPALAEGIGDRLTALEEVPSLWVVLVNPGIHVSTAWVYQNL-RLTTGNPITIIPRSYS---------SLDEVCA--LLSNDLEPVTCGRFPLVSEVKEVLLAAGARGSLMSGSGSTVFGLFDDENAARTAAAEIEKTRGW</Hsp_hseq>
+      <Hsp_midline>M+ L L A AKVN  L V  +R DG H +  +MQR+ L D + ++  D+PG    C     +P    N   RA     +++G   G+ + + K+IP G+GLGGGS+DAA +L G++ L G  L+   L E+   +G+DVPFF+  + A   G G++L  L        +LV PG+H  +A  Y++L RL            YS            + CA     N L+     R+P+V+  +  L  AGA  + MSGSGS VFGL+ DE   R A   + K   W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|51316326|sp|Q7NPF3.1|ISPE_GLOVI</Hit_id>
+  <Hit_def>RecName: Full=4-diphosphocytidyl-2-C-methyl-D-erythritol kinase; Short=CMK; AltName: Full=4-(cytidine-5&apos;-diphospho)-2-C-methyl-D-erythritol kinase</Hit_def>
+  <Hit_accession>Q7NPF3</Hit_accession>
+  <Hit_len>302</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.206</Hsp_bit-score>
+      <Hsp_score>365</Hsp_score>
+      <Hsp_evalue>2.58889e-39</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>266</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>277</Hsp_align-len>
+      <Hsp_qseq>MQSLSLRAHAKVNMHLWVGARRADGLHSIESVMQRITLADSLSLSRLDIPGRCEVCSPYMALPRENTLTRAYARFCQVTGVHDGVRVRVVKRIPAGSGLGGGSADAAALLCGLDTLFGTTLSARVLREVAYSVGSDVPFFLASQAACVLGGGEQLVPLVPKTG-YLGLLVWPGLHSGSAQAYEDLDRLRACGVHAADGEQYSLRGATALSAHYAQDCARWR--FFNSLDAPVQRRYPVVALARWDLARAGACFTAMSGSGSXVFGLYRDEEELRRAH</Hsp_qseq>
+      <Hsp_hseq>MKTVRLRAAAKINLYLEILGVRPDNFHELVMVLQSVDLADTVTL-RAAPTTRVSCSHPLVPNDRTNLAVRAVEVLQKHTGIDEGVEIVIEKRIPVASGLAGGSTDAAAVLAGLNVLWDLGLTQRQLQSLGAQIGSDIPFCVTGGTALAMGRGEVLSPLPALKGVYLVLAKLADLQVSTAWAYQTYRR-----EYLSEGTAPRARTSALLSAVASQEVARIAPLLHNDLERAVLPAYPQVSALREHLVSAGALGAMMSGSGPAVFGLARD-----RAH</Hsp_hseq>
+      <Hsp_midline>M+++ LRA AK+N++L +   R D  H +  V+Q + LAD+++L R     R     P +   R N   RA     + TG+ +GV + + KRIP  SGL GGS DAAA+L GL+ L+   L+ R L+ +   +GSD+PF +    A  +G GE L PL    G YL L     L   +A AY+   R      + ++G     R +  LSA  +Q+ AR      N L+  V   YP V+  R  L  AGA    MSGSG  VFGL RD     RAH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|259493907|sp|B0KBH0.1|ISPE_THEP3</Hit_id>
+  <Hit_def>RecName: Full=4-diphosphocytidyl-2-C-methyl-D-erythritol kinase; Short=CMK; AltName: Full=4-(cytidine-5&apos;-diphospho)-2-C-methyl-D-erythritol kinase</Hit_def>
+  <Hit_accession>B0KBH0</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.05</Hsp_bit-score>
+      <Hsp_score>362</Hsp_score>
+      <Hsp_evalue>5.0289e-39</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>285</Hsp_align-len>
+      <Hsp_qseq>MQSLSLRAHAKVNMHLWVGARRADGLHSIESVMQRITLADSLSLSRLDIPGRCEVCSPY-MALPRENTLTRAYARFCQVTGVHDGVRVRVVKRIPAGSGLGGGSADAAALLCGLDTLFGTTLSARVLREVAYSVGSDVPFFLASQAACVLGGGEQLVPLVPKTGYLGLLVWPGLHSGSAQAYEDLDRLRACGVHAADGEQYSLRGATALSAHYAQDCARWRFFNSLDAPVQRRYPVVALARWDLARAGACFTAMSGSGSXVFGLYRDEEELRRAHKLLAKRWCWC</Hsp_qseq>
+      <Hsp_hseq>MKKIKVKAYAKINLSLDVLGKREDGYHEISTIMQSIDLADILEFEKSEIVKV--FCNDHRVPLGEDNLIVKVINLLKEKYQMEEGVLVKLDKRIPLAAGLAGGSADAAATIVALDKLWNLNMSKEEKKEIALKVGADVPFCLEGGTKLAKGIGEIFEDLKITSMNL-LLVKPDIEISTKEIYDKWDRLNFKSHHA------TVPVVQAIQEGNIYKIAE-NIKNDLELVTSQKYGIINKIKEELLKKGALGCAMSGSGPTVYGIFDDLEKLRKAYEDLKEVYSFV</Hsp_hseq>
+      <Hsp_midline>M+ + ++A+AK+N+ L V  +R DG H I ++MQ I LAD L   + +I      C+ + + L  +N + +      +   + +GV V++ KRIP  +GL GGSADAAA +  LD L+   +S    +E+A  VG+DVPF L        G GE    L   +  L LLV P +   + + Y+  DRL     HA      ++    A+        A     N L+    ++Y ++   + +L + GA   AMSGSG  V+G++ D E+LR+A++ L + + + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|97053087|sp|Q39RQ7.1|ISPE_GEOMG</Hit_id>
+  <Hit_def>RecName: Full=4-diphosphocytidyl-2-C-methyl-D-erythritol kinase; Short=CMK; AltName: Full=4-(cytidine-5&apos;-diphospho)-2-C-methyl-D-erythritol kinase</Hit_def>
+  <Hit_accession>Q39RQ7</Hit_accession>
+  <Hit_len>281</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>139.428</Hsp_bit-score>
+      <Hsp_score>350</Hsp_score>
+      <Hsp_evalue>1.97263e-37</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>285</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>274</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>287</Hsp_align-len>
+      <Hsp_qseq>MQSLSLRAHAKVNMHLWVGARRADGLHSIESVMQRITLADSLSLSRLDIPGRCEVCSPYMALPR--ENTLTRAYARFCQVTGVHDGVRVRVVKRIPAGSGLGGGSADAAALLCGLDTLFGTTLSARVLREVAYSVGSDVPFFLASQAACVLGGGEQLVPLVPKTGYLGLLVWPGLHSGSAQAYEDLDRLRACGVHAADGEQYSLRGATALSAHYAQDCARWRFFNSLDAPVQRRYPVVALARWDLARAGACFTAMSGSGSXVFGLYRDEEELRRAHKLLAKRWCWCV</Hsp_qseq>
+      <Hsp_hseq>MKSLTLKAPAKVNYRLDVLRRRPDGYHDLRMIMQRIDLCDEITITLSDTSGVRVTCG-REGVPDGPENIAWRAANALLALSGLETGIDIAITKNIPVAAGLGGGSSDAATVLLGVNELLGLGLSIERLMEVGVTLGADVPFFVFGKTALAEGIGEVLTAIDAVPPLWLVIVNPNIPVSTAWVYQ---SLRLTGEWNGDTIPRFFKDVADVCAVLAND---------LELVTIERYPVIGEIKERLVAAGAAGALMSGSGPTVFGLFASEEEARGAAQSITNSSDWFV</Hsp_hseq>
+      <Hsp_midline>M+SL+L+A AKVN  L V  RR DG H +  +MQRI L D ++++  D  G    C     +P   EN   RA      ++G+  G+ + + K IP  +GLGGGS+DAA +L G++ L G  LS   L EV  ++G+DVPFF+  + A   G GE L  +        ++V P +   +A  Y+    LR  G    D      +    + A  A D         L+     RYPV+   +  L  AGA    MSGSG  VFGL+  EEE R A + +     W V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|166216781|sp|A1ALZ9.1|ISPE_PELPD</Hit_id>
+  <Hit_def>RecName: Full=4-diphosphocytidyl-2-C-methyl-D-erythritol kinase; Short=CMK; AltName: Full=4-(cytidine-5&apos;-diphospho)-2-C-methyl-D-erythritol kinase</Hit_def>
+  <Hit_accession>A1ALZ9</Hit_accession>
+  <Hit_len>280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>139.428</Hsp_bit-score>
+      <Hsp_score>350</Hsp_score>
+      <Hsp_evalue>2.27867e-37</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>287</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>276</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>MQSLSLRAHAKVNMHLWVGARRADGLHSIESVMQRITLADSLSLSRLDIPGRCEVCSPYMALPRE--NTLTRAYARFCQVTGVHDGVRVRVVKRIPAGSGLGGGSADAAALLCGLDTLFGTTLSARVLREVAYSVGSDVPFFLASQAACVLGGGEQLVPLVPKTGYLGLLVWPGLHSGSAQAYEDLDRLRACGVHAADGEQYSLRGATALSAHYAQDCARWRFFNSLDAPVQRRYPVVALARWDLARAGACFTAMSGSGSXVFGLYRDEEELRRAHKLLAKRWCWCVRV</Hsp_qseq>
+      <Hsp_hseq>MKSLTLKAPAKVNYLLDVIRRRPDGYHDLRMVMQRVNLCDEIAIALTDSP-ELSVCCGKDGVPDGPGNIAWKAARAMLDLAAGGQGATISIVKNIPVAAGLGGGSSDAATVLMGMNQLLELGLTDQELMRIGVKLGADVPFFIFKKTALAEGIGEQLRAMPPMPALWVLLVNPGVHVSTAWVYKNL-RLTSRGELAKLPQFFS----------TVEDVCSM-LSNDLESVTIPAFPVIADIKRAMLAKGALGAMMSGSGPTVFGLFRDREGAEAARAELVEGSGWFAAV</Hsp_hseq>
+      <Hsp_midline>M+SL+L+A AKVN  L V  RR DG H +  VMQR+ L D ++++  D P    VC     +P    N   +A      +     G  + +VK IP  +GLGGGS+DAA +L G++ L    L+ + L  +   +G+DVPFF+  + A   G GEQL  + P      LLV PG+H  +A  Y++L RL + G  A   + +S            +D       N L++     +PV+A  +  +   GA    MSGSG  VFGL+RD E    A   L +   W   V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|259493908|sp|B0K474.1|ISPE_THEPX</Hit_id>
+  <Hit_def>RecName: Full=4-diphosphocytidyl-2-C-methyl-D-erythritol kinase; Short=CMK; AltName: Full=4-(cytidine-5&apos;-diphospho)-2-C-methyl-D-erythritol kinase</Hit_def>
+  <Hit_accession>B0K474</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.732</Hsp_bit-score>
+      <Hsp_score>343</Hsp_score>
+      <Hsp_evalue>2.61023e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>294</Hsp_align-len>
+      <Hsp_qseq>MQSLSLRAHAKVNMHLWVGARRADGLHSIESVMQRITLADSLSLSRLDIPGRCEVCSPYMALPRENTLTRAYARFCQVT-GVHDGVRVRVVKRIPAGSGLGGGSADAAALLCGLDTLFGTTLSARVLREVAYSVGSDVPFFLASQAACVLGGGEQLVPL-VPKTGYLGLLVWPGLHSGSAQAYEDLDRLRACGVHAA--------DGEQYSLRGATALSAHYAQDCARWRFFNSLDAPVQRRYPVVALARWDLARAGACFTAMSGSGSXVFGLYRDEEELRRAHKLLAKRWCWC</Hsp_qseq>
+      <Hsp_hseq>MKKIKVKAYAKINLSLDVLGKRKDGYHEISTVMQSIDLADILEFEKSEIVKV--FCSGHRVPEGEDNLIVKVINFLKEKYQIEEGVLVRLDKKIPLAAGLAGGSADAAATIVALDKLWNLNMSADEKKEIALKVGADVPFCLEGGTKLAKGIGEIFEDLNVPHMNL--LLVKPDIEIFTKKIYDKWDRLNFKSHHATCSVVQAIQEGNIYKI----------AENIK-----NDLELVTSRECEVINQIKEELLKKGALGCAMSGSGPTVYGIFDDLQKLIKAYKNLEGIYSFV</Hsp_hseq>
+      <Hsp_midline>M+ + ++A+AK+N+ L V  +R DG H I +VMQ I LAD L   + +I      CS +     E+ L      F +    + +GV VR+ K+IP  +GL GGSADAAA +  LD L+   +SA   +E+A  VG+DVPF L        G GE    L VP      LLV P +   + + Y+  DRL     HA         +G  Y +          A++       N L+    R   V+   + +L + GA   AMSGSG  V+G++ D ++L +A+K L   + + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|189045505|sp|A3DI26.1|ISPE_CLOTH</Hit_id>
+  <Hit_def>RecName: Full=4-diphosphocytidyl-2-C-methyl-D-erythritol kinase; Short=CMK; AltName: Full=4-(cytidine-5&apos;-diphospho)-2-C-methyl-D-erythritol kinase</Hit_def>
+  <Hit_accession>A3DI26</Hit_accession>
+  <Hit_len>283</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.961</Hsp_bit-score>
+      <Hsp_score>341</Hsp_score>
+      <Hsp_evalue>4.02244e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>273</Hsp_align-len>
+      <Hsp_qseq>MQSLSLRAHAKVNMHLWVGARRADGLHSIESVMQRITLADSLSLSRLDIPGRCEVCSPYMALPRENTLTRAYARFCQVTGVHDGVRVRVVKRIPAGSGLGGGSADAAALLCGLDTLFGTTLSARVLREVAYSVGSDVPFFLASQAACVLGGGEQLVPLVPKTGYLGLLVWPGLHSGSAQAYEDLDRLRACGVHAADGEQYSLRGATAL--SAHYAQD--CARWRFFNSLDAPVQRRYPVVALARWDLARAGACFTAMSGSGSXVFGLYRDEEE</Hsp_qseq>
+      <Hsp_hseq>MESISLKAHAKINLSLDVIGKRQDGYHEVRMIMQSIALHDEVVIEKRAAGIKVECDKPWVPEGSGNIAYKAANLMMERYKIESGVGIKILKRIPVAAGLAGGSADAAAVIKGMNELFNLNADEAELMDIGKQVGADVPFCIKGGTMLSEGIGEKLTKIPSFEGVNIVLVKPKVGVSTAWVYSNLKL-----------NEISSRPDTELLIKAIYEKNIGCLAQNMTNVLETVTIKKYGVINDIKNELLRLGALGSMMSGSGPSVFGIFENEKQ</Hsp_hseq>
+      <Hsp_midline>M+S+SL+AHAK+N+ L V  +R DG H +  +MQ I L D + + +     + E   P++     N   +A     +   +  GV ++++KRIP  +GL GGSADAAA++ G++ LF        L ++   VG+DVPF +        G GE+L  +    G   +LV P +   +A  Y +L              + S R  T L   A Y ++  C      N L+    ++Y V+   + +L R GA  + MSGSG  VFG++ +E++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|22095775|sp|Q8R765.1|ISPE_CALS4</Hit_id>
+  <Hit_def>RecName: Full=4-diphosphocytidyl-2-C-methyl-D-erythritol kinase; Short=CMK; AltName: Full=4-(cytidine-5&apos;-diphospho)-2-C-methyl-D-erythritol kinase</Hit_def>
+  <Hit_accession>Q8R765</Hit_accession>
+  <Hit_len>287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.191</Hsp_bit-score>
+      <Hsp_score>339</Hsp_score>
+      <Hsp_evalue>1.00902e-35</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>264</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>277</Hsp_align-len>
+      <Hsp_qseq>SLSLRAHAKVNMHLWVGARRADGLHSIESVMQRITLADSLSLSRL-DIPGRCEVCSPYMALPR--ENTLTRAYARFCQVTGVHDGVRVRVVKRIPAGSGLGGGSADAAALLCGLDTLFGTTLSARVLREVAYSVGSDVPFFLASQAACVLGGGEQLVPL--VPKTGYLGLLVWPGLHSGSAQAYEDLDRLRACGVHAADGEQYSLRGATALSAHYAQDCARWRFFNSLDAPVQRRYPVVALARWDLARAGACFTAMSGSGSXVFGLYRDEEELRRAH</Hsp_qseq>
+      <Hsp_hseq>KLRIKAYAKVNLTLDVLSKREDGYHEILSVMQSIDLADVIEFEKAKEILFECD----HERVPKGEENLIMKAFNAIRDRYFLNEGIKIKLFKNIPLAAGLAGGSADAAATIVALDKLWNLNLTEKEMEEIASEVGSDVPFCLKGGTKLASGRGEKLQDLEGIPLN---LLLVKPDLEISTKEVYTEWDN---SGFKSLNS---TFLFVEALKKGDLLEIAR-NISNDLERVTSQKYRVIEDIKKSLIEKGALSASMTGSGPTVYGVFNDVEKLVRAY</Hsp_hseq>
+      <Hsp_midline> L ++A+AKVN+ L V ++R DG H I SVMQ I LAD +   +  +I   C+    +  +P+  EN + +A+        +++G+++++ K IP  +GL GGSADAAA +  LD L+   L+ + + E+A  VGSDVPF L        G GE+L  L  +P      LLV P L   + + Y + D     G  + +    +     AL      + AR    N L+    ++Y V+   +  L   GA   +M+GSG  V+G++ D E+L RA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|229830673|sp|A6TWV7.1|ISPE_ALKMQ</Hit_id>
+  <Hit_def>RecName: Full=4-diphosphocytidyl-2-C-methyl-D-erythritol kinase; Short=CMK; AltName: Full=4-(cytidine-5&apos;-diphospho)-2-C-methyl-D-erythritol kinase</Hit_def>
+  <Hit_accession>A6TWV7</Hit_accession>
+  <Hit_len>291</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>133.265</Hsp_bit-score>
+      <Hsp_score>334</Hsp_score>
+      <Hsp_evalue>5.23622e-35</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>278</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>287</Hsp_align-len>
+      <Hsp_qseq>MQSLSLRAHAKVNMHLWVGARRADGLHSIESVMQRITLADSLSLS-RLDIPGRCEVCSPYMALPRENTLTRAYARFCQVTGVHDGVRVRVVKRIPAGSGLGGGSADAAALLCGLDTLFGTTLSARVLREVAYSVGSDVPFFLASQAACVLGGGEQLVPLVPKTGYLGLLVWPGLHSGSAQAYEDLD------RLRACGVHAA--DGEQYSLRGATALSAHYAQDCARWRFFNSLDAPVQRRYPVVALARWDLARAGACFTAMSGSGSXVFGLYRDEEELRRAHKLLA</Hsp_qseq>
+      <Hsp_hseq>MKQVQLKSRAKINLSLDVLGRRSDGYHEVEMIMQQIDLYDLITLEERKDSEIRISTQCEFIPTNEDNIAYRAAEIIRENSGINRGVNIYIDKRIPVAAGLAGGSSNAAAVLEGLNHMWRLRLTPKQLMDLGVKLGADVPFCILGGAAIARGIGEILTPIEGLKNVWMVIAKPAISVSTAEVYRQLDLSKLDSRPNTDEVIQAVKEGDLYTLAG---------------KMHNVLESVTQRNHPIIREMKRKMLEYNAIGAMMSGSGPTVFGIYKNYGRAKSAYENLS</Hsp_hseq>
+      <Hsp_midline>M+ + L++ AK+N+ L V  RR+DG H +E +MQ+I L D ++L  R D   R      ++    +N   RA     + +G++ GV + + KRIP  +GL GGS++AAA+L GL+ ++   L+ + L ++   +G+DVPF +   AA   G GE L P+        ++  P +   +A+ Y  LD      R     V  A  +G+ Y+L G               +  N L++  QR +P++   +  +    A    MSGSG  VFG+Y++    + A++ L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|189045508|sp|A4J0P1.1|ISPE_DESRM</Hit_id>
+  <Hit_def>RecName: Full=4-diphosphocytidyl-2-C-methyl-D-erythritol kinase; Short=CMK; AltName: Full=4-(cytidine-5&apos;-diphospho)-2-C-methyl-D-erythritol kinase</Hit_def>
+  <Hit_accession>A4J0P1</Hit_accession>
+  <Hit_len>282</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.109</Hsp_bit-score>
+      <Hsp_score>331</Hsp_score>
+      <Hsp_evalue>1.19658e-34</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>266</Hsp_align-len>
+      <Hsp_qseq>LSLRAHAKVNMHLWVGARRADGLHSIESVMQRITLADSLSLSRLDIPGRCEVCSPYMALPRENTLTRAYARFCQVTGVHDGVRVRVVKRIPAGSGLGGGSADAAALLCGLDTLFGTTLSARVLREVAYSVGSDVPFFLASQAACVLGGGEQLVPLVPKTGYLGLLVWPGLHSGSAQAYEDLDRLRACGVHAADGEQYSLRGATALSAHYAQDCARWRFFNSLDAPVQRRYPVVALARWDLARAGACFTAMSGSGSXVFGLYRDEEE</Hsp_qseq>
+      <Hsp_hseq>IRLKAHGKINLTLDVLDRRPDGYHEVEMIMQSISLHDVLEIEEQSKEISLTVSGISVTAEEDNLVLKAARLLQQVAGTGAGAKIHLQKNIPVAAGLAGGSTDAAATLKGLNALWGLGLSQEQLRQLATQLGADVPFCLAGGTAIARGIGEKLTTLEPAPPFGIILVKPSFGVSTAEVYQGL-RLEHLGKRPNTEAMVK-----ALKERDLGQVAR-ELANVLESVTLRMHPKLEQIKEILRQIGCTGVLMSGSGPTVFGLTENREK</Hsp_hseq>
+      <Hsp_midline>+ L+AH K+N+ L V  RR DG H +E +MQ I+L D L +          V    +    +N + +A     QV G   G ++ + K IP  +GL GGS DAAA L GL+ L+G  LS   LR++A  +G+DVPF LA   A   G GE+L  L P   +  +LV P     +A+ Y+ L RL   G               AL        AR    N L++   R +P +   +  L + G     MSGSG  VFGL  + E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|97053319|sp|Q3A311.1|ISPE_PELCD</Hit_id>
+  <Hit_def>RecName: Full=4-diphosphocytidyl-2-C-methyl-D-erythritol kinase; Short=CMK; AltName: Full=4-(cytidine-5&apos;-diphospho)-2-C-methyl-D-erythritol kinase</Hit_def>
+  <Hit_accession>Q3A311</Hit_accession>
+  <Hit_len>280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.954</Hsp_bit-score>
+      <Hsp_score>328</Hsp_score>
+      <Hsp_evalue>2.64284e-34</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>283</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>270</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>SLRAHAKVNMHLWVGARRADGLHSIESVMQRITLADSLSLSRL---DIPGRCEVCSPYMALPRENTLTRAYARFCQVTGVHDGVRVRVVKRIPAGSGLGGGSADAAALLCGLDTLFGTTLSARVLREVAYSVGSDVPFFLASQAACVLGGGEQL--VPLVPKTGYLGLLVWPGLHSGSAQAYEDL------DRLRACGVHAADGEQYSLRGATALSAHYAQDCARWRFFNSLDAPVQRRYPVVALARWDLARAGACFTAMSGSGSXVFGLYRDEEELRRAHKLLAKRWCW</Hsp_qseq>
+      <Hsp_hseq>SFLAPAKINICLHVLGRREDGYHELAMLMQRVSLYDRISLSFIEGNDIRVQCDGLT--LPLGQKNIAARAAQALFDRAGIRRGLDIVIEKNIPVAAGLGGGSSDAATVLMGLNDMLGLGLSATQLMQEGVKLGADVPFFIYKHPAWATGIGDKLQEVEGLPPVWY--VLVNPGLEVSTAWVYQNLRLTSARDNLRIPRFSGTVDEVVEL------------------LHNDLETVTVERFPLIGEIKQQLLGLGARGALMSGSGSTVFGVFSDGDTARAAAENLSSRSGW</Hsp_hseq>
+      <Hsp_midline>S  A AK+N+ L V  RR DG H +  +MQR++L D +SLS +   DI  +C+  +  + L ++N   RA        G+  G+ + + K IP  +GLGGGS+DAA +L GL+ + G  LSA  L +    +G+DVPFF+    A   G G++L  V  +P   Y  +LV PGL   +A  Y++L      D LR         E   L                    N L+     R+P++   +  L   GA    MSGSGS VFG++ D +  R A + L+ R  W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|254806121|sp|B9M5U2.1|ISPE_GEODF</Hit_id>
+  <Hit_def>RecName: Full=4-diphosphocytidyl-2-C-methyl-D-erythritol kinase; Short=CMK; AltName: Full=4-(cytidine-5&apos;-diphospho)-2-C-methyl-D-erythritol kinase</Hit_def>
+  <Hit_accession>B9M5U2</Hit_accession>
+  <Hit_len>279</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.183</Hsp_bit-score>
+      <Hsp_score>326</Hsp_score>
+      <Hsp_evalue>4.9482e-34</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>285</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>287</Hsp_align-len>
+      <Hsp_qseq>MQSLSLRAHAKVNMHLWVGARRADGLHSIESVMQRITLADSLSLSRLDIPGRCEVCSPYMALPRE--NTLTRAYARFCQVTGVHDGVRVRVVKRIPAGSGLGGGSADAAALLCGLDTLFGTTLSARVLREVAYSVGSDVPFFLASQAACVLGGGEQLVPLVPKTGYLGLLVWPGLHSGSAQAYEDLDRLRACGVHAADGEQYSLRGATALSAHYAQDCARWRFFNSLDAPVQRRYPVVALARWDLARAGACFTAMSGSGSXVFGLYRDEEELRRAHKLLAKRWCWCV</Hsp_qseq>
+      <Hsp_hseq>MKTIECKAPAKVNYRLDVLRRRPDGYHDLRMIMQRIDLCDDIRISLSETPGVRVACGKE-GVPDGPGNIAWRAADALLKLSGRCTGIDISIVKNIPVAAGLGGGSSDCASALMGVNELLELHLTDEQLMEAGSKLGADVPFFIFKKTALAEGIGDKLAAVEAAPAWL-VIVNPNLAVSTAWVYQNLQ-------LTAGKDEYII---PRFYGSVSDICA--ILANDLEKVTIGRFPVINQIKQKLLQVGAAGSLMSGSGSTVFGIFAEEAPARKAAEKLSRESDWFV</Hsp_hseq>
+      <Hsp_midline>M+++  +A AKVN  L V  RR DG H +  +MQRI L D + +S  + PG    C     +P    N   RA     +++G   G+ + +VK IP  +GLGGGS+D A+ L G++ L    L+   L E    +G+DVPFF+  + A   G G++L  +     +L ++V P L   +A  Y++L          A  ++Y +          +  CA     N L+     R+PV+   +  L + GA  + MSGSGS VFG++ +E   R+A + L++   W V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|238690891|sp|B5EHY0.1|ISPE_GEOBB</Hit_id>
+  <Hit_def>RecName: Full=4-diphosphocytidyl-2-C-methyl-D-erythritol kinase; Short=CMK; AltName: Full=4-(cytidine-5&apos;-diphospho)-2-C-methyl-D-erythritol kinase</Hit_def>
+  <Hit_accession>B5EHY0</Hit_accession>
+  <Hit_len>280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.183</Hsp_bit-score>
+      <Hsp_score>326</Hsp_score>
+      <Hsp_evalue>6.39431e-34</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>256</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>MQSLSLRAHAKVNMHLWVGARRADGLHSIESVMQRITLADSLSLSRLDIPGRCEVCSPYMALPRE--NTLTRAYARFCQVTGVHDGVRVRVVKRIPAGSGLGGGSADAAALLCGLDTLFGTTLSARVLREVAYSVGSDVPFFLASQAACVLGGGEQLVPLVPKTGYLGLLVWPGLHSGSAQAYEDLDRLRACGVHAADGEQYSLRGATALSAHYAQDCARWRFFNSLDAPVQRRYPVVALARWDLARAGACFTAMSGSGSXVFGLYRDE</Hsp_qseq>
+      <Hsp_hseq>MKKLQLLAPAKVNYRLDVLGKRPDGYHELRMIMQRVDLCDEIEIALSDSPGIRVTCG-RKGVPDGPGNIAWRAADALLKLSDKEVGIEITIAKKIPVGAGLGGGSSDAATVLMGVNELLELGLTDERLMEIGVKLGADVPFFVFKKPALAEGIGDRLTALEEVPSLWVVLVNPGIHVSTAWVYQNL-RLTTPDPATIIPRSYS---------SLNEVCE--LLSNDLEPVTCGRFPLVSELKEVLLTAGARGSLMSGSGSTVFGLFESE</Hsp_hseq>
+      <Hsp_midline>M+ L L A AKVN  L V  +R DG H +  +MQR+ L D + ++  D PG    C     +P    N   RA     +++    G+ + + K+IP G+GLGGGS+DAA +L G++ L    L+   L E+   +G+DVPFF+  + A   G G++L  L        +LV PG+H  +A  Y++L RL            YS            + C      N L+     R+P+V+  +  L  AGA  + MSGSGS VFGL+  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|189045513|sp|A5G7R8.1|ISPE_GEOUR</Hit_id>
+  <Hit_def>RecName: Full=4-diphosphocytidyl-2-C-methyl-D-erythritol kinase; Short=CMK; AltName: Full=4-(cytidine-5&apos;-diphospho)-2-C-methyl-D-erythritol kinase</Hit_def>
+  <Hit_accession>A5G7R8</Hit_accession>
+  <Hit_len>280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.028</Hsp_bit-score>
+      <Hsp_score>323</Hsp_score>
+      <Hsp_evalue>1.33857e-33</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>266</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>255</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>271</Hsp_align-len>
+      <Hsp_qseq>MQSLSLRAHAKVNMHLWVGARRADGLHSIESVMQRITLADSLSLSRLDIPGRCEVCSPYMALPR--ENTLTRAYARFCQVTGVHDGVRVRVVKRIPAGSGLGGGSADAAALLCGLDTLFGTTLSARVLREVAYSVGSDVPFFLASQAACVLGGGEQLVPLVPKTGYLGLLVWPGLHSGSAQAYEDLDRLRACGVHAADGEQYSLRGATALSAHYAQD---CARWRFFNSLDAPVQRRYPVVALARWDLARAGACFTAMSGSGSXVFGLYRD</Hsp_qseq>
+      <Hsp_hseq>MKKVKLKAPAKVNYRLDVLRRRPDGYHDLRMIMQRIDLCDDIEIALSGTRGVRVTCG-RDGVPDGPDNIAWRAADALLTISGRAVGLDIAITKNIPVAAGLGGGSSDGATVLMGVNELLGLGFSDERLMEIGVKLGADVPFFIFKKTALAEGIGDKLTAVETISPVWLVLVNPHLHVSTGWVYQNL-RLTA------------MKDDDIIPRFYGKIEDVCA--ILANDLESVTIGRFPVIQEIKERLLRVGACGSLMSGSGSTVFGLFKD</Hsp_hseq>
+      <Hsp_midline>M+ + L+A AKVN  L V  RR DG H +  +MQRI L D + ++     G    C     +P   +N   RA      ++G   G+ + + K IP  +GLGGGS+D A +L G++ L G   S   L E+   +G+DVPFF+  + A   G G++L  +   +    +LV P LH  +   Y++L RL A            ++    +   Y +    CA     N L++    R+PV+   +  L R GAC + MSGSGS VFGL++D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|97053325|sp|Q3B2S6.1|ISPE_PELLD</Hit_id>
+  <Hit_def>RecName: Full=4-diphosphocytidyl-2-C-methyl-D-erythritol kinase; Short=CMK; AltName: Full=4-(cytidine-5&apos;-diphospho)-2-C-methyl-D-erythritol kinase</Hit_def>
+  <Hit_accession>Q3B2S6</Hit_accession>
+  <Hit_len>287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.028</Hsp_bit-score>
+      <Hsp_score>323</Hsp_score>
+      <Hsp_evalue>1.56799e-33</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>273</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>266</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>278</Hsp_align-len>
+      <Hsp_qseq>MQSLSLRAHAKVNMHLWVGARRADGLHSIESVMQRITLADSLSLSRLD-IPGRCEVCSPYMALPRE--NTLTRAYARFCQVTGVHDGVRVRVVKRIPAGSGLGGGSADAAALLCGLDTLFGTTLSARVLREVAYSVGSDVPFFLASQAACVLGG-GEQLVPLVPKTGYLGLLVWPGLHSGSAQAYEDLDRLRACGVHAADGEQYSLRGATALSAHYAQDCARWRFF-NSLDAPVQRRYPVVALARWDLARAGACFTAMSGSGSXVFGLYRDEEELRRA</Hsp_qseq>
+      <Hsp_hseq>MPSISVHAYAKINLGLFITGKRDDGYHNLETIFAPVSWHDTLCFSPADAISMRCTNAD----LPTDGSNLCIRAARSLQEYAGVGDGVSIELDKQVPFGAGLGGGSSDAATVLRVLNGFWNINATVEDLHPLAVKLGADVPYFLEMEGLAYAGGIGDELTDLHAGLPWHVVTVFPAEHISTAWAYGNF--------HRRFGQSRPDIRTIAADLSGIGDTGRLELFENDFQSAVFEQFPKVRRVHTDLLEAGAVFASLSGSGSAVYGLFETAMDARRA</Hsp_hseq>
+      <Hsp_midline>M S+S+ A+AK+N+ L++  +R DG H++E++   ++  D+L  S  D I  RC        LP +  N   RA     +  GV DGV + + K++P G+GLGGGS+DAA +L  L+  +    +   L  +A  +G+DVP+FL  +     GG G++L  L     +  + V+P  H  +A AY +         H   G+        A       D  R   F N   + V  ++P V     DL  AGA F ++SGSGS V+GL+    + RRA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|51316298|sp|Q74FE9.1|ISPE_GEOSL</Hit_id>
+  <Hit_def>RecName: Full=4-diphosphocytidyl-2-C-methyl-D-erythritol kinase; Short=CMK; AltName: Full=4-(cytidine-5&apos;-diphospho)-2-C-methyl-D-erythritol kinase</Hit_def>
+  <Hit_accession>Q74FE9</Hit_accession>
+  <Hit_len>279</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.028</Hsp_bit-score>
+      <Hsp_score>323</Hsp_score>
+      <Hsp_evalue>1.57812e-33</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>277</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>295</Hsp_align-len>
+      <Hsp_qseq>MQSLSLRAHAKVNMHLWVGARRADGLHSIESVMQRITLADSLSLSRLDIPGRCEVCSPYMALPRE-------NTLTRAYARFCQVTGVHDGVRVRVVKRIPAGSGLGGGSADAAALLCGLDTLFGTTLSARVLREVAYSVGSDVPFFLASQAACVLGGGEQLVPLVPKTGYLGLLVWPGLHSGSAQAYEDLDRLRACGVHAADGEQYSLRGATALSAHYAQDCARWRFFNSLDAPVQRRYPVVALARWDLARAGACFTAMSGSGSXVFGLYRDEEELRRAHKLLAKRWCWCVRVR</Hsp_qseq>
+      <Hsp_hseq>MKKLTLKAPAKVNYRLDVLRRRPDGYHDLRMIMQRIDLCDEIEICLTDGPGIRVVCG------REGVPDGPGNIAWRAADALLALSADKPGIDISITKKIPVAAGLGGGSSDAATVLMGVNELLGLDLPEKRLREIGVTLGADVPFFIFGRTALAEGIGEELTAIDRVPAAWIVVVNPNVPVSTAWVYQNLQ---------LTGEAARVK-IPRFFESVAEVCA--ILSNDLESVTIPRYPVIGEIKRELLAAGALGSLMSGSGPTVFALFEEEDAAVRAAEMMRARSWFAAAVR</Hsp_hseq>
+      <Hsp_midline>M+ L+L+A AKVN  L V  RR DG H +  +MQRI L D + +   D PG   VC       RE       N   RA      ++    G+ + + K+IP  +GLGGGS+DAA +L G++ L G  L  + LRE+  ++G+DVPFF+  + A   G GE+L  +        ++V P +   +A  Y++L            GE   ++         A+ CA     N L++    RYPV+   + +L  AGA  + MSGSG  VF L+ +E+   RA +++  R  +   VR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|51316272|sp|Q72BQ8.1|ISPE_DESVH</Hit_id>
+  <Hit_def>RecName: Full=4-diphosphocytidyl-2-C-methyl-D-erythritol kinase; Short=CMK; AltName: Full=4-(cytidine-5&apos;-diphospho)-2-C-methyl-D-erythritol kinase</Hit_def>
+  <Hit_accession>Q72BQ8</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.872</Hsp_bit-score>
+      <Hsp_score>320</Hsp_score>
+      <Hsp_evalue>4.83552e-33</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>277</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>274</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>280</Hsp_align-len>
+      <Hsp_qseq>QSLSLRAHAKVNMHLWVGARRADGLHSIESVMQRITLA-DSLSLSRLDIPGRCEVCSPYMALPRENTLTRAYARFCQVTGVHDGVRVRVVKRIPAGSGLGGGSADAAALLCGLDTLFGTTLSARVLREVAYSVGSDVPFFLASQAACVLGGGEQLVPLV-PKTGYLGLLVWPGLHSGSAQAYEDLDRLRACGVHAADGEQYSLRG--ATALSAHYAQDCARWRFFNSLDAPVQRRYPVVALARWDLARAGACFTAMSGSGSXVFGLYRDEEELRRAHKLL</Hsp_qseq>
+      <Hsp_hseq>DAVTLRSGCKVNLDLHITSRRDDGYHEIDSLFLPLEEPHDELVVTVGDAPGITVTCAIQGIDPTRNTVTRAYDAYAEASGFRPPLRVELRKGVPHGAGLGGGSANAAAILNHLESIAPHPLGRETLCRLAARIGADVPFFIHAVPCRASGIGEIITPVAWPYKGFTLLLACPQVQVSTAWAYGALD--------AAEEKQLRVRGCLTTGGVADRNSFSRESWLHNSFEPVVFASHPELRSLKEALLRHGAAAALMSGSGASVFALFRRREDAEAAFEQL</Hsp_hseq>
+      <Hsp_midline> +++LR+  KVN+ L + +RR DG H I+S+   +    D L ++  D PG    C+     P  NT+TRAY  + + +G    +RV + K +P G+GLGGGSA+AAA+L  L+++    L    L  +A  +G+DVPFF+ +      G GE + P+  P  G+  LL  P +   +A AY  LD        AA+ +Q  +RG   T   A            NS +  V   +P +   +  L R GA    MSGSG+ VF L+R  E+   A + L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>462628</Statistics_db-num>
+      <Statistics_db-len>173435234</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

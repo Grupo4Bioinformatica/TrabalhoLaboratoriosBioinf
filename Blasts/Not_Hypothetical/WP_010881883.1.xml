@@ -1,0 +1,238 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>Query_157455</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>156</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_157455</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>156</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|267066|sp|P29722.1|TA17_TREPA</Hit_id>
+  <Hit_def>RecName: Full=17 kDa lipoprotein; Flags: Precursor</Hit_def>
+  <Hit_accession>P29722</Hit_accession>
+  <Hit_len>156</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>318.546</Hsp_bit-score>
+      <Hsp_score>815</Hsp_score>
+      <Hsp_evalue>9.82404e-111</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>156</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>MKGSVRALCAFLGVGALGSALCVSCTTVCPHAGKAKAEKVECALKGGIFRGTLPAADCPGIDTTVTFNADGTAQKVELALEKKSAPSPLTYRGTWMVREDGIVELSLVSSEQSKAPHEKELYELIDSNSVRYMGAPGAGKPSKEMAPFYVLKKTKK</Hsp_qseq>
+      <Hsp_hseq>MKGSVRALCAFLGVGALGSALCVSCTTVCPHAGKAKAEKVECALKGGIFRGTLPAADCPGIDTTVTFNADGTAQKVELALEKKSAPSPLTYRGTWMVREDGIVELSLVSSEQSKAPHEKELYELIDSNSVRYMGAPGAGKPSKEMAPFYVLKKTKK</Hsp_hseq>
+      <Hsp_midline>MKGSVRALCAFLGVGALGSALCVSCTTVCPHAGKAKAEKVECALKGGIFRGTLPAADCPGIDTTVTFNADGTAQKVELALEKKSAPSPLTYRGTWMVREDGIVELSLVSSEQSKAPHEKELYELIDSNSVRYMGAPGAGKPSKEMAPFYVLKKTKK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|730159|sp|P40710.1|NLPE_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Lipoprotein NlpE; AltName: Full=Copper homeostasis protein CutF; Flags: Precursor</Hit_def>
+  <Hit_accession>P40710</Hit_accession>
+  <Hit_len>236</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>4.99558e-05</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>FRGTLPAADCPGIDTTVTFNADGTAQKVELALEKKSAPSPLTYRGTWMVREDGIVELSLVSSEQSKAPHEKELYELID</Hsp_qseq>
+      <Hsp_hseq>WRGVLPCADCEGIETSLFLEKDGTWVMNERYLGAREEPSSFASYGTWARTADKLV-LTDSKGEKSYYRAKGDALEMLD</Hsp_hseq>
+      <Hsp_midline>+RG LP ADC GI+T++    DGT    E  L  +  PS     GTW    D +V L+    E+S    + +  E++D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|215274021|sp|Q16798.2|MAON_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=NADP-dependent malic enzyme, mitochondrial; Short=NADP-ME; AltName: Full=Malic enzyme 3; Flags: Precursor</Hit_def>
+  <Hit_accession>Q16798</Hit_accession>
+  <Hit_len>604</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>1.06303</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>341</Hsp_hit-from>
+      <Hsp_hit-to>389</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>ADGTAQKVELALEKKSAPSPLTYRGTWMVREDGIVELSLVSSEQSKAPHEKELY</Hsp_qseq>
+      <Hsp_hseq>AMGIAHLLVMALEKEGVPKAEATRKIWMVDSKG-----LIVKGRSHLNHEKEMF</Hsp_hseq>
+      <Hsp_midline>A G A  + +ALEK+  P     R  WMV   G     L+   +S   HEKE++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|341940931|sp|Q8BMF3.2|MAON_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=NADP-dependent malic enzyme, mitochondrial; Short=NADP-ME; AltName: Full=Malic enzyme 3; Flags: Precursor</Hit_def>
+  <Hit_accession>Q8BMF3</Hit_accession>
+  <Hit_len>604</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>4.37913</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>341</Hsp_hit-from>
+      <Hsp_hit-to>389</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>ADGTAQKVELALEKKSAPSPLTYRGTWMVREDGIVELSLVSSEQSKAPHEKELY</Hsp_qseq>
+      <Hsp_hseq>AMGIAHLLVMALEKEGIPKTEAIKKIWMVDSKG-----LIVKGRSHLNHEKEMF</Hsp_hseq>
+      <Hsp_midline>A G A  + +ALEK+  P     +  WMV   G     L+   +S   HEKE++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1346484|sp|P48163.1|MAOX_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=NADP-dependent malic enzyme; Short=NADP-ME; AltName: Full=Malic enzyme 1</Hit_def>
+  <Hit_accession>P48163</Hit_accession>
+  <Hit_len>572</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>6.63164</Hsp_evalue>
+      <Hsp_query-from>62</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>294</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>DTTVTFN-----ADGTAQKVELALEKKSAPSPLTYRGTWMVREDGIV--ELSLVSSEQSKAPHEKE</Hsp_qseq>
+      <Hsp_hseq>DQTILFQGAGEAALGIAHLIVMALEKEGLPKEKAIKKIWLVDSKGLIVKGRASLTQEKEKFAHEHE</Hsp_hseq>
+      <Hsp_midline>D T+ F      A G A  + +ALEK+  P     +  W+V   G++    + ++ E+ K  HE E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|68066202|sp|Q965Q8.3|XYLT_CAEEL</Hit_id>
+  <Hit_def>RecName: Full=Xylosyltransferase sqv-6; AltName: Full=Peptide O-xylosyltransferase; AltName: Full=Squashed vulva protein 6</Hit_def>
+  <Hit_accession>Q965Q8</Hit_accession>
+  <Hit_len>806</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>7.55806</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>LGVGALGSALCVSCTTVCPHAGKAKAEKVECALKGGIFRGTLPAADCPGIDTTVTFNADGTAQKVELALEKKSA</Hsp_qseq>
+      <Hsp_hseq>LAKSAISRAITPSC--------KAKLQLEACQLKNGTFTINFPENQCPNHDSRL------IDQRIGCFLDKKEA</Hsp_hseq>
+      <Hsp_midline>L   A+  A+  SC        KAK +   C LK G F    P   CP  D+ +        Q++   L+KK A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|139137|sp|P20951.1|RDRP_PMV</Hit_id>
+  <Hit_def>RecName: Full=RNA replication protein; AltName: Full=176 kDa protein; AltName: Full=ORF1 protein; Includes: RecName: Full=RNA-directed RNA polymerase; Includes: RecName: Full=Helicase</Hit_def>
+  <Hit_accession>P20951</Hit_accession>
+  <Hit_len>1547</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>8.04319</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>1079</Hsp_hit-from>
+      <Hsp_hit-to>1124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>AQKVELALEKKSAPSPLTYRGTWMVREDGIVELSLVSSEQSKAPHEKELY</Hsp_qseq>
+      <Hsp_hseq>AQPIE---EKKAEPTPVEPPRTHIAKEDAMVEYENV-IEKMPEKHEREIF</Hsp_hseq>
+      <Hsp_midline>AQ +E   EKK+ P+P+    T + +ED +VE   V  E+    HE+E++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>462628</Statistics_db-num>
+      <Statistics_db-len>173435234</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

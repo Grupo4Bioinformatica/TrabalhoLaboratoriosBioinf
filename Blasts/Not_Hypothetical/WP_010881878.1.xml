@@ -1,0 +1,574 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>Query_191327</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>140</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_191327</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>140</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|122221763|sp|Q0IUB5.1|VATL_ORYSJ</Hit_id>
+  <Hit_def>RecName: Full=V-type proton ATPase 16 kDa proteolipid subunit; Short=V-ATPase 16 kDa proteolipid subunit; AltName: Full=Vacuolar proton pump 16 kDa proteolipid subunit &gt;gi|148841279|sp|A2ZBW5.1|VATL_ORYSI RecName: Full=V-type proton ATPase 16 kDa proteolipid subunit; Short=V-ATPase 16 kDa proteolipid subunit; AltName: Full=Vacuolar proton pump 16 kDa proteolipid subunit</Hit_def>
+  <Hit_accession>Q0IUB5</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.000521039</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>FGMFGAAAVLGISAVGSALGLALAGQG--TIGSWKRCYLNNKPAPFILLAFAGAPLTQTIYGFLL---MKAMFSSEKDPWYL------LGAGVACGLGIAASALSQGRAAAAGADALAETGKGFSQYLTIVGLCETVALLVMVFGII</Hsp_qseq>
+      <Hsp_hseq>FGFLGAASALIFSCMGAAYGTAKSGVGVASMGVMRPELVMKSIVPVVMAGVLG------IYGLIIAVIISTGINPKAKPYYLFDGYAHLSSGLACGLAGLAAGMAIGIVGDAGVRANAQQPKLFVGMILILIFAEALALYGLIVGII</Hsp_hseq>
+      <Hsp_midline>FG  GAA+ L  S +G+A G A +G G  ++G  +   +     P ++    G      IYG ++   +    + +  P+YL      L +G+ACGL   A+ ++ G    AG  A A+  K F   + I+   E +AL  ++ GII</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|137476|sp|P23957.1|VATL_AVESA</Hit_id>
+  <Hit_def>RecName: Full=V-type proton ATPase 16 kDa proteolipid subunit; Short=V-ATPase 16 kDa proteolipid subunit; AltName: Full=Vacuolar proton pump 16 kDa proteolipid subunit</Hit_def>
+  <Hit_accession>P23957</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.000756848</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>FGMFGAAAVLGISAVGSALGLALAGQG--TIGSWKRCYLNNKPAPFILLAFAGAPLTQTIYGFLL---MKAMFSSEKDPWYL------LGAGVACGLGIAASALSQGRAAAAGADALAETGKGFSQYLTIVGLCETVALLVMVFGII</Hsp_qseq>
+      <Hsp_hseq>FGFLGAAAALVFSCMGAAYGTAKSGVGVASMGVMRPELVMKSIVPVVMAGVLG------IYGLIIAVIISTGINPKAKPYFLFDGYAHLSSGLACGLAGLAAGMAIGIVGDAGVRANAQQPKLFVGMILILIFAEALALYGLIVGII</Hsp_hseq>
+      <Hsp_midline>FG  GAAA L  S +G+A G A +G G  ++G  +   +     P ++    G      IYG ++   +    + +  P++L      L +G+ACGL   A+ ++ G    AG  A A+  K F   + I+   E +AL  ++ GII</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|2493148|sp|Q40585.1|VATL_TOBAC</Hit_id>
+  <Hit_def>RecName: Full=V-type proton ATPase 16 kDa proteolipid subunit; Short=V-ATPase 16 kDa proteolipid subunit; AltName: Full=Vacuolar proton pump 16 kDa proteolipid subunit</Hit_def>
+  <Hit_accession>Q40585</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.0021249</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>FGMFGAAAVLGISAVGSALGLALAGQG--TIGSWKRCYLNNKPAPFILLAFAGAPLTQTIYGFLLMKAMFSSEKDP----WYL------LGAGVACGLGIAASALSQGRAAAAGADALAETGKGFSQYLTIVGLCETVALLVMVFGII</Hsp_qseq>
+      <Hsp_hseq>FGFLGAAAALVFSCMGAAYGTAKSGVGVASMGVMRPELVMKSIVPVVMAGVLG------IYG-LIIAVIISTGINPKTKSYYLFDGYAHLSSGLACGLAGLSAGMAIGIVGDAGVRANAQQPKLFVGMILILIFAEALALYGLIVGII</Hsp_hseq>
+      <Hsp_midline>FG  GAAA L  S +G+A G A +G G  ++G  +   +     P ++    G      IYG L++  + S+  +P    +YL      L +G+ACGL   ++ ++ G    AG  A A+  K F   + I+   E +AL  ++ GII</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|60416208|sp|P68161.1|VATL_MESCR</Hit_id>
+  <Hit_def>RecName: Full=V-type proton ATPase 16 kDa proteolipid subunit; Short=V-ATPase 16 kDa proteolipid subunit; AltName: Full=Vacuolar proton pump 16 kDa proteolipid subunit &gt;gi|60416209|sp|P68162.1|VATL_BETVU RecName: Full=V-type proton ATPase 16 kDa proteolipid subunit; Short=V-ATPase 16 kDa proteolipid subunit; AltName: Full=Vacuolar proton pump 16 kDa proteolipid subunit</Hit_def>
+  <Hit_accession>P68161</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.002237</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>FGMFGAAAVLGISAVGSALGLALAGQG--TIGSWKRCYLNNKPAPFILLAFAGAPLTQTIYGFLLMKAMFSSEKDP----WYL------LGAGVACGLGIAASALSQGRAAAAGADALAETGKGFSQYLTIVGLCETVALLVMVFGII</Hsp_qseq>
+      <Hsp_hseq>FGFLGAAAALVFSCMGAAYGTAKSGVGVASMGVMRPELVMKSIVPVVMAGVLG------IYG-LIIAVIISTGINPKAKSYYLFDGYAHLSSGLACGLAGLSAGMAIGIVGDAGVRANAQQPKLFVGMILILIFAEALALYGLIVGII</Hsp_hseq>
+      <Hsp_midline>FG  GAAA L  S +G+A G A +G G  ++G  +   +     P ++    G      IYG L++  + S+  +P    +YL      L +G+ACGL   ++ ++ G    AG  A A+  K F   + I+   E +AL  ++ GII</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|3334406|sp|O24011.1|VATL_SOLLC</Hit_id>
+  <Hit_def>RecName: Full=V-type proton ATPase 16 kDa proteolipid subunit; Short=V-ATPase 16 kDa proteolipid subunit; AltName: Full=Vacuolar proton pump 16 kDa proteolipid subunit</Hit_def>
+  <Hit_accession>O24011</Hit_accession>
+  <Hit_len>164</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.00240312</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>FGMFGAAAVLGISAVGSALGLALAGQG--TIGSWKRCYLNNKPAPFILLAFAGAPLTQTIYGFLLMKAMFSSEKDP----WYL------LGAGVACGLGIAASALSQGRAAAAGADALAETGKGFSQYLTIVGLCETVALLVMVFGII</Hsp_qseq>
+      <Hsp_hseq>FGFLGAAAALVFSCMGAAYGTAKSGVGVASMGVMRPELVMKSIVPVVMAGVLG------IYG-LIIAVIISTGINPKTKSYYLFDGYAHLSSGLACGLAGLSAGMAIGIVGDAGVRANAQQPKLFVGMILILIFAEALALYGLIVGII</Hsp_hseq>
+      <Hsp_midline>FG  GAAA L  S +G+A G A +G G  ++G  +   +     P ++    G      IYG L++  + S+  +P    +YL      L +G+ACGL   ++ ++ G    AG  A A+  K F   + I+   E +AL  ++ GII</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|3334413|sp|O22552.1|VATL_VIGRR</Hit_id>
+  <Hit_def>RecName: Full=V-type proton ATPase 16 kDa proteolipid subunit; Short=V-ATPase 16 kDa proteolipid subunit; AltName: Full=Vacuolar proton pump 16 kDa proteolipid subunit</Hit_def>
+  <Hit_accession>O22552</Hit_accession>
+  <Hit_len>164</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.00250405</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>FGMFGAAAVLGISAVGSALGLALAGQG--TIGSWKRCYLNNKPAPFILLAFAGAPLTQTIYGFLLMKAMFSSEKDP----WYL------LGAGVACGLGIAASALSQGRAAAAGADALAETGKGFSQYLTIVGLCETVALLVMVFGII</Hsp_qseq>
+      <Hsp_hseq>FGFLGAAAALVFSCMGAAYGTAKSGVGVASMGVMRPELVMKSIVPVVMAGVLG------IYG-LIIAVIISTGINPKAKSYYLFDGYAHLSSGLACGLAGLSAGMAIGIVGDAGVRANAQQPKLFVGMILILIFAEALALYGLIVGII</Hsp_hseq>
+      <Hsp_midline>FG  GAAA L  S +G+A G A +G G  ++G  +   +     P ++    G      IYG L++  + S+  +P    +YL      L +G+ACGL   ++ ++ G    AG  A A+  K F   + I+   E +AL  ++ GII</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|2493146|sp|Q43434.1|VATL_GOSHI</Hit_id>
+  <Hit_def>RecName: Full=V-type proton ATPase 16 kDa proteolipid subunit; Short=V-ATPase 16 kDa proteolipid subunit; AltName: Full=Vacuolar proton pump 16 kDa proteolipid subunit</Hit_def>
+  <Hit_accession>Q43434</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.00255668</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>FGMFGAAAVLGISAVGSALGLALAGQG--TIGSWKRCYLNNKPAPFILLAFAGAPLTQTIYGFLLMKAMFSSEKDP----WYL------LGAGVACGLGIAASALSQGRAAAAGADALAETGKGFSQYLTIVGLCETVALLVMVFGII</Hsp_qseq>
+      <Hsp_hseq>FGFLGAAAALVFSCMGAAYGTAKSGVGVASMGVMRPELVMKSIVPVVMAGVLG------IYG-LIIAVIISTGINPKAKSYYLFDGYAHLSSGLACGLAGLSAGMAIGIVGDAGVRANAQQPKLFVGMILILIFAEALALYGLIVGII</Hsp_hseq>
+      <Hsp_midline>FG  GAAA L  S +G+A G A +G G  ++G  +   +     P ++    G      IYG L++  + S+  +P    +YL      L +G+ACGL   ++ ++ G    AG  A A+  K F   + I+   E +AL  ++ GII</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|3334412|sp|Q96473.1|VATL_KALDA</Hit_id>
+  <Hit_def>RecName: Full=V-type proton ATPase 16 kDa proteolipid subunit; Short=V-ATPase 16 kDa proteolipid subunit; AltName: Full=V-type H(+)-ATPase 16 kDa subunit; AltName: Full=Vacuolar proton pump 16 kDa proteolipid subunit</Hit_def>
+  <Hit_accession>Q96473</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.00255668</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>FGMFGAAAVLGISAVGSALGLALAGQG--TIGSWKRCYLNNKPAPFILLAFAGAPLTQTIYGFLLMKAMFSSEKDP----WYL------LGAGVACGLGIAASALSQGRAAAAGADALAETGKGFSQYLTIVGLCETVALLVMVFGII</Hsp_qseq>
+      <Hsp_hseq>FGFLGAAAALVFSCMGAAYGTAKSGVGVASMGVMRPELVMKSIVPVVMAGVLG------IYG-LIIAVIISTGINPKAKSYYLFDGYAHLSSGLACGLAGLSAGMAIGIVGDAGVRANAQQPKLFVGMILILIFAEALALYGLIVGII</Hsp_hseq>
+      <Hsp_midline>FG  GAAA L  S +G+A G A +G G  ++G  +   +     P ++    G      IYG L++  + S+  +P    +YL      L +G+ACGL   ++ ++ G    AG  A A+  K F   + I+   E +AL  ++ GII</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|378524787|sp|P0DH92.1|VATL1_ARATH</Hit_id>
+  <Hit_def>RecName: Full=V-type proton ATPase subunit c1; Short=V-ATPase subunit c1; AltName: Full=V-type proton ATPase 16 kDa proteolipid subunit c1; Short=V-ATPase 16 kDa proteolipid subunit c1; AltName: Full=Vacuolar H(+)-ATPase subunit c isoform 1; AltName: Full=Vacuolar proton pump 16 kDa proteolipid subunit c1; AltName: Full=Vacuolar proton pump subunit c1 &gt;gi|378524817|sp|P0DH93.1|VATL3_ARATH RecName: Full=V-type proton ATPase subunit c3; Short=V-ATPase subunit c3; AltName: Full=V-type proton ATPase 16 kDa proteolipid subunit c3; Short=V-ATPase 16 kDa proteolipid subunit c3; AltName: Full=Vacuolar H(+)-ATPase subunit c isoform 3; AltName: Full=Vacuolar proton pump 16 kDa proteolipid subunit c3; AltName: Full=Vacuolar proton pump subunit c3 &gt;gi|378524829|sp|P0DH94.1|VATL5_ARATH RecName: Full=V-type proton ATPase subunit c5; Short=V-ATPase subunit c5; AltName: Full=V-type proton ATPase 16 kDa proteolipid subunit c5; Short=V-ATPase 16 kDa proteolipid subunit c5; AltName: Full=Vacuolar H(+)-ATPase subunit c isoform 5; AltName: Full=Vacuolar proton pump 16 kDa proteolipid subunit c5; AltName: Full=Vacuolar proton pump subunit c5</Hit_def>
+  <Hit_accession>P0DH92</Hit_accession>
+  <Hit_len>164</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.00289154</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>FGMFGAAAVLGISAVGSALGLALAGQG--TIGSWKRCYLNNKPAPFILLAFAGAPLTQTIYGFLLMKAMFSSEKDP----WYL------LGAGVACGLGIAASALSQGRAAAAGADALAETGKGFSQYLTIVGLCETVALLVMVFGII</Hsp_qseq>
+      <Hsp_hseq>FGFLGAAAALVFSCMGAAYGTAKSGVGVASMGVMRPELVMKSIVPVVMAGVLG------IYG-LIIAVIISTGINPKAKSYYLFDGYAHLSSGLACGLAGLSAGMAIGIVGDAGVRANAQQPKLFVGMILILIFAEALALYGLIVGII</Hsp_hseq>
+      <Hsp_midline>FG  GAAA L  S +G+A G A +G G  ++G  +   +     P ++    G      IYG L++  + S+  +P    +YL      L +G+ACGL   ++ ++ G    AG  A A+  K F   + I+   E +AL  ++ GII</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|27923953|sp|P59228.1|VATL2_ARATH</Hit_id>
+  <Hit_def>RecName: Full=V-type proton ATPase subunit c2; Short=V-ATPase subunit c2; AltName: Full=V-type proton ATPase 16 kDa proteolipid subunit c2; Short=V-ATPase 16 kDa proteolipid subunit c2; AltName: Full=Vacuolar H(+)-ATPase subunit c isoform 2; AltName: Full=Vacuolar proton pump 16 kDa proteolipid subunit c2; AltName: Full=Vacuolar proton pump subunit c2</Hit_def>
+  <Hit_accession>P59228</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.00292162</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>FGMFGAAAVLGISAVGSALGLALAGQG--TIGSWKRCYLNNKPAPFILLAFAGAPLTQTIYGFLLMKAMFSSEKDP----WYL------LGAGVACGLGIAASALSQGRAAAAGADALAETGKGFSQYLTIVGLCETVALLVMVFGII</Hsp_qseq>
+      <Hsp_hseq>FGFLGAAAALVFSCMGAAYGTAKSGVGVASMGVMRPELVMKSIVPVVMAGVLG------IYG-LIIAVIISTGINPKAKSYYLFDGYAHLSSGLACGLAGLSAGMAIGIVGDAGVRANAQQPKLFVGMILILIFAEALALYGLIVGII</Hsp_hseq>
+      <Hsp_midline>FG  GAAA L  S +G+A G A +G G  ++G  +   +     P ++    G      IYG L++  + S+  +P    +YL      L +G+ACGL   ++ ++ G    AG  A A+  K F   + I+   E +AL  ++ GII</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|27923954|sp|P59229.1|VATL4_ARATH</Hit_id>
+  <Hit_def>RecName: Full=V-type proton ATPase subunit c4; Short=V-ATPase subunit c4; AltName: Full=V-type proton ATPase 16 kDa proteolipid subunit c4; Short=V-ATPase 16 kDa proteolipid subunit c4; AltName: Full=Vacuolar H(+)-ATPase subunit c isoform 4; AltName: Full=Vacuolar proton pump 16 kDa proteolipid subunit c4; AltName: Full=Vacuolar proton pump subunit c4</Hit_def>
+  <Hit_accession>P59229</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.00295134</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>155</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>FGMFGAAAVLGISAVGSALGLALAGQG--TIGSWKRCYLNNKPAPFILLAFAGAPLTQTIYGFLLMKAMFSSEKDP----WYL------LGAGVACGLGIAASALSQGRAAAAGADALAETGKGFSQYLTIVGLCETVALLVMVFGII</Hsp_qseq>
+      <Hsp_hseq>FGFLGAAAALVFSCMGAAYGTAKSGVGVASMGVMRPELVMKSIVPVVMAGVLG------IYG-LIIAVIISTGINPKAKSYYLFDGYAHLSSGLACGLAGLSAGMAIGIVGDAGVRANAQQPKLFVGMILILIFAEALALYGLIVGII</Hsp_hseq>
+      <Hsp_midline>FG  GAAA L  S +G+A G A +G G  ++G  +   +     P ++    G      IYG L++  + S+  +P    +YL      L +G+ACGL   ++ ++ G    AG  A A+  K F   + I+   E +AL  ++ GII</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|2493117|sp|Q57674.1|ATPL_METJA</Hit_id>
+  <Hit_def>RecName: Full=Probable ATPase proteolipid chain</Hit_def>
+  <Hit_accession>Q57674</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.0223125</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>FGMFGAAAVLGISAVGSALGLALAGQGTIGSWKRCYLNNKPAPF-ILLAFAGAPLTQTIYGFLLMKAMFSSEK--DPWYLLGAGVACGLGIAASALSQGRAAAAGADALAETGKGFSQYLTIVGLCETVAL</Hsp_qseq>
+      <Hsp_hseq>LGAVGAGLAVGIAGLGSGIG-----AGITGASGAGVVAEDPNKFGTAIVFQALPQTQGLYGFLVAILILFVFKTVSPWAMFAAGLAAGL-AGLSAIGQGIAASAGLGAVAEDNSIFGKAMVFSVLPETQAI</Hsp_hseq>
+      <Hsp_midline> G  GA   +GI+ +GS +G      G  G+     +   P  F   + F   P TQ +YGFL+   +    K   PW +  AG+A GL    SA+ QG AA+AG  A+AE    F + +    L ET A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|122064314|sp|Q8YIT2.2|MACB_BRUME</Hit_id>
+  <Hit_def>RecName: Full=Macrolide export ATP-binding/permease protein MacB</Hit_def>
+  <Hit_accession>Q8YIT2</Hit_accession>
+  <Hit_len>647</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>0.320211</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>64</Hsp_query-to>
+      <Hsp_hit-from>578</Hsp_hit-from>
+      <Hsp_hit-to>630</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>LGISAVGSALGLALA-GQGTIGSWKRCYLNNKPAPFILLAFAGAPLTQTIYGFL</Hsp_qseq>
+      <Hsp_hseq>LSVSAIGGAIGVILGLGAAALASWAGLSVGYSFGP-VLLAFACAFATGLIFGFL</Hsp_hseq>
+      <Hsp_midline>L +SA+G A+G+ L  G   + SW    +     P +LLAFA A  T  I+GFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|122064313|sp|Q2YRG7.2|MACB_BRUA2</Hit_id>
+  <Hit_def>RecName: Full=Macrolide export ATP-binding/permease protein MacB</Hit_def>
+  <Hit_accession>Q2YRG7</Hit_accession>
+  <Hit_len>646</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>0.332692</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>64</Hsp_query-to>
+      <Hsp_hit-from>577</Hsp_hit-from>
+      <Hsp_hit-to>629</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>LGISAVGSALGLALA-GQGTIGSWKRCYLNNKPAPFILLAFAGAPLTQTIYGFL</Hsp_qseq>
+      <Hsp_hseq>LSVSAIGGAIGVILGLGAAALASWAGLSVGYSFGP-VLLAFACAFATGLIFGFL</Hsp_hseq>
+      <Hsp_midline>L +SA+G A+G+ L  G   + SW    +     P +LLAFA A  T  I+GFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|3915254|sp|Q41773.2|VATL_MAIZE</Hit_id>
+  <Hit_def>RecName: Full=V-type proton ATPase 16 kDa proteolipid subunit; Short=V-ATPase 16 kDa proteolipid subunit; AltName: Full=Vacuolar proton pump 16 kDa proteolipid subunit</Hit_def>
+  <Hit_accession>Q41773</Hit_accession>
+  <Hit_len>109</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>0.431734</Hsp_evalue>
+      <Hsp_query-from>60</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>IYGFLL---MKAMFSSEKDPWYL------LGAGVACGLGIAASALSQGRAAAAGADALAETGKGFSQYLTIVGLCETVALLVMVFGII</Hsp_qseq>
+      <Hsp_hseq>IYGLIIAVIISTGINPKAKPYYLFDGYAHLSSGLACGLAGLAAGMAIGIVGDAGVRANAQQPKLFVGMILILIFAEALALYGLIVGII</Hsp_hseq>
+      <Hsp_midline>IYG ++   +    + +  P+YL      L +G+ACGL   A+ ++ G    AG  A A+  K F   + I+   E +AL  ++ GII</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|3915255|sp|Q43362.1|VATL_CHRCT</Hit_id>
+  <Hit_def>RecName: Full=V-type proton ATPase 16 kDa proteolipid subunit; Short=V-ATPase 16 kDa proteolipid subunit; AltName: Full=Vacuolar proton pump 16 kDa proteolipid subunit</Hit_def>
+  <Hit_accession>Q43362</Hit_accession>
+  <Hit_len>164</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>0.930419</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>155</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>FGMFGAAAVLGISAVGSALGLALAGQG--TIGSWKRCYLNNKPAPFILLAFAGAPLTQTIYGFLLMKAMFSSEKDP------------WYLLGAGVACGLGIAASALSQGRAAAAGADALAETGKGFSQYLTIVGLCETVALLVMVFGII</Hsp_qseq>
+      <Hsp_hseq>FGFMGAAVALIFANLGAAYGTAKSGVGVSSMGVMKPDLVMKSIIPVVMAGVLG------IYGLIIAVIIGNGVKGPEGGKPQYSSFTGFAHLAAGLACGLSGMAAGIAIGIVGDAGVRASAQQAKLYVGMVLILIFAEALGLYGLIVGLI</Hsp_hseq>
+      <Hsp_midline>FG  GAA  L  + +G+A G A +G G  ++G  K   +     P ++    G      IYG ++   + +  K P            +  L AG+ACGL   A+ ++ G    AG  A A+  K +   + I+   E + L  ++ G+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|74625815|sp|Q9URZ8.1|VATL2_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=V-type proton ATPase 16 kDa proteolipid subunit 2; Short=V-ATPase 16 kDa proteolipid subunit 2; AltName: Full=Proteolipid protein vma11; AltName: Full=Vacuolar proton pump 16 kDa proteolipid subunit 2</Hit_def>
+  <Hit_accession>Q9URZ8</Hit_accession>
+  <Hit_len>162</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>2.985</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>FGMFGAAAVLGISAVGSALGLALAGQGT--IGSWKRCYLNNKPAPFILLAFAGAPLTQTIYGFLLMKAMFSSEKDP---------WYLLGAGVACGLGIAASALSQGRAAAAGADALAETGKGFSQYLTIVGLCETVALLVMVFGII</Hsp_qseq>
+      <Hsp_hseq>FGFAGVCASMVFSCLGAGYGTALAGRGIAAVGAFRPEIVMKSLIPVVMSGIIG------VYG-LVMSVLIAGDMSPDNDYSLFSGFIHLSAGLAVGLTGVAAGYAIGVVGDRGVQSFMRQDRIFVSMVLILIFAEVLGLYGLIVGLI</Hsp_hseq>
+      <Hsp_midline>FG  G  A +  S +G+  G ALAG+G   +G+++   +     P ++    G      +YG L+M  + + +  P         +  L AG+A GL   A+  + G     G  +     + F   + I+   E + L  ++ G+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|3915252|sp|Q24808.1|VATL_ENTDI</Hit_id>
+  <Hit_def>RecName: Full=V-type proton ATPase 16 kDa proteolipid subunit; Short=V-ATPase 16 kDa proteolipid subunit; AltName: Full=Vacuolar proton pump 16 kDa proteolipid subunit</Hit_def>
+  <Hit_accession>Q24808</Hit_accession>
+  <Hit_len>176</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>5.43775</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>FGMFGAAAVLGISAVGSALGLALAGQG--TIGSWKRCYLNNKPAPFILLAFAGAPLTQTIYGFLLMKAMF-SSEKDPWYL------LGAGVACGLGIAASALSQGRAAAAGADALAETGKGFSQYLTIVGLCETVAL</Hsp_qseq>
+      <Hsp_hseq>FGSMGITASIVFTVFGGAYGTAKSSVGISSVGVMKPEFIMRSLFPVV---FAG---VIGLYGLIVCIVLFINVNKSEYSLNRAFLDLGAGLTCGLCGLASGMSIGISGDCGVRGAAQQPKLFVSMLICLIFSEALAL</Hsp_hseq>
+      <Hsp_midline>FG  G  A +  +  G A G A +  G  ++G  K  ++     P +   FAG      +YG ++   +F +  K  + L      LGAG+ CGL   AS +S G +   G    A+  K F   L  +   E +AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1171791|sp|P43457.1|NTPK_ENTHA</Hit_id>
+  <Hit_def>RecName: Full=V-type sodium ATPase subunit K; AltName: Full=Na(+)-translocating ATPase subunit K; AltName: Full=Sodium ATPase proteolipid component</Hit_def>
+  <Hit_accession>P43457</Hit_accession>
+  <Hit_len>156</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>6.47024</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>131</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MNFGMFGAAAVLGISAVGSALGLALAGQGTIGSWKRCYLNNKPAPF-ILLAFAGAPLTQTIYGFLLMKAMF------SSEKDPWYLLGAGVACGLGIAASALSQGRAAAAGADALAETGKGFSQYLTIVGLCETVALL</Hsp_qseq>
+      <Hsp_hseq>MVFAVLAMATATIFSGIGSAKGVGMTGEAA-----AALTTSQPEKFGQALILQLLPGTQGLYGFVIAFLIFINLGSDMSVVQGLNFLGASLPIAFTGLFSGIAQGKVAAAGIQILAKKPEHATKGIIFAAMVETYAIL</Hsp_hseq>
+      <Hsp_midline>M F +   A     S +GSA G+ + G+            ++P  F   L     P TQ +YGF++   +F       S       LGA +        S ++QG+ AAAG   LA+  +  ++ +    + ET A+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>462628</Statistics_db-num>
+      <Statistics_db-len>173435234</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

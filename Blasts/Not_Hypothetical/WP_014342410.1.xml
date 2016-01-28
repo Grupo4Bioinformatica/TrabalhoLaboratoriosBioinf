@@ -1,0 +1,792 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>Query_222499</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>174</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_222499</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>174</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|81340931|sp|O06733.1|YISX_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein YisX</Hit_def>
+  <Hit_accession>O06733</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.447</Hsp_bit-score>
+      <Hsp_score>119</Hsp_score>
+      <Hsp_evalue>6.20263e-07</Hsp_evalue>
+      <Hsp_query-from>48</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>FFNTVFNACVFANVVMRMCFFERCYLVNSSFTEADIQFSSFEGSILHTVSFAHAVLLSDNFNRIHAQDVSFQESDLSHTRFLHATLATVRFENCTVQHTHFMPSHTTHCTFKGSSTEHARI</Hsp_qseq>
+      <Hsp_hseq>FRNVVFIDVSFRHIELTDVIFEKCDLSNADFSGAVIHRTSVKQSKMVGMNVAEATLRNVSFEECHGHFSSFSYSNMKQVRFDHCALMQSECSDTVLQQTHFDGCELEGASFTGTSLQNMDI</Hsp_hseq>
+      <Hsp_midline>F N VF    F ++ +    FE+C L N+ F+ A I  +S + S +  ++ A A L + +F   H    SF  S++   RF H  L      +  +Q THF        +F G+S ++  I</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>1.49374</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>MFEPTPYCSTSDFAKLMHTSTHIHGVYAPRMRLNRVDFSGFHFVGCNFFNTVFNACVFANVVMRMCFF-----ERCYLVNSSFTEADIQFSSFEGSILHTVSFAHAVLLSDNFNRIHAQDVSFQESDLSHTRFLHATLATVRFENCTVQHTHFMPSHTTHCTFKGSSTEHA</Hsp_qseq>
+      <Hsp_hseq>LFEDCTICG-EDIERLCVEKTVFRNVVFIDVSFRHIELTDVIFEKCDLSNADFSGAVIHRTSVKQSKMVGMNVAEATLRNVSFEECHGHFSSFSYSNMKQVRFDHCALMQSECSDTVLQQTHFDGCELEGASFTGTSLQNMDISTCRFEQLHVSLDKLKGCKI---APEHA</Hsp_hseq>
+      <Hsp_midline>+FE    C   D  +L    T    V    +    ++ +   F  C+  N  F+  V     ++             L N SF E    FSSF  S +  V F H  L+    +    Q   F   +L    F   +L  +    C  +  H        C     + EHA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|75265738|sp|Q9SE95.1|FIP2_ARATH</Hit_id>
+  <Hit_def>RecName: Full=FH protein interacting protein FIP2; AltName: Full=BTB/POZ domain-containing protein At5g55000</Hit_def>
+  <Hit_accession>Q9SE95</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.595</Hsp_bit-score>
+      <Hsp_score>109</Hsp_score>
+      <Hsp_evalue>2.47494e-05</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>130</Hsp_hit-from>
+      <Hsp_hit-to>271</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>RVDFSGFHFVGCNFFNTVFNACVFANVVMRMCFFERCYLVNSSFTEADIQFSSFEGSILHTVSFA-----HAVLLSDNFNRIHAQDV-----SFQESDLSHTRFLHATLATVRFENCTVQHTHFMPSHTTHCTFKGSSTEHA</Hsp_qseq>
+      <Hsp_hseq>RVRFRGVNLSGIDLSKLDLSLVDFSYACLRNVFFSRTNLQCAKFRNADAEGSIFHNAILRECEFTSANLRGALLAGTNLQSANLQDACLVGCSFCGADLRTAHLQNADLTNANLEGANLEGANLKGAKLSNANFKGANLQRA</Hsp_hseq>
+      <Hsp_midline>RV F G +  G +      +   F+   +R  FF R  L  + F  AD + S F  +IL    F       A+L   N    + QD      SF  +DL      +A L     E   ++  +   +  ++  FKG++ + A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.173399</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>158</Hsp_hit-from>
+      <Hsp_hit-to>296</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>IHGVYAPRMRLNRVDFSGFHFVGCNFFNTVFNACVFANVVMRMCFFERCYLVNSSFTEADIQFSSFEGSILHTVSFAHAVLLSDNFNRIHAQDVSFQESDLSHTRFLHATLATVRFENCTVQHTHFMPSHTTHCTFKGS</Hsp_qseq>
+      <Hsp_hseq>LRNVFFSRTNLQCAKFRNADAEGSIFHNAILRECEFTSANLRGALLAGTNLQSANLQDACLVGCSFCGADLRTAHLQNADLTNANLEGANLEGANLKGAKLSNANFKGANLQRAYLRHVNLREAHMEGANLGGANMTGA</Hsp_hseq>
+      <Hsp_midline>+  V+  R  L    F      G  F N +   C F +  +R        L +++  +A +   SF G+ L T    +A L + N    + +  + + + LS+  F  A L      +  ++  H   ++       G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|6226470|sp|P73709.1|Y1819_SYNY3</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein slr1819</Hit_def>
+  <Hit_accession>P73709</Hit_accession>
+  <Hit_len>331</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.00149802</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>173</Hsp_query-to>
+      <Hsp_hit-from>72</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>LNRVDFSGFHFVGCNFFNTVFNACVFANVVMRMCFFERCYLVNSSFTEADIQFSSFEGSILHTVSFAH-----------AVLLSDNFNRIHAQDVSFQESDLSHTRFLHATLATVRFENCTVQHTHFMPSHTTHCTFKGSSTEHARIYLSDL</Hsp_qseq>
+      <Hsp_hseq>LNQADLAGADLRSANFHGAMLQGAILRDSDMTLATLQDTNLIGADLRGADLSGATLTGACLRGANMRQEKKGYYTNLQAAILGRADLQGANMKGVDLSRADLSYANLKEANLRDVDLRKADLSYANLKGALLTDANLSGAKLNGADLQNANL</Hsp_hseq>
+      <Hsp_midline>LN+ D +G      NF   +    +  +  M +   +   L+ +    AD+  ++  G+ L   +              A+L   +    + + V    +DLS+     A L  V      + + +   +  T     G+    A +  ++L</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.060693</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>130</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>FSGFHFVGCNFFNTVFNACVFANVVMRMCFFERCYLVNSSFTEADIQFSSFEGSILHTVSFAHAVLLSDNFNRIHAQDVSFQESDLSHTRFLHATLATVRFENCTVQHTHFMPSHTTHCTFKGSSTEHA</Hsp_qseq>
+      <Hsp_hseq>FTGLKLPGINLEAADLIGIVLNEADLRGANLLFCYLNRANLGQANLVAANLSGASLNQADLAGADLRSANFHGAMLQGAILRDSDM--------TLA-------TLQDTNLIGADLRGADLSGATLTGA</Hsp_hseq>
+      <Hsp_midline>F+G    G N         V     +R      CYL  ++  +A++  ++  G+ L+    A A L S NF+    Q    ++SD+        TLA       T+Q T+ + +        G++   A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>0.394962</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>183</Hsp_hit-from>
+      <Hsp_hit-to>328</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>LNRVDFSGFHFVGCNFFNTVFNACVFANVVMRMCFFERCYLVNSSFTEADIQFSSFEGSILHTVSFAHAVLLSDN--FNRIHAQDVS--------FQESDLSHTRFLHATLATVRFENCTVQHTHFMPSHTTHCTFKGSSTEHARI</Hsp_qseq>
+      <Hsp_hseq>LRDVDLRKADLSYANLKGALLTDANLSGAKLNGADLQNANLMRAKISEAEMTAVNCQGAIMTHVNLNRTNLTGSNLSFTRMNSADLSRANLTKANLQEAELIEAFFARANLTEANFINANLVRADLMSANMVGADFQGATMPDGQV</Hsp_hseq>
+      <Hsp_midline>L  VD         N    +      +   +     +   L+ +  +EA++   + +G+I+  V+     L   N  F R+++ D+S         QE++L    F  A L    F N  +     M ++     F+G++    ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|6226382|sp|Q55837.1|Y516_SYNY3</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein slr0516</Hit_def>
+  <Hit_accession>Q55837</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.00348525</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>59</Hsp_hit-from>
+      <Hsp_hit-to>164</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>126</Hsp_align-len>
+      <Hsp_qseq>RLNRVDFSGFHFVGCNFFNTVFNACVFANVVMRMCFFERCYLVNSSFTEADIQFSSFEGSILHTVSFAHAVLLSDNFNRIHAQDVSFQESDLSHTRFLHATLATVRFENCTVQHTHF----MPSHT</Hsp_qseq>
+      <Hsp_hseq>RLNRSDLSGANLSGVN---------------LRRALLDRANLTGANLSETDLTEAA-----LTEANLAGADLSGANLERSFLRDVDLTGANLKGANLAWANLTAANLTDVDLEEAEFWETTMPDGS</Hsp_hseq>
+      <Hsp_midline>RLNR D SG +  G N               +R    +R  L  ++ +E D+  ++     L   + A A L   N  R   +DV    ++L       A L      +  ++   F    MP  +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>1.82248</Hsp_evalue>
+      <Hsp_query-from>71</Hsp_query-from>
+      <Hsp_query-to>173</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>CYLVNSSFTE-----ADIQFSSFEGSILHTVSFAHAVLLSDNFNRIHAQDVSFQESDLSHTRFLHATLATVRFENCTVQHTHFMPSHTTHCTFKGSSTEHARIYLSDL</Hsp_qseq>
+      <Hsp_hseq>CNLAGADLREFNLENARLNRSDLSGANLSGVNLRRALL-----DRANLTGANLSETDLTEAALTEANLAGADLSGANLERSFLRDVDLTGANLKGANLAWANLTAANL</Hsp_hseq>
+      <Hsp_midline>C L  +   E     A +  S   G+ L  V+   A+L     +R +    +  E+DL+      A LA        ++ +       T    KG++   A +  ++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|126812|sp|P05530.1|MCBG_ECOLX</Hit_id>
+  <Hit_def>RecName: Full=Protein McbG; AltName: Full=Pentapeptide repeat protein McbG</Hit_def>
+  <Hit_accession>P05530</Hit_accession>
+  <Hit_len>187</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.00449081</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>RLNRVDFSGFHFVGCNFFNTVFNACVFANVVMRMCFFERCYLVNSSFTEADIQF-----SSFEGSILHTVSFAHAVLLSDNFNRIHAQDVSFQESDLSHTRFLHATLATVRFENCTVQHTHFMPSHTTHCTFKGSSTEHARI</Hsp_qseq>
+      <Hsp_hseq>RITKRHLSESELSGVNYYNCIFERIQLDNFNFRDCEFEKCRFVNCSIKNLKLNFFKLIDCEFKDCLLQGVN-AADIMFPCTFSLVNC-DLRF--VDFISLRLQKSIFLSCRFRDCLFEETDLRKSDFTGSEFNNTEFRHSDL</Hsp_hseq>
+      <Hsp_midline>R+ +   S     G N++N +F      N   R C FE+C  VN S     + F       F+  +L  V+ A  ++    F+ ++  D+ F   D    R   +   + RF +C  + T    S  T   F  +   H+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|6226483|sp|Q52118.1|YMO3_PANSE</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein in mobD 3&apos;region [Pantoea stewartii subsp. stewartii]</Hit_def>
+  <Hit_accession>Q52118</Hit_accession>
+  <Hit_len>295</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.010519</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>173</Hsp_query-to>
+      <Hsp_hit-from>117</Hsp_hit-from>
+      <Hsp_hit-to>264</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>PYCSTSDFAKLMHTSTHIHGVYAPRMRLNRVDFSGFHFVGCNFFNTVFNACVFANVVMRMCFFERCYLVNSSFTEADIQFSSFEGSILHTVSFAHAVLLSDNFNRIHAQDVSFQESDLSHTRFLHATLATVRFENCTVQHTHFMPSHTTHCTFKGSSTEHARIYLSDL</Hsp_qseq>
+      <Hsp_hseq>AYLSEADL-----SNANLSGADLTNANLNQTDLPNVNLSGANL----------AHANLTMAYLSEADLSNANLSNADLKRADLSNANLSGADLTNA-----NLNQTDLPNVNLSGANLAHANLTMAYLSEADLSNANLSNADLKRADLSDANLSDANLTNVDLKRADL</Hsp_hseq>
+      <Hsp_midline> Y S +D      ++ ++ G       LN+ D    +  G N           A+  + M +     L N++ + AD++ +    + L      +A     N N+    +V+   ++L+H     A L+     N  + +     +  +      ++  +  +  +DL</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.046452</Hsp_evalue>
+      <Hsp_query-from>68</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>79</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>127</Hsp_align-len>
+      <Hsp_qseq>FERCYLVNSSFTEADIQFSSFEGSILHTVSFAHAVL----LSD----------------NFNRIHAQDVSFQESDLSHTRFLHATLATVRFENCTVQHTHFMPSHTTHCTFKGSSTEHARIYLSDLP</Hsp_qseq>
+      <Hsp_hseq>LKGAYLSDANLSDADLSDANLSDANLSGANLAHANLTMAYLSEADLSNANLSGADLTNANLNQTDLPNVNLSGANLAHANLTMAYLSEADLSNANLSNADLKRADLSNANLSGADLTNANLNQTDLP</Hsp_hseq>
+      <Hsp_midline> +  YL +++ ++AD+  ++   + L   + AHA L    LS+                N N+    +V+   ++L+H     A L+     N  + +     +  ++    G+   +A +  +DLP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|50400921|sp|Q7L273.1|KCTD9_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=BTB/POZ domain-containing protein KCTD9</Hit_def>
+  <Hit_accession>Q7L273</Hit_accession>
+  <Hit_len>389</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.0126032</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>173</Hsp_query-to>
+      <Hsp_hit-from>228</Hsp_hit-from>
+      <Hsp_hit-to>370</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>VDFSGFHFVGCNFFNTVFNACVFANVVMRMCFFERCYLVNSSFTEADIQF-----SSFEGSILHTVSFAHAVLLSDNFNRIHAQDVSFQESDLSHTRFLHATLATVRFENCTVQHTHFMPSHTTHCTFKGSSTEHARIYLSDL</Hsp_qseq>
+      <Hsp_hseq>ADLSRLDLRYINFKMANLSRCNLAHANLCCANLERADLSGSVLDCANLQGVKMLCSNAEGASLKLCNFEDPSGLKANLEGANLKGVDMEGSQMTGINLRVATLKNAKLKNCNLRGATLAGTDLENCDLSGCDLQEANLRGSNV</Hsp_hseq>
+      <Hsp_midline> D S       NF     + C  A+  +     ER  L  S    A++Q      S+ EG+ L   +F     L  N    + + V  + S ++      ATL   + +NC ++      +   +C   G   + A +  S++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|81872902|sp|Q9Z2I6.1|SV2C_RAT</Hit_id>
+  <Hit_def>RecName: Full=Synaptic vesicle glycoprotein 2C; Short=Synaptic vesicle protein 2C</Hit_def>
+  <Hit_accession>Q9Z2I6</Hit_accession>
+  <Hit_len>727</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.0163266</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>495</Hsp_hit-from>
+      <Hsp_hit-to>564</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>MRLNRVDFSGFHFVGCNFFNTVFNACVFANVVMRMCFFERCYLVNSSFTEADIQFSSFEGSILHTVSFAH</Hsp_qseq>
+      <Hsp_hseq>MEYDNGRFLGVKFKSVTFKDSVFKSCTFDDVTSVNTYFKNCTFIDTLFENTDFEPYKFIDSEFQNCSFLH</Hsp_hseq>
+      <Hsp_midline>M  +   F G  F    F ++VF +C F +V     +F+ C  +++ F   D +   F  S     SF H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|108860966|sp|Q69ZS6.2|SV2C_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Synaptic vesicle glycoprotein 2C; Short=Synaptic vesicle protein 2C</Hit_def>
+  <Hit_accession>Q69ZS6</Hit_accession>
+  <Hit_len>727</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.0191553</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>502</Hsp_hit-from>
+      <Hsp_hit-to>564</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>FSGFHFVGCNFFNTVFNACVFANVVMRMCFFERCYLVNSSFTEADIQFSSFEGSILHTVSFAH</Hsp_qseq>
+      <Hsp_hseq>FLGVKFKSVTFKDSVFKSCTFDDVTSVNTYFKNCTFIDTLFDNTDFEPYKFIDSEFQNCSFLH</Hsp_hseq>
+      <Hsp_midline>F G  F    F ++VF +C F +V     +F+ C  +++ F   D +   F  S     SF H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|108860965|sp|Q496J9.1|SV2C_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Synaptic vesicle glycoprotein 2C</Hit_def>
+  <Hit_accession>Q496J9</Hit_accession>
+  <Hit_len>727</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.0195186</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>495</Hsp_hit-from>
+      <Hsp_hit-to>564</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>MRLNRVDFSGFHFVGCNFFNTVFNACVFANVVMRMCFFERCYLVNSSFTEADIQFSSFEGSILHTVSFAH</Hsp_qseq>
+      <Hsp_hseq>MEYDNGRFIGVKFKSVTFKDSVFKSCTFEDVTSVNTYFKNCTFIDTVFDNTDFEPYKFIDSEFKNCSFFH</Hsp_hseq>
+      <Hsp_midline>M  +   F G  F    F ++VF +C F +V     +F+ C  +++ F   D +   F  S     SF H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|122546274|sp|Q2PT27.2|QNRB4_ECOLX</Hit_id>
+  <Hit_def>RecName: Full=Pentapeptide repeat protein QnrB4; AltName: Full=Plasmid-mediated quinolone resistance determinant</Hit_def>
+  <Hit_accession>Q2PT27</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.0274048</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>155</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>VDFSGFHFVGCNFFN-TVFNACVFANVVMRMCFFERCYLVNSSFTEA-----DIQFSSFEGSILHTVSFAHAVLLSDNFNRIHAQDVSFQESDLSHTRFLHATLATVRFENCTVQHTHFMPSHTTHCTFKGS</Hsp_qseq>
+      <Hsp_hseq>ADLSGTEFIGCQFYDRESQKGCNFSRANLKDAIFKSCDLSMADFRNINALGIEIRHCRAQGSDFRGASFMNMITTRTWFCSAY----------ITNTNLSYANFSKVVLEKCELWENRWMGTQVLGATFSGS</Hsp_hseq>
+      <Hsp_midline> D SG  F+GC F++      C F+   ++   F+ C L  + F        +I+    +GS     SF + +     F   +          +++T   +A  + V  E C +    +M +     TF GS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|418540|sp|P32690.1|YJBI_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Putative uncharacterized protein YjbI</Hit_def>
+  <Hit_accession>P32690</Hit_accession>
+  <Hit_len>442</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.0384119</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>VDFSGFHFVGCNFFNTVFNACVFANVVMRMCFFERCYLVNSSFTEADIQFSSFEGSILHTVSFAHAVLLSDNFNRIHAQDVSFQESDLSHTRFLHATLATVRFENCTVQHTHF</Hsp_qseq>
+      <Hsp_hseq>IDLSDLDLTSCHFKGDVISKVSFLSSNLQHVTFECKEIGDCNFTTAIVDNVIFRCRRLHNVIFIKASGECVDFSKNILDTVDFSQSQLGHSNFRECQIRNSNFDNCYLYASHF</Hsp_hseq>
+      <Hsp_midline>+D S      C+F   V +   F +  ++   FE   + + +FT A +    F    LH V F  A     +F++     V F +S L H+ F    +    F+NC +  +HF</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.230888</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>89</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>CV-FANVVMRMCFFERCYLVNSSFTEADIQFSSFEGSILHTVSFAHAVLLSDNFNRIHAQDVSFQESDLSHTRFLHATLATVRFENCTVQH</Hsp_qseq>
+      <Hsp_hseq>CVDFSKNILDTVDFSQSQLGHSNFRECQIRNSNFDNCYLYASHFTRAEFLS-------AKEISFIKSNLTAVMFDYVRMSTGNFKDCITEQ</Hsp_hseq>
+      <Hsp_midline>CV F+  ++    F +  L +S+F E  I+ S+F+   L+   F  A  LS       A+++SF +S+L+   F +  ++T  F++C  + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|418554|sp|P32704.1|YJCF_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein YjcF</Hit_def>
+  <Hit_accession>P32704</Hit_accession>
+  <Hit_len>430</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.0812403</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>163</Hsp_hit-from>
+      <Hsp_hit-to>307</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>DFSGFHFVGCNFFNTVFNACV-----FANVVMRMCFFERCYLVNSSFTEAD-------------IQF-------SSFEGSILHTVSFAHAVLLSDNFNRIHAQDVSFQESDLSHTR-----FLHATLATVRFENCTVQHTHFMPS</Hsp_qseq>
+      <Hsp_hseq>DLSNSNFAGCRLQNAIFQDCNMYKTNFNFAIMEKILFDNCILDDSNFAQIKMTDGTLNSCSAMHVQFYNATMNRANIKNTFLDYSNFYMAYMAEVNLYKVIAPYINLFRADLSFSKLDLINFEHADLSRVNLNKATLQNINLIDS</Hsp_hseq>
+      <Hsp_midline>D S  +F GC   N +F  C      F   +M    F+ C L +S+F +               +QF       ++ + + L   +F  A +   N  ++ A  ++   +DLS ++     F HA L+ V     T+Q+ + + S</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.0908331</Hsp_evalue>
+      <Hsp_query-from>68</Hsp_query-from>
+      <Hsp_query-to>173</Hsp_query-to>
+      <Hsp_hit-from>169</Hsp_hit-from>
+      <Hsp_hit-to>274</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>FERCYLVNSSFTEADIQFSSFEGSILHTVSFAHAVLLSDNFNRIHAQDVSFQESDLSHTRFLHATLATVRFENCTVQHTHFMPSHTTHCTFKGSSTEHARIYLSDL</Hsp_qseq>
+      <Hsp_hseq>FAGCRLQNAIFQDCNMYKTNFNFAIMEKILFDNCILDDSNFAQIKMTDGTLNSCSAMHVQFYNATMNRANIKNTFLDYSNFYMAYMAEVNLYKVIAPYINLFRADL</Hsp_hseq>
+      <Hsp_midline>F  C L N+ F + ++  ++F  +I+  + F + +L   NF +I   D +       H +F +AT+     +N  + +++F  ++            +  ++ +DL</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>1.0337</Hsp_evalue>
+      <Hsp_query-from>93</Hsp_query-from>
+      <Hsp_query-to>169</Hsp_query-to>
+      <Hsp_hit-from>154</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>LHTVSFAHAVLLSDNFNRIHAQDVSFQESDLSHTRFLHATLATVRFENCTVQHTHFMPSHTTHCTFKGSSTEHARIY</Hsp_qseq>
+      <Hsp_hseq>LKGIVIKDEDLSNSNFAGCRLQNAIFQDCNMYKTNFNFAIMEKILFDNCILDDSNFAQIKMTDGTLNSCSAMHVQFY</Hsp_hseq>
+      <Hsp_midline>L  +      L + NF     Q+  FQ+ ++  T F  A +  + F+NC +  ++F     T  T    S  H + Y</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>8.20031</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>169</Hsp_query-to>
+      <Hsp_hit-from>272</Hsp_hit-from>
+      <Hsp_hit-to>355</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>ADIQFSSFEGSILHTVSFAHAVLLSDNFNRIHAQDVSFQESDLSHTRFLHATLATVRFENCTVQHTHFMPSHTTHCTFKGSSTEHARIY</Hsp_qseq>
+      <Hsp_hseq>ADLSFSK-----LDLINFEHADLSRVNLNKATLQNINLIDSKLFFTRLTNTFLEMVICTDSNMANVNFNNANLSNCHFNCSVLTKAWMF</Hsp_hseq>
+      <Hsp_midline>AD+ FS      L  ++F HA L   N N+   Q+++  +S L  TR  +  L  V   +  + + +F  ++ ++C F  S    A ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|81726511|sp|Q87K03.1|QNR_VIBPA</Hit_id>
+  <Hit_def>RecName: Full=Pentapeptide repeat protein VPA0095</Hit_def>
+  <Hit_accession>Q87K03</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.0873547</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>184</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>SDFAKLMHTSTHIHGVYAPRMRLNRVDFSGFHFVGCNFFNTVFNACVFANVVMRMCFFERCYLVNSSFTEADIQFSSFEGSILHTVSFAHAVLLSDNFNRIHAQDVSFQESDLSHTRFLHATLATVRFENCTVQHTHF</Hsp_qseq>
+      <Hsp_hseq>ASFTNCMLAMSLFNGANCMGLELRKCDLKGANFQGANFANRVSNTMFFCSAFITGC---------------NLTYCNFERVLLEKCD-----LFENRWNGANLAGATLKGSDLSRCEFSPEQWGTFNVEQCDLTHVEL</Hsp_hseq>
+      <Hsp_midline>+ F   M   +  +G     + L + D  G +F G NF N V N   F +  +  C               ++ + +FE  +L         L  + +N  +    + + SDLS   F      T   E C + H   </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|75039741|sp|Q29397.1|SV2A_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=Synaptic vesicle glycoprotein 2A; AltName: Full=p87</Hit_def>
+  <Hit_accession>Q29397</Hit_accession>
+  <Hit_len>742</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.0984369</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>516</Hsp_hit-from>
+      <Hsp_hit-to>578</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>FSGFHFVGCNFFNTVFNACVFANVVMRMCFFERCYLVNSSFTEADIQFSSFEGSILHTVSFAH</Hsp_qseq>
+      <Hsp_hseq>FIGLRLKSVSFEDSLFEECYFEDVTSSNTFFRNCTFINTVFYNTDLFEYKFVNSRLVNSTFLH</Hsp_hseq>
+      <Hsp_midline>F G      +F +++F  C F +V     FF  C  +N+ F   D+    F  S L   +F H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|81881914|sp|Q9JIS5.1|SV2A_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Synaptic vesicle glycoprotein 2A; Short=Synaptic vesicle protein 2; Short=Synaptic vesicle protein 2A; AltName: Full=Calcium regulator SV2A</Hit_def>
+  <Hit_accession>Q9JIS5</Hit_accession>
+  <Hit_len>742</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.0993544</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>516</Hsp_hit-from>
+      <Hsp_hit-to>578</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>FSGFHFVGCNFFNTVFNACVFANVVMRMCFFERCYLVNSSFTEADIQFSSFEGSILHTVSFAH</Hsp_qseq>
+      <Hsp_hseq>FIGLRLKSVSFEDSLFEECYFEDVTSSNTFFRNCTFINTVFYNTDLFEYKFVNSRLVNSTFLH</Hsp_hseq>
+      <Hsp_midline>F G      +F +++F  C F +V     FF  C  +N+ F   D+    F  S L   +F H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|108935908|sp|Q02563.2|SV2A_RAT</Hit_id>
+  <Hit_def>RecName: Full=Synaptic vesicle glycoprotein 2A; Short=Synaptic vesicle protein 2; Short=Synaptic vesicle protein 2A</Hit_def>
+  <Hit_accession>Q02563</Hit_accession>
+  <Hit_len>742</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.101215</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>516</Hsp_hit-from>
+      <Hsp_hit-to>578</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>FSGFHFVGCNFFNTVFNACVFANVVMRMCFFERCYLVNSSFTEADIQFSSFEGSILHTVSFAH</Hsp_qseq>
+      <Hsp_hseq>FIGLRLKSVSFEDSLFEECYFEDVTSSNTFFRNCTFINTVFYNTDLFEYKFVNSRLVNSTFLH</Hsp_hseq>
+      <Hsp_midline>F G      +F +++F  C F +V     FF  C  +N+ F   D+    F  S L   +F H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|75075844|sp|Q4R4X3.1|SV2A_MACFA</Hit_id>
+  <Hit_def>RecName: Full=Synaptic vesicle glycoprotein 2A</Hit_def>
+  <Hit_accession>Q4R4X3</Hit_accession>
+  <Hit_len>742</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.102158</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>516</Hsp_hit-from>
+      <Hsp_hit-to>578</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>FSGFHFVGCNFFNTVFNACVFANVVMRMCFFERCYLVNSSFTEADIQFSSFEGSILHTVSFAH</Hsp_qseq>
+      <Hsp_hseq>FIGLRLKSVSFEDSLFEECYFEDVTSSNTFFRNCTFINTVFYNTDLFEYKFVNSRLVNSTFLH</Hsp_hseq>
+      <Hsp_midline>F G      +F +++F  C F +V     FF  C  +N+ F   D+    F  S L   +F H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|74749878|sp|Q7L0J3.1|SV2A_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Synaptic vesicle glycoprotein 2A</Hit_def>
+  <Hit_accession>Q7L0J3</Hit_accession>
+  <Hit_len>742</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.105041</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>516</Hsp_hit-from>
+      <Hsp_hit-to>578</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>FSGFHFVGCNFFNTVFNACVFANVVMRMCFFERCYLVNSSFTEADIQFSSFEGSILHTVSFAH</Hsp_qseq>
+      <Hsp_hseq>FIGLRLKSVSFEDSLFEECYFEDVTSSNTFFRNCTFINTVFYNTDLFEYKFVNSRLINSTFLH</Hsp_hseq>
+      <Hsp_midline>F G      +F +++F  C F +V     FF  C  +N+ F   D+    F  S L   +F H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|75040980|sp|Q5R4L9.1|SV2A_PONAB</Hit_id>
+  <Hit_def>RecName: Full=Synaptic vesicle glycoprotein 2A</Hit_def>
+  <Hit_accession>Q5R4L9</Hit_accession>
+  <Hit_len>742</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.105041</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>516</Hsp_hit-from>
+      <Hsp_hit-to>578</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>FSGFHFVGCNFFNTVFNACVFANVVMRMCFFERCYLVNSSFTEADIQFSSFEGSILHTVSFAH</Hsp_qseq>
+      <Hsp_hseq>FIGLRLKSVSFEDSLFEECYFEDVTSSNTFFRNCTFINTVFYNTDLFEYKFVNSRLINSTFLH</Hsp_hseq>
+      <Hsp_midline>F G      +F +++F  C F +V     FF  C  +N+ F   D+    F  S L   +F H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>462628</Statistics_db-num>
+      <Statistics_db-len>173435234</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,602 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>Query_188577</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>269</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_188577</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>269</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|62900131|sp|O83452.1|NTPA_TREPA</Hit_id>
+  <Hit_def>RecName: Full=Non-canonical purine NTP pyrophosphatase; AltName: Full=Non-standard purine NTP pyrophosphatase; AltName: Full=Nucleoside-triphosphate diphosphatase; AltName: Full=Nucleoside-triphosphate pyrophosphatase; Short=NTPase &gt;gi|226737275|sp|B2S334.1|NTPA_TREPS RecName: Full=Non-canonical purine NTP pyrophosphatase; AltName: Full=Non-standard purine NTP pyrophosphatase; AltName: Full=Nucleoside-triphosphate diphosphatase; AltName: Full=Nucleoside-triphosphate pyrophosphatase; Short=NTPase</Hit_def>
+  <Hit_accession>O83452</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>550.436</Hsp_bit-score>
+      <Hsp_score>1417</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>269</Hsp_identity>
+      <Hsp_positive>269</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>MRAVDFLRRATVCWYMRIYLASNNAHKHAEFSSLFPMHTILLPKDEGIDFFSPEDGSTFFANARQKADALYDVVHAPVLADDSGLCVDALDGDPGVHSARFGAQHGVHTDTARMQLLLERMHGRQDRACSFVCVAVLKLGSVPLCVGRGVCRGVLTTEMSGVEGFGYDPIFLLPHLGRTFAQLSIEEKNRVSHRALAALRLAQVLAMMQLPRALRYELKLLRGARRMTRGGVLRPGAPCAQRKGQTAQTARRHKFYARARRCARRIHRA</Hsp_qseq>
+      <Hsp_hseq>MRAVDFLRRATVCWYMRIYLASNNAHKHAEFSSLFPMHTILLPKDEGIDFFSPEDGSTFFANARQKADALYDVVHAPVLADDSGLCVDALDGDPGVHSARFGAQHGVHTDTARMQLLLERMHGRQDRACSFVCVAVLKLGSVPLCVGRGVCRGVLTTEMSGVEGFGYDPIFLLPHLGRTFAQLSIEEKNRVSHRALAALRLAQVLAMMQLPRALRYELKLLRGARRMTRGGVLRPGAPCAQRKGQTAQTARRHKFYARARRCARRIHRA</Hsp_hseq>
+      <Hsp_midline>MRAVDFLRRATVCWYMRIYLASNNAHKHAEFSSLFPMHTILLPKDEGIDFFSPEDGSTFFANARQKADALYDVVHAPVLADDSGLCVDALDGDPGVHSARFGAQHGVHTDTARMQLLLERMHGRQDRACSFVCVAVLKLGSVPLCVGRGVCRGVLTTEMSGVEGFGYDPIFLLPHLGRTFAQLSIEEKNRVSHRALAALRLAQVLAMMQLPRALRYELKLLRGARRMTRGGVLRPGAPCAQRKGQTAQTARRHKFYARARRCARRIHRA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|62900239|sp|Q73KE7.1|NTPA_TREDE</Hit_id>
+  <Hit_def>RecName: Full=Non-canonical purine NTP pyrophosphatase; AltName: Full=Non-standard purine NTP pyrophosphatase; AltName: Full=Nucleoside-triphosphate diphosphatase; AltName: Full=Nucleoside-triphosphate pyrophosphatase; Short=NTPase</Hit_def>
+  <Hit_accession>Q73KE7</Hit_accession>
+  <Hit_len>194</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.808</Hsp_bit-score>
+      <Hsp_score>473</Hsp_score>
+      <Hsp_evalue>7.65333e-57</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MRIYLASNNAHKHAEFSSLFPMHTILLPKDEGIDFFSPEDGSTFFANARQKADALYDVVHAPVLADDSGLCVDALDGDPGVHSARFGAQHGVHTDT-ARMQLLLERMHGRQDRACSFVCVAVLKLGSVPLCVGRGVCRGVLTTEMSGVEGFGYDPIFLLPHLGRTFAQLSIEEKNRVSHRALAALRLAQVL</Hsp_qseq>
+      <Hsp_hseq>MKIYLASGNVNKKREVQELLPSHTIVLPKDEGIEFDPEETGSTFFENAMIKAKALYHIVKAPVLADDSGLCVDFLNGAPGIHSARYGSIEGEHVSAEAGINKVLSELKGVKDRSARFACCMVCLLDENRFYSVQETCEGHITEAPSGSGGFGYDPIFFVEKFGKTFAELTSEQKNSISHRGRALFSISRFI</Hsp_hseq>
+      <Hsp_midline>M+IYLAS N +K  E   L P HTI+LPKDEGI+F   E GSTFF NA  KA ALY +V APVLADDSGLCVD L+G PG+HSAR+G+  G H    A +  +L  + G +DR+  F C  V  L        +  C G +T   SG  GFGYDPIF +   G+TFA+L+ E+KN +SHR  A   +++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|62900236|sp|Q72UV8.1|NTPA_LEPIC</Hit_id>
+  <Hit_def>RecName: Full=Non-canonical purine NTP pyrophosphatase; AltName: Full=Non-standard purine NTP pyrophosphatase; AltName: Full=Nucleoside-triphosphate diphosphatase; AltName: Full=Nucleoside-triphosphate pyrophosphatase; Short=NTPase &gt;gi|62900301|sp|Q8F031.1|NTPA_LEPIN RecName: Full=Non-canonical purine NTP pyrophosphatase; AltName: Full=Non-standard purine NTP pyrophosphatase; AltName: Full=Nucleoside-triphosphate diphosphatase; AltName: Full=Nucleoside-triphosphate pyrophosphatase; Short=NTPase</Hit_def>
+  <Hit_accession>Q72UV8</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.346</Hsp_bit-score>
+      <Hsp_score>342</Hsp_score>
+      <Hsp_evalue>2.54279e-37</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>RIYLASNNAHKHAEFSSLFPMH---TILLPKDEGIDFFSPEDGSTFFANARQKADALYDVVHAPVLADDSGLCVDALDGDPGVHSARFGAQHGVHTDTARMQLLLERMHGRQDRACSFVCVAVLKLGSVPLCVGRGVCRGVLTTEMS--GVEGFGYDPIFLLPHLGRTFAQLSIEEKNRVSHRALAALRLAQVL</Hsp_qseq>
+      <Hsp_hseq>QLALGTNNLNKVKEVSSIL-MELGIQILTPKDLKVSFNPEETGSTFKENALIKAKELFYLTKIPSIADDSGICVSALKDEPGVYSARFGGPE--LNDEGRALLLLEKLKGNQNRKAYYAC-AIAYVDESTEQSFEGRCEGLISEEYDRIGIYGFGYDPIFIFPPLQKPFSQIQEETKNSVSHRKKALDELLKFL</Hsp_hseq>
+      <Hsp_midline>++ L +NN +K  E SS+  M     IL PKD  + F   E GSTF  NA  KA  L+ +   P +ADDSG+CV AL  +PGV+SARFG       D  R  LLLE++ G Q+R   + C A+  +         G C G+++ E    G+ GFGYDPIF+ P L + F+Q+  E KN VSHR  A   L + L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|22653755|sp|Q8XI68.1|NTPA_CLOPE</Hit_id>
+  <Hit_def>RecName: Full=Non-canonical purine NTP pyrophosphatase; AltName: Full=Non-standard purine NTP pyrophosphatase; AltName: Full=Nucleoside-triphosphate diphosphatase; AltName: Full=Nucleoside-triphosphate pyrophosphatase; Short=NTPase</Hit_def>
+  <Hit_accession>Q8XI68</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.576</Hsp_bit-score>
+      <Hsp_score>340</Hsp_score>
+      <Hsp_evalue>6.10351e-37</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>200</Hsp_align-len>
+      <Hsp_qseq>RIYLASNNAHKHAEFSSL---FPMHTILLPKDEGIDFFSPEDGSTFFANARQKADALYDVVHAP------VLADDSGLCVDALDGDPGVHSARFGAQHGVHTDTARMQLLLERMHGRQD--RACSFVCVAVLKLGSVPLCVGRGVCRGVLTTEMSGVEGFGYDPIFLLPHLGRTFAQLSIEEKNRVSHRALAALRLAQVL</Hsp_qseq>
+      <Hsp_hseq>KFILASNNAHKVKEIKEILKDFNLN-ILSLNEAGIDIDVEEDGKTFEENSFKKANEIRKYLLSKGESDFIVMADDSGLEVDYLNGAPGIYSARYAGEHG--NDSKNNEKLLEELKNVKDDERKANFICVIVAVTDKGEKIVAEGKSYGLILEALSGNEGFGYDPLFFVPEYKKTFAEMTSDEKNAISHRGRALEKLKDNL</Hsp_hseq>
+      <Hsp_midline>+  LASNNAHK  E   +   F ++ IL   + GID    EDG TF  N+ +KA+ +   + +       V+ADDSGL VD L+G PG++SAR+  +HG   D+   + LLE +   +D  R  +F+CV V         V  G   G++   +SG EGFGYDP+F +P   +TFA+++ +EKN +SHR  A  +L   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|22653766|sp|Q97FR2.1|NTPA_CLOAB</Hit_id>
+  <Hit_def>RecName: Full=Non-canonical purine NTP pyrophosphatase; AltName: Full=Non-standard purine NTP pyrophosphatase; AltName: Full=Nucleoside-triphosphate diphosphatase; AltName: Full=Nucleoside-triphosphate pyrophosphatase; Short=NTPase</Hit_def>
+  <Hit_accession>Q97FR2</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.806</Hsp_bit-score>
+      <Hsp_score>338</Hsp_score>
+      <Hsp_evalue>8.5166e-37</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>RIYLASNNAHKHAEFSSL---FPMHTILLPKDEGIDFFSPEDGSTFFANARQKADALYDV-VHAPVLADDSGLCVDALDGDPGVHSARFGAQHGVHTDTARMQLLLERMHGR--QDRACSFVCVAVLKLGSVPLCVGRGVCRGVLTTEMSGVEGFGYDPIFLLPHLGRTFAQLSIEEKNRVSHRALAALRL</Hsp_qseq>
+      <Hsp_hseq>KIIIASNNQNKIREIKQILKEFDFNIVSL-KEENIDIDVEEDGKTFIENAYKKAYEIYKMRKDCMVIADDSGLTVDELEGAPGIYSARFAGIHG--DDKKNNEKLLSLLEGVPFEKRNAQFVCSIVLIIDEANSIKVEGEISGFITDKEIGTKGFGYDPLFYVPEFKKTFAELTEDEKNSISHRAIALEKL</Hsp_hseq>
+      <Hsp_midline>+I +ASNN +K  E   +   F  + + L K+E ID    EDG TF  NA +KA  +Y +     V+ADDSGL VD L+G PG++SARF   HG   D    + LL  + G   + R   FVC  VL +         G   G +T +  G +GFGYDP+F +P   +TFA+L+ +EKN +SHRA+A  +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|62900151|sp|Q5HQ23.1|NTPA_STAEQ</Hit_id>
+  <Hit_def>RecName: Full=Non-canonical purine NTP pyrophosphatase; AltName: Full=Non-standard purine NTP pyrophosphatase; AltName: Full=Nucleoside-triphosphate diphosphatase; AltName: Full=Nucleoside-triphosphate pyrophosphatase; Short=NTPase</Hit_def>
+  <Hit_accession>Q5HQ23</Hit_accession>
+  <Hit_len>195</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.806</Hsp_bit-score>
+      <Hsp_score>338</Hsp_score>
+      <Hsp_evalue>9.00047e-37</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>IYLASNNAHKHAEFSSLFPMHTILLPKDEGIDFFSPEDGSTFFANARQKADALYDVVHAPVLADDSGLCVDALDGDPGVHSARFGAQHGVHTDTARMQLLLERMHGRQDRACSFVCVAVLKLGSVPLCVGRGVCRGVLTTEMSGVEGFGYDPIFLLPHLGRTFAQLSIEEKNRVSHRALAALRLAQVLAMMQ</Hsp_qseq>
+      <Hsp_hseq>IVIATNNQGKINDFKAIFKNQNVIGISELIEDFDVEETGATFEENAKLKSEAAAHALNKRVIADDSGLEVFALNGEPGVYSARYAGLG--KNDEDNIEKLLTNLEDVQDRRAQFVCVISMSAPNEKTKTFKGTVSGVITTERHGKNGFGYDPIFFVPELNKTMAEITNDEKGKISHRGNAILLLKEYLEGEQ</Hsp_hseq>
+      <Hsp_midline>I +A+NN  K  +F ++F    ++   +   DF   E G+TF  NA+ K++A    ++  V+ADDSGL V AL+G+PGV+SAR+        D   ++ LL  +   QDR   FVCV  +   +      +G   GV+TTE  G  GFGYDPIF +P L +T A+++ +EK ++SHR  A L L + L   Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|62900222|sp|Q6GHT4.1|NTPA_STAAR</Hit_id>
+  <Hit_def>RecName: Full=Non-canonical purine NTP pyrophosphatase; AltName: Full=Non-standard purine NTP pyrophosphatase; AltName: Full=Nucleoside-triphosphate diphosphatase; AltName: Full=Nucleoside-triphosphate pyrophosphatase; Short=NTPase</Hit_def>
+  <Hit_accession>Q6GHT4</Hit_accession>
+  <Hit_len>195</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.035</Hsp_bit-score>
+      <Hsp_score>336</Hsp_score>
+      <Hsp_evalue>1.49146e-36</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>RIYLASNNAHKHAEFSSLFPMHTILLPKDEGIDFFSPEDGSTFFANARQKADALYDVVHAPVLADDSGLCVDALDGDPGVHSARFGAQHGVHTDTARMQLLLERMHGRQDRACSFVCVAVLKLGSVPLCVGRGVCRGVLTTEMSGVEGFGYDPIFLLPHLGRTFAQLSIEEKNRVSHRALAALRLAQVLAMMQ</Hsp_qseq>
+      <Hsp_hseq>EIVIASNNQGKINDFKVIFPDYHVIGISELILDFDVEETGSTFEENAILKSEAAAKALNKTVIADDSGLEVFALNGEPGIYSARYAGEN--KSDEANIEKLLNKLGNTTDRRAQFVCVISMSGPDMETKVFKGTVSGEIADGKYGENGFGYDPIFYVPKLDRTMAQLSKEQKGQISHRRNAINLLEAYLAGDQ</Hsp_hseq>
+      <Hsp_midline> I +ASNN  K  +F  +FP + ++   +  +DF   E GSTF  NA  K++A    ++  V+ADDSGL V AL+G+PG++SAR+  ++   +D A ++ LL ++    DR   FVCV  +    +   V +G   G +     G  GFGYDPIF +P L RT AQLS E+K ++SHR  A   L   LA  Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|62900200|sp|Q6AQD7.1|NTPA_DESPS</Hit_id>
+  <Hit_def>RecName: Full=Non-canonical purine NTP pyrophosphatase; AltName: Full=Non-standard purine NTP pyrophosphatase; AltName: Full=Nucleoside-triphosphate diphosphatase; AltName: Full=Nucleoside-triphosphate pyrophosphatase; Short=NTPase</Hit_def>
+  <Hit_accession>Q6AQD7</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.035</Hsp_bit-score>
+      <Hsp_score>336</Hsp_score>
+      <Hsp_evalue>3.72493e-36</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>206</Hsp_align-len>
+      <Hsp_qseq>IYLASNNAHKHAEFSSLFPMHTILL-------PKDEGIDFFSPEDGSTFFANARQKADALYDVVHAPVLADDSGLCVDALDGDPGVHSARFGAQHGVHTDTARMQLLLERMHGRQDRACSFVCVAVLKLGSVPLCVGRGVCRGVLTTEMSGVEGFGYDPIFLLPHLGRTFAQLSIEEKNRVSHRALAALRLAQVLAMMQLPRALRY</Hsp_qseq>
+      <Hsp_hseq>IVLATTNQNKVKEFQEILKDFAIEIRSLAEFGPIPEAI-----EDGKDFDENAYKKAIHTAKILGIPAIADDSGLEVHALNGAPGVYSARYSGEGA--TDASNCDKLLEELAGKEDRSANFTCVISIATPGGPALTYEGRCDGKILTEKRGKSGFGYDPLFYFAEYDKTFAELSMEEKNRVSHRGKA---LAEIKA--EAPQIIKW</Hsp_hseq>
+      <Hsp_midline>I LA+ N +K  EF  +     I +       P  E I     EDG  F  NA +KA     ++  P +ADDSGL V AL+G PGV+SAR+  +    TD +    LLE + G++DR+ +F CV  +     P     G C G + TE  G  GFGYDP+F      +TFA+LS+EEKNRVSHR  A   LA++ A  + P+ +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|38258108|sp|Q8CSY5.1|NTPA_STAES</Hit_id>
+  <Hit_def>RecName: Full=Non-canonical purine NTP pyrophosphatase; AltName: Full=Non-standard purine NTP pyrophosphatase; AltName: Full=Nucleoside-triphosphate diphosphatase; AltName: Full=Nucleoside-triphosphate pyrophosphatase; Short=NTPase</Hit_def>
+  <Hit_accession>Q8CSY5</Hit_accession>
+  <Hit_len>195</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>131.724</Hsp_bit-score>
+      <Hsp_score>330</Hsp_score>
+      <Hsp_evalue>1.29987e-35</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>IYLASNNAHKHAEFSSLFPMHTILLPKDEGIDFFSPEDGSTFFANARQKADALYDVVHAPVLADDSGLCVDALDGDPGVHSARFGAQHGVHTDTARMQLLLERMHGRQDRACSFVCVAVLKLGSVPLCVGRGVCRGVLTTEMSGVEGFGYDPIFLLPHLGRTFAQLSIEEKNRVSHRALAALRLAQVLAMMQ</Hsp_qseq>
+      <Hsp_hseq>IVIATNNQGKINDFKAIFKNQHVIGISELIEDFDVEETGATFEENARLKSEAAAHALNKRVIADDSGLEVFALNGEPGVYSARYAGLG--KNDEDNIEKLLTNLEDVQDRRAQFVCVISMSAPNEKTKTFKGTVSGVITTERHGKNGFGYDPIFFVPELNKTMAEITNDEKGKISHRGNAIRLLKEYLEGEQ</Hsp_hseq>
+      <Hsp_midline>I +A+NN  K  +F ++F    ++   +   DF   E G+TF  NAR K++A    ++  V+ADDSGL V AL+G+PGV+SAR+        D   ++ LL  +   QDR   FVCV  +   +      +G   GV+TTE  G  GFGYDPIF +P L +T A+++ +EK ++SHR  A   L + L   Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|62900272|sp|Q82XJ3.1|NTPA_NITEU</Hit_id>
+  <Hit_def>RecName: Full=Non-canonical purine NTP pyrophosphatase; AltName: Full=Non-standard purine NTP pyrophosphatase; AltName: Full=Nucleoside-triphosphate diphosphatase; AltName: Full=Nucleoside-triphosphate pyrophosphatase; Short=NTPase</Hit_def>
+  <Hit_accession>Q82XJ3</Hit_accession>
+  <Hit_len>203</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.954</Hsp_bit-score>
+      <Hsp_score>328</Hsp_score>
+      <Hsp_evalue>2.66319e-35</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>RIYLASNNAHKHAEFSSLF-PMHTILLPKDEGIDFFSPEDGSTFFANARQKADALYDVVHAPVLADDSGLCVDALDGDPGVHSARFGAQHGVHTDTARMQLLLERMHGRQDRACSFVCVAVL-KLGSVPL-CVGRGVCRGVLTTEMSGVEGFGYDPIFLLPHLGRTFAQLSIEEKNRVSHRALAALRLAQVLA</Hsp_qseq>
+      <Hsp_hseq>KIVIASNNAGKLAEISRLLAPLGIEVVTQSSLGVTEADEPHMTFVENALAKARHASLATGLPALADDSGICVSALRGDPGVFSARYAGEP--RSDERNNRKLVEALHGQSDRRAYYYCVIVLLRHGQDPQPVIIEDTWRGEIIAEPIGQGGFGYDPHFFLPELGKTAAELSIEEKNRISHRGKALARLVQMLS</Hsp_hseq>
+      <Hsp_midline>+I +ASNNA K AE S L  P+   ++ +       + E   TF  NA  KA         P LADDSG+CV AL GDPGV SAR+  +    +D    + L+E +HG+ DR   + CV VL + G  P   +     RG +  E  G  GFGYDP F LP LG+T A+LSIEEKNR+SHR  A  RL Q+L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|54037246|sp|P99094.1|NTPA_STAAN</Hit_id>
+  <Hit_def>RecName: Full=Non-canonical purine NTP pyrophosphatase; AltName: Full=Non-standard purine NTP pyrophosphatase; AltName: Full=Nucleoside-triphosphate diphosphatase; AltName: Full=Nucleoside-triphosphate pyrophosphatase; Short=NTPase &gt;gi|54041340|sp|P64309.1|NTPA_STAAM RecName: Full=Non-canonical purine NTP pyrophosphatase; AltName: Full=Non-standard purine NTP pyrophosphatase; AltName: Full=Nucleoside-triphosphate diphosphatase; AltName: Full=Nucleoside-triphosphate pyrophosphatase; Short=NTPase</Hit_def>
+  <Hit_accession>P99094</Hit_accession>
+  <Hit_len>195</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.568</Hsp_bit-score>
+      <Hsp_score>327</Hsp_score>
+      <Hsp_evalue>3.4499e-35</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>178</Hsp_align-len>
+      <Hsp_qseq>RIYLASNNAHKHAEFSSLFPMHTILLPKDEGIDFFSPEDGSTFFANARQKADALYDVVHAPVLADDSGLCVDALDGDPGVHSARFGAQHGVHTDTARMQLLLERMHGRQDRACSFVCVAVLKLGSVPLCVGRGVCRGVLTTEMSGVEGFGYDPIFLLPHLGRTFAQLSIEEKNRVSHR</Hsp_qseq>
+      <Hsp_hseq>EIVIASNNQGKINDFKVIFPDYHVIGISELIPDFDVEETGSTFEENAILKSEAAAKALNKTVIADDSGLEVFALNGEPGIYSARYAGEN--KSDEANIEKLLNKLGNTTDRRAQFVCVISMSGPDMETKVFKGTVSGEIADGKYGENGFGYDPIFYVPKLDKTMAQLSKEQKGQISHR</Hsp_hseq>
+      <Hsp_midline> I +ASNN  K  +F  +FP + ++   +   DF   E GSTF  NA  K++A    ++  V+ADDSGL V AL+G+PG++SAR+  ++   +D A ++ LL ++    DR   FVCV  +    +   V +G   G +     G  GFGYDPIF +P L +T AQLS E+K ++SHR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|62900163|sp|Q5NEQ9.1|NTPA_FRATT</Hit_id>
+  <Hit_def>RecName: Full=Non-canonical purine NTP pyrophosphatase; AltName: Full=Non-standard purine NTP pyrophosphatase; AltName: Full=Nucleoside-triphosphate diphosphatase; AltName: Full=Nucleoside-triphosphate pyrophosphatase; Short=NTPase</Hit_def>
+  <Hit_accession>Q5NEQ9</Hit_accession>
+  <Hit_len>192</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.183</Hsp_bit-score>
+      <Hsp_score>326</Hsp_score>
+      <Hsp_evalue>4.15349e-35</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>RIYLASNNAHKHAEFSSLFPMHTI-LLPKDEGIDFFSPEDGSTFFANARQKADALYDVVHAPVLADDSGLCVDALDGDPGVHSARFGAQHGVHTDTARMQLLLERMHGRQDRACSFVC-VAVLKLGSVPLCV-GRGVCRGVLTTEMSGVEGFGYDPIFLLPHLGRTFAQLSIEEKNRVSHRALAALRLAQVL</Hsp_qseq>
+      <Hsp_hseq>EIVLASSNKGKIREFTNIFKQKNIKILPQTDFNVSDADEIGLSFIENAILKARNCAKHTGLPAIADDSGLEVFSLNGEPGIYSARYSGEHG--NDKANIQKLLAKLTGNDNRNARFVCALAYVKHEFDPAPILAYGFLEGKIAHKISGSNGFGYDPIFILPQLQKTLAEISETDKNKISHRAIALDKIMQLL</Hsp_hseq>
+      <Hsp_midline> I LAS+N  K  EF+++F    I +LP+ +     + E G +F  NA  KA         P +ADDSGL V +L+G+PG++SAR+  +HG   D A +Q LL ++ G  +R   FVC +A +K    P  +   G   G +  ++SG  GFGYDPIF+LP L +T A++S  +KN++SHRA+A  ++ Q+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|22653749|sp|P58995.1|NTPA_STAAW</Hit_id>
+  <Hit_def>RecName: Full=Non-canonical purine NTP pyrophosphatase; AltName: Full=Non-standard purine NTP pyrophosphatase; AltName: Full=Nucleoside-triphosphate diphosphatase; AltName: Full=Nucleoside-triphosphate pyrophosphatase; Short=NTPase &gt;gi|62900148|sp|Q5HGT2.1|NTPA_STAAC RecName: Full=Non-canonical purine NTP pyrophosphatase; AltName: Full=Non-standard purine NTP pyrophosphatase; AltName: Full=Nucleoside-triphosphate diphosphatase; AltName: Full=Nucleoside-triphosphate pyrophosphatase; Short=NTPase &gt;gi|62900219|sp|Q6GA63.1|NTPA_STAAS RecName: Full=Non-canonical purine NTP pyrophosphatase; AltName: Full=Non-standard purine NTP pyrophosphatase; AltName: Full=Nucleoside-triphosphate diphosphatase; AltName: Full=Nucleoside-triphosphate pyrophosphatase; Short=NTPase</Hit_def>
+  <Hit_accession>P58995</Hit_accession>
+  <Hit_len>195</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.183</Hsp_bit-score>
+      <Hsp_score>326</Hsp_score>
+      <Hsp_evalue>4.34539e-35</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>178</Hsp_align-len>
+      <Hsp_qseq>RIYLASNNAHKHAEFSSLFPMHTILLPKDEGIDFFSPEDGSTFFANARQKADALYDVVHAPVLADDSGLCVDALDGDPGVHSARFGAQHGVHTDTARMQLLLERMHGRQDRACSFVCVAVLKLGSVPLCVGRGVCRGVLTTEMSGVEGFGYDPIFLLPHLGRTFAQLSIEEKNRVSHR</Hsp_qseq>
+      <Hsp_hseq>EIVIASNNQGKINDFKVIFPDYHVIGISELIPDFDVEETGSTFEENAILKSEAAAKALNKTVIADDSGLEVFALNGEPGIYSARYAGEN--KSDEANIEKLLNKLGNTTDRRAQFVCVISMSGPDMETKVFKGTVSGEIADGKYGENGFGYDPIFYVPKLDKTMAQLSKEQKGQISHR</Hsp_hseq>
+      <Hsp_midline> I +ASNN  K  +F  +FP + ++   +   DF   E GSTF  NA  K++A    ++  V+ADDSGL V AL+G+PG++SAR+  ++   +D A ++ LL ++    DR   FVCV  +    +   V +G   G +     G  GFGYDPIF +P L +T AQLS E+K ++SHR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|122272073|sp|Q03YJ8.1|NTPA_LEUMM</Hit_id>
+  <Hit_def>RecName: Full=Non-canonical purine NTP pyrophosphatase; AltName: Full=Non-standard purine NTP pyrophosphatase; AltName: Full=Nucleoside-triphosphate diphosphatase; AltName: Full=Nucleoside-triphosphate pyrophosphatase; Short=NTPase</Hit_def>
+  <Hit_accession>Q03YJ8</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.413</Hsp_bit-score>
+      <Hsp_score>324</Hsp_score>
+      <Hsp_evalue>1.20661e-34</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>MRIYLASNNAHKHAEFSSLFPMHTILLP----KDEGIDFFSPEDGSTFFANARQKADALYDVVHAP---VLADDSGLCVDALDGDPGVHSARFGAQHGVHTDTARMQLLLERMHG--RQDRACSFVCVAVLKLGSVPLCVGRGVCRGVLTTEMSGVEGFGYDPIFLLPHLGRTFAQLSIEEKNRVSHRALAALRLAQVLAMMQLPRALRYE</Hsp_qseq>
+      <Hsp_hseq>MKLIIASNNAHKITEIEALLASISIDLPVVSLQEIGDVPEIVEDGTTFEENAVKKVETIAKV--APNDYILADDSGMSVDALNGEPGVYSARYA---GDHDDQANIDKVLQKLAKVPNEQRTAHFNSVIALHSPKGSNLIVNGQVDGYITESERGQDGFGYDPIFFVPSMNKTFAEMSASEKNTISHRGLALQELGK-----KLPVWLKGE</Hsp_hseq>
+      <Hsp_midline>M++ +ASNNAHK  E  +L    +I LP    ++ G      EDG+TF  NA +K + +  V  AP   +LADDSG+ VDAL+G+PGV+SAR+    G H D A +  +L+++     + R   F  V  L        +  G   G +T    G +GFGYDPIF +P + +TFA++S  EKN +SHR LA   L +     +LP  L+ E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|22653775|sp|Q9JVG5.1|NTPA_NEIMA</Hit_id>
+  <Hit_def>RecName: Full=Non-canonical purine NTP pyrophosphatase; AltName: Full=Non-standard purine NTP pyrophosphatase; AltName: Full=Nucleoside-triphosphate diphosphatase; AltName: Full=Nucleoside-triphosphate pyrophosphatase; Short=NTPase</Hit_def>
+  <Hit_accession>Q9JVG5</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.028</Hsp_bit-score>
+      <Hsp_score>323</Hsp_score>
+      <Hsp_evalue>1.42986e-34</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>207</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>RIYLASNNAHKHAEFSSLF-PMHTILLPKDEGIDFFSPEDGSTFFANARQKADALYDVVHAPVLADDSGLCVDALDGDPGVHSARFGAQHGVHTDTARMQLLLERMHGRQDRACSFVCVAVL---KLGSVPLCVGRGVCRGVLTTEMSGVEGFGYDPIFLLPHLGRTFAQLSIEEKNRVSHRALAALRLAQVLAM</Hsp_qseq>
+      <Hsp_hseq>KIVLASGNAGKLKEFGNLFEPYGITVLPQSEFSIPECPEPYSTFVENALAKARHAAGHSGLPALADDSGICAAALNGAPGIHSARY-AGSNPKSDTANNLKLAAELAGKADKSCCYVCVLVFVRHKDDPRPI-IAEGVWHGQWNGVPAGENGFGYDPYFYLPGHGKTAAELDSEVKNRESHRAQALAELLRKLAL</Hsp_hseq>
+      <Hsp_midline>+I LAS NA K  EF +LF P    +LP+ E      PE  STF  NA  KA         P LADDSG+C  AL+G PG+HSAR+ A     +DTA    L   + G+ D++C +VCV V    K    P+ +  GV  G      +G  GFGYDP F LP  G+T A+L  E KNR SHRA A   L + LA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|62900267|sp|Q7W6C6.2|NTPA_BORPA</Hit_id>
+  <Hit_def>RecName: Full=Non-canonical purine NTP pyrophosphatase; AltName: Full=Non-standard purine NTP pyrophosphatase; AltName: Full=Nucleoside-triphosphate diphosphatase; AltName: Full=Nucleoside-triphosphate pyrophosphatase; Short=NTPase</Hit_def>
+  <Hit_accession>Q7W6C6</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.102</Hsp_bit-score>
+      <Hsp_score>318</Hsp_score>
+      <Hsp_evalue>1.22967e-33</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>RIYLASNNAHKHAEFSSLF-PMHTILLPKDEGIDFFSPEDGSTFFANARQKADALYDVVHAPVLADDSGLCVDALDGDPGVHSARFGAQHG-VHTDTARMQLLLERMHGRQDRACSFVCVAVLKLGSVPLC--VGRGVCRGVLTTEMSGVEGFGYDPIFLLPHLGRTFAQLSIEEKNRVSHRALAALRLAQVL</Hsp_qseq>
+      <Hsp_hseq>RVVLASNNAGKLREFSALFAPLGIELVPQSELGVSEAAEPHATFVENALAKARHASRHTGLPALADDSGLCVVALGGAPGVHSARYAQQPGGARSDAANNALLVRELAAAGDRRAWYVALLALVRTENDPCPLIGEGLWHGEIVDAPAGEHGFGYDPHFYLPQQGCTAAQLAPEHKNRISHRAQA---LAQLL</Hsp_hseq>
+      <Hsp_midline>R+ LASNNA K  EFS+LF P+   L+P+ E     + E  +TF  NA  KA         P LADDSGLCV AL G PGVHSAR+  Q G   +D A   LL+  +    DR   +V +  L       C  +G G+  G +    +G  GFGYDP F LP  G T AQL+ E KNR+SHRA A   LAQ+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|62900266|sp|Q7VXX8.1|NTPA_BORPE</Hit_id>
+  <Hit_def>RecName: Full=Non-canonical purine NTP pyrophosphatase; AltName: Full=Non-standard purine NTP pyrophosphatase; AltName: Full=Nucleoside-triphosphate diphosphatase; AltName: Full=Nucleoside-triphosphate pyrophosphatase; Short=NTPase &gt;gi|62900268|sp|Q7WI95.2|NTPA_BORBR RecName: Full=Non-canonical purine NTP pyrophosphatase; AltName: Full=Non-standard purine NTP pyrophosphatase; AltName: Full=Nucleoside-triphosphate diphosphatase; AltName: Full=Nucleoside-triphosphate pyrophosphatase; Short=NTPase</Hit_def>
+  <Hit_accession>Q7VXX8</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.716</Hsp_bit-score>
+      <Hsp_score>317</Hsp_score>
+      <Hsp_evalue>1.29548e-33</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>RIYLASNNAHKHAEFSSLF-PMHTILLPKDEGIDFFSPEDGSTFFANARQKADALYDVVHAPVLADDSGLCVDALDGDPGVHSARFGAQHG-VHTDTARMQLLLERMHGRQDRACSFVCVAVLKLGSVPLC--VGRGVCRGVLTTEMSGVEGFGYDPIFLLPHLGRTFAQLSIEEKNRVSHRALAALRLAQVL</Hsp_qseq>
+      <Hsp_hseq>RVVLASNNAGKLREFSALFAPLGIELVPQSELGVSEAEEPHATFVENALAKARHASRHTGLPALADDSGLCVVALGGAPGVHSARYAQQPGGARSDAANNALLVRELAAAGDRRAWYVALLALVRTENDPCPLIGEGLWHGEIVDAPAGEHGFGYDPHFYLPQQGCTAAQLAPEHKNRISHRAQA---LAQLL</Hsp_hseq>
+      <Hsp_midline>R+ LASNNA K  EFS+LF P+   L+P+ E     + E  +TF  NA  KA         P LADDSGLCV AL G PGVHSAR+  Q G   +D A   LL+  +    DR   +V +  L       C  +G G+  G +    +G  GFGYDP F LP  G T AQL+ E KNR+SHRA A   LAQ+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|22653776|sp|Q9K0G6.1|NTPA_NEIMB</Hit_id>
+  <Hit_def>RecName: Full=Non-canonical purine NTP pyrophosphatase; AltName: Full=Non-standard purine NTP pyrophosphatase; AltName: Full=Nucleoside-triphosphate diphosphatase; AltName: Full=Nucleoside-triphosphate pyrophosphatase; Short=NTPase</Hit_def>
+  <Hit_accession>Q9K0G6</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.331</Hsp_bit-score>
+      <Hsp_score>316</Hsp_score>
+      <Hsp_evalue>1.58463e-33</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>207</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>RIYLASNNAHKHAEFSSLF-PMHTILLPKDEGIDFFSPEDGSTFFANARQKADALYDVVHAPVLADDSGLCVDALDGDPGVHSARFGAQHGVHTDTARMQLLLERMHGRQDRACSFVCVAVL---KLGSVPLCVGRGVCRGVLTTEMSGVEGFGYDPIFLLPHLGRTFAQLSIEEKNRVSHRALAALRLAQVLAM</Hsp_qseq>
+      <Hsp_hseq>KIVLASGNAGKLEEFGNLFKPYSITVLPQSAFGIPECPEPYPTFVENALAKARHAAKYSGLPALADDSGICAAALNGAPGIHSARY-AGDNPKSDTANNLKLAAELVGKADKSCCYVCVLVFVRHKDDPRPI-IAEGVWHGQWNDTPLGQNGFGYDPYFYLPEHGKTAAELDTEVKNRESHRAQALAELLRKLAL</Hsp_hseq>
+      <Hsp_midline>+I LAS NA K  EF +LF P    +LP+        PE   TF  NA  KA         P LADDSG+C  AL+G PG+HSAR+ A     +DTA    L   + G+ D++C +VCV V    K    P+ +  GV  G       G  GFGYDP F LP  G+T A+L  E KNR SHRA A   L + LA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|22653750|sp|P74432.1|NTPA_SYNY3</Hit_id>
+  <Hit_def>RecName: Full=Non-canonical purine NTP pyrophosphatase; AltName: Full=Non-standard purine NTP pyrophosphatase; AltName: Full=Nucleoside-triphosphate diphosphatase; AltName: Full=Nucleoside-triphosphate pyrophosphatase; Short=NTPase</Hit_def>
+  <Hit_accession>P74432</Hit_accession>
+  <Hit_len>194</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>125.946</Hsp_bit-score>
+      <Hsp_score>315</Hsp_score>
+      <Hsp_evalue>1.61983e-33</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>182</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>IYLASNNAHKHAEFSS-LFPMHTILLPKDEGIDFFSPEDGSTFFANARQKADALYDVVHAPVLADDSGLCVDALDGDPGVHSARFGAQHGVHTDTARMQLLLERMHGRQDRACSFVCVAVLKL--GSVPLCVGRGVCRGVLTTEMSGVEGFGYDPIFLLPHLGRTFAQLSIEEKNRVSHRALAALRL</Hsp_qseq>
+      <Hsp_hseq>LIVATGNPGKLAEMQTYLEPLGCQLTLKPTEIEV--EETGSTFYENACLKASQVAKAVNQWAIADDSGLAVDALDGAPGLYSARYG-----NTDRERIAKLLQALEGVSQRQAQFICVVSIAAPDGSIQLST-KGICSGEITHSPRGDQGFGYDPIFWLPEHKKTFAEMTKVEKQKVSHRGKAFNKL</Hsp_hseq>
+      <Hsp_midline>+ +A+ N  K AE  + L P+   L  K   I+    E GSTF+ NA  KA  +   V+   +ADDSGL VDALDG PG++SAR+G     +TD  R+  LL+ + G   R   F+CV  +    GS+ L   +G+C G +T    G +GFGYDPIF LP   +TFA+++  EK +VSHR  A  +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|62900155|sp|Q5KWI6.1|NTPA_GEOKA</Hit_id>
+  <Hit_def>RecName: Full=Non-canonical purine NTP pyrophosphatase; AltName: Full=Non-standard purine NTP pyrophosphatase; AltName: Full=Nucleoside-triphosphate diphosphatase; AltName: Full=Nucleoside-triphosphate pyrophosphatase; Short=NTPase</Hit_def>
+  <Hit_accession>Q5KWI6</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.405</Hsp_bit-score>
+      <Hsp_score>311</Hsp_score>
+      <Hsp_evalue>7.79546e-33</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>RIYLASNNAHKHAEFSSLFPMHTILLPKDEGIDFFSPED----GSTFFANARQKADALYDVVHAPVLADDSGLCVDALDGDPGVHSARFGAQHGVHTDTARMQLLLERMHG--RQDRACSFVCVAVLKLGSVPLCVGRGVCRGVLTTEMSGVEGFGYDPIFLLPHLGRTFAQLSIEEKNRVSHRALAALRLAQ</Hsp_qseq>
+      <Hsp_hseq>EIVIATKNAGKVREFAALFAKRGVEV--KSLLDFPDAPDVAETGSTFAENAVLKAEAASRRLKRPVIADDSGLVVDALGGRPGVHSARYAGED--KNDARNIAKLLRELDGVPMEQRTARFHCALAVAIPGRPTAVVEATCDGYIAEAPRGEGGFGYDPVFYLPERGKTMAELAPEEKNQISHRAKALTKLDE</Hsp_hseq>
+      <Hsp_midline> I +A+ NA K  EF++LF    + +     +DF    D    GSTF  NA  KA+A    +  PV+ADDSGL VDAL G PGVHSAR+  +     D   +  LL  + G   + R   F C   + +   P  V    C G +     G  GFGYDP+F LP  G+T A+L+ EEKN++SHRA A  +L +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>462628</Statistics_db-num>
+      <Statistics_db-len>173435234</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

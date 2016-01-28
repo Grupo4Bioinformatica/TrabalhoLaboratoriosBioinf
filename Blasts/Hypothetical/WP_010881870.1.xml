@@ -1,0 +1,434 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>Query_206721</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>341</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_206721</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>341</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|14285876|sp|O83437.1|Y422_TREPA</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein TP_0422</Hit_def>
+  <Hit_accession>O83437</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>689.878</Hsp_bit-score>
+      <Hsp_score>1779</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>341</Hsp_identity>
+      <Hsp_positive>341</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>MRRLSDRLRGMTGKGWSAWVRLCVLSTQVGLAAEPALARLAGVWENATRIVAIAPTADAMRFSLMLVHKPYYAYVYERVAVFSLSSLSDARADVLPPPAAQKAERVDLVLSFEGRVRVQPLVLCRWGDALFCSFFQRVSYGTRSGSVSSEQIPVRTDDPLFGFWIEEGSAEALRAYSSQAPGELNAFFFTEANFYRFRYWRDDALAFAAQRAYFTADDGVTYEIPQYVQRGAAVYSCTTGRSRVVRNFQTGTYEVRTSSDGSKRLMLRRRGAGPGSYAVGAVYPRQGFLDESALALRVDGQFLAIGEPFLRKSAVHDVTAFIDAHNARKRAPRAPLLVPDF</Hsp_qseq>
+      <Hsp_hseq>MRRLSDRLRGMTGKGWSAWVRLCVLSTQVGLAAEPALARLAGVWENATRIVAIAPTADAMRFSLMLVHKPYYAYVYERVAVFSLSSLSDARADVLPPPAAQKAERVDLVLSFEGRVRVQPLVLCRWGDALFCSFFQRVSYGTRSGSVSSEQIPVRTDDPLFGFWIEEGSAEALRAYSSQAPGELNAFFFTEANFYRFRYWRDDALAFAAQRAYFTADDGVTYEIPQYVQRGAAVYSCTTGRSRVVRNFQTGTYEVRTSSDGSKRLMLRRRGAGPGSYAVGAVYPRQGFLDESALALRVDGQFLAIGEPFLRKSAVHDVTAFIDAHNARKRAPRAPLLVPDF</Hsp_hseq>
+      <Hsp_midline>MRRLSDRLRGMTGKGWSAWVRLCVLSTQVGLAAEPALARLAGVWENATRIVAIAPTADAMRFSLMLVHKPYYAYVYERVAVFSLSSLSDARADVLPPPAAQKAERVDLVLSFEGRVRVQPLVLCRWGDALFCSFFQRVSYGTRSGSVSSEQIPVRTDDPLFGFWIEEGSAEALRAYSSQAPGELNAFFFTEANFYRFRYWRDDALAFAAQRAYFTADDGVTYEIPQYVQRGAAVYSCTTGRSRVVRNFQTGTYEVRTSSDGSKRLMLRRRGAGPGSYAVGAVYPRQGFLDESALALRVDGQFLAIGEPFLRKSAVHDVTAFIDAHNARKRAPRAPLLVPDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1709906|sp|P23468.2|PTPRD_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Receptor-type tyrosine-protein phosphatase delta; Short=Protein-tyrosine phosphatase delta; Short=R-PTP-delta; Flags: Precursor</Hit_def>
+  <Hit_accession>P23468</Hit_accession>
+  <Hit_len>1912</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.136312</Hsp_evalue>
+      <Hsp_query-from>198</Hsp_query-from>
+      <Hsp_query-to>249</Hsp_query-to>
+      <Hsp_hit-from>1756</Hsp_hit-from>
+      <Hsp_hit-to>1804</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>RYWRDDALAFAAQRAYFTADDGVTYEIPQYVQRGAAVYSCTTGRSRVVRNFQ</Hsp_qseq>
+      <Hsp_hseq>QYWPAER---SARYQYFVVDPMAEYNMPQYILREFKVTDARDGQSRTVRQFQ</Hsp_hseq>
+      <Hsp_midline>+YW  +    +A+  YF  D    Y +PQY+ R   V     G+SR VR FQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|387912897|sp|Q64487.3|PTPRD_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Receptor-type tyrosine-protein phosphatase delta; Short=Protein-tyrosine phosphatase delta; Short=R-PTP-delta; Flags: Precursor</Hit_def>
+  <Hit_accession>Q64487</Hit_accession>
+  <Hit_len>1912</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.149937</Hsp_evalue>
+      <Hsp_query-from>198</Hsp_query-from>
+      <Hsp_query-to>249</Hsp_query-to>
+      <Hsp_hit-from>1756</Hsp_hit-from>
+      <Hsp_hit-to>1804</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>RYWRDDALAFAAQRAYFTADDGVTYEIPQYVQRGAAVYSCTTGRSRVVRNFQ</Hsp_qseq>
+      <Hsp_hseq>QYWPAER---SARYQYFVVDPMAEYNMPQYILREFKVTDARDGQSRTVRQFQ</Hsp_hseq>
+      <Hsp_midline>+YW  +    +A+  YF  D    Y +PQY+ R   V     G+SR VR FQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|218525908|sp|B0V2N1.1|PTPRS_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Receptor-type tyrosine-protein phosphatase S; Short=R-PTP-S; AltName: Full=PTPNU-3; AltName: Full=Receptor-type tyrosine-protein phosphatase sigma; Short=R-PTP-sigma; Flags: Precursor</Hit_def>
+  <Hit_accession>B0V2N1</Hit_accession>
+  <Hit_len>1907</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.630625</Hsp_evalue>
+      <Hsp_query-from>198</Hsp_query-from>
+      <Hsp_query-to>249</Hsp_query-to>
+      <Hsp_hit-from>1751</Hsp_hit-from>
+      <Hsp_hit-to>1799</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>RYWRDDALAFAAQRAYFTADDGVTYEIPQYVQRGAAVYSCTTGRSRVVRNFQ</Hsp_qseq>
+      <Hsp_hseq>QYWPAER---SARYQYFVVDPMAEYNMPQYILREFKVTDARDGQSRTVRQFQ</Hsp_hseq>
+      <Hsp_midline>+YW  +    +A+  YF  D    Y +PQY+ R   V     G+SR VR FQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|158564331|sp|Q64605.2|PTPRS_RAT</Hit_id>
+  <Hit_def>RecName: Full=Receptor-type tyrosine-protein phosphatase S; Short=R-PTP-S; AltName: Full=Leukocyte common antigen-related protein-tyrosine phosphatase 2; Short=LAR-PTP2; AltName: Full=Receptor-type tyrosine-protein phosphatase sigma; Short=R-PTP-sigma; Flags: Precursor</Hit_def>
+  <Hit_accession>Q64605</Hit_accession>
+  <Hit_len>1907</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.636103</Hsp_evalue>
+      <Hsp_query-from>198</Hsp_query-from>
+      <Hsp_query-to>249</Hsp_query-to>
+      <Hsp_hit-from>1751</Hsp_hit-from>
+      <Hsp_hit-to>1799</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>RYWRDDALAFAAQRAYFTADDGVTYEIPQYVQRGAAVYSCTTGRSRVVRNFQ</Hsp_qseq>
+      <Hsp_hseq>QYWPAER---SARYQYFVVDPMAEYNMPQYILREFKVTDARDGQSRTVRQFQ</Hsp_hseq>
+      <Hsp_midline>+YW  +    +A+  YF  D    Y +PQY+ R   V     G+SR VR FQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|317373519|sp|Q13332.3|PTPRS_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Receptor-type tyrosine-protein phosphatase S; Short=R-PTP-S; AltName: Full=Receptor-type tyrosine-protein phosphatase sigma; Short=R-PTP-sigma; Flags: Precursor</Hit_def>
+  <Hit_accession>Q13332</Hit_accession>
+  <Hit_len>1948</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.659376</Hsp_evalue>
+      <Hsp_query-from>198</Hsp_query-from>
+      <Hsp_query-to>249</Hsp_query-to>
+      <Hsp_hit-from>1792</Hsp_hit-from>
+      <Hsp_hit-to>1840</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>RYWRDDALAFAAQRAYFTADDGVTYEIPQYVQRGAAVYSCTTGRSRVVRNFQ</Hsp_qseq>
+      <Hsp_hseq>QYWPAER---SARYQYFVVDPMAEYNMPQYILREFKVTDARDGQSRTVRQFQ</Hsp_hseq>
+      <Hsp_midline>+YW  +    +A+  YF  D    Y +PQY+ R   V     G+SR VR FQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|81918347|sp|Q64604.1|PTPRF_RAT</Hit_id>
+  <Hit_def>RecName: Full=Receptor-type tyrosine-protein phosphatase F; AltName: Full=Leukocyte common antigen related; Short=LAR; Flags: Precursor</Hit_def>
+  <Hit_accession>Q64604</Hit_accession>
+  <Hit_len>1898</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.898689</Hsp_evalue>
+      <Hsp_query-from>197</Hsp_query-from>
+      <Hsp_query-to>249</Hsp_query-to>
+      <Hsp_hit-from>1741</Hsp_hit-from>
+      <Hsp_hit-to>1790</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>FRYWRDDALAFAAQRAYFTADDGVTYEIPQYVQRGAAVYSCTTGRSRVVRNFQ</Hsp_qseq>
+      <Hsp_hseq>HQYWPAER---SARYQYFVVDPMAEYNMPQYILREFKVTDARDGQSRTIRQFQ</Hsp_hseq>
+      <Hsp_midline> +YW  +    +A+  YF  D    Y +PQY+ R   V     G+SR +R FQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|226709091|sp|P10586.2|PTPRF_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Receptor-type tyrosine-protein phosphatase F; AltName: Full=Leukocyte common antigen related; Short=LAR; Flags: Precursor</Hit_def>
+  <Hit_accession>P10586</Hit_accession>
+  <Hit_len>1907</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.922577</Hsp_evalue>
+      <Hsp_query-from>197</Hsp_query-from>
+      <Hsp_query-to>249</Hsp_query-to>
+      <Hsp_hit-from>1750</Hsp_hit-from>
+      <Hsp_hit-to>1799</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>FRYWRDDALAFAAQRAYFTADDGVTYEIPQYVQRGAAVYSCTTGRSRVVRNFQ</Hsp_qseq>
+      <Hsp_hseq>HQYWPAER---SARYQYFVVDPMAEYNMPQYILREFKVTDARDGQSRTIRQFQ</Hsp_hseq>
+      <Hsp_midline> +YW  +    +A+  YF  D    Y +PQY+ R   V     G+SR +R FQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|226723263|sp|A2A8L5.1|PTPRF_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Receptor-type tyrosine-protein phosphatase F; AltName: Full=Leukocyte common antigen related; Short=LAR; Flags: Precursor</Hit_def>
+  <Hit_accession>A2A8L5</Hit_accession>
+  <Hit_len>1898</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.930311</Hsp_evalue>
+      <Hsp_query-from>197</Hsp_query-from>
+      <Hsp_query-to>249</Hsp_query-to>
+      <Hsp_hit-from>1741</Hsp_hit-from>
+      <Hsp_hit-to>1790</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>FRYWRDDALAFAAQRAYFTADDGVTYEIPQYVQRGAAVYSCTTGRSRVVRNFQ</Hsp_qseq>
+      <Hsp_hseq>HQYWPAER---SARYQYFVVDPMAEYNMPQYILREFKVTDARDGQSRTIRQFQ</Hsp_hseq>
+      <Hsp_midline> +YW  +    +A+  YF  D    Y +PQY+ R   V     G+SR +R FQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|226723261|sp|A7MBJ4.1|PTPRF_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=Receptor-type tyrosine-protein phosphatase F; Flags: Precursor</Hit_def>
+  <Hit_accession>A7MBJ4</Hit_accession>
+  <Hit_len>1898</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.954755</Hsp_evalue>
+      <Hsp_query-from>197</Hsp_query-from>
+      <Hsp_query-to>249</Hsp_query-to>
+      <Hsp_hit-from>1741</Hsp_hit-from>
+      <Hsp_hit-to>1790</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>FRYWRDDALAFAAQRAYFTADDGVTYEIPQYVQRGAAVYSCTTGRSRVVRNFQ</Hsp_qseq>
+      <Hsp_hseq>HQYWPAER---SARYQYFVVDPMAEYNMPQYILREFKVTDARDGQSRTIRQFQ</Hsp_hseq>
+      <Hsp_midline> +YW  +    +A+  YF  D    Y +PQY+ R   V     G+SR +R FQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|226723262|sp|A4IFW2.1|PTPRF_DANRE</Hit_id>
+  <Hit_def>RecName: Full=Receptor-type tyrosine-protein phosphatase F; Flags: Precursor</Hit_def>
+  <Hit_accession>A4IFW2</Hit_accession>
+  <Hit_len>1909</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>1.13535</Hsp_evalue>
+      <Hsp_query-from>208</Hsp_query-from>
+      <Hsp_query-to>249</Hsp_query-to>
+      <Hsp_hit-from>1760</Hsp_hit-from>
+      <Hsp_hit-to>1801</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>AAQRAYFTADDGVTYEIPQYVQRGAAVYSCTTGRSRVVRNFQ</Hsp_qseq>
+      <Hsp_hseq>SARYQYFVVDPMAEYNMPQYILREFKVTDARDGQSRTIRQFQ</Hsp_hseq>
+      <Hsp_midline>+A+  YF  D    Y +PQY+ R   V     G+SR +R FQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|73920223|sp|P16621.2|LAR_DROME</Hit_id>
+  <Hit_def>RecName: Full=Tyrosine-protein phosphatase Lar; AltName: Full=Protein-tyrosine-phosphate phosphohydrolase; AltName: Full=dLAR; Flags: Precursor</Hit_def>
+  <Hit_accession>P16621</Hit_accession>
+  <Hit_len>2029</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>1.66656</Hsp_evalue>
+      <Hsp_query-from>197</Hsp_query-from>
+      <Hsp_query-to>249</Hsp_query-to>
+      <Hsp_hit-from>1872</Hsp_hit-from>
+      <Hsp_hit-to>1921</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>FRYWRDDALAFAAQRAYFTADDGVTYEIPQYVQRGAAVYSCTTGRSRVVRNFQ</Hsp_qseq>
+      <Hsp_hseq>FQYWPHER---SVRYQYYVVDPIAEYNMPQYKLREFKVTDARDGSSRTVRQFQ</Hsp_hseq>
+      <Hsp_midline>F+YW  +    + +  Y+  D    Y +PQY  R   V     G SR VR FQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|131460|sp|P28205.1|PTP13_STYPL</Hit_id>
+  <Hit_def>RecName: Full=Tyrosine-protein phosphatase 13</Hit_def>
+  <Hit_accession>P28205</Hit_accession>
+  <Hit_len>114</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>3.46382</Hsp_evalue>
+      <Hsp_query-from>208</Hsp_query-from>
+      <Hsp_query-to>249</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>AAQRAYFTADDGVTYEIPQYVQRGAAVYSCTTGRSRVVRNFQ</Hsp_qseq>
+      <Hsp_hseq>SARYQYFVVDPMSEYSMHQYILREFKVTDARDGQSRTVRQFQ</Hsp_hseq>
+      <Hsp_midline>+A+  YF  D    Y + QY+ R   V     G+SR VR FQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1172807|sp|Q09533.1|RL10_CAEEL</Hit_id>
+  <Hit_def>RecName: Full=60S ribosomal protein L10; AltName: Full=QM protein homolog</Hit_def>
+  <Hit_accession>Q09533</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>5.91065</Hsp_evalue>
+      <Hsp_query-from>112</Hsp_query-from>
+      <Hsp_query-to>182</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>FEGRVRVQPLVLCRWGDALFCSFFQRVSYGTRSGSVSSEQIPVRTD--DPLFGFWIEEGSA----EALRAYSSQAPG</Hsp_qseq>
+      <Hsp_hseq>FHLRVRKHPFHVTRINKMLSCAGADRLQTGMRGAYGKPQGLVARVDIGDILFSMRIKEGNVKHAIEAFRRAKFKFPG</Hsp_hseq>
+      <Hsp_midline>F  RVR  P  + R    L C+   R+  G R      + +  R D  D LF   I+EG+     EA R    + PG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>462628</Statistics_db-num>
+      <Statistics_db-len>173435234</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

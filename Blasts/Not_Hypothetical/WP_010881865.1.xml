@@ -1,0 +1,602 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>Query_242817</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>559</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_242817</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>559</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|46576864|sp|O83432.1|LNT2_TREPA</Hit_id>
+  <Hit_def>RecName: Full=Apolipoprotein N-acyltransferase 2; Short=ALP N-acyltransferase 2</Hit_def>
+  <Hit_accession>O83432</Hit_accession>
+  <Hit_len>559</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1137.87</Hsp_bit-score>
+      <Hsp_score>2942</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>559</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>559</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>559</Hsp_identity>
+      <Hsp_positive>559</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>559</Hsp_align-len>
+      <Hsp_qseq>MLCTAPLVSSAASAVLLAFAIPNEFWLAGSSVLGLGALVPLYVGFLLSPAKKHVACSYGLFVALVHACSSFWLKNFQGFALFTLGASTVGYFFYALPFGVAFACILRKQAPARACAFALVWTLWEWVKSTGILAYPWGTVPMTAHSLSHLIQIADITGVWGLSFLIPLANACVAESLHFFIKKRDSVPVFRLWLLTGCLYCLCSLYGAYRIATLGAPRTTLALAIVQQNADPWDTXSFEKNLTTAIHLTETALRTQTAPPLPTTPYRKEKTLTHASARAPVDMVVWSESSLRYPYEQYRHVYNALPAARPFSAFLRTLGAPLLVGTPLRLSGNSTKGGYANAVALLRPDGHVAQVYGKMQMVPFAEFIPWGHMTSVQRLAQMLAGFSESWTPGPGPRLFHVPCAAGGSVRFATPICYEDAFPSLCAALHTQGSELLINLTNDSWSKTASAEWQHYVVSLFRAIELRTTLVRSTNSGYTVVIGPEGKTRAAFPLFQATSAVLHVPVYPVVRTYYARMRDWVIVLCALIFFAEGVRMAVHTRRHSTTQAESSLQQIRGEHV</Hsp_qseq>
+      <Hsp_hseq>MLCTAPLVSSAASAVLLAFAIPNEFWLAGSSVLGLGALVPLYVGFLLSPAKKHVACSYGLFVALVHACSSFWLKNFQGFALFTLGASTVGYFFYALPFGVAFACILRKQAPARACAFALVWTLWEWVKSTGILAYPWGTVPMTAHSLSHLIQIADITGVWGLSFLIPLANACVAESLHFFIKKRDSVPVFRLWLLTGCLYCLCSLYGAYRIATLGAPRTTLALAIVQQNADPWDTXSFEKNLTTAIHLTETALRTQTAPPLPTTPYRKEKTLTHASARAPVDMVVWSESSLRYPYEQYRHVYNALPAARPFSAFLRTLGAPLLVGTPLRLSGNSTKGGYANAVALLRPDGHVAQVYGKMQMVPFAEFIPWGHMTSVQRLAQMLAGFSESWTPGPGPRLFHVPCAAGGSVRFATPICYEDAFPSLCAALHTQGSELLINLTNDSWSKTASAEWQHYVVSLFRAIELRTTLVRSTNSGYTVVIGPEGKTRAAFPLFQATSAVLHVPVYPVVRTYYARMRDWVIVLCALIFFAEGVRMAVHTRRHSTTQAESSLQQIRGEHV</Hsp_hseq>
+      <Hsp_midline>MLCTAPLVSSAASAVLLAFAIPNEFWLAGSSVLGLGALVPLYVGFLLSPAKKHVACSYGLFVALVHACSSFWLKNFQGFALFTLGASTVGYFFYALPFGVAFACILRKQAPARACAFALVWTLWEWVKSTGILAYPWGTVPMTAHSLSHLIQIADITGVWGLSFLIPLANACVAESLHFFIKKRDSVPVFRLWLLTGCLYCLCSLYGAYRIATLGAPRTTLALAIVQQNADPWDTXSFEKNLTTAIHLTETALRTQTAPPLPTTPYRKEKTLTHASARAPVDMVVWSESSLRYPYEQYRHVYNALPAARPFSAFLRTLGAPLLVGTPLRLSGNSTKGGYANAVALLRPDGHVAQVYGKMQMVPFAEFIPWGHMTSVQRLAQMLAGFSESWTPGPGPRLFHVPCAAGGSVRFATPICYEDAFPSLCAALHTQGSELLINLTNDSWSKTASAEWQHYVVSLFRAIELRTTLVRSTNSGYTVVIGPEGKTRAAFPLFQATSAVLHVPVYPVVRTYYARMRDWVIVLCALIFFAEGVRMAVHTRRHSTTQAESSLQQIRGEHV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|46576877|sp|P61038.1|LNT2_TREDE</Hit_id>
+  <Hit_def>RecName: Full=Apolipoprotein N-acyltransferase 2; Short=ALP N-acyltransferase 2</Hit_def>
+  <Hit_accession>P61038</Hit_accession>
+  <Hit_len>525</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>448.358</Hsp_bit-score>
+      <Hsp_score>1152</Hsp_score>
+      <Hsp_evalue>6.95508e-150</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>546</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>524</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>237</Hsp_identity>
+      <Hsp_positive>313</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>539</Hsp_align-len>
+      <Hsp_qseq>VLLAFAIPNEFWLAGSSVLGLGALVPLYVGFLLSPAKKHVACSYGLFVALVHACSSFWLKNFQGFALFTLGASTVGYFFYALPFGVAFACILRKQAPARACAFALVWTLWEWVKSTGILAYPWGTVPMTAHSLSHLIQIADITGVWGLSFLIPLANACVAESLHFFIKKRDSVPVFR-------LWLLTGCLYCLCSLYGAYRIATLGAPRTTLALAIVQQNADPWDTXSFEKNLTTAIHLTETALRTQTAPPLPTTPYRKEKTLTHASARAPVDMVVWSESSLRYPYEQYRHVYNALPAARPFSAFLRTLGAPLLVGTPLRLSGNSTKGGYANAVALLRPDGHVAQVYGKMQMVPFAEFIPWGHMTSVQRLAQMLAGFSESWTPGPGPRLFHVPCAAGGSVRFATPICYEDAFPSLCAALHTQGSELLINLTNDSWSKTASAEWQHYVVSLFRAIELRTTLVRSTNSGYTVVIGPEGKTRAAFPLFQATSAVLHVPVYPVVRTYYARMRDWVIVLCALIFFAEGVRMAVHTRRHSTTQ</Hsp_qseq>
+      <Hsp_hseq>VLFSFGIPNEILNFGSAIAGFSGLVLVYYALLNCGSHKRAAFLYGFFVSFVHLMSSFWLAFFEDFAIFTLGASTLAYFFIAMPFGFLLYHSLQKRENLRPFFFAAIWLLWEFAKSTGFLAYPWGTAPMICFNLKPFIQFVDITGVWGLSFIVPLIAACLGEALQTYAYSANSKAFFKGLTEIKSPLIFTAFLVLIINIYGITILSIEMKPATFLNTVIVQQNTDPWDNSQFEENIKTSQALSRKAIFSANKKP---------------------DLIVWSESSLIVPYKDNEDFYGILPYDDPFTRFLADTDTPIIVGSPY-IDG---KKQY-NAAYLLSPEGKILDIYSKIQLVPFAEYIPFIDNPLVVRFFDKLVGFSSGWNPGTEYKVFGIKNSEGKTVNFTVPICFEDAFPAVCLNLHNAGSEVLINITNDSWSKTKSAEYQHFVVAHFRAIELRTTLVRSTNSGYSVVVDPKGKIISDMPLFEAESVYTEVPVYGHKKTFYASYKDWLPIMMFLILI---FNIFLEKRRAKTAR</Hsp_hseq>
+      <Hsp_midline>VL +F IPNE    GS++ G   LV +Y   L   + K  A  YG FV+ VH  SSFWL  F+ FA+FTLGAST+ YFF A+PFG      L+K+   R   FA +W LWE+ KSTG LAYPWGT PM   +L   IQ  DITGVWGLSF++PL  AC+ E+L  +    +S   F+         + T  L  + ++YG   ++    P T L   IVQQN DPWD   FE+N+ T+  L+  A+ +    P                     D++VWSESSL  PY+     Y  LP   PF+ FL     P++VG+P  + G   K  Y NA  LL P+G +  +Y K+Q+VPFAE+IP+     V R    L GFS  W PG   ++F +  + G +V F  PIC+EDAFP++C  LH  GSE+LIN+TNDSWSKT SAE+QH+VV+ FRAIELRTTLVRSTNSGY+VV+ P+GK  +  PLF+A S    VPVY   +T+YA  +DW+ ++  LI       + +  RR  T +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|46576682|sp|O51253.1|LNT_BORBU</Hit_id>
+  <Hit_def>RecName: Full=Apolipoprotein N-acyltransferase; Short=ALP N-acyltransferase</Hit_def>
+  <Hit_accession>O51253</Hit_accession>
+  <Hit_len>521</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>240.736</Hsp_bit-score>
+      <Hsp_score>613</Hsp_score>
+      <Hsp_evalue>3.52253e-70</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>543</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>510</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>248</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>538</Hsp_align-len>
+      <Hsp_qseq>SAASAVLLAFAIPNEFWLAGSSVLGLGALVPLYVGFLLSPAKKHVACSYGLFVALVHACSSFWLKNFQGFALFTLGASTVGYFFYALPFGVAFACILRKQAPARACAFALVWTLWEWVKSTGILAYPWGTVPMTAHSLSHLIQIADITGVWGLSFLIPLANACVAESLHFFIKKRDSVPVFRLWLLTGCLYCLCSLYGAYRIAT----LGAPRTTLALAIVQQNADPWDTXSFEKNLTTAIHLTETALRTQTAPPLPTTPYRKEKTLTHASARAPVDMVVWSESSLRYPYEQYRHVYNALPAARPFSAFLRTLGAPLLVGTPLRLSGNSTKGGYANAVALLRPDGHVAQVYGKMQMVPFAEFIPWGHMTSVQRLAQMLAGFSESWTPGPGPRLFHVPCAAGGSVRFATPICYEDAFPSLCAALHTQGSELLINLTNDSWSKTASAEWQHYVVSLFRAIELRTTLVRSTNSGYTVVIGPEGKTRAAFPLFQATSAVLHVPVYPVVRTYYARMRDWVIVLCALIFFAEGVRMAVHTRRHS</Hsp_qseq>
+      <Hsp_hseq>AAFSGILTTLAIPNEIKETGYSILGFVAYVPLFIALNKLEDKKALMGLTVFYFIIANSLQNFWLGFFHAFGWITFIGVIIGYIPYSLTLGY-FLYYSLKSFKNKTMSITMLFTFYDYSRSIGFLAYPWGLAAFTVNNFNNLIQIADIFGVFFVSFAVYFLNSGIAD----FLIHKNKTNLLNIAFPT-LLITASFTYGMIKKIELKNLLAKEIDSLNIAAIQLNTDPWLPGNDKKGIRDSIEITEQALK----------------------ENPKIEFVIWSEGVLTYPFSKEDQHFKSSDLHNELKNFIKEHKIPFAIGAPSNL--DKAIGIQQNSIYMVEPNLNITNIYSKIFLVPFAEKIPFYEYKFVRNF--FLKNF-RILGQIEGNK---IEILKLKKFKFAPLICYDDAFPELSRFYKTQGANILVNFSNDSWSKTNSAEWQHFVVAKFRSIENGIKTIRATNSGITATINEYGETIKKLETFKKGYLLSTVKLSPTFTTIYEKIGDSFIHILVMMFLITTLRFQFMEDKNQ</Hsp_hseq>
+      <Hsp_midline>+A S +L   AIPNE    G S+LG  A VPL++       KK +      +  + ++  +FWL  F  F   T     +GY  Y+L  G  F     K    +  +  +++T +++ +S G LAYPWG    T ++ ++LIQIADI GV+ +SF +   N+ +A+    F+  ++   +  +   T  L      YG  +       L     +L +A +Q N DPW   + +K +  +I +TE AL+                          ++ V+WSE  L YP+ +    + +         F++    P  +G P  L  +   G   N++ ++ P+ ++  +Y K+ +VPFAE IP+     V+     L  F        G +   +        +FA  ICY+DAFP L     TQG+ +L+N +NDSWSKT SAEWQH+VV+ FR+IE     +R+TNSG T  I   G+T      F+    +  V + P   T Y ++ D  I +  ++F    +R      ++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|46576876|sp|P61037.1|LNT1_TREDE</Hit_id>
+  <Hit_def>RecName: Full=Apolipoprotein N-acyltransferase 1; Short=ALP N-acyltransferase 1</Hit_def>
+  <Hit_accession>P61037</Hit_accession>
+  <Hit_len>544</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>166.007</Hsp_bit-score>
+      <Hsp_score>419</Hsp_score>
+      <Hsp_evalue>4.08569e-43</Hsp_evalue>
+      <Hsp_query-from>119</Hsp_query-from>
+      <Hsp_query-to>527</Hsp_query-to>
+      <Hsp_hit-from>120</Hsp_hit-from>
+      <Hsp_hit-to>524</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>202</Hsp_positive>
+      <Hsp_gaps>62</Hsp_gaps>
+      <Hsp_align-len>438</Hsp_align-len>
+      <Hsp_qseq>LVWTLWEWVKSTGILAYPWGTVPMTAHSLSHLIQIADITGVWGLSFLIPLANACVAESLHFFIKKRDSVPVFRLWLL-----TGCLYCLCSLYGAY-RIATLGAPRTTLALAIVQQNADPW--DTXSFEKNLTTAIHLTETALRTQTAPPLPTTPYRKEKTLTHASARAPVDMVVWSESS----LRYPYEQYRHVYNALPA-ARPFSAFLRTLGAPLLVGTP-----LRLSGNS-----TKGGYANAVALLRPDGHVA----QVYGKMQMVPFAEFIPWGHMTSVQRLAQMLA-GFSESWTPGPGPRLFHVPCAAGGSVRFATPICYEDAFPSLCAALHTQGSELLINLTNDSWSKTASAEWQHYVVSLFRAIELRTTLVRSTNSGYTVVIGPEGKTRAAFPLFQATSAVLHVPVYPV-VRTYYARMRDWVIVLCALI</Hsp_qseq>
+      <Hsp_hseq>IAWVAFEYLNTLGFLGYSYGIMGYTQWNFPILIRVSSIFGVWGISFLLVFFSACSASFLFEFYKEKDIKNVYQRYKLPMMIWVGTFFAFI-LYGAFTKIDLSEAQRARIAL--VQPNRDPWLGNLEVYRNNYEELKNLSEKALKN-----FPD-----------------IELVVWPETAFIPMIRWHY-KYTSTYNPNSLLVRELLHFLDNQKVPFLIGNDDGVLDEKFSDNNFDNLEDKRLDYNAALLFIPKKNVSPPEPQTYRKMHLVPFTEHFPYQKL--FPRFYEFLKENDTHFWEKGKEANLLEF-----NNFKIGTPICFEDTFGYISKAFSKKGANIIINLTNDAWANSAVSQYQHLSMAVFRAVENRLPVLRATSSGQTAFIDQNGNIQEMLPPFIKDILVADVTVLTEGHKTVYSYLGDFFGVLCTIV</Hsp_hseq>
+      <Hsp_midline>+ W  +E++ + G L Y +G +  T  +   LI+++ I GVWG+SFL+   +AC A  L  F K++D   V++ + L      G  +    LYGA+ +I    A R  +AL  VQ N DPW  +   +  N     +L+E AL+       P                  +++VVW E++    +R+ Y +Y   YN      R    FL     P L+G        + S N+      K    NA  L  P  +V+    Q Y KM +VPF E  P+  +    R  + L    +  W  G    L         + +  TPIC+ED F  +  A   +G+ ++INLTND+W+ +A +++QH  +++FRA+E R  ++R+T+SG T  I   G  +   P F     V  V V     +T Y+ + D+  VLC ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|46576693|sp|P61035.1|LNT_GEOSL</Hit_id>
+  <Hit_def>RecName: Full=Apolipoprotein N-acyltransferase; Short=ALP N-acyltransferase</Hit_def>
+  <Hit_accession>P61035</Hit_accession>
+  <Hit_len>477</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.606</Hsp_bit-score>
+      <Hsp_score>392</Hsp_score>
+      <Hsp_evalue>5.87276e-40</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>495</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>466</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>234</Hsp_positive>
+      <Hsp_gaps>78</Hsp_gaps>
+      <Hsp_align-len>510</Hsp_align-len>
+      <Hsp_qseq>VSSAASAVLLAFAIPNEFWLAGSSVLGLGALVPLYVGFLLSPAKKHVACSY--GLFVALV-HACSSFWLKNFQGFALFTLG-----ASTVGYFF---YALPFGVAFACILRK---QAPARACAFALVWTLWEWVKSTGILAYPWGTVPMTAHSLSHLIQIADITGVWGLSFLIPLANACVAESLH-FFIKKRDSVPVFRLWLLTGCLYCLCSLYGAYRI--ATLGAPRTTLALAIVQQNAD---PWDTXSFEKNLTTAIHLTETALRTQTAPPLPTTPYRKEKTLTHASARAPVDMVVWSESSLRYPYEQYRHVYNALPAARPFSAFLRTLGAPLLVGTP-LRLSGNSTKGGYANAVALLRPDGHVAQVYGKMQMVPFAEFIPWGH-MTSVQRLAQMLAGFSESWTPGPGPRLFHVPCAAGGSVRFATPICYEDAFPSLCAALHTQGSELLINLTNDSWSKTASAEWQHYVVSLFRAIELRTTLVRSTNSGYTVVIGPEGKTRAAFPLFQ</Hsp_qseq>
+      <Hsp_hseq>VMAALSGVLLALSFPKP----GFSILAWVALVPL----LLACGRKAPAVAFRLGFTAGLVAYAGILYWIN----IAVVTYGRLHWSVSIVIFLMLAGYLALYPAATAYVVRRGEDRGISALLAFPVVWVGLEYIRSFLLTGFPWASLGYSQYRTLPLIQIADLTGVYGLSFLIALSNVVLYRIIRGFAARERAPYPV-KSAAILVLLLVATLAYGFNRLHRPEAGAP---FSVALIQGNIDQSVKWDPAFQEA--TVAVY---------------------ERLSRKACSTGPADLVVWPESAVPF-YLQNEEKY-----ASRIRNLTRELRSCTVVGSPAFERDGETIR--YLNSAFLLSPWGDVVGRSDKIHLVPFGEYVPMAKFLPFVNKIVAGIGDFS------PGARIASLETGKGA---IGVLVCFEGIFPELARGYVRAGSRVLVNITNDAWYKRSSAPYQHLSMTVFRAVENRVPLVRAANTGITAIIDSKGHILRMTNLFE</Hsp_hseq>
+      <Hsp_midline>V +A S VLLA + P      G S+L   ALVPL    LL+  +K  A ++  G    LV +A   +W+      A+ T G      S V +     Y   +  A A ++R+   +  +   AF +VW   E+++S  +  +PW ++  + +    LIQIAD+TGV+GLSFLI L+N  +   +  F  ++R   PV +   +   L      YG  R+     GAP    ++A++Q N D    WD    E   T A++                     E+    A +  P D+VVW ES++ + Y Q    Y     A       R L +  +VG+P     G + +  Y N+  LL P G V     K+ +VPF E++P    +  V ++   +  FS      PG R+  +    G        +C+E  FP L       GS +L+N+TND+W K +SA +QH  +++FRA+E R  LVR+ N+G T +I  +G       LF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|6225629|sp|O83279.1|LNT1_TREPA</Hit_id>
+  <Hit_def>RecName: Full=Apolipoprotein N-acyltransferase 1; Short=ALP N-acyltransferase 1</Hit_def>
+  <Hit_accession>O83279</Hit_accession>
+  <Hit_len>546</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.836</Hsp_bit-score>
+      <Hsp_score>390</Hsp_score>
+      <Hsp_evalue>2.13058e-39</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>541</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>542</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>78</Hsp_gaps>
+      <Hsp_align-len>562</Hsp_align-len>
+      <Hsp_qseq>LLAFAIPNEFWLAGSSVLGLGALVPLYVGFLLSPAKKHVACSY--GLFVALVHACSSFWLKNFQGFALFTLGASTVGYFFYALPFGVAFACILRKQAPARACAFALVWTLWEWVKSTGILAYPWGTVPMTAHSLSHLIQIADITGVWGLSFLIPLANACVAESLHFFIKKRD-----------SVPVFRLWLLTGCLYCLCSLYGAYRIATLGAPRTTLALAIVQQNADP--WDTXSFEKNLTTAIHLTETALRTQTAPPLPTTPYRKEKTLTHASARAP-VDMVVWSESSL--RYPYE-QYRHVYNALPAARPFSAFLRTLGAPLLVGTPLRLSGNSTKGGYA----NAVALLRPDGHV----AQVYGKMQMVPFAEFIPWGHMTSVQRLAQMLAGFSES-----WTPGPGPRLFHVPCAAGGSVRFATPICYEDAFPSLCAALHTQGSELLINLTNDSWSKTASAEWQHYVVSLFRAIELRTTLVRSTNSGYTVVIGPEGKTRAAFPLFQATSAVLHVPVYPVVRTYYARMRD----WVIVLCALIFFAEGVRMAVHTRR</Hsp_qseq>
+      <Hsp_hseq>LFALSHPNPLLPRGCALLAYGALAPL---FLLVRWASGFAVVFWGGAYGAFSYGAFSYWLFVFHPVALCVVAGFSALFLAALCLALKAGGAFWQRRALLVQC---LVWLGYEYAKTLGFLGFPYGVMGYSQWRVLPLIQVASVFGVWVVSALVVFPSAWLASVLGQWVEESERNARAFLSAAYSHWVSALVWVGLCGFCVCAAKAGWWPDCTAHTRAKVAL--VQPNGDPRRGGIESYRADFSTLTYLSDWALE-----------------------RYPDVDLVVWPETAFVPRIDWHYRYRHEQQSFQLVCDLLDYVNAKNCPFIIGSDDAYKKRTKEGNWERVDYNAALLFIPGVNVLPPSPQRYHKIKLVPFTEYFPY------KRVFPWFYNFLEKQDARFWAQGSEFVVFEAR-----GLKFSVPICFEDAFGYITREFCARGASLLVNISNDSWAKSLSCQYQHLSMAVFRAIENRRALVRASTSGQTVAIAPDGRILDELQPFAPGVLVADVPIVTCACGGYRYWGDALGVFFCVASLFILIAGGVRHMLRCRR</Hsp_hseq>
+      <Hsp_midline>L A + PN     G ++L  GAL PL   FLL       A  +  G + A  +   S+WL  F   AL  +   +  +         A     +++A    C   LVW  +E+ K+ G L +P+G +  +   +  LIQ+A + GVW +S L+   +A +A  L  ++++ +           S  V  L  +  C +C+C+    +        R  +AL  VQ N DP      S+  + +T  +L++ AL                        R P VD+VVW E++   R  +  +YRH   +         ++     P ++G+       + +G +     NA  L  P  +V     Q Y K+++VPF E+ P+      +R+      F E      W  G    +F         ++F+ PIC+EDAF  +      +G+ LL+N++NDSW+K+ S ++QH  +++FRAIE R  LVR++ SG TV I P+G+       F     V  VP+       Y    D    +  V    I  A GVR  +  RR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|123729226|sp|Q39T32.1|LNT_GEOMG</Hit_id>
+  <Hit_def>RecName: Full=Apolipoprotein N-acyltransferase; Short=ALP N-acyltransferase</Hit_def>
+  <Hit_accession>Q39T32</Hit_accession>
+  <Hit_len>521</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.451</Hsp_bit-score>
+      <Hsp_score>389</Hsp_score>
+      <Hsp_evalue>2.26235e-39</Hsp_evalue>
+      <Hsp_query-from>115</Hsp_query-from>
+      <Hsp_query-to>502</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>478</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>50</Hsp_gaps>
+      <Hsp_align-len>394</Hsp_align-len>
+      <Hsp_qseq>CAFALVWTLWEWVKSTGILAYPWGTVPMTAHSLSHLIQIADITGVWGLSFLIPLANACVAESLHFFIKKRDSVPVFRLWLLTGCLYCLCSLYGAYR--IATLGAPRTTLALAIVQQNAD---PWDTXSFEKNLTTAIHLTETALRTQTAPPLPTTPYRKEKTLTHASARAPVDMVVWSESSLRYPYEQYRHVYNALPAARPFSAFLRTLGAPLLVGTPLRLSGNSTKGGYANAVALLRPDGHVAQVYGKMQMVPFAEFIPWGHMTS-VQRLAQMLAGFSESWTPGPGPRLFHVPCAAGGSVRFATPICYEDAFPSLCAALHTQGSELLINLTNDSWSKTASAEWQHYVVSLFRAIELRTTLVRSTNSGYTVVIGPEGKTRAAFPLFQATSAVLH</Hsp_qseq>
+      <Hsp_hseq>ISFPLLWVGLEYGRAFLVTGFPWASLGYTQYRTLPLIQIADITGVYGLSFLIALANVVLFRIIRGFAAREPAPYPVKSVVLLLVLLLVTIAYGFKRLHVPEGGAP---FKVALIQGNIDQNIKWDP-SFQEE-TVAIY---------------------ERLSRKACAAGPSDLLVWPESAAPF-YFQDEPRY-----ASRIKGLARELKTCAVVGSPA-FEKDGERLKYLNSAFLLSPWGDVIGRSDKIHLVPFGEYVPMAKLLPFVNKLVAGIGDFS------PGAQIAALDTGKG---RIGILVCFEGIFPELSRAYVRAGSRLLVNITNDAWFGRSSAPYQHISMTVFRAVENRVPLVRAANTGITSIIDSRGHIRGMTPLFQ--EAVLN</Hsp_hseq>
+      <Hsp_midline> +F L+W   E+ ++  +  +PW ++  T +    LIQIADITGV+GLSFLI LAN  +   +  F  +  +    +  +L   L  +   YG  R  +   GAP     +A++Q N D    WD  SF++  T AI+                     E+    A A  P D++VW ES+  + Y Q    Y     A       R L    +VG+P     +  +  Y N+  LL P G V     K+ +VPF E++P   +   V +L   +  FS      PG ++  +    G   R    +C+E  FP L  A    GS LL+N+TND+W   +SA +QH  +++FRA+E R  LVR+ N+G T +I   G  R   PLFQ   AVL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|46576828|sp|Q8KCC4.1|LNT_CHLTE</Hit_id>
+  <Hit_def>RecName: Full=Apolipoprotein N-acyltransferase; Short=ALP N-acyltransferase</Hit_def>
+  <Hit_accession>Q8KCC4</Hit_accession>
+  <Hit_len>533</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.599</Hsp_bit-score>
+      <Hsp_score>379</Hsp_score>
+      <Hsp_evalue>4.35361e-38</Hsp_evalue>
+      <Hsp_query-from>106</Hsp_query-from>
+      <Hsp_query-to>524</Hsp_query-to>
+      <Hsp_hit-from>111</Hsp_hit-from>
+      <Hsp_hit-to>517</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>68</Hsp_gaps>
+      <Hsp_align-len>447</Hsp_align-len>
+      <Hsp_qseq>LRKQAPARACAFAL--VWTLWEWVKSTGILAYPWGTVPMTAHSLSHLIQIADITGVWGLSFLIPLANACVAESLHFFIKKRD------SVPVFRLWLLTGCLYCLCSLYGAYRIATLGAPRTTLALAIVQQNADP---WDTXSFEKNLTTAIHLTETALRTQTAPPLPTTPYRKEKTLTHASARAPVDMVVWSESSLRYPYEQYRHVYNALPAARPFSAFLRTL----GAPLLVGTPLRLS--GNSTKGG--------YA--NAVALLRPDGHVAQVYGKMQMVPFAEFIPWG-HMTSVQRLAQMLAGFSESWTPGPGPRLFHVPCAAGGSVRFATPICYEDAFPSLCAALHTQGSELLINLTNDSWSKTASAEWQHYVVSLFRAIELRTTLVRSTNSGYTVVIGPEGKTRAAFPLFQATSAVLHVPVYPVVRTYYARMRDWVIVLC</Hsp_qseq>
+      <Hsp_hseq>FKKRAGFRSALLALPFIWTGWEWAYMQQDFSLGWLTFGNSQANLLWMVQYADVTGVWGVSFWLLTFNVLV---LLLFMEKESFQVKVGIVMVMLVMIATPLLYA----RQVFRNTALDNTSPKVRVALVQPDIDPHEKWDGLGPEETLSRLYSLTGQSVRGER-----------------------LELIIWPETAIPF--------YIRLPENKPYMDSVRRMVMRWNTPLLTGFPDEVPVFPNSARGEAVAASGAEYAAYNASMLLHPAGGPVQIYRKMRLVPFGERVPYSEYFPWLERLSFSMSGIS-SWAKGREATVMHFTSRDGQPVRMANIICYESIFPGQVSTFVRRGAQFLTLVTNDGWYGTSYGPWQHAAIDRLRCIENRRAMARCANTGVTLFYDICGRSYAETPWWQQSVLTADVPLESRI-TFYTAHPDLVPHVC</Hsp_hseq>
+      <Hsp_midline> +K+A  R+   AL  +WT WEW       +  W T   +  +L  ++Q AD+TGVWG+SF +   N  V   L  F++K         V V  + + T  LY        +R   L      + +A+VQ + DP   WD    E+ L+    LT  ++R +                        +++++W E+++ +        Y  LP  +P+   +R +      PLL G P  +    NS +G         YA  NA  LL P G   Q+Y KM++VPF E +P+  +   ++RL+  ++G S SW  G    + H     G  VR A  ICYE  FP   +    +G++ L  +TND W  T+   WQH  +   R IE R  + R  N+G T+     G++ A  P +Q +     VP+   + T+Y    D V  +C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|123084550|sp|Q1RH27.1|LNT_RICBR</Hit_id>
+  <Hit_def>RecName: Full=Apolipoprotein N-acyltransferase; Short=ALP N-acyltransferase</Hit_def>
+  <Hit_accession>Q1RH27</Hit_accession>
+  <Hit_len>499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.183</Hsp_bit-score>
+      <Hsp_score>326</Hsp_score>
+      <Hsp_evalue>2.40053e-31</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>529</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>484</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>63</Hsp_gaps>
+      <Hsp_align-len>445</Hsp_align-len>
+      <Hsp_qseq>LPFGVAFACILR---KQAPARACAFALVWTLWEWVKSTGILAYPWGTVPMTAHSLSHLIQIADITGVWGLSFLIPLANACVAESLH-FFIKKRDSVPVFRLWLLTGCLYCLCSLYGAYRIATLGAPRTTLALAIVQQN---ADPWDTXSFEKNLTTAIHLTETALRTQTAPPLPTTPYRKEKTLTHASARAPVDMVVWSESSLRYPYEQYRHVYNALPAAR-PFSAFLRTLGAPLLVGTPLRLSGNSTKG---GYANAVALLRPDGHVAQVYGKMQMVPFAEFIPWGHMTSVQRLAQMLAGFSESWTPGPGPRLFHVPCAAGGSVRFATPICYEDAFPSLCAALHTQGSELLINLTNDSWSKTASAEWQHYVVSLFRAIELRTTLVRSTNSGYTVVIGPEGKTRAAFPLFQATSAVLHVPVYPVVRTYYARMRDWVIVLCALIFF</Hsp_qseq>
+      <Hsp_hseq>LAFFVSASCVFSFFVRNNKYYHFIFCLYWVLFEWVRSWIFTGLPWNLIGYAFSFSDILIQSLNIIGIYGLSFIV----IYISTSFYPFFTKQFDQLKV--LLLTSSITLAVIITYGSVRLHNHPTNFTDIKVRLVQPSIPQTEKWSEEEFWHNLMLHINLSENS--------------------------QPIDLVIWSEAALVVPYD--------IPVVKSELLGLLNSVDATLITGG---ISDNKKRGEDFELYTAMYALEKNGNKLFEYHKSHLVPFGEYMPFKKILPFKKLTH---GFVD-YTEGNGGLVY----LDKYNLKIKPLICYESIFPDFVRT-NNETADVIINVTNDAWYGKSSGPYQHFHISRSRAVENGLPMVRVANNGISAIIDPLGRVIKKLDLNEINYIDGLIPKKLDSPTIFSKFGNITILLIVFFIF</Hsp_hseq>
+      <Hsp_midline>L F V+ +C+     +        F L W L+EWV+S      PW  +         LIQ  +I G++GLSF++      ++ S + FF K+ D + V  L L +     +   YG+ R+       T + + +VQ +    + W    F  NL   I+L+E +                           P+D+V+WSE++L  PY+        +P  +      L ++ A L+ G    +S N  +G       A+  L  +G+    Y K  +VPF E++P+  +   ++L     GF + +T G G  ++        +++    ICYE  FP      + + ++++IN+TND+W   +S  +QH+ +S  RA+E    +VR  N+G + +I P G+      L +       +P      T +++  +  I+L     F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|6225627|sp|Q9ZDG3.1|LNT_RICPR</Hit_id>
+  <Hit_def>RecName: Full=Apolipoprotein N-acyltransferase; Short=ALP N-acyltransferase</Hit_def>
+  <Hit_accession>Q9ZDG3</Hit_accession>
+  <Hit_len>496</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.398</Hsp_bit-score>
+      <Hsp_score>298</Hsp_score>
+      <Hsp_evalue>1.32958e-27</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>486</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>194</Hsp_positive>
+      <Hsp_gaps>91</Hsp_gaps>
+      <Hsp_align-len>461</Hsp_align-len>
+      <Hsp_qseq>HVACSYGLFVALVHACSSFWLKNFQGFALFTLGAST-VGYFFYALPFG-----------VAFACILR---KQAPARACAFALVWTLWEWVKSTGILAYPWGTVPMTAHSLSHLIQIADITGVWGLSFLIPLANACVAESLH-FFIKKRDSVPVFRLWLLTGCLYCLCSL--YGAYRIATLGAPRTTLALAIVQ----QNADPWDTXSFEKNLTTAIHLTETALRTQTAPPLPTTPYRKEKTLTHASARAPVDMVVWSESSLRYPYEQYRHVYNALPAAR-PFSAFLRTLGAPLLVGTPLRLSGNSTKGG----YANAVALLRPDGHVAQVYGKMQMVPFAEFIPWGHMTSVQRLAQMLAGFSESWTPGPGPRLFHVPCAAGGSVRFATPICYEDAFPSLCAALHTQGSELLINLTNDSWSKTASAEWQHYVVSLFRAIELRTTLVRSTNSGYTVVIGPEGK</Hsp_qseq>
+      <Hsp_hseq>QVAAKFGYLFGFGHFLS--------GMYWISIGVSVYIADFWWAIPFALFGLPIILAFFISANCTLSFFAKNNKYYQLIFCLLWVLFEWIRSWILTGLPWNLIGYAFSFSEILIQPLSITGIYGLSFIV----IYISTSAYPVFTKKFTQLKI----LLASSMLILTVMVIYGAVRVSTNPTNFTDIKVRLVQPSIPQTAK-WDQEEFWHNLMLHINLSENL--------------------------EPTDLIIWSEAALVVP--------DDIPQVKLKLLNMLNSTNAILITGG---ISDNKKHGDQFELYSAMYALDKNNNKLFE-YHKSHLVPFGEYMPLKNILPFKKLTHGLIDYKE----GDGGLVY----IKKYHLKIKPLICYESIFPNFVRT-NNEIVDVIINITNDAWYGKSSGPYQHFHISRSRAVENGLPMIRVANNGISAIVDPIGR</Hsp_hseq>
+      <Hsp_midline> VA  +G      H  S        G    ++G S  +  F++A+PF            ++  C L    K        F L+W L+EW++S  +   PW  +         LIQ   ITG++GLSF++      ++ S +  F KK   + +    LL   +  L  +  YGA R++T     T + + +VQ    Q A  WD   F  NL   I+L+E                             P D+++WSE++L  P        + +P  +      L +  A L+ G    +S N   G     Y+   AL + +  + + Y K  +VPF E++P  ++   ++L   L  + E    G G  ++         ++    ICYE  FP+     + +  +++IN+TND+W   +S  +QH+ +S  RA+E    ++R  N+G + ++ P G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|46576843|sp|Q92IC5.1|LNT_RICCN</Hit_id>
+  <Hit_def>RecName: Full=Apolipoprotein N-acyltransferase; Short=ALP N-acyltransferase</Hit_def>
+  <Hit_accession>Q92IC5</Hit_accession>
+  <Hit_len>499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.627</Hsp_bit-score>
+      <Hsp_score>296</Hsp_score>
+      <Hsp_evalue>3.14448e-27</Hsp_evalue>
+      <Hsp_query-from>78</Hsp_query-from>
+      <Hsp_query-to>519</Hsp_query-to>
+      <Hsp_hit-from>62</Hsp_hit-from>
+      <Hsp_hit-to>474</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>194</Hsp_positive>
+      <Hsp_gaps>73</Hsp_gaps>
+      <Hsp_align-len>464</Hsp_align-len>
+      <Hsp_qseq>GFALFTLGAST-VGYFFYALPFG-----VAFACILR---------KQAPARACAFALVWTLWEWVKSTGILAYPWGTVPMTAHSLSHLIQIADITGVWGLSFLIPLANACVAESLHFFIKKRDSVPVFRLWLLTGCL-YCLCSLYGAYRIATLGAPRTTLALAIVQQN---ADPWDTXSFEKNLTTAIHLTETALRTQTAPPLPTTPYRKEKTLTHASARAPVDMVVWSESSLRYPYEQYRHVYNALPAARPFSAFLRTLGAPLLVGTPLRLSGNSTKGG---YANAVALLRPDGHVAQVYGKMQMVPFAEFIPWGHMTSVQRLAQMLAGFSESWTPGPGPRLFHVPCAAGGSVRFATPICYEDAFPSLCAALHTQGSELLINLTNDSWSKTASAEWQHYVVSLFRAIELRTTLVRSTNSGYTVVIGPEGKTRAAFPLFQATSAVLHVPVYPVVRTYYARMRDW</Hsp_qseq>
+      <Hsp_hseq>GIYWISIGVSVYIADFWWAIPFALFGLPIVLACFISASCTLSFFAKNNKYYQFIFCLCWVLFEWVRSWIFTGLPWNLIGYAFSFSDILIQPLSIIGIYGLSFIV----IYISTSAYPLFSKQ--FTQLKILLASSVLVLTIIVIYGAVRLSNNHTNFTDIKVRLVQPSIPQTEKWNEEEFWHNLMLHINLSENL--------------------------EPTDLIIWSEAALVVP--------DDIPQVK--SKLLKMLNSTNAILITGGISDNKKQGDEFELYSAMYALDKNNHKLFEYHKSHLVPFGEYMPLKKILPFKKLTHGLIDYKE----GNGGLVY----LEKYNLKIKPLICYESIFPDFVRT-NNEIADVIINITNDAWYGKSSGPYQHFHISRSRAVENGLPMIRVANNGISAIVDPFGRTIKKLNLNEINGTQGLIPKKLISPTIFSQFGNF</Hsp_hseq>
+      <Hsp_midline>G    ++G S  +  F++A+PF      +  AC +          K        F L W L+EWV+S      PW  +         LIQ   I G++GLSF++      ++ S +    K+      ++ L +  L   +  +YGA R++      T + + +VQ +    + W+   F  NL   I+L+E                             P D+++WSE++L  P        + +P  +  S  L+ L +   +     +S N  +G      +A+  L  + H    Y K  +VPF E++P   +   ++L   L  + E    G G  ++        +++    ICYE  FP      + + ++++IN+TND+W   +S  +QH+ +S  RA+E    ++R  N+G + ++ P G+T     L +       +P   +  T +++  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|75536594|sp|Q4ULZ6.1|LNT_RICFE</Hit_id>
+  <Hit_def>RecName: Full=Apolipoprotein N-acyltransferase; Short=ALP N-acyltransferase</Hit_def>
+  <Hit_accession>Q4ULZ6</Hit_accession>
+  <Hit_len>496</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.472</Hsp_bit-score>
+      <Hsp_score>293</Hsp_score>
+      <Hsp_evalue>5.7633e-27</Hsp_evalue>
+      <Hsp_query-from>95</Hsp_query-from>
+      <Hsp_query-to>487</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>442</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>176</Hsp_positive>
+      <Hsp_gaps>63</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>ALPFGVAFACILR---KQAPARACAFALVWTLWEWVKSTGILAYPWGTVPMTAHSLSHLIQIADITGVWGLSFLIPLANACVAESLHFFIKKRDSVPVFRLWLLTGCL-YCLCSLYGAYRIATLGAPRTTLALAIVQQN---ADPWDTXSFEKNLTTAIHLTETALRTQTAPPLPTTPYRKEKTLTHASARAPVDMVVWSESSLRYPYEQYRHVYNALPAARPFSAFLRTLGAPLLVGTPLRLSGNSTKGG----YANAVALLRPDGHVAQVYGKMQMVPFAEFIPWGHMTSVQRLAQMLAGFSESWTPGPGPRLFHVPCAAGGSVRFATPICYEDAFPSLCAALHTQGSELLINLTNDSWSKTASAEWQHYVVSLFRAIELRTTLVRSTNSGYTVVIGPEGKT</Hsp_qseq>
+      <Hsp_hseq>VLAFFISASCTLSFFAKNNKYYQFIFCICWVLFEWVRSWIFTGLPWNLIGYAFSFSDILIQTLSIIGIYGLSFIV----IYISTSAYPLFRKQ--FTQLKILLASSVLILSVIVIYGAVRLSNNPTNFTDIKVRLVQPSIPQTEKWNEEEFWHNLMLHINLSENS--------------------------EPTDLIIWSEAALIVP--------DDIPQVK--SELLQMLNSTNAILITGGISDNKKQGDEFELYSAMYALDKNDHKLFE-YHKSHLVPFGEYMPLKKILPFKKLTHGLIDYKE----GDGGLVY----LEKYNLKIKPLICYESIFPDFVRT-NNEIVDVIINITNDAWYGKSSGPYQHFHISRSRAVENGLPMIRVANNGISAIVDPFGRT</Hsp_hseq>
+      <Hsp_midline> L F ++ +C L    K        F + W L+EWV+S      PW  +         LIQ   I G++GLSF++      ++ S +   +K+      ++ L +  L   +  +YGA R++      T + + +VQ +    + W+   F  NL   I+L+E +                           P D+++WSE++L  P        + +P  +  S  L+ L +   +     +S N  +G     Y+   AL + D  + + Y K  +VPF E++P   +   ++L   L  + E    G G  ++        +++    ICYE  FP      + +  +++IN+TND+W   +S  +QH+ +S  RA+E    ++R  N+G + ++ P G+T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|17367613|sp|Q98BJ6.1|LNT_RHILO</Hit_id>
+  <Hit_def>RecName: Full=Apolipoprotein N-acyltransferase; Short=ALP N-acyltransferase</Hit_def>
+  <Hit_accession>Q98BJ6</Hit_accession>
+  <Hit_len>530</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.538</Hsp_bit-score>
+      <Hsp_score>275</Hsp_score>
+      <Hsp_evalue>2.18523e-24</Hsp_evalue>
+      <Hsp_query-from>92</Hsp_query-from>
+      <Hsp_query-to>524</Hsp_query-to>
+      <Hsp_hit-from>116</Hsp_hit-from>
+      <Hsp_hit-to>513</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>59</Hsp_gaps>
+      <Hsp_align-len>445</Hsp_align-len>
+      <Hsp_qseq>FFYALPFGVAFACILRKQAPARACAFALVWTLWEWVKSTGILAYPWGTVPMTAHSLSHLIQIADITGVWGLSFLIPLANACVAESLHFFIKKRDSVPVFRLWLLTGCLYCLCSL----YGAYRIATLGAP-RTTLALAIVQQNAD---PWDTXSFEKNLTTAIHLTETALRTQTAPPLPTTPYRKEKTLTHASARAPVDMVVWSESSLRYPYEQYRHVYNALPAARPFSAFLRTLGAPLLVGTPLRLSGN--STKGGYANAVALLRPDGHVAQVYGKMQMVPFAEFIPWGHMTSVQRLAQMLAGFSESWTPGPGPRLFHVPCAAGGSVRFATPICYEDAFPSLCAALHTQGSELLINLTNDSWSKTASAEWQHYVVSLFRAIELRTTLVRSTNSGYTVVIGPEGKTRAAFPLFQATSAVLHVPV--YPVVRTYYARMRDWVIVLC</Hsp_qseq>
+      <Hsp_hseq>FFYG--FATLVARLLWSSDIGRIAALAFGFGLTEWLRGFLFTGFPWNAIGYAAMPVPLLMQSVSVTGMIGMNVL-----AVFLFSLPALLVAR------RHLRLGAALFVLLASAHVGFGYIRLAAPEKPAERSLDVRIVQPAVDLSEKWDASVRDRIFATLLGLSAKA---------PDPGHGKPQ------------LILWPETSVPFLFTERPDALTAL-------GDMLADGQMLIAGVVREEGGSAASTDSRYYNSVVAINDRGEITDAVDKVHLVPFGEYLPFGDLLNRFGIAQLVAG-PVTFAAGNERHAISLP----GGIRALPFICYEVIFPDLVAVDATS-AQLIVNVTNDAWFGDTPGPYQHFRQAQIRAVENGLPLLRAANNGISAVVDPRGRIVDALAIDARGAIDVKVPISGQAVVSSAQRRINGMLIMLL</Hsp_hseq>
+      <Hsp_midline>FFY   F    A +L      R  A A  + L EW++      +PW  +   A  +  L+Q   +TG+ G++ L     A    SL   +  R      R   L   L+ L +     +G  R+A    P   +L + IVQ   D    WD    ++   T + L+  A         P   + K +            +++W E+S+ + + +      AL         +   G  L+ G      G+  ST   Y N+V  +   G +     K+ +VPF E++P+G + +   +AQ++AG   ++  G       +P    G +R    ICYE  FP L A   T  ++L++N+TND+W       +QH+  +  RA+E    L+R+ N+G + V+ P G+   A  +    +  + VP+    VV +   R+   +I+L </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|254809229|sp|B9JZJ6.1|LNT_AGRVS</Hit_id>
+  <Hit_def>RecName: Full=Apolipoprotein N-acyltransferase; Short=ALP N-acyltransferase</Hit_def>
+  <Hit_accession>B9JZJ6</Hit_accession>
+  <Hit_len>528</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>106.686</Hsp_bit-score>
+      <Hsp_score>265</Hsp_score>
+      <Hsp_evalue>3.74516e-23</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>487</Hsp_query-to>
+      <Hsp_hit-from>68</Hsp_hit-from>
+      <Hsp_hit-to>472</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>70</Hsp_gaps>
+      <Hsp_align-len>447</Hsp_align-len>
+      <Hsp_qseq>SSFWLKNFQGFALFTLGASTVGY--------FFYALPFGV-----------AFACI----LRKQAPARACAFALVWTLWEWVKSTGILAYPWGTVPMTAHSLSHLIQIADITGVWGLSFLIPLANACVAESLHFFIKKRDSVPVFRLWL-LTGCLYCLCSLYGAYRIATLGAPRTTLALAIVQQNADPWDTXSFEKNLTTAIHLTETALRTQTAPPLPTTPYRKEKTLTHASARAPVDMVVWSESSLRYPYEQYRHVYNALPAARPFSAFLRTLGAPLLVGTPL-RLSGNSTKGGYANAVALLRPDGHVAQVYGKMQMVPFAEFIPWGHMTS---VQRLAQMLAGFSESWTPGPGPRLFHVPCAAGGSVRFATPICYEDAFPSLCAALHTQGSELLINLTNDSWSKTASAEWQHYVVSLFRAIELRTTLVRSTNSGYTVVIGPEGKT</Hsp_qseq>
+      <Hsp_hseq>SAFWIGWLFGFGYFVAGLWWLGNALMVEADEFAWALPLAVLGLPAVLAVFYGLACLAARLLWSEGLGRIAALAAMFGITEWLRSFIATGFPWNAIGYGAMPIPLMMQSAAVLGLFGVSALAVFVFAAPA----LLGTRRGA----KLGLALAGILFCGHLGYGAYRLSLPEPDGRKVTVRLVQPNID----QAAKMDDTDRVAIFEKHLRL-TAVPTPADQPRP-------------DVIVWPETTIPFILTENPD------ALRQIAGALQE-GQVLITGTVRSEDQGAGIAPRYYNSIYAIDSQGQILAAADKVHLVPFGEYVPWQDILSKLGITNIIDLPGGFSQ----GASRSLMTLP----GGLKLYPLICYEVIFPDEMVK-GLSGANAIINVTNDAWFGDTPGPFQHFQQARLRAVETGLPIIRAANNGISALIDGRGRV</Hsp_hseq>
+      <Hsp_midline>S+FW+    GF  F  G   +G         F +ALP  V             AC+    L  +   R  A A ++ + EW++S     +PW  +   A  +  ++Q A + G++G+S L     A  A        +R +    +L L L G L+C    YGAYR++        + + +VQ N D     + + + T  + + E  LR  TA P P    R              D++VW E+++ +   +         A R  +  L+  G  L+ GT      G      Y N++  +   G +     K+ +VPF E++PW  + S   +  +  +  GFS+    G    L  +P    G ++    ICYE  FP         G+  +IN+TND+W       +QH+  +  RA+E    ++R+ N+G + +I   G+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|46576803|sp|Q89WA1.1|LNT_BRADU</Hit_id>
+  <Hit_def>RecName: Full=Apolipoprotein N-acyltransferase; Short=ALP N-acyltransferase</Hit_def>
+  <Hit_accession>Q89WA1</Hit_accession>
+  <Hit_len>537</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.916</Hsp_bit-score>
+      <Hsp_score>263</Hsp_score>
+      <Hsp_evalue>6.29012e-23</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>518</Hsp_query-to>
+      <Hsp_hit-from>123</Hsp_hit-from>
+      <Hsp_hit-to>513</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>176</Hsp_positive>
+      <Hsp_gaps>69</Hsp_gaps>
+      <Hsp_align-len>440</Hsp_align-len>
+      <Hsp_qseq>GVAFACILRKQAPARACAFALVWTLWEWVKSTGILAYPWGTVPMTAHSLSHLIQIADITGVWGLSFLIPLANACVAESLHFFIKKRDSVPVFRLWLLTGCLYCLCSLYGAYRIATLGAPRTTLA---LAIVQQNADPWDTXSFEKNLTTAIHLTETALRTQTAPPLPTTPYRKEKTLTHASARAPVDMVVWSESSLRYPYEQYRHVYNALPAARPFSAFLRT--LGAPLL-VGTPLRLSGNSTKGGYANAVALLRPDGHVAQVYGKMQMVPFAEFIPWGHMTS---VQRLAQMLAGFSESWTPGPGPRLFHVPCAAGGSVRFATP----------ICYEDAFPSLCAALHTQGSELLINLTNDSWSKTASAEWQHYVVSLFRAIELRTTLVRSTNSGYTVVIGPEGKTRAAFPLFQATSAVLHVPVYPVV-RTYYARMRD</Hsp_qseq>
+      <Hsp_hseq>GFALARLLWTKNATRVLALAASLTIAEWLRGHALTGFPWNAFGYALSEPLPLAQTASLIGLWGMTFL---TVAIFASPATLIDRTPDRRVAWRAPAAAVALLIAMSIFGAIRLSL--HPTTMVAGAKLRLMQPNLQ--QDAKFNYAAKTEVMKKYLALSDRASGP-------------QSTGVRDATILIWPESAFPFFLTREADAMAEIAELLPKGTVLITGSVRAPDLPRGTPITRAYNS--------IYVIDHDGSVLAVYDKLHLVPFGEFLPYQDLMEKLGFEQLTRVRGGF------------------IAGTVRHALPMPGAPSALPLICYEAIFPGEVAG-RNERPGWIVNLTNDGWFGISTGPYQHLEQARMRAIELGLPLVRSANTGISAVIDPVGRTVASLGL--GVEGILDASLPAAIPPTIYARVGD</Hsp_hseq>
+      <Hsp_midline>G A A +L  +   R  A A   T+ EW++   +  +PW            L Q A + G+WG++FL     A  A       +  D    +R       L    S++GA R++    P T +A   L ++Q N        F     T +     AL  + + P              ++      +++W ES+  +   +       +    P    L T  + AP L  GTP+  + NS        + ++  DG V  VY K+ +VPF EF+P+  +      ++L ++  GF                    G+VR A P          ICYE  FP   A    +    ++NLTND W   ++  +QH   +  RAIEL   LVRS N+G + VI P G+T A+  L      +L   +   +  T YAR+ D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|46576797|sp|Q87VX7.1|LNT_PSESM</Hit_id>
+  <Hit_def>RecName: Full=Apolipoprotein N-acyltransferase; Short=ALP N-acyltransferase</Hit_def>
+  <Hit_accession>Q87VX7</Hit_accession>
+  <Hit_len>506</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.531</Hsp_bit-score>
+      <Hsp_score>262</Hsp_score>
+      <Hsp_evalue>7.87667e-23</Hsp_evalue>
+      <Hsp_query-from>92</Hsp_query-from>
+      <Hsp_query-to>530</Hsp_query-to>
+      <Hsp_hit-from>101</Hsp_hit-from>
+      <Hsp_hit-to>494</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>184</Hsp_positive>
+      <Hsp_gaps>63</Hsp_gaps>
+      <Hsp_align-len>448</Hsp_align-len>
+      <Hsp_qseq>FFYALPFGVAFACILRKQAP-ARACAFALVWTLWEWVKSTGILAYPWGTVPMTAHSLSHLIQIADITGVWGLSFLIPLANACVAESLHFFIKKRDSVPVFRLWLLTGCLYCLCSLYGAYRIATLGAPRTTLALAIVQQNADPWDTXSFEKNLTTAIHLTETALRTQTAPPLPTTPYRKEKTLTHASARAPVDMVVWSESS---LRYPYEQYRHVYNALPAARPFSAFLRTLGAPLLVGTPLRLSGNSTKGGYANAVALLRPDGHVAQVYGKMQMVPFAEFIPWGHMTSVQRLAQMLAGFSE----SWTPGPGPRLFHVPCAAGGSVRFATPICYEDAFPSLCAALHTQGSELLINLTNDSWSKTASAEWQHYVVSLFRAIELRTTLVRSTNSGYTVVIGPEGKTRAAFPLFQATSAVLHVPVYPVVR-TYYARMRDWVIVLCALIFFA</Hsp_qseq>
+      <Hsp_hseq>LFFALPAWVWARWLRRNEAPLADSLAFAALWLWQEAFRGWFLTGFPW-LYSGYSQLDAPLAGLAPVGGVWLISFALGLTAALLC-NLHR-LRARKSFLAMGVLLLLAPWVAGLALKDHAWTSPSGPPLKVAAMQGNIEQSMKWDPQKLNDQLALYRDMT---FRSQQA-----------------------DLIVWPETAVPVLKESAEGYLSMMGKFAADR---------GAALITGVPVREPTGRGEYSYYNGITV---TGQGDGTYFKQKLVPFGEYVP------LQDLLRGLISFFDLPMSDFARGPNDQAL---LQAKG-YHIAPFICYEVVYPEFAAGLSAQ-SDLLLTVSNDTWFGTSIGPLQHLQMAQMRALEAGRWMIRATNNGVTALIDPFGRITVQIPQFE--RGVLYGEVVPMHELTPYLHWRSWPLAIVCLLLFG</Hsp_hseq>
+      <Hsp_midline> F+ALP  V    + R +AP A + AFA +W   E  +   +  +PW      +   + L  +A + GVW +SF + L  A +  +LH  ++ R S     + LL        +L      +  G P    A+    + +  WD       L     +T    R+Q A                       D++VW E++   L+   E Y  +     A R         GA L+ G P+R      +  Y N + +    G     Y K ++VPF E++P      +Q L + L  F +     +  GP  +       A G    A  ICYE  +P   A L  Q S+LL+ ++ND+W  T+    QH  ++  RA+E    ++R+TN+G T +I P G+     P F+    VL+  V P+   T Y   R W + +  L+ F </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|46576822|sp|Q8FJY4.1|LNT_ECOL6</Hit_id>
+  <Hit_def>RecName: Full=Apolipoprotein N-acyltransferase; Short=ALP N-acyltransferase; AltName: Full=Copper homeostasis protein CutE</Hit_def>
+  <Hit_accession>Q8FJY4</Hit_accession>
+  <Hit_len>512</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.7525</Hsp_bit-score>
+      <Hsp_score>247</Hsp_score>
+      <Hsp_evalue>6.06302e-21</Hsp_evalue>
+      <Hsp_query-from>274</Hsp_query-from>
+      <Hsp_query-to>542</Hsp_query-to>
+      <Hsp_hit-from>249</Hsp_hit-from>
+      <Hsp_hit-to>512</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>280</Hsp_align-len>
+      <Hsp_qseq>HASARAPV----DMVVWSESSLRYPYEQYRHVYNALPAARPFSAFLRTLGAPLLVG-TPLRLSGNSTKGGYANAVALLRPDGHV---AQVYGKMQMVPFAEFIPWGHMTSVQR-LAQMLAGFSESWTPGPGPRLFHVPCAAGGSVRFATPICYEDAFPSLCAALHTQGSELLINLTNDSWSKTASAEWQHYVVSLFRAIELRTTLVRSTNSGYTVVIGPEGKTRAAFPLFQATSAVLHVPVYPVVR-TYYARMRDWVI-VLCALIFFAEGVRMAVHTRRH</Hsp_qseq>
+      <Hsp_hseq>YYNATAPLMGKSSLIIWPESAIT------DLEINQQPFLKALDGELRDKGSSLVTGIVDARLNKQNRYDTYNTIITLGKGAPYSYESADRYNKNHLVPFGEFVP---LESILRPLAPFFDLPMSSFSRGP----YIQPPLSLNGIQLTAAICYEIILGEQVRDNFRPDTDYLLTISNDAWFGKSIGPWQHFQMARMRALELARPLLRSTNNGITAVIGPQGEIQAMIPQF--TREVLTTNVTPTTGLTPYARTGNWPLWVLTALFGFA-AVLMSLRARKH</Hsp_hseq>
+      <Hsp_midline>+ +A AP+     +++W ES++           N  P  +     LR  G+ L+ G    RL+  +    Y   + L +   +    A  Y K  +VPF EF+P   + S+ R LA        S++ GP    +  P  +   ++    ICYE              ++ L+ ++ND+W   +   WQH+ ++  RA+EL   L+RSTN+G T VIGP+G+ +A  P F  T  VL   V P    T YAR  +W + VL AL  FA  V M++  R+H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|46576836|sp|Q8XBK2.1|LNT_ECO57</Hit_id>
+  <Hit_def>RecName: Full=Apolipoprotein N-acyltransferase; Short=ALP N-acyltransferase; AltName: Full=Copper homeostasis protein CutE</Hit_def>
+  <Hit_accession>Q8XBK2</Hit_accession>
+  <Hit_len>512</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.3673</Hsp_bit-score>
+      <Hsp_score>246</Hsp_score>
+      <Hsp_evalue>8.38052e-21</Hsp_evalue>
+      <Hsp_query-from>274</Hsp_query-from>
+      <Hsp_query-to>542</Hsp_query-to>
+      <Hsp_hit-from>249</Hsp_hit-from>
+      <Hsp_hit-to>512</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>280</Hsp_align-len>
+      <Hsp_qseq>HASARAPV----DMVVWSESSLRYPYEQYRHVYNALPAARPFSAFLRTLGAPLLVG-TPLRLSGNSTKGGYANAVALLRPDGHV---AQVYGKMQMVPFAEFIPWGHMTSVQR-LAQMLAGFSESWTPGPGPRLFHVPCAAGGSVRFATPICYEDAFPSLCAALHTQGSELLINLTNDSWSKTASAEWQHYVVSLFRAIELRTTLVRSTNSGYTVVIGPEGKTRAAFPLFQATSAVLHVPVYPVVR-TYYARMRDWVI-VLCALIFFAEGVRMAVHTRRH</Hsp_qseq>
+      <Hsp_hseq>YYNATAPLMGKSSLIIWPESAIT------DLEINQQPFLKALDGELRDKGSSLVTGIVDARLNKQNRYDTYNTIITLGKGAPYSYESADRYNKNHLVPFGEFVP---LESILRPLAPFFDLPMSSFSRGP---YIQPPLSANG-IELTAAICYEIILGEQVRDNFRPDTDYLLTISNDAWFGKSIGPWQHFQMARMRALELARPLLRSTNNGITAVIGPQGEIQAMIPQF--TREVLTTNVTPTTGLTPYARTGNWPLWVLTALFGFA-AVLMSLRQRRK</Hsp_hseq>
+      <Hsp_midline>+ +A AP+     +++W ES++           N  P  +     LR  G+ L+ G    RL+  +    Y   + L +   +    A  Y K  +VPF EF+P   + S+ R LA        S++ GP       P +A G +     ICYE              ++ L+ ++ND+W   +   WQH+ ++  RA+EL   L+RSTN+G T VIGP+G+ +A  P F  T  VL   V P    T YAR  +W + VL AL  FA  V M++  RR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|46576841|sp|Q8Z8G7.1|LNT_SALTI</Hit_id>
+  <Hit_def>RecName: Full=Apolipoprotein N-acyltransferase; Short=ALP N-acyltransferase; AltName: Full=Copper homeostasis protein CutE</Hit_def>
+  <Hit_accession>Q8Z8G7</Hit_accession>
+  <Hit_len>512</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.3673</Hsp_bit-score>
+      <Hsp_score>246</Hsp_score>
+      <Hsp_evalue>9.0864e-21</Hsp_evalue>
+      <Hsp_query-from>282</Hsp_query-from>
+      <Hsp_query-to>542</Hsp_query-to>
+      <Hsp_hit-from>261</Hsp_hit-from>
+      <Hsp_hit-to>512</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>267</Hsp_align-len>
+      <Hsp_qseq>DMVVWSESSLRYPYEQYRHVYNALPAARPFSAFLRTLGAPLLVG-TPLRLSGNSTKGGYANAVALLRPDGHV---AQVYGKMQMVPFAEFIPWGHMTSVQR-LAQMLAGFSESWTPGPGPRLFHVPCAAGGSVRFATPICYEDAFPSLCAALHTQGSELLINLTNDSWSKTASAEWQHYVVSLFRAIELRTTLVRSTNSGYTVVIGPEGKTRAAFPLFQATSAVLHVPVYPVV-RTYYARMRDWVIVLCALIFFAEGVRMAVHTRRH</Hsp_qseq>
+      <Hsp_hseq>QIIIWPESAI--PDLEI----NQQPFLRSLDEMLREKNSTLITGIVDARLNKQNRYDTYNTIITLGKDNPYSYDSPNRYNKNHLVPFGEFVP---LESILRPLAPFFDLPMSSFSRGP----YIQPQLHAHDYKLTAAICYEIILGEQVRDNFRPDTDYLLTISNDAWFGKSIGPWQHFQMARMRSLELARPLLRSTNNGITAVIGPQGEIQAMIPQF--TRQVLTTKVTPTTGLTPYARTGDWTVWLITVLFGFGALVMSLRQRRK</Hsp_hseq>
+      <Hsp_midline> +++W ES++  P  +     N  P  R     LR   + L+ G    RL+  +    Y   + L + + +       Y K  +VPF EF+P   + S+ R LA        S++ GP    +  P       +    ICYE              ++ L+ ++ND+W   +   WQH+ ++  R++EL   L+RSTN+G T VIGP+G+ +A  P F  T  VL   V P    T YAR  DW + L  ++F    + M++  RR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|117648|sp|P23930.1|LNT_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Apolipoprotein N-acyltransferase; Short=ALP N-acyltransferase; AltName: Full=Copper homeostasis protein CutE</Hit_def>
+  <Hit_accession>P23930</Hit_accession>
+  <Hit_len>512</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.3673</Hsp_bit-score>
+      <Hsp_score>246</Hsp_score>
+      <Hsp_evalue>9.1684e-21</Hsp_evalue>
+      <Hsp_query-from>274</Hsp_query-from>
+      <Hsp_query-to>542</Hsp_query-to>
+      <Hsp_hit-from>249</Hsp_hit-from>
+      <Hsp_hit-to>512</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>280</Hsp_align-len>
+      <Hsp_qseq>HASARAPV----DMVVWSESSLRYPYEQYRHVYNALPAARPFSAFLRTLGAPLLVG-TPLRLSGNSTKGGYANAVALLRPDGHV---AQVYGKMQMVPFAEFIPWGHMTSVQR-LAQMLAGFSESWTPGPGPRLFHVPCAAGGSVRFATPICYEDAFPSLCAALHTQGSELLINLTNDSWSKTASAEWQHYVVSLFRAIELRTTLVRSTNSGYTVVIGPEGKTRAAFPLFQATSAVLHVPVYPVVR-TYYARMRDWVI-VLCALIFFAEGVRMAVHTRRH</Hsp_qseq>
+      <Hsp_hseq>YYNATAPLMGKSSLIIWPESAIT------DLEINQQPFLKALDGELRDKGSSLVTGIVDARLNKQNRYDTYNTIITLGKGAPYSYESADRYNKNHLVPFGEFVP---LESILRPLAPFFDLPMSSFSRGP---YIQPPLSANG-IELTAAICYEIILGEQVRDNFRPDTDYLLTISNDAWFGKSIGPWQHFQMARMRALELARPLLRSTNNGITAVIGPQGEIQAMIPQF--TREVLTTNVTPTTGLTPYARTGNWPLWVLTALFGFA-AVLMSLRQRRK</Hsp_hseq>
+      <Hsp_midline>+ +A AP+     +++W ES++           N  P  +     LR  G+ L+ G    RL+  +    Y   + L +   +    A  Y K  +VPF EF+P   + S+ R LA        S++ GP       P +A G +     ICYE              ++ L+ ++ND+W   +   WQH+ ++  RA+EL   L+RSTN+G T VIGP+G+ +A  P F  T  VL   V P    T YAR  +W + VL AL  FA  V M++  RR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>462628</Statistics_db-num>
+      <Statistics_db-len>173435234</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

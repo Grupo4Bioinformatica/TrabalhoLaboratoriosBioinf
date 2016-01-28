@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>Query_25573</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>284</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_25573</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>284</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|2499090|sp|Q59190.3|URK_BORBU</Hit_id>
+  <Hit_def>RecName: Full=Uridine kinase; AltName: Full=Cytidine monophosphokinase; AltName: Full=Uridine monophosphokinase &gt;gi|226732069|sp|B7J0V4.1|URK_BORBZ RecName: Full=Uridine kinase; AltName: Full=Cytidine monophosphokinase; AltName: Full=Uridine monophosphokinase</Hit_def>
+  <Hit_accession>Q59190</Hit_accession>
+  <Hit_len>206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>0.692697</Hsp_evalue>
+      <Hsp_query-from>107</Hsp_query-from>
+      <Hsp_query-to>176</Hsp_query-to>
+      <Hsp_hit-from>108</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>LIYLEEIVTNLIDTPFSDYQEQVAQIANVSQQQRYYLIRKMGLAIDSIISAYGTNTKW-YWSFVELQARYA</Hsp_qseq>
+      <Hsp_hseq>MIFVEERVRNLIDLKI--YIDTPNDIRFIRRLRR--DISKRGRTVESVIDQYLNTTRWGYYRFIEPTKEYA</Hsp_hseq>
+      <Hsp_midline>+I++EE V NLID     Y +    I  + + +R   I K G  ++S+I  Y   T+W Y+ F+E    YA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|81691598|sp|Q662Z7.1|URK_BORGA</Hit_id>
+  <Hit_def>RecName: Full=Uridine kinase; AltName: Full=Cytidine monophosphokinase; AltName: Full=Uridine monophosphokinase</Hit_def>
+  <Hit_accession>Q662Z7</Hit_accession>
+  <Hit_len>206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>1.44134</Hsp_evalue>
+      <Hsp_query-from>107</Hsp_query-from>
+      <Hsp_query-to>176</Hsp_query-to>
+      <Hsp_hit-from>108</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>LIYLEEIVTNLIDTPFSDYQEQVAQIANVSQQQRYYLIRKMGLAIDSIISAYGTNTKW-YWSFVELQARYA</Hsp_qseq>
+      <Hsp_hseq>MIFVEERVRNLID--LKIYIDTPNDIRFIRRLKR--DISKRGRTLESVIDQYLNTTRWGYYRFIEPTKEYA</Hsp_hseq>
+      <Hsp_midline>+I++EE V NLID     Y +    I  + + +R   I K G  ++S+I  Y   T+W Y+ F+E    YA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|122956438|sp|Q0SPE9.1|URK_BORAP</Hit_id>
+  <Hit_def>RecName: Full=Uridine kinase; AltName: Full=Cytidine monophosphokinase; AltName: Full=Uridine monophosphokinase</Hit_def>
+  <Hit_accession>Q0SPE9</Hit_accession>
+  <Hit_len>207</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>1.78083</Hsp_evalue>
+      <Hsp_query-from>107</Hsp_query-from>
+      <Hsp_query-to>176</Hsp_query-to>
+      <Hsp_hit-from>108</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>LIYLEEIVTNLIDTPFSDYQEQVAQIANVSQQQRYYLIRKMGLAIDSIISAYGTNTKW-YWSFVELQARYA</Hsp_qseq>
+      <Hsp_hseq>MIFVEERVRNLID--LKIYIDTPNDIRFIRRLRRD--ISKRGRTLESVIDQYLNTTRWGYYRFIEPTKEYA</Hsp_hseq>
+      <Hsp_midline>+I++EE V NLID     Y +    I  + + +R   I K G  ++S+I  Y   T+W Y+ F+E    YA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|302425175|sp|D2ATU8.1|PAFA_STRRD</Hit_id>
+  <Hit_def>RecName: Full=Pup--protein ligase; AltName: Full=Proteasome accessory factor A; AltName: Full=Pup-conjugating enzyme</Hit_def>
+  <Hit_accession>D2ATU8</Hit_accession>
+  <Hit_len>452</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>8.48339</Hsp_evalue>
+      <Hsp_query-from>167</Hsp_query-from>
+      <Hsp_query-to>281</Hsp_query-to>
+      <Hsp_hit-from>274</Hsp_hit-from>
+      <Hsp_hit-to>399</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>SFVELQARYATVAKNILDLANSSEIG----------LNP-QADEYETVVYHLRLVKKLLLQAAERYREKYEMTSSSFEDFKLAVCY--LHALRRVHLLLNERQDAEEVKKKAKVWSERMEKDQRKRDR</Hsp_qseq>
+      <Hsp_hseq>SSLEIQQEYLSKARDFVDRRGGDEISHRVLELWERTLNAVETGNLDLVAREIDWVTKY--QLIERYRKKYDLPLSSPRVAQLDLAYHDVHRRRGLFYLLQKRGAVERVASDLKIFEAKSVPPQTTRAR</Hsp_hseq>
+      <Hsp_midline>S +E+Q  Y + A++ +D     EI           LN  +    + V   +  V K   Q  ERYR+KY++  SS    +L + Y  +H  R +  LL +R   E V    K++  +    Q  R R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>462628</Statistics_db-num>
+      <Statistics_db-len>173435234</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

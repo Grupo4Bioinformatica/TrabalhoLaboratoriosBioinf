@@ -1,0 +1,602 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>Query_187743</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>271</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_187743</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>271</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|374110532|sp|A7GRN4.1|DIVIB_BACCN</Hit_id>
+  <Hit_def>RecName: Full=Cell division protein DivIB</Hit_def>
+  <Hit_accession>A7GRN4</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.9878</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>1.24097e-06</Hsp_evalue>
+      <Hsp_query-from>50</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>FVVPATSFAKVEFSGNVTISPEYLMKAAGLTGKEKWMSLDGFTISERLASVPLLAQVEVLKKFPDTMHVHVVERVAIALGFVHVQGRAMP-VQIDKTGTVFSVGTAPLDTVLPVVSGLEFRNPRVGLRVHDQLVPLFVQLDNLSKRNPLLLGEISEISIEQKRHGGYDLALYL</Hsp_qseq>
+      <Hsp_hseq>FRSPLSNIKKISVFGNHYMTDEQVMEKSGITYKTSYFRVTARQAEENLKKQIEIKSVDVKKRFPNKIDIHIEEYVTI--GYINKNGKLQPLLENGKTLDILPSGKLPV--AAPIFEPFK----------EEKMKELISELEKLT---PTILRSISEIRYTPTTSNESHLTLYM</Hsp_hseq>
+      <Hsp_midline>F  P ++  K+   GN  ++ E +M+ +G+T K  +  +      E L     +  V+V K+FP+ + +H+ E V I  G+++  G+  P ++  KT  +   G  P+    P+    +           +++  L  +L+ L+   P +L  ISEI           L LY+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|81433820|sp|Q819Q5.1|DIVIB_BACCR</Hit_id>
+  <Hit_def>RecName: Full=Cell division protein DivIB</Hit_def>
+  <Hit_accession>Q819Q5</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.6026</Hsp_bit-score>
+      <Hsp_score>122</Hsp_score>
+      <Hsp_evalue>1.74631e-06</Hsp_evalue>
+      <Hsp_query-from>50</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>FVVPATSFAKVEFSGNVTISPEYLMKAAGLTGKEKWMSLDGFTISERLASVPLLAQVEVLKKFPDTMHVHVVERVAIALGFVHVQGRAMP-VQIDKTGTVFSVGTAPLDTVLPVVSGLEFRNPRVGLRVHDQLVPLFVQLDNLSKRNPLLLGEISEISIEQKRHGGYDLALYL</Hsp_qseq>
+      <Hsp_hseq>FRSPLSNIKKISVFGNHYMTDEQVMKDSGVTYDTSYFRVTAHKAEENLTKRKEIKAVNVKKRFPNNIDIHIEEYLTI--GYINKEGKLQPLLENGKTLDVLPNGKLPV--AAPIFEPFK----------EEKMKELIAELEKLT---PAILKSISEIRYSPTNANEDHLTLYM</Hsp_hseq>
+      <Hsp_midline>F  P ++  K+   GN  ++ E +MK +G+T    +  +      E L     +  V V K+FP+ + +H+ E + I  G+++ +G+  P ++  KT  V   G  P+    P+    +           +++  L  +L+ L+   P +L  ISEI           L LY+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|363579875|sp|B9M176.1|FTSQ_GEODF</Hit_id>
+  <Hit_def>RecName: Full=Cell division protein FtsQ</Hit_def>
+  <Hit_accession>B9M176</Hit_accession>
+  <Hit_len>275</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.6026</Hsp_bit-score>
+      <Hsp_score>122</Hsp_score>
+      <Hsp_evalue>1.8781e-06</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>255</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>255</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>VLCVEFVFYLFVVPATSFA--KVEFSGNVTISPEYLMKAAGLTGKEKWMSLDGFTISERLASVPLLAQVEVLKKFPDTMHVHVVERVAIA---LGFVHVQGRAMPVQIDKTGTVFSVGTAPLDTVLPVVSGLE----FRNPRVGLRVHDQLVPLFVQLDNLSKRNPLLLGEISEISIEQKRHGGYDLALYLVRAPIRVRMDKNLSEEKLRYVILLVDALREWQTQ</Hsp_qseq>
+      <Hsp_hseq>VGCAGYGIYRIIAGTTFFKLERIEVSELKTLKRQEIIDLAGVREGDGMFGLRLRSIGEQIGKNPWVSRVEVRRYLPNTLSMQIAERQPVAVINMGYLYY--------LDANGDVFKPLTEGDQLDYPVITGISEEDIARDPAGSKGALKEVLELIAHLKS---RADFKLDEVSEIHYDK----GYGVTLFTAAAGVPVKLG---SGDYSRKLDRLARIYKELQTQ</Hsp_hseq>
+      <Hsp_midline>V C  +  Y  +   T F   ++E S   T+  + ++  AG+   +    L   +I E++   P +++VEV +  P+T+ + + ER  +A   +G+++         +D  G VF   T       PV++G+      R+P        +++ L   L +   R    L E+SEI  ++    GY + L+   A + V++    S +  R +  L    +E QTQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|122539742|sp|Q2FZ91.1|DIVIB_STAA8</Hit_id>
+  <Hit_def>RecName: Full=Cell division protein DivIB</Hit_def>
+  <Hit_accession>Q2FZ91</Hit_accession>
+  <Hit_len>439</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.6026</Hsp_bit-score>
+      <Hsp_score>122</Hsp_score>
+      <Hsp_evalue>2.6522e-06</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>175</Hsp_hit-from>
+      <Hsp_hit-to>278</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>VIVILLLVLCVEFVFYLFVVPATSFAKVEFSGNVTISPEYLMKAAGLTGKEKWMSLDGFTISERLASVPLLAQVEVLKKFPDTMHVHVVERVAIALGFVHVQGRAMPV</Hsp_qseq>
+      <Hsp_hseq>VITILVLLIAV-ILIYMFS-PLSKIAHVNINGNNHVSTSKINKVLGVKNDSRMYTFSKKNAINDLEENPLIKSVEIHKQLPNTLNVDITENEIIAL--VKYKGKYLPL</Hsp_hseq>
+      <Hsp_midline>VI IL+L++ V  + Y+F  P +  A V  +GN  +S   + K  G+    +  +         L   PL+  VE+ K+ P+T++V + E   IAL  V  +G+ +P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|81715529|sp|Q81WD2.1|DIVIB_BACAN</Hit_id>
+  <Hit_def>RecName: Full=Cell division protein DivIB</Hit_def>
+  <Hit_accession>Q81WD2</Hit_accession>
+  <Hit_len>265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>3.11163e-06</Hsp_evalue>
+      <Hsp_query-from>50</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>FVVPATSFAKVEFSGNVTISPEYLMKAAGLTGKEKWMSLDGFTISERLASVPLLAQVEVLKKFPDTMHVHVVERVAIALGFVHVQGRAMP-VQIDKTGTVFSVGTAPLDTVLPVVSGLEFRNPRVGLRVHDQLVPLFVQLDNLSKRNPLLLGEISEISIEQKRHGGYDLALYL</Hsp_qseq>
+      <Hsp_hseq>FRSPLSNIKKISVFGNHYMTDEQVMKESGVTYDTSYFRVTAHKAEENLTKRKEIKAVNVKKRFPNKIDVHIEEYLTI--GYINKDGKLQPLLENGKTLDVLPNGKLPV--AAPIFEPFK----------EEKMKELIAELEKLT---PTILRSISEIRYSPTNANEDHLTLYM</Hsp_hseq>
+      <Hsp_midline>F  P ++  K+   GN  ++ E +MK +G+T    +  +      E L     +  V V K+FP+ + VH+ E + I  G+++  G+  P ++  KT  V   G  P+    P+    +           +++  L  +L+ L+   P +L  ISEI           L LY+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|81651297|sp|Q6GHQ1.1|DIVIB_STAAR</Hit_id>
+  <Hit_def>RecName: Full=Cell division protein DivIB</Hit_def>
+  <Hit_accession>Q6GHQ1</Hit_accession>
+  <Hit_len>440</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.2174</Hsp_bit-score>
+      <Hsp_score>121</Hsp_score>
+      <Hsp_evalue>3.39135e-06</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>176</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>VIVILLLVLCVEFVFYLFVVPATSFAKVEFSGNVTISPEYLMKAAGLTGKEKWMSLDGFTISERLASVPLLAQVEVLKKFPDTMHVHVVERVAIALGFVHVQGRAMPV</Hsp_qseq>
+      <Hsp_hseq>VITILVLLIAV-ILIYMFS-PLSKIAHVNINGNNHVSTSKINKVLGVKNDSRMYTFSKKNAINDLEEDPLIKSVEIHKQLPNTLNVDITENEIIAL--VKYKGKYLPL</Hsp_hseq>
+      <Hsp_midline>VI IL+L++ V  + Y+F  P +  A V  +GN  +S   + K  G+    +  +         L   PL+  VE+ K+ P+T++V + E   IAL  V  +G+ +P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|81347686|sp|Q5L0X5.1|DIVIB_GEOKA</Hit_id>
+  <Hit_def>RecName: Full=Cell division protein DivIB</Hit_def>
+  <Hit_accession>Q5L0X5</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1358</Hsp_bit-score>
+      <Hsp_score>113</Hsp_score>
+      <Hsp_evalue>2.28379e-05</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>ILLLVLCVEFVFYLFVVPATSFAKVEFSGNVTISPEYLMKAAGLTGKEKWMSLDGFTISERLASVPLLAQVEVLKKFPDTMHVHVVERVAIALGFVHVQGRAMPVQIDKTGTVF---SVGTAPLDTVLPVVSGLEFRNPRVGLRVHDQLVPLFVQLDNLSKRNPLLLGEISEISIEQKRHGGYDLALYL-----VRAPIRVRMDK</Hsp_qseq>
+      <Hsp_hseq>FFLFILCVLY----FQSPLGAVGHVEVSGNRHLTAERIISLSGITKRTSFWKVNEQNVEKKLTRHPEIKEATVEKQLPNTIAIHVREWRRIA----YVYDRQTFFPLLENGRLLKQEGTKTAPSDA--PVL---------VGWKDGDAIAEMTGQLAELPA---AVLGAMSEIHYKPTREYEDRVIVYMNDGYEVSATIRQFADK</Hsp_hseq>
+      <Hsp_midline>  L +LCV +    F  P  +   VE SGN  ++ E ++  +G+T +  +  ++   + ++L   P + +  V K+ P+T+ +HV E   IA    +V  R     + + G +       TAP D   PV+         VG +  D +  +  QL  L      +LG +SEI  +  R     + +Y+     V A IR   DK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|374110548|sp|E0RGM4.1|DIVIB_PAEP6</Hit_id>
+  <Hit_def>RecName: Full=Cell division protein DivIB</Hit_def>
+  <Hit_accession>E0RGM4</Hit_accession>
+  <Hit_len>254</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>6.07886e-05</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>AKVEFSGNVTISPEYLMKAAGLTGKEKWMSLDGFTISERLASVPLLAQVEVLKKFPDTMHVHVVERVAIALGFVHVQGRAMPVQIDKTGTVFSVGTAPLDTVLPVVSGLEFRNP</Hsp_qseq>
+      <Hsp_hseq>SEIRFDGNVFSTRDQLLNRSGLAVGDQYFGVSSSDISEKLREIQSIQQVTVDKQFPGIIAIHIKEFATVAY---ELQSDGSLRAILANGTSVSVGSSGIAVEKPILTKWRSDDP</Hsp_hseq>
+      <Hsp_midline>+++ F GNV  + + L+  +GL   +++  +    ISE+L  +  + QV V K+FP  + +H+ E   +A     +Q       I   GT  SVG++ +    P+++     +P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|363579883|sp|A0R014.1|FTSQ_MYCS2</Hit_id>
+  <Hit_def>RecName: Full=Cell division protein FtsQ</Hit_def>
+  <Hit_accession>A0R014</Hit_accession>
+  <Hit_len>333</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>6.67545e-05</Hsp_evalue>
+      <Hsp_query-from>50</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>138</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>FVVPATSFAKVEFSGNVTISPEYLMKAAGLTGKEKWMSLDGFTISERLASVPLLAQVEVLKKFPDTMHVHVVERVAIALGFVHVQGRAMPVQIDKTGTVFSVGTAPLDTVLPVVSGLEFRNP</Hsp_qseq>
+      <Hsp_hseq>YFTPIMSARNVEVSGLAEIPQEEVLTAAAVAPGTPLLQVDTDAVAERVATIRRVATARVQREYPSTLKISIVERVPVVVKD-YPDG---PHLFDRDGVDFATGPAPL--ALPY---LDADNP</Hsp_hseq>
+      <Hsp_midline>+  P  S   VE SG   I  E ++ AA +      + +D   ++ER+A++  +A   V +++P T+ + +VERV + +   +  G   P   D+ G  F+ G APL   LP    L+  NP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|81701146|sp|Q748D9.1|FTSQ_GEOSL</Hit_id>
+  <Hit_def>RecName: Full=Cell division protein FtsQ</Hit_def>
+  <Hit_accession>Q748D9</Hit_accession>
+  <Hit_len>276</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.4394</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>0.00018653</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>251</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>255</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>200</Hsp_align-len>
+      <Hsp_qseq>KVEFSGNVTISPEYLMKAAGLTGKEKWMSLDGFTISERLASVPLLAQVEVLKKFPDTMHVHVVERVAIA---LGFVHVQGRAMPVQIDKTGTVFSVGTAPLDTVLPVVSGLE----FRNPRVGLRVHDQLVPLFVQLDNLSKRNPLLLGEISEISIEQKRHGGYDLALYLVRAPIRVRMDKNLSEEKLRYVILLVDALRE</Hsp_qseq>
+      <Hsp_hseq>EIEVSKLQRLKRDDVIAQAGVRPGDSMLGLRLRDIGSQLAKNPWIDKVQVRRYFPHTLAIEVVERVPVAVVNMGFLYY--------MDAGGTVFKPLTQGDSLDYPVITGVAEEDLARDP-VGTR--EALKGAVALMDQLRRGKEFTLADVSEIHLDK----GFGLTLFTAAGGVPVRLGNGGYEAKLARFVRIYGELRE</Hsp_hseq>
+      <Hsp_midline>++E S    +  + ++  AG+   +  + L    I  +LA  P + +V+V + FP T+ + VVERV +A   +GF++         +D  GTVF   T       PV++G+      R+P VG R  + L      +D L +     L ++SEI +++    G+ L L+     + VR+     E KL   + +   LRE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|374110535|sp|A5I1U0.1|DIVIB_CLOBH</Hit_id>
+  <Hit_def>RecName: Full=Cell division protein DivIB</Hit_def>
+  <Hit_accession>A5I1U0</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.669</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>0.000317727</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>180</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>VLKVVIVILLLVLCVEFVFYLFVVPATSFAKVEFSGNVTISPEYLMKAAGLTGKEKWMSLDGFTISERLASVPLLAQVEVLKKFPDTMHVHVVERVAIALGFVHVQGRAMPVQIDKTGTVFSVGTAPLDTVLPVVSGLEFRNPRVG--LRVHDQ</Hsp_qseq>
+      <Hsp_hseq>VLFIFLISILVTLCLK-------IPYFNIESIEIKGNVNIPKEVIKDSSTIKTGNNIFYTNKKDAIENISLNPYIEEVKITKKLPNKLQIYVKEREAL---FYNKVDNDFFI-ISKNGCVLEKRKEIKNMKLINLQGFEFNESKIGSALKAKDE</Hsp_hseq>
+      <Hsp_midline>VL + ++ +L+ LC++       +P  +   +E  GNV I  E +  ++ +         +     E ++  P + +V++ KK P+ + ++V ER A+   F +       + I K G V        +  L  + G EF   ++G  L+  D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|374110536|sp|B1L171.1|DIVIB_CLOBM</Hit_id>
+  <Hit_def>RecName: Full=Cell division protein DivIB</Hit_def>
+  <Hit_accession>B1L171</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>0.000447492</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>180</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>VLKVVIVILLLVLCVEFVFYLFVVPATSFAKVEFSGNVTISPEYLMKAAGLTGKEKWMSLDGFTISERLASVPLLAQVEVLKKFPDTMHVHVVERVAIALGFVHVQGRAMPVQIDKTGTVFSVGTAPLDTVLPVVSGLEFRNPRVG--LRVHDQ</Hsp_qseq>
+      <Hsp_hseq>VLFIFLISILVTLCLK-------IPYFNIESIEIKGNVNIPKEIIKDSSTIKTGNNIFYTNKKDAIENISLNPYIEEVKITKKLPNKLEIYVKEREAL---FYNKVDKDFFI-ISKNGCLLEKRKEIKNMKLINLQGFEFNESKIGSALKAKDE</Hsp_hseq>
+      <Hsp_midline>VL + ++ +L+ LC++       +P  +   +E  GNV I  E +  ++ +         +     E ++  P + +V++ KK P+ + ++V ER A+   F +   +   + I K G +        +  L  + G EF   ++G  L+  D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|75542259|sp|Q894C1.1|DIVIB_CLOTE</Hit_id>
+  <Hit_def>RecName: Full=Cell division protein DivIB</Hit_def>
+  <Hit_accession>Q894C1</Hit_accession>
+  <Hit_len>265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.743</Hsp_bit-score>
+      <Hsp_score>99</Hsp_score>
+      <Hsp_evalue>0.00131716</Hsp_evalue>
+      <Hsp_query-from>50</Hsp_query-from>
+      <Hsp_query-to>180</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>FVVPATSFAKVEFSGNVTISPEYLMKAAGLTGKEKWMSLDGFTISERLASVPLLAQVEVLKKFPDTMHVHVVERVAIALGFVHVQGRAMPVQIDKTGTVFSVGTAPLDTVLPVVSGLEFRNPRVGLRVHDQ</Hsp_qseq>
+      <Hsp_hseq>FKHPFFNVKIVEVKDNKSIKKESIIKSSQISNENNIFYLNLNNVKNNIMSNPYILDAQIKRKLPNKIVIHIKERVAL----YYIEKDKKFYIIDNNGYVLEKKDNIKNMKLVRVDGIKKKDYNVGEPIFEQ</Hsp_hseq>
+      <Hsp_midline>F  P  +   VE   N +I  E ++K++ ++ +     L+   +   + S P +   ++ +K P+ + +H+ ERVA+     +++       ID  G V        +  L  V G++ ++  VG  + +Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|363579884|sp|F8CLT8.1|FTSQ_MYXFH</Hit_id>
+  <Hit_def>RecName: Full=Cell division protein FtsQ</Hit_def>
+  <Hit_accession>F8CLT8</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.3578</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>0.00205485</Hsp_evalue>
+      <Hsp_query-from>48</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>YLFVVPATSFAKVEFSGNVTISPEYLMKAAGLTGKEKWMSLDGFTISERLASVPLLAQVEVLKKFPDTMHVHVVERVAIA---LGFVHVQGRAMPVQIDKTGTVFSVGTAPLDTVLPVVSGLE</Hsp_qseq>
+      <Hsp_hseq>WTLTSPRFELEAVSFSGLQRASRVELLRLAALTKGQNLWTLDVDALERAMDQHPWLRTVEVTRRFPNRVSVEVTEHTPVAMAVLGELYV--------LDEEGEPFKRVTPGDGLDLPLVTGLD</Hsp_hseq>
+      <Hsp_midline>+    P      V FSG    S   L++ A LT  +   +LD   +   +   P L  VEV ++FP+ + V V E   +A   LG ++V        +D+ G  F   T      LP+V+GL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|123573745|sp|Q3A2H0.1|FTSQ_PELCD</Hit_id>
+  <Hit_def>RecName: Full=Cell division protein FtsQ</Hit_def>
+  <Hit_accession>Q3A2H0</Hit_accession>
+  <Hit_len>282</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.00306228</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>59</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>LFVVPATSFAKVEFSGNVTISPEYLMKAAGLTGKEKWMSLDGFTISERLASVPLLAQVEVLKKFPDTMHVHVVERVAIA---LGFVHVQGRAMPVQIDKTGTVFSVGTAPLDTVLPVVSGLEFRNPRVGLRVH-DQLVPLFVQLDNLSKRNPLLLGEISEISIEQKRHGGYDLALYLVRAPIRVRMDKNLSEEKL</Hsp_qseq>
+      <Hsp_hseq>LFASDYFKVERIQVENNRRIGREEILALSDICPGTNIFELDLERVSTRIEKNPWIASARVRRMFPDQLVIRVDERIPKAIVRLDFMYY--------LDASGHVFKRLEKGDRLDFPVISGVDRQALLEGNEATLSQIDKALRLLDRLDGRKIFAIDDVSELSLDDT----TGITLYTCIGGVPVRMGHDDYNSKL</Hsp_hseq>
+      <Hsp_midline>LF        +++   N  I  E ++  + +        LD   +S R+   P +A   V + FPD + + V ER+  A   L F++         +D +G VF           PV+SG++ +    G      Q+      LD L  R    + ++SE+S++        + LY     + VRM  +    KL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|363579876|sp|C6DZL0.1|FTSQ_GEOSM</Hit_id>
+  <Hit_def>RecName: Full=Cell division protein FtsQ</Hit_def>
+  <Hit_accession>C6DZL0</Hit_accession>
+  <Hit_len>274</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.00743375</Hsp_evalue>
+      <Hsp_query-from>60</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>70</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>VEFSGNVTISPEYLMKAAGLTGKEKWMSLDGFTISERLASVPLLAQVEVLKKFPDTMHVHVVERVAIALGFVHVQGRAMPVQIDKTGTVFSVGTAPLDTVLPVVSGLE----FRNPRVGLRVHDQLVPLFVQLDNLSKRNPLLLGEISEISIEQKRHGGYDLALYLVRAPIRVRMDKNLSEEKL</Hsp_qseq>
+      <Hsp_hseq>IEVSPLKRVSREEIITLAGVRPGDSMLKVDLKTVVARLSKNPWLEEVQVRRYFPHTLSITVSERAPQAVANV-----GCLYYLDDKGVLFKSLVEGDRLDYPLITGFTEEELAQDPK---GCQEALKNALALIDTLKNGGVFSLEDISEIHYSK----GYGFTLFTMQGGVPVKLGNGGFGEKL</Hsp_hseq>
+      <Hsp_midline>+E S    +S E ++  AG+   +  + +D  T+  RL+  P L +V+V + FP T+ + V ER   A+  V          +D  G +F           P+++G       ++P+      + L      +D L       L +ISEI   +    GY   L+ ++  + V++      EKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|81416475|sp|Q7CR81.1|FTSQ_SALTY</Hit_id>
+  <Hit_def>RecName: Full=Cell division protein FtsQ</Hit_def>
+  <Hit_accession>Q7CR81</Hit_accession>
+  <Hit_len>276</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.0118145</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>164</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>IVILLLVLCVEFVFYLFVVPATS------FAKVEFSGNVTISPEYLMKAA--GLTGKEKWMSLDGFTISERLASVPLLAQVEVLKKFPDTMHVHVVERVAIA-LGFVHVQGRAMPVQIDKTGTVFSVGTAPLD----TVLPVVSGLE</Hsp_qseq>
+      <Hsp_hseq>ILFLLTVLCTVFVSGWVVLGWMEDAQRLPLSKLVLTGERHYTRNDDIRQAILALGAPGTFMTQDVNIIQSQIERLPWIKQASVRKQWPDELKIHLVEYVPIARWNDQHM--------VDAEGNTFSV---PSDRIGKQVLPMLYGPE</Hsp_hseq>
+      <Hsp_midline>I+ LL VLC  FV    V+           +K+  +G    +    ++ A   L     +M+ D   I  ++  +P + Q  V K++PD + +H+VE V IA     H+        +D  G  FSV   P D     VLP++ G E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|81544450|sp|Q9KPG9.1|FTSQ_VIBCH</Hit_id>
+  <Hit_def>RecName: Full=Cell division protein FtsQ</Hit_def>
+  <Hit_accession>Q9KPG9</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.0128487</Hsp_evalue>
+      <Hsp_query-from>86</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>MSLDGFTISERLASVPLLAQVEVLKKFPDTMHVHVVERVAIALGFVHVQGRAMPVQIDKTGTVFSVGTAPLDTVLPVVSGLEFRNPRVGLRVHDQLVPLFVQL</Hsp_qseq>
+      <Hsp_hseq>MSQDINVLQESVQSIPWVSHASIRKQWPDTIKVYLTEYQVEALWNAN-------ALLDKNGTVFYGDIARVNGEYVKLYGPDGTAPQV-LKAWRDYNPKFAQL</Hsp_hseq>
+      <Hsp_midline>MS D   + E + S+P ++   + K++PDT+ V++ E    AL   +         +DK GTVF    A ++     + G +   P+V L+      P F QL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|123777893|sp|Q7CGB1.1|FTSQ_YERPE</Hit_id>
+  <Hit_def>RecName: Full=Cell division protein FtsQ</Hit_def>
+  <Hit_accession>Q7CGB1</Hit_accession>
+  <Hit_len>275</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.0161409</Hsp_evalue>
+      <Hsp_query-from>86</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>89</Hsp_hit-from>
+      <Hsp_hit-to>164</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>MSLDGFTISERLASVPLLAQVEVLKKFPDTMHVHVVERVAIA-LGFVHVQGRAMPVQIDKTGTVFSVGTAPL-DTVLPVVSGLE</Hsp_qseq>
+      <Hsp_hseq>MTQDVNIIQQQIERLPWIQQASVRKQWPDELKIHLVEYVPFARWNDLHM--------IDEQGRSFSVPSERMGKQVLPLLYGPE</Hsp_hseq>
+      <Hsp_midline>M+ D   I +++  +P + Q  V K++PD + +H+VE V  A    +H+        ID+ G  FSV +  +   VLP++ G E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|54037131|sp|P64169.1|FTSQ_MYCBO</Hit_id>
+  <Hit_def>RecName: Full=Cell division protein FtsQ &gt;gi|613781204|sp|P9WNA1.1|FTSQ_MYCTU RecName: Full=Cell division protein FtsQ &gt;gi|614115306|sp|P9WNA0.1|FTSQ_MYCTO RecName: Full=Cell division protein FtsQ</Hit_def>
+  <Hit_accession>P64169</Hit_accession>
+  <Hit_len>314</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.0338757</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>104</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>VILLLVLCVEFVFYLFVVPATSFAKVEFSGNVTISPEYLMKAAGLTGKEKWMSLDGFTISERLASVPLLAQVEVLKKFPDTMHVHVVERVAI</Hsp_qseq>
+      <Hsp_hseq>TVVLAVVGIGLGLALYFTPAMSAREIVIIGIGAVSREEVLDAARVRPATPLLQIDTQQVADRVATIRRVASARVQRQYPSALRITIVERVPV</Hsp_hseq>
+      <Hsp_midline> ++L V+ +     L+  PA S  ++   G   +S E ++ AA +      + +D   +++R+A++  +A   V +++P  + + +VERV +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>462628</Statistics_db-num>
+      <Statistics_db-len>173435234</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

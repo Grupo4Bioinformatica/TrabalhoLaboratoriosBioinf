@@ -1,0 +1,378 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>Query_202719</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>126</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_202719</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>126</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|4033382|sp|O07888.1|FLIL_TREPA</Hit_id>
+  <Hit_def>RecName: Full=Flagellar protein FliL</Hit_def>
+  <Hit_accession>O07888</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.000309209</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>180</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>THSAPRETQTRRTTRGIAQRESAHAVYAELGRLRALSADKQPVSVIITPLLQYPAADHALYEELVQKKEQLRRASLAWCAQHTAQELHMLGPEQLKIALRDALNTQ-LSLGRVTHVFLEEFIIL</Hsp_qseq>
+      <Hsp_hseq>SHTAYPVSQEFRESRELLQ------YYESVGLIRTNTADALPGTVVVSVALGYPLNDKTAQQELSARLVELKDFLRSYFQRKTLSELRPEHEQKVKIEIRNEINDNVLSRSKVKDIRFTQFDVL</Hsp_hseq>
+      <Hsp_midline>+H+A   +Q  R +R + Q       Y  +G +R  +AD  P +V+++  L YP  D    +EL  +  +L+    ++  + T  EL     +++KI +R+ +N   LS  +V  +   +F +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|6225363|sp|O67712.1|FLIL_AQUAE</Hit_id>
+  <Hit_def>RecName: Full=Flagellar protein FliL</Hit_def>
+  <Hit_accession>O67712</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.00706723</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>90</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>AADHALYEELVQKKEQLRRASLAWCAQHTAQELHML-GPEQLKIALRDALNTQLSLGRVTHVFLEEFII</Hsp_qseq>
+      <Hsp_hseq>VANQQVLQEVQKKEPVIRDAIIEIISSKTSNEIRTPEGREQLKLEVLKRINTILSEGGVRNVYFTEFVI</Hsp_hseq>
+      <Hsp_midline> A+  + +E+ +K+  +R A +   +  T+ E+    G EQLK+ +   +NT LS G V +V+  EF+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|120341|sp|P23452.1|FLIL_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Flagellar protein FliL</Hit_def>
+  <Hit_accession>P23452</Hit_accession>
+  <Hit_len>140</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>0.258226</Hsp_evalue>
+      <Hsp_query-from>64</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>EELVQKKEQLRRASLAWCAQHTAQELHM-LGPEQLKIALRDALNTQLSLGRVTHVFLEEF</Hsp_qseq>
+      <Hsp_hseq>EELEKRDFQVKDAVISLLADTNADQIEGDKGKETFKKELKDKINSYLQEGKVEKVYITSF</Hsp_hseq>
+      <Hsp_midline>EEL ++  Q++ A ++  A   A ++    G E  K  L+D +N+ L  G+V  V++  F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|122241485|sp|Q0PGJ6.1|AKRC9_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Aldo-keto reductase family 4 member C9</Hit_def>
+  <Hit_accession>Q0PGJ6</Hit_accession>
+  <Hit_len>315</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.87792</Hsp_evalue>
+      <Hsp_query-from>62</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>65</Hsp_hit-from>
+      <Hsp_hit-to>102</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>LYEELVQKKEQLRRASLAWCAQHTAQELHMLGPEQLKIALRD</Hsp_qseq>
+      <Hsp_hseq>LFEDRVVKREDLFITSKLWCTDHDPQDV----PEALNRTLKD</Hsp_hseq>
+      <Hsp_midline>L+E+ V K+E L   S  WC  H  Q++    PE L   L+D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|302595691|sp|B0B9A0.1|CDUB1_CHLT2</Hit_id>
+  <Hit_def>RecName: Full=Deubiquitinase and deneddylase Dub1; Short=ChlaDub1</Hit_def>
+  <Hit_accession>B0B9A0</Hit_accession>
+  <Hit_len>401</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>2.31608</Hsp_evalue>
+      <Hsp_query-from>55</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>319</Hsp_hit-from>
+      <Hsp_hit-to>366</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>YPAADHALYEELVQKKEQLRRASLAWCAQHTAQELHMLGPEQLKIALRDALN</Hsp_qseq>
+      <Hsp_hseq>YPAYDSKKFSVKIAAKEVIQRGSGSSCGAWCCQFLHWY----LKDPLTDALN</Hsp_hseq>
+      <Hsp_midline>YPA D   +   +  KE ++R S + C     Q LH      LK  L DALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|3024669|sp|Q03770.1|SSY1_YEAST</Hit_id>
+  <Hit_def>RecName: Full=SPS-sensor component SSY1; AltName: Full=Amino-acid permease homolog SSY1</Hit_def>
+  <Hit_accession>Q03770</Hit_accession>
+  <Hit_len>852</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>2.96283</Hsp_evalue>
+      <Hsp_query-from>52</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>LLQYPAADHALYEELVQKKEQLRRASLAWCAQHTAQELHMLGPEQLKIALRDALNTQLS-LGRVTHVF</Hsp_qseq>
+      <Hsp_hseq>IYQEPIQDFQTYNKRVQREYELRERMEEFFRQNTKNDLHILN--------EDSLNQQYSPLGPADYVL</Hsp_hseq>
+      <Hsp_midline>+ Q P  D   Y + VQ++ +LR     +  Q+T  +LH+L          D+LN Q S LG   +V </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|81705824|sp|Q7A621.1|BSHC_STAAN</Hit_id>
+  <Hit_def>RecName: Full=Putative cysteine ligase BshC &gt;gi|81781730|sp|Q99UT3.1|BSHC_STAAM RecName: Full=Putative cysteine ligase BshC &gt;gi|239977739|sp|A5IS63.1|BSHC_STAA9 RecName: Full=Putative cysteine ligase BshC &gt;gi|239977740|sp|A6U0Z7.1|BSHC_STAA2 RecName: Full=Putative cysteine ligase BshC &gt;gi|239977751|sp|A7X1B5.1|BSHC_STAA1 RecName: Full=Putative cysteine ligase BshC</Hit_def>
+  <Hit_accession>Q7A621</Hit_accession>
+  <Hit_len>537</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>6.94937</Hsp_evalue>
+      <Hsp_query-from>48</Hsp_query-from>
+      <Hsp_query-to>99</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>75</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>IITPLLQYPAADHALYEELVQKKEQLRRASLAWCAQHTAQELHMLGPEQLKI</Hsp_qseq>
+      <Hsp_hseq>VITGLFQYDAAQQTSFEKRMSKENNGREAALANVIREYMSDLKLSNEQELNI</Hsp_hseq>
+      <Hsp_midline>+IT L QY AA    +E+ + K+   R A+LA   +    +L +   ++L I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|81694686|sp|Q5HGQ4.1|BSHC_STAAC</Hit_id>
+  <Hit_def>RecName: Full=Putative cysteine ligase BshC</Hit_def>
+  <Hit_accession>Q5HGQ4</Hit_accession>
+  <Hit_len>537</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>7.152</Hsp_evalue>
+      <Hsp_query-from>48</Hsp_query-from>
+      <Hsp_query-to>99</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>75</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>IITPLLQYPAADHALYEELVQKKEQLRRASLAWCAQHTAQELHMLGPEQLKI</Hsp_qseq>
+      <Hsp_hseq>VITGLFQYDAAQQTSFEKRMSKENNGREAALANVIREYMSDLKLSSEQELNI</Hsp_hseq>
+      <Hsp_midline>+IT L QY AA    +E+ + K+   R A+LA   +    +L +   ++L I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|81649453|sp|Q6GA35.1|BSHC_STAAS</Hit_id>
+  <Hit_def>RecName: Full=Putative cysteine ligase BshC &gt;gi|81762588|sp|Q8NX38.1|BSHC_STAAW RecName: Full=Putative cysteine ligase BshC &gt;gi|123486282|sp|Q2FHR0.1|BSHC_STAA3 RecName: Full=Putative cysteine ligase BshC &gt;gi|239977722|sp|A6QG77.1|BSHC_STAAE RecName: Full=Putative cysteine ligase BshC &gt;gi|239977723|sp|A8Z3L8.1|BSHC_STAAT RecName: Full=Putative cysteine ligase BshC</Hit_def>
+  <Hit_accession>Q6GA35</Hit_accession>
+  <Hit_len>537</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>7.29033</Hsp_evalue>
+      <Hsp_query-from>48</Hsp_query-from>
+      <Hsp_query-to>99</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>75</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>IITPLLQYPAADHALYEELVQKKEQLRRASLAWCAQHTAQELHMLGPEQLKI</Hsp_qseq>
+      <Hsp_hseq>VITGLFQYDAAQQTSFEKRMSKENNGREAALANVIREYMSDLKLSSEQELNI</Hsp_hseq>
+      <Hsp_midline>+IT L QY AA    +E+ + K+   R A+LA   +    +L +   ++L I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|123549022|sp|Q2YXE5.1|BSHC_STAAB</Hit_id>
+  <Hit_def>RecName: Full=Putative cysteine ligase BshC</Hit_def>
+  <Hit_accession>Q2YXE5</Hit_accession>
+  <Hit_len>537</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>7.29033</Hsp_evalue>
+      <Hsp_query-from>48</Hsp_query-from>
+      <Hsp_query-to>99</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>75</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>IITPLLQYPAADHALYEELVQKKEQLRRASLAWCAQHTAQELHMLGPEQLKI</Hsp_qseq>
+      <Hsp_hseq>VITGLFQYDAAQQTSFEKRMSKENNGREAALANVIREYMSDLKLSSEQELNI</Hsp_hseq>
+      <Hsp_midline>+IT L QY AA    +E+ + K+   R A+LA   +    +L +   ++L I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|385178640|sp|B9DFX7.1|HMA8_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Copper-transporting ATPase PAA2, chloroplastic; AltName: Full=Protein HEAVY METAL ATPASE 8; Flags: Precursor</Hit_def>
+  <Hit_accession>B9DFX7</Hit_accession>
+  <Hit_len>883</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>9.3105</Hsp_evalue>
+      <Hsp_query-from>63</Hsp_query-from>
+      <Hsp_query-to>93</Hsp_query-to>
+      <Hsp_hit-from>161</Hsp_hit-from>
+      <Hsp_hit-to>202</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>YEELVQKKEQL-----RRASLAW------CAQHTAQELHMLG</Hsp_qseq>
+      <Hsp_hseq>WKEMVSKKEDLLVKSRNRVAFAWTLVALCCGSHTSHILHSLG</Hsp_hseq>
+      <Hsp_midline>++E+V KKE L      R + AW      C  HT+  LH LG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|81651300|sp|Q6GHQ8.1|BSHC_STAAR</Hit_id>
+  <Hit_def>RecName: Full=Putative cysteine ligase BshC</Hit_def>
+  <Hit_accession>Q6GHQ8</Hit_accession>
+  <Hit_len>537</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>9.80633</Hsp_evalue>
+      <Hsp_query-from>48</Hsp_query-from>
+      <Hsp_query-to>99</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>75</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>IITPLLQYPAADHALYEELVQKKEQLRRASLAWCAQHTAQELHMLGPEQLKI</Hsp_qseq>
+      <Hsp_hseq>VITGLFQYDAAQQISFEKRMSKENNGREAALANVIREYMNDLKLSSEQELNI</Hsp_hseq>
+      <Hsp_midline>+IT L QY AA    +E+ + K+   R A+LA   +    +L +   ++L I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>462628</Statistics_db-num>
+      <Statistics_db-len>173435234</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

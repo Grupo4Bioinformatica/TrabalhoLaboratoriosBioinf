@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>Query_203297</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>290</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_203297</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>290</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|14285884|sp|O83478.1|Y465_TREPA</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein TP_0465</Hit_def>
+  <Hit_accession>O83478</Hit_accession>
+  <Hit_len>290</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>598.586</Hsp_bit-score>
+      <Hsp_score>1542</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>290</Hsp_identity>
+      <Hsp_positive>290</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>MSQVLTVLHALSSPPWICLLSFNRMVLARQCAFVLVSCVVPCVAGAVLSSCMPFYARTEGLTLKRVYFEKAGKTDATLALHVTLEYPAPPEEYFYLEVEELRTGMRWVFGEKDTRVYIATDELHPGRRMLRVGGMQYPWGDFPAGTYVVYVRDSTGTYAQQRVTLGAGYPAHEPFPFSFSVDAQRWTLSAPAQPALVGPFTAHTHTSLVLLTRDYRTVAQHPLSLTSLPNARLSSPRVHTFEASMDALKTTHQDAYYLQCVVEDFQRSWRFISQPHRLYPEDALSEQAPP</Hsp_qseq>
+      <Hsp_hseq>MSQVLTVLHALSSPPWICLLSFNRMVLARQCAFVLVSCVVPCVAGAVLSSCMPFYARTEGLTLKRVYFEKAGKTDATLALHVTLEYPAPPEEYFYLEVEELRTGMRWVFGEKDTRVYIATDELHPGRRMLRVGGMQYPWGDFPAGTYVVYVRDSTGTYAQQRVTLGAGYPAHEPFPFSFSVDAQRWTLSAPAQPALVGPFTAHTHTSLVLLTRDYRTVAQHPLSLTSLPNARLSSPRVHTFEASMDALKTTHQDAYYLQCVVEDFQRSWRFISQPHRLYPEDALSEQAPP</Hsp_hseq>
+      <Hsp_midline>MSQVLTVLHALSSPPWICLLSFNRMVLARQCAFVLVSCVVPCVAGAVLSSCMPFYARTEGLTLKRVYFEKAGKTDATLALHVTLEYPAPPEEYFYLEVEELRTGMRWVFGEKDTRVYIATDELHPGRRMLRVGGMQYPWGDFPAGTYVVYVRDSTGTYAQQRVTLGAGYPAHEPFPFSFSVDAQRWTLSAPAQPALVGPFTAHTHTSLVLLTRDYRTVAQHPLSLTSLPNARLSSPRVHTFEASMDALKTTHQDAYYLQCVVEDFQRSWRFISQPHRLYPEDALSEQAPP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|254764357|sp|B1Y8J4.1|QUEC_LEPCP</Hit_id>
+  <Hit_def>RecName: Full=7-cyano-7-deazaguanine synthase; AltName: Full=7-cyano-7-carbaguanine synthase; AltName: Full=PreQ(0) synthase; AltName: Full=Queuosine biosynthesis protein QueC</Hit_def>
+  <Hit_accession>B1Y8J4</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>1.91903</Hsp_evalue>
+      <Hsp_query-from>132</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VGGM-QYPWGDFPAGTYVVYVRDSTGTYAQQRVTLGAGYPAHEPFPFSFSVDAQRWTLSAPAQPA-LVGPFTAHTHT</Hsp_qseq>
+      <Hsp_hseq>VGGMCETDYSGYPD------CRDNTLKALQVALSLGLAAPMTIETPLMFLTKAQTWTLAEDLGGAPLVELITEHTHT</Hsp_hseq>
+      <Hsp_midline>VGGM +  +  +P        RD+T    Q  ++LG   P     P  F   AQ WTL+     A LV   T HTHT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|81881230|sp|Q9D1U0.1|GRIFN_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Grifin; AltName: Full=Galectin-related inter-fiber protein</Hit_def>
+  <Hit_accession>Q9D1U0</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>5.40839</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>64</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>GTYAQQRVTLGAGYPAHEPFPFSFSVDAQRWTLSAPAQPALVGPFTAHTHTSLVLLTRDYRTVAQHPLSLTSLPNARLS</Hsp_qseq>
+      <Hsp_hseq>GRWGQEEVSSIFPLTLGEPFEMEVSADAEHFHIYAQEQKVLQFP---HRHRPLATITR-VRVLSEHRLAQVELAKRSLS</Hsp_hseq>
+      <Hsp_midline>G + Q+ V+        EPF    S DA+ + + A  Q  L  P   H H  L  +TR  R +++H L+   L    LS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|57013116|sp|Q8BDG3.1|VL2_BPV5</Hit_id>
+  <Hit_def>RecName: Full=Minor capsid protein L2 [Epsilonpapillomavirus 1]</Hit_def>
+  <Hit_accession>Q8BDG3</Hit_accession>
+  <Hit_len>518</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>8.36537</Hsp_evalue>
+      <Hsp_query-from>151</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>268</Hsp_hit-from>
+      <Hsp_hit-to>313</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>46</Hsp_align-len>
+      <Hsp_qseq>VRDSTGTYAQQRVTLGAGYPAHEPFPFSFSVDAQRWTLSAPAQPAL</Hsp_qseq>
+      <Hsp_hseq>VRDPTFIQEPQTYFYGFENPAYEPDPFEDSFDVQLASPSEPVQPEL</Hsp_hseq>
+      <Hsp_midline>VRD T     Q    G   PA+EP PF  S D Q  + S P QP L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>462628</Statistics_db-num>
+      <Statistics_db-len>173435234</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

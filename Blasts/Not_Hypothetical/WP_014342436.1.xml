@@ -1,0 +1,602 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>Query_18655</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>265</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_18655</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>265</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|3915347|sp|O51155.1|Y129_BORBU</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized RNA pseudouridine synthase BB_0129; AltName: Full=RNA pseudouridylate synthase; AltName: Full=RNA-uridine isomerase</Hit_def>
+  <Hit_accession>O51155</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.591</Hsp_bit-score>
+      <Hsp_score>366</Hsp_score>
+      <Hsp_evalue>2.35282e-40</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>257</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>RLQVYLARSGCASRRACEALIASGRVTVD------GQTVTTQGRTVCAQNVVCVDGTVVQLERVQRYVLLYKPVGYICSLAPQFPAGYAHTQVRAGPSKQEYARAIDLVQPAYQERLYHIGRLDVRSEGALLFTNDGSFAQALGHPRSGIEKEYIVETREPVPAALLSSFVRGVWVEGCRYRCVRARHLAAQCVQLVLVEGKKREIRVVFEAWGQDVVRLVRVRIGRVRLGPLRPGAFRTMRLQEVAQL</Hsp_qseq>
+      <Hsp_hseq>RVHVFLAEKGVGSRRFCEELIRKKLVRVNNTIAKLGDKVTLGDRIIYKKQIFVFKDFQIN-NRI--YLALNKPRNYLCS---NFDVDGRKL-------------AISLVQPLFKERVFSIGRLDFKSSGLLLFTNDGKFANDIIHPRQKVEREYIIESKKDIDENLLISFKSGIKVKKEFFKLKSYEILNKNSARLILDEGKNREIRKVFLSKNIFLKKIHRIRIGNINLDSLKEGQVKIVPLSKINSL</Hsp_hseq>
+      <Hsp_midline>R+ V+LA  G  SRR CE LI    V V+      G  VT   R +  + +       +   R+  Y+ L KP  Y+CS    F                    AI LVQP ++ER++ IGRLD +S G LLFTNDG FA  + HPR  +E+EYI+E+++ +   LL SF  G+ V+   ++      L     +L+L EGK REIR VF +    + ++ R+RIG + L  L+ G  + + L ++  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|251757325|sp|P35159.2|RLUB_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal large subunit pseudouridine synthase B; AltName: Full=23S rRNA pseudouridine(2605) synthase; AltName: Full=rRNA pseudouridylate synthase B; AltName: Full=rRNA-uridine isomerase B</Hit_def>
+  <Hit_accession>P35159</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.487</Hsp_bit-score>
+      <Hsp_score>319</Hsp_score>
+      <Hsp_evalue>1.23618e-33</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>265</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>259</Hsp_align-len>
+      <Hsp_qseq>RLQVYLARSGCASRRACEALIASGRVTVDGQTVTTQGRTVCAQNVVCVDGTVVQLERVQRYVLLYKPVGYICSLAPQFPAGYAHTQVRAGPSKQEYARAI--DLVQPAYQERLYHIGRLDVRSEGALLFTNDGSFAQALGHPRSGIEKEYIVETREPVPAALLSSFVRGVWVEGCRYRCVRARHLA------AQCVQLVLVEGKKREIRVVFEAWGQDVVRLVRVRIGRVRLGPLRPGAFRTMRLQEVAQLLQCAGCAR</Hsp_qseq>
+      <Hsp_hseq>RLQKVIAHAGVASRRKAEELIKEGKVKVNGKVVTELGVKVTGSDQIEVNGLKVEREE-PVYFLLYKPRGVISA------------------AQDDKGRKVVTDFFKNIPQ-RIYPIGRLDYDTSGLLLLTNDGEFANKLMHPKYEIDKTYVAKVKGIPPKELLRKLERGIRLEEGKTAPAKAKLLSLDKKKQTSIIQLTIHEGRNRQVRRMFEAIGHEVIKLKREEYAFLNLRGLHTGDARELTPHEVKRLRALADHGK</Hsp_hseq>
+      <Hsp_midline>RLQ  +A +G ASRR  E LI  G+V V+G+ VT  G  V   + + V+G  V+ E    Y LLYKP G I +                  ++ +  R +  D  +   Q R+Y IGRLD  + G LL TNDG FA  L HP+  I+K Y+ + +   P  LL    RG+ +E  +    +A+ L+         +QL + EG+ R++R +FEA G +V++L R     + L  L  G  R +   EV +L   A   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|54040263|sp|P65843.1|Y1738_MYCBO</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized RNA pseudouridine synthase Mb1738; AltName: Full=RNA pseudouridylate synthase; AltName: Full=RNA-uridine isomerase &gt;gi|614085542|sp|P9WHQ0.1|Y1711_MYCTO RecName: Full=Uncharacterized RNA pseudouridine synthase MT1751.1; AltName: Full=RNA pseudouridylate synthase; AltName: Full=RNA-uridine isomerase &gt;gi|614085550|sp|P9WHQ1.1|Y1711_MYCTU RecName: Full=Uncharacterized RNA pseudouridine synthase Rv1711; AltName: Full=RNA pseudouridylate synthase; AltName: Full=RNA-uridine isomerase</Hit_def>
+  <Hit_accession>P65843</Hit_accession>
+  <Hit_len>254</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.479</Hsp_bit-score>
+      <Hsp_score>306</Hsp_score>
+      <Hsp_evalue>1.50905e-31</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>254</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>258</Hsp_align-len>
+      <Hsp_qseq>LRLQVYLARSGCASRRACEALIASGRVTVDGQTVTTQGRTVCAQ-NVVCVDGTVVQLERVQRYVLLYKPVGYICSLAPQFPAGYAHTQVRAGPSKQEYARAIDLVQPAYQ--ERLYHIGRLDVRSEGALLFTNDGSFAQALGHPRSGIEKEYIVETREPVPAALLSSFVRGVWVEGC-----RYRCVRARHLAAQCVQLVLVEGKKREIRVVFEAWGQDVVRLVRVRIGRVRLGPLRPGAFRTMRLQEVAQLLQCAGC</Hsp_qseq>
+      <Hsp_hseq>IRLQKVLSQAGIASRRAAEKMIVDGRVEVDGHVVTELGTRVDPQVAVVRVDGARVVLDDSLVYLALNKPRGMHSTMSDD----------RGRPCIG------DLIERKVRGTKKLFHVGRLDADTEGLMLLTNDGELAHRLMHPSHEVPKTYLATVTGSVPRGLGRTLRAGIELDDGPAFVDDFAVVDAIP-GKTLVRVTLHEGRNRIVRRLLAAAGFPVEALVRTDIGAVSLGKQRPGSVRALRSNEIGQLYQAVGL</Hsp_hseq>
+      <Hsp_midline>+RLQ  L+++G ASRRA E +I  GRV VDG  VT  G  V  Q  VV VDG  V L+    Y+ L KP G   +++            R  P         DL++   +  ++L+H+GRLD  +EG +L TNDG  A  L HP   + K Y+      VP  L  +   G+ ++        +  V A       V++ L EG+ R +R +  A G  V  LVR  IG V LG  RPG+ R +R  E+ QL Q  G </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|3915445|sp|O67444.1|Y1464_AQUAE</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized RNA pseudouridine synthase aq_1464; AltName: Full=RNA pseudouridylate synthase; AltName: Full=RNA-uridine isomerase</Hit_def>
+  <Hit_accession>O67444</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.094</Hsp_bit-score>
+      <Hsp_score>305</Hsp_score>
+      <Hsp_evalue>1.57259e-31</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>259</Hsp_align-len>
+      <Hsp_qseq>FFRLRLQVYLARSGCASRRACEALIASGRVTVDGQTVTTQGRTVCAQ-NVVCVDGTVVQLERVQRYVLLYKPVGYICSLAPQFPAGYAHTQVRAGPSKQEYARAIDLVQPAYQERLYHIGRLDVRSEGALLFTNDGSFAQALGHPRSGIEKEYIVETREPVPAALLSSFVRGVWVEGC-----RYRCVRARHLAAQCVQLVLVEGKKREIRVVFEAWGQDVVRLVRVRIGRVRLGPLRPGAFRTMRLQEVAQLLQCAGC</Hsp_qseq>
+      <Hsp_hseq>MMEVRINKFLSEAGVASRRKAEKLILEGRVKVNGEVVRSLGVKVNPEVDIVEVDGKPVKPQR-KRYIILNKPCCYLTQLG-RSPDG---------------RKTIEELIKDIPERVFPVGRLDYNTEGLLILTNDGELANRILHPRYKLPKVYLALVEGKVDQKTLKRMKQGIELEDGFAKPDNIRIVRYEG-KNTLLEITFHEGRKHLVKRFLGAFGHKVKRLKRIAIGPIKLGKLSPGKWRELNQGELAQLFKAVGL</Hsp_hseq>
+      <Hsp_midline>   +R+  +L+ +G ASRR  E LI  GRV V+G+ V + G  V  + ++V VDG  V+ +R +RY++L KP  Y+  L  + P G                + I+ +     ER++ +GRLD  +EG L+ TNDG  A  + HPR  + K Y+      V    L    +G+ +E         R VR        +++   EG+K  ++    A+G  V RL R+ IG ++LG L PG +R +   E+AQL +  G </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1175679|sp|P45104.1|RLUB_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal large subunit pseudouridine synthase B; AltName: Full=23S rRNA pseudouridine(2605) synthase; AltName: Full=rRNA pseudouridylate synthase B; AltName: Full=rRNA-uridine isomerase B</Hit_def>
+  <Hit_accession>P45104</Hit_accession>
+  <Hit_len>357</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.398</Hsp_bit-score>
+      <Hsp_score>298</Hsp_score>
+      <Hsp_evalue>7.38691e-30</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>77</Hsp_hit-from>
+      <Hsp_hit-to>319</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>259</Hsp_align-len>
+      <Hsp_qseq>RLQVYLARSGCASRRACEALIASGRVTVDGQTVTTQGRTVCAQNV-VCVDGTVVQLERVQ----RYVLLYKPVGYICSLAPQFPAGYAHTQVRAGPSKQEYARAIDLVQPAYQERLYHIGRLDVRSEGALLFTNDGSFAQALGHPRSGIEKEYIVETREPVPAALLSSFVRGVWVEGCRYRCVRARHLAA----QCVQLVLVEGKKREIRVVFEAWGQDVVRLVRVRIGRVRLGPLRP-GAFRTMRLQEVAQLLQCAGC</Hsp_qseq>
+      <Hsp_hseq>KLQKVLARAGQGSRREIETMIAAGRVSVEGKIATLGDRIDVHSGVKVRIDGQIINLSHTQKEICRVLMYYKPEGELCTRSD--PEGRAT--------------VFDRLPRLTGSRWIAVGRLDINTSGLLLFTTDGELANRLMHPSREVEREYSVRVFGQVDDAMLARLRKGVQLEDGLANFKEIKFTGGVGINQWYDVTLMEGRNREVRRLWESQGIQVSRLIRIRYGNIKLMKGLPRGGWEEMDLENVNYLRELVGL</Hsp_hseq>
+      <Hsp_midline>+LQ  LAR+G  SRR  E +IA+GRV+V+G+  T   R      V V +DG ++ L   Q    R ++ YKP G +C+ +   P G A                 D +      R   +GRLD+ + G LLFT DG  A  L HP   +E+EY V     V  A+L+   +GV +E         +        Q   + L+EG+ RE+R ++E+ G  V RL+R+R G ++L    P G +  M L+ V  L +  G </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|3915394|sp|O66829.1|Y554_AQUAE</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized RNA pseudouridine synthase aq_554; AltName: Full=RNA pseudouridylate synthase; AltName: Full=RNA-uridine isomerase</Hit_def>
+  <Hit_accession>O66829</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.931</Hsp_bit-score>
+      <Hsp_score>289</Hsp_score>
+      <Hsp_evalue>2.59377e-29</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>257</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>247</Hsp_align-len>
+      <Hsp_qseq>LRLQVYLARSGCASRRACEALIASGRVTVDGQTVT-TQGRTVCAQNVVCVDGTVVQLERVQRYVLLYKPVGYICSLAPQFPAGYAHTQVRAGPSKQEYARAIDLVQPAYQER-LYHIGRLDVRSEGALLFTNDGSFAQALGHPRSGIEKEYIVETREPVPAALLSSFVRGVWVEGCRYRCVRARHLAAQCVQLVLVEGKKREIRVVFEAWGQDVVRLVRVRIGRVRLGP-LRPGAFRTMRLQEVAQL</Hsp_qseq>
+      <Hsp_hseq>MRLDKYLSKSLHISRKEAKELIREGRVKVSGKVVKQAEYRVKEGEEVEVEGKSVKPKKNV--YLMLYKPKGYLSTTEED----------------KKYPSFLELIREHFPSRKLFSAGRLDVDAEGLLLITDDGELAHRLTHPKWKVEKEYIVRLDRDIGDEELKKLYE-VKLEEKPVQLVKAEKLSGDTVKAILTEGRHHVVKRLFKAVGHNVVYLKRTRVGNLRLDENMEPGEWRELTEEEVKEL</Hsp_hseq>
+      <Hsp_midline>+RL  YL++S   SR+  + LI  GRV V G+ V   + R    + V     +V   + V  Y++LYKP GY+ +                    ++Y   ++L++  +  R L+  GRLDV +EG LL T+DG  A  L HP+  +EKEYIV     +    L      V +E    + V+A  L+   V+ +L EG+   ++ +F+A G +VV L R R+G +RL   + PG +R +  +EV +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|6647946|sp|Q9ZD06.1|Y544_RICPR</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized RNA pseudouridine synthase RP544; AltName: Full=RNA pseudouridylate synthase; AltName: Full=RNA-uridine isomerase</Hit_def>
+  <Hit_accession>Q9ZD06</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.005</Hsp_bit-score>
+      <Hsp_score>284</Hsp_score>
+      <Hsp_evalue>1.0431e-28</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>234</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>251</Hsp_align-len>
+      <Hsp_qseq>RLQVYLARSGCASRRACEALIASGRVTVDGQTVTTQGRTVCAQNVVCVDGTVVQLERVQRYVLLYKPVGYICSLAPQFPAGYAHTQVRAGPSKQEYARAIDLVQPAYQERLYHIGRLDVRSEGALLFTNDGSFAQALGHPRSGIEKEYIVETREPVPAALLSSFVRGVWVEGCRYRCVRARHL----AAQCVQLVLVEGKKREIRVVFEAWGQDVVRLVRVRIGRVRLGPLRPGAFRTMRLQEV-AQLLQC</Hsp_qseq>
+      <Hsp_hseq>RLAKIISNAGVCSRRNAEKLIVGGKVKIDGITILSPATNVDMSNQIEVSGRLINNTQKPRLWIYYKPVGLITT------------------HKDPLSRKTVFEQLIGLPRVISIGRLDLNSEGLLLLTNSGDLAHQFEMPASKLKRVYNVRAYGN-PNILLKNNYKNLKIDGIFYNPHSIKLLRQNKSNSWFEVVLFEGKNREIRRIFEYFGLQVNKLIRIQYGALKIGNLKPGNYQEISNKILEKQLVMC</Hsp_hseq>
+      <Hsp_midline>RL   ++ +G  SRR  E LI  G+V +DG T+ +    V   N + V G ++   +  R  + YKPVG I +                   K   +R     Q     R+  IGRLD+ SEG LL TN G  A     P S +++ Y V      P  LL +  + + ++G  Y     + L    +    ++VL EGK REIR +FE +G  V +L+R++ G +++G L+PG ++ +  + +  QL+ C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|122425930|sp|Q1RJR2.1|Y321_RICBR</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized RNA pseudouridine synthase RBE_0321; AltName: Full=RNA pseudouridylate synthase; AltName: Full=RNA-uridine isomerase</Hit_def>
+  <Hit_accession>Q1RJR2</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.62</Hsp_bit-score>
+      <Hsp_score>283</Hsp_score>
+      <Hsp_evalue>1.67079e-28</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>RLQVYLARSGCASRRACEALIASGRVTVDGQTVTTQGRTVCAQNVVCVDGTVVQLERVQRYVLLYKPVGYICSLAPQFPAGYAHTQVRAGPSKQEYARAIDLVQPAYQERLYHIGRLDVRSEGALLFTNDGSFAQALGHPRSGIEKEYIVETREPVPAALLSSFVRGVWVEGCRYRCVRARHL----AAQCVQLVLVEGKKREIRVVFEAWGQDVVRLVRVRIGRVRLGPLRPGAFR</Hsp_qseq>
+      <Hsp_hseq>RLAKLISNAGICSRRDAEKLILDGQVKVNGIIVTSPATNVDTDNQVEVSGSLITSSQKSRLWIYYKPVGLITTHKDPLSRKTVFEQLTGLP------------------RVISIGRLDLNSEGLLLLTNNGDLARQFELPSSKLKRVYHVRAYGN-PDPLLKSNYKNLEIDGIFYNPQSIKLLRKNSTNSWLEVILFEGKNREIRRIFEHFGLKVNKLIRTEYGDFKLDNLKPNEYR</Hsp_hseq>
+      <Hsp_midline>RL   ++ +G  SRR  E LI  G+V V+G  VT+    V   N V V G+++   +  R  + YKPVG I +            Q+   P                  R+  IGRLD+ SEG LL TN+G  A+    P S +++ Y V      P  LL S  + + ++G  Y     + L        ++++L EGK REIR +FE +G  V +L+R   G  +L  L+P  +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|34098697|sp|Q9CMY9.1|RLUB_PASMU</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal large subunit pseudouridine synthase B; AltName: Full=23S rRNA pseudouridine(2605) synthase; AltName: Full=rRNA pseudouridylate synthase B; AltName: Full=rRNA-uridine isomerase B</Hit_def>
+  <Hit_accession>Q9CMY9</Hit_accession>
+  <Hit_len>345</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.464</Hsp_bit-score>
+      <Hsp_score>280</Hsp_score>
+      <Hsp_evalue>1.98075e-27</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>65</Hsp_hit-from>
+      <Hsp_hit-to>307</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>259</Hsp_align-len>
+      <Hsp_qseq>RLQVYLARSGCASRRACEALIASGRVTVDGQTVTTQGR-TVCAQNVVCVDGTVVQLERVQRYV----LLYKPVGYICSLAPQFPAGYAHTQVRAGPSKQEYARAIDLVQPAYQERLYHIGRLDVRSEGALLFTNDGSFAQALGHPRSGIEKEYIVETREPVPAALLSSFVRGVWVEGCRYRCVRARHLAA----QCVQLVLVEGKKREIRVVFEAWGQDVVRLVRVRIGRVRLGPLRP-GAFRTMRLQEVAQLLQCAGC</Hsp_qseq>
+      <Hsp_hseq>KLQKVLARAGQGSRREIEAMIAENRVSVDGKIATLGDRIDVHAGVKIRIDGHLINLLHAQKEVCRVLMYYKPEGELCTR--HDPEGR--------PT------VFDRLPRLTGSRWIAVGRLDINTSGLLLFTTDGELANRLMHPSREVEREYSVRVFGQVDEAMLHRLKKGVQLEDGPANFKEIKFAGGVGMNQWFDVTLMEGRNREVRRLWESQGVQVSRLIRTRYGNISLMKSLPRGGWEEMDLTNVNYLRELVGL</Hsp_hseq>
+      <Hsp_midline>+LQ  LAR+G  SRR  EA+IA  RV+VDG+  T   R  V A   + +DG ++ L   Q+ V    + YKP G +C+     P G         P+        D +      R   +GRLD+ + G LLFT DG  A  L HP   +E+EY V     V  A+L    +GV +E         +        Q   + L+EG+ RE+R ++E+ G  V RL+R R G + L    P G +  M L  V  L +  G </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|81390049|sp|Q68WJ1.1|Y532_RICTY</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized RNA pseudouridine synthase RT0532; AltName: Full=RNA pseudouridylate synthase; AltName: Full=RNA-uridine isomerase</Hit_def>
+  <Hit_accession>Q68WJ1</Hit_accession>
+  <Hit_len>242</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.997</Hsp_bit-score>
+      <Hsp_score>271</Hsp_score>
+      <Hsp_evalue>1.08219e-26</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>249</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>RLQVYLARSGCASRRACEALIASGRVTVDGQTVTTQGRTVCAQNVVCVDGTVVQLERVQRYVLLYKPVGYICSLAPQFPAGYAHTQVRAGPSKQEYARAIDLVQPAYQERLYHIGRLDVRSEGALLFTNDGSFAQALGHPRSGIEKEYIVETREPVPAALLSSFVRGVWVEGCRYRCVRARHL----AAQCVQLVLVEGKKREIRVVFEAWGQDVVRLVRVRIGRVRLGPLRPGAFRTM</Hsp_qseq>
+      <Hsp_hseq>RLAKIISNAGVCSRRNAEKLIVGGKVKIDGITILSPATNVDISNQIEVSGRLINNIQKPRLWIYYKPIGLITTHKDPLSRKTVFEQLIGLP------------------RVISIGRLDLNSEGLLLLTNSGDLAHQFEMPSSKLKRVYNVRAYGNANFLLKNNY-NNLKIDGIFYNPYSIKLLRQNKNNSWFEVVLFEGKNREIRRIFEYFGLKVNKLIRVQYGALKIGNLKPGDYKEI</Hsp_hseq>
+      <Hsp_midline>RL   ++ +G  SRR  E LI  G+V +DG T+ +    V   N + V G ++   +  R  + YKP+G I +            Q+   P                  R+  IGRLD+ SEG LL TN G  A     P S +++ Y V         L +++   + ++G  Y     + L         ++VL EGK REIR +FE +G  V +L+RV+ G +++G L+PG ++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|75536313|sp|Q4UL59.1|Y544_RICFE</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized RNA pseudouridine synthase RF_0863; AltName: Full=RNA pseudouridylate synthase; AltName: Full=RNA-uridine isomerase</Hit_def>
+  <Hit_accession>Q4UL59</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.842</Hsp_bit-score>
+      <Hsp_score>268</Hsp_score>
+      <Hsp_evalue>1.94604e-26</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>240</Hsp_align-len>
+      <Hsp_qseq>RLQVYLARSGCASRRACEALIASGRVTVDGQTVTTQGRTVCAQNVVCVDGTVVQLERVQRYVLLYKPVGYICSLAPQFPAGYAHTQVRAGPSKQEYARAIDLVQPAYQERLYHIGRLDVRSEGALLFTNDGSFAQALGHPRSGIEKEYIVETREPVPAALLSSFVRGVWVEGCRYR----CVRARHLAAQCVQLVLVEGKKREIRVVFEAWGQDVVRLVRVRIGRVRLGPLRPGAFRTMR</Hsp_qseq>
+      <Hsp_hseq>RLAKIISNAGICSRRDAEKLILEGQVKVDGITILSPATNVDISNQIEVSGILINQSQKPRLWIYYKPVGLITTHKDPLSRKTVFEQLTGLP------------------RVISIGRLDLNSEGLLLLTNSGDLARQFELPSNRLKRVYHVRAYGK-SDILLKSDYKNLEIDGIFYNPHSIKLFKQNKSNSWFEVVLFEGKNREIRRIFEYFGLKVNKLIRIQYGSFTIDNLKPGAYKEIN</Hsp_hseq>
+      <Hsp_midline>RL   ++ +G  SRR  E LI  G+V VDG T+ +    V   N + V G ++   +  R  + YKPVG I +            Q+   P                  R+  IGRLD+ SEG LL TN G  A+    P + +++ Y V         LL S  + + ++G  Y      +  ++ +    ++VL EGK REIR +FE +G  V +L+R++ G   +  L+PGA++ + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|34098735|sp|Q9KSS7.1|RLUB_VIBCH</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal large subunit pseudouridine synthase B; AltName: Full=23S rRNA pseudouridine(2605) synthase; AltName: Full=rRNA pseudouridylate synthase B; AltName: Full=rRNA-uridine isomerase B</Hit_def>
+  <Hit_accession>Q9KSS7</Hit_accession>
+  <Hit_len>321</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.383</Hsp_bit-score>
+      <Hsp_score>272</Hsp_score>
+      <Hsp_evalue>1.95701e-26</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>257</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>239</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>252</Hsp_align-len>
+      <Hsp_qseq>RLQVYLARSGCASRRACEALIASGRVTVDGQTVTTQGRTVCAQNVVCVDGTVV----QLERVQRYVLLYKPVGYICSLAPQFPAGYAHTQVRAGPSKQEYARAIDLVQPAYQERLYHIGRLDVRSEGALLFTNDGSFAQALGHPRSGIEKEYIVETREPVPAALLSSFVRGVWVEGCRYRCVRARHLAAQCVQ----LVLVEGKKREIRVVFEAWGQDVVRLVRVRIGRVRLGPLRP-GAFRTMRLQEVAQL</Hsp_qseq>
+      <Hsp_hseq>KLQKVLARAGHGSRRELEALIRAGRVSVNGKVAVLGERLEDDNAVVRIDGHVVSVKAQEEVICRVLAYYKPEGELCT--------------RHDPEGRRTV--FDRLPKIRGSRWISVGRLDANTSGLLLFTTDGELANRLMHPSRQVEREYLVRVFGDVTEEKVRNLVRGVQLEDGMARFEDVMYAGGEGINHTFYVVINEGRNREVRRLWESQGTTVSRLKRVRYGDIFLDKKLPRGGWMELDLKQVNYL</Hsp_hseq>
+      <Hsp_midline>+LQ  LAR+G  SRR  EALI +GRV+V+G+      R      VV +DG VV    Q E + R +  YKP G +C+              R  P  +      D +      R   +GRLD  + G LLFT DG  A  L HP   +E+EY+V     V    + + VRGV +E    R     +   + +     +V+ EG+ RE+R ++E+ G  V RL RVR G + L    P G +  + L++V  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|26006907|sp|Q92HG4.1|Y807_RICCN</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized RNA pseudouridine synthase RC0807; AltName: Full=RNA pseudouridylate synthase; AltName: Full=RNA-uridine isomerase</Hit_def>
+  <Hit_accession>Q92HG4</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.145</Hsp_bit-score>
+      <Hsp_score>261</Hsp_score>
+      <Hsp_evalue>1.7127e-25</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>240</Hsp_align-len>
+      <Hsp_qseq>RLQVYLARSGCASRRACEALIASGRVTVDGQTVTTQGRTVCAQNVVCVDGTVVQLERVQRYVLLYKPVGYICSLAPQFPAGYAHTQVRAGPSKQEYARAIDLVQPAYQERLYHIGRLDVRSEGALLFTNDGSFAQALGHPRSGIEKEYIVETREPVPAALLSSFVRGVWVEGCRYRCVRARHL---AAQC-VQLVLVEGKKREIRVVFEAWGQDVVRLVRVRIGRVRLGPLRPGAFRTMR</Hsp_qseq>
+      <Hsp_hseq>RLAKIISNAGVCSRRDAEKLIVAGQVKVDGITILSPTTNVDISNQIEVSGTLINNIHKPRLWIYYKPVGLITTHKDPLSRKTVFEQLTGLP------------------RVISIGRLDLNSEGLLLLTNSGDLARQFELPSSRLKRVYHVRAYGK-SDILLKSNYKNLEIDGIFYNPHSIKLLKQNKTNCWFEVVLFEGKNREIRRIFEYCGLKVNKLIRIQYGSFTIDNLKPGDYKEIN</Hsp_hseq>
+      <Hsp_midline>RL   ++ +G  SRR  E LI +G+V VDG T+ +    V   N + V GT++      R  + YKPVG I +            Q+   P                  R+  IGRLD+ SEG LL TN G  A+    P S +++ Y V         LL S  + + ++G  Y     + L      C  ++VL EGK REIR +FE  G  V +L+R++ G   +  L+PG ++ + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|34098724|sp|Q9I5J6.1|RSUA_PSEAE</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal small subunit pseudouridine synthase A; AltName: Full=16S pseudouridylate 516 synthase; AltName: Full=16S rRNA pseudouridine(516) synthase; AltName: Full=rRNA pseudouridylate synthase A; AltName: Full=rRNA-uridine isomerase A</Hit_def>
+  <Hit_accession>Q9I5J6</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>103.605</Hsp_bit-score>
+      <Hsp_score>257</Hsp_score>
+      <Hsp_evalue>5.93636e-25</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>254</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>LRLQVYLARSGCASRRACEALIASGRVTVDGQTVTTQGRTVCAQNVVCVDGTVVQLERVQRYVLLYKPVGYICSL-APQFPAGYAHTQVRAGPSKQEYARAIDLVQPAYQERLYHIGRLDVRSEGALLFTNDGSFAQALGHPRSGIEKEYIVETREPVPAALLSSFVRGVW--VEGCRYRCVRARHLAAQCVQLVLVEGKKREIRVVFEAWGQDVVRLVRVRIGRVRLGP-LRPGAFRTMRLQEV</Hsp_qseq>
+      <Hsp_hseq>MRLDRFLANLPELSRRDAQMLIAGGHLRVDGQVVRDGTHEVRVFSRVELDERLLQAGKPARYYMLHKPMGCVSATRDPQHPT------------------VLDLFPEDLRDDLHIGGRLDYNTTGLMLLTNDGQWSRRLTLPGSRRDKVYYVETEAPIDQRYVDAFAAGLHFRFEDLVTLPAQLEPIGPRCARLTLHEGRYHQVKRMFGHFDNKVLRLHRERMGDICLDPQLPPGAWRPLNAEEI</Hsp_hseq>
+      <Hsp_midline>+RL  +LA     SRR  + LIA G + VDGQ V      V   + V +D  ++Q  +  RY +L+KP+G + +   PQ P                    +DL     ++ L+  GRLD  + G +L TNDG +++ L  P S  +K Y VET  P+    + +F  G+    E       +   +  +C +L L EG+  +++ +F  +   V+RL R R+G + L P L PGA+R +  +E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|3915542|sp|O05668.1|Y1370_MYCLE</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized RNA pseudouridine synthase ML1370; AltName: Full=RNA pseudouridylate synthase; AltName: Full=RNA-uridine isomerase</Hit_def>
+  <Hit_accession>O05668</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>103.99</Hsp_bit-score>
+      <Hsp_score>258</Hsp_score>
+      <Hsp_evalue>8.31686e-25</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>256</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>258</Hsp_align-len>
+      <Hsp_qseq>LRLQVYLARSGCASRRACEALIASGRVTVDGQTVTTQGRTVCAQ-NVVCVDGTVVQLERVQRYVLLYKPVGYICSLAPQFPAGYAHTQVRAGPSKQEYARAIDLVQPAY--QERLYHIGRLDVRSEGALLFTNDGSFAQALGHPRSGIEKEYIVETREPVPAALLSSFVRGVWVEGC-----RYRCVRARHLAAQCVQLVLVEGKKREIRVVFEAWGQDVVRLVRVRIGRVRLGPLRPGAFRTMRLQEVAQLLQCAGC</Hsp_qseq>
+      <Hsp_hseq>VRLQKILSRAGIASRRAAEKLIIEGRVEVDGQLVRELGTRVDPDVSVVRVDGVKVVVDDSLVYLALNKPRGMYSTMSDD----------RGRPC------VGDLIERRVRGNKKLFHVGRLDADTEGLILLTNDGELAHRLMHPSHEVSKTYLATVKGAVPRGLGKKLSVGLELDDGPAHVDDFAVVDAIP-GKTLVRLTLHEGRKRIVRRLLTAAGFPVEMLVRTDIGAVSLGDQRPGCLRALLRDEIRQLYKEVGL</Hsp_hseq>
+      <Hsp_midline>+RLQ  L+R+G ASRRA E LI  GRV VDGQ V   G  V    +VV VDG  V ++    Y+ L KP G   +++            R  P         DL++      ++L+H+GRLD  +EG +L TNDG  A  L HP   + K Y+   +  VP  L      G+ ++        +  V A       V+L L EG+KR +R +  A G  V  LVR  IG V LG  RPG  R +   E+ QL +  G </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|34098644|sp|Q8ZEG0.1|RLUB_YERPE</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal large subunit pseudouridine synthase B; AltName: Full=23S rRNA pseudouridine(2605) synthase; AltName: Full=rRNA pseudouridylate synthase B; AltName: Full=rRNA-uridine isomerase B</Hit_def>
+  <Hit_accession>Q8ZEG0</Hit_accession>
+  <Hit_len>318</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>103.605</Hsp_bit-score>
+      <Hsp_score>257</Hsp_score>
+      <Hsp_evalue>2.04413e-24</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>RLQVYLARSGCASRRACEALIASGRVTVDGQTVTTQGRTVCAQNV-VCVDGTVVQL----ERVQRYVLLYKPVGYICSLAPQFPAGYAHTQVRAGPSKQEYARAIDLVQPAYQERLYHIGRLDVRSEGALLFTNDGSFAQALGHPRSGIEKEYIVETREPVPAALLSSFVRGVWVEG--CRYRCV--RARHLAAQCVQLVLVEGKKREIRVVFEAWGQDVVRLVRVRIGRVRL</Hsp_qseq>
+      <Hsp_hseq>KLQKILARAGHGSRREIEAIIQQGRVSVDGKVSKLGDRVEVTQSTKIRLDGHLLSIKESEENVCRVLAYYKPEGELCTR--NDPEGR--------PT------VFDRLPKLRGSRWVAVGRLDVNTSGLLLFTTDGELANRLMHPSREVEREYAVRVFGQIDDDKIKQLSRGVQLEDGPAAFRTISYQGGEGINQWYNVTLTEGRNREVRRLWEAVGVQVSRLIRVRYGDINL</Hsp_hseq>
+      <Hsp_midline>+LQ  LAR+G  SRR  EA+I  GRV+VDG+      R    Q+  + +DG ++ +    E V R +  YKP G +C+     P G         P+        D +      R   +GRLDV + G LLFT DG  A  L HP   +E+EY V     +    +    RGV +E     +R +  +      Q   + L EG+ RE+R ++EA G  V RL+RVR G + L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|34098527|sp|Q8D8C0.1|RLUB_VIBVU</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal large subunit pseudouridine synthase B; AltName: Full=23S rRNA pseudouridine(2605) synthase; AltName: Full=rRNA pseudouridylate synthase B; AltName: Full=rRNA-uridine isomerase B</Hit_def>
+  <Hit_accession>Q8D8C0</Hit_accession>
+  <Hit_len>320</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.834</Hsp_bit-score>
+      <Hsp_score>255</Hsp_score>
+      <Hsp_evalue>4.05913e-24</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>257</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>239</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>252</Hsp_align-len>
+      <Hsp_qseq>RLQVYLARSGCASRRACEALIASGRVTVDGQTVTTQGRTVCAQNVVCVDGTVV----QLERVQRYVLLYKPVGYICSLAPQFPAGYAHTQVRAGPSKQEYARAIDLVQPAYQERLYHIGRLDVRSEGALLFTNDGSFAQALGHPRSGIEKEYIVETREPVPAALLSSFVRGVWVEGCRYRCVRARHLAAQCVQ----LVLVEGKKREIRVVFEAWGQDVVRLVRVRIGRVRLGPLRP-GAFRTMRLQEVAQL</Hsp_qseq>
+      <Hsp_hseq>KLQKVLARAGHGSRRELEALIKSGRVSVNGIVAKLGERLEDEQAVVRIDGHVVSVKAQEEVICRVLAYYKPEGELCT--------------RHDPEGRRTV--FDRLPKIRGSRWISVGRLDANTSGLLLFTTDGELANRLMHPSRQVEREYLVRVFGEVNEHKVRNLVNGVELDDGLARFEDVVYTGGEGMNHTFYVVINEGRNREVRRLWESQDCTVSRLKRVRYGDIYLDKKLPRGGWMELELKDVNYL</Hsp_hseq>
+      <Hsp_midline>+LQ  LAR+G  SRR  EALI SGRV+V+G       R    Q VV +DG VV    Q E + R +  YKP G +C+              R  P  +      D +      R   +GRLD  + G LLFT DG  A  L HP   +E+EY+V     V    + + V GV ++    R     +   + +     +V+ EG+ RE+R ++E+    V RL RVR G + L    P G +  + L++V  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|34098721|sp|Q9HZ55.1|RLUB_PSEAE</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal large subunit pseudouridine synthase B; AltName: Full=23S rRNA pseudouridine(2605) synthase; AltName: Full=rRNA pseudouridylate synthase B; AltName: Full=rRNA-uridine isomerase B</Hit_def>
+  <Hit_accession>Q9HZ55</Hit_accession>
+  <Hit_len>386</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.834</Hsp_bit-score>
+      <Hsp_score>255</Hsp_score>
+      <Hsp_evalue>4.95301e-24</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>256</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>259</Hsp_align-len>
+      <Hsp_qseq>RLQVYLARSGCASRRACEALIASGRVTVDGQTVTTQGRTVCAQNVVCVDGTVVQLER----VQRYVLLYKPVGYICSLAPQFPAGYAHTQVRAGPSKQEYARAIDLVQPAYQERLYHIGRLDVRSEGALLFTNDGSFAQALGHPRSGIEKEYIVETREPVPAALLSSFVRGVWVEGCRYRCVRARHLAA-----QCVQLVLVEGKKREIRVVFEAWGQDVVRLVRVRIGRVRL-GPLRPGAFRTMRLQEVAQLLQCAGC</Hsp_qseq>
+      <Hsp_hseq>KLQKVLARLGVGSRRDVEVWIAEGRVNVNG-SVASLGQRVDSHDAITVDGHLIRREEAAESVRRVLIYNKPEGEVCTR--DDPEGRPTI--------------FDRLPRLRTGRWINVGRLDINTTGLLLFTTDGELANRLMHPSYEMDREYAVRVRGEVTEEMIERLLNGVMLEDGPAKFSDIQQAPGGEGFNHWYHCVVMEGRNREVRRLWESQGLVVSRLKRVRFGPVFLTSELTMGRYREMDQREIDILSEEVGL</Hsp_hseq>
+      <Hsp_midline>+LQ  LAR G  SRR  E  IA GRV V+G +V + G+ V + + + VDG +++ E     V+R ++  KP G +C+     P G                   D +      R  ++GRLD+ + G LLFT DG  A  L HP   +++EY V  R  V   ++   + GV +E    +    +              V++EG+ RE+R ++E+ G  V RL RVR G V L   L  G +R M  +E+  L +  G </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|34098479|sp|Q87NB7.1|RLUB_VIBPA</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal large subunit pseudouridine synthase B; AltName: Full=23S rRNA pseudouridine(2605) synthase; AltName: Full=rRNA pseudouridylate synthase B; AltName: Full=rRNA-uridine isomerase B</Hit_def>
+  <Hit_accession>Q87NB7</Hit_accession>
+  <Hit_len>312</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.449</Hsp_bit-score>
+      <Hsp_score>254</Hsp_score>
+      <Hsp_evalue>5.70206e-24</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>257</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>239</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>252</Hsp_align-len>
+      <Hsp_qseq>RLQVYLARSGCASRRACEALIASGRVTVDGQTVTTQGRTVCAQNVVCVDGTVV----QLERVQRYVLLYKPVGYICSLAPQFPAGYAHTQVRAGPSKQEYARAIDLVQPAYQERLYHIGRLDVRSEGALLFTNDGSFAQALGHPRSGIEKEYIVETREPVPAALLSSFVRGVWVEGCRYRCVRARHLAAQCVQ----LVLVEGKKREIRVVFEAWGQDVVRLVRVRIGRVRLGPLRP-GAFRTMRLQEVAQL</Hsp_qseq>
+      <Hsp_hseq>KLQKVLARAGHGSRREIESLIKSGRVSVNGVVAKLGERLEDESSVVRIDGHIVSAKVQEEVICRVLAYYKPEGELCT--------------RHDPEGRRTV--FDRLPKIRGSRWISVGRLDANTSGLLLFTTDGELANRLMHPSRQVEREYLVRVFGEVTEQKVRNLVKGVELEDGLARFEDVVYAGGEGMNHTFYVVINEGRNREVRRLWESQECTVSRLKRVRYGDIFLDKKLPRGGWMELDLKEVNYL</Hsp_hseq>
+      <Hsp_midline>+LQ  LAR+G  SRR  E+LI SGRV+V+G       R     +VV +DG +V    Q E + R +  YKP G +C+              R  P  +      D +      R   +GRLD  + G LLFT DG  A  L HP   +E+EY+V     V    + + V+GV +E    R     +   + +     +V+ EG+ RE+R ++E+    V RL RVR G + L    P G +  + L+EV  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|34098636|sp|Q8Z7D5.1|RLUB_SALTI</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal large subunit pseudouridine synthase B; AltName: Full=23S rRNA pseudouridine(2605) synthase; AltName: Full=rRNA pseudouridylate synthase B; AltName: Full=rRNA-uridine isomerase B</Hit_def>
+  <Hit_accession>Q8Z7D5</Hit_accession>
+  <Hit_len>291</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.679</Hsp_bit-score>
+      <Hsp_score>252</Hsp_score>
+      <Hsp_evalue>7.54314e-24</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>RLQVYLARSGCASRRACEALIASGRVTVDGQTVTTQGRTVCAQNV-VCVDGTVVQL----ERVQRYVLLYKPVGYICSLAPQFPAGYAHTQVRAGPSKQEYARAIDLVQPAYQERLYHIGRLDVRSEGALLFTNDGSFAQALGHPRSGIEKEYIVETREPVPAALLSSFVRGVWVEG--CRYRCVR--ARHLAAQCVQLVLVEGKKREIRVVFEAWGQDVVRLVRVRIGRVRL</Hsp_qseq>
+      <Hsp_hseq>KLQKVLARAGHGSRREIESIIEAGRVSVDGKIATLGDRVEVTPGLKIRIDGHLISVKESAEQICRVLAYYKPEGELCT--------------RNDPEGRPTV--FDRLPKLRGARWIAVGRLDVNTCGLLLFTTDGELANRLMHPSREVEREYAVRVFGQVDESKLRDLSRGVQLEDGPAAFKTIKFSGGEGINQWYNVTLTEGRNREVRRLWEAVGVQVSRLIRVRYGDIPL</Hsp_hseq>
+      <Hsp_midline>+LQ  LAR+G  SRR  E++I +GRV+VDG+  T   R      + + +DG ++ +    E++ R +  YKP G +C+              R  P  +      D +      R   +GRLDV + G LLFT DG  A  L HP   +E+EY V     V  + L    RGV +E     ++ ++        Q   + L EG+ RE+R ++EA G  V RL+RVR G + L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>462628</Statistics_db-num>
+      <Statistics_db-len>173435234</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

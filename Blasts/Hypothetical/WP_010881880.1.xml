@@ -1,0 +1,238 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>Query_193889</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>183</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_193889</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>183</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|14285877|sp|O83447.1|Y432_TREPA</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein TP_0432</Hit_def>
+  <Hit_accession>O83447</Hit_accession>
+  <Hit_len>183</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>374.015</Hsp_bit-score>
+      <Hsp_score>959</Hsp_score>
+      <Hsp_evalue>7.73191e-132</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>183</Hsp_align-len>
+      <Hsp_qseq>MSGGVGVGKRLCCIALVMRAFWYLSAKGVSIAYVPVHRSGGSQDSSMSTAVGDTLLNAFFDEGMVVTAVPPGVHDGQTIAEIAACFEVMPDYALLVQFHSARLPGGESPTSRARGAWSSERFRAVWTLVDLHTQRACVYACVAPYRESIPVSECVDVVTRCIAEQAISYIRVGTSTDTAGVQL</Hsp_qseq>
+      <Hsp_hseq>MSGGVGVGKRLCCIALVMRAFWYLSAKGVSIAYVPVHRSGGSQDSSMSTAVGDTLLNAFFDEGMVVTAVPPGVHDGQTIAEIAACFEVMPDYALLVQFHSARLPGGESPTSRARGAWSSERFRAVWTLVDLHTQRACVYACVAPYRESIPVSECVDVVTRCIAEQAISYIRVGTSTDTAGVQL</Hsp_hseq>
+      <Hsp_midline>MSGGVGVGKRLCCIALVMRAFWYLSAKGVSIAYVPVHRSGGSQDSSMSTAVGDTLLNAFFDEGMVVTAVPPGVHDGQTIAEIAACFEVMPDYALLVQFHSARLPGGESPTSRARGAWSSERFRAVWTLVDLHTQRACVYACVAPYRESIPVSECVDVVTRCIAEQAISYIRVGTSTDTAGVQL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|30173145|sp|Q8D305.1|RNC_WIGBR</Hit_id>
+  <Hit_def>RecName: Full=Ribonuclease 3; AltName: Full=Ribonuclease III; Short=RNase III</Hit_def>
+  <Hit_accession>Q8D305</Hit_accession>
+  <Hit_len>226</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>0.593852</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>96</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>VMRAFWYLSAKGVSIAYVPVHRSGGSQDSSMSTAVGDTLLNAFFDEGMV--VTAVPPG--------VHDGQTIAEIAACFEVMPDYALL</Hsp_qseq>
+      <Hsp_hseq>LQKKMGYLFHNNIILKQALTHRSFSSKNNERLEFLGDSILNYIISDALYNNFTNIPEGKLSQMRSYLVRGNTLAEIAREF-CLGDYLIL</Hsp_hseq>
+      <Hsp_midline>+ +   YL    + +     HRS  S+++     +GD++LN    + +    T +P G        +  G T+AEIA  F  + DY +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|13431595|sp|Q9KDJ6.1|NIFS_BACHD</Hit_id>
+  <Hit_def>RecName: Full=Putative cysteine desulfurase NifS</Hit_def>
+  <Hit_accession>Q9KDJ6</Hit_accession>
+  <Hit_len>375</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>2.04908</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>96</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>46</Hsp_align-len>
+      <Hsp_qseq>CCIALVMRAFWYLSAKGVSIAYVPVHRSGG-SQDSSMSTAVGDTLL</Hsp_qseq>
+      <Hsp_hseq>CEHPSVLSTFRYLESQQFDVSYVPVNRYGQVSVDALMGTIREDTIL</Hsp_hseq>
+      <Hsp_midline>C    V+  F YL ++   ++YVPV+R G  S D+ M T   DT+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|54038916|sp|P65871.1|QUED_ECO57</Hit_id>
+  <Hit_def>RecName: Full=6-carboxy-5,6,7,8-tetrahydropterin synthase; Short=CPH4 synthase; AltName: Full=Queuosine biosynthesis protein QueD &gt;gi|54038917|sp|P65872.1|QUED_SHIFL RecName: Full=6-carboxy-5,6,7,8-tetrahydropterin synthase; Short=CPH4 synthase; AltName: Full=Queuosine biosynthesis protein QueD &gt;gi|54041743|sp|P65870.1|QUED_ECOLI RecName: Full=6-carboxy-5,6,7,8-tetrahydropterin synthase; Short=CPH4 synthase; AltName: Full=Queuosine biosynthesis protein QueD</Hit_def>
+  <Hit_accession>P65871</Hit_accession>
+  <Hit_len>121</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>3.28566</Hsp_evalue>
+      <Hsp_query-from>74</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>HDGQTI--AEIAACFEVMPDYALLVQFHSARLPGGESPTSRARGAWSSERFRAVWTLVD-LHTQRACVYACV</Hsp_qseq>
+      <Hsp_hseq>HTGWIIDFAELKAAFK--PTYERLDHHYLNDIPGLENPTSEVLAKWIWDQVKPVVPLLSAVMVKETCTAGCI</Hsp_hseq>
+      <Hsp_midline>H G  I  AE+ A F+  P Y  L   +   +PG E+PTS     W  ++ + V  L+  +  +  C   C+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|75334191|sp|Q9FQA3.1|GST23_MAIZE</Hit_id>
+  <Hit_def>RecName: Full=Glutathione transferase GST 23; AltName: Full=Glutathione transferase GST 36</Hit_def>
+  <Hit_accession>Q9FQA3</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>4.93306</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>LVMRAFWYLSAKGVSIAYVPVHRSGGSQDSSMSTAVGDTLLNAFFDEGMVVTAVPPGVHDGQTIAE</Hsp_qseq>
+      <Hsp_hseq>MVIRVEWALRLKGVEYEYV---------DEDLANKSADLLRH-----NPVTKKVPVLVHDGKPVAE</Hsp_hseq>
+      <Hsp_midline>+V+R  W L  KGV   YV         D  ++    D L +       V   VP  VHDG+ +AE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|20141874|sp|P18594.2|VIRD4_AGRFC</Hit_id>
+  <Hit_def>RecName: Full=Protein virD4</Hit_def>
+  <Hit_accession>P18594</Hit_accession>
+  <Hit_len>668</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>6.82857</Hsp_evalue>
+      <Hsp_query-from>123</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>336</Hsp_hit-from>
+      <Hsp_hit-to>379</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>RAVWTLVDLHTQRACVYACVAPYRESIPVSECVDVVTRCIAEQAISYIR</Hsp_qseq>
+      <Hsp_hseq>RSDFSVYDLRRKRTCVYLCVSPND-----LEVVAPLMRLLFQQVVSILQ</Hsp_hseq>
+      <Hsp_midline>R+ +++ DL  +R CVY CV+P        E V  + R + +Q +S ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|138469|sp|P13464.1|VIRD4_AGRRH</Hit_id>
+  <Hit_def>RecName: Full=Protein virD4 [Agrobacterium rhizogenes]</Hit_def>
+  <Hit_accession>P13464</Hit_accession>
+  <Hit_len>671</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>7.47466</Hsp_evalue>
+      <Hsp_query-from>123</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>336</Hsp_hit-from>
+      <Hsp_hit-to>379</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>RAVWTLVDLHTQRACVYACVAPYRESIPVSECVDVVTRCIAEQAISYIR</Hsp_qseq>
+      <Hsp_hseq>RSDFSVYDLRRKRTCVYLCVSPND-----LEVVAPLMRLLFQQVVSILQ</Hsp_hseq>
+      <Hsp_midline>R+ +++ DL  +R CVY CV+P        E V  + R + +Q +S ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>462628</Statistics_db-num>
+      <Statistics_db-len>173435234</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

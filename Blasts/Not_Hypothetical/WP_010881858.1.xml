@@ -1,0 +1,621 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>Query_73459</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>583</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_73459</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>583</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|6094265|sp|O83425.1|SECD_TREPA</Hit_id>
+  <Hit_def>RecName: Full=Protein translocase subunit SecD</Hit_def>
+  <Hit_accession>O83425</Hit_accession>
+  <Hit_len>583</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1183.32</Hsp_bit-score>
+      <Hsp_score>3060</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>583</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>583</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>583</Hsp_identity>
+      <Hsp_positive>583</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>583</Hsp_align-len>
+      <Hsp_qseq>MSKKARFGVVLVVLAACSGFLFPTLQWYFLTDAQTRQRALSSREQIKEYAVQSAERDLADLTRLARAGSDEDISARYAPLVAAARQNLSYSGRPAPSRWTAAALVSAFPVKSEQGFVLYARPLMEQTYREAVLKMKRRQAQAVKLGLDLSGGTSVVIKADLSEVTKGVPDAERAAIRSEAMALVLSTLENRINRFGLSEPVIRRQGEDRVYVEIPGLTDRDRVHSIVMGRGVLAFHLVDDDATQKLLDHYRNNPQGTFDAAHQLHDLSLVPEHTSVLGVYRKDSYGLDVRDGFLVVKKEPALEGRHIRDATVSSGRANEPLVLFDLDHEGARIFSELTTKEIGRRLAIVSDGKIRSAPAIREPITAGSGSISGFSAEEAQNLKTALRSAWLNVALEIENQQVVGASMGEESIRQGTRALVWGLCAVLLFMLVWYQEAGVNACVAQLLNLYIMFGVLSAFNLTLTLSSIAGMILTIGMAVDANVVVFERIREELALGKSRGAAVCSGFERAFWAIMDSNVTTFIAALFLSVLGTGPIKGFAYSLAIGVVSSVFTALFVSRLMFDYGTEVLHKKTVRIGWRIARV</Hsp_qseq>
+      <Hsp_hseq>MSKKARFGVVLVVLAACSGFLFPTLQWYFLTDAQTRQRALSSREQIKEYAVQSAERDLADLTRLARAGSDEDISARYAPLVAAARQNLSYSGRPAPSRWTAAALVSAFPVKSEQGFVLYARPLMEQTYREAVLKMKRRQAQAVKLGLDLSGGTSVVIKADLSEVTKGVPDAERAAIRSEAMALVLSTLENRINRFGLSEPVIRRQGEDRVYVEIPGLTDRDRVHSIVMGRGVLAFHLVDDDATQKLLDHYRNNPQGTFDAAHQLHDLSLVPEHTSVLGVYRKDSYGLDVRDGFLVVKKEPALEGRHIRDATVSSGRANEPLVLFDLDHEGARIFSELTTKEIGRRLAIVSDGKIRSAPAIREPITAGSGSISGFSAEEAQNLKTALRSAWLNVALEIENQQVVGASMGEESIRQGTRALVWGLCAVLLFMLVWYQEAGVNACVAQLLNLYIMFGVLSAFNLTLTLSSIAGMILTIGMAVDANVVVFERIREELALGKSRGAAVCSGFERAFWAIMDSNVTTFIAALFLSVLGTGPIKGFAYSLAIGVVSSVFTALFVSRLMFDYGTEVLHKKTVRIGWRIARV</Hsp_hseq>
+      <Hsp_midline>MSKKARFGVVLVVLAACSGFLFPTLQWYFLTDAQTRQRALSSREQIKEYAVQSAERDLADLTRLARAGSDEDISARYAPLVAAARQNLSYSGRPAPSRWTAAALVSAFPVKSEQGFVLYARPLMEQTYREAVLKMKRRQAQAVKLGLDLSGGTSVVIKADLSEVTKGVPDAERAAIRSEAMALVLSTLENRINRFGLSEPVIRRQGEDRVYVEIPGLTDRDRVHSIVMGRGVLAFHLVDDDATQKLLDHYRNNPQGTFDAAHQLHDLSLVPEHTSVLGVYRKDSYGLDVRDGFLVVKKEPALEGRHIRDATVSSGRANEPLVLFDLDHEGARIFSELTTKEIGRRLAIVSDGKIRSAPAIREPITAGSGSISGFSAEEAQNLKTALRSAWLNVALEIENQQVVGASMGEESIRQGTRALVWGLCAVLLFMLVWYQEAGVNACVAQLLNLYIMFGVLSAFNLTLTLSSIAGMILTIGMAVDANVVVFERIREELALGKSRGAAVCSGFERAFWAIMDSNVTTFIAALFLSVLGTGPIKGFAYSLAIGVVSSVFTALFVSRLMFDYGTEVLHKKTVRIGWRIARV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|30316347|sp|O51596.2|SECD_BORBU</Hit_id>
+  <Hit_def>RecName: Full=Protein translocase subunit SecD</Hit_def>
+  <Hit_accession>O51596</Hit_accession>
+  <Hit_len>586</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>386.341</Hsp_bit-score>
+      <Hsp_score>991</Hsp_score>
+      <Hsp_evalue>9.91161e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>578</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>578</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>216</Hsp_identity>
+      <Hsp_positive>353</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>587</Hsp_align-len>
+      <Hsp_qseq>MSKKARFGVVLVVLAACSGFLFPTLQWYFLTDAQTRQRALSSREQIKEYAVQSAERDLADLTRLARAGSDEDISARYAPLVAAARQNLSYSGRPAPSRWTAAALVSAFPVKSEQGFVLYARPLMEQTYREAVLKMKRRQAQAVKLGLDLSGGTSVVIKADLSEVTKGVPDAERAAIRSEAMALVLSTLENRINRFGLSEP-VIRRQGEDRVYVEIPGLTDRDRVHSIVMGRGVLAFHLVDDDATQKLLDHYRNNPQGTFDAAHQLHDLSLVPEHTSVLGVYRKDSYGLDVRDG--FLVVKKEP--ALEGRHIRDATVSSG-RANEPLVLFDLDHEGARIFSELTTKEIGRRLAIVSDGKIRSAPAIREPITAGSGSISG--FSAEEAQNLKTALRSAWLNVALEIENQQVVGASMGEESIRQGTRALVWGLCAVLLFMLVWYQEAGVNACVAQLL-NLYIMFGVLSAFNLTLTLSSIAGMILTIGMAVDANVVVFERIREELALGKSRGAAVCSGFERAFWAIMDSNVTTFIAALFLSVLGTGPIKGFAYSLAIGVVSSVFTALFVSRLMFDYGTEVLHKKTVRIGW</Hsp_qseq>
+      <Hsp_hseq>MKKGSKLILILLVTFFACLLIFPTLKWYFLMSVEDKKISSYSQEALRDYSKKKALNDLVKLKELYNKDPNSSIPASLSYLIPIAKNNYRSSMKIPPNIFTAKTLREGFLTDSDMGEV----SLEIYRYYENI---KKGKSRIIHLGLDLSGGMSVTISLDYSSVEKKLGRSLTFAEREDAIYRIMQILKDRVBRFGLTEPKIVREAGGNKIFLDIPGEKDESRVSTLLSGKGNLTFYVVDDESTSLL--HRKILEAGSLFSIPEIQASMNLPDSKQIFPWYVKDSYGVDDESSVRYYVVDASPENSFDGAHIKDAGVSNDPRTGRDTVAFSLDVDGSEKFFKFTQKNVGKSLAVVMEGKIKSVAGIGYAITGGNVSIQGDSFDKKEAQDLALVFKTAAFPVDIKIDDLRIIGPTLGARTIDLGIKASALALCLVFLFICVYYGLSGVVAGFSLVIYNVFLILAILSAFNFTLTLTSIAGLILTMGMAVDINIVIYERIKEEIREGRRFENAFEAGFKKAFLSIMDANITTFIAVLFLTLLGTGVIQGFAWSLSVGIVASLFSSLIFSRFILEFIISVRKSKFISISW</Hsp_hseq>
+      <Hsp_midline>M K ++  ++L+V       +FPTL+WYFL   + ++ +  S+E +++Y+ + A  DL  L  L     +  I A  + L+  A+ N   S +  P+ +TA  L   F   S+ G V     L    Y E +   K+ +++ + LGLDLSGG SV I  D S V K +  +   A R +A+  ++  L++R++RFGL+EP ++R  G ++++++IPG  D  RV +++ G+G L F++VDD++T  L  H +    G+  +  ++     +P+   +   Y KDSYG+D      + VV   P  + +G HI+DA VS+  R     V F LD +G+  F + T K +G+ LA+V +GKI+S   I   IT G+ SI G  F  +EAQ+L    ++A   V ++I++ +++G ++G  +I  G +A    LC V LF+ V+Y  +GV A  + ++ N++++  +LSAFN TLTL+SIAG+ILT+GMAVD N+V++ERI+EE+  G+    A  +GF++AF +IMD+N+TTFIA LFL++LGTG I+GFA+SL++G+V+S+F++L  SR + ++   V   K + I W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|347662367|sp|E4TJ18.1|SECD_CALNY</Hit_id>
+  <Hit_def>RecName: Full=Protein translocase subunit SecD</Hit_def>
+  <Hit_accession>E4TJ18</Hit_accession>
+  <Hit_len>517</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>284.648</Hsp_bit-score>
+      <Hsp_score>727</Hsp_score>
+      <Hsp_evalue>1.33874e-86</Hsp_evalue>
+      <Hsp_query-from>172</Hsp_query-from>
+      <Hsp_query-to>574</Hsp_query-to>
+      <Hsp_hit-from>127</Hsp_hit-from>
+      <Hsp_hit-to>517</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>247</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>407</Hsp_align-len>
+      <Hsp_qseq>ERAAIRSEAMALVLSTLENRINRFGLSEPVIRRQGEDRVYVEIPGLTDRDRVHSIVMGRGVLAFHLVDDDATQKLLDHYRNNPQGTFDAAHQLHDLSLVPEHTSVLGVYRKDSYGLDVRDGFLVVKKEPALEGRHIRDATVS-SGRANEPLVLFDLDHEGARIFSELTTKEIGRRLAIVSDGKIRSAPAIREPITAGSGSISG-FSAEEAQNLKTALRSAWLNVALEIENQQVVGASMGEESIRQGTRALVWGLCAVLLFMLVWYQEAGVNACVAQLLNLYIMFGVLSAFNLTLTLSSIAGMILTIGMAVDANVVVFERIREELALGKSRGAAVCSGFERAFWAIMDSNVTTFIAALFLSVLGTGPIKGFAYSLAIGVVSSVFTALFVSRLMF--DYGTEVLHKKTV</Hsp_qseq>
+      <Hsp_hseq>EVKRIKDYAVEQAVQVIRNRVDQFGVNEPVIQRQGKEHILVQLAGITDPERAVKLIGKTAQLKFYLLDENANNEETIKSGNIP----------------PDDIILYGKKIDKVTGQIVSTIPYVLKKDAVLTGDYLLEAEVRISSQFNEPYVSIKFDPAGSKIFEEITAENVNKRMAIVLDDNVYSAPVIRERIAGGEAQISGSFTLEEAKDLAIVLRAGSLPAPVKILENRTIGPSLGQDSIKKGIWAGIIGVAAVIIFMLIYYKFSGFIASIALLSNAIIILGAMGMFKATLTLPGIAGLILTMGMAIDANVLIFERIREELRLGRTPMNALEAGFEKAMSTIIDSNITTLIAGLVLFQFGTGPVKGFAVTLTIGILSSIFTAVTLSKTIFLTLYGNKEIKKLSV</Hsp_hseq>
+      <Hsp_midline>E   I+  A+   +  + NR+++FG++EPVI+RQG++ + V++ G+TD +R   ++     L F+L+D++A  +      N P                P+   + G       G  V     V+KK+  L G ++ +A V  S + NEP V    D  G++IF E+T + + +R+AIV D  + SAP IRE I  G   ISG F+ EEA++L   LR+  L   ++I   + +G S+G++SI++G  A + G+ AV++FML++Y+ +G  A +A L N  I+ G +  F  TLTL  IAG+ILT+GMA+DANV++FERIREEL LG++   A+ +GFE+A   I+DSN+TT IA L L   GTGP+KGFA +L IG++SS+FTA+ +S+ +F   YG + + K +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|347662369|sp|E6W4K8.1|SECD_DESIS</Hit_id>
+  <Hit_def>RecName: Full=Protein translocase subunit SecD</Hit_def>
+  <Hit_accession>E6W4K8</Hit_accession>
+  <Hit_len>515</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.878</Hsp_bit-score>
+      <Hsp_score>725</Hsp_score>
+      <Hsp_evalue>2.51882e-86</Hsp_evalue>
+      <Hsp_query-from>176</Hsp_query-from>
+      <Hsp_query-to>575</Hsp_query-to>
+      <Hsp_hit-from>130</Hsp_hit-from>
+      <Hsp_hit-to>511</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>162</Hsp_identity>
+      <Hsp_positive>250</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>IRSEAMALVLSTLENRINRFGLSEPVIRRQGEDRVYVEIPGLTDRDRVHSIVMGRGVLAFHLVDDD-ATQKLLDHYRNNPQGTFDAAHQLHDLSLVPEHTSVLGVYRKD-SYGLDVRDGFLVVKKEPALEGRHIRDATVS-SGRANEPLVLFDLDHEGARIFSELTTKEIGRRLAIVSDGKIRSAPAIREPITAGSGSISG-FSAEEAQNLKTALRSAWLNVALEIENQQVVGASMGEESIRQGTRALVWGLCAVLLFMLVWYQEAGVNACVAQLLNLYIMFGVLSAFNLTLTLSSIAGMILTIGMAVDANVVVFERIREELALGKSRGAAVCSGFERAFWAIMDSNVTTFIAALFLSVLGTGPIKGFAYSLAIGVVSSVFTALFVSRLMFDYGTEVLHKKTVR</Hsp_qseq>
+      <Hsp_hseq>IKELAVGQALETIRNRIDQFGVSEPTVQKQGDRRIIIELPGVEDVDRAVELIGRTAMLEFRLVNENVSTRDALDGF-------------------LPENSEVLYQRHMDPQTNTEVDRTPFVLYRDVIFTGDRLLDARVRFDPQFNTPYVSITLDGEGARLFADVTGRNVGRRLAIVLDGHVHSAPVINERIPSGQASISGQFTMEQATDLSIVLRSGSLPAPVDIVENRTVGPTLGQDSIDKGILSVTIGMALVLLFMVAYYRLSGLLANMALLMNLIILMGLLAYFGATLTLPGIAGIILTIGIAVDANVLIFERIREELRRGASPRLAIEEGYAKAFSTILDANITTLIVAVILFQFGTGPIKGFAVTLSIGILASMFTAILCTRAIYEL---ILVYKPIR</Hsp_hseq>
+      <Hsp_midline>I+  A+   L T+ NRI++FG+SEP +++QG+ R+ +E+PG+ D DR   ++    +L F LV+++ +T+  LD +                   +PE++ VL     D     +V     V+ ++    G  + DA V    + N P V   LD EGAR+F+++T + +GRRLAIV DG + SAP I E I +G  SISG F+ E+A +L   LRS  L   ++I   + VG ++G++SI +G  ++  G+  VLLFM+ +Y+ +G+ A +A L+NL I+ G+L+ F  TLTL  IAG+ILTIG+AVDANV++FERIREEL  G S   A+  G+ +AF  I+D+N+TT I A+ L   GTGPIKGFA +L+IG+++S+FTA+  +R +++    +L  K +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|347662374|sp|A0LCK9.1|SECD_MAGMM</Hit_id>
+  <Hit_def>RecName: Full=Protein translocase subunit SecD</Hit_def>
+  <Hit_accession>A0LCK9</Hit_accession>
+  <Hit_len>525</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>276.944</Hsp_bit-score>
+      <Hsp_score>707</Hsp_score>
+      <Hsp_evalue>1.68599e-83</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>562</Hsp_query-to>
+      <Hsp_hit-from>137</Hsp_hit-from>
+      <Hsp_hit-to>511</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>156</Hsp_identity>
+      <Hsp_positive>243</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>395</Hsp_align-len>
+      <Hsp_qseq>DAERAAIRSEAMALVLSTLENRINRFGLSEPVIRRQGEDRVYVEIPGLTDRDRVHSIVMGRGVLAFHLVDDDATQKLLDHYRNNPQGTFDAAHQLHDLSLVPEHTSVLGVYRKDSYGLDVRDGF-LVVKKEPALEGRHIRDATVSSGRANEPLVLFDLDHEGARIFSELTTKEIGRRLAIVSDGKIRSAPAIREPITAGSGSISG-FSAEEAQNLKTALRSAWLNVALEIENQQVVGASMGEESIRQGTRALVWGLCAVLLFMLVWYQEAGVNACVAQLLNLYIMFGVLSAFNLTLTLSSIAGMILTIGMAVDANVVVFERIREELALGKSRGAAVCSGFERAFWAIMDSNVTTFIAALFLSVLGTGPIKGFAYSLAIGVVSSVFTALFVSRLMF</Hsp_qseq>
+      <Hsp_hseq>EAEKVEIRKFAVDQAIEIIRNRIDAFGVSEPSIQKQGERRIIVQLPGIKNPDRAKGLIGRTARLDFKLV--------------NEKGDLNRALE----GQVPADSELM--YEERSANQGGKSAYPLLVFKRTILSGQHIQNAQTTFNEYNEPIVSVKFDAVGGRKFSQITGEHIKERLAIVLDGKVQSAPVIQDKIAGGRATISGSFTREEAHDLAIVLRAGALPAPLVILEERTVGPTLGADSVAQGLNSVLIGGVLVVLFMVLYYKGFGMLANLAVVLNVTILVSLLALMQATLTLPGIAGAVLLLGMAVDANVLIFERIREELRLGKSPLAAIDHGYSKAFSTILDANITTLITAVILYQFGTGPVRGFAVTLSVGLLASMFTAIFVTRVVL</Hsp_hseq>
+      <Hsp_midline>+AE+  IR  A+   +  + NRI+ FG+SEP I++QGE R+ V++PG+ + DR   ++     L F LV              N +G  + A +      VP  + ++  Y + S     +  + L+V K   L G+HI++A  +    NEP+V    D  G R FS++T + I  RLAIV DGK++SAP I++ I  G  +ISG F+ EEA +L   LR+  L   L I  ++ VG ++G +S+ QG  +++ G   V+LFM+++Y+  G+ A +A +LN+ I+  +L+    TLTL  IAG +L +GMAVDANV++FERIREEL LGKS  AA+  G+ +AF  I+D+N+TT I A+ L   GTGP++GFA +L++G+++S+FTA+FV+R++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|347662383|sp|B1H0M4.1|SECD_UNCTG</Hit_id>
+  <Hit_def>RecName: Full=Protein translocase subunit SecD</Hit_def>
+  <Hit_accession>B1H0M4</Hit_accession>
+  <Hit_len>475</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>269.24</Hsp_bit-score>
+      <Hsp_score>687</Hsp_score>
+      <Hsp_evalue>3.15605e-81</Hsp_evalue>
+      <Hsp_query-from>141</Hsp_query-from>
+      <Hsp_query-to>580</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>475</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>266</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>455</Hsp_align-len>
+      <Hsp_qseq>QAVKLGLDLSGGTSVVIKADLSEVTKGVPDAERAAIRSEAMALVLSTLENRINRFGLSEPVIRRQGEDRVYVEIPGLTDRDRVHSIVMGRGVLAFHLVD-DDATQKLLD----------HYRNNPQGTFDAAHQLHDLSLVPEHTSVL-GVYRKDSYGLDVRDGFLVVKKEPALEGRHIRDATVS-SGRANEPLVLFDLDHEGARIFSELTTKEIGRRLAIVSDGKIRSAPAIREPITAGS-GSISG-FSAEEAQNLKTALRSAWLNVALEIENQQVVGASMGEESIRQGTRALVWGLCAVLLFMLVWYQEAGVNACVAQLLNLYIMFGVLSAFNLTLTLSSIAGMILTIGMAVDANVVVFERIREELALGKSRGAAVCSGFERAFWAIMDSNVTTFIAALFLSVLGTGPIKGFAYSLAIGVVSSVFTALFVSRLMFDYGTEVLHKKTVRIGWRI</Hsp_qseq>
+      <Hsp_hseq>RTLKLGLDLKGGTYLLLETDTSHLNGAVK-------VKDAVSRAIEIIRNRIDQFGVTEPMIAKQGDKWIVIQLPGIKDPKAAKDLIGKTALLEFRIVNTSEEARQVLDLIYEKRITPVQYRENSSAYPDIK------AVMPEGASVFESRSNMDYYVLD----------KALLTGAALANAKVEFGGEYGQMMVSIEFNRDGGKIFEYITERNIGKSLAIVLDGIVQSAPVIRTRISRGERASIEGNFNSEDAKVLAAVLRAGALPVPVRLIEERTVGPSLGDDSIKKGFMSSLIGIVLVFLFMFIYYRSSGLIADVALSLNLIILMAIMAYLKFTLTLPGVAGIALTLAMSVDANVLILERIREEIAVGKTAKMAVDAGYQKVFWTIFDANFTTLIAALFLFQFGAGPIKGFAVTLSIGLIVSMFTAVTVTKLIYEF----LFKKNLLLKIKI</Hsp_hseq>
+      <Hsp_midline>+ +KLGLDL GGT ++++ D S +   V          +A++  +  + NRI++FG++EP+I +QG+  + +++PG+ D      ++    +L F +V+  +  +++LD           YR N     D        +++PE  SV       D Y LD          +  L G  + +A V   G   + +V  + + +G +IF  +T + IG+ LAIV DG ++SAP IR  I+ G   SI G F++E+A+ L   LR+  L V + +  ++ VG S+G++SI++G  + + G+  V LFM ++Y+ +G+ A VA  LNL I+  +++    TLTL  +AG+ LT+ M+VDANV++ ERIREE+A+GK+   AV +G+++ FW I D+N TT IAALFL   G GPIKGFA +L+IG++ S+FTA+ V++L++++    L KK + +  +I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|347662364|sp|D2RLC8.1|SECD_ACIFV</Hit_id>
+  <Hit_def>RecName: Full=Protein translocase subunit SecD</Hit_def>
+  <Hit_accession>D2RLC8</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>264.233</Hsp_bit-score>
+      <Hsp_score>674</Hsp_score>
+      <Hsp_evalue>5.40679e-80</Hsp_evalue>
+      <Hsp_query-from>143</Hsp_query-from>
+      <Hsp_query-to>562</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>384</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>155</Hsp_identity>
+      <Hsp_positive>240</Hsp_positive>
+      <Hsp_gaps>68</Hsp_gaps>
+      <Hsp_align-len>421</Hsp_align-len>
+      <Hsp_qseq>VKLGLDLSGGTSVVIKADLSEVTKGVPDAERAAIRSEAMALVLSTLENRINRFGLSEPVIRRQGEDRVYVEIPGLTDRDRVHSIVMGRGVLAFHLVDDDATQKLLDHYRNNPQGTFDAAHQLHDLSLVPEHTSVLGVYRKDSYGLDVRDGFLVVKKEPALEGRHIRDATVSSGRANEPLVLFDLDHEGARIFSELTTKEIGRRLAIVSDGKIRSAPAIREPITAGSGSISGFS-AEEAQNLKTALRSAWLNVALEIENQQVVGASMGEESIRQGTRALVWGLCAVLLFMLVWYQEAGVNACVAQLLNLYIMFGVLSAFNLTLTLSSIAGMILTIGMAVDANVVVFERIREELALGKSRGAAVCSGFERAFWAIMDSNVTTFIAALFLSVLGTGPIKGFAYSLAIGVVSSVFTALFVSRLMF</Hsp_qseq>
+      <Hsp_hseq>VKQGLDLQGGTHVVLQAQETPESK---------VDDDAINRSIQIISRRVNELGLTEPVIQRQGKDKIIVELPGVKDPEQAIAMLGKTAMLEF----------------------------------------------KDMEGNTVLTG------------KDLKDSKASADQSGQPVVTLQFNEDGAKKFADLTARNVGRQIAILLDGKVLTAPRVSEPITGGNAQITGSKDAKEAEHLAILLRSGSLPVKLEVVENRTVGPTLGQDAKDASMKAFAIGLAGVFLFMLLYYRLSGLVADIVLLLYTLLLLAVMKGLNATLTLPGMAGIILSIGMAVDANVLIFERFKEEIANGKTLRAAVNSGFSRAFTTILDSNVTTLMAAAVLFYLGTGPIKGFAVTLALGVLISMFTAVTVTKFIL</Hsp_hseq>
+      <Hsp_midline>VK GLDL GGT VV++A  +  +K         +  +A+   +  +  R+N  GL+EPVI+RQG+D++ VE+PG+ D ++  +++    +L F                                              KD  G  V  G            + ++D+  S+ ++ +P+V    + +GA+ F++LT + +GR++AI+ DGK+ +AP + EPIT G+  I+G   A+EA++L   LRS  L V LE+   + VG ++G+++     +A   GL  V LFML++Y+ +G+ A +  LL   ++  V+   N TLTL  +AG+IL+IGMAVDANV++FER +EE+A GK+  AAV SGF RAF  I+DSNVTT +AA  L  LGTGPIKGFA +LA+GV+ S+FTA+ V++ + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|347662379|sp|A0LHM9.1|SECD_SYNFM</Hit_id>
+  <Hit_def>RecName: Full=Protein translocase subunit SecD</Hit_def>
+  <Hit_accession>A0LHM9</Hit_accession>
+  <Hit_len>533</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>265.003</Hsp_bit-score>
+      <Hsp_score>676</Hsp_score>
+      <Hsp_evalue>5.25131e-79</Hsp_evalue>
+      <Hsp_query-from>168</Hsp_query-from>
+      <Hsp_query-to>564</Hsp_query-to>
+      <Hsp_hit-from>141</Hsp_hit-from>
+      <Hsp_hit-to>521</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>157</Hsp_identity>
+      <Hsp_positive>244</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>399</Hsp_align-len>
+      <Hsp_qseq>VPDAERAAIRSEAMALVLSTLENRINRFGLSEPVIRRQGEDRVYVEIPGLTDRDRVHSIVMGRGVLAFHLVDDDATQKLLDHYRNNPQGTFDAAHQLHDLSLVPEHTSVLGVYRKDSYGLDVRDGFLVVKKEPALEGRHIRDATVSSGRANEP-LVLFDLDHEGARIFSELTTKEIGRRLAIVSDGKIRSAPAIREPITAGSGSISG-FSAEEAQNLKTALRSAWLNVALEIENQQVVGASMGEESIRQGTRALVWGLCAVLLFMLVWYQEAGVNACVAQLLNLYIMFGVLSAFNLTLTLSSIAGMILTIGMAVDANVVVFERIREELALGKSRGAAVCSGFERAFWAIMDSNVTTFIAALFLSVLGTGPIKGFAYSLAIGVVSSVFTALFVSRLMFDY</Hsp_qseq>
+      <Hsp_hseq>VHEKEVERVQKAAIAQGLETIRNRIDQFGVSEPDIRPQGEDRILVQLPGIQDPQRAVELIGKTAQLEFKLVAEGVSPQ------DVKSGKAPAGTKIYPM----KHTDRTTRQRTESQ--------IVLNDRTLMSGEYITNAQVEIDRQHSSSYVALDFDAQGAKLFEKITEANVKKQLAIVLDGVVYSAPVIQETIGGGKATITGSFTDQEARDLAIVLRAGALPAPVKILEQRTVGPSLGADSINKGVLASIVGGIGTILFMLIYYRFGGVVADLALALNVLLVLAGMAAFGFTLTLPGIAGIALTIGMAVDANVLIYERIREELRLGKTPRAALETGYDRATLTILDANVTTIIAALVLLQFGTGPVRGFAVTLTVGLAANMFTAIFVTRVIFDY</Hsp_hseq>
+      <Hsp_midline>V + E   ++  A+A  L T+ NRI++FG+SEP IR QGEDR+ V++PG+ D  R   ++     L F LV +  + +      +   G   A  +++ +    +HT      R +S         +V+     + G +I +A V   R +    V  D D +GA++F ++T   + ++LAIV DG + SAP I+E I  G  +I+G F+ +EA++L   LR+  L   ++I  Q+ VG S+G +SI +G  A + G    +LFML++Y+  GV A +A  LN+ ++   ++AF  TLTL  IAG+ LTIGMAVDANV+++ERIREEL LGK+  AA+ +G++RA   I+D+NVTT IAAL L   GTGP++GFA +L +G+ +++FTA+FV+R++FDY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|347662371|sp|B2KBZ1.1|SECD_ELUMP</Hit_id>
+  <Hit_def>RecName: Full=Protein translocase subunit SecD</Hit_def>
+  <Hit_accession>B2KBZ1</Hit_accession>
+  <Hit_len>473</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>263.462</Hsp_bit-score>
+      <Hsp_score>672</Hsp_score>
+      <Hsp_evalue>5.68068e-79</Hsp_evalue>
+      <Hsp_query-from>138</Hsp_query-from>
+      <Hsp_query-to>563</Hsp_query-to>
+      <Hsp_hit-from>46</Hsp_hit-from>
+      <Hsp_hit-to>461</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>260</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>429</Hsp_align-len>
+      <Hsp_qseq>RQAQAVKLGLDLSGGTSVVIKADLSEVTKGVPDAERAAIRSEAMALVLSTLENRINRFGLSEPVIRRQGEDRVYVEIPGLTDRDRVHSIVMGRGVLAFHLVDDDATQKLLDHYRNNPQGTFDAAHQLHDLSLVPEHTSVLGVYRKDSYGLDVRDG-FLVVKKEPALEGRHIRDATVS-SGRANEPLVLFDLDHEGARIFSELTTKEIGRRLAIVSDGKIRSAPAIREPITAGSGSISG-FSAEEAQNLKTALRSAWLNVALEIENQQVVGASMGEESIRQGTRALVWGLCAVLLFMLVWYQEAGVNACVAQLLNLYIMFGVLSAFNLTLTLSSIAGMILTIGMAVDANVVVFERIREELALGKSRGAAVCSGFERAFWAIMDSNVTTFIAALFLSVLGTGPIKGFAYSLAIGVVSSVFTALFVSRLMFD</Hsp_qseq>
+      <Hsp_hseq>RPKNILNLGLDLRGGSSLLLELDVTKLPDNTP-----AARNDAVSRAIEIIRNRIDQYGVAETPITRQGEKWISVQLPGIANPAQAEALIGKTAMLEFRIVKPQTSA--LDKAAAKIEDTEEPWDE--DGNLIPSLAKLL---PADTIVLKNKEGGFSFLEKEVKVTGADLENAQVNVGGDYGYPEVSFTFSAEGAKKFGSLTGSNIGKQLAIVLDNTVQSAPSIQSRITR-DGRISGRFTMDEARRLAITLRAGALPAPVKIIEKRTIGPSLGEDSIKSGVRASLYGIVIILILMAIYYKSGGIISNIALILNLVFLLAAMAAFNATLTMPGIAGIILSLAMAIDANVLILERMREEKLRGRSLYEMIDLGYTKAWSAIFDSNFTSWIVALFLFQFGSGPVKGFAVTLTLGLLIGVFTSVFVTRAIYD</Hsp_hseq>
+      <Hsp_midline>R    + LGLDL GG+S++++ D++++    P     A R++A++  +  + NRI+++G++E  I RQGE  + V++PG+ +  +  +++    +L F +V    +   LD      + T +   +  D +L+P    +L     D+  L  ++G F  ++KE  + G  + +A V+  G    P V F    EGA+ F  LT   IG++LAIV D  ++SAP+I+  IT   G ISG F+ +EA+ L   LR+  L   ++I  ++ +G S+GE+SI+ G RA ++G+  +L+ M ++Y+  G+ + +A +LNL  +   ++AFN TLT+  IAG+IL++ MA+DANV++ ER+REE   G+S    +  G+ +A+ AI DSN T++I ALFL   G+GP+KGFA +L +G++  VFT++FV+R ++D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|347662373|sp|C7NC37.1|SECD_LEPBD</Hit_id>
+  <Hit_def>RecName: Full=Protein translocase subunit SecD</Hit_def>
+  <Hit_accession>C7NC37</Hit_accession>
+  <Hit_len>404</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>258.455</Hsp_bit-score>
+      <Hsp_score>659</Hsp_score>
+      <Hsp_evalue>5.51793e-78</Hsp_evalue>
+      <Hsp_query-from>143</Hsp_query-from>
+      <Hsp_query-to>579</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>398</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>240</Hsp_positive>
+      <Hsp_gaps>69</Hsp_gaps>
+      <Hsp_align-len>439</Hsp_align-len>
+      <Hsp_qseq>VKLGLDLSGGTSVVIKADLSEVTKGVPDAERAAIRSEAMALVLSTLENRINRFGLSEPVIRRQGEDRVYVEIPGLTDRDRVHSIVMGRGVLAFHLVDDDATQKLLDHYRNNPQGTFDAAHQLHDLSLVPEHTSVLGVYRKDSYGLDVRDGFLVVKKEPAL-EGRHIRDATVSSGRANEPLVLFDLDHEGARIFSELTTKEIGRRLAIVSDGKIRSAPAIREPITAGSGSISG-FSAEEAQNLKTALRSAWLNVALEIENQQVVGASMGEESIRQGTRALVWGLCAVLLFMLVWYQEAGVNACVAQLLNLYIMFGVLSAFNLTLTLSSIAGMILTIGMAVDANVVVFERIREELALGKSRGAAVCSGFERAFWAIMDSNVTTFIAALFLSVLGTGPIKGFAYSLAIGVVSSVFTALFVSRLMFDYGTEVLHKKTVRIGWR</Hsp_qseq>
+      <Hsp_hseq>VKLGLDLRGGTSVVLQA-------------QGKIEADTMSKVRNIIERRVNSIGVAEPVIQLSGNDKLIVELAGIKDPQKAIELIGTTAKLEFRIKNKDG-----------------------------------------SYG-------------PVLLEGSALKSAGVSRDQVGMPSVSFELNSQGANTFAKITRENIGKQLAIMLDNKEQSAPTINSEINGGSGIITGRFSMEEANNLANLLKSGALPVEIKIVENRTVGATLGVDSIKQTGIAGLIALGVISVFMIAIYKIPGIVADIALLINGVLVLGLLSGIGAALTLPGIAGFILTLGMAVDSNVITYERIKEELRLGESLHDAVERGYENAFPAIIDGNITTLLVAAVLFFLGTGPIKGFAVTLSLGVVATIITGVFVSKVILKLFIKTFNIKREQLFWK</Hsp_hseq>
+      <Hsp_midline>VKLGLDL GGTSVV++A             +  I ++ M+ V + +E R+N  G++EPVI+  G D++ VE+ G+ D  +   ++     L F + + D                                          SYG             P L EG  ++ A VS  +   P V F+L+ +GA  F+++T + IG++LAI+ D K +SAP I   I  GSG I+G FS EEA NL   L+S  L V ++I   + VGA++G +SI+Q   A +  L  + +FM+  Y+  G+ A +A L+N  ++ G+LS     LTL  IAG ILT+GMAVD+NV+ +ERI+EEL LG+S   AV  G+E AF AI+D N+TT + A  L  LGTGPIKGFA +L++GVV+++ T +FVS+++     +  + K  ++ W+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|347662382|sp|B5YIG9.1|SECD_THEYD</Hit_id>
+  <Hit_def>RecName: Full=Protein translocase subunit SecD</Hit_def>
+  <Hit_accession>B5YIG9</Hit_accession>
+  <Hit_len>540</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>259.996</Hsp_bit-score>
+      <Hsp_score>663</Hsp_score>
+      <Hsp_evalue>4.54461e-77</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>564</Hsp_query-to>
+      <Hsp_hit-from>117</Hsp_hit-from>
+      <Hsp_hit-to>528</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>251</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>418</Hsp_align-len>
+      <Hsp_qseq>ADLSEVTKG------VPDAERAAIRSEAMALVLSTLENRINRFGLSEPVIRRQGEDRVYVEIPGLTDRDRVHSIVMGRGVLAFHLVDDDAT--QKLLDHYRNNPQGTFDAAHQLHDLSLVPEHTSVLGVYRK--DSYGLDVRDGFLVVKKEPALEGRHIRDATVS-SGRANEPLVLFDLDHEGARIFSELTTKEIGRRLAIVSDGKIRSAPAIREPITAGSGSISG-FSAEEAQNLKTALRSAWLNVALEIENQQVVGASMGEESIRQGTRALVWGLCAVLLFMLVWYQEAGVNACVAQLLNLYIMFGVLSAFNLTLTLSSIAGMILTIGMAVDANVVVFERIREELALGKSRGAAVCSGFERAFWAIMDSNVTTFIAALFLSVLGTGPIKGFAYSLAIGVVSSVFTALFVSRLMFDY</Hsp_qseq>
+      <Hsp_hseq>ADLSISEHGGNIICELPETAFKRVETTSVEQAIEVIRNRIDQLGVAEPAIHKQGENEIVVQLPGVKDPKKALEIIGKTAQLEFKLLDEETTLWKQLPSLIKAGEEDTFLNQWK----SKLPESDEI--VFQKIVNKETGEVYKRPYIVKKDVLLTGDLLAEAHVSIDQRFNEPYVSLRFNDAGAKIFEDITGKYVKRRLAIILDGNLYSAPVIQEKIEGGNAQISGSFTLEEAKDLAIVLRAGALPAPVKLIQNVTVGPTLGKDSIEAGKMAVIIASIFVSLFMIIYYRLSGVIADFALILNIILLIGALAALNATLTLPGIAGIALAVGMAVDSNVLMFERIREELRLGKTPKAAIETGYKKAFWTIFDSHVTTLITAAVLFHFGSGPIKGFAVTLSLGVAINLFTALIGTKTVFDF</Hsp_hseq>
+      <Hsp_midline>ADLS    G      +P+     + + ++   +  + NRI++ G++EP I +QGE+ + V++PG+ D  +   I+     L F L+D++ T  ++L    +   + TF    +    S +PE   +  V++K  +    +V     +VKK+  L G  + +A VS   R NEP V    +  GA+IF ++T K + RRLAI+ DG + SAP I+E I  G+  ISG F+ EEA++L   LR+  L   +++     VG ++G++SI  G  A++     V LFM+++Y+ +GV A  A +LN+ ++ G L+A N TLTL  IAG+ L +GMAVD+NV++FERIREEL LGK+  AA+ +G+++AFW I DS+VTT I A  L   G+GPIKGFA +L++GV  ++FTAL  ++ +FD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|122425641|sp|Q1RIN3.1|SECD_RICBR</Hit_id>
+  <Hit_def>RecName: Full=Protein translocase subunit SecD</Hit_def>
+  <Hit_accession>Q1RIN3</Hit_accession>
+  <Hit_len>514</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>247.669</Hsp_bit-score>
+      <Hsp_score>631</Hsp_score>
+      <Hsp_evalue>1.2704e-72</Hsp_evalue>
+      <Hsp_query-from>191</Hsp_query-from>
+      <Hsp_query-to>563</Hsp_query-to>
+      <Hsp_hit-from>154</Hsp_hit-from>
+      <Hsp_hit-to>500</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>143</Hsp_identity>
+      <Hsp_positive>220</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>374</Hsp_align-len>
+      <Hsp_qseq>RINRFGLSEPVIRRQGEDRVYVEIPGLTDRDRVHSIVMGRGVLAFHLVDDDATQKLLDHYRNNPQGTFDAAHQLHDLSLVPEHTSVLGVYRKDSYGLDVRDGFLVVKKEPALEGRHIRDATVSSGRANEPLVLFDLDHEGARIFSELTTKEIGRRLAIVSDGKIRSAPAIREPITAGSGSISG-FSAEEAQNLKTALRSAWLNVALEIENQQVVGASMGEESIRQGTRALVWGLCAVLLFMLVWYQEAGVNACVAQLLNLYIMFGVLSAFNLTLTLSSIAGMILTIGMAVDANVVVFERIREELALGKSRGAAVCSGFERAFWAIMDSNVTTFIAALFLSVLGTGPIKGFAYSLAIGVVSSVFTALFVSRLMFD</Hsp_qseq>
+      <Hsp_hseq>RVDSTGTKEPILQKQGDRHILLQVPGEEDPTYLKNILGKTAKLIFHLVDENAN--------------VEEAVKGH----VPMGSMLV---QGD------RMGYLVVKKKAILGGDSLTTAAASFDQNSQAVVSFSFNSLGSKLFGEVTKNNVGKHLAIVLDNKLLSAPTINQPIMGGSGIISGDFTVESANELALLLRAGSLPAPLKIIEERSIGPNLGADSIESGKKAGIIGFAAVCIFMVWSYGLLGLFANIALSLAMLYVLALLSLFQATLTLPGIAGIILTMGMAVDANVLIYERIKEELNKGTSNLYAIKTGFESAFATILDSNLTTLIVAFLLYIFGVGAIKGFAVALTIGIISSMFSAIIITKLLID</Hsp_hseq>
+      <Hsp_midline>R++  G  EP++++QG+  + +++PG  D   + +I+     L FHLVD++A                + A + H    VP  + ++   + D      R G+LVVKK+  L G  +  A  S  + ++ +V F  +  G+++F E+T   +G+ LAIV D K+ SAP I +PI  GSG ISG F+ E A  L   LR+  L   L+I  ++ +G ++G +SI  G +A + G  AV +FM+  Y   G+ A +A  L +  +  +LS F  TLTL  IAG+ILT+GMAVDANV+++ERI+EEL  G S   A+ +GFE AF  I+DSN+TT I A  L + G G IKGFA +L IG++SS+F+A+ +++L+ D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|347662378|sp|D1AMK9.1|SECD_SEBTE</Hit_id>
+  <Hit_def>RecName: Full=Protein translocase subunit SecD</Hit_def>
+  <Hit_accession>D1AMK9</Hit_accession>
+  <Hit_len>406</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>244.202</Hsp_bit-score>
+      <Hsp_score>622</Hsp_score>
+      <Hsp_evalue>1.65973e-72</Hsp_evalue>
+      <Hsp_query-from>143</Hsp_query-from>
+      <Hsp_query-to>570</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>393</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>228</Hsp_positive>
+      <Hsp_gaps>63</Hsp_gaps>
+      <Hsp_align-len>429</Hsp_align-len>
+      <Hsp_qseq>VKLGLDLSGGTSVVIKADLSEVTKGVPDAERAAIRSEAMALVLSTLENRINRFGLSEPVIRRQGEDRVYVEIPGLTDRDRVHSIVMGRGVLAFHLVDDDATQKLLDHYRNNPQGTFDAAHQLHDLSLVPEHTSVLGVYRKDSYGLDVRDGFLVVKKEPALEGRHIRDATVSSGRANEPLVLFDLDHEGARIFSELTTKEIGRRLAIVSDGKIRSAPAIREPITAGSGSISG-FSAEEAQNLKTALRSAWLNVALEIENQQVVGASMGEESIRQGTRALVWGLCAVLLFMLVWYQEAGVNACVAQLLNLYIMFGVLSAFNLTLTLSSIAGMILTIGMAVDANVVVFERIREELALGKSRGAAVCSGFERAFWAIMDSNVTTFIAALFLSVLGTGPIKGFAYSLAIGVVSSVFTALFVSRLMFDYGTEVLH</Hsp_qseq>
+      <Hsp_hseq>INLGLDLRGGTSVVLEAQEEDGKKLQPDT---------MDKVREIVQRRVDGLGVSEPVIQKSGENRLIVELAGVKDAQEAIDLIGTTAKLEFKIKTGD-----------------------------------------NSYGPTV------------LDGSAIKNAYVQQDQFGKPMIGFELNDEGAVKFAEITRTNMGKQLAIMLDGKEQSAPVIQSEIPGGKGSISGSFTYESAQNLANLLKAGALPVNIQIMETRSVDASLGAESIKATKMAAMIALVLVSLFMLAVYRVAGFVADLALCVFGILTAGLMCAIGTTLTLPGIAGFILSLGMAVDANVIIFERIKDEIMEGKRFQDCIDDGFNRAFPAILDGNITTLLITMVLFFFGTGPVRGFAVILTIGVLVSMFTAIFITKIIVKIFVNIFH</Hsp_hseq>
+      <Hsp_midline>+ LGLDL GGTSVV++A   +  K  PD          M  V   ++ R++  G+SEPVI++ GE+R+ VE+ G+ D      ++     L F +   D                                         +SYG  V            L+G  I++A V   +  +P++ F+L+ EGA  F+E+T   +G++LAI+ DGK +SAP I+  I  G GSISG F+ E AQNL   L++  L V ++I   + V AS+G ESI+    A +  L  V LFML  Y+ AG  A +A  +   +  G++ A   TLTL  IAG IL++GMAVDANV++FERI++E+  GK     +  GF RAF AI+D N+TT +  + L   GTGP++GFA  L IGV+ S+FTA+F+++++      + H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|347662377|sp|D0MIN4.1|SECD_RHOM4</Hit_id>
+  <Hit_def>RecName: Full=Protein translocase subunit SecD</Hit_def>
+  <Hit_accession>D0MIN4</Hit_accession>
+  <Hit_len>622</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>244.588</Hsp_bit-score>
+      <Hsp_score>623</Hsp_score>
+      <Hsp_evalue>1.44795e-70</Hsp_evalue>
+      <Hsp_query-from>293</Hsp_query-from>
+      <Hsp_query-to>572</Hsp_query-to>
+      <Hsp_hit-from>338</Hsp_hit-from>
+      <Hsp_hit-to>616</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>281</Hsp_align-len>
+      <Hsp_qseq>FLVVKKEPALEGRHIRDATVSSGRANEPLVLFDLDHEGARIFSELTTKEIGRRLAIVSDGKIRSAPAIREPITAGSGSISGF-SAEEAQNLKTALRSAWLNVALEIENQQVVGASMGEESIRQGTRALVWGLCAVLLFMLVWYQEAGVNACVAQLLNLYIMFGVLSAFNLTLTLSSIAGMILTIGMAVDANVVVFERIREELALGKSRGAAVCSGFERAFWAIMDSNVTTFIAALFLSVLGTGPIKGFAYSLAIGVVSSVFTALFVSRLMFDYGTEVLHKK</Hsp_qseq>
+      <Hsp_hseq>LLGVRKEVELTGEVITDARVEFDELNRPQVSMTMNSEGARIWARLTGANVGKHIAIVLDNVVYSYPVVNERIPSGRSSITGLDSREEAQDIVTVLKSGALPAPVDIIEERTVGPSLGEASIRAGLRSVLTGLLLVALFMIFYYRTGGMIADLALVLNIIFILGILAAFNATLTLPGIAGIVLTIGMAVDANVLIFERIREEQATGKTLRAAIDLGYSKAFSAIFDANITTFFTAAILYSFGVGPIQGFAVTLMAGIAASLFSAIVITRIIFDY--LVLERK</Hsp_hseq>
+      <Hsp_midline> L V+KE  L G  I DA V     N P V   ++ EGARI++ LT   +G+ +AIV D  + S P + E I +G  SI+G  S EEAQ++ T L+S  L   ++I  ++ VG S+GE SIR G R+++ GL  V LFM+ +Y+  G+ A +A +LN+  + G+L+AFN TLTL  IAG++LTIGMAVDANV++FERIREE A GK+  AA+  G+ +AF AI D+N+TTF  A  L   G GPI+GFA +L  G+ +S+F+A+ ++R++FDY   VL +K</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>57.3806</Hsp_bit-score>
+      <Hsp_score>137</Hsp_score>
+      <Hsp_evalue>1.86856e-07</Hsp_evalue>
+      <Hsp_query-from>179</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>160</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>EAMALVLSTLENRINRFGLSEPVIRRQGEDRVYVEIPGLTDRDRVHSIVMGRGVLAFHLVDDD-----ATQKLLDHY</Hsp_qseq>
+      <Hsp_hseq>EAVNRAIEIIRDRVDRYGVTEPVIQKQGTRRIVVELPGVDDPERVRRLLRGTARLEFRLMADPQLLQAALQDIIAYY</Hsp_hseq>
+      <Hsp_midline>EA+   +  + +R++R+G++EPVI++QG  R+ VE+PG+ D +RV  ++ G   L F L+ D      A Q ++ +Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|347662363|sp|C7JGJ8.1|SECD_ACEP3</Hit_id>
+  <Hit_def>RecName: Full=Protein translocase subunit SecD</Hit_def>
+  <Hit_accession>C7JGJ8</Hit_accession>
+  <Hit_len>521</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>242.276</Hsp_bit-score>
+      <Hsp_score>617</Hsp_score>
+      <Hsp_evalue>1.64252e-70</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>562</Hsp_query-to>
+      <Hsp_hit-from>142</Hsp_hit-from>
+      <Hsp_hit-to>507</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>395</Hsp_align-len>
+      <Hsp_qseq>DAERAAIRSEAMALVLSTLENRINRFGLSEPVIRRQGEDRVYVEIPGLTDRDRVHSIVMGRGVLAFHLVDDDATQKLLDHYRNNPQGTFDAAHQLHDLSLVPEHTSVLGVYRKDSYGLDVRDGFLVVKKEPALEGRHIRDA-TVSSGRANEPLVLFDLDHEGARIFSELTTKEIGRRLAIVSDGKIRSAPAIREPITAGSGSISG-FSAEEAQNLKTALRSAWLNVALEIENQQVVGASMGEESIRQGTRALVWGLCAVLLFMLVWYQEAGVNACVAQLLNLYIMFGVLSAFNLTLTLSSIAGMILTIGMAVDANVVVFERIREELALGKSRGAAVCSGFERAFWAIMDSNVTTFIAALFLSVLGTGPIKGFAYSLAIGVVSSVFTALFVSRLMF</Hsp_qseq>
+      <Hsp_hseq>DAIKARAR-EAVTQSIEIVRRRIDGTGAVDPEITRQGDDRIVVELPGISDPERIKALLGTTAKMTFRLVD------------SNP---LHATYPPPGVSLVPMANPAEG-------------GPLPVFDHVDVDGTDLTNAGAVIDQQTGEWAVSFSFDSVGTRAFSSVTQTNVGKRFAIVLDNKVIEAPVIRTPITGGNGQITGGFDAQKATDLALMLRAGALPAPLSVVEQRSIGPSLGADSIRAGILSLGVGFLLVVVFMVLFYGRFGWYADIALLANLVLMVAILSLFEATLTLPGMAGMLLTLGMAVDANILINERIREEVARGRTPLAAMQTGFERATSTIVDSNATAFLAHVMLFVFGTGPVRGFALTITIGIATTLFTTLLLSRMLM</Hsp_hseq>
+      <Hsp_midline>DA +A  R EA+   +  +  RI+  G  +P I RQG+DR+ VE+PG++D +R+ +++     + F LVD            +NP     A +    +SLVP      G             G L V     ++G  + +A  V   +  E  V F  D  G R FS +T   +G+R AIV D K+  AP IR PIT G+G I+G F A++A +L   LR+  L   L +  Q+ +G S+G +SIR G  +L  G   V++FM+++Y   G  A +A L NL +M  +LS F  TLTL  +AGM+LT+GMAVDAN+++ ERIREE+A G++  AA+ +GFERA   I+DSN T F+A + L V GTGP++GFA ++ IG+ +++FT L +SR++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|6647818|sp|Q9ZJ66.1|SECD_HELPJ</Hit_id>
+  <Hit_def>RecName: Full=Protein translocase subunit SecD</Hit_def>
+  <Hit_accession>Q9ZJ66</Hit_accession>
+  <Hit_len>526</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>240.736</Hsp_bit-score>
+      <Hsp_score>613</Hsp_score>
+      <Hsp_evalue>6.96706e-70</Hsp_evalue>
+      <Hsp_query-from>147</Hsp_query-from>
+      <Hsp_query-to>556</Hsp_query-to>
+      <Hsp_hit-from>106</Hsp_hit-from>
+      <Hsp_hit-to>496</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>143</Hsp_identity>
+      <Hsp_positive>234</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>414</Hsp_align-len>
+      <Hsp_qseq>LDLSGGTSVVIKADLSEVTKGVPDAERAAIRSEAMALVLSTLENRINRFGLSEPVIRRQGEDRVYVEIPG---LTDRDRVHSIVMGRGVLAFHLVDDDATQKLLDHYRNNPQGTFDAAHQLHDLSLVPEHTSVLGVYRKDSYGLDVRDGFLVVKKEPALEGRHIRDATVSSGRANEPLVLFDLDHEGARIFSELTTKEIGRRLAIVSDGKIRSAPAIRE-PITAGSGSISGFSAEEAQNLKTALRSAWLNVALEIENQQVVGASMGEESIRQGTRALVWGLCAVLLFMLVWYQEAGVNACVAQLLNLYIMFGVLSAFNLTLTLSSIAGMILTIGMAVDANVVVFERIREELALGKSRGAAVCSGFERAFWAIMDSNVTTFIAALFLSVLGTGPIKGFAYSLAIGVVSSVFTALF</Hsp_qseq>
+      <Hsp_hseq>LELQGHSQFEIKKEAEFYSVKLTPLEQEELRKNTILQVIGIIRNRLDQFGLAEPVVIQQGREEISVQLPGIKTLEEERRAKDLISKSAHLQMMAVDEE-------HNKD--------AMNMTDL----EAQKLGSVLLSDAE----MGGKILLKAIPILDGEMLTDAKVVYDQNNQPVVSFTLDAQGAKIFGDFSGANVGKRMAIVLDNKVYSAPVIRERIGGGSGQISGNFSVAQASDLAIALRSGAMNAPIQVLEKRIVGPSLGKDSIKTSIIALVGGFILVMGFMALYYSMAGVIACMALVVNLFLIVAVMAIFGATLTLPGMAGIVLTVGIAVDANIIINERIREVLREGEGVVKAIHLGYINASRAIFDSNITSLIASVLLYAYGTGAIKGFALTTGIGILASIITAII</Hsp_hseq>
+      <Hsp_midline>L+L G +   IK +    +  +   E+  +R   +  V+  + NR+++FGL+EPV+ +QG + + V++PG   L +  R   ++     L    VD++       H ++        A  + DL    E   +  V   D+       G +++K  P L+G  + DA V   + N+P+V F LD +GA+IF + +   +G+R+AIV D K+ SAP IRE            FS  +A +L  ALRS  +N  +++  +++VG S+G++SI+    ALV G   V+ FM ++Y  AGV AC+A ++NL+++  V++ F  TLTL  +AG++LT+G+AVDAN+++ ERIRE L  G+    A+  G+  A  AI DSN+T+ IA++ L   GTG IKGFA +  IG+++S+ TA+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|347662381|sp|D1CDJ5.1|SECD_THET1</Hit_id>
+  <Hit_def>RecName: Full=Protein translocase subunit SecD</Hit_def>
+  <Hit_accession>D1CDJ5</Hit_accession>
+  <Hit_len>515</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>240.35</Hsp_bit-score>
+      <Hsp_score>612</Hsp_score>
+      <Hsp_evalue>7.56695e-70</Hsp_evalue>
+      <Hsp_query-from>138</Hsp_query-from>
+      <Hsp_query-to>582</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>493</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>163</Hsp_identity>
+      <Hsp_positive>250</Hsp_positive>
+      <Hsp_gaps>48</Hsp_gaps>
+      <Hsp_align-len>477</Hsp_align-len>
+      <Hsp_qseq>RQAQAVKLGLDLSGGTSVVIKADLSEVTKGVPDAERAAIRSEAMALVLSTLENRINRFGLSEPVIRRQGEDRVYVEIPGLTDRDRVHSIVMGRGVLAFHLVDDDATQ----------KLLDHYRNNPQGTFDA---------------AHQLH---DLSLVPEHTSVLGVYRKDSYGLDVRDGFLVVKKEPALEGRHIRDATVSSGRANEPLVLFDLDHEGARIFSELTTKEIGRRLAIVSDGKIRSAPAIREPITAGSGSISGFSAEEAQNLKTALRSAWLNVALEIENQQVVGASMGEESIRQGTRALVWGLCAVLLFMLVWYQEAGVNACVAQLLNLYIMFGVLSAFNLTLTLSSIAGMILTIGMAVDANVVVFERIREELALGKSRGAAVCSGFERAFWAIMDSNVTTFIAALFL----SVLGTGPIKGFAYSLAIGVVSSVFTALFVSRLMFDYGTEVLHKKTVRIGWRIAR</Hsp_qseq>
+      <Hsp_hseq>RQAEVVE-GLDLQGGLQVLLQA--RHVGGKAPTREQ-------MEEVRQVVEQRVNSLGLTEPVVQLQGSDRIVVELPGVKDPEQAIRTFQGTGLLEFIDAGDTPLQVGTLVNTTLGPAITNGNQNQNSTKNGTPTPGTTPTPESTPQANQTPVAANVTPTPEDPQFQQALQATPPEQLQRTYTTVITGNDIANARPDFDPT-----TGEPVVSFELKPEAAKKFADFTTQNVGKYLAIALDKKIISSPQIRDPITNGRGVITGVTREEARTLAIQIRSGSLSVPLDIISSNTVGATLGNDSVQRSIRAGLIGIGAVALFMILYYRLPGFVSVVALAIYAAVVFALFKLIPVTLTLAGIAGFILSVGMAVDANVLIFARLKDELRRGRGLIQAIDVGFKNAWPSIRDSNISTLITCAILIWFGSRFGASVIKGFAITLAIGVIVSMFTAIFVTRTLLQVVLSMVHTRNLWI-WGIGK</Hsp_hseq>
+      <Hsp_midline>RQA+ V+ GLDL GG  V+++A    V    P  E+       M  V   +E R+N  GL+EPV++ QG DR+ VE+PG+ D ++      G G+L F    D   Q            + +   N   T +                A+Q     +++  PE        +        R    V+        R   D T       EP+V F+L  E A+ F++ TT+ +G+ LAI  D KI S+P IR+PIT G G I+G + EEA+ L   +RS  L+V L+I +   VGA++G +S+++  RA + G+ AV LFM+++Y+  G  + VA  +   ++F +     +TLTL+ IAG IL++GMAVDANV++F R+++EL  G+    A+  GF+ A+ +I DSN++T I    L    S  G   IKGFA +LAIGV+ S+FTA+FV+R +      ++H + + I W I +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|347595706|sp|O26074.2|SECD_HELPY</Hit_id>
+  <Hit_def>RecName: Full=Protein translocase subunit SecD</Hit_def>
+  <Hit_accession>O26074</Hit_accession>
+  <Hit_len>525</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>236.498</Hsp_bit-score>
+      <Hsp_score>602</Hsp_score>
+      <Hsp_evalue>2.04683e-68</Hsp_evalue>
+      <Hsp_query-from>147</Hsp_query-from>
+      <Hsp_query-to>555</Hsp_query-to>
+      <Hsp_hit-from>106</Hsp_hit-from>
+      <Hsp_hit-to>495</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>235</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>414</Hsp_align-len>
+      <Hsp_qseq>LDLSGGTSVVIKADLSEVTKGVPDAERAAIRSEAMALVLSTLENRINRFGLSEPVIRRQGEDRVYVEIPG---LTDRDRVHSIVMGRGVLAFHLVDDDATQKLLDHYRNNPQGTFDAAHQLHDLSLVPEHTSVLGVYRKDSYGLDVR-DGFLVVKKEPALEGRHIRDATVSSGRANEPLVLFDLDHEGARIFSELTTKEIGRRLAIVSDGKIRSAPAIRE-PITAGSGSISGFSAEEAQNLKTALRSAWLNVALEIENQQVVGASMGEESIRQGTRALVWGLCAVLLFMLVWYQEAGVNACVAQLLNLYIMFGVLSAFNLTLTLSSIAGMILTIGMAVDANVVVFERIREELALGKSRGAAVCSGFERAFWAIMDSNVTTFIAALFLSVLGTGPIKGFAYSLAIGVVSSVFTAL</Hsp_qseq>
+      <Hsp_hseq>LELQGHSQFEIKKEAGFYSVNLTPLEQEELRKNTILQVIGIIRNRLDQFGLAEPVVIQQGKEEISVQLPGIKTLEEERRAKDLISRSAHLQMMAVDE-------EHNKDAMKMTDLEAQKLGSVLLS-----------------DVEMGGKILLKAIPILDGEMLTDAKVVYDQNNQPVVSFTLDAQGAKIFGDFSGANVGKRMAIVLDNKVYSAPVIRERIGGGSGQISGNFSVAQASDLAIALRSGAMSAPIQVLEKRIIGPSLGKDSVKTSIIALVGGFILVMGFMVLYYSMAGVIACLALVVNLFLIVAVMAIFGATLTLPGMAGIVLTVGIAVDANIIINERIREVLRENEGIAKAIHLGYINASRAIFDSNITSLIASVLLYAYGTGAIKGFALTTGIGILASIITAI</Hsp_hseq>
+      <Hsp_midline>L+L G +   IK +    +  +   E+  +R   +  V+  + NR+++FGL+EPV+ +QG++ + V++PG   L +  R   ++     L    VD+       +H ++  + T   A +L  + L                  DV   G +++K  P L+G  + DA V   + N+P+V F LD +GA+IF + +   +G+R+AIV D K+ SAP IRE            FS  +A +L  ALRS  ++  +++  ++++G S+G++S++    ALV G   V+ FM+++Y  AGV AC+A ++NL+++  V++ F  TLTL  +AG++LT+G+AVDAN+++ ERIRE L   +    A+  G+  A  AI DSN+T+ IA++ L   GTG IKGFA +  IG+++S+ TA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|75536223|sp|Q4UKW3.1|SECD_RICFE</Hit_id>
+  <Hit_def>RecName: Full=Protein translocase subunit SecD</Hit_def>
+  <Hit_accession>Q4UKW3</Hit_accession>
+  <Hit_len>518</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>231.106</Hsp_bit-score>
+      <Hsp_score>588</Hsp_score>
+      <Hsp_evalue>1.9518e-66</Hsp_evalue>
+      <Hsp_query-from>191</Hsp_query-from>
+      <Hsp_query-to>563</Hsp_query-to>
+      <Hsp_hit-from>154</Hsp_hit-from>
+      <Hsp_hit-to>504</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>220</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>374</Hsp_align-len>
+      <Hsp_qseq>RINRFGLSEPVIRRQGEDRVYVEIPGLTDRDRVHSIVMGRGVLAFHLVDDDATQKLLDHYRNNPQGTFDAAHQLHDLSLVPEHTSVLGVYRKDSYGLDVRDGFLVVKKEPALEGRHIRDATVSSGRANEPLVLFDLDHEGARIFSELTTKEIGRRLAIVSDGKIRSAPAIREPITAGSGSISG-FSAEEAQNLKTALRSAWLNVALEIENQQVVGASMGEESIRQGTRALVWGLCAVLLFMLVWYQEAGVNACVAQLLNLYIMFGVLSAFNLTLTLSSIAGMILTIGMAVDANVVVFERIREELALGKSRGAAVCSGFERAFWAIMDSNVTTFIAALFLSVLGTGPIKGFAYSLAIGVVSSVFTALFVSRLMFD</Hsp_qseq>
+      <Hsp_hseq>RVDSTGTKEPTLQKQGDKHILLQVPGEENPSYLKNILGKTAKLTFHLVDENAN--------------IEEAVKGH----VPVGSMLV---KGDSESH--REYYVVIKKKVVLGGDQLTTASASFDQNSQAVVAFSFNNLGSKIFGEITKNNTGKRLAIVLDNKLLSAPTINGAIMGGSGIITGNFTVESANELALLLRAGSLPAPLKIIEERSIGPSLGADSIESGKKAGLIGFIAVCIFMVWSYGVLGLFANIALSLALLYILALLSLFQATLTLPGIAGIILTMGMAVDANVLIYERIKEELHKGVSNLYAIRTGFESAFATILDSNLTTLIVAFLLYIFGVGAIKGFAVALTIGIISSMFSAIIITKLLID</Hsp_hseq>
+      <Hsp_midline>R++  G  EP +++QG+  + +++PG  +   + +I+     L FHLVD++A                + A + H    VP  + ++   + DS     R+ ++V+KK+  L G  +  A+ S  + ++ +V F  ++ G++IF E+T    G+RLAIV D K+ SAP I   I  GSG I+G F+ E A  L   LR+  L   L+I  ++ +G S+G +SI  G +A + G  AV +FM+  Y   G+ A +A  L L  +  +LS F  TLTL  IAG+ILT+GMAVDANV+++ERI+EEL  G S   A+ +GFE AF  I+DSN+TT I A  L + G G IKGFA +L IG++SS+F+A+ +++L+ D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|347662370|sp|B8E2N3.1|SECD_DICTD</Hit_id>
+  <Hit_def>RecName: Full=Protein translocase subunit SecD</Hit_def>
+  <Hit_accession>B8E2N3</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>226.868</Hsp_bit-score>
+      <Hsp_score>577</Hsp_score>
+      <Hsp_evalue>4.7764e-66</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>563</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>226</Hsp_positive>
+      <Hsp_gaps>68</Hsp_gaps>
+      <Hsp_align-len>421</Hsp_align-len>
+      <Hsp_qseq>KLGLDLSGGTSVVIKADLSEVTKGVPDAERAAIRSEAMALVLSTLENRINRFGLSEPVIRRQGEDRVYVEIPGLTDRDRVHSIVMGRGVLAFHLVDDDATQKLLDHYRNNPQGTFDAAHQLHDLSLVPEHTSVLGVYRKDSYGLDVRDGFLVVKKEPALEGRHIRDATVSSGRANEPLVLFDLDHEGARIFSELTTKEIGRRLAIVSDGKIRSAPAIREPITAGSGSISG-FSAEEAQNLKTALRSAWLNVALEIENQQVVGASMGEESIRQGTRALVWGLCAVLLFMLVWYQEAGVNACVAQLLNLYIMFGVLSAFNLTLTLSSIAGMILTIGMAVDANVVVFERIREELALGKSRGAAVCSGFERAFWAIMDSNVTTFIAALFLSVLGTGPIKGFAYSLAIGVVSSVFTALFVSRLMFD</Hsp_qseq>
+      <Hsp_hseq>RYGLDIRGGIRVTLQCQKTEGVEITDDAVRRTI---------EVIRNRIDQLGVTEPSIYKEGSDKIVVELPGI----------------------------------KDPERALEIIGQTALLEF------------KDETG------------KTILTGSALKNAKVEFDQVGQPMVRVEMNPEGAKIFADFTSKNVGKQVFIVLDGKVISNPVIKEPITEGTGVITGRFTIDEAQKLAILLRAGALPVPVKVIENRTIDPTLGKDTMESAYRAGVIGAILVVLFMILVFRFLGLVADIALLIYVVLDLAALKLLNATLTLPGVAGIILSIGMAVDANCLIFARMKEEYAQRKTPMASLDAGFRNALRAIIDSNVTTILAALILFYFGTGPIRGFAVTLSLGVALSMFTQITITRTLLE</Hsp_hseq>
+      <Hsp_midline>+ GLD+ GG  V ++   +E  +   DA R  I           + NRI++ G++EP I ++G D++ VE+PG+                                   +P+   +   Q   L              KD  G            +  L G  +++A V   +  +P+V  +++ EGA+IF++ T+K +G+++ IV DGK+ S P I+EPIT G+G I+G F+ +EAQ L   LR+  L V +++   + +  ++G++++    RA V G   V+LFM++ ++  G+ A +A L+ + +    L   N TLTL  +AG+IL+IGMAVDAN ++F R++EE A  K+  A++ +GF  A  AI+DSNVTT +AAL L   GTGPI+GFA +L++GV  S+FT + ++R + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>462628</Statistics_db-num>
+      <Statistics_db-len>173435234</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

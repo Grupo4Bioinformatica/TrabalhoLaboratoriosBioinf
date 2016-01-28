@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>Query_194077</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>176</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_194077</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>176</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|14285878|sp|O83451.1|Y437_TREPA</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein TP_0437</Hit_def>
+  <Hit_accession>O83451</Hit_accession>
+  <Hit_len>176</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>361.303</Hsp_bit-score>
+      <Hsp_score>926</Hsp_score>
+      <Hsp_evalue>5.21217e-127</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>176</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>176</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>176</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>MIQTLVLRDTPRLESCRRGGFAMKFSTRCLRLVLCASAVALSAQDASDTAGRVLEPPPPGLTESNSSRMYYVNLPVVKVFSHRLGYRVIYRRANFEMAEIYLPSAWFSPRVGKALLRHAPVRVDPYLSFFMEGNTLTYVKLTLPRSLSSPVWGTLKSPSEYDDKFDVQFQSPEFSS</Hsp_qseq>
+      <Hsp_hseq>MIQTLVLRDTPRLESCRRGGFAMKFSTRCLRLVLCASAVALSAQDASDTAGRVLEPPPPGLTESNSSRMYYVNLPVVKVFSHRLGYRVIYRRANFEMAEIYLPSAWFSPRVGKALLRHAPVRVDPYLSFFMEGNTLTYVKLTLPRSLSSPVWGTLKSPSEYDDKFDVQFQSPEFSS</Hsp_hseq>
+      <Hsp_midline>MIQTLVLRDTPRLESCRRGGFAMKFSTRCLRLVLCASAVALSAQDASDTAGRVLEPPPPGLTESNSSRMYYVNLPVVKVFSHRLGYRVIYRRANFEMAEIYLPSAWFSPRVGKALLRHAPVRVDPYLSFFMEGNTLTYVKLTLPRSLSSPVWGTLKSPSEYDDKFDVQFQSPEFSS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|166223425|sp|A6Q4V8.1|PRMA_NITSB</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal protein L11 methyltransferase; Short=L11 Mtase</Hit_def>
+  <Hit_accession>A6Q4V8</Hit_accession>
+  <Hit_len>280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>4.88336</Hsp_evalue>
+      <Hsp_query-from>72</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>68</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>VNLPVVKVFSHRLGYRVIYRRAN--FEMAEIYLPSAWFSPRVGKALLRHAPVRVDPYLSF</Hsp_qseq>
+      <Hsp_hseq>IHLKITKEKKENIDWIEKYKKSITPVEVGEFYIHPSWYEPKEGK-----TNIKIDPALAF</Hsp_hseq>
+      <Hsp_midline>++L + K     + +   Y+++    E+ E Y+  +W+ P+ GK       +++DP L+F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|73621215|sp|Q8FFV6.2|MDTQ_ECOL6</Hit_id>
+  <Hit_def>RecName: Full=Multidrug resistance outer membrane protein MdtQ; Flags: Precursor</Hit_def>
+  <Hit_accession>Q8FFV6</Hit_accession>
+  <Hit_len>478</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>4.92994</Hsp_evalue>
+      <Hsp_query-from>44</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>245</Hsp_hit-from>
+      <Hsp_hit-to>320</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>QDASDTAGR--VLEPPPPGLT--ESNSSRMYYVNLP-VVKVFSHRLGYRVIYRRANFEMAEIYLPSAWFSPRVGKA</Hsp_qseq>
+      <Hsp_hseq>QQLNDVAGKMKIIEARLNALTNHQTKSLKLKTVALPKVASQLPDELGYSLLARRADLQAAHWYVESSLSTIDAAKA</Hsp_hseq>
+      <Hsp_midline>Q  +D AG+  ++E     LT  ++ S ++  V LP V       LGY ++ RRA+ + A  Y+ S+  +    KA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|91206713|sp|Q3JD12.1|GLGA2_NITOC</Hit_id>
+  <Hit_def>RecName: Full=Glycogen synthase 2; AltName: Full=Starch [bacterial glycogen] synthase 2</Hit_def>
+  <Hit_accession>Q3JD12</Hit_accession>
+  <Hit_len>491</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>8.29168</Hsp_evalue>
+      <Hsp_query-from>82</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>166</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>HRLGYRVIYRRANFEMAEIYLPSAWFSP</Hsp_qseq>
+      <Hsp_hseq>HNLAYQGVFSRQQFDALE--LPSAWWSP</Hsp_hseq>
+      <Hsp_midline>H L Y+ ++ R  F+  E  LPSAW+SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>462628</Statistics_db-num>
+      <Statistics_db-len>173435234</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

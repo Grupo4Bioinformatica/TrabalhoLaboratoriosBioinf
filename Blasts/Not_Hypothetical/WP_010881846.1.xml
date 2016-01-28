@@ -1,0 +1,602 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>Query_176233</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>124</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_176233</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>124</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|6016021|sp|O83413.1|FLIE_TREPA</Hit_id>
+  <Hit_def>RecName: Full=Flagellar hook-basal body complex protein FliE &gt;gi|226704249|sp|B2S2Z5.1|FLIE_TREPS RecName: Full=Flagellar hook-basal body complex protein FliE</Hit_def>
+  <Hit_accession>O83413</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>251.906</Hsp_bit-score>
+      <Hsp_score>642</Hsp_score>
+      <Hsp_evalue>1.34431e-85</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>MTPVGTITNSANVYKVPSLRKVPEIGPVSVESVRQRMRGNTDAVDQAVNKKAMSFEQTLLRAFDQVNQKQQKTAELTEQMIVDPESVDVHDVTVAMAEASMSLKIAQTVIDKVLKSWNDVTTAR</Hsp_qseq>
+      <Hsp_hseq>MTPVGTITNSANVYKVPSLRKVPEIGPVSVESVRQRMRGNTDAVDQAVNKKAMSFEQTLLRAFDQVNQKQQKTAELTEQMIVDPESVDVHDVTVAMAEASMSLKIAQTVIDKVLKSWNDVTTAR</Hsp_hseq>
+      <Hsp_midline>MTPVGTITNSANVYKVPSLRKVPEIGPVSVESVRQRMRGNTDAVDQAVNKKAMSFEQTLLRAFDQVNQKQQKTAELTEQMIVDPESVDVHDVTVAMAEASMSLKIAQTVIDKVLKSWNDVTTAR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|38502832|sp|O06679.1|FLIE_TREDE</Hit_id>
+  <Hit_def>RecName: Full=Flagellar hook-basal body complex protein FliE</Hit_def>
+  <Hit_accession>O06679</Hit_accession>
+  <Hit_len>121</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>139.813</Hsp_bit-score>
+      <Hsp_score>351</Hsp_score>
+      <Hsp_evalue>1.23799e-41</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>109</Hsp_align-len>
+      <Hsp_qseq>VPSLRKVPEIGPVSVESVRQRMRGNTDAVDQAVNKKAMSFEQTLLRAFDQVNQKQQKTAELTEQMIVDPESVDVHDVTVAMAEASMSLKIAQTVIDKVLKSWNDVTTAR</Hsp_qseq>
+      <Hsp_hseq>VPGLLDVPKINAVVTDNFRAKMVSNTDMIELAANKEAASFEQTILKAFDSMNAKQTNMDKLGEQMIVDPESVDVHDITMGMAEASLSLKLAQTIIDRLVKTWNDITTTR</Hsp_hseq>
+      <Hsp_midline>VP L  VP+I  V  ++ R +M  NTD ++ A NK+A SFEQT+L+AFD +N KQ    +L EQMIVDPESVDVHD+T+ MAEAS+SLK+AQT+ID+++K+WND+TT R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|3915690|sp|P52609.2|FLIE_BORBU</Hit_id>
+  <Hit_def>RecName: Full=Flagellar hook-basal body complex protein FliE</Hit_def>
+  <Hit_accession>P52609</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.7734</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>3.72809e-12</Hsp_evalue>
+      <Hsp_query-from>54</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>SFEQTLLRAFDQVNQKQQKTAELTEQMIVDPESVDVHDVTVAMAEASMSLKIAQTVIDKVLKSWNDVTTAR</Hsp_qseq>
+      <Hsp_hseq>TFKDVLINSITDVNKSQLNVSKVTEQAILKPSSIDVHDVVIAMSKANMNLSILKAVVERGVKAYQDIINIR</Hsp_hseq>
+      <Hsp_midline>+F+  L+ +   VN+ Q   +++TEQ I+ P S+DVHDV +AM++A+M+L I + V+++ +K++ D+   R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|38503023|sp|Q8F952.1|FLIE_LEPIN</Hit_id>
+  <Hit_def>RecName: Full=Flagellar hook-basal body complex protein FliE &gt;gi|73919364|sp|Q72VK0.1|FLIE_LEPIC RecName: Full=Flagellar hook-basal body complex protein FliE</Hit_def>
+  <Hit_accession>Q8F952</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.0694</Hsp_bit-score>
+      <Hsp_score>131</Hsp_score>
+      <Hsp_evalue>2.01153e-09</Hsp_evalue>
+      <Hsp_query-from>52</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>AMSFEQTLLRAFDQVNQKQQKTAELTEQMIVDPESVDVHDVTVAMAEASMSLKIAQTVIDKVLKSWNDVTTAR</Hsp_qseq>
+      <Hsp_hseq>AESFSEAMKNALTSVNDLQVEADELTQKMVFDPNSVDAHQVMIASEKARVALTFTKTIADGVVRAYRELTSLR</Hsp_hseq>
+      <Hsp_midline>A SF + +  A   VN  Q +  ELT++M+ DP SVD H V +A  +A ++L   +T+ D V++++ ++T+ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|12230923|sp|Q51462.2|FLIE_PSEAE</Hit_id>
+  <Hit_def>RecName: Full=Flagellar hook-basal body complex protein FliE &gt;gi|226704237|sp|B7UX89.1|FLIE_PSEA8 RecName: Full=Flagellar hook-basal body complex protein FliE</Hit_def>
+  <Hit_accession>Q51462</Hit_accession>
+  <Hit_len>109</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.000464275</Hsp_evalue>
+      <Hsp_query-from>54</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>SFEQTLLRAFDQVNQKQQKTAELTEQMIVDPESVDVHDVTVAMAEASMSLKIAQTVIDKVLKSWNDV</Hsp_qseq>
+      <Hsp_hseq>SFSEMLSQAVDKVNETQQASTAMANAFEVGQSGVDLTDVMIASQKASVSFQAMTQVRNKLVQAYQDI</Hsp_hseq>
+      <Hsp_midline>SF + L +A D+VN+ QQ +  +     V    VD+ DV +A  +AS+S +    V +K+++++ D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|122258137|sp|Q02IR7.1|FLIE_PSEAB</Hit_id>
+  <Hit_def>RecName: Full=Flagellar hook-basal body complex protein FliE</Hit_def>
+  <Hit_accession>Q02IR7</Hit_accession>
+  <Hit_len>109</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.000479106</Hsp_evalue>
+      <Hsp_query-from>54</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>SFEQTLLRAFDQVNQKQQKTAELTEQMIVDPESVDVHDVTVAMAEASMSLKIAQTVIDKVLKSWNDV</Hsp_qseq>
+      <Hsp_hseq>SFSEMLSQAVDKVNETQQASTAMANAFEVGQSGVDLTDVMIASQKASVSFQAMTQVRNKLVQAYQDI</Hsp_hseq>
+      <Hsp_midline>SF + L +A D+VN+ QQ +  +     V    VD+ DV +A  +AS+S +    V +K+++++ D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|38502947|sp|Q82T49.1|FLIE_NITEU</Hit_id>
+  <Hit_def>RecName: Full=Flagellar hook-basal body complex protein FliE</Hit_def>
+  <Hit_accession>Q82T49</Hit_accession>
+  <Hit_len>109</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.000836675</Hsp_evalue>
+      <Hsp_query-from>55</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>FEQTLLRAFDQVNQKQQKTAELTEQMIVDPESVDVHDVTVAMAEASMSLKIAQTVIDKVLKSWNDV</Hsp_qseq>
+      <Hsp_hseq>FGQLLKSAVDQVNTVQQTASQLSREFVGGNQDVELHDVMISLQKANVSFQSMIQVRNRLVTAYQEI</Hsp_hseq>
+      <Hsp_midline>F Q L  A DQVN  QQ  ++L+ + +   + V++HDV +++ +A++S +    V ++++ ++ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|259646004|sp|C5BSE0.1|FLIE_TERTT</Hit_id>
+  <Hit_def>RecName: Full=Flagellar hook-basal body complex protein FliE</Hit_def>
+  <Hit_accession>C5BSE0</Hit_accession>
+  <Hit_len>120</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.000977157</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>115</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>GPVSVESVRQRMRGNTDAVDQAVNKKAMSFEQTLLRAFDQVNQKQQKTAELTEQMIVDPESVDVHDVTVAMAEASMSLKIAQTVIDKVLKSWNDV</Hsp_qseq>
+      <Hsp_hseq>GPGAINADRA-----VQGADQARKLNGPQFGELLEQAVNKVNEVQQASSSMAESYVRGDSSVDVTDVMIASQKAGVAFDAMVQVRNKLVEAYRDV</Hsp_hseq>
+      <Hsp_midline>GP ++ + R          DQA       F + L +A ++VN+ QQ ++ + E  +    SVDV DV +A  +A ++      V +K+++++ DV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|122314295|sp|Q0AI14.1|FLIE_NITEC</Hit_id>
+  <Hit_def>RecName: Full=Flagellar hook-basal body complex protein FliE</Hit_def>
+  <Hit_accession>Q0AI14</Hit_accession>
+  <Hit_len>109</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.00140514</Hsp_evalue>
+      <Hsp_query-from>55</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>FEQTLLRAFDQVNQKQQKTAELTEQMIVDPESVDVHDVTVAMAEASMSLKIAQTVIDKVLKSWNDV</Hsp_qseq>
+      <Hsp_hseq>FGQLLKSAVDQVNTVQQTANQLSQEFVRGNQDVELHDVMISLQKANVSFQSMIQVRNRLVTAYQEI</Hsp_hseq>
+      <Hsp_midline>F Q L  A DQVN  QQ   +L+++ +   + V++HDV +++ +A++S +    V ++++ ++ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|38503107|sp|Q8XSS8.1|FLIE_RALSO</Hit_id>
+  <Hit_def>RecName: Full=Flagellar hook-basal body complex protein FliE</Hit_def>
+  <Hit_accession>Q8XSS8</Hit_accession>
+  <Hit_len>110</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.00256628</Hsp_evalue>
+      <Hsp_query-from>50</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>KKAMSFEQTLLRAFDQVNQKQQKTAELTEQMIVDPESVDVHDVTVAMAEASMSLKIAQTVIDKVLKSWNDVTT</Hsp_qseq>
+      <Hsp_hseq>KVSIDFGAVLKSSLDKVDASQQKAETLSRSFELGNNDVDLHDVMLSLQKANIDLQTAVQVRNKLVSAYQNIMS</Hsp_hseq>
+      <Hsp_midline>K ++ F   L  + D+V+  QQK   L+    +    VD+HDV +++ +A++ L+ A  V +K++ ++ ++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|166214853|sp|A6V990.1|FLIE_PSEA7</Hit_id>
+  <Hit_def>RecName: Full=Flagellar hook-basal body complex protein FliE</Hit_def>
+  <Hit_accession>A6V990</Hit_accession>
+  <Hit_len>109</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.0033992</Hsp_evalue>
+      <Hsp_query-from>54</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>SFEQTLLRAFDQVNQKQQKTAELTEQMIVDPESVDVHDVTVAMAEASMSLKIAQTVIDKVLKSWNDV</Hsp_qseq>
+      <Hsp_hseq>SFSEMLSQAVGKVNETQQASTAMANAFEVGQSGVDLTDVMIASQKASVSFQAMTQVRNKLVQAYQDI</Hsp_hseq>
+      <Hsp_midline>SF + L +A  +VN+ QQ +  +     V    VD+ DV +A  +AS+S +    V +K+++++ D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|38503179|sp|Q9EYT4.1|FLIE_PSEFL</Hit_id>
+  <Hit_def>RecName: Full=Flagellar hook-basal body complex protein FliE &gt;gi|123605486|sp|Q3KG28.1|FLIE_PSEPF RecName: Full=Flagellar hook-basal body complex protein FliE</Hit_def>
+  <Hit_accession>Q9EYT4</Hit_accession>
+  <Hit_len>109</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.00378223</Hsp_evalue>
+      <Hsp_query-from>54</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>SFEQTLLRAFDQVNQKQQKTAELTEQMIVDPESVDVHDVTVAMAEASMSLKIAQTVIDKVLKSWNDV</Hsp_qseq>
+      <Hsp_hseq>NFSDMLGQAINKVNDTQQASSQLANAFEIGKSGVDLTDVMIASQKASVSFQALTQVRNKLVQAYQDI</Hsp_hseq>
+      <Hsp_midline>+F   L +A ++VN  QQ +++L     +    VD+ DV +A  +AS+S +    V +K+++++ D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|38503143|sp|Q97H50.1|FLIE_CLOAB</Hit_id>
+  <Hit_def>RecName: Full=Flagellar hook-basal body complex protein FliE</Hit_def>
+  <Hit_accession>Q97H50</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.00485315</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>103</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>KVPEIGPVSVESVRQRMRGNTDAVDQ------AVNKKAMSFEQTLLRAFDQVNQKQQKTAELTEQMIVDPESVDVHDVTVAMAEASMSLKIAQTVIDKVLKSW</Hsp_qseq>
+      <Hsp_hseq>RVDEFIPDSMKSILTKNTSNTNVINENQTSGDANGTNSVDFGNILNEKLQEVNDKQID-ADNTTNAFIQGDDVDVHKVMLSTEEAKLSLELAVQMRNKLVDAY</Hsp_hseq>
+      <Hsp_midline>+V E  P S++S+  +   NT+ +++      A    ++ F   L     +VN KQ   A+ T    +  + VDVH V ++  EA +SL++A  + +K++ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|38503192|sp|Q9KA31.1|FLIE_BACHD</Hit_id>
+  <Hit_def>RecName: Full=Flagellar hook-basal body complex protein FliE</Hit_def>
+  <Hit_accession>Q9KA31</Hit_accession>
+  <Hit_len>102</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.00972181</Hsp_evalue>
+      <Hsp_query-from>54</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>SFEQTLLRAFDQVNQKQQKTAELTEQMIVDPESVDVHDVTVAMAEASMSLKIAQTVIDKVLKSWNDV</Hsp_qseq>
+      <Hsp_hseq>TFKQALSQAINNVNDLQKVSAEKTE-LLAKGKIEDLHDVMITGQKASITLSATVEIRNKVIEAYQEI</Hsp_hseq>
+      <Hsp_midline>+F+Q L +A + VN  Q+ +AE TE ++   +  D+HDV +   +AS++L     + +KV++++ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|123657113|sp|Q4KG70.1|FLIE_PSEF5</Hit_id>
+  <Hit_def>RecName: Full=Flagellar hook-basal body complex protein FliE</Hit_def>
+  <Hit_accession>Q4KG70</Hit_accession>
+  <Hit_len>108</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.0121869</Hsp_evalue>
+      <Hsp_query-from>54</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>103</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>SFEQTLLRAFDQVNQKQQKTAELTEQMIVDPESVDVHDVTVAMAEASMSLKIAQTVIDKVLKSWNDV</Hsp_qseq>
+      <Hsp_hseq>SFADMLGQAVNKVNDTQQASNQLSSAFEIGKSGVDLTDVMISSQKASVSFQALTQVRNKLVQAYQDI</Hsp_hseq>
+      <Hsp_midline>SF   L +A ++VN  QQ + +L+    +    VD+ DV ++  +AS+S +    V +K+++++ D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|226704236|sp|A1SEQ0.1|FLIE_NOCSJ</Hit_id>
+  <Hit_def>RecName: Full=Flagellar hook-basal body complex protein FliE</Hit_def>
+  <Hit_accession>A1SEQ0</Hit_accession>
+  <Hit_len>105</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>0.111614</Hsp_evalue>
+      <Hsp_query-from>41</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>99</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>TDAVDQAVNKKAMSFEQTLLRAFDQVNQKQQKTAELTEQMIVDPESVDVHDVTVAMAEASMSLKIAQTVIDKVLKSWNDV</Hsp_qseq>
+      <Hsp_hseq>TDPV-RGSSQAGAAFGDMVIDGLDRLEAVQDKSDRLAVQAATG-DLNDIHDYTIAATEASVTTQLTVAVRNRALEAFNEI</Hsp_hseq>
+      <Hsp_midline>TD V +  ++   +F   ++   D++   Q K+  L  Q     +  D+HD T+A  EAS++ ++   V ++ L+++N++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|226704223|sp|A9ABS7.1|FLIE_BURM1</Hit_id>
+  <Hit_def>RecName: Full=Flagellar hook-basal body complex protein FliE</Hit_def>
+  <Hit_accession>A9ABS7</Hit_accession>
+  <Hit_len>114</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>0.31312</Hsp_evalue>
+      <Hsp_query-from>54</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>SFEQTLLRAFDQVNQKQQKTAELTEQMIVDPESVDVHDVTVAMAEASMSLKIAQTVIDKVLKSWNDV</Hsp_qseq>
+      <Hsp_hseq>TFASAMKASLDKISGDQQRALGEAQAFEVGAANVSLNDVMVDMQKANIGFQFGLQVRNKLVSAYNDI</Hsp_hseq>
+      <Hsp_midline>+F   +  + D+++  QQ+     +   V   +V ++DV V M +A++  +    V +K++ ++ND+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|189044494|sp|A9MML1.1|FLIE_SALAR</Hit_id>
+  <Hit_def>RecName: Full=Flagellar hook-basal body complex protein FliE</Hit_def>
+  <Hit_accession>A9MML1</Hit_accession>
+  <Hit_len>104</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>0.65771</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>101</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>MSFEQTLLRAFDQVNQKQQKTAELTEQMIVDPESVDVHDVTVAMAEASMSLKIAQTVIDKVLKSWNDVTT</Hsp_qseq>
+      <Hsp_hseq>MSFAGQLHAALDRISDRQTEARVQAEKFTLGEPGIALNDVMADMQKASVSMQMGIQVRNKLVAAYQEVMS</Hsp_hseq>
+      <Hsp_midline>MSF   L  A D+++ +Q +     E+  +    + ++DV   M +AS+S+++   V +K++ ++ +V +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|122482005|sp|Q24T63.1|FLIE_DESHY</Hit_id>
+  <Hit_def>RecName: Full=Flagellar hook-basal body complex protein FliE</Hit_def>
+  <Hit_accession>Q24T63</Hit_accession>
+  <Hit_len>114</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.32159</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>RGNTDAVDQAVNKKAMSFEQTLLRAFDQVNQKQQKTAELTEQMIVDPESVDVHDVTVAMAEASMSLKIAQTVIDKVLKSWNDV</Hsp_qseq>
+      <Hsp_hseq>EGNGPQTPAGAAKVGADFGQFLQEALQKVD-NLQKEADVASLGLATGQIQDLHTAVIAMEKAGLSLSLTVDVRNRALDAYHEI</Hsp_hseq>
+      <Hsp_midline> GN         K    F Q L  A  +V+   QK A++    +   +  D+H   +AM +A +SL +   V ++ L +++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|226704224|sp|B3PEY6.1|FLIE_CELJU</Hit_id>
+  <Hit_def>RecName: Full=Flagellar hook-basal body complex protein FliE</Hit_def>
+  <Hit_accession>B3PEY6</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.55774</Hsp_evalue>
+      <Hsp_query-from>51</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>KAMSFEQTLLRAFDQVNQKQQKTAELTEQMIVDPESVDVHDVTVAMAEASMSLKIAQTVIDKVLKSWNDV</Hsp_qseq>
+      <Hsp_hseq>KVPSFGDLMTQAVSKVNETQKASSAMADAYERGVAGVDITDVMIASQKSSIAFQATVQVRNKLIEAYRDV</Hsp_hseq>
+      <Hsp_midline>K  SF   + +A  +VN+ Q+ ++ + +        VD+ DV +A  ++S++ +    V +K+++++ DV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>462628</Statistics_db-num>
+      <Statistics_db-len>173435234</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

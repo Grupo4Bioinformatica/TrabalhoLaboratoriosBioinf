@@ -1,0 +1,602 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>Query_198429</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>268</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_198429</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>268</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1171029|sp|P44407.1|MSBA_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Lipid A export ATP-binding/permease protein MsbA</Hit_def>
+  <Hit_accession>P44407</Hit_accession>
+  <Hit_len>587</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.0166379</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>363</Hsp_hit-from>
+      <Hsp_hit-to>442</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>ALQGACIGTPEHRQVFALVGRSGSGKSFRAQIVMRRFDI--AFVIDDGLLIREDKIIAGRSAKQERTLLAAIRVALFENTMHRRV</Hsp_qseq>
+      <Hsp_hseq>ALNNISFSVPAGKTV-ALVGRSGSGKSTIANLVTRFYDIEQGEILLDGVNIQDYRL----SNLRENCAVVSQQVHLFNDTIANNI</Hsp_hseq>
+      <Hsp_midline>AL       P  + V ALVGRSGSGKS  A +V R +DI    ++ DG+ I++ ++    S  +E   + + +V LF +T+   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|81336962|sp|Q4QPI4.1|MSBA_HAEI8</Hit_id>
+  <Hit_def>RecName: Full=Lipid A export ATP-binding/permease protein MsbA</Hit_def>
+  <Hit_accession>Q4QPI4</Hit_accession>
+  <Hit_len>587</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.017238</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>363</Hsp_hit-from>
+      <Hsp_hit-to>442</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>ALQGACIGTPEHRQVFALVGRSGSGKSFRAQIVMRRFDI--AFVIDDGLLIREDKIIAGRSAKQERTLLAAIRVALFENTMHRRV</Hsp_qseq>
+      <Hsp_hseq>ALNNISFSVPAGKTV-ALVGRSGSGKSTIANLVTRFYDIEQGEILLDGVNIQDYRL----SNLRENCAVVSQQVHLFNDTIANNI</Hsp_hseq>
+      <Hsp_midline>AL       P  + V ALVGRSGSGKS  A +V R +DI    ++ DG+ I++ ++    S  +E   + + +V LF +T+   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|67468765|sp|Q7N6C6.1|MSBA_PHOLL</Hit_id>
+  <Hit_def>RecName: Full=Lipid A export ATP-binding/permease protein MsbA</Hit_def>
+  <Hit_accession>Q7N6C6</Hit_accession>
+  <Hit_len>581</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.0331086</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>357</Hsp_hit-from>
+      <Hsp_hit-to>436</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>ALQGACIGTPEHRQVFALVGRSGSGKSFRAQIVMRRFDI--AFVIDDGLLIREDKIIAGRSAKQERTLLAAIRVALFENTMHRRV</Hsp_qseq>
+      <Hsp_hseq>ALQNISMYIPAGK-IVALVGRSGSGKSTIANLLTRFYDVNEGNIFLDGHDLREYKL----SSLRGQVALVSQNVHLFNDTVANNI</Hsp_hseq>
+      <Hsp_midline>ALQ   +  P  + + ALVGRSGSGKS  A ++ R +D+    +  DG  +RE K+    S+ + +  L +  V LF +T+   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|46396440|sp|Q8EDF0.1|MSBA_SHEON</Hit_id>
+  <Hit_def>RecName: Full=Lipid A export ATP-binding/permease protein MsbA</Hit_def>
+  <Hit_accession>Q8EDF0</Hit_accession>
+  <Hit_len>601</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.0381346</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>388</Hsp_hit-from>
+      <Hsp_hit-to>456</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>QVFALVGRSGSGKSFRAQIVMRRFDIAFVIDDGLLIREDKIIAGRSAKQERTLLAAI--RVALFENTMHRRV</Hsp_qseq>
+      <Hsp_hseq>QTLALVGRSGSGKSTIASLVTRFYT---GLESGDILLDDVSIYDYSLKSLRSQVALVSQQVTLFNDTIANNI</Hsp_hseq>
+      <Hsp_midline>Q  ALVGRSGSGKS  A +V R +     ++ G ++ +D  I   S K  R+ +A +  +V LF +T+   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|67468749|sp|Q65U21.2|MSBA_MANSM</Hit_id>
+  <Hit_def>RecName: Full=Lipid A export ATP-binding/permease protein MsbA</Hit_def>
+  <Hit_accession>Q65U21</Hit_accession>
+  <Hit_len>585</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.0388972</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>59</Hsp_query-to>
+      <Hsp_hit-from>361</Hsp_hit-from>
+      <Hsp_hit-to>398</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>ALQGACIGTPEHRQVFALVGRSGSGKSFRAQIVMRRFDI</Hsp_qseq>
+      <Hsp_hseq>ALKHLSFDIP-HGKTFALVGRSGSGKSTIANLVTRFYDI</Hsp_hseq>
+      <Hsp_midline>AL+      P H + FALVGRSGSGKS  A +V R +DI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|67468755|sp|Q6D437.2|MSBA_PECAS</Hit_id>
+  <Hit_def>RecName: Full=Lipid A export ATP-binding/permease protein MsbA</Hit_def>
+  <Hit_accession>Q6D437</Hit_accession>
+  <Hit_len>582</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.0690601</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>358</Hsp_hit-from>
+      <Hsp_hit-to>437</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>ALQGACIGTPEHRQVFALVGRSGSGKSFRAQIVMRRFDIAF--VIDDGLLIREDKIIAGRSAKQERTLLAAIRVALFENTMHRRV</Hsp_qseq>
+      <Hsp_hseq>ALKNINLHIPVGKTV-ALVGRSGSGKSTIASLITRFYDIQSGEILLDGHDLREYRL----SSLRNQVALVSQNVHLFNDTIANNI</Hsp_hseq>
+      <Hsp_midline>AL+   +  P  + V ALVGRSGSGKS  A ++ R +DI    ++ DG  +RE ++    S+ + +  L +  V LF +T+   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|122064527|sp|Q2NUA5.1|MSBA_SODGM</Hit_id>
+  <Hit_def>RecName: Full=Lipid A export ATP-binding/permease protein MsbA</Hit_def>
+  <Hit_accession>Q2NUA5</Hit_accession>
+  <Hit_len>582</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.076121</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>373</Hsp_hit-from>
+      <Hsp_hit-to>445</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>ALVGRSGSGKSFRAQIVMRRFDI--AFVIDDGLLIREDKIIAGRSAKQERTLLAAIRVALFENTMHRRVV-ARVLTY</Hsp_qseq>
+      <Hsp_hseq>ALVGRSGSGKSTIANLLTRFYDIQQGQILLDGTDLRAYKLASLRN----QVALVSQNVHLFNDTIANNIAYARKATY</Hsp_hseq>
+      <Hsp_midline>ALVGRSGSGKS  A ++ R +DI    ++ DG  +R  K+ + R+    +  L +  V LF +T+   +  AR  TY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|54037839|sp|P63360.1|MSBA_SALTI</Hit_id>
+  <Hit_def>RecName: Full=Lipid A export ATP-binding/permease protein MsbA &gt;gi|54041245|sp|P63359.1|MSBA_SALTY RecName: Full=Lipid A export ATP-binding/permease protein MsbA &gt;gi|81309724|sp|Q57R14.1|MSBA_SALCH RecName: Full=Lipid A export ATP-binding/permease protein MsbA</Hit_def>
+  <Hit_accession>P63360</Hit_accession>
+  <Hit_len>582</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.0774802</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>358</Hsp_hit-from>
+      <Hsp_hit-to>437</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>ALQGACIGTPEHRQVFALVGRSGSGKSFRAQIVMRRFDI--AFVIDDGLLIREDKIIAGRSAKQERTLLAAIRVALFENTMHRRV</Hsp_qseq>
+      <Hsp_hseq>ALRNINLKIPAGKTV-ALVGRSGSGKSTIASLITRFYDIDEGHILMDGHDLREYTLASLRN----QVALVSQNVHLFNDTVANNI</Hsp_hseq>
+      <Hsp_midline>AL+   +  P  + V ALVGRSGSGKS  A ++ R +DI    ++ DG  +RE  + + R+    +  L +  V LF +T+   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|81821430|sp|Q5PGH0.1|MSBA_SALPA</Hit_id>
+  <Hit_def>RecName: Full=Lipid A export ATP-binding/permease protein MsbA</Hit_def>
+  <Hit_accession>Q5PGH0</Hit_accession>
+  <Hit_len>582</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.0809853</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>358</Hsp_hit-from>
+      <Hsp_hit-to>437</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>ALQGACIGTPEHRQVFALVGRSGSGKSFRAQIVMRRFDI--AFVIDDGLLIREDKIIAGRSAKQERTLLAAIRVALFENTMHRRV</Hsp_qseq>
+      <Hsp_hseq>ALRNINLKIPAGKTV-ALVGRSGSGKSTIASLITRFYDIDEGHILMDGHDLREYTLASLRN----QVALVSQNVHLFNDTVANNI</Hsp_hseq>
+      <Hsp_midline>AL+   +  P  + V ALVGRSGSGKS  A ++ R +DI    ++ DG  +RE  + + R+    +  L +  V LF +T+   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|81828720|sp|Q6LPK6.1|MSBA_PHOPR</Hit_id>
+  <Hit_def>RecName: Full=Lipid A export ATP-binding/permease protein MsbA</Hit_def>
+  <Hit_accession>Q6LPK6</Hit_accession>
+  <Hit_len>585</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.0878093</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>361</Hsp_hit-from>
+      <Hsp_hit-to>440</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>ALQGACIGTPEHRQVFALVGRSGSGKSFRAQIVMRRFDIAFVIDDGLLIREDKIIAGRSAKQERTLLAAI--RVALFENTMHRRV</Hsp_qseq>
+      <Hsp_hseq>ALRNVSFDLPAGK-TLALVGRSGSGKSTIANLLTRFYD----IDSGELILDGREVKDYQLSNLRDQVAVVSQNVHLFNDTIANNI</Hsp_hseq>
+      <Hsp_midline>AL+      P  +   ALVGRSGSGKS  A ++ R +D    ID G LI + + +        R  +A +   V LF +T+   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|46396367|sp|Q83LP0.1|MSBA_SHIFL</Hit_id>
+  <Hit_def>RecName: Full=Lipid A export ATP-binding/permease protein MsbA</Hit_def>
+  <Hit_accession>Q83LP0</Hit_accession>
+  <Hit_len>582</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.122744</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>358</Hsp_hit-from>
+      <Hsp_hit-to>437</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>ALQGACIGTPEHRQVFALVGRSGSGKSFRAQIVMRRFDI--AFVIDDGLLIREDKIIAGRSAKQERTLLAAIRVALFENTMHRRV</Hsp_qseq>
+      <Hsp_hseq>ALRNINLKIPAGKTV-ALVGRSGSGKSTIASLITRFYDIDEGEILMDGHDLREYTLASLRN----QVALVSQNVHLFNDTVANNI</Hsp_hseq>
+      <Hsp_midline>AL+   +  P  + V ALVGRSGSGKS  A ++ R +DI    ++ DG  +RE  + + R+    +  L +  V LF +T+   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|46396451|sp|Q8FJB1.1|MSBA_ECOL6</Hit_id>
+  <Hit_def>RecName: Full=Lipid A export ATP-binding/permease protein MsbA &gt;gi|122064499|sp|Q0TJD9.1|MSBA_ECOL5 RecName: Full=Lipid A export ATP-binding/permease protein MsbA &gt;gi|122064500|sp|Q1RDU4.1|MSBA_ECOUT RecName: Full=Lipid A export ATP-binding/permease protein MsbA</Hit_def>
+  <Hit_accession>Q8FJB1</Hit_accession>
+  <Hit_len>582</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.122744</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>358</Hsp_hit-from>
+      <Hsp_hit-to>437</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>ALQGACIGTPEHRQVFALVGRSGSGKSFRAQIVMRRFDI--AFVIDDGLLIREDKIIAGRSAKQERTLLAAIRVALFENTMHRRV</Hsp_qseq>
+      <Hsp_hseq>ALRNINLKIPAGKTV-ALVGRSGSGKSTIASLITRFYDIDEGEILMDGHDLREYTLASLRN----QVALVSQNVHLFNDTVANNI</Hsp_hseq>
+      <Hsp_midline>AL+   +  P  + V ALVGRSGSGKS  A ++ R +DI    ++ DG  +RE  + + R+    +  L +  V LF +T+   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|46397619|sp|P60752.1|MSBA_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Lipid A export ATP-binding/permease protein MsbA &gt;gi|46397620|sp|P60753.1|MSBA_ECO57 RecName: Full=Lipid A export ATP-binding/permease protein MsbA &gt;gi|122064524|sp|Q31YT6.1|MSBA_SHIBS RecName: Full=Lipid A export ATP-binding/permease protein MsbA &gt;gi|122064525|sp|Q32E34.1|MSBA_SHIDS RecName: Full=Lipid A export ATP-binding/permease protein MsbA</Hit_def>
+  <Hit_accession>P60752</Hit_accession>
+  <Hit_len>582</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.122744</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>358</Hsp_hit-from>
+      <Hsp_hit-to>437</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>ALQGACIGTPEHRQVFALVGRSGSGKSFRAQIVMRRFDI--AFVIDDGLLIREDKIIAGRSAKQERTLLAAIRVALFENTMHRRV</Hsp_qseq>
+      <Hsp_hseq>ALRNINLKIPAGKTV-ALVGRSGSGKSTIASLITRFYDIDEGEILMDGHDLREYTLASLRN----QVALVSQNVHLFNDTVANNI</Hsp_hseq>
+      <Hsp_midline>AL+   +  P  + V ALVGRSGSGKS  A ++ R +DI    ++ DG  +RE  + + R+    +  L +  V LF +T+   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|122064526|sp|Q3Z3K7.1|MSBA_SHISS</Hit_id>
+  <Hit_def>RecName: Full=Lipid A export ATP-binding/permease protein MsbA</Hit_def>
+  <Hit_accession>Q3Z3K7</Hit_accession>
+  <Hit_len>582</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.123834</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>358</Hsp_hit-from>
+      <Hsp_hit-to>437</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>ALQGACIGTPEHRQVFALVGRSGSGKSFRAQIVMRRFDI--AFVIDDGLLIREDKIIAGRSAKQERTLLAAIRVALFENTMHRRV</Hsp_qseq>
+      <Hsp_hseq>ALRNINLKIPAGKTV-ALVGRSGSGKSTIASLITRFYDIDEGEILMDGHDLREYTLASLRN----QVALVSQNVHLFNDTVANNI</Hsp_hseq>
+      <Hsp_midline>AL+   +  P  + V ALVGRSGSGKS  A ++ R +DI    ++ DG  +RE  + + R+    +  L +  V LF +T+   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|122064522|sp|Q0HHH4.1|MSBA_SHESM</Hit_id>
+  <Hit_def>RecName: Full=Lipid A export ATP-binding/permease protein MsbA &gt;gi|122064523|sp|Q0HTS8.1|MSBA_SHESR RecName: Full=Lipid A export ATP-binding/permease protein MsbA</Hit_def>
+  <Hit_accession>Q0HHH4</Hit_accession>
+  <Hit_len>601</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.185752</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>388</Hsp_hit-from>
+      <Hsp_hit-to>456</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>QVFALVGRSGSGKSFRAQIVMRRFDIAFVIDDGLLIREDKIIAGRSAKQERTLLAAI--RVALFENTMHRRV</Hsp_qseq>
+      <Hsp_hseq>QTLALVGRSGSGKSTIASLVTRFYT---GLESGDIKLDDVSIYDYSLKSLRSQVALVSQQVTLFNDTIANNI</Hsp_hseq>
+      <Hsp_midline>Q  ALVGRSGSGKS  A +V R +     ++ G +  +D  I   S K  R+ +A +  +V LF +T+   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|122064504|sp|Q0I4C5.1|MSBA_HAES1</Hit_id>
+  <Hit_def>RecName: Full=Lipid A export ATP-binding/permease protein MsbA</Hit_def>
+  <Hit_accession>Q0I4C5</Hit_accession>
+  <Hit_len>582</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.191008</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>358</Hsp_hit-from>
+      <Hsp_hit-to>437</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>ALQGACIGTPEHRQVFALVGRSGSGKSFRAQIVMRRFDI--AFVIDDGLLIREDKIIAGRSAKQERTLLAAIRVALFENTMHRRV</Hsp_qseq>
+      <Hsp_hseq>ALNNISFTIPQGKTV-ALVGRSGSGKSTIANLVTRFYDVEQGKITLDGVNIQDYTLANLR----EHCAVVSQQVHLFNDTIANNI</Hsp_hseq>
+      <Hsp_midline>AL       P+ + V ALVGRSGSGKS  A +V R +D+    +  DG+ I++  +   R    E   + + +V LF +T+   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|166214778|sp|A4G5X0.1|CLPX_HERAR</Hit_id>
+  <Hit_def>RecName: Full=ATP-dependent Clp protease ATP-binding subunit ClpX</Hit_def>
+  <Hit_accession>A4G5X0</Hit_accession>
+  <Hit_len>422</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.224971</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>118</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>LVGRSGSGKSFRAQIVMRRFDIAFVIDDGLLIRE</Hsp_qseq>
+      <Hsp_hseq>LVGPTGSGKTLLAQTLARTLDVPFVIADATTLTE</Hsp_hseq>
+      <Hsp_midline>LVG +GSGK+  AQ + R  D+ FVI D   + E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|166214779|sp|A6SY75.1|CLPX_JANMA</Hit_id>
+  <Hit_def>RecName: Full=ATP-dependent Clp protease ATP-binding subunit ClpX</Hit_def>
+  <Hit_accession>A6SY75</Hit_accession>
+  <Hit_len>422</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.231049</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>118</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>LVGRSGSGKSFRAQIVMRRFDIAFVIDDGLLIRE</Hsp_qseq>
+      <Hsp_hseq>LVGPTGSGKTLLAQTLARTLDVPFVIADATTLTE</Hsp_hseq>
+      <Hsp_midline>LVG +GSGK+  AQ + R  D+ FVI D   + E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|67468771|sp|Q7VL52.1|MSBA_HAEDU</Hit_id>
+  <Hit_def>RecName: Full=Lipid A export ATP-binding/permease protein MsbA</Hit_def>
+  <Hit_accession>Q7VL52</Hit_accession>
+  <Hit_len>582</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.240374</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>352</Hsp_hit-from>
+      <Hsp_hit-to>437</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>KGERERAGALQGACIGTPEHRQVFALVGRSGSGKSFRAQIVMRRFDI--AFVIDDGLLIREDKIIAGRSAKQERTLLAAIRVALFENTMHRRV</Hsp_qseq>
+      <Hsp_hseq>EGKEEQA--LNQVSFTIPQGKTV-ALVGRSGSGKSTIASLLTRFYDVNEGQILLDGVNIEEYTLENLR----EQCSVVSQQVHLFNDTIANNI</Hsp_hseq>
+      <Hsp_midline>+G+ E+A  L       P+ + V ALVGRSGSGKS  A ++ R +D+    ++ DG+ I E  +   R    E+  + + +V LF +T+   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|122064510|sp|Q15UY7.1|MSBA_PSEA6</Hit_id>
+  <Hit_def>RecName: Full=Lipid A export ATP-binding/permease protein MsbA</Hit_def>
+  <Hit_accession>Q15UY7</Hit_accession>
+  <Hit_len>585</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.34577</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>363</Hsp_hit-from>
+      <Hsp_hit-to>435</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>TPEHRQVFALVGRSGSGKSFRAQIVMRRFDIAFVIDDGLLIREDKIIAGRSAKQERTLLAAIR--VALFENTMHRRV</Hsp_qseq>
+      <Hsp_hseq>TVEPGKTFALVGRSGSGKSTISSLLTRFYD----AQQGTILLDDVPLQDFKLKDLRRQFALVSQHVTLFNDTIANNI</Hsp_hseq>
+      <Hsp_midline>T E  + FALVGRSGSGKS  + ++ R +D       G ++ +D  +     K  R   A +   V LF +T+   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>462628</Statistics_db-num>
+      <Statistics_db-len>173435234</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

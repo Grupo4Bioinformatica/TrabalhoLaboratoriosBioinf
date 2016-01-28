@@ -1,0 +1,602 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>Query_218107</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>196</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_218107</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>196</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|68052994|sp|O83387.1|RL25_TREPA</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L25; AltName: Full=General stress protein CTC &gt;gi|226694581|sp|B2S2W9.1|RL25_TREPS RecName: Full=50S ribosomal protein L25; AltName: Full=General stress protein CTC</Hit_def>
+  <Hit_accession>O83387</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>387.497</Hsp_bit-score>
+      <Hsp_score>994</Hsp_score>
+      <Hsp_evalue>1.20301e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>196</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MDERRLKGKRRVQLGKYAAVRGRKEGRLPAVMYDHRGVSVPLELAQQDFDRLFRALTRSTVLSLELDGGEVFCVFVKDYQHNMVSDRVEHVDFYAVEESVPLRMRIRLQLCGSPEGVRYGARLEKGLSYIEVESLPRNLPDRVVLDISGLGAGDVRRVRDVPLPASVVVLSDPDAVIVALSSSASEAGSPAGARTG</Hsp_qseq>
+      <Hsp_hseq>MDERRLKGKRRVQLGKYAAVRGRKEGRLPAVMYDHRGVSVPLELAQQDFDRLFRALTRSTVLSLELDGGEVFCVFVKDYQHNMVSDRVEHVDFYAVEESVPLRMRIRLQLCGSPEGVRYGARLEKGLSYIEVESLPRNLPDRVVLDISGLGAGDVRRVRDVPLPASVVVLSDPDAVIVALSSSASEAGSPAGARTG</Hsp_hseq>
+      <Hsp_midline>MDERRLKGKRRVQLGKYAAVRGRKEGRLPAVMYDHRGVSVPLELAQQDFDRLFRALTRSTVLSLELDGGEVFCVFVKDYQHNMVSDRVEHVDFYAVEESVPLRMRIRLQLCGSPEGVRYGARLEKGLSYIEVESLPRNLPDRVVLDISGLGAGDVRRVRDVPLPASVVVLSDPDAVIVALSSSASEAGSPAGARTG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|71153672|sp|Q73N16.1|RL25_TREDE</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L25; AltName: Full=General stress protein CTC</Hit_def>
+  <Hit_accession>Q73N16</Hit_accession>
+  <Hit_len>211</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.496</Hsp_bit-score>
+      <Hsp_score>467</Hsp_score>
+      <Hsp_evalue>9.72492e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>190</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>MDERRLKGKRRVQLGKYAAVRGRKEGRLPAVMYDHRGVSVPLELAQQDFDRLFRALTRSTVLSLELDGGEVFCVFVKDYQHNMVSDRVEHVDFYAVEESVPLRMRIRLQLCGSPEGVRYGARLEKGLSYIEVESLPRNLPDRVVLDISGLGAGDVRRVRDVPLPASVVVLSDPDAVIVALSSSASEAGSP</Hsp_qseq>
+      <Hsp_hseq>MEQRLLNANERSTYGKNAAVKMRKAGRIPAVMYDRHGKSVPIDVDEREFMKLFKLVTESTIVTLNAAGKD-YEVFIKDFQHDIVSDKIKHIDFYEVERGKTLRTKVKIRLEGSPEGVRHGGILETGITELELECLPKDLPARIIVDVSALDVNQSLHVRDIKLPEAVTVLTSDDITVAAIKFAAAESTTP</Hsp_hseq>
+      <Hsp_midline>M++R L    R   GK AAV+ RK GR+PAVMYD  G SVP+++ +++F +LF+ +T ST+++L   G + + VF+KD+QH++VSD+++H+DFY VE    LR +++++L GSPEGVR+G  LE G++ +E+E LP++LP R+++D+S L       VRD+ LP +V VL+  D  + A+  +A+E+ +P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|109893369|sp|Q2RMC2.1|RL25_MOOTA</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L25; AltName: Full=General stress protein CTC</Hit_def>
+  <Hit_accession>Q2RMC2</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.375</Hsp_bit-score>
+      <Hsp_score>259</Hsp_score>
+      <Hsp_evalue>5.64846e-26</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>MDERRLKGKRRVQLGKYAAVRGRKEGRLPAVMYDHRGVSVPLELAQQDFDRLFRALTRSTVLSLELDG---GEVFCVFVKDYQHNMVSDRVEHVDFYAVEESVPLRMRIRLQLCGSPEGVRYGARLEKGLSYIEVESLPRNLPDRVVLDISGLGAGDVRRVRDVPLPASVVVLSDPDAVIVALSSS</Hsp_qseq>
+      <Hsp_hseq>MQAQTLEVTMRPEVGKQAARRLRRQGKLPGIIYGKKIANLAVIIPARQLEHILATEGENALLKLVVSGDGQNKEFTAVIREVQRHPLKGNLTHVDFYQVSMEDKLRATVPVILEGEARGVKEGGILQHGVREIEIESLPADLPESIVVDVSHLGVGEHLTVGEIKVPAGVKILSEPDTVIATVVTT</Hsp_hseq>
+      <Hsp_midline>M  + L+   R ++GK AA R R++G+LP ++Y  +  ++ + +  +  + +      + +L L + G    + F   +++ Q + +   + HVDFY V     LR  + + L G   GV+ G  L+ G+  IE+ESLP +LP+ +V+D+S LG G+   V ++ +PA V +LS+PD VI  + ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|109893351|sp|Q3AFL7.1|RL25_CARHZ</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L25; AltName: Full=General stress protein CTC</Hit_def>
+  <Hit_accession>Q3AFL7</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>103.99</Hsp_bit-score>
+      <Hsp_score>258</Hsp_score>
+      <Hsp_evalue>6.22475e-26</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>182</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>VQLGKYAAVRGR--KEGRLPAVMYDHRGVSVPLELAQQDFDRLFRALTRSTVLSLELDGGEVFCVFVKDYQHNMVSDRVEHVDFYAVEESVPLRMRIRLQLCGSPEGVRYGARLEKGLSYIEVESLPRNLPDRVVLDISGLGAGDVRRVRDVPLPASVVVLSDPDAVIVALSS</Hsp_qseq>
+      <Hsp_hseq>VRLKKTRGERNRLLKEGKVPGVMYGKNIEPVAVAVNARELESLVERGLKLFELSVE---GKTQRVLVKELQHHPVTGKLIHVDFQVVESGRKIRQLVPVELYGEPAGVKAGGILEHGLSEVTVECLPEDLPEFIEADVSKLEVGDCLRVKDLELPPGVRVIEDPESIIALISA</Hsp_hseq>
+      <Hsp_midline>V+L K    R R  KEG++P VMY      V + +  ++ + L     +   LS+E   G+   V VK+ QH+ V+ ++ HVDF  VE    +R  + ++L G P GV+ G  LE GLS + VE LP +LP+ +  D+S L  GD  RV+D+ LP  V V+ DP+++I  +S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|226736309|sp|B8DKL6.1|RL25_DESVM</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L25; AltName: Full=General stress protein CTC</Hit_def>
+  <Hit_accession>B8DKL6</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.293</Hsp_bit-score>
+      <Hsp_score>251</Hsp_score>
+      <Hsp_evalue>5.21316e-25</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>RRLKGKRRVQLGKYAAVRGRKEGRLPAVMYDHRGVSVPLELAQQDFDRLFRALTRSTVLSLELDGG---EVFCVFVKDYQHNMVSDRVEHVDFYAVEESVPLRMRIRLQLCGSPEGVRYGARLEKGLSYIEVESLPRNLPDRVVLDISGLGAGDVRRVRDVPLPASVVVLSDPDAVIVALSSSASE</Hsp_qseq>
+      <Hsp_hseq>KTLSVRKRDGLGKGANRKLRAKTLVPGVFYNAEGLNVPIEMDTLPVEKLFEAVGRTTVFNIEVDDNGTKSTHPALFWQIQYHPVKNRFSHIDFRGVDLEKPVKIRVPLEFTGTAKGVKVGGKLEVYREALDISAKPLQMPSKITIDLTDLEIGKTISVNDLPLGEGVCAVADRNFAIVAVVSPKGE</Hsp_hseq>
+      <Hsp_midline>+ L  ++R  LGK A  + R +  +P V Y+  G++VP+E+     ++LF A+ R+TV ++E+D               Q++ V +R  H+DF  V+   P+++R+ L+  G+ +GV+ G +LE     +++ + P  +P ++ +D++ L  G    V D+PL   V  ++D +  IVA+ S   E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|172044207|sp|A4J0Q5.1|RL25_DESRM</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L25; AltName: Full=General stress protein CTC</Hit_def>
+  <Hit_accession>A4J0Q5</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.908</Hsp_bit-score>
+      <Hsp_score>250</Hsp_score>
+      <Hsp_evalue>9.62548e-25</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MDERRLKGKRRVQLGKYAAVRGRKEGRLPAVMYDHRGVSVPLELAQQDFDRLFRALT-RSTVLSLELDGGEVFCVFVKDYQHNMVSDRVEHVDFYAVEESVPLRMRIRLQLCGSPEGVRYGARLEKGLSYIEVESLPRNLPDRVVLDISGLGAGDVRRVRDVPLPASVVVLSDPDAVIVALSSSASEAGSPAG</Hsp_qseq>
+      <Hsp_hseq>MADTALNANLRKTATKSIVKEIRNNGGIPGVVYGKHVGSMAISVDAKDLKNILGSVTGRNTLINMNINGSK-QTVMVKSLQMDPMHQNIRHVDFQQVSENTKIRTVIPVQLVGTPKGVAMGGVIQHDLRSAEIECLPNRIPEAIQVDISGLEIGDTLSVSDLNLPPGVKILDHPHTTVVGLAT--IKAPEPAG</Hsp_hseq>
+      <Hsp_midline>M +  L    R    K      R  G +P V+Y     S+ + +  +D   +  ++T R+T++++ ++G +   V VK  Q + +   + HVDF  V E+  +R  I +QL G+P+GV  G  ++  L   E+E LP  +P+ + +DISGL  GD   V D+ LP  V +L  P   +V L++   +A  PAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|68053196|sp|Q7NNL2.1|RL25_GLOVI</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L25; AltName: Full=General stress protein CTC</Hit_def>
+  <Hit_accession>Q7NNL2</Hit_accession>
+  <Hit_len>211</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.3673</Hsp_bit-score>
+      <Hsp_score>246</Hsp_score>
+      <Hsp_evalue>3.96412e-24</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>RKEGRLPAVMYDHRGV-SVPLELAQQDFDRLFRALT-RSTVLSLELDGGEVFCVFVKDYQHNMVSDRVEHVDFYAVEESVPLRMRIRLQLCGSPEGVRY-GARLEKGLSYIEVESLPRNLPDRVVLDISGLGAGDVRRVRDVPLPASVVVLSDPDAVIVALSSSAS</Hsp_qseq>
+      <Hsp_hseq>RREGRIPAVLYGHRGTQSLALELEQRTAEDLLKRVTINNTILPLKVERGWSGDVLLREVQHDAVGGKLLHLSFFAVAGHGSITLDLPLVFTGEAVGVKMDGGLLEKVLTQLTVNTPPTDVPEAIEVDISTMQVGDMLYVKDLVLPPGIEVVNTPDLVVAHLTPSPT</Hsp_hseq>
+      <Hsp_midline>R+EGR+PAV+Y HRG  S+ LEL Q+  + L + +T  +T+L L+++ G    V +++ QH+ V  ++ H+ F+AV     + + + L   G   GV+  G  LEK L+ + V + P ++P+ + +DIS +  GD+  V+D+ LP  + V++ PD V+  L+ S +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|122956313|sp|Q0SM66.1|RL25_BORAP</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L25; AltName: Full=General stress protein CTC</Hit_def>
+  <Hit_accession>Q0SM66</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.0561</Hsp_bit-score>
+      <Hsp_score>240</Hsp_score>
+      <Hsp_evalue>1.69861e-23</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>180</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>180</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>DERRLKGKRRVQLGKYAAVRGRKEGRLPAVMYDHRGVSVPLELAQQDFDRLFRALTRSTVLSLELDGGEVFCVFVKDYQHNMVSDRVEHVDFYAVEESVPLRMRIRLQLCGSPEGVRYGARLEKGLSYIEVESLPRNLPDRVVLDISGLGAGDVRRVRDVPLPASVVVLSDPDAVIVAL</Hsp_qseq>
+      <Hsp_hseq>NSRFLSCKYRSSFGSSNARRIRAKCEIPAVVYGQGNDVLHLKIKSSEFNKKFAKFTDNTVLILD-DGKVERCVFVKDVAENIASKLIYHIDFYEVDKRVELEKYIPIKLVGASIGVKEGGILTVLKEQVKVRSLPLDLPEFIELDLTPVNKGDSVLLKDLVLPSNVKLAESDDNLEVVI</Hsp_hseq>
+      <Hsp_midline>+ R L  K R   G   A R R +  +PAV+Y      + L++   +F++ F   T +TVL L+ DG    CVFVKD   N+ S  + H+DFY V++ V L   I ++L G+  GV+ G  L      ++V SLP +LP+ + LD++ +  GD   ++D+ LP++V +    D + V +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|71153124|sp|Q65ZY8.1|RL25_BORGA</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L25; AltName: Full=General stress protein CTC</Hit_def>
+  <Hit_accession>Q65ZY8</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.2857</Hsp_bit-score>
+      <Hsp_score>238</Hsp_score>
+      <Hsp_evalue>2.90275e-23</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>DERRLKGKRRVQLGKYAAVRGRKEGRLPAVMYDHRGVSVPLELAQQDFDRLFRALTRSTVLSLELDGGEVFCVFVKDYQHNMVSDRVEHVDFYAVEESVPLRMRIRLQLCGSPEGVRYGARLEKGLSYIEVESLPRNLPDRVVLDISGLGAGDVRRVRDVPLPASV</Hsp_qseq>
+      <Hsp_hseq>NSRILSCKYRTSFGSSNARRIRSKDEIPAVVYGQGNDVLHLKIKSNEFNKKFAKFTDNTVLILD-DGKLERCVFIKDVSENIASKLIYHIDFYEVDRRVELEKYVPIKLIGASVGVKEGGILTVLKEQVRVKSLPLDLPEFIELDLTPVNKGDSVFLKDLVLPSNV</Hsp_hseq>
+      <Hsp_midline>+ R L  K R   G   A R R +  +PAV+Y      + L++   +F++ F   T +TVL L+ DG    CVF+KD   N+ S  + H+DFY V+  V L   + ++L G+  GV+ G  L      + V+SLP +LP+ + LD++ +  GD   ++D+ LP++V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|166223692|sp|Q1MQD6.1|RL25_LAWIP</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L25; AltName: Full=General stress protein CTC</Hit_def>
+  <Hit_accession>Q1MQD6</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.1301</Hsp_bit-score>
+      <Hsp_score>235</Hsp_score>
+      <Hsp_evalue>9.66726e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>180</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>184</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>MDE-RRLKGKRRVQLGKYAAVRGRKEGRLPAVMYDHRGVSVPLELAQQDFDRLFRALTRSTVLSLELDGGE---VFCVFVKDYQHNMVSDRVEHVDFYAVEESVPLRMRIRLQLCGSPEGVRYGARLEKGLSYIEVESLPRNLPDRVVLDISGLGAGDVRRVRDVPLPASVVVLSDPDAVIVAL</Hsp_qseq>
+      <Hsp_hseq>MDNLKTLVVQKRLDLGKGPNRRLHKKNLIPGIFYTSSGKNIPIQLPELPFTKIFSEVGRTTVFNLKIESDKENITHPVIIWELQYYPVKNRFMHVDLYGVELNKPIKIVVPLEFTGTAKGTKVGGKLETYREQLTLIANPLDIPSKITLDISDLDIGKSIYVADLKLPEGVKTSYDTNYAIVSV</Hsp_hseq>
+      <Hsp_midline>MD  + L  ++R+ LGK    R  K+  +P + Y   G ++P++L +  F ++F  + R+TV +L+++  +      V + + Q+  V +R  HVD Y VE + P+++ + L+  G+ +G + G +LE     + + + P ++P ++ LDIS L  G    V D+ LP  V    D +  IV++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|259646684|sp|C4XHR1.1|RL25_DESMR</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L25; AltName: Full=General stress protein CTC</Hit_def>
+  <Hit_accession>C4XHR1</Hit_accession>
+  <Hit_len>192</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.1301</Hsp_bit-score>
+      <Hsp_score>235</Hsp_score>
+      <Hsp_evalue>1.12594e-22</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>180</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>180</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>RRLKGKRRVQLGKYAAVRGRKEGRLPAVMYDHRGVSVPLELAQQDFDRLFRALTRSTVLSLELDGGEVFCVFVKDYQHNMVSDRVEHVDFYAVEESVPLRMRIRLQLCGSPEGVRYGARLEKGLSYIEVESLPRNLPDRVVLDISGLGAGDVRRVRDVPLPASVVVLSDPDAVIVAL</Hsp_qseq>
+      <Hsp_hseq>QSLAVKTRAGLGKGACRKLRADDMVPGVYYDAKGVNVPVMVEHLPLQKLYSKIASSHVFDLQIEG-ETKPALVWKVEHHPTKPRITHVDFYGVDLTKEIQVRVPVEVVGKSKGQVKGGQLEIHREFIEVLCLPLVIPDKIVLDITNVDINESILIADVVLPEGVKAVYDNNYAVIGV</Hsp_hseq>
+      <Hsp_midline>+ L  K R  LGK A  + R +  +P V YD +GV+VP+ +      +L+  +  S V  L+++G E     V   +H+    R+ HVDFY V+ +  +++R+ +++ G  +G   G +LE    +IEV  LP  +PD++VLDI+ +   +   + DV LP  V  + D +  ++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|226736284|sp|B2S1C8.1|RL25_BORHD</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L25; AltName: Full=General stress protein CTC</Hit_def>
+  <Hit_accession>B2S1C8</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>94.7449</Hsp_bit-score>
+      <Hsp_score>234</Hsp_score>
+      <Hsp_evalue>1.15144e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>180</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>180</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>181</Hsp_align-len>
+      <Hsp_qseq>MDERR-LKGKRRVQLGKYAAVRGRKEGRLPAVMYDHRGVSVPLELAQQDFDRLFRALTRSTVLSLELDGGEVFCVFVKDYQHNMVSDRVEHVDFYAVEESVPLRMRIRLQLCGSPEGVRYGARLEKGLSYIEVESLPRNLPDRVVLDISGLGAGDVRRVRDVPLPASVVVLSDPDAVIVAL</Hsp_qseq>
+      <Hsp_hseq>MDSSRILRYEGRLDFGSLRARRIRAESEIPAVVYGKESDVLHIKIKSSEFNNKFAKFTDNTVLILS-DGKIEKCVFIKDVSENLTKRLIYHVDFYEVDKTKDIERDIAIKFVGASVGVKEGGTLSVLRTKIKVKSLPLNLPEFVEVDLTPVKKGDQVTFKDIVLPDNVKLSEENENSVVLL</Hsp_hseq>
+      <Hsp_midline>MD  R L+ + R+  G   A R R E  +PAV+Y      + +++   +F+  F   T +TVL L  DG    CVF+KD   N+    + HVDFY V+++  +   I ++  G+  GV+ G  L    + I+V+SLP NLP+ V +D++ +  GD    +D+ LP +V +  + +  +V L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|226736327|sp|B0TBA3.1|RL25_HELMI</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L25; AltName: Full=General stress protein CTC</Hit_def>
+  <Hit_accession>B0TBA3</Hit_accession>
+  <Hit_len>231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.5153</Hsp_bit-score>
+      <Hsp_score>236</Hsp_score>
+      <Hsp_evalue>1.42821e-22</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>180</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>182</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>RKEGRLPAVMYDHRGVSVPLELAQQDFDRLFRAL-TRSTVLSLELDGGEV-FCVFVKDYQHNMVSDRVEHVDFYAVEESVPLRMRIRLQLCGSPEGVRYGARLEKGLSYIEVESLPRNLPDRVVLDISGLGAGDVRRVRDVPLPASVVVLSDPDAVIVAL</Hsp_qseq>
+      <Hsp_hseq>RKRGLLPAVVYGKDKPDMLISVNAKELSGLLKAMGSASAILDLQVEGSDDRHKVMLKEMQRDPVGRMPNHVDFQLVDWNKPVHAEIPIHLVGTPAGVKAGGIIQHGLRTVEVEGLPGKLPPRFDIDISHLELHDKMTVADITSPAGIAIISEPDQVILSI</Hsp_hseq>
+      <Hsp_midline>RK G LPAV+Y      + + +  ++   L +A+ + S +L L+++G +    V +K+ Q + V     HVDF  V+ + P+   I + L G+P GV+ G  ++ GL  +EVE LP  LP R  +DIS L   D   V D+  PA + ++S+PD VI+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|71153142|sp|Q72BR0.1|RL25_DESVH</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L25; AltName: Full=General stress protein CTC &gt;gi|166223678|sp|A1VDR0.1|RL25_DESVV RecName: Full=50S ribosomal protein L25; AltName: Full=General stress protein CTC</Hit_def>
+  <Hit_accession>Q72BR0</Hit_accession>
+  <Hit_len>190</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.5893</Hsp_bit-score>
+      <Hsp_score>231</Hsp_score>
+      <Hsp_evalue>3.27244e-22</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>188</Hsp_align-len>
+      <Hsp_qseq>DERRLKGKRRVQLGKYAAVRGRKEGRLPAVMYDHRGVSVPLELAQQDFDRLFRALTRSTVLSLELD---GGEVFCVFVKDYQHNMVSDRVEHVDFYAVEESVPLRMRIRLQLCGSPEGVRYGARLEKGLSYIEVESLPRNLPDRVVLDISGLGAGDVRRVRDVPLPASVVVLSDPDAVIVALSSSASE</Hsp_qseq>
+      <Hsp_hseq>EQKTLSVQKRDNLGKGANRRLRSEEVVPGVFYDTKGNNVAVQMPAKPLQKLFEEVGRTTVFQLEIEEEGKKSTHPVLIWDALFHPYKKKFTHIDFFGVDLDREIKIRVPLEFVGTSRGVKLGGKLEVYREFIDVMSKPLTLPKKITLDLTELDINSTIMLKDVAMPEGVRPATNENFAILSVLTPKSE</Hsp_hseq>
+      <Hsp_midline>+++ L  ++R  LGK A  R R E  +P V YD +G +V +++  +   +LF  + R+TV  LE++         V + D   +    +  H+DF+ V+    +++R+ L+  G+  GV+ G +LE    +I+V S P  LP ++ LD++ L       ++DV +P  V   ++ +  I+++ +  SE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|226736282|sp|B7J0N2.1|RL25_BORBZ</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L25; AltName: Full=General stress protein CTC</Hit_def>
+  <Hit_accession>B7J0N2</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.8189</Hsp_bit-score>
+      <Hsp_score>229</Hsp_score>
+      <Hsp_evalue>5.87236e-22</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>DERRLKGKRRVQLGKYAAVRGRKEGRLPAVMYDHRGVSVPLELAQQDFDRLFRALTRSTVLSLELDGGEVFCVFVKDYQHNMVSDRVEHVDFYAVEESVPLRMRIRLQLCGSPEGVRYGARLEKGLSYIEVESLPRNLPDRVVLDISGLGAGDVRRVRDVPLPASV</Hsp_qseq>
+      <Hsp_hseq>NSRVLSCQYRSSFGSSNARRIRAKSEIPAVVYGQGKDVSHLRIKSSEFNKKFAKFTDNTVLILD-DGKLERCVFVKDVAENIASKLIYHIDFYEVDRNVELEKYVPIKLIGASIGVKEGGILTVLKEQVKVRSLPLDLPEFIELDLTPVNKGDSVLLKDLVLPSNV</Hsp_hseq>
+      <Hsp_midline>+ R L  + R   G   A R R +  +PAV+Y        L +   +F++ F   T +TVL L+ DG    CVFVKD   N+ S  + H+DFY V+ +V L   + ++L G+  GV+ G  L      ++V SLP +LP+ + LD++ +  GD   ++D+ LP++V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|384872682|sp|O51727.3|RL25_BORBU</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L25; AltName: Full=General stress protein CTC</Hit_def>
+  <Hit_accession>O51727</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.4337</Hsp_bit-score>
+      <Hsp_score>228</Hsp_score>
+      <Hsp_evalue>7.27863e-22</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>DERRLKGKRRVQLGKYAAVRGRKEGRLPAVMYDHRGVSVPLELAQQDFDRLFRALTRSTVLSLELDGGEVFCVFVKDYQHNMVSDRVEHVDFYAVEESVPLRMRIRLQLCGSPEGVRYGARLEKGLSYIEVESLPRNLPDRVVLDISGLGAGDVRRVRDVPLPASV</Hsp_qseq>
+      <Hsp_hseq>NSRVLSCQYRSSFGSSNARRIRAKSEIPAVVYGQGKDVSHLRIKSSEFNKKFAKFTDNTVLILD-DGKLERCVFVKDAAENIASKLIYHIDFYEVDRNVELEKYVPIKLIGASIGVKEGGILTVLKEQVKVRSLPLDLPEFIELDLTPVNKGDSVLLKDLVLPSNV</Hsp_hseq>
+      <Hsp_midline>+ R L  + R   G   A R R +  +PAV+Y        L +   +F++ F   T +TVL L+ DG    CVFVKD   N+ S  + H+DFY V+ +V L   + ++L G+  GV+ G  L      ++V SLP +LP+ + LD++ +  GD   ++D+ LP++V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|166223727|sp|A6LJD8.1|RL25_THEM4</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L25; AltName: Full=General stress protein CTC</Hit_def>
+  <Hit_accession>A6LJD8</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.8189</Hsp_bit-score>
+      <Hsp_score>229</Hsp_score>
+      <Hsp_evalue>9.86001e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>171</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>MDERRLKGKRRVQLGKYAAVRG-RKEGRLPAVMYDHRGVSVPLELAQQDFDRLFRALTRSTVLSLELD---GGEVFC--VFVKDYQHNMVSDRVEHVDFYAVEESVPLRMRIRLQLCGSPEGVRYGARLEKGLSYIEVESLPRNLPDRVVLDISGLGAGDVRRVRDVPLPA</Hsp_qseq>
+      <Hsp_hseq>MAQHKLEALTRNVVGKKRAVRRLRKQGLIPGVVYGPDIEPLSISIKKSNLIKLLYEVTEASIISLSVKDETGNEVFSHDVFIKNIQYDKLTDEVKHIDFYAPEKGHTMNINIPLEFIGKPKGVEKGGIVEIIHHELPVETLPSVIVEKLEIDISNLDLGESFHVSDLKLPT</Hsp_hseq>
+      <Hsp_midline>M + +L+   R  +GK  AVR  RK+G +P V+Y      + + + + +  +L   +T ++++SL +    G EVF   VF+K+ Q++ ++D V+H+DFYA E+   + + I L+  G P+GV  G  +E     + VE+LP  + +++ +DIS L  G+   V D+ LP </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|226736374|sp|B5YG55.1|RL25_THEYD</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L25; AltName: Full=General stress protein CTC</Hit_def>
+  <Hit_accession>B5YG55</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.4337</Hsp_bit-score>
+      <Hsp_score>228</Hsp_score>
+      <Hsp_evalue>1.68118e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>MDERRLKGKRRVQLGKYAAVRGRKEGRLPAVMYDHRGVSVPLELAQQDFDRLFRALTRSTVL-SLELDGGEVFCVFVKDYQHNMVSDRVEHVDFYAVEESVPLRMRIRLQLCGSPEGVRY-GARLEKGLSYIEVESLPRNLPDRVVLDISGLGAGDVRRVRDVPLPASVVVLSDPDAVI</Hsp_qseq>
+      <Hsp_hseq>MEKFILNVEKRERTGKGIARQLRSKGIIPCVIYKN-GQSTPVQIPTKELYTFMNIATREKLFVTLKLDGQEKQAIL-QDYQVDPVTGKLLHVDFMEVSATEKIRVTIPVVLIGEPIGVKQDKGVLQHGISEIEIEAIPEKIPGHIEVDVSHLEVGDAVHVSDIKFEEGIKVISNPEEVI</Hsp_hseq>
+      <Hsp_midline>M++  L  ++R + GK  A + R +G +P V+Y + G S P+++  ++        TR  +  +L+LDG E   +  +DYQ + V+ ++ HVDF  V  +  +R+ I + L G P GV+     L+ G+S IE+E++P  +P  + +D+S L  GD   V D+     + V+S+P+ VI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|226736370|sp|B7IFM6.1|RL25_THEAB</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L25; AltName: Full=General stress protein CTC</Hit_def>
+  <Hit_accession>B7IFM6</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.0485</Hsp_bit-score>
+      <Hsp_score>227</Hsp_score>
+      <Hsp_evalue>2.04597e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>184</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>MDERRLKGKRRVQLGKYAAVRG-RKEGRLPAVMYDHRGVSVPLELAQQDFDRLFRALTRSTVLSLEL---DGGEVFC--VFVKDYQHNMVSDRVEHVDFYAVEESVPLRMRIRLQLCGSPEGVRYGARLEKGLSYIEVESLPRNLPDRVVLDISGLGAGDVRRVRDVPLPASVVVLSDPDAVIVALSSSA</Hsp_qseq>
+      <Hsp_hseq>MEKHTLEALVRSVVGKKRAVRRLRRQGFVPGVVYGPDVEPLSISIKRSNLIKLFHEVTEASIISLTVKDENGKEVFSHDVFIKNVQYDKLTDEVKHVDFYAPEKGHKMKINLPLEFVGKAKGEEKGGVLEIHHHELPVETLPNAVVEKLEIDVSNLDLGQALYVKDLKLPEGMEAELDEEEIIAIVSTPS</Hsp_hseq>
+      <Hsp_midline>M++  L+   R  +GK  AVR  R++G +P V+Y      + + + + +  +LF  +T ++++SL +   +G EVF   VF+K+ Q++ ++D V+HVDFYA E+   +++ + L+  G  +G   G  LE     + VE+LP  + +++ +D+S L  G    V+D+ LP  +    D + +I  +S+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|68053238|sp|Q9KGJ4.1|RL25_BACHD</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L25; AltName: Full=General stress protein CTC</Hit_def>
+  <Hit_accession>Q9KGJ4</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.0485</Hsp_bit-score>
+      <Hsp_score>227</Hsp_score>
+      <Hsp_evalue>2.06687e-21</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>180</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>LKGKRRVQLGKYAAVRGRKEGRLPAVMYDHRGVSVPLELAQQDFDRLFRALTRSTVLSLELDGGEVFCVFVKDYQHNMVSDRVEHVDFYAVEESVPLRMRIRLQLCGSPEGVRYGARLEKGLSYIEVESLPRNLPDRVVLDISGLGAGDVRRVRDVPLPASVVVLSDPDAVIVAL</Hsp_qseq>
+      <Hsp_hseq>LKAEKRPDLRGSVTRKIRKQGYVPAVVYGNKTKSQPISVEAVDFLKTVREVGRNGLISLEVEKGTKHQVMVHDLQMDPLKGDYLHIDFFEVDMSSEIEANVPVRLTGEARGVSEGGVLSQLMYEITVRSLPADIPEEITLDVSSLAIGDSIQIRDVRGNVPVQVVNEDEETVVTV</Hsp_hseq>
+      <Hsp_midline>LK ++R  L      + RK+G +PAV+Y ++  S P+ +   DF +  R + R+ ++SLE++ G    V V D Q + +     H+DF+ V+ S  +   + ++L G   GV  G  L + +  I V SLP ++P+ + LD+S L  GD  ++RDV     V V+++ +  +V +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>462628</Statistics_db-num>
+      <Statistics_db-len>173435234</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,868 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>Query_221843</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>342</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_221843</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>342</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1171734|sp|P45682.1|NLPD_PSEAE</Hit_id>
+  <Hit_def>RecName: Full=Lipoprotein NlpD/LppB homolog; Flags: Precursor</Hit_def>
+  <Hit_accession>P45682</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.633</Hsp_bit-score>
+      <Hsp_score>174</Hsp_score>
+      <Hsp_evalue>6.16145e-13</Hsp_evalue>
+      <Hsp_query-from>113</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>69</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>YTVRRGDTLFSIARMLNCSLAALLAANGISAAHTIHPGDVLVIPPREKSPPTVAGADRILSVSSLPDGDQWARARADPVQTPVSPPAAVPAPERREISLRDPRQYISKKVDKNA----RWPVSPTSLAYVRGK---TYGVVIDSERNAAVRALMSGKVISRGTH-RGYGQVLFVESAGKHVYVYGGLERILPKSGDYVSAGDVLGNLGFDAAAARSRLYFMVYKKNKPIDPAQ</Hsp_qseq>
+      <Hsp_hseq>YIVRRGDTLYSIAFRFGWDWKALAARNGIAPPYTIQVGQAIQFGGRASTQPSVAKNTPVVAAP--------VATKPTPVPPAVSTSVPAKPAPAPASTTTPPSSGATPVVAGPAVGGWAWPASGTLIGRFASNGSLNKGIDIAGQLGQPVLAASGGTVVYAGSGLRGYGELVIIKHNETYVSAYGHNRRLLVREGQQVKVGQSIAEMG-STGTDRVKLHFEIRRQGKPVDPLQ</Hsp_hseq>
+      <Hsp_midline>Y VRRGDTL+SIA        AL A NGI+  +TI  G  +    R  + P+VA    +++             +  PV   VS             +   P    +  V   A     WP S T +           G+ I  +    V A   G V+  G+  RGYG+++ ++    +V  YG   R+L + G  V  G  +  +G      R +L+F + ++ KP+DP Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|20140975|sp|Q46798.2|YGER_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized lipoprotein YgeR; Flags: Precursor</Hit_def>
+  <Hit_accession>Q46798</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.1662</Hsp_bit-score>
+      <Hsp_score>165</Hsp_score>
+      <Hsp_evalue>5.56353e-12</Hsp_evalue>
+      <Hsp_query-from>113</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>YTVRRGDTLFSIARMLNCSLAALLAANGISAAHTIHPGDVLVIPPREKSPPTVAGADRILSVSSLPDGDQWARARADPVQTPVSPPAAVPAPERREISLRDPRQYISKKVDKNARWPVSPTSLAYVRGKTYGVVIDSERNAAVRALMSGKVISRGTH-RGYGQVLFVESAGKHVYVYGGLERILPKSGDYVSAGDVLGNLGFDAAAARSRLYFMVYKKNKPIDP</Hsp_qseq>
+      <Hsp_hseq>YTVKRGDTLYRISRTTGTSVKELARLNGISPPYTIEVGQKLKL-----------GGAKSSSIT------RKSTAKSTTKTASVTPSSAVPKSSWPPVGQRCWLWPTTGKV-------IMPYSTA--DGGNKGIDISAPRGTPIYAAGAGKVVYVGNQLRGYGNLIMIKHSEDYITAYAHNDTMLVNNGQSVKAGQKIATMG-STDAASVRLHFQIRYRATAIDP</Hsp_hseq>
+      <Hsp_midline>YTV+RGDTL+ I+R    S+  L   NGIS  +TI  G  L +           G  +  S++      + + A++      V+P +AVP      +  R      + KV       + P S A   G   G+ I + R   + A  +GKV+  G   RGYG ++ ++ +  ++  Y   + +L  +G  V AG  +  +G    AA  RL+F +  +   IDP</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>3.80366</Hsp_evalue>
+      <Hsp_query-from>45</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>82</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>GFFLSLAGCFLLAAAYGAAQT--------VHVIAKGETLFSLSRRYGVPLSALAQANNLANVHQLVPGQRI</Hsp_qseq>
+      <Hsp_hseq>GIVMLLSVGLLLAGCSGSKSSDTGTYSGSVYTVKRGDTLYRISRTTGTSVKELARLNGISPPYTIEVGQKL</Hsp_hseq>
+      <Hsp_midline>G  + L+   LLA   G+  +        V+ + +G+TL+ +SR  G  +  LA+ N ++  + +  GQ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|586861|sp|P37531.1|YAAH_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Spore germination protein YaaH</Hit_def>
+  <Hit_accession>P37531</Hit_accession>
+  <Hit_len>427</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.6178</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>2.70226e-09</Hsp_evalue>
+      <Hsp_query-from>68</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>VIAKGETLFSLSRRYGVPLSALAQANNLANVHQLVPGQRIVVP---RGYTVRRGDTLFSIARMLNCSLAALLAANGISAAHTIHPGDVLVIPP</Hsp_qseq>
+      <Hsp_hseq>MVKQGDTLSAIASQYRTTTNDITETNEIPNPDSLVVGQTIVIPIAGQFYDVKRGDTLTSIARQFNTTAAELARVNRIQLNTVLQIGFRLYIPP</Hsp_hseq>
+      <Hsp_midline>++ +G+TL +++ +Y    + + + N + N   LV GQ IV+P   + Y V+RGDTL SIAR  N + A L   N I     +  G  L IPP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|20141556|sp|P40827.2|NLPD_SALTY</Hit_id>
+  <Hit_def>RecName: Full=Murein hydrolase activator NlpD; Flags: Precursor</Hit_def>
+  <Hit_accession>P40827</Hit_accession>
+  <Hit_len>377</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.151</Hsp_bit-score>
+      <Hsp_score>139</Hsp_score>
+      <Hsp_evalue>2.87245e-08</Hsp_evalue>
+      <Hsp_query-from>113</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>121</Hsp_hit-from>
+      <Hsp_hit-to>370</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>256</Hsp_align-len>
+      <Hsp_qseq>YTVRRGDTLFSIARMLNCSLAALLAANGISAAHTIHPGDVLVIPPREKSPPTVAGA-----------------DRILSVSSLP-------DGDQWARA---RADPVQTPVSPPAAVPAPERREISLRDPR-QYISKKVDKNA-RWPVSP---TSLAYVRGKTYGVVIDSERNAAVRALMSGKVISRGTH-RGYGQVLFVESAGKHVYVYGGLERILPKSGDYVSAGDVLGNLGFDAAAARSRLYFMVYKKNKPIDP</Hsp_qseq>
+      <Hsp_hseq>YTVKKGDTLFYIAWITGNDFRDLAQRNSISAPYSLNVGQTLQVGNASGTPITGGNAITQADAAQQGVVTRSAQNSTVAVASQPTITYSEGSGEQSANKMLPNNKPAGTVVTAPVTAPT-----VSTTEPNASSTSTSAPISAWRWPTDGKVIENFGASEGGNKGIDIAGSKGQAIVATADGRVVYAGNALRGYGNLIIIKHNDDYLSAYAHNDTMLVREQQEVKAGQKIATMG-STGTSSTRLHFEIRYKGKSVNP</Hsp_hseq>
+      <Hsp_midline>YTV++GDTLF IA +       L   N ISA ++++ G  L +     +P T   A                 +  ++V+S P        G+Q A        P  T V+ P   P      +S  +P     S     +A RWP       +     G   G+ I   +  A+ A   G+V+  G   RGYG ++ ++    ++  Y   + +L +    V AG  +  +G     + +RL+F +  K K ++P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|17433727|sp|Q56131.2|NLPD_SALTI</Hit_id>
+  <Hit_def>RecName: Full=Murein hydrolase activator NlpD; Flags: Precursor</Hit_def>
+  <Hit_accession>Q56131</Hit_accession>
+  <Hit_len>373</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.7658</Hsp_bit-score>
+      <Hsp_score>138</Hsp_score>
+      <Hsp_evalue>4.10216e-08</Hsp_evalue>
+      <Hsp_query-from>113</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>117</Hsp_hit-from>
+      <Hsp_hit-to>366</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>256</Hsp_align-len>
+      <Hsp_qseq>YTVRRGDTLFSIARMLNCSLAALLAANGISAAHTIHPGDVLVIPPREKSPPTVAGA-----------------DRILSVSSLP-------DGDQWARA---RADPVQTPVSPPAAVPAPERREISLRDPR-QYISKKVDKNA-RWPVSP---TSLAYVRGKTYGVVIDSERNAAVRALMSGKVISRGTH-RGYGQVLFVESAGKHVYVYGGLERILPKSGDYVSAGDVLGNLGFDAAAARSRLYFMVYKKNKPIDP</Hsp_qseq>
+      <Hsp_hseq>YTVKKGDTLFYIAWITGNDFRDLAQRNSISAPYSLNVGQTLQVGNASGTPITGGNAITQADAAQQGVVTRSAQNSTVAVASQPTITYSEGSGEQSANKMLPNNKPAGTVVTAPVTAPT-----VSTTEPNASSTSTSAPISAWRWPTDGKVIENFGASEGGNKGIDIAGSKGQAIVATADGRVVYAGNALRGYGNLIIIKHNDDYLSAYAHNDTMLVREQQEVKAGQKIATMG-STGTSSTRLHFEIRYKGKSVNP</Hsp_hseq>
+      <Hsp_midline>YTV++GDTLF IA +       L   N ISA ++++ G  L +     +P T   A                 +  ++V+S P        G+Q A        P  T V+ P   P      +S  +P     S     +A RWP       +     G   G+ I   +  A+ A   G+V+  G   RGYG ++ ++    ++  Y   + +L +    V AG  +  +G     + +RL+F +  K K ++P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|13432179|sp|P39700.2|NLPD_SALDU</Hit_id>
+  <Hit_def>RecName: Full=Murein hydrolase activator NlpD; Flags: Precursor</Hit_def>
+  <Hit_accession>P39700</Hit_accession>
+  <Hit_len>377</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.9954</Hsp_bit-score>
+      <Hsp_score>136</Hsp_score>
+      <Hsp_evalue>7.58286e-08</Hsp_evalue>
+      <Hsp_query-from>113</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>121</Hsp_hit-from>
+      <Hsp_hit-to>370</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>256</Hsp_align-len>
+      <Hsp_qseq>YTVRRGDTLFSIARMLNCSLAALLAANGISAAHTIHPGDVLVIPPREKSPPTVAGA-----------------DRILSVSSLP-------DGDQWARA---RADPVQTPVSPPAAVPAPERREISLRDPR-QYISKKVDKNA-RWPVSP---TSLAYVRGKTYGVVIDSERNAAVRALMSGKVISRGTH-RGYGQVLFVESAGKHVYVYGGLERILPKSGDYVSAGDVLGNLGFDAAAARSRLYFMVYKKNKPIDP</Hsp_qseq>
+      <Hsp_hseq>YTVKKGDTLFYIAWITGNDFRDLAQRNSISAPYSLNVGQTLQVGNASGMPITGGNAITQADAAQQGVVTRSAQNSTVAVASQPTITYSEGSGEQSANKMLPNNKPAGTVVTAPVTAPT-----VSTTEPNASSTSTSAPISAWRWPTDGKVIENFGASEGGNKGIDIAGSKGQAIVATADGRVVYAGNALRGYGNLIIIKHNDDYLSAYAHNDTMLVREQQEVKAGQKIATMG-STGTSSTRLHFEIRYKGKSVNP</Hsp_hseq>
+      <Hsp_midline>YTV++GDTLF IA +       L   N ISA ++++ G  L +      P T   A                 +  ++V+S P        G+Q A        P  T V+ P   P      +S  +P     S     +A RWP       +     G   G+ I   +  A+ A   G+V+  G   RGYG ++ ++    ++  Y   + +L +    V AG  +  +G     + +RL+F +  K K ++P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1176305|sp|P44864.1|Y756_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein HI_0756</Hit_def>
+  <Hit_accession>P44864</Hit_accession>
+  <Hit_len>410</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.8398</Hsp_bit-score>
+      <Hsp_score>133</Hsp_score>
+      <Hsp_evalue>1.85505e-07</Hsp_evalue>
+      <Hsp_query-from>244</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>314</Hsp_hit-from>
+      <Hsp_hit-to>406</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>GVVIDSERNAAVRALMSGKVISRGTHRGYGQVLFVESAGKHVYVYGGLERILPKSGDYVSAGDVLGNLGFDAAAARSRLYFMVYKKNKPIDPA</Hsp_qseq>
+      <Hsp_hseq>GMVIGASAGTPVKAIAAGRVILAGYLNGYGYMVIVKHGETDLSLYGFNQAVSVKVGQLVSAGQVIAQVGNTGEISRSALYFGISRKGTPVNPA</Hsp_hseq>
+      <Hsp_midline>G+VI +     V+A+ +G+VI  G   GYG ++ V+     + +YG  + +  K G  VSAG V+  +G     +RS LYF + +K  P++PA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1170823|sp|P36685.2|LPPB_HISSO</Hit_id>
+  <Hit_def>RecName: Full=Outer membrane antigenic lipoprotein B; Flags: Precursor</Hit_def>
+  <Hit_accession>P36685</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.299</Hsp_bit-score>
+      <Hsp_score>129</Hsp_score>
+      <Hsp_evalue>4.7103e-07</Hsp_evalue>
+      <Hsp_query-from>113</Hsp_query-from>
+      <Hsp_query-to>326</Hsp_query-to>
+      <Hsp_hit-from>120</Hsp_hit-from>
+      <Hsp_hit-to>329</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>YTVRRGDTLFSIARMLNCSLAALLAANGISAAHTIHPGDVLVIP---PREKSPPTVAGADRILSVSSLPDGDQWARARADPVQTPVSPPAAVPAPERREISLRDPRQYISKKVDKNARWPVSPTSLAYVR------GKTYGVVIDSERNAAVRALMSGKVISRGTH-RGYGQVLFVESAGKHVYVYGGLERILPKSGDYVSAGDVLGNLGFDAAAARSRLYFMV</Hsp_qseq>
+      <Hsp_hseq>YKVRKGDTMFLIAYISGMDIKELATLNNMSEPYHLSIGQVLKIANNIPDSNMIPTQTINESEVTQNTV--NETWNANKPTNEQM---KPVATPTHSTMPINKTPP-------ATSNIAW-IWPTNGKIIQGFSSADGGNKGIDISGSRGQAVNAAAAGRVVYAGDALRGYGNLIIIKHNDSYLSAYAHNESILVKDQQEVKAGQQIAKMG-SSGTNTIKLHFXI</Hsp_hseq>
+      <Hsp_midline>Y VR+GDT+F IA +    +  L   N +S  + +  G VL I    P     PT    +  ++ +++   + W   +    Q     P A P      I+   P          N  W + PT+   ++      G   G+ I   R  AV A  +G+V+  G   RGYG ++ ++    ++  Y   E IL K    V AG  +  +G  +     +L+F +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|585096|sp|Q03415.1|ENP1_LYSSH</Hit_id>
+  <Hit_def>RecName: Full=Gamma-D-glutamyl-L-diamino acid endopeptidase 1; AltName: Full=Endopeptidase I; AltName: Full=Gamma-D-glutamyl-L-diamino acid endopeptidase I; AltName: Full=Gamma-D-glutamyl-meso-diaminopimelate peptidase I [Lysinibacillus sphaericus]</Hit_def>
+  <Hit_accession>Q03415</Hit_accession>
+  <Hit_len>396</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>8.55454e-07</Hsp_evalue>
+      <Hsp_query-from>68</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>VIAKGETLFSLSRRYGVPLSALAQANNLANVHQLVPGQRIVVP----RGYTVRRGDTLFSIARMLNCSLAALLAANGISAAHTIHPGDVLVIPPR</Hsp_qseq>
+      <Hsp_hseq>LIRPGDSLWYFSDLFKIPLQLLLDSNRNINPQLLQVGQRIQIPGYVTTSYTITQGDSLWQIAQNKNLPLNAILLVNPEIQPSRLHIGQTIQVPQR</Hsp_hseq>
+      <Hsp_midline>+I  G++L+  S  + +PL  L  +N   N   L  GQRI +P      YT+ +GD+L+ IA+  N  L A+L  N       +H G  + +P R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>2.06</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>GAAQTVHVIAKGETLFSLSRRYGVPLSALAQANNLANVHQLVPGQRIVVPRGYTVR--RGDTLFSIARMLN</Hsp_qseq>
+      <Hsp_hseq>GYVTTSYTITQGDSLWQIAQNKNLPLNAILLVNPEIQPSRLHIGQTIQVPQRLTWRLVNGQQNYDYSMMMN</Hsp_hseq>
+      <Hsp_midline>G   T + I +G++L+ +++   +PL+A+   N      +L  GQ I VP+  T R   G   +  + M+N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|81675443|sp|Q5HRU2.1|SLE1_STAEQ</Hit_id>
+  <Hit_def>RecName: Full=N-acetylmuramoyl-L-alanine amidase sle1; Flags: Precursor &gt;gi|81842411|sp|Q8CMN2.1|SLE1_STAES RecName: Full=N-acetylmuramoyl-L-alanine amidase sle1; Flags: Precursor</Hit_def>
+  <Hit_accession>Q5HRU2</Hit_accession>
+  <Hit_len>324</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.9878</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>2.30102e-06</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>LAAAYGAAQTVHVIAKGETLFSLSRRYGVPLSALAQANNLANVHQLVPGQRIVVPRG------------YTVRRGDTLFSIARMLNCSLAALLAANGISAAHTIHPGDVLVIPPREKS</Hsp_qseq>
+      <Hsp_hseq>LASTHAQAATTHTVKSGESVWSISHKYGISIAKLKSLNGLTS-NLIFPNQVLKVSGSSSRATSTNSGTVYTVKAGDSLSSIAAKYGTTYQKIMQLNGLN-NYLIFPGQKLKVSGKATS</Hsp_hseq>
+      <Hsp_midline>LA+ +  A T H +  GE+++S+S +YG+ ++ L   N L + + + P Q + V               YTV+ GD+L SIA     +   ++  NG++  + I PG  L +  +  S</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>46.595</Hsp_bit-score>
+      <Hsp_score>109</Hsp_score>
+      <Hsp_evalue>0.000124865</Hsp_evalue>
+      <Hsp_query-from>65</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>84</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>TVHVIAKGETLFSLSRRYGVPLSALAQANNLANVHQLVPGQRIVV------------------PRGYTVRRGDTLFSIARMLNCSLAALLAANGISAAHTIHPGDVLVIP</Hsp_qseq>
+      <Hsp_hseq>TVYTVKAGDSLSSIAAKYGTTYQKIMQLNGLNN-YLIFPGQKLKVSGKATSSSRAKASGSSGRTATYTVKYGDSLSAIASKYGTTYQKIMQLNGLTNFF-IYPGQKLKVP</Hsp_hseq>
+      <Hsp_midline>TV+ +  G++L S++ +YG     + Q N L N + + PGQ++ V                     YTV+ GD+L +IA     +   ++  NG++    I+PG  L +P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1170822|sp|P44833.1|LPPB_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Outer membrane antigenic lipoprotein B; Flags: Precursor</Hit_def>
+  <Hit_accession>P44833</Hit_accession>
+  <Hit_len>405</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.2174</Hsp_bit-score>
+      <Hsp_score>121</Hsp_score>
+      <Hsp_evalue>5.82259e-06</Hsp_evalue>
+      <Hsp_query-from>113</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>147</Hsp_hit-from>
+      <Hsp_hit-to>398</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>253</Hsp_align-len>
+      <Hsp_qseq>YTVRRGDTLFSIARMLNCSLAALLAANGISAAHTIHPGDVLVIPPRE----------KSPP-TVAGADRILSVSSLPDGDQWARARAD-----PVQTPVSPPAAVPAPERREISLRDPRQYISKKVDKNA----------RWPVSPT---SLAYVRGKTYGVVIDSERNAAVRALMSGKVISRGTH-RGYGQVLFVESAGKHVYVYGGLERILPKSGDYVSAGDVLGNLGFDAAAARSRLYFMVYKKNKPIDP</Hsp_qseq>
+      <Hsp_hseq>YKVNKGDTMFLIAYLAGIDVKELAALNNLSEPYNLSLGQVLKISNCDIKTVTTTVSVKQPAVTASTATPVKPAVTYTPGANGTQIGSDGTIIGPIKSEAGTSPSVPVATSSTQVTSSVNNANSTPINSNVVAPIASNVVWQWPTSGNIIQGFSSTDGGNKGIDISGSRGQAVKAAAAGRIVYAGNALRGYGNLIIIKHNDDFLSAYAHNDKILVADQQEVKAGQDIAKMG-SSGTNTVKLHFEIRYKGKSVDP</Hsp_hseq>
+      <Hsp_midline>Y V +GDT+F IA +    +  L A N +S  + +  G VL I   +          K P  T + A  +    +   G    +  +D     P+++      +VP                S  ++ N           +WP S       +   G   G+ I   R  AV+A  +G+++  G   RGYG ++ ++     +  Y   ++IL      V AG  +  +G  +     +L+F +  K K +DP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|239938764|sp|O05495.2|YDHD_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Putative sporulation-specific glycosylase YdhD</Hit_def>
+  <Hit_accession>O05495</Hit_accession>
+  <Hit_len>420</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>6.58567e-06</Hsp_evalue>
+      <Hsp_query-from>66</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>VHVIAKGETLFSLSRRYGVPLSALAQANNLANVHQLVPGQRIVVP-RGYTVRRGDTLFSIARMLNCSLAALLAANGISAAHTIHPGDVLVIP</Hsp_qseq>
+      <Hsp_hseq>IHIVGPGDSLFSIGRRYGASVDQIRGVNGLDETN-IVPGQALLIPLYVYTVQPRDTLTAIAAKAFVPLERLRAANPGISPNALQAGAKITIP</Hsp_hseq>
+      <Hsp_midline>+H++  G++LFS+ RRYG  +  +   N L   + +VPGQ +++P   YTV+  DTL +IA      L  L AAN   + + +  G  + IP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|83305830|sp|P0ADA3.1|NLPD_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Murein hydrolase activator NlpD; Flags: Precursor &gt;gi|83305831|sp|P0ADA4.1|NLPD_SHIFL RecName: Full=Murein hydrolase activator NlpD; Flags: Precursor</Hit_def>
+  <Hit_accession>P0ADA3</Hit_accession>
+  <Hit_len>379</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.2914</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>1.95772e-05</Hsp_evalue>
+      <Hsp_query-from>65</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>121</Hsp_hit-from>
+      <Hsp_hit-to>372</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>275</Hsp_align-len>
+      <Hsp_qseq>TVHVIAKGETLFSLSRRYGVPLSALAQANNLANVHQLVPGQRIVVPRGYTVRRGDTLFSIARMLNCSLAALLAANGISAAHTIHPGDVLVIPPREKSPPTVAGADRILSVSSLPDGDQWARARADPVQTPVSPPAAVPAPERREISLRDPRQYISKKVDKNARWPVSP---TSLAYVRGKTYGVVIDSERNAAVRALMSGKVISRGTH-RGYGQVLFVESAGKHVYVYGGLERILPKSGDYVSAGDVLGNLGFDAAAARSRLYFMVYKKNKPIDP</Hsp_qseq>
+      <Hsp_hseq>STYTVKKGDTLFYIAWITGNDFRDLAQRNNIQAPYALNVGQTLQVG------------------NASGTPITGGNAITQADAAEQG--VVIKPAQNS--TVAVASQPTITYSESSGEQSANKMLPNNKPTATTVTAPVTVPTASTTEPTVSSTSTSTPISTWRWPTEGKVIETFGASEGGNKGIDIAGSKGQAIIATADGRVVYAGNALRGYGNLIIIKHNDDYLSAYAHNDTMLVREQQEVKAGQKIATMG-STGTSSTRLHFEIRYKGKSVNP</Hsp_hseq>
+      <Hsp_midline>+ + + KG+TLF ++   G     LAQ NN+   + L  GQ + V                   N S   +   N I+ A     G  +VI P + S  TVA A +     S   G+Q A       +   +   A         +        +       RWP       +     G   G+ I   +  A+ A   G+V+  G   RGYG ++ ++    ++  Y   + +L +    V AG  +  +G     + +RL+F +  K K ++P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|30913469|sp|O31852.1|CWLS_BACSU</Hit_id>
+  <Hit_def>RecName: Full=D-gamma-glutamyl-meso-diaminopimelic acid endopeptidase CwlS; AltName: Full=Cell wall lytic enzyme associated with cell separation; Flags: Precursor</Hit_def>
+  <Hit_accession>O31852</Hit_accession>
+  <Hit_len>414</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.2914</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>1.97639e-05</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>155</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>LAAAYGAAQTVHVIAKGETLFSLSRRYGVPLSALAQANNLANVHQLVPGQRIVVPRG----------------YTVRRGDTLFSIARMLNCSLAALLAANGISAAHTIHPGDVLVI</Hsp_qseq>
+      <Hsp_hseq>MAAAPAEAKTIKVKS-GDSLWKLSRQYDTTISALKSENKLKST-VLYVGQSLKVPESSKKSTTSPSNSSKTSTYTVAYGDSLWMIAKNHKMSVSELKSLNSLS-SDLIRPGQKLKI</Hsp_hseq>
+      <Hsp_midline>+AAA   A+T+ V + G++L+ LSR+Y   +SAL   N L +   L  GQ + VP                  YTV  GD+L+ IA+    S++ L + N +S +  I PG  L I</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>0.000242748</Hsp_evalue>
+      <Hsp_query-from>62</Hsp_query-from>
+      <Hsp_query-to>155</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>AAQTVHVIAKGETLFSLSRRYGVPLSALAQANNLANVHQLVPGQRIVVP------------------------RGYTVRRGDTLFSIARMLNCSLAALLAANGISAAHTIHPGDVLVI</Hsp_qseq>
+      <Hsp_hseq>SKTSTYTVAYGDSLWMIAKNHKMSVSELKSLNSLSS-DLIRPGQKLKIKGTSSSSGSNGSKKNSGSNSSGSSKSTYTVKLGDSLWKIANSLNMTVAELKTLNGLT-SDTLYPKQVLKI</Hsp_hseq>
+      <Hsp_midline>+  + + +A G++L+ +++ + + +S L   N+L++   + PGQ++ +                           YTV+ GD+L+ IA  LN ++A L   NG++ + T++P  VL I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|728840|sp|P39046.1|MUR2_ENTHA</Hit_id>
+  <Hit_def>RecName: Full=Muramidase-2; AltName: Full=1,4-beta-N-acetylmuramoylhydrolase; AltName: Full=Lysozyme; AltName: Full=Peptidoglycan hydrolase; AltName: Full=Pg-hydrolase 2; Flags: Precursor</Hit_def>
+  <Hit_accession>P39046</Hit_accession>
+  <Hit_len>666</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.6766</Hsp_bit-score>
+      <Hsp_score>117</Hsp_score>
+      <Hsp_evalue>2.00871e-05</Hsp_evalue>
+      <Hsp_query-from>65</Hsp_query-from>
+      <Hsp_query-to>155</Hsp_query-to>
+      <Hsp_hit-from>412</Hsp_hit-from>
+      <Hsp_hit-to>530</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>TVHVIAKGETLFSLSRRYGVPLSALAQANNLANVHQLVPGQRIVVPRG------------------------------YTVRRGDTLFSIARMLNCSLAALLAANGISAAHTIHPGDVLVI</Hsp_qseq>
+      <Hsp_hseq>STYTVKAGESVWSVSNKFGISMNQLIQWNNIKN-NFIYPGQKLIVKGGSSSSNASTSTANNKNTASSNTSSTATGQATYTVKAGESVWGVANKNGISMNQLIEWNNIK-NNFIYPGQKLIV</Hsp_hseq>
+      <Hsp_midline>+ + +  GE+++S+S ++G+ ++ L Q NN+ N + + PGQ+++V  G                              YTV+ G++++ +A     S+  L+  N I   + I+PG  L++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>47.7506</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>7.97936e-05</Hsp_evalue>
+      <Hsp_query-from>65</Hsp_query-from>
+      <Hsp_query-to>155</Hsp_query-to>
+      <Hsp_hit-from>563</Hsp_hit-from>
+      <Hsp_hit-to>664</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>TVHVIAKGETLFSLSRRYGVPLSALAQANNLANVHQLVPGQRIVVPRG-------------YTVRRGDTLFSIARMLNCSLAALLAANGISAAHTIHPGDVLVI</Hsp_qseq>
+      <Hsp_hseq>TKYTVKAGESVWGVANKHHITMDQLIEWNNIKN-NFIYPGQEVIVKKGTAQSTPAKSDEKTYTVKAGESVWGVADSHGITMNQLIEWNNIK-NNFIYPGQQLIV</Hsp_hseq>
+      <Hsp_midline>T + +  GE+++ ++ ++ + +  L + NN+ N + + PGQ ++V +G             YTV+ G++++ +A     ++  L+  N I   + I+PG  L++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>42.3578</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>0.00394994</Hsp_evalue>
+      <Hsp_query-from>64</Hsp_query-from>
+      <Hsp_query-to>163</Hsp_query-to>
+      <Hsp_hit-from>486</Hsp_hit-from>
+      <Hsp_hit-to>615</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>QTVHVIAKGETLFSLSRRYGVPLSALAQANNLANVHQLVPGQRIVVPRG-------------------------------YTVRRGDTLFSIARMLNCSLAALLAANGISAAHTIHPG-DVLVIPPREKSPP</Hsp_qseq>
+      <Hsp_hseq>QATYTVKAGESVWGVANKNGISMNQLIEWNNIKN-NFIYPGQKLIVKGGSSKASATATIKPTASTPASTTPTASSTGDTKYTVKAGESVWGVANKHHITMDQLIEWNNIK-NNFIYPGQEVIVKKGTAQSTP</Hsp_hseq>
+      <Hsp_midline>Q  + +  GE+++ ++ + G+ ++ L + NN+ N + + PGQ+++V  G                               YTV+ G++++ +A   + ++  L+  N I   + I+PG +V+V     +S P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.0104318</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>155</Hsp_query-to>
+      <Hsp_hit-from>259</Hsp_hit-from>
+      <Hsp_hit-to>379</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>38</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>IAKGETLFSLSRRYGVPLSALAQANNLANVHQLVPGQRIVVPRG------------------------------------YTVRRGDTLFSIARMLNCSLAALLAANGISAAHTIHPGDVLVI</Hsp_qseq>
+      <Hsp_hseq>VKSGDSVWGISHSFGITMAQLIEWNNIKN-NFIYPGQKLTIKGGQSAGSSTTNTGNNASSGNTSGNTNTSGSTGQATGAKYTVKSGDSVWKIANDHGISMNQLIEWNNIK-NNFVYPGQQLVV</Hsp_hseq>
+      <Hsp_midline>+  G++++ +S  +G+ ++ L + NN+ N + + PGQ++ +  G                                    YTV+ GD+++ IA     S+  L+  N I   + ++PG  LV+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>5</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.011286</Hsp_evalue>
+      <Hsp_query-from>67</Hsp_query-from>
+      <Hsp_query-to>155</Hsp_query-to>
+      <Hsp_hit-from>338</Hsp_hit-from>
+      <Hsp_hit-to>455</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>HVIAKGETLFSLSRRYGVPLSALAQANNLANVHQLVPGQRIVVP-------------------------------RGYTVRRGDTLFSIARMLNCSLAALLAANGISAAHTIHPGDVLVI</Hsp_qseq>
+      <Hsp_hseq>YTVKSGDSVWKIANDHGISMNQLIEWNNIKN-NFVYPGQQLVVSKGSSSASGSTSNTSTGNTSSNTANTGSTTSGSTYTVKAGESVWSVSNKFGISMNQLIQWNNIK-NNFIYPGQKLIV</Hsp_hseq>
+      <Hsp_midline>+ +  G++++ ++  +G+ ++ L + NN+ N + + PGQ++VV                                  YTV+ G++++S++     S+  L+  N I   + I+PG  L++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|91208276|sp|Q4L3C1.1|SLE1_STAHJ</Hit_id>
+  <Hit_def>RecName: Full=N-acetylmuramoyl-L-alanine amidase sle1; Flags: Precursor</Hit_def>
+  <Hit_accession>Q4L3C1</Hit_accession>
+  <Hit_len>329</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.7506</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>5.92638e-05</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>155</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>LAAAYGAAQTVHVIAKGETLFSLSRRYGVPLSALAQANNLANVHQLVPGQRIVV---------------PRGYTVRRGDTLFSIARMLNCSLAALLAANGISAAHTIHPGDVLVI</Hsp_qseq>
+      <Hsp_hseq>LFAHQAEASTTHTVRSGESLWSISHHYGITVSKLKSLNGLSS-NLIFPNQVLKVSGSSNYSSRSNYGNSSSTYTVRAGDSLSSIASRYGTTYRHIMNLNGLN-SFLIFPGQQLKV</Hsp_hseq>
+      <Hsp_midline>L A    A T H +  GE+L+S+S  YG+ +S L   N L++ + + P Q + V                  YTVR GD+L SIA     +   ++  NG++ +  I PG  L +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.0630569</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>84</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>GAAQTVHVIAKGETLFSLSRRYGVPLSALAQANNLANVHQLVPGQRIVVPRG-------------------YTVRRGDTLFSIARMLNCSLAALLAANGISAAHTIHPGDVL</Hsp_qseq>
+      <Hsp_hseq>GNSSSTYTVRAGDSLSSIASRYGTTYRHIMNLNGL-NSFLIFPGQQLKVSGSVSSNSHSSYNSNSGGSSSTYTVRYGDSLSSIASRYGTTYQHIMRLNGLNNFF-IYPGQKL</Hsp_hseq>
+      <Hsp_midline>G + + + +  G++L S++ RYG     +   N L N   + PGQ++ V                      YTVR GD+L SIA     +   ++  NG++    I+PG  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|73622096|sp|O34669.1|YOCH_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Cell wall-binding protein YocH; Flags: Precursor</Hit_def>
+  <Hit_accession>O34669</Hit_accession>
+  <Hit_len>287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>7.19088e-05</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>282</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>256</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>254</Hsp_align-len>
+      <Hsp_qseq>FLSLAGCFLLA-AAYGAAQTVHVIAKGETLFSLSRRYGVPLSALAQANNLANVHQLVPGQRIVVPRG-------YTVRRGDTLFSIARMLNCSLAALLAANGISAAHTIHPGDVLVIPPREKSPPTVAGADRILSVSSLPDGDQWARARADPVQTPVSPPAAVPAPERREISLRDPRQYI-SKKVDKNARWPVSPTSLAYV--RGKTYGVV---IDSERNAAVRAL-MSGKVISRGTH---RGYGQVLFVESAG</Hsp_qseq>
+      <Hsp_hseq>FVAVAALSTTAFGAHASAKEITV-QKGDTLWGISQKNGVNLKDLKEWNKLTS-DKIIAGEKLTISSEETTTTGQYTIKAGDTLSKIAQKFGTTVNNLKVWNNLS-SDMIYAGSTLSVKGQATAANTATENAQTNAPQAAP--KQEAVQKEQPKQEAVQQQPKQETKAEAETSVNTEEKAVQSNTNNQEASKELTVTATAYTANDGGISGVTATGIDLNKNPNAKVIAVDPNVIPLGSKVYVEGYGEATAADTGG</Hsp_hseq>
+      <Hsp_midline>F+++A     A  A+ +A+ + V  KG+TL+ +S++ GV L  L + N L +  +++ G+++ +          YT++ GDTL  IA+    ++  L   N +S +  I+ G  L +  +  +  T     +  +  + P   Q A  +  P Q  V            E S+    + + S   ++ A   ++ T+ AY    G   GV    ID  +N   + + +   VI  G+     GYG+    ++ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|30179816|sp|P37710.2|ALYS_ENTFA</Hit_id>
+  <Hit_def>RecName: Full=Autolysin; AltName: Full=Beta-glycosidase; AltName: Full=Peptidoglycan hydrolase; Flags: Precursor</Hit_def>
+  <Hit_accession>P37710</Hit_accession>
+  <Hit_len>737</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>0.000111806</Hsp_evalue>
+      <Hsp_query-from>64</Hsp_query-from>
+      <Hsp_query-to>155</Hsp_query-to>
+      <Hsp_hit-from>564</Hsp_hit-from>
+      <Hsp_hit-to>674</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>QTVHVIAKGETLFSLSRRYGVPLSALAQANNLANVHQLVPGQRIVVPRG---------------------YTVRRGDTLFSIARMLNCSLAALLAANGISAAHTIHPGDVLVI</Hsp_qseq>
+      <Hsp_hseq>NTYYTIKSGDTLNKISAQFGVSVANLQAWNNISG-SLIFAGQKIIVKKGANSGSTNTNKPTNNGGGATTSYTIKSGDTLNKISAQFGVSVANLRSWNGIK-GDLIFAGQTIIV</Hsp_hseq>
+      <Hsp_midline> T + I  G+TL  +S ++GV ++ L   NN++    +  GQ+I+V +G                     YT++ GDTL  I+     S+A L + NGI     I  G  +++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>0.00197836</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>155</Hsp_query-to>
+      <Hsp_hit-from>627</Hsp_hit-from>
+      <Hsp_hit-to>736</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>GAAQTVHVIAKGETLFSLSRRYGVPLSALAQANNLANVHQLVPGQRIVVPRG-----------------YTVRRGDTLFSIARMLNCSLAALLAANGISAAHTIHPGDVLVI</Hsp_qseq>
+      <Hsp_hseq>GGATTSYTIKSGDTLNKISAQFGVSVANLRSWNGIKG-DLIFAGQTIIVKKGASAGGNASSTNSASGKRHTVKSGDSLWGLSMQYGISIQKIKQLNGLS-GDTIYIGQTLKV</Hsp_hseq>
+      <Hsp_midline>G A T + I  G+TL  +S ++GV ++ L   N +     +  GQ I+V +G                 +TV+ GD+L+ ++     S+  +   NG+S   TI+ G  L +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>42.3578</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>0.00416064</Hsp_evalue>
+      <Hsp_query-from>64</Hsp_query-from>
+      <Hsp_query-to>155</Hsp_query-to>
+      <Hsp_hit-from>428</Hsp_hit-from>
+      <Hsp_hit-to>540</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>QTVHVIAKGETLFSLSRRYGVPLSALAQANNLANVHQLVPGQRIVVPRG-----------------------YTVRRGDTLFSIARMLNCSLAALLAANGISAAHTIHPGDVLVI</Hsp_qseq>
+      <Hsp_hseq>NTYYTVKSGDTLNKIAAQYGVSVANLRSWNGISGDLIFV-GQKLIVKKGASGNTGGSNNGGSNNNQSGTNTYYTIKSGDTLNKIAAQYGVSVANLRSWNGIS-GDLIFAGQKIIV</Hsp_hseq>
+      <Hsp_midline> T + +  G+TL  ++ +YGV ++ L   N ++     V GQ+++V +G                       YT++ GDTL  IA     S+A L + NGIS    I  G  +++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.0107852</Hsp_evalue>
+      <Hsp_query-from>64</Hsp_query-from>
+      <Hsp_query-to>155</Hsp_query-to>
+      <Hsp_hit-from>496</Hsp_hit-from>
+      <Hsp_hit-to>608</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>QTVHVIAKGETLFSLSRRYGVPLSALAQANNLANVHQLVPGQRIVVPRG-----------------------YTVRRGDTLFSIARMLNCSLAALLAANGISAAHTIHPGDVLVI</Hsp_qseq>
+      <Hsp_hseq>NTYYTIKSGDTLNKIAAQYGVSVANLRSWNGISG-DLIFAGQKIIVKKGTSGNTGGSSNGGSNNNQSGTNTYYTIKSGDTLNKISAQFGVSVANLQAWNNISGS-LIFAGQKIIV</Hsp_hseq>
+      <Hsp_midline> T + I  G+TL  ++ +YGV ++ L   N ++    +  GQ+I+V +G                       YT++ GDTL  I+     S+A L A N IS +  I  G  +++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>5</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.0166897</Hsp_evalue>
+      <Hsp_query-from>64</Hsp_query-from>
+      <Hsp_query-to>155</Hsp_query-to>
+      <Hsp_hit-from>360</Hsp_hit-from>
+      <Hsp_hit-to>472</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>QTVHVIAKGETLFSLSRRYGVPLSALAQANNLANVHQLVPGQRIVVPRG-----------------------YTVRRGDTLFSIARMLNCSLAALLAANGISAAHTIHPGDVLVI</Hsp_qseq>
+      <Hsp_hseq>NTYYTVKSGDTLNKIAAQYGVSVANLRSWNGISGDLIFV-GQKLIVKKGASGNTGGSGSGGSNNNQSGTNTYYTVKSGDTLNKIAAQYGVSVANLRSWNGIS-GDLIFVGQKLIV</Hsp_hseq>
+      <Hsp_midline> T + +  G+TL  ++ +YGV ++ L   N ++     V GQ+++V +G                       YTV+ GDTL  IA     S+A L + NGIS    I  G  L++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|84028111|sp|P0AEZ8.1|MLTD_ECOL6</Hit_id>
+  <Hit_def>RecName: Full=Membrane-bound lytic murein transglycosylase D; AltName: Full=Murein hydrolase D; AltName: Full=Regulatory protein DniR; Flags: Precursor &gt;gi|84028112|sp|P0AEZ7.1|MLTD_ECOLI RecName: Full=Membrane-bound lytic murein transglycosylase D; AltName: Full=Murein hydrolase D; AltName: Full=Regulatory protein DniR; Flags: Precursor</Hit_def>
+  <Hit_accession>P0AEZ8</Hit_accession>
+  <Hit_len>452</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>0.000129108</Hsp_evalue>
+      <Hsp_query-from>66</Hsp_query-from>
+      <Hsp_query-to>163</Hsp_query-to>
+      <Hsp_hit-from>342</Hsp_hit-from>
+      <Hsp_hit-to>450</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>VHVIAKGETLFSLSRRYGVPLSALAQANNLANVHQLVPGQRIVVPRG--------------YTVRRGDTLFSIARMLNCSLAALLAANGISAAHTIHPGDVLVIPPREKSPP</Hsp_qseq>
+      <Hsp_hseq>VYTVRSGDTLSSIASRLGVSTKDLQQWNKLRG-SKLKPGQSLTIGAGSSAQRLANNSDSITYRVRKGDSLSSIAKRHGVNIKDVMRWNSDTA--NLQPGDKLTLFVKNNNMP</Hsp_hseq>
+      <Hsp_midline>V+ +  G+TL S++ R GV    L Q N L    +L PGQ + +  G              Y VR+GD+L SIA+    ++  ++  N  +A   + PGD L +  +  + P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>5.94232</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>155</Hsp_query-to>
+      <Hsp_hit-from>341</Hsp_hit-from>
+      <Hsp_hit-to>384</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>RGYTVRRGDTLFSIARMLNCSLAALLAANGISAAHTIHPGDVLVI</Hsp_qseq>
+      <Hsp_hseq>RVYTVRSGDTLSSIASRLGVSTKDLQQWNKLRGSK-LKPGQSLTI</Hsp_hseq>
+      <Hsp_midline>R YTVR GDTL SIA  L  S   L   N +  +  + PG  L I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|3287732|sp|O05156.1|ALE1_STACP</Hit_id>
+  <Hit_def>RecName: Full=Glycyl-glycine endopeptidase ALE-1; AltName: Full=Staphylolytic enzyme ALE-1; Flags: Precursor</Hit_def>
+  <Hit_accession>O05156</Hit_accession>
+  <Hit_len>362</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>0.000201427</Hsp_evalue>
+      <Hsp_query-from>122</Hsp_query-from>
+      <Hsp_query-to>342</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>246</Hsp_align-len>
+      <Hsp_qseq>FSIARMLNCSLAALLAANGISAAHTIHPGDVLVIPPR-EKSPPTVAGADRIL----SVSSLPDGDQWARARADPVQTPVSPPAAVPAPERREIS--------LRDPRQYISKKVDKN--ARW--------PVSPTSLAYVRGKTYGVVIDSERNAAVRALMSGKVISRG--THRGYGQVLFVESAGKHVYVYGGLERILPKSGDYVSAGDVLGNLGFDAAAARSRLYFMVYKKNKPIDPAQAPRGF</Hsp_qseq>
+      <Hsp_hseq>FTLVKSLSIGLGTFLVGSVFLTVNDEASASTKVDAPKVEQEAPAKADAPKVEQEAPAKADAPKVEQEAPAKVDAPKVEQEAPAKVDAPKVEQEAPAKADAPKVEQKRTFVREAAQSNHSASWLNNYKKGYGYGPYPLGINGGNHYGVDFFMNVGTPVRAISDGKIVEAGWTNYGGGNEIGLVENDGVHRQWYMHLSKFNVKVGDRVKAGQIIGWSGSTGYSTAPHLHFQRMTNSFSNNTAQDPMPF</Hsp_hseq>
+      <Hsp_midline>F++ + L+  L   L  +     +        V  P+ E+  P  A A ++     + +  P  +Q A A+ D  +     PA V AP+  + +        +   R ++ +    N  A W           P  L    G  YGV         VRA+  GK++  G   + G  ++  VE+ G H   Y  L +   K GD V AG ++G  G    +    L+F     +   + AQ P  F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>462628</Statistics_db-num>
+      <Statistics_db-len>173435234</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

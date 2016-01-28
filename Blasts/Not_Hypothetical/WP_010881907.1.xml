@@ -1,0 +1,602 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>Query_80385</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>192</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_80385</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>192</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|124053376|sp|Q3AAS0.2|SCPB_CARHZ</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein B</Hit_def>
+  <Hit_accession>Q3AAS0</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.464</Hsp_bit-score>
+      <Hsp_score>280</Hsp_score>
+      <Hsp_evalue>2.18421e-29</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>PCTLHGAPAPDLALLEAILFVEGVRLSYACLARKLGLSEQAVGECVARLGEALASGARGGGGLELHCNEQGVALLPAATVRERLATLYGKRSEGRLSRAAMETLSIVAYAQPVTRAEIEAIRGVGADTMIRLLSERRLICEVGKKDIPGKPAQYGTTEEFLTAFRLRSIADLPKLDEEEQ</Hsp_qseq>
+      <Hsp_hseq>PINLEGA-------LEALLFVSPEPLSLKKIAQTLELSVEEAKEIVLRLQEKLEQDQRG---IMLHFSGEEVWLTTRPDFSVYIERLF-KPPAQHLTQATLETLAIIAYKQPVTKTEIELIRGVKADSSIATLLEKGLIEEAGRKDAPGRPIIYRTTAKFLEFFGLKSLDELPPLNLENE</Hsp_hseq>
+      <Hsp_midline>P  L GA       LEA+LFV    LS   +A+ L LS +   E V RL E L    RG   + LH + + V L         +  L+ K     L++A +ETL+I+AY QPVT+ EIE IRGV AD+ I  L E+ LI E G+KD PG+P  Y TT +FL  F L+S+ +LP L+ E +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|167016587|sp|A7FUR1.1|SCPB_CLOB1</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein B &gt;gi|167016588|sp|A5I2X9.1|SCPB_CLOBH RecName: Full=Segregation and condensation protein B &gt;gi|167016589|sp|A7GEA6.1|SCPB_CLOBL RecName: Full=Segregation and condensation protein B &gt;gi|254767872|sp|B1IMC4.1|SCPB_CLOBK RecName: Full=Segregation and condensation protein B &gt;gi|254767873|sp|B1KT22.1|SCPB_CLOBM RecName: Full=Segregation and condensation protein B</Hit_def>
+  <Hit_accession>A7FUR1</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.531</Hsp_bit-score>
+      <Hsp_score>262</Hsp_score>
+      <Hsp_evalue>1.4776e-26</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>182</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>ALLEAILFVEGVRLSYACLARKLGLSEQAVGECVARLGEALASGARGGGGLELHCNEQGVALLPAATVRERLATLYGKRSEGRLSRAAMETLSIVAYAQPVTRAEIEAIRGVGADTMIRLLSERRLICEVGKKDIPGKPAQYGTTEEFLTAFRLRSIADLPKLDE</Hsp_qseq>
+      <Hsp_hseq>SIIESLLFMSGEPINIKDLATILNCKQDKVSSLLNEMNNSYVGKDRG---IKILIHNRAVQLVTKPENSIYVEKLLKTNVRQSLSQAALETLSIIAYKQPITRVAIDEIRGVKSDRAIYTLLEKNIIKECGRLDVPGKPILYGTTEEFLKFFGLDSIEAIPNLED</Hsp_hseq>
+      <Hsp_midline>+++E++LF+ G  ++   LA  L   +  V   +  +  +     RG   +++  + + V L+        +  L        LS+AA+ETLSI+AY QP+TR  I+ IRGV +D  I  L E+ +I E G+ D+PGKP  YGTTEEFL  F L SI  +P L++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|259495735|sp|C3KX86.1|SCPB_CLOB6</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein B</Hit_def>
+  <Hit_accession>C3KX86</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.76</Hsp_bit-score>
+      <Hsp_score>260</Hsp_score>
+      <Hsp_evalue>2.848e-26</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>182</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>ALLEAILFVEGVRLSYACLARKLGLSEQAVGECVARLGEALASGARGGGGLELHCNEQGVALLPAATVRERLATLYGKRSEGRLSRAAMETLSIVAYAQPVTRAEIEAIRGVGADTMIRLLSERRLICEVGKKDIPGKPAQYGTTEEFLTAFRLRSIADLPKLDE</Hsp_qseq>
+      <Hsp_hseq>SIIESLLFMSGEPINIKDLATILNCKQDKVSSLLNEMKNSYVGKDRG---IKILIHNRAVQLVTKPENSIYVEKLLKTNVRQSLSQAALETLSIIAYKQPITRVAIDEIRGVKSDRAIYTLLEKNIIKECGRLDVPGKPILYGTTEEFLKFFGLDSIEAIPNLED</Hsp_hseq>
+      <Hsp_midline>+++E++LF+ G  ++   LA  L   +  V   +  +  +     RG   +++  + + V L+        +  L        LS+AA+ETLSI+AY QP+TR  I+ IRGV +D  I  L E+ +I E G+ D+PGKP  YGTTEEFL  F L SI  +P L++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|254767871|sp|C1FNZ8.1|SCPB_CLOBJ</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein B</Hit_def>
+  <Hit_accession>C1FNZ8</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.375</Hsp_bit-score>
+      <Hsp_score>259</Hsp_score>
+      <Hsp_evalue>3.54383e-26</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>182</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>ALLEAILFVEGVRLSYACLARKLGLSEQAVGECVARLGEALASGARGGGGLELHCNEQGVALLPAATVRERLATLYGKRSEGRLSRAAMETLSIVAYAQPVTRAEIEAIRGVGADTMIRLLSERRLICEVGKKDIPGKPAQYGTTEEFLTAFRLRSIADLPKLDE</Hsp_qseq>
+      <Hsp_hseq>SIIESLLFMSGEPINIKDLATILNCKQDKVSSLLNEMKNSYVGKDRG---IKILIHNRAVQLVTKPENSIYVEKLLKTNIRQSLSQAALETLSIIAYKQPITRVAIDEIRGVKSDRAIYTLLEKNIIKECGRLDVPGKPILYGTTEEFLKFFGLDSIEAIPNLED</Hsp_hseq>
+      <Hsp_midline>+++E++LF+ G  ++   LA  L   +  V   +  +  +     RG   +++  + + V L+        +  L        LS+AA+ETLSI+AY QP+TR  I+ IRGV +D  I  L E+ +I E G+ D+PGKP  YGTTEEFL  F L SI  +P L++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|123524433|sp|Q2RIR6.1|SCPB_MOOTA</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein B</Hit_def>
+  <Hit_accession>Q2RIR6</Hit_accession>
+  <Hit_len>195</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.834</Hsp_bit-score>
+      <Hsp_score>255</Hsp_score>
+      <Hsp_evalue>1.17172e-25</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>182</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>171</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>ALLEAILFVEGVRLSYACLARKLGLSEQAVGECVARLGEALASGARG------GGGLELHCNEQGVALLPAATVRERLATLYGKRSEGRLSRAAMETLSIVAYAQPVTRAEIEAIRGVGADTMIRLLSERRLICEVGKKDIPGKPAQYGTTEEFLTAFRLRSIADLPKLDE</Hsp_qseq>
+      <Hsp_hseq>AALECLLFVAGGPVSVDSLAACLGVKPGDVDELAAELQELYAREERGLQIRAVAGGYQM-CTRPEFASYCEALLRPELPAL---------SRAALETLAIIAYRQPVTRTEMEYIRGVKVDGVLNTLISRGLVQEVGRKEAPGRPILYGTTPKFLEFFGLKDLKELPPLED</Hsp_hseq>
+      <Hsp_midline>A LE +LFV G  +S   LA  LG+    V E  A L E  A   RG       GG ++ C     A    A +R  L  L         SRAA+ETL+I+AY QPVTR E+E IRGV  D ++  L  R L+ EVG+K+ PG+P  YGTT +FL  F L+ + +LP L++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|167016591|sp|A4IQG3.1|SCPB_GEOTN</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein B</Hit_def>
+  <Hit_accession>A4IQG3</Hit_accession>
+  <Hit_len>209</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.064</Hsp_bit-score>
+      <Hsp_score>253</Hsp_score>
+      <Hsp_evalue>3.66136e-25</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>182</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>182</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>188</Hsp_align-len>
+      <Hsp_qseq>MDQAEPCTLHGAPA--PDLALLEAILFVEGVR-LSYACLARKLGLSEQAVGECVARLGEALASGARGGGGLELHCNEQGVALLPAATVRER---LATLYGKRSEGRLSRAAMETLSIVAYAQPVTRAEIEAIRGVGADTMIRLLSERRLICEVGKKDIPGKPAQYGTTEEFLTAFRLRSIADLPKLDE</Hsp_qseq>
+      <Hsp_hseq>MEQQETVKKDDASSARPAKAIVEALLFAAGDEGLSLAQIAAVLDVDESEAKAVIAALQEDYSREERGIQLMELA----GVFLL--ATKKEHASYLKKLVEAPGASSLSQAALETLAIIAYRQPITRAEIEEIRGVKSDKPLQTLMARALIKEVGRAEGTGRPILYGTTAEFLDYFGLKTLEELPPLPE</Hsp_hseq>
+      <Hsp_midline>M+Q E      A +  P  A++EA+LF  G   LS A +A  L + E      +A L E  +   RG   +EL     GV LL  AT +E    L  L        LS+AA+ETL+I+AY QP+TRAEIE IRGV +D  ++ L  R LI EVG+ +  G+P  YGTT EFL  F L+++ +LP L E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|167016590|sp|A3DD94.1|SCPB_CLOTH</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein B</Hit_def>
+  <Hit_accession>A3DD94</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.679</Hsp_bit-score>
+      <Hsp_score>252</Hsp_score>
+      <Hsp_evalue>3.85724e-25</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>LLEAILFVEGVRLSYACLARKLGLSEQAVGECVARLGEALASGARGGGGLELHCNEQGVALLPAATVRERLATLYGKRSEGRLSRAAMETLSIVAYAQPVTRAEIEAIRGVGADTMIRLLSERRLICEVGKKDIPGKPAQYGTTEEFLTAFRLRSIADLP</Hsp_qseq>
+      <Hsp_hseq>IFEGMLFASGDKVSIEKLSSITGIDKKTVKLVINNM--IVKYNNDPSRGITIREINNGYQLCSKPEYYDYIKQLFEPKQRSGLSQAALETLAIIAYNRPITKAKIEQIRGVNSDSAITKLLEKNLIREAGRLDAPGKPVLYETTDEFFRSFGFKSDADLP</Hsp_hseq>
+      <Hsp_midline>+ E +LF  G ++S   L+   G+ ++ V   +  +   +        G+ +     G  L       + +  L+  +    LS+AA+ETL+I+AY +P+T+A+IE IRGV +D+ I  L E+ LI E G+ D PGKP  Y TT+EF  +F  +S ADLP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|122273520|sp|Q043U6.1|SCPB_LACGA</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein B</Hit_def>
+  <Hit_accession>Q043U6</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.293</Hsp_bit-score>
+      <Hsp_score>251</Hsp_score>
+      <Hsp_evalue>5.20405e-25</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>184</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>ALLEAILFVEGVR-LSYACLARKLGLSEQAVGECVARLGEALASGARGGGGLELHCNEQGVALLPAATVRERLATLYGKRSEGRLSRAAMETLSIVAYAQPVTRAEIEAIRGVGADTMIRLLSERRLICEVGKKDIPGKPAQYGTTEEFLTAFRLRSIADLPKLDEEE</Hsp_qseq>
+      <Hsp_hseq>AQLEALLYAAGDDGLETDNLLQLLEISPSALRELANHLKDRLKNDE--NSGLQLICINHTYKLTTSAECGDVISKFFQKDLSKNLSQSALEILSIIAYRQPITRVEIDDLRGVNSSGALQTLVWRGLIKVNGKKDVPGHPNLYVTTDYFLQYFNYESLADLPVIEEFE</Hsp_hseq>
+      <Hsp_midline>A LEA+L+  G   L    L + L +S  A+ E    L + L +      GL+L C      L  +A   + ++  + K     LS++A+E LSI+AY QP+TR EI+ +RGV +   ++ L  R LI   GKKD+PG P  Y TT+ FL  F   S+ADLP ++E E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|189046143|sp|A9KMT3.1|SCPB_CLOPH</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein B</Hit_def>
+  <Hit_accession>A9KMT3</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.138</Hsp_bit-score>
+      <Hsp_score>248</Hsp_score>
+      <Hsp_evalue>1.31305e-24</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>190</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>ALLEAILFVEGVRLSYACLARKLGLSEQAVGECVARLGEALASGARGGGGLELHCNEQGVALLPAATVRERLATLYGKRSEGRLSRAAMETLSIVAYAQPVTRAEIEAIRGVGADTMIRLLSERRLICEVGKKDIPGKPAQYGTTEEFLTAFRLRSIADLPKLDEEEQRRFEL</Hsp_qseq>
+      <Hsp_hseq>AMIEAILFTMGEAVEVERIASALDHDVDTIRKIIHNMMDRYEGDERGIKIIEL---DNSFQMCTKAQMYEAIVKIAHVPKKHILTDVLLESLSIIAYKQPITKQQIESIRGVKSDHAVNKLVEYNLVCEVGRMDAPGRPILFGTTEDFLRNFGIASLEDLPVVAPEKVADFKM</Hsp_hseq>
+      <Hsp_midline>A++EAILF  G  +    +A  L      + + +  + +      RG   +EL   +    +   A + E +  +     +  L+   +E+LSI+AY QP+T+ +IE+IRGV +D  +  L E  L+CEVG+ D PG+P  +GTTE+FL  F + S+ DLP +  E+   F++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|56749640|sp|Q74JM2.1|SCPB_LACJO</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein B</Hit_def>
+  <Hit_accession>Q74JM2</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.9821</Hsp_bit-score>
+      <Hsp_score>245</Hsp_score>
+      <Hsp_evalue>3.79111e-24</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>184</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>171</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>ALLEAILFVEGVR-LSYACLARKLGLSEQAVGECVARLGEALASGARGGGGLELHCNEQGVALLPAATVRERLATLYGKRSEGRLSRAAMETLSIVAYAQPVTRAEIEAIRGVGADTMIRLLSERRLICEVGKKDIPGKPAQYGTTEEFLTAFRLRSIADLPKLDEEE</Hsp_qseq>
+      <Hsp_hseq>AELEALLYAAGDDGLETENLLQLLEISPAALRELANHLKDRLKNDE--NSGLQLICINQTYKLTTSPKCGDIISKFFQKDLSKNLSQSALEILSIIAYRQPITRVEIDDLRGVNSAGALQTLVWRGLIKVDGKKDVPGHPNLYVTTDYFLQYFNYESLADLPVIEEFE</Hsp_hseq>
+      <Hsp_midline>A LEA+L+  G   L    L + L +S  A+ E    L + L +      GL+L C  Q   L  +    + ++  + K     LS++A+E LSI+AY QP+TR EI+ +RGV +   ++ L  R LI   GKKD+PG P  Y TT+ FL  F   S+ADLP ++E E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|172044271|sp|A4J3L6.1|SCPB_DESRM</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein B</Hit_def>
+  <Hit_accession>A4J3L6</Hit_accession>
+  <Hit_len>181</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.8265</Hsp_bit-score>
+      <Hsp_score>242</Hsp_score>
+      <Hsp_evalue>7.02577e-24</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>182</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>171</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>LEAILFVEGVRLSYACLARKLGLSEQAVGECVARLGEALASGARGGGGLELHCNEQGVALLPAATVRERLATLYGKRSEGRLSRAAMETLSIVAYAQPVTRAEIEAIRGVGADTMIRLLSERRLICEVGKKDIPGKPAQYGTTEEFLTAFRLRSIADLPKLDE</Hsp_qseq>
+      <Hsp_hseq>LEALLFVASEPLTVQALAR---IVEIDVADALELLLELAKEYQDRPGGLKIVQVSDTWQICTRPECAPYIERLYRKSGTG-LSKAAIETLAIIAYRQPITRSEVEMIRGVKVDSPINTLLERNLIEEKGRREGPGRPVLYGTTLEFLKHFGLKDVSELPPLEE</Hsp_hseq>
+      <Hsp_midline>LEA+LFV    L+   LAR   + E  V + +  L E         GGL++        +         +  LY K   G LS+AA+ETL+I+AY QP+TR+E+E IRGV  D+ I  L ER LI E G+++ PG+P  YGTT EFL  F L+ +++LP L+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|41018112|sp|Q97HF1.1|SCPB_CLOAB</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein B</Hit_def>
+  <Hit_accession>Q97HF1</Hit_accession>
+  <Hit_len>202</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.2117</Hsp_bit-score>
+      <Hsp_score>243</Hsp_score>
+      <Hsp_evalue>7.65119e-24</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>182</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>183</Hsp_align-len>
+      <Hsp_qseq>MDQAEPCTLHGAPAPDLALLEAILFVEGVRLSYACLARKLGLSEQAVGECVARLGEALASGARGGGGLELHCNEQGVALLPAAT-VRERLATLYGKRSEGRLSRAAMETLSIVAYAQPVTRAEIEAIRGVGADTMIRLLSERRLICEVGKKDIPGKPAQYGTTEEFLTAFRLRSIADLPKLDE</Hsp_qseq>
+      <Hsp_hseq>MDEISKKELHES------IIESLLFVSGEPLKLKQISAILECTTKRAQEVLNNMMLKYNDNCRGVKLININDSYQLVTKNENSDYVRKLLKT----NTRQALSQAALETLAIIAYKQPITRIDVDEIRGVKSDRAILTLQEKKLIQECGRLDVPGRPILYETTDEFLKNFNLGNIDELPPMEQ</Hsp_hseq>
+      <Hsp_midline>MD+     LH +      ++E++LFV G  L    ++  L  + +   E +  +        RG   + ++ + Q V     +  VR+ L T     +   LS+AA+ETL+I+AY QP+TR +++ IRGV +D  I  L E++LI E G+ D+PG+P  Y TT+EFL  F L +I +LP +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|41018081|sp|Q8RAA0.1|SCPB_CALS4</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein B</Hit_def>
+  <Hit_accession>Q8RAA0</Hit_accession>
+  <Hit_len>168</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.4413</Hsp_bit-score>
+      <Hsp_score>241</Hsp_score>
+      <Hsp_evalue>9.33256e-24</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>LEAILFVEGVRLSYACLARKLGLSEQAVGECVARLGEALASGARGGGGLELHCNEQGVALLPAATVRERLATLYGKRSEGRLSRAAMETLSIVAYAQPVTRAEIEAIRGVGADTMIRLLSERRLICEVGKKDIPGKPAQYGTTEEFLTAFRLRSIADLPKLD</Hsp_qseq>
+      <Hsp_hseq>IEAILFAAGQAVKIRTLAEALEVTEEEVRELLKRLKEEYVKNHRG---IDIVIFEDKVEMCTNDSYGDIVRKALKMEITQGLSQAALEVLAIIAYNQPITKAEIERIRGVRSDKPINTLLEYNLIKESGRASSPGRPILYSTTEDFLKYFGISSLKELPEIE</Hsp_hseq>
+      <Hsp_midline>+EAILF  G  +    LA  L ++E+ V E + RL E      RG   +++   E  V +    +  + +           LS+AA+E L+I+AY QP+T+AEIE IRGV +D  I  L E  LI E G+   PG+P  Y TTE+FL  F + S+ +LP+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|254767874|sp|B8I2V4.1|SCPB_CLOCE</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein B</Hit_def>
+  <Hit_accession>B8I2V4</Hit_accession>
+  <Hit_len>190</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.6709</Hsp_bit-score>
+      <Hsp_score>239</Hsp_score>
+      <Hsp_evalue>2.64627e-23</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>LLEAILFVEGVRLSYACLARKLGLSEQAVGECVARLGEALASGARGGGGLELHCNEQGVALLPAATVRERLATLYGKRSEGRLSRAAMETLSIVAYAQPVTRAEIEAIRGVGADTMIRLLSERRLICEVGKKDIPGKPAQYGTTEEFLTAFRLRSI</Hsp_qseq>
+      <Hsp_hseq>VIESLIFSYGDPLPLDKICEILELDKKTARSILKNMMDSYNNSNRGIIIREIN---EKYQMCSKPEYFDYVSKLYQIRQKQALSQAAYEVLAIIAYNQPITRAKIEQIRGVNSDSAVTRLTERNLIKEAGKLDVPGRPRLYETTDEFLRCFGFKSI</Hsp_hseq>
+      <Hsp_midline>++E+++F  G  L    +   L L ++     +  + ++  +  RG    E++   +   +       + ++ LY  R +  LS+AA E L+I+AY QP+TRA+IE IRGV +D+ +  L+ER LI E GK D+PG+P  Y TT+EFL  F  +SI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|167016582|sp|A6TR67.1|SCPB_ALKMQ</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein B</Hit_def>
+  <Hit_accession>A6TR67</Hit_accession>
+  <Hit_len>190</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.2857</Hsp_bit-score>
+      <Hsp_score>238</Hsp_score>
+      <Hsp_evalue>3.52955e-23</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>ALLEAILFVEGVRLSYACLARKLGLSEQAVGECVARLGEALASGARGGGGLELHCNEQGVALLPAATVRERLATLYGKRSEGRLSRAAMETLSIVAYAQPVTRAEIEAIRGVGADTMIRLLSERRLICEVGKKDIPGKPAQYGTTEEFLTAFRLRSIADLPKLDEEEQ</Hsp_qseq>
+      <Hsp_hseq>AAIEAILFAWSDPISSSELSNILDIKVTETKEIMKEMIDEFNFHKRGIQIIQMNDHYQ---MSTRAEYHEILQKLFEPKQNKGLTQASLETLAIIAYRQPITKTEIESVRGVKCDKAISTLFEKNLIEDRGRLEKTGRPILFGTTLHFLKNFGLKSLEDLPKITEIDQ</Hsp_hseq>
+      <Hsp_midline>A +EAILF     +S + L+  L +      E +  + +      RG   ++++ + Q   +   A   E L  L+  +    L++A++ETL+I+AY QP+T+ EIE++RGV  D  I  L E+ LI + G+ +  G+P  +GTT  FL  F L+S+ DLPK+ E +Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|122271404|sp|Q03WM8.1|SCPB_LEUMM</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein B</Hit_def>
+  <Hit_accession>Q03WM8</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.2857</Hsp_bit-score>
+      <Hsp_score>238</Hsp_score>
+      <Hsp_evalue>4.40557e-23</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>180</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>DLALLEAILFVEGVR-LSYACLARKLGLSEQAVGECVARLGEALASGARGGGGLELHCNEQGVALLPAATVRERLATLYGKRSEGRLSRAAMETLSIVAYAQPVTRAEIEAIRGVGADTMIRLLSERRLICEVGKKDIPGKPAQYGTTEEFLTAFRLRSIADLPKL</Hsp_qseq>
+      <Hsp_hseq>NLSQIEALLFVSGDEGISVKNMSIITGFDRSAIQGLLEEL--VLKYDTDLSSALQIRESDDVYRLVTKPELGGTVKQYFDSPVNATLSQAQLETLVIVAYKQPITRVEIDTIRGVQSSGTLQKLALRQLVHEVGRKDEPGRPIMFGTTDEFLDYFGLKSIEELPPL</Hsp_hseq>
+      <Hsp_midline>+L+ +EA+LFV G   +S   ++   G    A+   +  L   L         L++  ++    L+    +   +   +       LS+A +ETL IVAY QP+TR EI+ IRGV +   ++ L+ R+L+ EVG+KD PG+P  +GTT+EFL  F L+SI +LP L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|81346942|sp|Q5KXL1.1|SCPB_GEOKA</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein B</Hit_def>
+  <Hit_accession>Q5KXL1</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.2857</Hsp_bit-score>
+      <Hsp_score>238</Hsp_score>
+      <Hsp_evalue>5.56487e-23</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>182</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>GAPAPDLALLEAILFVEGVR-LSYACLARKLGLSEQAVGECVARLGEALASGARGGGGLELHCNEQGVALLPAATVRER---LATLYGKRSEGRLSRAAMETLSIVAYAQPVTRAEIEAIRGVGADTMIRLLSERRLICEVGKKDIPGKPAQYGTTEEFLTAFRLRSIADLPKLDE</Hsp_qseq>
+      <Hsp_hseq>GAPNSAKAIVEALLFAAGDEGLSLSQIAAVLEVSELEAKAVIEELQQDCRREERGIQLVELG----GVFLL--ATKKEHAPYLKKLVEAPGASPLSQAALETLAIIAYRQPITRAEIEEIRGVKSDKPLQTLMARALIKEVGRAEGTGRPILYGTTPEFLDYFGLKTLEELPPLPE</Hsp_hseq>
+      <Hsp_midline>GAP    A++EA+LF  G   LS + +A  L +SE      +  L +      RG   +EL     GV LL  AT +E    L  L        LS+AA+ETL+I+AY QP+TRAEIE IRGV +D  ++ L  R LI EVG+ +  G+P  YGTT EFL  F L+++ +LP L E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|189046142|sp|A7GS81.1|SCPB_BACCN</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein B</Hit_def>
+  <Hit_accession>A7GS81</Hit_accession>
+  <Hit_len>190</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.5153</Hsp_bit-score>
+      <Hsp_score>236</Hsp_score>
+      <Hsp_evalue>6.08507e-23</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>178</Hsp_align-len>
+      <Hsp_qseq>LALLEAILFVEGVRLSY-ACLARKLGLSEQAVGECVARLGEALASGARGGGGLELHCNEQGVALLPAATVRERLATLYGKRSE----GRLSRAAMETLSIVAYAQPVTRAEIEAIRGVGADTMIRLLSERRLICEVGKKDIPGKPAQYGTTEEFLTAFRLRSIADLPKLDEEEQRRFE</Hsp_qseq>
+      <Hsp_hseq>MAITEGLLFVAGDEGIYPEQIAKVLEIEEEDVIKIVEEMQEKWEGEGRG---LQIVQFAKAYRL---ATKKEH-APYYQKLMDTPTAASLSQAALETLAIVAYRQPITRMEMEEIRGVKTERALQTLVSHLLIKEVGRAEGPGRPILYGTTKEFLDTFGLQTLDDLPALSEENEQMNE</Hsp_hseq>
+      <Hsp_midline>+A+ E +LFV G    Y   +A+ L + E+ V + V  + E      RG   L++    +   L   AT +E  A  Y K  +      LS+AA+ETL+IVAY QP+TR E+E IRGV  +  ++ L    LI EVG+ + PG+P  YGTT+EFL  F L+++ DLP L EE ++  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|123047291|sp|Q0SS19.1|SCPB_CLOPS</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein B</Hit_def>
+  <Hit_accession>Q0SS19</Hit_accession>
+  <Hit_len>195</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.5153</Hsp_bit-score>
+      <Hsp_score>236</Hsp_score>
+      <Hsp_evalue>6.82828e-23</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>ALLEAILFVEGVRLSYACLARKLGLSEQAVGECVARLGEALA-SGARGGGGLELHCNEQGVALLPAATVRERLATLYGKRSEGRLSRAAMETLSIVAYAQPVTRAEIEAIRGVGADTMIRLLSERRLICEVGKKDIPGKPAQYGTTEEFLTAFRLRSIADLPKLD</Hsp_qseq>
+      <Hsp_hseq>SIIESLLFVSGEPLALKDICRIVEEDFKYVEDLMRELMNIYNGDSSRGIKIISLNGTYQ---LVTKTKNSEYIQKLLKKNVRQSLSQASLESLAIICYKQPITRVEIDEIRGVKSESAIQRLVEKNLVEETGRLEVPGRPILYGTTDEFLRHFALNDLGDLPSIE</Hsp_hseq>
+      <Hsp_midline>+++E++LFV G  L+   + R +    + V + +  L        +RG   + L+   Q   L+      E +  L  K     LS+A++E+L+I+ Y QP+TR EI+ IRGV +++ I+ L E+ L+ E G+ ++PG+P  YGTT+EFL  F L  + DLP ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|41017903|sp|Q46206.2|SCPB_CLOPE</Hit_id>
+  <Hit_def>RecName: Full=Segregation and condensation protein B &gt;gi|123049725|sp|Q0TPF2.1|SCPB_CLOP1 RecName: Full=Segregation and condensation protein B</Hit_def>
+  <Hit_accession>Q46206</Hit_accession>
+  <Hit_len>195</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.1301</Hsp_bit-score>
+      <Hsp_score>235</Hsp_score>
+      <Hsp_evalue>9.38152e-23</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>ALLEAILFVEGVRLSYACLARKLGLSEQAVGECVARLGEALA-SGARGGGGLELHCNEQGVALLPAATVRERLATLYGKRSEGRLSRAAMETLSIVAYAQPVTRAEIEAIRGVGADTMIRLLSERRLICEVGKKDIPGKPAQYGTTEEFLTAFRLRSIADLPKLD</Hsp_qseq>
+      <Hsp_hseq>SIIESLLFVSGEPLALKDICRIVEEDFKYVEDLMRELMNIYNGDSSRGIKIISLNGTYQ---LVTKTKNSEYVQKLLKKNVRQSLSQASLESLAIICYKQPITRVEIDEIRGVKSESAIQRLVEKNLVEETGRLEVPGRPILYGTTDEFLRHFALNDLGDLPSIE</Hsp_hseq>
+      <Hsp_midline>+++E++LFV G  L+   + R +    + V + +  L        +RG   + L+   Q   L+      E +  L  K     LS+A++E+L+I+ Y QP+TR EI+ IRGV +++ I+ L E+ L+ E G+ ++PG+P  YGTT+EFL  F L  + DLP ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>462628</Statistics_db-num>
+      <Statistics_db-len>173435234</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

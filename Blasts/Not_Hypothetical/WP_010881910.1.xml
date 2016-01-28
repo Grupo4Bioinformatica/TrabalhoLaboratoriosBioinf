@@ -1,0 +1,602 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1443</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>119</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1443</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>119</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|2498811|sp|Q06553.1|PRTR_PSEAE</Hit_id>
+  <Hit_def>RecName: Full=HTH-type transcriptional regulator PrtR; AltName: Full=Pyocin repressor protein</Hit_def>
+  <Hit_accession>Q06553</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.0424026</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>96</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>83</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>EGMGVRVERVRCEQNLSKTAFARELGIGVEELDAIERGTMPLSRDLTLLLCVVFAVNRLWLESGEGEPFSASAVS</Hsp_qseq>
+      <Hsp_hseq>DSFAARLKQAMAMRNLKQETLAEAAGVSQNTIHKLTSGKAQSTRKL-IEIAAALGVSPVWLQTGEGAPAARSAVS</Hsp_hseq>
+      <Hsp_midline>+    R+++    +NL +   A   G+    +  +  G    +R L + +     V+ +WL++GEG P + SAVS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|81620431|sp|Q97QZ2.1|PEZA_STRPN</Hit_id>
+  <Hit_def>RecName: Full=Antitoxin PezA</Hit_def>
+  <Hit_accession>Q97QZ2</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>0.215052</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>77</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>55</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>MGVRVERVRCEQNLSKTAFARELGIGVEELDAIERGTMPLSRDLTLLLCVVFAV</Hsp_qseq>
+      <Hsp_hseq>IGKNIKSLRKTHDLTQLEFARIVGISRNSLSRYENGTSSVSTELIDIICQKFNV</Hsp_hseq>
+      <Hsp_midline>+G  ++ +R   +L++  FAR +GI    L   E GT  +S +L  ++C  F V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|81761578|sp|Q8NTD8.1|RAMB_CORGL</Hit_id>
+  <Hit_def>RecName: Full=HTH-type transcriptional regulator RamB; AltName: Full=Regulator of acetate metabolism B; Short=RamB</Hit_def>
+  <Hit_accession>Q8NTD8</Hit_accession>
+  <Hit_len>474</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>0.628056</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>68</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>MGVRVERVRCEQNLSKTAFARELGIGVEELDAIERGTMPLSRDLTLLLCVVFAVNRLWLESGE</Hsp_qseq>
+      <Hsp_hseq>VGSRLRQLRRERDLSQASLAATLGLSASYVNQIEHDVRPLTVPVLLRITEAFGVDATFFSRDD</Hsp_hseq>
+      <Hsp_midline>+G R+ ++R E++LS+ + A  LG+    ++ IE    PL+  + L +   F V+  +    +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|81668764|sp|O06581.1|PRPR_MYCTU</Hit_id>
+  <Hit_def>RecName: Full=HTH-type transcriptional regulator PrpR; AltName: Full=Propionate regulator; Short=PRPR</Hit_def>
+  <Hit_accession>O06581</Hit_accession>
+  <Hit_len>486</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>0.736305</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>84</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>78</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>GVRVERVRCEQNLSKTAFARELGIGVEELDAIERGTMPLSRDLTLLLCVVFAVNRLWLES</Hsp_qseq>
+      <Hsp_hseq>GARLRRLRQERGLTQVALAKALDLSTSYVNQLENDQRPITVPVLLLLTERFDLSAQYFSS</Hsp_hseq>
+      <Hsp_midline>G R+ R+R E+ L++ A A+ L +    ++ +E    P++  + LLL   F ++  +  S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|139274|sp|P21230.1|VP5_BRD</Hit_id>
+  <Hit_def>RecName: Full=Outer capsid protein VP5 [Broadhaven virus]</Hit_def>
+  <Hit_accession>P21230</Hit_accession>
+  <Hit_len>480</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>2.27744</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>119</Hsp_query-to>
+      <Hsp_hit-from>357</Hsp_hit-from>
+      <Hsp_hit-to>427</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>ARELGIGVEELDAIERGTMPLSRDLTLLLCVVFAVNRLWLESGEGEPFSASAVSPQETVQPEEEAREPPIPPPRWRG</Hsp_qseq>
+      <Hsp_hseq>AHELRVPLKQRPMIHSYTSPWDSDYVLILHVVGPYH-----SGQAFVFCLDLALDQFHFE-EDTGSKPPVPPPRHRA</Hsp_hseq>
+      <Hsp_midline>A EL + +++   I   T P   D  L+L VV   +     SG+   F       Q   + E+   +PP+PPPR R </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|42558968|sp|P93292.1|M280_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Putative uncharacterized mitochondrial protein AtMg00280; AltName: Full=ORF110a</Hit_def>
+  <Hit_accession>P93292</Hit_accession>
+  <Hit_len>110</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>2.44801</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>59</Hsp_query-to>
+      <Hsp_hit-from>64</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>TGKMEGMGVRVERVRCEQNLSKTAFARELGIGVEELDAIERG</Hsp_qseq>
+      <Hsp_hseq>TGGIKGHYLNATAGTCEEMIKRAVFARELGVPIVMHDYLNRG</Hsp_hseq>
+      <Hsp_midline>TG ++G  +      CE+ + +  FARELG+ +   D + RG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|131998|sp|P19163.1|RBL_NEUMU</Hit_id>
+  <Hit_def>RecName: Full=Ribulose bisphosphate carboxylase large chain; Short=RuBisCO large subunit; Flags: Precursor</Hit_def>
+  <Hit_accession>P19163</Hit_accession>
+  <Hit_len>478</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>2.46075</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>232</Hsp_hit-from>
+      <Hsp_hit-to>298</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>TGKMEGMGVRVERVRCEQNLSKTAFARELGIGVEELDAIERG---TMPLS---RDLTLLLCVVFAVN</Hsp_qseq>
+      <Hsp_hseq>TGEIKGHYLNATAGTCEEMMKRAAFARELGVPIVMHDYLTGGFTANTSLSMYCRDNGLLLHIHRAMH</Hsp_hseq>
+      <Hsp_midline>TG+++G  +      CE+ + + AFARELG+ +   D +  G      LS   RD  LLL +  A++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|75042055|sp|Q5RBN1.1|FND3A_PONAB</Hit_id>
+  <Hit_def>RecName: Full=Fibronectin type-III domain-containing protein 3A</Hit_def>
+  <Hit_accession>Q5RBN1</Hit_accession>
+  <Hit_len>1142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>3.01937</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>887</Hsp_hit-from>
+      <Hsp_hit-to>937</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>IERGTMPLSRDLTLLLCVVFAVNRLWLESGEGEPFSASAVSPQETVQPEEE</Hsp_qseq>
+      <Hsp_hseq>IKLKTKPLPPDPPRLECVAFSHQNLKLKWGEGTPKTLSTDSIQYHLQMEDK</Hsp_hseq>
+      <Hsp_midline>I+  T PL  D   L CV F+   L L+ GEG P + S  S Q  +Q E++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|254763442|sp|Q9Y2H6.4|FND3A_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Fibronectin type-III domain-containing protein 3A; AltName: Full=Human gene expressed in odontoblasts</Hit_def>
+  <Hit_accession>Q9Y2H6</Hit_accession>
+  <Hit_len>1198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>3.14609</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>943</Hsp_hit-from>
+      <Hsp_hit-to>993</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>IERGTMPLSRDLTLLLCVVFAVNRLWLESGEGEPFSASAVSPQETVQPEEE</Hsp_qseq>
+      <Hsp_hseq>IKLKTKPLPPDPPRLECVAFSHQNLKLKWGEGTPKTLSTDSIQYHLQMEDK</Hsp_hseq>
+      <Hsp_midline>I+  T PL  D   L CV F+   L L+ GEG P + S  S Q  +Q E++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|3914544|sp|P93906.1|RBL_GLAGU</Hit_id>
+  <Hit_def>RecName: Full=Ribulose bisphosphate carboxylase large chain; Short=RuBisCO large subunit</Hit_def>
+  <Hit_accession>P93906</Hit_accession>
+  <Hit_len>458</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>3.21467</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>225</Hsp_hit-from>
+      <Hsp_hit-to>291</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>TGKMEGMGVRVERVRCEQNLSKTAFARELGIGVEELDAIERGTMP------LSRDLTLLLCVVFAVN</Hsp_qseq>
+      <Hsp_hseq>TGEIKGHYLNATAGTCEEMMKRAAFARELGVPIVMHDYLTGGFTANTTLAHYCRDNGLLLHIHRAMH</Hsp_hseq>
+      <Hsp_midline>TG+++G  +      CE+ + + AFARELG+ +   D +  G           RD  LLL +  A++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|81862417|sp|Q5SSF7.1|FA46C_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Protein FAM46C</Hit_def>
+  <Hit_accession>Q5SSF7</Hit_accession>
+  <Hit_len>391</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>3.60353</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>57</Hsp_hit-from>
+      <Hsp_hit-to>113</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>GKMEGMGVRVERVRCEQNLSKTAFARELGIGVEELDAIERGTMPLSRDLTLLLCVVF</Hsp_qseq>
+      <Hsp_hseq>GRLEEAGINVQDVRLNGSAAGHVLVKDNGLGCKDLDLIFHVALPTEAEFQLVRDVVL</Hsp_hseq>
+      <Hsp_midline>G++E  G+ V+ VR   + +     ++ G+G ++LD I    +P   +  L+  VV </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|125987518|sp|A1EA16.1|RBL_AGRST</Hit_id>
+  <Hit_def>RecName: Full=Ribulose bisphosphate carboxylase large chain; Short=RuBisCO large subunit; Flags: Precursor</Hit_def>
+  <Hit_accession>A1EA16</Hit_accession>
+  <Hit_len>477</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>3.66647</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>232</Hsp_hit-from>
+      <Hsp_hit-to>298</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>TGKMEGMGVRVERVRCEQNLSKTAFARELGIGVEELDAIERGTMP------LSRDLTLLLCVVFAVN</Hsp_qseq>
+      <Hsp_hseq>TGEIKGHYLNATAGTCEEMIKRAVFARELGVPIVMHDYITGGFTANTSLAHYCRDNGLLLHIHRAMH</Hsp_hseq>
+      <Hsp_midline>TG+++G  +      CE+ + +  FARELG+ +   D I  G           RD  LLL +  A++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1346964|sp|P48684.1|RBL_AVESA</Hit_id>
+  <Hit_def>RecName: Full=Ribulose bisphosphate carboxylase large chain; Short=RuBisCO large subunit; Flags: Precursor</Hit_def>
+  <Hit_accession>P48684</Hit_accession>
+  <Hit_len>477</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>3.775</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>232</Hsp_hit-from>
+      <Hsp_hit-to>298</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>TGKMEGMGVRVERVRCEQNLSKTAFARELGIGVEELDAIERGTMP------LSRDLTLLLCVVFAVN</Hsp_qseq>
+      <Hsp_hseq>TGEIKGHYLNATAGTCEEMIKRAVFARELGVPIVMHDYITGGFTANTSLAHYCRDNGLLLHIHRAMH</Hsp_hseq>
+      <Hsp_midline>TG+++G  +      CE+ + +  FARELG+ +   D I  G           RD  LLL +  A++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|218546883|sp|A8Y9H8.1|RBL_LOLPR</Hit_id>
+  <Hit_def>RecName: Full=Ribulose bisphosphate carboxylase large chain; Short=RuBisCO large subunit; Flags: Precursor</Hit_def>
+  <Hit_accession>A8Y9H8</Hit_accession>
+  <Hit_len>477</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>4.16038</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>232</Hsp_hit-from>
+      <Hsp_hit-to>298</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>TGKMEGMGVRVERVRCEQNLSKTAFARELGIGVEELDAIERGTMP------LSRDLTLLLCVVFAVN</Hsp_qseq>
+      <Hsp_hseq>TGEIKGHYLNATAGTCEEMIKRAVFARELGVPIVMHDYITGGFTANTSLAHYCRDNGLLLHIHRAMH</Hsp_hseq>
+      <Hsp_midline>TG+++G  +      CE+ + +  FARELG+ +   D I  G           RD  LLL +  A++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|131930|sp|P25830.1|RBL_CERGL</Hit_id>
+  <Hit_def>RecName: Full=Ribulose bisphosphate carboxylase large chain; Short=RuBisCO large subunit; Flags: Precursor</Hit_def>
+  <Hit_accession>P25830</Hit_accession>
+  <Hit_len>475</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>4.19887</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>232</Hsp_hit-from>
+      <Hsp_hit-to>298</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>TGKMEGMGVRVERVRCEQNLSKTAFARELGIGVEELDAIERGTMP------LSRDLTLLLCVVFAVN</Hsp_qseq>
+      <Hsp_hseq>TGEIKGHYLNATAGTCEEMIKRAVFARELGVPIVMHDYITGGFTANTSLAHYCRDNGLLLHIHRAMH</Hsp_hseq>
+      <Hsp_midline>TG+++G  +      CE+ + +  FARELG+ +   D I  G           RD  LLL +  A++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|131968|sp|P19162.1|RBL_FLAPR</Hit_id>
+  <Hit_def>RecName: Full=Ribulose bisphosphate carboxylase large chain; Short=RuBisCO large subunit; Flags: Precursor</Hit_def>
+  <Hit_accession>P19162</Hit_accession>
+  <Hit_len>485</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>4.292</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>232</Hsp_hit-from>
+      <Hsp_hit-to>298</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>TGKMEGMGVRVERVRCEQNLSKTAFARELGIGVEELDAIERG---TMPLS---RDLTLLLCVVFAVN</Hsp_qseq>
+      <Hsp_hseq>TGEIKGHYLNATAGTCEEMLKRAVFARELGVPIVMHDYLTGGFTANTSLSHYCRDNGLLLHIHRAMH</Hsp_hseq>
+      <Hsp_midline>TG+++G  +      CE+ L +  FARELG+ +   D +  G      LS   RD  LLL +  A++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|218546879|sp|B2LMK1.1|RBL_GUIAB</Hit_id>
+  <Hit_def>RecName: Full=Ribulose bisphosphate carboxylase large chain; Short=RuBisCO large subunit; Flags: Precursor</Hit_def>
+  <Hit_accession>B2LMK1</Hit_accession>
+  <Hit_len>485</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>4.33391</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>232</Hsp_hit-from>
+      <Hsp_hit-to>298</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>TGKMEGMGVRVERVRCEQNLSKTAFARELGIGVEELDAIERG---TMPLS---RDLTLLLCVVFAVN</Hsp_qseq>
+      <Hsp_hseq>TGEIKGHYLNATAGTCEEMLKRAVFARELGVPIVMHDYLTGGFTANTSLSHYCRDNGLLLHIHRAMH</Hsp_hseq>
+      <Hsp_midline>TG+++G  +      CE+ L +  FARELG+ +   D +  G      LS   RD  LLL +  A++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|12643514|sp|Q9MUT6.1|RBL_MESVI</Hit_id>
+  <Hit_def>RecName: Full=Ribulose bisphosphate carboxylase large chain; Short=RuBisCO large subunit; Flags: Precursor</Hit_def>
+  <Hit_accession>Q9MUT6</Hit_accession>
+  <Hit_len>475</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>4.76407</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>232</Hsp_hit-from>
+      <Hsp_hit-to>298</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>TGKMEGMGVRVERVRCEQNLSKTAFARELGIGVEELDAIERGTM------PLSRDLTLLLCVVFAVN</Hsp_qseq>
+      <Hsp_hseq>TGEIKGHYLNATAATCEEMLKRAAYAKELGVPIIMHDYLTGGFTANTSLAAYCRDNGLLLHIHRAMH</Hsp_hseq>
+      <Hsp_midline>TG+++G  +      CE+ L + A+A+ELG+ +   D +  G           RD  LLL +  A++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|3914573|sp|Q37227.2|RBL_IRIGE</Hit_id>
+  <Hit_def>RecName: Full=Ribulose bisphosphate carboxylase large chain; Short=RuBisCO large subunit</Hit_def>
+  <Hit_accession>Q37227</Hit_accession>
+  <Hit_len>443</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>5.46253</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>221</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>TGKMEGMGVRVERVRCEQNLSKTAFARELGIGVEELDAIERGTMP------LSRDLTLLLCVVFAVN</Hsp_qseq>
+      <Hsp_hseq>TGEIKGHYLNATAATCEEMMKRAIFARELGVPIVMHDYLTGGFTANTSLAHYCRDNGLLLHIHRAMH</Hsp_hseq>
+      <Hsp_midline>TG+++G  +      CE+ + +  FARELG+ +   D +  G           RD  LLL +  A++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|132011|sp|P04992.1|RBL_PETHY</Hit_id>
+  <Hit_def>RecName: Full=Ribulose bisphosphate carboxylase large chain; Short=RuBisCO large subunit; Flags: Precursor</Hit_def>
+  <Hit_accession>P04992</Hit_accession>
+  <Hit_len>477</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>5.73175</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>232</Hsp_hit-from>
+      <Hsp_hit-to>298</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>TGKMEGMGVRVERVRCEQNLSKTAFARELGIGVEELDAIERGTMP------LSRDLTLLLCVVFAVN</Hsp_qseq>
+      <Hsp_hseq>TGEIKGHYLKATAGTCEEMMKRAVFARELGVPIVMHDYLTGGFTANTSLAHYCRDNGLLLHIHRAMH</Hsp_hseq>
+      <Hsp_midline>TG+++G  ++     CE+ + +  FARELG+ +   D +  G           RD  LLL +  A++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>462628</Statistics_db-num>
+      <Statistics_db-len>173435234</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,602 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>Query_237723</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>352</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_237723</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>352</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1706844|sp|P52610.1|FLIG_BORBU</Hit_id>
+  <Hit_def>RecName: Full=Flagellar motor switch protein FliG</Hit_def>
+  <Hit_accession>P52610</Hit_accession>
+  <Hit_len>344</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>459.914</Hsp_bit-score>
+      <Hsp_score>1182</Hsp_score>
+      <Hsp_evalue>2.14075e-160</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>352</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>344</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>232</Hsp_identity>
+      <Hsp_positive>294</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>339</Hsp_align-len>
+      <Hsp_qseq>EKKQRDIKSLNGRQKAAIFLVSIGEEISAKVMGELKEDEIEKLVFEIARTESVDAELKDAVLEEFQELMTAQNFITSGGIDYARGLLEKSLGSQKAIEIINRLTSSLQVRPFDFIRRTDPTHLLNFIQQEHPQTIALILAYLEPNKASVILQNLPDEIQSDVARRIATMDRTSPDVLREVERVLEKKLSTLSSEDYTAAGGVQNIVDILNLVDRSSEKSIVEALEDEDPDLAEEIKKRMFVFEDIVMLDDRAIQKVLREVNMEELAKALKVVDTEVQDKIFRNMSKRAGSMLKEEMEYMGPTRLKDVEEAQQKVVSIIRHLEDSGDIVIARSEEDEMIV</Hsp_qseq>
+      <Hsp_hseq>EKEILDVSALTGKQKAAILLVSIGSEISSKVFKYLSQEEIESLTFEIAKLETITSELKDNVLLEFKELMMAQEFIQKGGIDYARELLEKSLGTQKAVDIINNLGSALQSRPFEFVRRADPANILNFIQQEHPQTIALILSYLDPQKASFILSSLPTEVQTNVARRIALMDRTSPEVVREVERVLEKKLASLSSEDYTSAGGVDNVVEIINMADRKTEKFIIESLEEEDPELAEEIKKKMFVFEDIVLLDDRSIQRVLREIDGQELAKALKSVDIPVQEKIFKNMSKRAASMLKEDMEFLGPTRRKDVEESQQKIVSLIRKLEEQGEIVISRGGEEDVLV</Hsp_hseq>
+      <Hsp_midline>EK+  D+ +L G+QKAAI LVSIG EIS+KV   L ++EIE L FEIA+ E++ +ELKD VL EF+ELM AQ FI  GGIDYAR LLEKSLG+QKA++IIN L S+LQ RPF+F+RR DP ++LNFIQQEHPQTIALIL+YL+P KAS IL +LP E+Q++VARRIA MDRTSP+V+REVERVLEKKL++LSSEDYT+AGGV N+V+I+N+ DR +EK I+E+LE+EDP+LAEEIKK+MFVFEDIV+LDDR+IQ+VLRE++ +ELAKALK VD  VQ+KIF+NMSKRA SMLKE+ME++GPTR KDVEE+QQK+VS+IR LE+ G+IVI+R  E++++V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|120327|sp|P23448.1|FLIG_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Flagellar motor switch protein FliG</Hit_def>
+  <Hit_accession>P23448</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>397.127</Hsp_bit-score>
+      <Hsp_score>1019</Hsp_score>
+      <Hsp_evalue>1.04591e-135</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>352</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>QRDIKSLNGRQKAAIFLVSIGEEISAKVMGELKEDEIEKLVFEIARTESVDAELKDAVLEEFQELMTAQNFITSGGIDYARGLLEKSLGSQKAIEIINRLTSSLQVRPFDFIRRTDPTHLLNFIQQEHPQTIALILAYLEPNKASVILQNLPDEIQSDVARRIATMDRTSPDVLREVERVLEKKLSTLSSEDYTAAGGVQNIVDILNLVDRSSEKSIVEALEDEDPDLAEEIKKRMFVFEDIVMLDDRAIQKVLREVNMEELAKALKVVDTEVQDKIFRNMSKRAGSMLKEEMEYMGPTRLKDVEEAQQKVVSIIRHLEDSGDIVIARSEEDEMIV</Hsp_qseq>
+      <Hsp_hseq>RRDQDKLTGKQKAAILMISLGLDVSASVYKHLTDEEIERLTLEISGVRSVDHQKKDEIIEEFHNIAIAQDYISQGGLSYARQVLEKALGEDKAENILNRLTSSLQVKPFDFARKAEPEQILNFIQQEHPQTMALILSYLDPVQAGQILSELNPEVQAEVARRIAVMDRTSPEIINEVERILEQKLSSAFTQDYTQTGGIEAVVEVLNGVDRGTEKTILDSLEIQDPDLAEEIKKRMFVFEDIVTLDNRAIQRVIRDVENDDLLLSLKVASEEVKEIVFNNMSQRMVETFKEEMEFMGPVRLKDVEEAQSRIVSIVRKLEEAGEIVIARGGGDDIIV</Hsp_hseq>
+      <Hsp_midline>+RD   L G+QKAAI ++S+G ++SA V   L ++EIE+L  EI+   SVD + KD ++EEF  +  AQ++I+ GG+ YAR +LEK+LG  KA  I+NRLTSSLQV+PFDF R+ +P  +LNFIQQEHPQT+ALIL+YL+P +A  IL  L  E+Q++VARRIA MDRTSP+++ EVER+LE+KLS+  ++DYT  GG++ +V++LN VDR +EK+I+++LE +DPDLAEEIKKRMFVFEDIV LD+RAIQ+V+R+V  ++L  +LKV   EV++ +F NMS+R     KEEME+MGP RLKDVEEAQ ++VSI+R LE++G+IVIAR   D++IV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|8469333|sp|Q9WY63.1|FLIG_THEMA</Hit_id>
+  <Hit_def>RecName: Full=Flagellar motor switch protein FliG</Hit_def>
+  <Hit_accession>Q9WY63</Hit_accession>
+  <Hit_len>335</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>371.318</Hsp_bit-score>
+      <Hsp_score>952</Hsp_score>
+      <Hsp_evalue>1.00116e-125</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>352</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>335</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>181</Hsp_identity>
+      <Hsp_positive>258</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>332</Hsp_align-len>
+      <Hsp_qseq>KSLNGRQKAAIFLVSIGEEISAKVMGELKEDEIEKLVFEIARTESVDAELKDAVLEEFQELMTAQNFITSGGIDYARGLLEKSLGSQKAIEIINRLTSSLQVRPFDFIRRTDPTHLLNFIQQEHPQTIALILAYLEPNKASVILQNLPDEIQSDVARRIATMDRTSPDVLREVERVLEKKLSTLSSEDYTAAGGVQNIVDILNLVDRSSEKSIVEALEDEDPDLAEEIKKRMFVFEDIVMLDDRAIQKVLREVNMEELAKALKVVDTEVQDKIFRNMSKRAGSMLKEEMEYMGPTRLKDVEEAQQKVVSIIRHLEDSGDIVIARSEEDEMIV</Hsp_qseq>
+      <Hsp_hseq>KKIDGRRKAAVLLVALGPEKAAQVMKHLDEETVEQLVVEIANIGRVTPEEKKQVLEEFLSLAKAKEMISEGGIEYAKKVLEKAFGPERARKIIERLTSSLQVKPFSFVRDTDPVQLVNFLQSEHPQTIAVVLSYLDPPVAAQILGALPEELQTEVLKRIALLERTSPEVVKEIERNLEKKISGFVSRTFSKVGGIDTAAEIMNNLDRTTEKKIMDKLVQENPELADEIRRRMFVFEDILKLDDRSIQLVLREVDTRDLALALKGASDELKEKIFKNMSKRAAALLKDELEYMGPVRLKDVEEAQQKIINIIRRLEEAGEIVIARGGGEELIM</Hsp_hseq>
+      <Hsp_midline>K ++GR+KAA+ LV++G E +A+VM  L E+ +E+LV EIA    V  E K  VLEEF  L  A+  I+ GGI+YA+ +LEK+ G ++A +II RLTSSLQV+PF F+R TDP  L+NF+Q EHPQTIA++L+YL+P  A+ IL  LP+E+Q++V +RIA ++RTSP+V++E+ER LEKK+S   S  ++  GG+    +I+N +DR++EK I++ L  E+P+LA+EI++RMFVFEDI+ LDDR+IQ VLREV+  +LA ALK    E+++KIF+NMSKRA ++LK+E+EYMGP RLKDVEEAQQK+++IIR LE++G+IVIAR   +E+I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|81341211|sp|O25119.1|FLIG_HELPY</Hit_id>
+  <Hit_def>RecName: Full=Flagellar motor switch protein FliG; AltName: Full=Flagellar motor switch protein G</Hit_def>
+  <Hit_accession>O25119</Hit_accession>
+  <Hit_len>343</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>232.646</Hsp_bit-score>
+      <Hsp_score>592</Hsp_score>
+      <Hsp_evalue>1.35758e-71</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>351</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>342</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>129</Hsp_identity>
+      <Hsp_positive>216</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>344</Hsp_align-len>
+      <Hsp_qseq>KLATGEKKQRDIKSLNGRQKAAIFLVSIGEEISAKVMGELKEDEIEKLVFEIARTESVDAELKDAVLEEFQELMTAQNFITSGGIDYARGLLEKSLGSQKAIEIINRLTSSLQV-RPFDFIRRTDPTHLLNFIQQEHPQTIALILAYLEPNKASVILQNLPDEIQSDVARRIATMDRTSPDVLREVERVLEKKLSTLSSEDYTAAGGVQNIVDILNLVDRSSEKSIVEALEDEDPDLAEEIKKRMFVFEDIVMLDDRAIQKVLREVNMEELAKALKVVDTEVQDKIFRNMSKRAGSMLKEEMEYMGPTRLKDVEEAQQKVVSIIRHLEDSGDIVIARSEEDEMI</Hsp_qseq>
+      <Hsp_hseq>KLTPKQKAQLD--ELSMSEKIAILLIQVGEDTTGEILRHLDIDSITEISKQIVQLNGTDKQIGAAVLEEFFAIFQSNQYINTGGLEYARELLTRTLGSEEAKKVMDKLTKSLQTQKNFAYLGKIKPQQLADFIINEHPQTIALILAHMEAPNAAETLSYFPDEMKAEISIRMANLGEISPQVVKRVSTVLENKLESLTSYK-IEVGGLRAVAEIFNRLGQKSAKTTLARIESVDNKLAGAIKEMMFTFEDIVKLDNFAIREILKVADKKDLSLALKTSTKDLTDKFLNNMSSRAAEQFVEEMQYLGAVKIKDVDVAQRKIIEIVQSLQEKG--VIQTGEEEDVI</Hsp_hseq>
+      <Hsp_midline>KL   +K Q D   L+  +K AI L+ +GE+ + +++  L  D I ++  +I +    D ++  AVLEEF  +  +  +I +GG++YAR LL ++LGS++A +++++LT SLQ  + F ++ +  P  L +FI  EHPQTIALILA++E   A+  L   PDE++++++ R+A +   SP V++ V  VLE KL +L+S      GG++ + +I N + + S K+ +  +E  D  LA  IK+ MF FEDIV LD+ AI+++L+  + ++L+ ALK    ++ DK   NMS RA     EEM+Y+G  ++KDV+ AQ+K++ I++ L++ G  VI   EE+++I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|12644668|sp|Q51464.2|FLIG_PSEAE</Hit_id>
+  <Hit_def>RecName: Full=Flagellar motor switch protein FliG</Hit_def>
+  <Hit_accession>Q51464</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>215.698</Hsp_bit-score>
+      <Hsp_score>548</Hsp_score>
+      <Hsp_evalue>4.41783e-65</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>351</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>204</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>324</Hsp_align-len>
+      <Hsp_qseq>KAAIFLVSIGEEISAKVMGELKEDEIEKLVFEIARTESVDAELKDAVLEEFQELMTAQNFITSGGIDYARGLLEKSLGSQKAIEIINRLTSSLQVRPFDFIRRTDPTHLLNFIQQEHPQTIALILAYLEPNKASVILQNLPDEIQSDVARRIATMDRTSPDVLREVERVLEKKLSTLSSEDYTAAGGVQNIVDILNLVDRSSEKSIVEALEDEDPDLAEEIKKRMFVFEDIVMLDDRAIQKVLREVNMEELAKALKVVDTEVQDKIFRNMSKRAGSMLKEEMEYMGPTRLKDVEEAQQKVVSIIRHLEDSGDIVIARSEEDEMI</Hsp_qseq>
+      <Hsp_hseq>KAAILLLSLGETDAAQVLRHMGPKEVQRVGVAMASMRNVHREQVEQVMGEFVEVVGDQTSLGVGADGYIRKMLTQALGEDKANNLIDRILLGGSTSGLDSLKWMEPRAVADVIRYEHPQIQAIVVAYLDPDQAAEVLSHFDHKVRLDIVLRVSSLNTVQPSALKELNLILEKQFAGNSNATRTTMGGVKRAADIMNYLDSSIEGQLMDSIREVDEDLSGQIEDLMFVFDNLADVDDRGIQALLREVSSDVLVLALKGSDEAIREKVFKNMSKRAAELLRDDLEAKGPVRVSEVEGAQKEILTIARRMAESGDIVLGGKGGEEMI</Hsp_hseq>
+      <Hsp_midline>KAAI L+S+GE  +A+V+  +   E++++   +A   +V  E  + V+ EF E++  Q  +  G   Y R +L ++LG  KA  +I+R+         D ++  +P  + + I+ EHPQ  A+++AYL+P++A+ +L +   +++ D+  R+++++   P  L+E+  +LEK+ +  S+   T  GGV+   DI+N +D S E  +++++ + D DL+ +I+  MFVF+++  +DDR IQ +LREV+ + L  ALK  D  +++K+F+NMSKRA  +L++++E  GP R+ +VE AQ+++++I R + +SGDIV+     +EMI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|62286901|sp|Q9X4Q9.1|FLIG_VIBCH</Hit_id>
+  <Hit_def>RecName: Full=Flagellar motor switch protein FliG</Hit_def>
+  <Hit_accession>Q9X4Q9</Hit_accession>
+  <Hit_len>348</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.986</Hsp_bit-score>
+      <Hsp_score>515</Hsp_score>
+      <Hsp_evalue>5.04261e-60</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>343</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>194</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>325</Hsp_align-len>
+      <Hsp_qseq>DIKSLNGRQKAAIFLVSIGEEISAKVMGELKEDEIEKLVFEIARTESVDAELKDAVLEEFQELMTAQNFITSGGIDYARGLLEKSLGSQKAIEIINRLTSSLQVRPFDFIRRTDPTHLLNFIQQEHPQTIALILAYLEPNKASVILQNLPDEIQSDVARRIATMDRTSPDVLREVERVLEKKLSTLSSEDYTAAGGVQNIVDILNLVDRSSEKSIVEALEDEDPDLAEEIKKRMFVFEDIVMLDDRAIQKVLREVNMEELAKALKVVDTEVQDKIFRNMSKRAGSMLKEEMEYMGPTRLKDVEEAQQKVVSIIRHLEDSGDIVIA</Hsp_qseq>
+      <Hsp_hseq>DISEIPGEEKAAILLLSLNEEDAAGIIRHLEPKQVQRVGSAMARAKDLSQTKVSAVHRAFLEDIQKYTNIGMGSEDFLRNALVAALGADKANNLVDQILLGTGSKGLDSLKWMDPRQVASIIINEHPQIQTIVLSYLEPDQSAEILAQFAQRDALDLLMRIANLEEVQPSALAELNEIMEKQFAGQAGAQAAKIGGLKAAADIMNYLDNNIESVLMEGMREKDEDLATQIQDLMFVFENLVEVDDQGIQKLLRDVPQDVLQKALKGADDTLREKIFKNMSKRAAEMMKDDLEAMPPIKVSDVEAAQKEILSIARRMADNGEIMLG</Hsp_hseq>
+      <Hsp_midline>DI  + G +KAAI L+S+ EE +A ++  L+  +++++   +AR + +      AV   F E +     I  G  D+ R  L  +LG+ KA  +++++      +  D ++  DP  + + I  EHPQ   ++L+YLEP++++ IL         D+  RIA ++   P  L E+  ++EK+ +  +       GG++   DI+N +D + E  ++E + ++D DLA +I+  MFVFE++V +DD+ IQK+LR+V  + L KALK  D  +++KIF+NMSKRA  M+K+++E M P ++ DVE AQ++++SI R + D+G+I++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|62286880|sp|Q89ES2.2|FLIG_BRADU</Hit_id>
+  <Hit_def>RecName: Full=Flagellar motor switch protein FliG</Hit_def>
+  <Hit_accession>Q89ES2</Hit_accession>
+  <Hit_len>329</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>170.244</Hsp_bit-score>
+      <Hsp_score>430</Hsp_score>
+      <Hsp_evalue>6.86114e-48</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>352</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>328</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>329</Hsp_align-len>
+      <Hsp_qseq>GRQKAAIFLVSIGEEISAKVMGELKEDEIEKLVFEIARTESVDAELKDAVLEEFQELMTAQNFITSGGIDYARGLLEKSLGSQKAIEIINRLTSSLQVRPFDFIRRTDPTHLLNFIQQEHPQTIALILAYLEPNKASVILQNLPDEIQSDVARRIATMDRTSPDVLREVERVLEKK-LSTLSSEDYTAAGGVQNIVDILNLVDRSSEKSIVEALEDEDPDLAEEIKKRMFVFEDIVMLDDRAIQKVLREVNMEELAKALKVVDTEVQDKIFRNMSKRAGSMLKEEMEYMGPTRLKDVEEAQQKVVSIIRHLEDSGDIVIARSEEDEMIV</Hsp_qseq>
+      <Hsp_hseq>GPKRAAILMLALGEQYGGKIWSMLDDDEVRQLSLEMSTLGTVEVDTVEDMLLEFVSRMSASGALM-GNFDATERLLQQYLPPERVNGIMDEIRGPAGRNMWEKLSNVQEEVLANYLKNEYPQTIAVVLSKLKPEHAARVLGIFPEDLALDVVNRMLKMEAVQKEVIESVEKTLRTEFMSNLSQTRRRDAHEV--MAEIFNNFDRQTETRFITSLEEDNRESAERIKALMFTFDDLVKLDSGSAQTLMRNVDKDKLGVALKSANEDVRNFFFGNMSSRAAKMLQDDMAAMGPVRLRDVDEAQALLVNLAKDLAAKGEIMLTKNRADDELV</Hsp_hseq>
+      <Hsp_midline>G ++AAI ++++GE+   K+   L +DE+ +L  E++   +V+ +  + +L EF   M+A   +  G  D    LL++ L  ++   I++ +        ++ +       L N+++ E+PQTIA++L+ L+P  A+ +L   P+++  DV  R+  M+    +V+  VE+ L  + +S LS      A  V  + +I N  DR +E   + +LE+++ + AE IK  MF F+D+V LD  + Q ++R V+ ++L  ALK  + +V++  F NMS RA  ML+++M  MGP RL+DV+EAQ  +V++ + L   G+I++ ++  D+ +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|78100021|sp|P0ABZ3.1|FLIG_ECO57</Hit_id>
+  <Hit_def>RecName: Full=Flagellar motor switch protein FliG &gt;gi|78100022|sp|P0ABZ2.1|FLIG_ECOL6 RecName: Full=Flagellar motor switch protein FliG &gt;gi|78100023|sp|P0ABZ1.1|FLIG_ECOLI RecName: Full=Flagellar motor switch protein FliG</Hit_def>
+  <Hit_accession>P0ABZ3</Hit_accession>
+  <Hit_len>331</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>169.088</Hsp_bit-score>
+      <Hsp_score>427</Hsp_score>
+      <Hsp_evalue>1.89743e-47</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>347</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>328</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>IKSLNGRQKAAIFLVSIGEEISAKVMGELKEDEIEKLVFEIAR-TESVDAELKDAVLEEFQELMTAQNF--ITSGGIDYARGLLEKSLGSQKAIEII-----NRLTSSLQVRPFDFIRRTDPTHLLNFIQQEHPQTIALILAYLEPNKASVILQNLPDEIQSDVARRIATMDRTSPDVLREVERVLEKKLSTLSSEDYTAAGGVQNIVDILNLVDRSSEKSIVEALEDEDPDLAEEIKKRMFVFEDIVMLDDRAIQKVLREVNMEELAKALKVVDTEVQDKIFRNMSKRAGSMLKEEMEYMGPTRLKDVEEAQQKVVSIIRHLEDSGDIVIARSEE</Hsp_qseq>
+      <Hsp_hseq>MSNLTGTDKSVILLMTIGEDRAAEVFKHLSQREVQTLSAAMANVTQISNKQLTD-VLAEFEQ--EAEQFAALNINANDYLRSVLVKALGEERAASLLEDILETRDTAS-GIETLNFM---EPQSAADLIRDEHPQIIATILVHLKRAQAADILALFDERLRHDVMLRIATFGGVQPAALAELTEVLNGLLDG-QNLKRSKMGGVRTAAEIINLMKTQQEEAVITAVREFDGELAQKIIDEMFLFENLVDVDDRSIQRLLQEVDSESLLIALKGAEQPLREKFLRNMSQRAADILRDDLANRGPVRLSQVENEQKAILLIVRRLAETGEMVIGSGED</Hsp_hseq>
+      <Hsp_midline>+ +L G  K+ I L++IGE+ +A+V   L + E++ L   +A  T+  + +L D VL EF++   A+ F  +     DY R +L K+LG ++A  ++      R T+S  +   +F+   +P    + I+ EHPQ IA IL +L+  +A+ IL    + ++ DV  RIAT     P  L E+  VL   L    +   +  GGV+   +I+NL+    E++++ A+ + D +LA++I   MF+FE++V +DDR+IQ++L+EV+ E L  ALK  +  +++K  RNMS+RA  +L++++   GP RL  VE  Q+ ++ I+R L ++G++VI   E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|61224030|sp|P0A1J9.1|FLIG_SALTY</Hit_id>
+  <Hit_def>RecName: Full=Flagellar motor switch protein FliG &gt;gi|61224031|sp|P0A1K0.1|FLIG_SALTI RecName: Full=Flagellar motor switch protein FliG</Hit_def>
+  <Hit_accession>P0A1J9</Hit_accession>
+  <Hit_len>331</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>167.162</Hsp_bit-score>
+      <Hsp_score>422</Hsp_score>
+      <Hsp_evalue>1.04861e-46</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>347</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>328</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>335</Hsp_align-len>
+      <Hsp_qseq>IKSLNGRQKAAIFLVSIGEEISAKVMGELKEDEIEKLVFEIARTESVDAELKDAVLEEFQELMTAQNF--ITSGGIDYARGLLEKSLGSQKAIEII-----NRLTSSLQVRPFDFIRRTDPTHLLNFIQQEHPQTIALILAYLEPNKASVILQNLPDEIQSDVARRIATMDRTSPDVLREVERVLEKKLSTLSSEDYTAAGGVQNIVDILNLVDRSSEKSIVEALEDEDPDLAEEIKKRMFVFEDIVMLDDRAIQKVLREVNMEELAKALKVVDTEVQDKIFRNMSKRAGSMLKEEMEYMGPTRLKDVEEAQQKVVSIIRHLEDSGDIVIARSEE</Hsp_qseq>
+      <Hsp_hseq>MSNLSGTDKSVILLMTIGEDRAAEVFKHLSTREVQALSTAMANVRQISNKQLTDVLSEFEQ--EAEQFAALNINANEYLRSVLVKALGEERASSLLEDILETRDTTS-GIETLNFM---EPQSAADLIRDEHPQIIATILVHLKRSQAADILALFDERLRHDVMLRIATFGGVQPAALAELTEVLNGLLDG-QNLKRSKMGGVRTAAEIINLMKTQQEEAVITAVREFDGELAQKIIDEMFLFENLVDVDDRSIQRLLQEVDSESLLIALKGAEPPLREKFLRNMSQRAADILRDDLANRGPVRLSQVENEQKAILLIVRRLAETGEMVIGSGED</Hsp_hseq>
+      <Hsp_midline>+ +L+G  K+ I L++IGE+ +A+V   L   E++ L   +A    +  +    VL EF++   A+ F  +     +Y R +L K+LG ++A  ++      R T+S  +   +F+   +P    + I+ EHPQ IA IL +L+ ++A+ IL    + ++ DV  RIAT     P  L E+  VL   L    +   +  GGV+   +I+NL+    E++++ A+ + D +LA++I   MF+FE++V +DDR+IQ++L+EV+ E L  ALK  +  +++K  RNMS+RA  +L++++   GP RL  VE  Q+ ++ I+R L ++G++VI   E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|6225359|sp|O66891.1|FLIG_AQUAE</Hit_id>
+  <Hit_def>RecName: Full=Flagellar motor switch protein FliG</Hit_def>
+  <Hit_accession>O66891</Hit_accession>
+  <Hit_len>328</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>166.392</Hsp_bit-score>
+      <Hsp_score>420</Hsp_score>
+      <Hsp_evalue>2.11561e-46</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>343</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>327</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>37</Hsp_gaps>
+      <Hsp_align-len>340</Hsp_align-len>
+      <Hsp_qseq>SLNGRQKAAIFLVSIGEEISAKVMGELKEDEIEKLVFEIAR-TESVDAELKDAVL-----------------EEFQELMTAQNFITSGGIDYARGLLEKSLGSQKAIEIINRLTSSLQVRPFDFIRRTDPTHLLNFIQQEHPQTIALILAYLEPNKASVILQNLPDEIQSDVARRIATMDRTSPDVLREVERVLEKKLSTLSSEDYTAAGGVQNIVDILNLVDRSSEKSIVEALEDEDPDLAEEIKKRMFVFEDIVMLDDRAIQKVLREVNMEELAKALKVVDTEVQDKIFRNMSKRAGSMLKEEMEYMGPTRLKDVEEAQQKVVSIIRHLEDSGDIVIA</Hsp_qseq>
+      <Hsp_hseq>ALSKAQKAAVLLLSLPEEVSMNIVKELSEEELQKL-FALAKDLESVPEEEIENIAEELLDEIKKAGIKIKKPEEFIE--NIKKVIPPTLAEKFRGILE--LGDAEKI--------------LKEIEKVDSRILASLLKNEHPQTIALFLSQLSPKKSAEIIQNLPEELKKEVVKRIATLENVNVQYVKELAQILLEEISSLGAKEALKLEGTAVAAELLNTLDKETRELILQSIGQEDPLLEERIREKMFTFEDIRKLSDRDIIEILKVVDKNTLMIALLGAPEDIKQKFLSNMSKRAAKLFLEDMEALGPVKKSEIEKAQRQVVNIIRKMIDEGKIEIG</Hsp_hseq>
+      <Hsp_midline>+L+  QKAA+ L+S+ EE+S  ++ EL E+E++KL F +A+  ESV  E  + +                  EEF E    +  I     +  RG+LE  LG  + I                 I + D   L + ++ EHPQTIAL L+ L P K++ I+QNLP+E++ +V +RIAT++  +   ++E+ ++L +++S+L +++     G     ++LN +D+ + + I++++  EDP L E I+++MF FEDI  L DR I ++L+ V+   L  AL     +++ K   NMSKRA  +  E+ME +GP +  ++E+AQ++VV+IIR + D G I I </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|462110|sp|Q04955.1|FLIG_CAUCR</Hit_id>
+  <Hit_def>RecName: Full=Flagellar motor switch protein FliG</Hit_def>
+  <Hit_accession>Q04955</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.221</Hsp_bit-score>
+      <Hsp_score>391</Hsp_score>
+      <Hsp_evalue>4.11546e-42</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>352</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>339</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>DIKSLNGRQKAAIFLVSIGEEISAKVMGELKEDEIEKLVFEIARTESVDAELKDAVLEEFQELMTAQNFITSGGIDYARGLLEKSLGSQKAIEIINRLTSSLQVRPFDFIRRTDPTHLLNFIQQEHPQTIALILAYLEPNKASVILQNLPDEIQSDVARRIATMDRTSPDVLREVERVLE----KKLSTLSSEDYTAAGGVQNIVDILNLVDRSSEKSIVEALEDEDPDLAEEIKKRMFVFEDIVMLDDRAIQKVLREVNMEELAKALKVVDTEVQDKIFRNMSKRAGSMLKEEMEYMGPTRLKDVEEAQQKVVSIIRHLEDSGDIVIARSEEDEMIV</Hsp_qseq>
+      <Hsp_hseq>DVKNLSGPEKAAIVLLALGED-HTRIWEALDDEEIKEVSQAMAGLGTVSASVVEDLLVEFVSGMSSTGAIM-GSYEQTQRLLASFMPQDKVDALMEEIRGPAGRTMWDKLGNVNEAVLANYLKNEYPQTVAVVLSKVKSDHAARVLACLPEDFALECVTRMLRMEPVQREILDKIEMTLRTEFMSNLARTSKRDSH-----EMMAEIFNNFDRQTEARFIAALEERNREAAERIRALMFVFEDLSKLDPGGIQTLLRGTPKEQLALALKGASDKLRDLFFSNMSERAAKIMREDMDSMGPVRLKDVDAAQVGMVQVAKDLAAKGEIMLAGSGADDELI</Hsp_hseq>
+      <Hsp_midline>D+K+L+G +KAAI L+++GE+   ++   L ++EI+++   +A   +V A + + +L EF   M++   I  G  +  + LL   +   K   ++  +        +D +   +   L N+++ E+PQT+A++L+ ++ + A+ +L  LP++   +   R+  M+    ++L ++E  L       L+  S  D       + + +I N  DR +E   + ALE+ + + AE I+  MFVFED+  LD   IQ +LR    E+LA ALK    +++D  F NMS+RA  +++E+M+ MGP RLKDV+ AQ  +V + + L   G+I++A S  D+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|25008476|sp|Q8KA44.1|FLIG_BUCAP</Hit_id>
+  <Hit_def>RecName: Full=Flagellar motor switch protein FliG</Hit_def>
+  <Hit_accession>Q8KA44</Hit_accession>
+  <Hit_len>331</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>121.709</Hsp_bit-score>
+      <Hsp_score>304</Hsp_score>
+      <Hsp_evalue>4.25881e-30</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>338</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>319</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>176</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>322</Hsp_align-len>
+      <Hsp_qseq>SLNGRQKAAIFLVSIGEEISAKVMGELKEDEIEKLVFEIARTESVDAELKDAVLEEFQELMTAQN-FITSGGIDYARGLLEKSLGSQKAIEIINRLTSSLQVR-PFDFIRRTDPTHLLNFIQQEHPQTIALILAYLEPNKASVILQNLPDEIQSDVARRIATMDRTSPDVLREVERVLEKKLSTLSSEDYTAAGGVQNIVDILNLVDRSSEKSIVEALEDEDPDLAEEIKKRMFVFEDIVMLDDRAIQKVLREVNMEELAKALKVVDTEVQDKIFRNMSKRAGSMLK---EEMEYMGPTRLKDVEEAQQKVVSIIRHLEDSG</Hsp_qseq>
+      <Hsp_hseq>TLNGTEKSAILLMSIGADQASEVLKHLTPFEVQELVASMVNINQFSNTILNTVLSECYDLFSKKNNLICNNDENYISDVLTKTLGEKQGRILLNEVLETRNVKMCIETFNHMDPEKFISLLDQEHPQILTTILMYLDKRQSSKVLSRLSEKKCTEIVLRMAEFNCIKESNLIDLKKIIENLLKR-KKLIFSEKNGIKTVAEILNSMKIEDEQNILKKINVLNKNLTRKIIKEMFLFDNIVNIEDKYIQCLISNLEKEKLCIALQGTSEVIRNKFFKNMNEEEANKLSIYLEEKSYISDIAIKN---EQKLILIMLKNILDNG</Hsp_hseq>
+      <Hsp_midline>+LNG +K+AI L+SIG + +++V+  L   E+++LV  +         + + VL E  +L + +N  I +   +Y   +L K+LG ++   ++N +  +  V+   +     DP   ++ + QEHPQ +  IL YL+  ++S +L  L ++  +++  R+A  +      L ++++++E  L       ++   G++ + +ILN +    E++I++ +   + +L  +I K MF+F++IV ++D+ IQ ++  +  E+L  AL+     +++K F+NM++   + L    EE  Y+    +K+    Q+ ++ +++++ D+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|11386783|sp|P57176.1|FLIG_BUCAI</Hit_id>
+  <Hit_def>RecName: Full=Flagellar motor switch protein FliG</Hit_def>
+  <Hit_accession>P57176</Hit_accession>
+  <Hit_len>331</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>106.686</Hsp_bit-score>
+      <Hsp_score>265</Hsp_score>
+      <Hsp_evalue>7.62721e-25</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>320</Hsp_align-len>
+      <Hsp_qseq>LNGRQKAAIFLVSIGEEISAKVMGELKEDEIEKLVFEIARTESVDAELKDAVLEEFQELMTAQNFITSGGID-YARGLLEKSLGSQK-------AIEIINRLTSSLQVRPFDFIRRTDPTHLLNFIQQEHPQTIALILAYLEPNKASVILQNLPDEIQSDVARRIATMDRTSPDVLREVERVLEKKLSTLSSEDYTAAGGVQNIVDILNLVDRSSEKSIVEALEDEDPDLAEEIKKRMFVFEDIVMLDDRAIQKVLREVNMEELAKALKVVDTEVQDKIFRNMSKRAGSMLKEEME---YMGPTRLKDVEEAQQKVVSII</Hsp_qseq>
+      <Hsp_hseq>VNGTEKSALLLMAIGSDQAGEILKHLTPFEVQELITAMVNIKRVSAQKLNEILLQCYNLAIKNNAFNCNNSDKYLIKMLTKALGEKKGTSLLKEALEIRN---ARICIKALNYMKAKQVAFLLD---KEHPQIITTILICLNKNQSAEVLSFLSDKKRAEIILRIVDFHGIEESSLVELTQVINNLLKN-KKLILSEKGGIKTAAQILNSMKIKHEKEIIENISKSNEQLADKIIKEIFLFENLVDLDDKYIKILLENIEKEKLHIALQNTSQAIREKFFKNMSHTESNELTLNLEKKSYISDISIKN----EQKLILIM</Hsp_hseq>
+      <Hsp_midline>+NG +K+A+ L++IG + + +++  L   E+++L+  +   + V A+  + +L +   L    N       D Y   +L K+LG +K       A+EI N   + + ++  ++++      LL+   +EHPQ I  IL  L  N+++ +L  L D+ ++++  RI          L E+ +V+   L        +  GG++    ILN +    EK I+E +   +  LA++I K +F+FE++V LDD+ I+ +L  +  E+L  AL+     +++K F+NMS    + L   +E   Y+    +K+    +QK++ I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|38257544|sp|Q89AZ9.1|FLIG_BUCBP</Hit_id>
+  <Hit_def>RecName: Full=Flagellar motor switch protein FliG</Hit_def>
+  <Hit_accession>Q89AZ9</Hit_accession>
+  <Hit_len>320</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.523</Hsp_bit-score>
+      <Hsp_score>249</Hsp_score>
+      <Hsp_evalue>6.9562e-23</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>299</Hsp_align-len>
+      <Hsp_qseq>SLNGRQKAAIFLVSIGEEISAKVMGELKEDEIEKLVFEIARTESVDAELKDAVLEEFQE---LMTAQN--FITSGGIDYARGLLEKSLGSQKAIEIINRLTS----SLQVRPFDFIRRTDPTHLLNFIQQEHPQTIALILAYLEPNKASVILQNLPDEIQSDVARRIATMDRTSP----DVLREVERVLEKKLSTLSSEDYTAAGGVQNIVDILNLVDRSSEKSIVEALEDEDPDLAEEIKKRMFVFEDIVMLDDRAIQKVLREVNMEELAKALKVVDTEVQDKIFRNMSKRAGSMLKE</Hsp_qseq>
+      <Hsp_hseq>NLNGEQKSAVLLALVGIDKAIEILKELSIQEIENIAKCMSYMDVISSITADLVLSEFCNEVRINKDQNISFINN---NFIISLLKKVLGEHHAVLLLDKFKNQKNISDNIKKLNLI---NPEKIVSLIKGEHPQIIATILIYLNRNHAANILSYFEDNLSLDIIRRIANFSSLKKLGQEEFVKIIDNLINKYQNSMLNQQ-----GIVTAVELLKLIKRDQETKILTKMFSSDKVLAKRIKTKMLEFSDIINLDDVYIRRLIKVFPLYELSEIMKVEKEEFKKKFYKNMSLENTNLIKN</Hsp_hseq>
+      <Hsp_midline>+LNG QK+A+ L  +G + + +++ EL   EIE +   ++  + + +   D VL EF     +   QN  FI +   ++   LL+K LG   A+ ++++  +    S  ++  + I   +P  +++ I+ EHPQ IA IL YL  N A+ IL    D +  D+ RRIA           + ++ ++ ++ K  +++ ++      G+   V++L L+ R  E  I+  +   D  LA+ IK +M  F DI+ LDD  I+++++   + EL++ +KV   E + K ++NMS    +++K </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|20141430|sp|Q44458.2|FLIG_AGRFC</Hit_id>
+  <Hit_def>RecName: Full=Flagellar motor switch protein FliG</Hit_def>
+  <Hit_accession>Q44458</Hit_accession>
+  <Hit_len>347</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.5969</Hsp_bit-score>
+      <Hsp_score>244</Hsp_score>
+      <Hsp_evalue>3.85682e-22</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>340</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>326</Hsp_align-len>
+      <Hsp_qseq>KSLNGRQKAAIFLVSIGEEISAKVMGELKEDEIEKLVFEIARTESVDAELKDAVLEEFQELMTAQNFITSGGIDYARGL---LEKSLGSQKAIEIINRLTS--SLQVRPFDFIRRTDPTHLLNFIQQEHPQTIALILAYLEPNKASVILQNLPDEIQSDVARRIATMDRTSPDVLREVERVLEKKLSTLSSEDYTAAGGVQNIVDILNLVDRSSEKSIVEALEDEDPDLAEEIKKRMFVFEDIVMLDDRAIQKVLREVNMEELAKALKVVDTEVQDKIFRNMSKRAGSMLKEEMEY-MGPTRLKDVEEAQQKVVSIIRHLEDSGDI</Hsp_qseq>
+      <Hsp_hseq>KPLSQADKAAAVLLAMGKGVAGKLLKFFTQHELQMIISSAQTLRVIPPDELAQIVAEFEDLFTE----GTGLMDNAKAIESILEEGLTPEEVDSLLGRRAAFQAYEASIWDRLQEAEPEFVGKFLLREHPQTIAYILSMLPSSFGAKVLLTIPEEQRADIMNRTVNMKEVSPTAAQIIEKRVVNLINEIEAERN--AGGSTKVADLMNELDKPQVDTLLSSLETLSKEAANKVKPKIFLFDDLMFMPQRSRVLLLNDVSADVLTMALRGATVEIKECVLSSISPRQRRMIESDLAVPQASLNTREVAIARRAVAQEAIRLANSGQI</Hsp_hseq>
+      <Hsp_midline>K L+   KAA  L+++G+ ++ K++    + E++ ++        +  +    ++ EF++L T      +G +D A+ +   LE+ L  ++   ++ R  +  + +   +D ++  +P  +  F+ +EHPQTIA IL+ L  +  + +L  +P+E ++D+  R   M   SP   + +E+ +   ++ + +E    AGG   + D++N +D+    +++ +LE    + A ++K ++F+F+D++ +  R+   +L +V+ + L  AL+    E+++ +  ++S R   M++ ++         ++V  A++ V      L +SG I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|7387673|sp|P95715.1|FLIG_SHIBO</Hit_id>
+  <Hit_def>RecName: Full=Flagellar motor switch protein FliG, partial [Shigella boydii]</Hit_def>
+  <Hit_accession>P95715</Hit_accession>
+  <Hit_len>242</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.2781</Hsp_bit-score>
+      <Hsp_score>225</Hsp_score>
+      <Hsp_evalue>3.62146e-20</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>251</Hsp_align-len>
+      <Hsp_qseq>IKSLNGRQKAAIFLVSIGEEISAKVMGELKEDEIEKLVFEIAR-TESVDAELKDAVLEEFQELMTAQNF--ITSGGIDYARGLLEKSLGSQKAIEII-----NRLTSSLQVRPFDFIRRTDPTHLLNFIQQEHPQTIALILAYLEPNKASVILQNLPDEIQSDVARRIATMDRTSPDVLREVERVLEKKLSTLSSEDYTAAGGVQNIVDILNLVDRSSEKSIVEALEDEDPDLAEEIKKRMFVFEDIVMLD</Hsp_qseq>
+      <Hsp_hseq>MSNLTGTDKSVILLMTIGEDRAAEVFKHLSQREVQTLSAAMANVTQISNKQLTD-VLAEFEQ--EAEQFAALNINANDYLRSVLVKALGEERAASLLEDILETRDTAS-GIETLNFM---EPQSAADLIRDEHPQIIATILVHLKRAQAADILALFDERLRHDVMF-VSHLWRRAASALAELTEVLNGLLDG-QNLKRSKMGGVRTAAEIINLMKTQQEEAVITAVREFDGELAQKIIDEMFLFENLVDVD</Hsp_hseq>
+      <Hsp_midline>+ +L G  K+ I L++IGE+ +A+V   L + E++ L   +A  T+  + +L D VL EF++   A+ F  +     DY R +L K+LG ++A  ++      R T+S  +   +F+   +P    + I+ EHPQ IA IL +L+  +A+ IL    + ++ DV   ++ + R +   L E+  VL   L    +   +  GGV+   +I+NL+    E++++ A+ + D +LA++I   MF+FE++V +D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|17380370|sp|O54244.2|FLIG_RHIME</Hit_id>
+  <Hit_def>RecName: Full=Flagellar motor switch protein FliG</Hit_def>
+  <Hit_accession>O54244</Hit_accession>
+  <Hit_len>345</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.7962</Hsp_bit-score>
+      <Hsp_score>190</Hsp_score>
+      <Hsp_evalue>9.03775e-15</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>309</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>303</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>294</Hsp_align-len>
+      <Hsp_qseq>KSLNGRQKAAIFLVSIGEEISAKVMGELKEDEIEKLVFEIARTESVDAELKDAVLEEFQELMTAQNFITSGGIDYARGL---LEKSLGSQKAIEIINRLTS--SLQVRPFDFIRRTDPTHLLNFIQQEHPQTIALILAYLEPNKASVILQNLPDEIQSDVARRIATMDRTSPDVLREVERVLEKKLSTLSSEDYTAAGGVQNIVDILNLVDRSSEKSIVEALEDEDPDLAEEIKKRMFVFEDIVMLDDRAIQKVLREVNMEELAKALKVVDTEVQDKIFRNMSKRAGSMLKEEM</Hsp_qseq>
+      <Hsp_hseq>QPLSQTEKAAAVLLAMGKSIAGKLLKFFTQSELQAIIAAAQSLRAVPPHELEALVNEFEDLFTE----GAGLMDNAKAMESILEEGLTPDEVDGLLGRRATFQSYEASIWDRLMDCDPVIIAQLLAREHPQTIAYVLSMMPSSFGAKVLLQLSDKQRPEILNRAVNIKNVNPKAAAIIEARVIEIIEEMEADRNSP--GPAKIAEVMNELEKPQVDTLLASLETISTDSVKKVRPKIFLFDDILFMPQRSRVQLFNDVSTDVITMALRGSAAELRESILASIGARQRRMIESDL</Hsp_hseq>
+      <Hsp_midline>+ L+  +KAA  L+++G+ I+ K++    + E++ ++       +V     +A++ EF++L T      +G +D A+ +   LE+ L   +   ++ R  +  S +   +D +   DP  +   + +EHPQTIA +L+ +  +  + +L  L D+ + ++  R   +   +P     +E  + + +  + ++  +   G   I +++N +++    +++ +LE    D  ++++ ++F+F+DI+ +  R+  ++  +V+ + +  AL+    E+++ I  ++  R   M++ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|223635742|sp|Q9LVD3.2|PP434_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Pentatricopeptide repeat-containing protein At5g57250, mitochondrial; Flags: Precursor</Hit_def>
+  <Hit_accession>Q9LVD3</Hit_accession>
+  <Hit_len>971</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.984034</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>798</Hsp_hit-from>
+      <Hsp_hit-to>882</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>ISAKVMGELKEDEIEKLVFEIARTESVDAELKDAVLEE--FQELMTAQNFITSGGIDYARGLLEKSLGSQKAIEIINRLTSSL----QVRPF</Hsp_qseq>
+      <Hsp_hseq>VSSMIKGYCKKGDMEEAL-------SVFTEFKDKNISADFFGFLFLIKGFCTKGRMEEARGLLREMLVSESVVKLINRVDAELAESESIRGF</Hsp_hseq>
+      <Hsp_midline>+S+ + G  K+ ++E+ +       SV  E KD  +    F  L   + F T G ++ ARGLL + L S+  +++INR+ + L     +R F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|166223303|sp|A5GN16.1|SYS_SYNPW</Hit_id>
+  <Hit_def>RecName: Full=Serine--tRNA ligase; AltName: Full=Seryl-tRNA synthetase; Short=SerRS; AltName: Full=Seryl-tRNA(Ser/Sec) synthetase</Hit_def>
+  <Hit_accession>A5GN16</Hit_accession>
+  <Hit_len>425</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>5.9731</Hsp_evalue>
+      <Hsp_query-from>168</Hsp_query-from>
+      <Hsp_query-to>258</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>PDEIQSDVARRIATMDRTSPDVLREVERVLEKKLSTLSSEDYTA---------AGGVQNIVDILNLVDRSSE-KSIVEALEDEDPDLAEEIKKRMFVFEDI</Hsp_qseq>
+      <Hsp_hseq>PELMARELARRGLTVDLNSLQALAQQQRDLEEQRSSLQAEGNRVGKEVGLKIKAGADPKGSDVAELRQQGNAIKQKVAVLEDEERQLAAELKTQLLTFPNL</Hsp_hseq>
+      <Hsp_midline>P+ +  ++ARR  T+D  S   L + +R LE++ S+L +E             AG      D+  L  + +  K  V  LEDE+  LA E+K ++  F ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|167011540|sp|A6VJ52.1|HIS4_METM7</Hit_id>
+  <Hit_def>RecName: Full=1-(5-phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino] imidazole-4-carboxamide isomerase; AltName: Full=Phosphoribosylformimino-5-aminoimidazole carboxamide ribotide isomerase</Hit_def>
+  <Hit_accession>A6VJ52</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>9.33625</Hsp_evalue>
+      <Hsp_query-from>212</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGVQNIVDILNLVDRSSEKSIVEALEDEDPDLAEEIKKRMFVFEDIVMLDDRAIQKVLR</Hsp_qseq>
+      <Hsp_hseq>GGGIRSIEDAVYLIEKGAEKVIIGTVAVENPEIIRELSKKIGSEKIMVSLDAKDGKVVIK</Hsp_hseq>
+      <Hsp_midline> GG+++I D + L+++ +EK I+  +  E+P++  E+ K++   + +V LD +  + V++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>462628</Statistics_db-num>
+      <Statistics_db-len>173435234</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

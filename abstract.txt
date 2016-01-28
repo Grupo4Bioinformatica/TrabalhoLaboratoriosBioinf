@@ -1,0 +1,14 @@
+A bactéria	Treponema	pallidum pallidum	é	uma	bactéria gram-negativa,	do	grupo	
+das	 espiroquetas	 (filo	 Spirochaetes).	 A	 bactéria	 é	 um	 organismo	 patogénico,	
+causador	 da	 sífilis,	 uma	 doença	 sexualmente	 transmissível que,	 apesar	 dos	
+esforços	 para	 a	 sua	 eliminação	 tem-se	 mantido	 endémica	 em	 alguns	 locais	 e	
+ressurgido	 mesmo	 em	 alguns	 países	 desenvolvidos,	 sendo	 ainda	 reportados	
+casos	 de	 resistência	 a	 alguns	 antibióticos	 usados	 no	 seu	 tratamento.	 Dada	 a	
+importância	 desta	 doença	 e	 o	 facto	 de	 não	 existir	 até	 ao	 momento	 qualquer	
+vacina	disponível,	este	organismo	ganha	importância	redobrada	na	investigação	
+atual,	sendo	alvo	de	diversos	estudos.
+O	objetivo	deste	 trabalho	passa	pela	utilização	das	 ferramentas	bioinformáticas	
+estudadas	na	unidade	curricular de	Laboratórios	de	Bioinformática na	análise	do	
+genoma	 desta	 bactéria,	 usando	 a	 sequenciação	 da	 estirpe	 Treponema	 pallidum	
+subsp.	 pallidum	 str.	 Nichols,	 que	 contém	 aproximadamente	 1000 genes,	 num	
+genoma	circular	com	cerca	de 1,1	milhões	de	bases.
